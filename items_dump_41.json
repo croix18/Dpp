@@ -1,0 +1,4138 @@
+[
+ {
+  "code": "MA.7.DP.2.1",
+  "hr": false,
+  "gen": 5,
+  "rt": "mc",
+  "q": "Each letter of the word DIFFERENCE is written on its own card, one card for each letter, and the cards are placed in a jar. One card is drawn at random and its letter is recorded.\n\nHow many outcomes are in the sample space for this experiment?",
+  "a": "B. 7",
+  "opts": [
+   "8",
+   "7",
+   "10",
+   "6"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.1",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "A set of cards shows these colored shapes, one on each card: red circle, yellow star, yellow triangle, yellow triangle, yellow star, yellow triangle. One card is drawn at random, and the colored shape on it is recorded.\n\nList the sample space for this experiment.",
+  "a": "{red circle, yellow star, yellow triangle}",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.1",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "Experiment 1: A spinner has 5 equal sections colored red, green, orange, purple and red. It is spun once and the color it lands on is recorded.\nExperiment 2: A bag holds 1 orange, 3 green and 2 red marbles. One marble is drawn at random and its color is recorded.\n\nWhich statement about the sample spaces of the two experiments is true?",
+  "a": "A. The sample space for the spinner has one outcome that the sample space for the bag does not have.",
+  "opts": [
+   "The sample space for the spinner has one outcome that the sample space for the bag does not have.",
+   "The sample space for the spinner has 5 outcomes, and the sample space for the bag has 6 outcomes.",
+   "The two experiments have the same sample space, {orange, green, red, purple}.",
+   "The sample space for the bag has one outcome that the sample space for the spinner does not have."
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.1",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "A fair 8-sided die has these numbers on its faces: 5, 5, 1, 8, 9, 8, 9, 5. The die is rolled once and the number on the top face is recorded.\n\nList the sample space for this experiment.",
+  "a": "{1, 5, 8, 9}",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.1",
+  "hr": true,
+  "gen": 1,
+  "rt": "ms",
+  "q": "In each experiment below, the color is recorded.\n\nSelect all the experiments whose sample space is {purple, green, blue}.",
+  "a": "B. Spinning a spinner whose 6 equal sections are green, blue, purple, green, purple, blue; C. Drawing a marble from a bag that holds 3 purple, 5 green and 4 blue marbles",
+  "opts": [
+   "Rolling a fair 6-sided die whose faces are blue, yellow, green, purple, green, purple",
+   "Spinning a spinner whose 6 equal sections are green, blue, purple, green, purple, blue",
+   "Drawing a marble from a bag that holds 3 purple, 5 green and 4 blue marbles",
+   "Spinning a spinner whose 4 equal sections are green, purple, green, purple",
+   "Drawing a marble from a bag that holds 3 purple, 5 green, 4 blue and 4 yellow marbles"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.1",
+  "hr": false,
+  "gen": 5,
+  "rt": "mc",
+  "q": "Each letter of the word DEGREE is written on its own card, one card for each letter, and the cards are placed in a hat. One card is drawn at random and its letter is recorded.\n\nHow many outcomes are in the sample space for this experiment?",
+  "a": "B. 4",
+  "opts": [
+   "6",
+   "4",
+   "5",
+   "3"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.1",
+  "hr": false,
+  "gen": 4,
+  "rt": "etc",
+  "q": "A spinner has 6 equal sections: 1 is blue, 1 is red, 1 is purple and 3 are green. The spinner is spun once and the color it lands on is recorded.\n\nThe sample space for this experiment is ____.",
+  "a": "A. {blue, red, purple, green}",
+  "opts": [
+   "{blue, red, purple, green}",
+   "{blue, red, purple}",
+   "{1, 1, 1, 3}",
+   "{1, 2, 3, 4, 5, 6}"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.1",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "The tiles in a bag are numbered 8, 1, 1, 8, 2, 8, 2. One tile is drawn at random and its number is recorded.\n\nList the sample space for this experiment.",
+  "a": "{1, 2, 8}",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.1",
+  "hr": false,
+  "gen": 5,
+  "rt": "mc",
+  "q": "Each letter of the word ADDITION is written on its own card, one card for each letter, and the cards are placed in a jar. One card is drawn at random and its letter is recorded.\n\nHow many outcomes are in the sample space for this experiment?",
+  "a": "B. 6",
+  "opts": [
+   "8",
+   "6",
+   "5",
+   "7"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.1",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "A fair 6-sided die has these numbers on its faces: 6, 9, 9, 9, 9, 1. The die is rolled once and the number on the top face is recorded.\n\nList the sample space for this experiment.",
+  "a": "{1, 6, 9}",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.1.2",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "Write the repeating decimal as a fraction in simplest form.\n\n0.4̅6̅",
+  "a": "46/99",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.1.2",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "Write the fraction as a repeating decimal.\n\n13/33",
+  "a": "0.3̅9̅",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.1.2",
+  "hr": false,
+  "gen": 5,
+  "rt": "etc",
+  "q": "Two identical bottles of sports drink are partly full. The first bottle is 10/11 full and the second bottle is 95% full.\n\nThe first bottle holds ____ the second bottle.",
+  "a": "D. less than",
+  "opts": [
+   "exactly twice as much as",
+   "the same amount as",
+   "more than",
+   "less than"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.1.2",
+  "hr": false,
+  "gen": 3,
+  "rt": "",
+  "q": "Write the fraction as an exact percent.\n\n7/11",
+  "a": "63 7/11% (or 63.6̅3̅%)",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.1.2",
+  "hr": true,
+  "gen": 0,
+  "rt": "",
+  "q": "Maya uses a calculator to find 190/33. The calculator shows 5.757575758. Maya says that 190/33 = 5.757575758.\n\nIs Maya correct? Explain, and write the exact value of 190/33 as a repeating decimal.",
+  "a": "No. The calculator rounded a repeating decimal, so 5.757575758 is not exact; 190/33 = 5.7̅5̅. Score: 1 point for \"No\" with the rounding reason and the exact value 5.7̅5̅ (or an equivalent repeating form); \"No\" alone earns 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.1.2",
+  "hr": false,
+  "gen": 5,
+  "rt": "etc",
+  "q": "Two identical bottles of sports drink are partly full. The first bottle is 4/11 full and the second bottle is 30% full.\n\nThe first bottle holds ____ the second bottle.",
+  "a": "B. more than",
+  "opts": [
+   "the same amount as",
+   "more than",
+   "exactly twice as much as",
+   "less than"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.1.2",
+  "hr": false,
+  "gen": 4,
+  "rt": "ms",
+  "q": "Select all the values that are equal to the quotient 8 ÷ 99.",
+  "a": "A. 0.0̅8̅; C. 16/198",
+  "opts": [
+   "0.0̅8̅",
+   "0.8̅",
+   "16/198",
+   "0.0808",
+   "99/8"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.1.2",
+  "hr": false,
+  "gen": 3,
+  "rt": "",
+  "q": "Write the fraction as an exact percent.\n\n7/9",
+  "a": "77 7/9% (or 77.7̅%)",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.1.2",
+  "hr": false,
+  "gen": 5,
+  "rt": "etc",
+  "q": "Two identical bottles of sports drink are partly full. The first bottle is 2/15 full and the second bottle is 15% full.\n\nThe first bottle holds ____ the second bottle.",
+  "a": "A. less than",
+  "opts": [
+   "less than",
+   "more than",
+   "the same amount as",
+   "exactly twice as much as"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.1.2",
+  "hr": false,
+  "gen": 4,
+  "rt": "ms",
+  "q": "Select all the values that are equivalent to 1 ÷ 33.",
+  "a": "B. 3/99; C. 0.0̅3̅",
+  "opts": [
+   "33/1",
+   "3/99",
+   "0.0̅3̅",
+   "0.0303",
+   "0.3̅"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.2",
+  "hr": false,
+  "gen": 2,
+  "rt": "mc",
+  "q": "The probability of rain tomorrow is reported as 75%.\n\nIs this event likely or unlikely? Explain using the probability.",
+  "a": "A. Likely, because 75% is greater than 50% and closer to 1 than to 0.",
+  "opts": [
+   "Likely, because 75% is greater than 50% and closer to 1 than to 0.",
+   "Unlikely, because 75% is less than 100%, so the event might not happen.",
+   "Certain, because 75% is so close to 100% that it must happen.",
+   "As likely as not, because 75% is a percentage and not a fraction."
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.2",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "Which value cannot be the probability of an event?",
+  "a": "B. 110%",
+  "opts": [
+   "0",
+   "110%",
+   "7/8",
+   "1"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.2",
+  "hr": false,
+  "gen": 1,
+  "rt": "mc",
+  "q": "The probability that Mia makes her next free throw is 5/8. The probability that Jon makes his next free throw is 1/4.\n\nWhich event is more likely?",
+  "a": "B. Mia makes her next free throw",
+  "opts": [
+   "There is not enough information.",
+   "Mia makes her next free throw",
+   "Jon makes his next free throw",
+   "They are equally likely."
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.2",
+  "hr": false,
+  "gen": 4,
+  "rt": "match",
+  "q": "A probability is given for each event.\n\nDescribe each event as likely, unlikely or neither.",
+  "a": "The probability that it snows in Orlando, Florida, this winter is 2%. → Unlikely; The probability that a spinner with two equal sections, one red and one blue, lands on red is 1/2. → Neither likely nor unlikely; The probability that a hurricane passes within 100 miles of the city in the next two days is 0.6. → Likely",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.2",
+  "hr": true,
+  "gen": 2,
+  "rt": "",
+  "q": "A fair 10-sided die has faces numbered 1 through 10. The probability that it rains tomorrow is 0.2.\n\nWhich is more likely: that the die shows a number greater than 3, or that it rains tomorrow? Write both probabilities in the same form to justify your answer, and find the difference between the two probabilities.",
+  "a": "The die shows a number greater than 3; 7/10 = 0.7 and 0.2, so 0.7 > 0.2, by 0.5 (1/2 or 50% also accepted). Score: 1 point — the more likely event with both probabilities in one form and the difference; the event alone earns 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.2",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "Which value cannot be the probability of an event?",
+  "a": "A. 140%",
+  "opts": [
+   "140%",
+   "1",
+   "5/8",
+   "10%"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.2",
+  "hr": false,
+  "gen": 0,
+  "rt": "mc",
+  "q": "The probability that the seed sprouts this week is 0.875. The probability that the Tigers win their next game is 7/10.\n\nWhich event is more likely?",
+  "a": "B. The seed sprouts this week",
+  "opts": [
+   "The forms cannot be compared.",
+   "The seed sprouts this week",
+   "The Tigers win their next game",
+   "They are equally likely."
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.2",
+  "hr": false,
+  "gen": 4,
+  "rt": "match",
+  "q": "A probability is given for each event.\n\nDescribe each event as likely, unlikely or neither.",
+  "a": "The probability that a hurricane passes within 100 miles of the city in the next two days is 0.65. → Likely; The probability that a spinner with two equal sections, one red and one blue, lands on red is 50%. → Neither likely nor unlikely; The probability that a thunderstorm is within 5 miles of your house tomorrow is 3/10. → Unlikely",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.2",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "Which value cannot be the probability of an event?",
+  "a": "D. 6/5",
+  "opts": [
+   "0",
+   "3/8",
+   "0.8",
+   "6/5"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.2",
+  "hr": false,
+  "gen": 2,
+  "rt": "mc",
+  "q": "The probability of a bus arriving on time is reported as 85%.\n\nIs this event likely or unlikely? Explain using the probability.",
+  "a": "B. Likely, because 85% is greater than 50% and closer to 1 than to 0.",
+  "opts": [
+   "Unlikely, because 85% is less than 100%, so the event might not happen.",
+   "Likely, because 85% is greater than 50% and closer to 1 than to 0.",
+   "As likely as not, because 85% is a percentage and not a fraction.",
+   "Certain, because 85% is so close to 100% that it must happen."
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.3",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "A fair 20-sided die has faces numbered 1 through 20. The die is rolled once.\n\nWhat is the probability of rolling a number greater than 15? Write your answer as a fraction in simplest form.",
+  "a": "1/4",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.3",
+  "hr": false,
+  "gen": 5,
+  "rt": "",
+  "q": "A fair spinner has 25 equal sections. 6 sections are green. The spinner is spun once.\n\nWhat is the probability that the spinner lands on green? Write your answer as a decimal.",
+  "a": "0.24",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.3",
+  "hr": false,
+  "gen": 0,
+  "rt": "mc",
+  "q": "A bag holds 12 marbles, and 3 of them are red. One marble is drawn at random.\n\nWhat is the probability of drawing a red marble?",
+  "a": "B. 1/4",
+  "opts": [
+   "3/11",
+   "1/4",
+   "3/4",
+   "1/6"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.3",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "Letter cards for the word MEASUREMENT are placed in a bag, one card for each letter. One card is drawn at random.\n\nWhat is the probability that the card shows the letter M? Write your answer as a fraction in simplest form.",
+  "a": "2/11",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.3",
+  "hr": true,
+  "gen": 3,
+  "rt": "",
+  "q": "A standard deck has 52 cards: 13 cards (ace, 2 through 10, jack, queen and king) in each of four suits — hearts and diamonds, which are red, and clubs and spades, which are black. One card is drawn at random.\n\nWhat is the probability of drawing a card that is not a black king? Write your answer as a fraction in simplest form.",
+  "a": "25/26",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.3",
+  "hr": false,
+  "gen": 5,
+  "rt": "",
+  "q": "A fair spinner has 4 equal sections. 3 sections are yellow. The spinner is spun once.\n\nWhat is the probability that the spinner lands on yellow? Write your answer as a percent.",
+  "a": "75%",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.3",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "A fair 8-sided die has faces numbered 1 through 8. The die is rolled once.\n\nWhat is the probability of rolling a number greater than 5? Write your answer as a fraction in simplest form.",
+  "a": "3/8",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.3",
+  "hr": false,
+  "gen": 0,
+  "rt": "mc",
+  "q": "A bag holds 18 marbles, and 4 of them are red. One marble is drawn at random.\n\nWhat is the probability of drawing a red marble?",
+  "a": "B. 2/9",
+  "opts": [
+   "4/17",
+   "2/9",
+   "7/9",
+   "1/6"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.3",
+  "hr": false,
+  "gen": 0,
+  "rt": "mc",
+  "q": "A bag holds 12 marbles, and 2 of them are red. One marble is drawn at random.\n\nWhat is the probability of drawing a red marble?",
+  "a": "B. 1/6",
+  "opts": [
+   "5/6",
+   "1/6",
+   "2/11",
+   "1/12"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.3",
+  "hr": false,
+  "gen": 5,
+  "rt": "",
+  "q": "A fair spinner has 8 equal sections. 6 sections are orange. The spinner is spun once.\n\nWhat is the probability that the spinner lands on orange? Write your answer as a decimal.",
+  "a": "0.75",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.4",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "A fair 12-sided die is rolled 300 times. It lands on a 9 exactly 24 times.\n\nPart A. What is the experimental probability of rolling a 9? Write it as a fraction in simplest form.\nPart B. What is the theoretical probability of rolling a 9? Write it as a fraction in simplest form.\nPart C. Is the experimental probability greater than or less than the theoretical probability?",
+  "a": "Experimental: 2/25; theoretical: 1/12. The experimental probability is slightly less than the theoretical probability. Score: 1 point for all three parts; the comparison alone earns 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.4",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A fair coin is tossed 400 times and lands on heads 204 times.\n\nWhat is the experimental probability of landing on heads? Write your answer as a decimal.",
+  "a": "0.51",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.4",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "Two students each simulate rolling a fair die. One runs 5,900 trials and the other runs 370 trials.\n\nWhose experimental probability is expected to be closer to the theoretical probability?",
+  "a": "A. The 5,900-trial student, because more trials usually bring the result closer to the theory.",
+  "opts": [
+   "The 5,900-trial student, because more trials usually bring the result closer to the theory.",
+   "Both students equally, because a fair experiment gives the same result for any number of trials.",
+   "The 370-trial student, because fewer trials leave fewer chances for a result to go wrong.",
+   "Neither student, because an experimental result never comes close to the theoretical one."
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.4",
+  "hr": false,
+  "gen": 2,
+  "rt": "mc",
+  "q": "A spinner has 10 equal sections, and 8 of them are red. In a simulation the spinner is spun 400 times and lands on red 311 times.\n\nWhich statement correctly compares the experimental and theoretical probabilities of landing on red?",
+  "a": "A. The experimental probability, 311/400, is a little less than the theoretical probability, 4/5.",
+  "opts": [
+   "The experimental probability, 311/400, is a little less than the theoretical probability, 4/5.",
+   "The theoretical probability is 311/400, because that is what actually happened.",
+   "The experimental probability, 311/400, is a little greater than the theoretical probability, 4/5.",
+   "The two probabilities must be equal because the spinner is fair."
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.4",
+  "hr": true,
+  "gen": 1,
+  "rt": "",
+  "q": "A bag holds 10 marbles. Each marble is green, purple or blue, but the number of each color is not known. A student draws a marble at random, records its color and puts it back. The table shows the results of 200 draws.\n\nGreen: 121 | Purple: 43 | Blue: 36\n\nPart A. What is the experimental probability of drawing a purple marble? Write it as a decimal.\nPart B. Use your answer to Part A. If the student makes 2,000 more draws, about how many times should a purple marble be drawn?\nPart C. About how many of the 10 marbles in the bag are purple?",
+  "a": "Part A: 0.215. Part B: about 430 times. Part C: about 2 purple marbles. Score: 1 point for all three parts; Part A alone earns 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.4",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "Two students each simulate spinning a fair spinner. One runs 210 trials and the other runs 8,000 trials.\n\nWhose experimental probability is expected to be closer to the theoretical probability?",
+  "a": "B. The 8,000-trial student, because more trials usually bring the result closer to the theory.",
+  "opts": [
+   "The 210-trial student, because fewer trials leave fewer chances for a result to go wrong.",
+   "The 8,000-trial student, because more trials usually bring the result closer to the theory.",
+   "Both students equally, because a fair experiment gives the same result for any number of trials.",
+   "Neither student, because an experimental result never comes close to the theoretical one."
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.4",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A fair coin is tossed 800 times and lands on heads 376 times.\n\nWhat is the experimental probability of landing on heads? Write your answer as a decimal.",
+  "a": "0.47",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.4",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "A bag contains only purple marbles and blue marbles. When one marble is drawn at random, the probability that it is purple is 0.25. A student draws a marble, records its color and returns it to the bag. The student repeats this 400 times.\n\nAbout how many times would you expect the student to draw a purple marble?",
+  "a": "about 100 times",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.4",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "Two students each simulate rolling a fair die. One runs 170 trials and the other runs 4,700 trials.\n\nWhose experimental probability is expected to be closer to the theoretical probability?",
+  "a": "C. The 4,700-trial student, because more trials usually bring the result closer to the theory.",
+  "opts": [
+   "Neither student, because an experimental result never comes close to the theoretical one.",
+   "The 170-trial student, because fewer trials leave fewer chances for a result to go wrong.",
+   "The 4,700-trial student, because more trials usually bring the result closer to the theory.",
+   "Both students equally, because a fair experiment gives the same result for any number of trials."
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.4",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "A fair 10-sided die is rolled 200 times. It lands on a 3 exactly 23 times.\n\nPart A. What is the experimental probability of rolling a 3? Write it as a fraction in simplest form.\nPart B. What is the theoretical probability of rolling a 3? Write it as a fraction in simplest form.\nPart C. Is the experimental probability greater than or less than the theoretical probability?",
+  "a": "Experimental: 23/200; theoretical: 1/10. The experimental probability is slightly greater than the theoretical probability. Score: 1 point for all three parts; the comparison alone earns 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.2",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "What is the value of the expression?\n\n4.13 − 2.91 − 17.5",
+  "a": "−16.28",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.2",
+  "hr": false,
+  "gen": 6,
+  "rt": "",
+  "q": "What is the value of the expression? Write your answer in simplest form.\n\n−0.64 ÷ (−4/5)",
+  "a": "4/5 (or 0.8)",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.2",
+  "hr": false,
+  "gen": 5,
+  "rt": "",
+  "q": "What number makes the equation true?\n\n−2 2/5 + ____ = −3.61",
+  "a": "−1 21/100 (or −1.21)",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.2",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "Evaluate the expression. Write your answer in simplest form.\n\n2 1/2 × (−0.1)",
+  "a": "−1/4 (or −0.25)",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.2",
+  "hr": true,
+  "gen": 1,
+  "rt": "",
+  "q": "A student evaluated the expression −1/6 ÷ 1 4/5 − 1/2 as shown.\n\nStep 1: −1/6 × 5/9 = 5/54\nStep 2: 5/54 − 1/2 = −11/27\n\nIn which step did the student make the first error? What is the correct value of the expression?",
+  "a": "Step 1; the correct value is −16/27. Score: 1 point for the step and the correct value; the step alone earns 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.2",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "What is the value of the expression?\n\n6.49 − 2.34 − 49.9",
+  "a": "−45.75",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.2",
+  "hr": false,
+  "gen": 6,
+  "rt": "",
+  "q": "What is the value of the expression? Write your answer in simplest form.\n\n−1.5 ÷ 1/4",
+  "a": "−6",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.2",
+  "hr": false,
+  "gen": 3,
+  "rt": "",
+  "q": "Subtract. Write your answer in simplest form.\n\n2/3 − (−1/6)",
+  "a": "5/6",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.2",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "Evaluate. Write your answer in simplest form.\n\n−1/2 − 1/4",
+  "a": "−3/4",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.2",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "Evaluate the expression. Write your answer in simplest form.\n\n1/3 × (−1.6)",
+  "a": "−8/15 (or −0.53̅)",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.3",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A tank contains 76 3/4 gallons of water. Water leaks out at 0.25 gallons per hour for 5 hours, and then 14 1/2 gallons are added.\n\nHow much water is in the tank now?",
+  "a": "90 gallons",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.3",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "A group of 5 friends owes $83.60 for a canoe rental. They split the amount owed equally, and each friend's share is recorded as a negative balance. Then Jamal pays 3/8 of his share.\n\nWhat is Jamal's balance now?",
+  "a": "−$10.45",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.3",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "At 6 a.m. the temperature at a weather station was −5.2°C. The temperature then fell 3.5°C each hour for 6 hours. Later in the day it rose 4.1°C.\n\nWhat was the temperature after all of these changes?",
+  "a": "−22.1°C",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.3",
+  "hr": false,
+  "gen": 3,
+  "rt": "",
+  "q": "The price of one share of a company's stock changed by these amounts over 4 days.\n\n+$1.85, −$1.30, −$0.65, −$2.30\n\nWhat was the mean (average) daily change in the price?",
+  "a": "−$0.60",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.3",
+  "hr": true,
+  "gen": 2,
+  "rt": "",
+  "q": "The temperature outside a cabin in January is 9.3°F. The temperature drops 3 1/2°F each hour.\n\nAfter how many whole hours will the temperature first be below −3°F?",
+  "a": "4 hours",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.3",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "At 6 a.m. the temperature at a weather station was −8.7°C. The temperature then fell 3.5°C each hour for 5 hours. Later in the day it rose 5.4°C.\n\nWhat was the temperature after all of these changes?",
+  "a": "−20.8°C",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.3",
+  "hr": false,
+  "gen": 3,
+  "rt": "",
+  "q": "The price of one share of a company's stock changed by these amounts over 5 days.\n\n−$0.25, +$1.55, −$0.70, −$2.20, −$0.05\n\nWhat was the mean (average) daily change in the price?",
+  "a": "−$0.33",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.3",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "A group of 6 friends owes $141.00 for a rented party tent. They split the amount owed equally, and each friend's share is recorded as a negative balance. Then Maya pays 4/5 of her share.\n\nWhat is Maya's balance now?",
+  "a": "−$4.70",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.3",
+  "hr": false,
+  "gen": 3,
+  "rt": "",
+  "q": "The price of one share of a company's stock changed by these amounts over 5 days.\n\n+$0.85, −$2.55, −$1.55, −$0.70, −$1.10\n\nWhat was the mean (average) daily change in the price?",
+  "a": "−$1.01",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.3",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "A group of 4 friends owes $136.80 for a rented party tent. They split the amount owed equally, and each friend's share is recorded as a negative balance. Then Ava pays 5/6 of her share.\n\nWhat is Ava's balance now?",
+  "a": "−$5.70",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.1",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "The parallelogram shown has a base of 18 inches and a vertical height of 7 inches.\n\nWhat is its area, in square inches?",
+  "a": "126 in.²",
+  "opts": null,
+  "ft": "a parallelogram with base 18 in. and vertical height 7 in."
+ },
+ {
+  "code": "MA.7.GR.1.1",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "The rhombus shown has a base of 15 meters and a vertical height of 7 meters.\n\nWhat is its area, in square meters?",
+  "a": "105 m²",
+  "opts": null,
+  "ft": "a rhombus with base 15 m and vertical height 7 m"
+ },
+ {
+  "code": "MA.7.GR.1.1",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "A trapezoid has bases of 8.5 centimeters and 4.5 centimeters and a vertical height of 5.5 centimeters.\n\nWhat is its area, in square centimeters?",
+  "a": "35.75 cm²",
+  "opts": null,
+  "ft": "a trapezoid with bases 8.5 cm and 4.5 cm and vertical height 5.5 cm"
+ },
+ {
+  "code": "MA.7.GR.1.1",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A trapezoid has bases of 14 cm and 11 cm and a vertical height of 7 cm.\n\nWhat is its area, in square centimeters?",
+  "a": "87.5 cm²",
+  "opts": null,
+  "ft": "a trapezoid with bases 14 cm and 11 cm and vertical height 7 cm"
+ },
+ {
+  "code": "MA.7.GR.1.1",
+  "hr": true,
+  "gen": 0,
+  "rt": "",
+  "q": "The trapezoid shown has a base of 17 centimeters and a vertical height of 12 centimeters. Its area is equal to the area of a parallelogram with a base of 15 centimeters and a vertical height of 10 centimeters.\n\nWhat is the length of the trapezoid's other base, in centimeters?",
+  "a": "8 cm",
+  "opts": null,
+  "ft": "a trapezoid with one base 17 cm, the other base marked with a question mark, and vertical height 12 cm"
+ },
+ {
+  "code": "MA.7.GR.1.1",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "The parallelogram shown has a base of 17 inches and a vertical height of 9 inches.\n\nWhat is its area, in square inches?",
+  "a": "153 in.²",
+  "opts": null,
+  "ft": "a parallelogram with base 17 in. and vertical height 9 in."
+ },
+ {
+  "code": "MA.7.GR.1.1",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "A rhombus has a base of 18 inches and a vertical height of 10 inches.\n\nWhat is its area, in square inches?",
+  "a": "C. 180 in.²",
+  "opts": [
+   "324 in.²",
+   "90 in.²",
+   "180 in.²",
+   "72 in.²"
+  ],
+  "ft": "a rhombus with a base of 18 in. and a vertical height of 10 in."
+ },
+ {
+  "code": "MA.7.GR.1.1",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A trapezoid has bases of 14 cm and 8 cm and a vertical height of 9 cm.\n\nWhat is its area, in square centimeters?",
+  "a": "99 cm²",
+  "opts": null,
+  "ft": "a trapezoid with bases 14 cm and 8 cm and vertical height 9 cm"
+ },
+ {
+  "code": "MA.7.GR.1.1",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "The rhombus shown has a base of 7 meters and a vertical height of 5 meters.\n\nWhat is its area, in square meters?",
+  "a": "35 m²",
+  "opts": null,
+  "ft": "a rhombus with base 7 m and vertical height 5 m"
+ },
+ {
+  "code": "MA.7.GR.1.1",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "The parallelogram shown has a base of 6 inches and a vertical height of 11 inches.\n\nWhat is its area, in square inches?",
+  "a": "66 in.²",
+  "opts": null,
+  "ft": "a parallelogram with base 6 in. and vertical height 11 in."
+ },
+ {
+  "code": "MA.7.GR.1.2",
+  "hr": false,
+  "gen": 5,
+  "rt": "",
+  "q": "A garden is shaped like the figure shown: an 11 m by 10 m rectangle with a 3 m by 5 m rectangular corner removed. The dashed lines show the part that was removed.\n\nWhat is the area of the garden, in square meters?",
+  "a": "95 m²",
+  "opts": null,
+  "ft": "garden: an 11 m by 10 m rectangle with a 3 m by 5 m rectangle removed from one corner; the removed part is outlined with dashes"
+ },
+ {
+  "code": "MA.7.GR.1.2",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "The front of a tent is shaped like the figure shown: a trapezoid with bases of 13 ft and 5 ft and a vertical height of 7 ft, with a triangle on top. The triangle's base is the 5 ft top base of the trapezoid, and its vertical height is 6 ft.\n\nWhat is the area of the front of the tent, in square feet?",
+  "a": "78 ft²",
+  "opts": null,
+  "ft": "front of the tent: a trapezoid with bases 13 ft and 5 ft and vertical height 7 ft, with a triangle of vertical height 6 ft on its 5 ft top base"
+ },
+ {
+  "code": "MA.7.GR.1.2",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "A tabletop is shaped like the figure shown: an 18 in. × 10 in. rectangle with a triangle attached to one end. The triangle's base is the 10 in. side and its height is 5 in.\n\nWhat is the area of the tabletop, in square inches?",
+  "a": "205 in.²",
+  "opts": null,
+  "ft": "a tabletop: an 18 in. by 10 in. rectangle with a triangle of height 5 in. attached to one 10 in. end"
+ },
+ {
+  "code": "MA.7.GR.1.2",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "The end wall of a barn is shaped like the figure shown: a rectangle 32 ft wide and 10 ft tall, with a trapezoid on top. The trapezoid's bases are the 32 ft top edge of the rectangle and a 13 ft top side, and its vertical height is 7 ft.\n\nWhat is the area of the end wall, in square feet?",
+  "a": "477.5 ft²",
+  "opts": null,
+  "ft": "end wall: a rectangle 32 ft wide and 10 ft tall with a trapezoid on top whose bases are the 32 ft top edge and a 13 ft top side and whose vertical height is 7 ft"
+ },
+ {
+  "code": "MA.7.GR.1.2",
+  "hr": true,
+  "gen": 4,
+  "rt": "",
+  "q": "Two garden plots are shown. Plot A is a trapezoid with bases of 17 m and 10 m and a vertical height of 3 m, joined along its longer base to a rectangle 17 m by 7 m. Plot B is a parallelogram with a base of 15 m and a vertical height of 6 m, joined along its base to a rectangle 15 m by 4 m.\n\nWhich plot has the greater area, and how much greater is it?",
+  "a": "Plot A, by 9.5 m². Score: 1 point — the plot and the difference; the plot alone earns 0.",
+  "opts": null,
+  "ft": "two garden plots. Plot A: a trapezoid with bases 10 m and 17 m and vertical height 3 m on a rectangle 17 m by 7 m. Plot B: a parallelogram with base 15 m and vertical height 6 m on a rectangle 15 m by 4 m"
+ },
+ {
+  "code": "MA.7.GR.1.2",
+  "hr": false,
+  "gen": 5,
+  "rt": "",
+  "q": "A kitchen floor is shaped like the figure shown: a 12 ft by 11 ft rectangle with a 6 ft by 4 ft rectangular notch removed from the middle of one edge. The dashed lines show the part that was removed.\n\nWhat is the area of the floor, in square feet?",
+  "a": "108 ft²",
+  "opts": null,
+  "ft": "floor: a 12 ft by 11 ft rectangle with a 6 ft by 4 ft rectangle removed from the middle of its top edge; the removed part is outlined with dashes"
+ },
+ {
+  "code": "MA.7.GR.1.2",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A stained-glass panel is shaped like the figure shown: a trapezoid with bases of 10 in. and 8 in. and a vertical height of 6 in., with a triangle on top. The triangle's base is the 8 in. top base of the trapezoid, and its vertical height is 4 in.\n\nWhat is the area of the panel, in square inches?",
+  "a": "70 in.²",
+  "opts": null,
+  "ft": "panel: a trapezoid with bases 10 in. and 8 in. and vertical height 6 in., with a triangle of vertical height 4 in. on its 8 in. top base"
+ },
+ {
+  "code": "MA.7.GR.1.2",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "A garden bed is shaped like the figure shown: an 18 ft × 6 ft rectangle with a triangle attached to one end. The triangle's base is the 6 ft side and its height is 3 ft.\n\nWhat is the area of the garden bed, in square feet?",
+  "a": "117 ft²",
+  "opts": null,
+  "ft": "a garden bed: an 18 ft by 6 ft rectangle with a triangle of height 3 ft attached to one 6 ft end"
+ },
+ {
+  "code": "MA.7.GR.1.2",
+  "hr": false,
+  "gen": 5,
+  "rt": "",
+  "q": "A kitchen floor is shaped like the figure shown: a 15 ft by 13 ft rectangle with a 5 ft by 6 ft rectangular corner removed. The dashed lines show the part that was removed.\n\nWhat is the area of the floor, in square feet?",
+  "a": "165 ft²",
+  "opts": null,
+  "ft": "floor: a 15 ft by 13 ft rectangle with a 5 ft by 6 ft rectangle removed from one corner; the removed part is outlined with dashes"
+ },
+ {
+  "code": "MA.7.GR.1.2",
+  "hr": false,
+  "gen": 3,
+  "rt": "",
+  "q": "A hexagonal tabletop is shaped like the hexagon shown. It is made of two congruent trapezoids that share the 32 in. base drawn as a dashed line. Each trapezoid has a vertical height of 17 in., and its other base is 18 in.\n\nWhat is the area of the tabletop, in square inches?",
+  "a": "850 in.²",
+  "opts": null,
+  "ft": "a hexagon made of two congruent trapezoids that share a 32 in. base (dashed); each trapezoid has a vertical height of 17 in., and the top side of the hexagon is 18 in."
+ },
+ {
+  "code": "MA.7.GR.1.3",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A circle has a radius of 11 centimeters.\n\nWhat is the circumference of the circle? Write your answer in terms of π.",
+  "a": "22π centimeters",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.3",
+  "hr": false,
+  "gen": 3,
+  "rt": "",
+  "q": "The circumference of a round pool is 106.81 feet.\n\nWhat is the diameter of the round pool? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+  "a": "34 feet (34.00 also accepted)",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.3",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "A circular clock face has a circumference of 62.80 centimeters, as shown.\n\nWhat is the radius of the circular clock face? Round your answer to the nearest hundredth. Use 3.14 for π.",
+  "a": "10 centimeters (10.00 also accepted)",
+  "opts": null,
+  "ft": "a circle with its radius drawn from the center and marked \"r = ?\"; the circumference is labelled C = 62.80 cm"
+ },
+ {
+  "code": "MA.7.GR.1.3",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "A circular tabletop has a radius of 2 feet.\n\nWhat is the circumference of the tabletop? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+  "a": "12.57 feet",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.3",
+  "hr": true,
+  "gen": 1,
+  "rt": "",
+  "q": "A scooter wheel has a diameter of 12 inches. The wheel rolls in a straight line for 200 feet.\n\nHow many complete turns does the wheel make? (1 foot = 12 inches) Use 3.14 for π.",
+  "a": "63 complete turns",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.3",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "A round plate has a circumference of 81.68 centimeters, as shown.\n\nWhat is the radius of the round plate? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+  "a": "13 centimeters (13.00 also accepted)",
+  "opts": null,
+  "ft": "a circle with its radius drawn from the center and marked \"r = ?\"; the circumference is labelled C = 81.68 cm"
+ },
+ {
+  "code": "MA.7.GR.1.3",
+  "hr": false,
+  "gen": 5,
+  "rt": "",
+  "q": "A student measured the diameter and the circumference of three paper cups, in centimeters. The results are shown in the table.\n\nDiameter (cm): 8, 14, 20 | Circumference (cm): 25.13, 43.98, 62.83\n\nThe circumference of a circle is proportional to its diameter. Based on the table, what is the constant of proportionality, rounded to the nearest hundredth?",
+  "a": "3.14, which is an approximation of π",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.3",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "The circumference of a circle is 60π feet.\n\nWhat is the radius of the circle?",
+  "a": "30 feet",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.3",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A circle has a radius of 18 inches.\n\nWhat is the circumference of the circle? Write your answer in terms of π.",
+  "a": "36π inches",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.3",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "A circular clock face has a circumference of 50.24 centimeters, as shown.\n\nWhat is the radius of the circular clock face? Round your answer to the nearest hundredth. Use 3.14 for π.",
+  "a": "8 centimeters (8.00 also accepted)",
+  "opts": null,
+  "ft": "a circle with its radius drawn from the center and marked \"r = ?\"; the circumference is labelled C = 50.24 cm"
+ },
+ {
+  "code": "MA.7.GR.1.4",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "A circle has a diameter of 12 meters.\n\nWhat is the area of the circle? Write your answer in terms of π.",
+  "a": "36π square meters",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.4",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A circular garden has a diameter of 14 feet.\n\nWhat is the area of the circular garden? Round your answer to the nearest hundredth. Use 3.14 for π.",
+  "a": "153.86 square feet",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.4",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "A 24-inch pizza is cut into 9 equal slices. (The size of a pizza is its diameter.) A student eats 5 slices.\n\nHow many square inches of pizza did the student eat? Write your answer in terms of π.",
+  "a": "80π square inches",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.4",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A circular skating rink has a radius of 21 meters.\n\nWhat is the area of the circular skating rink? Round your answer to the nearest hundredth. Use 3.14 for π.",
+  "a": "1384.74 square meters",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.4",
+  "hr": true,
+  "gen": 2,
+  "rt": "mc",
+  "q": "A circular fountain has a diameter of 6 feet. A walkway 6 feet wide surrounds the fountain, as shown.\n\nWhat is the area of the walkway, in square feet?",
+  "a": "A. 72π",
+  "opts": [
+   "72π",
+   "36π",
+   "108π",
+   "81π"
+  ],
+  "ft": "a circular fountain with a diameter of 6 ft, surrounded by a ring-shaped walkway 6 ft wide"
+ },
+ {
+  "code": "MA.7.GR.1.4",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "A circle has a diameter of 28 inches.\n\nWhat is the area of the circle? Write your answer in terms of π.",
+  "a": "196π square inches",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.4",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A round tabletop has a radius of 16 inches.\n\nWhat is the area of the round tabletop? Round your answer to the nearest hundredth. Use 3.14 for π.",
+  "a": "803.84 square inches",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.4",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "A 30-inch pizza is cut into 3 equal slices. (The size of a pizza is its diameter.) A student eats 1 slice.\n\nHow many square inches of pizza did the student eat? Write your answer in terms of π.",
+  "a": "75π square inches",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.4",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "A circle has a radius of 22 feet.\n\nWhat is the area of the circle, in square feet?",
+  "a": "B. 484π",
+  "opts": [
+   "44π",
+   "484π",
+   "1936π",
+   "22π"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.4",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A circular skating rink has a radius of 27 meters.\n\nWhat is the area of the circular skating rink? Round your answer to the nearest hundredth. Use 3.14 for π.",
+  "a": "2289.06 square meters",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.3",
+  "hr": false,
+  "gen": 1,
+  "rt": "mc",
+  "q": "In a random sample of 100 passengers, 35 check a bag.\n\nBased on this sample, about how many of the 800 passengers in the population check a bag?",
+  "a": "D. 280",
+  "opts": [
+   "520",
+   "431",
+   "35",
+   "280"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.3",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "To predict how many of the 4000 residents in the town support building a new park, Priya asked the 24 people at the skate park on Saturday, and 22 said yes. She predicts that about 3670 of the 4000 residents support building a new park.\n\nWhy is this prediction not valid?",
+  "a": "D. The people at the skate park on Saturday are not a random sample of all the residents, so they may not represent the whole town",
+  "opts": [
+   "A prediction about the town can only be made by asking every one of the 4000 residents",
+   "The prediction should be 22 residents, the number who said yes, not 3670 residents",
+   "The sample is too small; asking a larger group of people at the skate park on Saturday would make the prediction valid",
+   "The people at the skate park on Saturday are not a random sample of all the residents, so they may not represent the whole town"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.3",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A library has 1200 readers. Based on a random sample of 240 readers, it is predicted that about 480 of the 1200 readers borrow e-books.\n\nHow many readers in the sample said they borrow e-books?",
+  "a": "96 readers",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.3",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "A factory checks a random sample of 400 marbles and finds that 100 of them are red.\n\nBased on this sample, about how many of 1000 marbles would be expected to be red?",
+  "a": "about 250",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.3",
+  "hr": true,
+  "gen": 2,
+  "rt": "",
+  "q": "The principal wants to predict how many of the 2100 students in the school would buy a school T-shirt. Two random samples of students were surveyed.\nSample A: 600 students, and 210 said yes.\nSample B: 120 students, and 54 said yes.\n\nThe two samples give different predictions. Which sample's prediction should the principal trust more, and about how many of the 2100 students does it predict? Explain your choice.",
+  "a": "Sample A, about 735 students, because it is the larger random sample, so its proportion is usually closer to the proportion in the whole school. Score: 1 point — the larger sample chosen, its prediction and the reason (sample size); the prediction alone earns 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.3",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A school has 1900 students. Based on a random sample of 400 students, it is predicted that about 1140 of the 1900 students ride the bus to school.\n\nWhat percent of the students in the sample said they ride the bus to school?",
+  "a": "60%",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.3",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "A random sample of 250 students at a school were asked which kind of milk they prefer. The results are shown in the table.\n\nCow's milk: 100 | Soy milk: 100 | Almond milk: 50\n\nThere are 2000 students at the school. Based on this sample, about how many students at the school prefer soy milk?",
+  "a": "about 800 students",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.3",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "A factory checks a random sample of 400 seeds and finds that 80 of them sprouted.\n\nBased on this sample, about how many of 2500 seeds would be expected to sprout?",
+  "a": "about 500",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.3",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "To predict how many of the 1200 students in the school would buy a yearbook, Lena asked the 29 members of the drama club, and 22 said yes. She predicts that about 910 of the 1200 students would buy a yearbook.\n\nWhy is this prediction not valid?",
+  "a": "D. The members of the drama club are not a random sample of all the students, so they may not represent the whole school",
+  "opts": [
+   "The sample is too small; asking a larger group of members of the drama club would make the prediction valid",
+   "The prediction should be 22 students, the number who said yes, not 910 students",
+   "A prediction about the school can only be made by asking every one of the 1200 students",
+   "The members of the drama club are not a random sample of all the students, so they may not represent the whole school"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.3",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A town has 3400 voters. Based on a random sample of 400 voters, it is predicted that about 2550 of the 3400 voters support the new park.\n\nWhat percent of the voters in the sample said they support the new park?",
+  "a": "75%",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.5",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "A rectangle measures 7 units by 10 units. It is enlarged by a scale factor of 2.\n\nWhat is the area of the enlarged rectangle, in square units?",
+  "a": "280 square units",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.5",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "A photo is reduced by a scale factor of 1/8. A side that measures 72 inches in the original is scaled down.\n\nWhat is the length of the corresponding side in the reduction, in inches?",
+  "a": "9 inches",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.5",
+  "hr": false,
+  "gen": 5,
+  "rt": "",
+  "q": "Figure 2 is a scale drawing of Figure 1. A side that measures 2 centimeters in Figure 1 measures 12 centimeters in the corresponding position in Figure 2.\n\nWhat scale factor was used to produce Figure 2 from Figure 1? Write the scale factor as a whole number or a fraction.",
+  "a": "6",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.5",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "A model of a building uses the scale 1 centimeter : 5 meters. On the model, a doorway is 1.5 centimeters long.\n\nHow long is the actual doorway, in meters?",
+  "a": "7.5 meters",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.5",
+  "hr": true,
+  "gen": 3,
+  "rt": "",
+  "q": "On a blueprint, the rectangular front wall of a gymnasium measures 4.5 inches long and 5 inches tall. The actual wall is 22.5 feet long.\n\nWhat is the area of the actual wall, in square feet?",
+  "a": "562.5 square feet",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.5",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A drawing is enlarged by a scale factor of 3.5. A side that measures 4 centimeters in the drawing is scaled up.\n\nWhat is the length of the corresponding side in the enlargement, in centimeters?",
+  "a": "14 centimeters",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.5",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "A rhombus has a perimeter of 16 centimeters. It is enlarged by a scale factor of 4.\n\nWhat is the perimeter of the enlarged rhombus, in centimeters?",
+  "a": "B. 64",
+  "opts": [
+   "20",
+   "64",
+   "256",
+   "4"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.5",
+  "hr": false,
+  "gen": 5,
+  "rt": "",
+  "q": "Figure 2 is a scale drawing of Figure 1. A side that measures 3 centimeters in Figure 1 measures 12 centimeters in the corresponding position in Figure 2.\n\nWhat scale factor was used to produce Figure 2 from Figure 1? Write the scale factor as a whole number or a fraction.",
+  "a": "4",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.5",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "A trapezoid has a perimeter of 42 centimeters. It is enlarged by a scale factor of 6.\n\nWhat is the perimeter of the enlarged trapezoid, in centimeters?",
+  "a": "C. 252",
+  "opts": [
+   "1512",
+   "48",
+   "252",
+   "7"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.5",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A drawing is enlarged by a scale factor of 4. A side that measures 8 centimeters in the drawing is scaled up.\n\nWhat is the length of the corresponding side in the enlargement, in centimeters?",
+  "a": "32 centimeters",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.3",
+  "hr": false,
+  "gen": 5,
+  "rt": "mc",
+  "q": "1 kilogram ≈ 2.2 pounds.\n\nA suitcase weighs 40 pounds. What is its mass in kilograms, to the nearest tenth?",
+  "a": "C. 18.2 kilograms",
+  "opts": [
+   "1.8 kilograms",
+   "37.8 kilograms",
+   "18.2 kilograms",
+   "88.0 kilograms"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.3",
+  "hr": false,
+  "gen": 3,
+  "rt": "",
+  "q": "On one day, 1 U.S. dollar could be exchanged for 0.9 Swiss francs.\n\nMaya exchanged $100.00 for Swiss francs and then spent 31.25 Swiss francs on a meal. How many Swiss francs did Maya have left?",
+  "a": "58.75 Swiss francs",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.3",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "1 mile ≈ 1.609 kilometers.\n\nA race course is 36 kilometers long. How many miles is that? Round to the nearest tenth.",
+  "a": "22.4 miles",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.3",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "1 hour = 60 minutes, and 1 gallon ≈ 3.785 liters.\n\nA pump moves 20 liters of water each minute. It runs for 3 hours 15 minutes. How many gallons does it move? Round to the nearest tenth.",
+  "a": "1030.4 gallons",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.3",
+  "hr": true,
+  "gen": 1,
+  "rt": "",
+  "q": "Store A sells cheddar cheese for $7.29 per pound. Store B sells cheddar cheese for $17.05 per kilogram. 1 kilogram ≈ 2.2 pounds.\n\nWhich store charges less per pound, and how much less per pound?",
+  "a": "Store A, by $0.46 per pound. Score: 1 point for the store and the amount per pound; the store alone earns 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.3",
+  "hr": false,
+  "gen": 5,
+  "rt": "mc",
+  "q": "1 kilogram ≈ 2.2 pounds.\n\nA suitcase weighs 58 pounds. What is its mass in kilograms, to the nearest tenth?",
+  "a": "D. 26.4 kilograms",
+  "opts": [
+   "55.8 kilograms",
+   "127.6 kilograms",
+   "2.6 kilograms",
+   "26.4 kilograms"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.3",
+  "hr": false,
+  "gen": 3,
+  "rt": "",
+  "q": "On one day, 1 U.S. dollar could be exchanged for 0.88 euros.\n\nMaya exchanged $100.00 for euros and then spent 18.25 euros on a meal. How many euros did Maya have left?",
+  "a": "69.75 euros",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.3",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "1 gallon ≈ 3.785 liters.\n\nA water heater holds 116 liters. How many gallons is that? Round to the nearest tenth.",
+  "a": "30.6 gallons",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.3",
+  "hr": false,
+  "gen": 5,
+  "rt": "mc",
+  "q": "1 kilogram ≈ 2.2 pounds.\n\nA suitcase weighs 28 pounds. What is its mass in kilograms, to the nearest tenth?",
+  "a": "B. 12.7 kilograms",
+  "opts": [
+   "25.8 kilograms",
+   "12.7 kilograms",
+   "61.6 kilograms",
+   "1.3 kilograms"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.3",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "1 hour = 60 minutes, and 1 mile ≈ 1.609 kilometers.\n\nA car travels at 48 miles per hour for 75 minutes. How many kilometers does it travel? Round to the nearest tenth.",
+  "a": "96.5 kilometers (96.6 also accepted if the factor was rounded to 1.61)",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.2",
+  "hr": false,
+  "gen": 5,
+  "rt": "",
+  "q": "In a trail mix, the ratio of peanuts to raisins is 28:16. A hiker uses 20 ounces of raisins.\n\nWrite a proportion that can be used to find p, the number of ounces of peanuts that keeps the same ratio. Then solve the proportion.",
+  "a": "28/16 = p/20 (or an equivalent proportion); p = 35. Score: 1 point for the proportion (or an equivalent proportion) and its solution; the solution alone earns 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.2",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "A drip line uses 3.6 gallons of water every 4 hours.\n\nHow many gallons of water does the drip line use in 9 hours?",
+  "a": "8.1 gallons",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.2",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "The table shows what different amounts of ground beef cost at one store. The cost is proportional to the number of pounds.\n\nPounds of ground beef: 2, 2.5, 3, 4.5 | Cost: $8.88, $11.10, $13.32, $19.98\n\nAt this store, what will 6 pounds of ground beef cost?",
+  "a": "$26.64",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.2",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A recipe uses 1/2 cup of oil for every 2 dozen muffins. The amounts are proportional.\n\nHow much oil is needed for 5 dozen muffins? Write your answer as a fraction or a mixed number in simplest form.",
+  "a": "1 1/4 cups",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.2",
+  "hr": true,
+  "gen": 1,
+  "rt": "",
+  "q": "Tomás usually runs 10-kilometer races, and 10 kilometers is about 6.2 miles. Tomás is training for a trail race, which is 15 miles. Tomás runs at a steady pace of 6 minutes per kilometer.\n\nAbout how many kilometers is the trail race, to the nearest tenth? About how long will Tomás take to run it at that pace, to the nearest minute?",
+  "a": "about 24.2 kilometers; about 145 minutes (2 hours 25 minutes). Score: 1 point for the distance and the time; one alone earns 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.2",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "A 4.5-foot person casts an 8-foot shadow. At the same time a tree casts a 20-foot shadow.\n\nHow tall is the tree, in feet?",
+  "a": "B. 11.25 ft",
+  "opts": [
+   "35.56 ft",
+   "11.25 ft",
+   "4.44 ft",
+   "16.50 ft"
+  ],
+  "ft": "Right triangle: a 4.5 ft person with an 8 ft shadow"
+ },
+ {
+  "code": "MA.7.AR.3.2",
+  "hr": false,
+  "gen": 1,
+  "rt": "mc",
+  "q": "On a map, 4 cm represents 15 km.\n\nHow many kilometers does 10 cm represent?",
+  "a": "B. 37.50 km",
+  "opts": [
+   "21.00 km",
+   "37.50 km",
+   "2.67 km",
+   "150.00 km"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.2",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "A drip line uses 5.25 gallons of water every 3 hours.\n\nHow many gallons of water does the drip line use in 10 hours?",
+  "a": "17.5 gallons",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.2",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A recipe uses 1/3 cup of oil for every 4 dozen muffins. The amounts are proportional.\n\nHow much oil is needed for 9 dozen muffins? Write your answer as a fraction or a mixed number in simplest form.",
+  "a": "3/4 cup",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.2",
+  "hr": false,
+  "gen": 1,
+  "rt": "mc",
+  "q": "On a map, 5 cm represents 8 km.\n\nHow many kilometers does 6 cm represent?",
+  "a": "C. 9.60 km",
+  "opts": [
+   "3.75 km",
+   "48.00 km",
+   "9.60 km",
+   "9.00 km"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.5",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A horse-drawn carriage travels at a constant rate. It travels 1/2 mile in 10 minutes.\n\nAt this rate, how many minutes will it take the carriage to travel 2 3/4 miles?",
+  "a": "55 minutes",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.5",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "A 3-D printer uses 3/5 ounce of plastic every 1/3 hour, at a constant rate.\n\nHow many ounces of plastic does the printer use in 12 hours? Write your answer as a fraction or a mixed number in simplest form.",
+  "a": "21 3/5 ounces",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.5",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "A store sells ribbon at a constant price. 4 1/4 meters of ribbon cost $15.30.\n\nAt that rate, what is the cost of 7 1/2 meters of ribbon?",
+  "a": "$27.00",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.5",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "A carriage travels at a constant rate. After 5 minutes, it has traveled 1/2 mile. The relationship between minutes and miles is proportional.\n\nGraph the relationship on the grid. Then use the graph to find how many minutes it takes the carriage to complete a 4-mile ride.",
+  "a": "A straight line through (0, 0) and (5, 0.5); the 4-mile ride takes 40 minutes. Score: 1 point for the graph and the minutes; the graph alone earns 0.",
+  "opts": null,
+  "ft": "a blank grid, minutes 0 to 45 by 5 on the x-axis and miles 0 to 4.5 by 0.5 on the y-axis"
+ },
+ {
+  "code": "MA.7.AR.4.5",
+  "hr": true,
+  "gen": 1,
+  "rt": "",
+  "q": "Store A sells rope for $6.30 for 2 1/4 meters. Store B sells the same rope for $13.75 for 5 meters. At each store, the cost is proportional to the amount bought.\n\nWhich store is the better buy? Explain, and tell how much lower its price is per meter.",
+  "a": "Store B; its price per meter is lower, $2.75 compared with $2.80, so each meter costs less there; lower by $0.05 per meter. Score: 1 point for the store with the unit-price explanation and the amount per meter; the store alone earns 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.5",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "A carriage travels at a constant rate. After 12 minutes, it has traveled 3/4 mile. The relationship between minutes and miles is proportional.\n\nGraph the relationship on the grid. Then use the graph to find how many minutes it takes the carriage to complete a 2-mile ride.",
+  "a": "A straight line through (0, 0) and (12, 0.75); the 2-mile ride takes 32 minutes. Score: 1 point for the graph and the minutes; the graph alone earns 0.",
+  "opts": null,
+  "ft": "a blank grid, minutes 0 to 36 by 4 on the x-axis and miles 0 to 2.25 by 0.25 on the y-axis"
+ },
+ {
+  "code": "MA.7.AR.4.5",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A horse-drawn carriage travels at a constant rate. It travels 2/3 mile in 8 minutes.\n\nAt this rate, how many minutes will it take the carriage to travel 2 miles?",
+  "a": "24 minutes",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.5",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "A hiker walks 1/2 mile every 1/6 hour, at a constant rate.\n\nHow many miles does the hiker walk in 3 hours?",
+  "a": "9 miles",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.5",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "A car uses gas at a constant rate. It travels 85 miles on 2.5 gallons of gas.\n\nHow many gallons of gas are needed to travel 357 miles?",
+  "a": "D. 10.5 gallons",
+  "opts": [
+   "142.8 gallons",
+   "6.7 gallons",
+   "0.6 gallons",
+   "10.5 gallons"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.5",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "A store sells ribbon at a constant price. 3 3/4 meters of ribbon cost $9.00.\n\nAt that rate, what is the cost of 6 3/4 meters of ribbon?",
+  "a": "$16.20",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.4",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "The circle graph shows how 540 people answered a survey.\n\nHow many more people chose Fiction than Science?",
+  "a": "135 more people",
+  "opts": null,
+  "ft": "a circle graph: Fiction 40%, Mystery 35%, Science 15%, Poetry 10%"
+ },
+ {
+  "code": "MA.7.DP.1.4",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "A survey asked 320 people which pet they would most like to have. The results are shown in the table.\n\nDogs: 128 | Cats: 112 | Fish: 32 | Birds: 48\n\nIn a circle graph of the data, what percent of the circle is the Fish section?",
+  "a": "10%",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.4",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "420 people were asked which color they like best. In a circle graph of the results, the Purple section has a central angle of 54°.\n\nHow many people chose Purple?",
+  "a": "C. 63",
+  "opts": [
+   "15",
+   "357",
+   "63",
+   "54"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.4",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "The circle graph shows how 740 students answered a survey.\n\nHow many students chose Bus?",
+  "a": "185 students",
+  "opts": null,
+  "ft": "a circle graph: Walk 15%, Bus 25%, Car 35%, Bike 25%"
+ },
+ {
+  "code": "MA.7.DP.1.4",
+  "hr": true,
+  "gen": 3,
+  "rt": "ms",
+  "q": "360 students were asked how they get to school. The circle graph shows the results.\n\nSelect all the statements that the circle graph supports.",
+  "a": "C. 18 more students chose Car than Walk.; E. 54 of the 360 students chose Bus.",
+  "opts": [
+   "Walk was chosen by twice as many students as Car.",
+   "Bus and Bike together were chosen by more than half of the students.",
+   "18 more students chose Car than Walk.",
+   "The Bike section has a central angle of 20°.",
+   "54 of the 360 students chose Bus."
+  ],
+  "ft": "a circle graph: Walk 30%, Bus 15%, Car 35%, Bike 20%"
+ },
+ {
+  "code": "MA.7.DP.1.4",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "A survey asked 220 students how they get to school. The results are shown in the table.\n\nWalk: 44 | Bicycle: 110 | Car: 44 | Bus: 22\n\nIn a circle graph of the data, what is the measure of the central angle of the Bus section?",
+  "a": "36°",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.4",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "240 students were asked which lunch they like best. In a circle graph of the results, the Pizza section has a central angle of 90°.\n\nHow many students chose Pizza?",
+  "a": "D. 60",
+  "opts": [
+   "25",
+   "90",
+   "180",
+   "60"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.4",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "The circle graph shows how 460 people answered a survey.\n\nHow many more people chose Summer than Spring?",
+  "a": "23 more people",
+  "opts": null,
+  "ft": "a circle graph: Spring 15%, Summer 20%, Fall 20%, Winter 45%"
+ },
+ {
+  "code": "MA.7.DP.1.4",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "A circle graph of survey results has four sections: Cats, Dogs, Birds and Fish. The Cats section is 3/20 of the graph, the Dogs section is 30%, and the Birds section is 2/5 of the graph. The percent for Fish is not given.\n\nWhat percent of the circle graph is Fish?",
+  "a": "15%",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.4",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "160 students were asked what they like to do after school. In a circle graph of the results, the Music section has a central angle of 36°.\n\nHow many students chose Music?",
+  "a": "C. 16",
+  "opts": [
+   "36",
+   "144",
+   "16",
+   "10"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.1",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A video game costs $76.98 and is on sale for 12% off.\n\nWhat is the sale price, to the nearest cent?",
+  "a": "$67.74",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.1",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "Devon deposits $3150.00 in an account that pays 3.5% simple interest each year. Devon leaves the money in the account for 3 years, then withdraws everything.\n\nHow much does Devon withdraw?",
+  "a": "$3480.75",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.1",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "The ratio of dogs to cats among the pets at a shelter is 11:9. Every pet at the shelter is a dog or a cat.\n\nWhat percent of the pets at the shelter are dogs? If there are 180 pets at the shelter, how many are dogs?",
+  "a": "55%; 99 dogs. Score: 1 point for the percent and the count; one alone earns 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.1",
+  "hr": false,
+  "gen": 3,
+  "rt": "",
+  "q": "The number of visitors to a museum each month changed from 320 to 344.\n\nWhat is the percent increase?",
+  "a": "7.5%",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.1",
+  "hr": true,
+  "gen": 0,
+  "rt": "mc",
+  "q": "A store takes 28% off the original price of $162.50, then takes another 32% off the reduced price.\n\nWhat is the final price?",
+  "a": "D. $79.56",
+  "opts": [
+   "$117.00",
+   "$110.50",
+   "$65.00",
+   "$79.56"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.1",
+  "hr": false,
+  "gen": 3,
+  "rt": "",
+  "q": "The number of visitors to a museum each month changed from 240 to 162.\n\nWhat is the percent decrease?",
+  "a": "32.5%",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.1",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "A bike helmet costs $86.46. The sales tax rate is 7%.\n\nWhat is the total cost, including tax, to the nearest cent?",
+  "a": "$92.51",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.1",
+  "hr": false,
+  "gen": 5,
+  "rt": "",
+  "q": "A student estimated the number of steps on a trail to be 285. The actual number was 304 steps.\n\nWhat is the percent error of the estimate?",
+  "a": "6.25%",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.1",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "Andre deposits $2400.00 in an account that pays 4.25% simple interest each year. Andre leaves the money in the account for 3 years, then withdraws everything.\n\nHow much does Andre withdraw?",
+  "a": "$2706.00",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.1",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "A tent costs $54.78. The sales tax rate is 7.5%.\n\nWhat is the total cost, including tax, to the nearest cent?",
+  "a": "$58.89",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.1.1",
+  "hr": false,
+  "gen": 3,
+  "rt": "",
+  "q": "Evaluate the expression. Write your answer as a fraction in simplest form.\n\n(−2/3)^3 × (−2/3)^3",
+  "a": "64/729",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.1.1",
+  "hr": false,
+  "gen": 0,
+  "rt": "mc",
+  "q": "Which expression is equivalent to 4^5 × 4^2?",
+  "a": "A. 4^7",
+  "opts": [
+   "4^7",
+   "16^7",
+   "4^3",
+   "4^10"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.1.1",
+  "hr": false,
+  "gen": 5,
+  "rt": "",
+  "q": "Evaluate the expression.\n\n(−10)^6 ÷ (−10)^4",
+  "a": "100",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.1.1",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "The equation shown is true.\n\n(6^4)^n = 6^16\n\nWhat is the value of n?",
+  "a": "4",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.1.1",
+  "hr": true,
+  "gen": 2,
+  "rt": "",
+  "q": "A student wrote ((1/2)^5)^3 ÷ (1/2)^4 as a single power.\n\nStep 1: (1/2)^8 ÷ (1/2)^4\nStep 2: (1/2)^4\n\nIn which step did the student make the first error? Write the expression correctly as a single power.",
+  "a": "Step 1; (1/2)^11. Score: 1 point for the step and the correct single power; the step alone earns 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.1.1",
+  "hr": false,
+  "gen": 3,
+  "rt": "",
+  "q": "Evaluate the expression.\n\n3^3 × 3^2",
+  "a": "243",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.1.1",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "Write the expression as a single power.\n\n(9^4)^2",
+  "a": "9^8",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.1.1",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "Evaluate the expression.\n\n10^7 ÷ 10^4",
+  "a": "1000",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.1.1",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "The equation shown is true.\n\n2^n ÷ 2^2 = 8\n\nWhat is the value of n?",
+  "a": "5",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.1.1",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "Evaluate the expression.\n\n5^7 ÷ 5^3",
+  "a": "625",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.1",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "Evaluate the expression.\n\n4 × (|4.57 − 8.3| − 0.8²)",
+  "a": "12.36",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.1",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "What is the value of the expression?\n\n7.3 − [0.75 + (−0.5 − 2)²] ÷ 0.5",
+  "a": "B. −6.70",
+  "opts": [
+   "0.60",
+   "−6.70",
+   "19.05",
+   "18.30"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.1",
+  "hr": false,
+  "gen": 5,
+  "rt": "",
+  "q": "Evaluate the expression. Write your answer as a fraction in simplest form.\n\n9 − 2[(1 1/2 − 2)² + 1/2 ÷ 6]",
+  "a": "8 1/3",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.1",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "What is the value of the expression? Write your answer as a fraction in simplest form.\n\n[(2 1/2 − 3)² + |3/8 − 4|] × 3",
+  "a": "11 5/8",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.1",
+  "hr": true,
+  "gen": 1,
+  "rt": "mc",
+  "q": "Where should one pair of parentheses be placed so that the expression has a value of 147.75?\n\n−8.5 + 3 × 5 − 2.5²",
+  "a": "C. −8.5 + (3 × 5 − 2.5)²",
+  "opts": [
+   "−8.5 + 3 × (5 − 2.5²)",
+   "−8.5 + 3 × (5 − 2.5)²",
+   "−8.5 + (3 × 5 − 2.5)²",
+   "(−8.5 + 3) × 5 − 2.5²"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.1",
+  "hr": false,
+  "gen": 5,
+  "rt": "",
+  "q": "Evaluate the expression. Write your answer as a fraction in simplest form.\n\n6 − 2[(1 1/4 − 2)² + 1/4 ÷ 2]",
+  "a": "4 5/8",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.1",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "What is the value of the expression?\n\n−4.3 − [3.75 + (1.5 − 3)²] ÷ 0.5",
+  "a": "B. −16.30",
+  "opts": [
+   "−7.30",
+   "−16.30",
+   "−3.55",
+   "−20.60"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.1",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "Evaluate the expression.\n\n[(−2 1/2 − 1)² − 1.75] ÷ 4",
+  "a": "2 5/8 (or 2.625)",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.1",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "Evaluate the expression. Write your answer as a decimal.\n\n(5.7 − |4.6 − 7.8|)³ ÷ 0.5",
+  "a": "31.25",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.1",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "Evaluate the expression.\n\n[(−1 1/2 − 1)² − 1.75] ÷ 2",
+  "a": "2 1/4 (or 2.25)",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.1.1",
+  "hr": false,
+  "gen": 3,
+  "rt": "",
+  "q": "Write the expression using the fewest possible terms.\n\n(3 + (5/6)p) + ((5/6)p − 1)",
+  "a": "(5/3)p + 2",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.1.1",
+  "hr": false,
+  "gen": 2,
+  "rt": "mc",
+  "q": "Which expression is equivalent to the expression shown?\n\n(0.4x + 2) + (1.6x − 2.5)",
+  "a": "A. 2x − 0.5",
+  "opts": [
+   "2x − 0.5",
+   "1.5x",
+   "0.64x − 0.5",
+   "2x + 0.5"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.1.1",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "What expression makes the equation true?\n\n((2/3)x + 6) − (____) = (−3/8)x − 2",
+  "a": "(25/24)x + 8",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.1.1",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "Write the expression using the fewest possible terms.\n\n((4/3)x − 8) − ((7/3)x + 4)",
+  "a": "−x − 12",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.1.1",
+  "hr": true,
+  "gen": 1,
+  "rt": "",
+  "q": "A rectangle has a length of ((5/2)x + 0.5) meters and a width of (x − 2) meters.\n\nWrite an expression for the perimeter of the rectangle, in meters. Then write it using the fewest possible terms.",
+  "a": "2((5/2)x + 0.5) + 2(x − 2) (or ((5/2)x + 0.5) + (x − 2) + ((5/2)x + 0.5) + (x − 2)); simplified: 7x − 3. Score: 1 point for a correct perimeter expression and the simplified form 7x − 3; either alone earns 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.1.1",
+  "hr": false,
+  "gen": 5,
+  "rt": "",
+  "q": "Write the expression using the fewest possible terms.\n\n(6x − 6) − (0.49x − 5 + 0.58x)",
+  "a": "4.93x − 1",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.1.1",
+  "hr": false,
+  "gen": 2,
+  "rt": "mc",
+  "q": "Which expression is equivalent to the expression shown?\n\n(3.2x + 2) + (4.5x − 0.5)",
+  "a": "D. 7.7x + 1.5",
+  "opts": [
+   "14.4x + 1.5",
+   "7.7x − 1.5",
+   "9.2x",
+   "7.7x + 1.5"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.1.1",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "What expression makes the equation true?\n\n((3/2)x + 8) − (____) = (−5/3)x − 1",
+  "a": "(19/6)x + 9",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.1.1",
+  "hr": false,
+  "gen": 5,
+  "rt": "",
+  "q": "Write the expression using the fewest possible terms.\n\n(2x − 4) − (0.59x − 1 + 0.44x)",
+  "a": "0.97x − 3",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.1.1",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "What expression makes the equation true?\n\n((5/3)x − 7) + (____) = (7/4)x − 2",
+  "a": "(1/12)x + 5",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.1.2",
+  "hr": false,
+  "gen": 0,
+  "rt": "ms",
+  "q": "Select all the expressions that are equivalent to (5/4)(12x + 20).",
+  "a": "A. (5/4)(12x) + (5/4)(20); C. 15x + 25",
+  "opts": [
+   "(5/4)(12x) + (5/4)(20)",
+   "(53/4)x + 85/4",
+   "15x + 25",
+   "15x + 20",
+   "40x"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.1.2",
+  "hr": false,
+  "gen": 5,
+  "rt": "match",
+  "q": "Match each expression to an equivalent expression.",
+  "a": "2.5(8x + 6) → 20x + 15; (1/2)(10x − 8) → 5x − 4; (2.5x + 6) + (4.5x − 2) → 7x + 4",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.1.2",
+  "hr": false,
+  "gen": 1,
+  "rt": "mc",
+  "q": "Which expression is equivalent to 1.5(6x − 2)?",
+  "a": "B. 9x − 3",
+  "opts": [
+   "9x − 2",
+   "9x − 3",
+   "6x",
+   "7.5x − 0.5"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.1.2",
+  "hr": false,
+  "gen": 4,
+  "rt": "mc",
+  "q": "Are the two expressions equivalent?\n\n2.5(8x − 2) + 4x + 8     and     24x + 3.5",
+  "a": "D. No, because the first simplifies to 24x + 3, not 24x + 3.5.",
+  "opts": [
+   "Yes, because both of them simplify to 24x + 3.5.",
+   "No, because 2.5(8x − 2) is 20x − 2, giving 24x + 6.",
+   "Yes, because both have an x-term and a constant term.",
+   "No, because the first simplifies to 24x + 3, not 24x + 3.5."
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.1.2",
+  "hr": true,
+  "gen": 2,
+  "rt": "",
+  "q": "Two expressions are shown.\n\n−(3/4)(4x − 4) + (3/2)x     and     (11/2)x − (3/4)(8x − 4)\n\nAre the two expressions equivalent? Write each expression using the fewest possible terms, and use those forms to explain your answer.",
+  "a": "No; the first expression simplifies to −(3/2)x + 3 and the second to −(1/2)x + 3. Score: 1 point for the correct yes or no with both simplified forms; yes or no alone earns 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.1.2",
+  "hr": false,
+  "gen": 4,
+  "rt": "mc",
+  "q": "Are the two expressions equivalent?\n\n1.5(4x − 6) + x + 8     and     7x − 2",
+  "a": "D. No, because the first simplifies to 7x − 1, not 7x − 2.",
+  "opts": [
+   "No, because 1.5(4x − 6) is 6x − 6, giving 7x + 2.",
+   "Yes, because both of them simplify to 7x − 2.",
+   "Yes, because both have an x-term and a constant term.",
+   "No, because the first simplifies to 7x − 1, not 7x − 2."
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.1.2",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "Which expression is equivalent to 6x + 7.5?",
+  "a": "A. 1.5(4x + 5)",
+  "opts": [
+   "1.5(4x + 5)",
+   "6(x + 5)",
+   "1.5(6x + 5)",
+   "1.5(4x + 7.5)"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.1.2",
+  "hr": false,
+  "gen": 0,
+  "rt": "ms",
+  "q": "Select all the expressions that are equivalent to (3/2)(6x + 2).",
+  "a": "A. (3/2)(6x) + (3/2)(2); E. 9x + 3",
+  "opts": [
+   "(3/2)(6x) + (3/2)(2)",
+   "(15/2)x + 7/2",
+   "12x",
+   "9x + 2",
+   "9x + 3"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.1.2",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "Which expression is equivalent to 8x + 6?",
+  "a": "B. (2/5)(20x + 15)",
+  "opts": [
+   "(2/5)(20x + 6)",
+   "(2/5)(20x + 15)",
+   "(5/2)(20x + 15)",
+   "(2/5)(8x + 15)"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.1.2",
+  "hr": false,
+  "gen": 5,
+  "rt": "match",
+  "q": "Match each expression to an equivalent expression.",
+  "a": "1.5(2x + 2) → 3x + 3; (1/4)(16x − 8) → 4x − 2; (2.5x + 7) + (1.5x − 5) → 4x + 2",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.2.1",
+  "hr": false,
+  "gen": 4,
+  "rt": "mc",
+  "q": "The graph shows the solution of an inequality.\n\nWhich inequality has this solution?",
+  "a": "D. 2.5x < 20",
+  "opts": [
+   "2.5x ≤ 20",
+   "x + 2.5 < 20",
+   "2.5x > 20",
+   "2.5x < 20"
+  ],
+  "ft": "Number line from 0 to 12 with every tick labeled: open circle at 8, shaded to the left"
+ },
+ {
+  "code": "MA.7.AR.2.1",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "Solve the inequality.\n\n−3 + t ≥ −6.9",
+  "a": "t ≥ −3.9",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.2.1",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "Solve the inequality.\n\n−0.5n > 0.5\n\nWhich number line shows the solution?",
+  "a": "A. Open circle at −1, shaded left",
+  "opts": [
+   "Open circle at −1, shaded left",
+   "Closed circle at −1, shaded left",
+   "Open circle at 1, shaded left",
+   "Open circle at −1, shaded right"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.2.1",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "The product of a number x and −0.5 is less than −5.\n\nWhat are the possible values of x?",
+  "a": "x > 10",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.2.1",
+  "hr": true,
+  "gen": 1,
+  "rt": "mc",
+  "q": "The number line shows the solution of one of the inequalities below.\n\nWhich inequality has this solution?",
+  "a": "D. −1.5x < 3",
+  "opts": [
+   "x + 3.5 ≥ 1.5",
+   "x/4 < −0.5",
+   "x − 4.5 > −8.5",
+   "−1.5x < 3"
+  ],
+  "ft": "Number line from −7 to 3 with every tick labeled: open circle at −2, shaded to the right"
+ },
+ {
+  "code": "MA.7.AR.2.1",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "The product of a number x and −1.5 is less than −12.\n\nWhat are the possible values of x?",
+  "a": "x > 8",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.2.1",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "Solve the inequality.\n\n−1.5c ≤ 4.5\n\nWhich number line shows the solution?",
+  "a": "A. Closed circle at −3, shaded right",
+  "opts": [
+   "Closed circle at −3, shaded right",
+   "Closed circle at 3, shaded right",
+   "Open circle at −3, shaded right",
+   "Closed circle at −3, shaded left"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.2.1",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "Solve the inequality. Then graph the solution on the number line.\n\nn/(−4) ≥ 1.25",
+  "a": "n ≤ −5; graph: closed circle at −5, shaded to the left. Score: 1 point for the solution (or an equivalent inequality) and a matching graph; either alone earns 0.",
+  "opts": null,
+  "ft": "a blank number line from −12 to −2 with every tick labeled"
+ },
+ {
+  "code": "MA.7.AR.2.1",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "The product of a number x and −2.5 is at least −20.\n\nWhat are the possible values of x?",
+  "a": "x ≤ 8",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.2.1",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "Solve the inequality. Then graph the solution on the number line.\n\n0.5w ≤ 2.5",
+  "a": "w ≤ 5; graph: closed circle at 5, shaded to the left. Score: 1 point for the solution (or an equivalent inequality) and a matching graph; either alone earns 0.",
+  "opts": null,
+  "ft": "a blank number line from −2 to 8 with every tick labeled"
+ },
+ {
+  "code": "MA.7.AR.2.2",
+  "hr": false,
+  "gen": 3,
+  "rt": "",
+  "q": "A park charges a $25.00 entry fee plus $12.50 for each hour of skate rental. A visitor paid $62.50 in all.\n\nWrite an equation that can be used to find h, the number of hours of skate rental the visitor paid for. Then solve the equation.",
+  "a": "12.5h + 25 = 62.5; h = 3. Score: 1 point for the equation (or an equivalent equation) and its solution; the solution alone earns 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.2.2",
+  "hr": false,
+  "gen": 5,
+  "rt": "",
+  "q": "Solve the equation for h.\n\n1.5(h + 1.6) = −0.6",
+  "a": "h = −2",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.2.2",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "3 students each saved the same amount, s dollars, and then each earned $5.00 more. Together they now have $105.00.\n\nWrite an equation that can be used to find s. Then solve the equation.",
+  "a": "3(s + 5) = 105 (or an equivalent equation); s = 30. Score: 1 point for the equation (or an equivalent equation) and its solution; the solution alone earns 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.2.2",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "What is the exact value of g in the equation shown?\n\n−1 7/9 = (2/3)g − 4",
+  "a": "g = 3 1/3",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.2.2",
+  "hr": true,
+  "gen": 2,
+  "rt": "",
+  "q": "Gym A charges $24.50 each month. Jordan used a coupon worth $35.00 off the total and paid Gym A $185.50 in all.\n\nWrite and solve an equation to find n, the number of months Jordan paid for. Gym B charges $26.50 each month and takes no coupons. For the same number of months, which gym would have cost less, and by how much?",
+  "a": "24.5n − 35 = 185.5; n = 9; Gym A, by $53.00. Score: 1 point for the equation (or an equivalent equation), n = 9 and the correct gym with the amount; n alone earns 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.2.2",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "Solve the equation for x.\n\n40 = −4x + 4",
+  "a": "x = −9",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.2.2",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "6 identical boxes each weigh b pounds with the packaging. After 1.25 pounds of packaging is removed from each box, the 6 boxes weigh 40.5 pounds in all.\n\nWrite an equation that can be used to find b. Then solve the equation.",
+  "a": "6(b − 1.25) = 40.5 (or an equivalent equation); b = 8. Score: 1 point for the equation (or an equivalent equation) and its solution; the solution alone earns 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.2.2",
+  "hr": false,
+  "gen": 4,
+  "rt": "mc",
+  "q": "A number, x, is decreased by 8. That result is then multiplied by 3, giving 3.\n\nWhich equation represents this situation?",
+  "a": "A. 3(x − 8) = 3",
+  "opts": [
+   "3(x − 8) = 3",
+   "3x − 24 = 9",
+   "3(x + 8) = 3",
+   "3x − 8 = 3"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.2.2",
+  "hr": false,
+  "gen": 3,
+  "rt": "",
+  "q": "A park charges a $18.00 entry fee plus $3.75 for each game. A visitor paid $44.25 in all.\n\nWrite an equation that can be used to find g, the number of games the visitor paid for. Then solve the equation.",
+  "a": "3.75g + 18 = 44.25; g = 7. Score: 1 point for the equation (or an equivalent equation) and its solution; the solution alone earns 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.2.2",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "What is the exact value of t in the equation shown?\n\n−5 8/9 = (4/3)t − 9",
+  "a": "t = 2 1/3",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.3",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "A proportional relationship between x and y has a constant of proportionality of 1/3.\n\nWhich graph represents this relationship?",
+  "a": "Graph B",
+  "opts": [
+   "Graph A",
+   "Graph B",
+   "Graph C",
+   "Graph D"
+  ],
+  "ft": "four coordinate planes, each axis labeled from −4 to 4, labeled A through D: Graph A is a line through (0, 0) with slope −1/3; Graph B is a line through (0, 0) with slope 1/3; Graph C is a line through (0, 0) with slope 3; Graph D is a line through (0, −2) with slope 1/3"
+ },
+ {
+  "code": "MA.7.AR.4.3",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "The table shows a proportional relationship between x and y.\n\nx: 4, 5, 6 | y: 20, 25, 30\n\nGraph the relationship on the grid.",
+  "a": "The points (4, 20), (5, 25), (6, 30) and a straight line through them and the origin.",
+  "opts": null,
+  "ft": "a blank first-quadrant grid, x from 0 to 6 by 1 and y from 0 to 30 by 5"
+ },
+ {
+  "code": "MA.7.AR.4.3",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "The relationship between hours (x) and miles biked (y) is proportional, with a constant of proportionality of 12.\n\nGraph the relationship on the grid for 0 to 6 hours. What does the constant of proportionality mean in this situation?",
+  "a": "A straight line from the origin to (6, 72), through (1, 12), (2, 24) and (3, 36); the constant means each hour, 12 more miles are biked. Score: 1 point for the graph and the meaning of the constant; the graph alone earns 0.",
+  "opts": null,
+  "ft": "a blank grid, hours 0 to 6 by 1 on the x-axis and miles biked 0 to 72 by 12 on the y-axis"
+ },
+ {
+  "code": "MA.7.AR.4.3",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A proportional relationship is given by the equation y = 14x.\n\nGraph the relationship on the grid for x-values from 0 to 10.",
+  "a": "A straight line from (0, 0) to (10, 140), through points such as (2, 28), (3, 42), (7, 98).",
+  "opts": null,
+  "ft": "a blank first-quadrant grid, x from 0 to 10 by 1 and y from 0 to 140 by 14"
+ },
+ {
+  "code": "MA.7.AR.4.3",
+  "hr": true,
+  "gen": 1,
+  "rt": "",
+  "q": "The constant of proportionality for a proportional relationship between x and y is 8/5.\n\nGraph the relationship on the grid for x-values from 0 to 25, and mark and label the point on the line whose x-coordinate is 5. Is the point (40, 64) on the line? Explain.",
+  "a": "A straight line through the origin and (5, 8), (10, 16), (15, 24), continued to (25, 40); the point (5, 8) marked and labeled; yes — 8/5 × 40 is 64, so (40, 64) is on the line. Score: 1 point for the graph with (5, 8) labeled and the correct yes or no with its reason; the graph alone earns 0.",
+  "opts": null,
+  "ft": "a blank first-quadrant grid, x from 0 to 25 by 5 and y from 0 to 40 by 8"
+ },
+ {
+  "code": "MA.7.AR.4.3",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "The table shows a proportional relationship between x and y.\n\nx: 2, 4, 5 | y: 32, 64, 80\n\nGraph the relationship on the grid.",
+  "a": "The points (2, 32), (4, 64), (5, 80) and a straight line through them and the origin.",
+  "opts": null,
+  "ft": "a blank first-quadrant grid, x from 0 to 6 by 1 and y from 0 to 96 by 16"
+ },
+ {
+  "code": "MA.7.AR.4.3",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "The relationship between boxes (x) and books packed (y) is proportional, with a constant of proportionality of 15.\n\nGraph the relationship on the grid for 0 to 6 boxes. What does the constant of proportionality mean in this situation?",
+  "a": "A straight line from the origin to (6, 90), through (1, 15), (2, 30) and (3, 45); the constant means each box holds 15 books. Score: 1 point for the graph and the meaning of the constant; the graph alone earns 0.",
+  "opts": null,
+  "ft": "a blank grid, boxes 0 to 6 by 1 on the x-axis and books packed 0 to 90 by 15 on the y-axis"
+ },
+ {
+  "code": "MA.7.AR.4.3",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A proportional relationship is given by the equation y = 23x.\n\nGraph the relationship on the grid for x-values from 0 to 6.",
+  "a": "A straight line from (0, 0) to (6, 138), through points such as (1, 23), (2, 46), (6, 138).",
+  "opts": null,
+  "ft": "a blank first-quadrant grid, x from 0 to 6 by 1 and y from 0 to 138 by 23"
+ },
+ {
+  "code": "MA.7.AR.4.3",
+  "hr": false,
+  "gen": 4,
+  "rt": "mc",
+  "q": "The table shows a proportional relationship between x and y.\n\nx: 3, 9, 12 | y: 1, 3, 4\n\nWhich graph represents this relationship?",
+  "a": "Graph C",
+  "opts": [
+   "Graph A",
+   "Graph B",
+   "Graph C",
+   "Graph D"
+  ],
+  "ft": "four coordinate planes, each axis labeled from −4 to 4, labeled A through D: Graph A is a line through (0, 2) with slope 1/3; Graph B is a line through (0, 0) with slope −1/3; Graph C is a line through (0, 0) with slope 1/3; Graph D is a line through (0, 0) with slope 3"
+ },
+ {
+  "code": "MA.7.AR.4.3",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "A proportional relationship between x and y has a constant of proportionality of 2.\n\nWhich graph represents this relationship?",
+  "a": "Graph A",
+  "opts": [
+   "Graph A",
+   "Graph B",
+   "Graph C",
+   "Graph D"
+  ],
+  "ft": "four coordinate planes, each axis labeled from −4 to 4, labeled A through D: Graph A is a line through (0, 0) with slope 2; Graph B is a line through (0, 0) with slope 1/2; Graph C is a line through (0, 0) with slope −2; Graph D is a line through (0, 2) with slope 2"
+ },
+ {
+  "code": "MA.7.AR.4.2",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "In a proportional relationship, 64.05 cups of water are used in 7 minutes.\n\nWhat is the constant of proportionality, in cups of water per minute?",
+  "a": "A. 9.15",
+  "opts": [
+   "9.15",
+   "64.05",
+   "71.05",
+   "0.11"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.2",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "The daily fee for docking a boat at a marina is proportional to the length of the boat. The table shows the fee for four different boat lengths.\n\nBoat length (feet): 20, 22, 24, 28 | Daily fee: $62.00, $68.20, $74.40, $86.80\n\nWhat is the constant of proportionality, in dollars per foot?",
+  "a": "3.1",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.2",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "The graph shows the proportional relationship between minutes and pages printed.\n\nWhat is the constant of proportionality, in pages per minute?",
+  "a": "1.8 pages per minute",
+  "opts": null,
+  "ft": "a straight line through the origin and (5, 9) and (10, 18), with minutes 0 to 11 by 1 on the x-axis and pages printed 0 to 21 by 3 on the y-axis"
+ },
+ {
+  "code": "MA.7.AR.4.2",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "The graph shows a proportional relationship between x and y.\n\nWhat is the constant of proportionality? Write your answer as a fraction in simplest form.",
+  "a": "2/5",
+  "opts": null,
+  "ft": "a straight line through the origin and the labeled point (5, 2), x from 0 to 10 by 1 and y from 0 to 4 by 1"
+ },
+ {
+  "code": "MA.7.AR.4.2",
+  "hr": true,
+  "gen": 1,
+  "rt": "",
+  "q": "Each batch of paint is made with 2 cups of blue paint and 12 cups of white paint. The relationship between cups of blue paint and cups of white paint is proportional. Let x be the number of cups of white paint and let y be the number of cups of blue paint.\n\nWhat is the constant of proportionality? What does it mean in this situation?",
+  "a": "k = 1/6; each cup of white paint is used with 1/6 cup of blue paint. Score: 1 point for the constant (or an equivalent form of it) and its meaning; the constant alone earns 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.2",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "The graph shows the proportional relationship between batches and cups of flour.\n\nWhat is the constant of proportionality, in cups of flour per batch?",
+  "a": "0.9 cups of flour per batch",
+  "opts": null,
+  "ft": "a straight line through the origin and (5, 4.5) and (10, 9), with batches 0 to 11 by 1 on the x-axis and cups of flour 0 to 10.5 by 1.5 on the y-axis"
+ },
+ {
+  "code": "MA.7.AR.4.2",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "The daily fee for docking a boat at a marina is proportional to the length of the boat. The table shows the fee for four different boat lengths.\n\nBoat length (feet): 16, 20, 22, 26 | Daily fee: $63.20, $79.00, $86.90, $102.70\n\nWhat is the constant of proportionality, in dollars per foot?",
+  "a": "3.95",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.2",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "In a proportional relationship, 12.6 liters of paint are needed to cover 4 walls.\n\nWhat is the constant of proportionality, in liters of paint per wall?",
+  "a": "D. 3.15",
+  "opts": [
+   "0.32",
+   "16.60",
+   "12.60",
+   "3.15"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.2",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "The graph shows a proportional relationship between x and y.\n\nWhat is the constant of proportionality? Write your answer as a fraction in simplest form.",
+  "a": "9/7",
+  "opts": null,
+  "ft": "a straight line through the origin and the labeled point (7, 9), x from 0 to 10 by 1 and y from 0 to 15 by 3"
+ },
+ {
+  "code": "MA.7.AR.4.2",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "The table shows a proportional relationship between x and y.\n\nx: 11, 22, 55, 66 | y: 8, 16, 40, 48\n\nWhat is the constant of proportionality? Write your answer as a fraction in simplest form.",
+  "a": "8/11",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.1",
+  "hr": false,
+  "gen": 3,
+  "rt": "ms",
+  "q": "Select all the situations that describe a proportional relationship.",
+  "a": "A. A printer prints 30 pages every minute.; E. A store sells oranges at $2.40 per pound.",
+  "opts": [
+   "A printer prints 30 pages every minute.",
+   "A phone plan costs $36 plus $0.10 for each text message.",
+   "A candle is 12 inches tall and burns down 1 inch each hour (its height compared with the hours burned).",
+   "A taxi charges $3.00 plus $2.00 per mile.",
+   "A store sells oranges at $2.40 per pound."
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.1",
+  "hr": false,
+  "gen": 0,
+  "rt": "mc",
+  "q": "Does the table show a proportional relationship between x and y?\n\nx: 1, 2, 4, 5 | y: 5, 10, 23, 25",
+  "a": "C. No, because y ÷ x is not the same for every pair of values.",
+  "opts": [
+   "Yes, because y ÷ x is the same for every pair of values.",
+   "No, because the x-values do not increase by the same amount.",
+   "No, because y ÷ x is not the same for every pair of values.",
+   "Yes, because the first two pairs of values have the same ratio."
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.1",
+  "hr": false,
+  "gen": 2,
+  "rt": "mc",
+  "q": "Does the graph show a proportional relationship between x and y?",
+  "a": "A. Yes, because the line is straight and passes through the origin.",
+  "opts": [
+   "Yes, because the line is straight and passes through the origin.",
+   "Yes, because y increases whenever x increases.",
+   "No, because the line does not reach the edge of the grid.",
+   "No, because the line does not pass through the origin."
+  ],
+  "ft": "a straight line through (2, 3) and (6, 9) and the origin"
+ },
+ {
+  "code": "MA.7.AR.4.1",
+  "hr": false,
+  "gen": 1,
+  "rt": "mc",
+  "q": "A machine takes 15 minutes plus 10 minutes for each box packed.\n\nIs the relationship between the boxes packed and the total minutes proportional?",
+  "a": "C. No, because there is a setup time of 15 minutes before the first box packed.",
+  "opts": [
+   "Yes, because there is no setup time at the start, only 10 minutes each time.",
+   "Yes, because the minutes added for each box packed never change.",
+   "No, because there is a setup time of 15 minutes before the first box packed.",
+   "No, because the minutes and the boxes packed are measured in different units."
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.1",
+  "hr": true,
+  "gen": 1,
+  "rt": "",
+  "q": "The table shows values of x and y.\n\nx: 1.5, 2, 2.5, 5 | y: 1.8, 2.4, 3, 6\n\nNoor says the relationship cannot be proportional because the table does not include x = 0.\n\nIs Noor's reason correct? Is the relationship proportional? If it is, give the constant of proportionality; if it is not, name a pair whose ratio is different.",
+  "a": "Noor's reason is not correct; the relationship is proportional, with constant of proportionality 1.2. Score: 1 point for all three parts (the reason judged, the proportional decision, and the constant or a pair with a different ratio, in any equivalent form); two parts earn 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.1",
+  "hr": false,
+  "gen": 3,
+  "rt": "ms",
+  "q": "Select all the situations that describe a proportional relationship.",
+  "a": "B. A store sells grapes at $1.85 per pound.; C. A recipe uses 7 cups of flour for every 4 loaves of bread.",
+  "opts": [
+   "A gym charges $38 to join plus $11 each month.",
+   "A store sells grapes at $1.85 per pound.",
+   "A recipe uses 7 cups of flour for every 4 loaves of bread.",
+   "A candle is 9 inches tall and burns down 1 inch each hour (its height compared with the hours burned).",
+   "A phone plan costs $34 plus $0.15 for each text message."
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.1",
+  "hr": false,
+  "gen": 0,
+  "rt": "mc",
+  "q": "Does the table show a proportional relationship between x and y?\n\nx: 1, 3, 4, 5 | y: 3, 9, 12, 15",
+  "a": "D. Yes, because y ÷ x is the same for every pair of values.",
+  "opts": [
+   "Yes, because y increases whenever x increases.",
+   "No, because y ÷ x is not the same for every pair of values.",
+   "No, because the x-values do not increase by the same amount.",
+   "Yes, because y ÷ x is the same for every pair of values."
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.1",
+  "hr": false,
+  "gen": 1,
+  "rt": "mc",
+  "q": "A stand charges 15 dollars plus 12 dollars for each pound of apples.\n\nIs the relationship between the pounds of apples and the total dollars proportional?",
+  "a": "C. No, because there is a charge of 15 dollars before the first pound of apples.",
+  "opts": [
+   "Yes, because the dollars added for each pound of apples never change.",
+   "No, because the dollars and the pounds of apples are measured in different units.",
+   "No, because there is a charge of 15 dollars before the first pound of apples.",
+   "Yes, because there is no charge at the start, only 12 dollars each time."
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.1",
+  "hr": false,
+  "gen": 3,
+  "rt": "ms",
+  "q": "Select all the situations that describe a proportional relationship.",
+  "a": "A. An empty tank fills with 4 liters of water each minute.; C. A worker earns $22 for each hour worked.; E. A store sells oranges at $1.60 per pound.",
+  "opts": [
+   "An empty tank fills with 4 liters of water each minute.",
+   "A plant is 7 inches tall and grows 1 inch each week (its height compared with the number of weeks).",
+   "A worker earns $22 for each hour worked.",
+   "A taxi charges $2.00 plus $3.25 per mile.",
+   "A store sells oranges at $1.60 per pound."
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.1",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "The table does not show a proportional relationship.\n\nx: 2, 4, 6, 8 | y: 22, 44, 66, 86\n\nWhich value of y would have to change for the relationship to be proportional?",
+  "a": "86",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.4",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "The graph shows a proportional relationship between batches made (x) and cups of flour used (y).\n\nWrite an equation for this relationship.",
+  "a": "y = 1.25x",
+  "opts": null,
+  "ft": "a straight line through the origin, (4, 5) and (8, 10), x from 0 to 10 by 1 and y from 0 to 11 by 1"
+ },
+ {
+  "code": "MA.7.AR.4.4",
+  "hr": false,
+  "gen": 1,
+  "rt": "mc",
+  "q": "A recipe uses 5/4 cup of sugar for each batch of muffins. The relationship is proportional. Let x be the number of batches and let y be the number of cups of sugar.\n\nWhich equation represents this relationship?",
+  "a": "A. y = (5/4)x",
+  "opts": [
+   "y = (5/4)x",
+   "x = (5/4)y",
+   "y = x + 5/4",
+   "y = (4/5)x"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.4",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "The table shows a proportional relationship between x and y.\n\nx: 2, 5, 7 | y: 6, 15, 21\n\nWrite an equation for this relationship.",
+  "a": "y = 3x",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.4",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "A machine fills 4.5 bottles each minute that it runs, on average. The relationship between the number of minutes and the number of bottles is proportional.\n\nNumber of minutes: 6, 8, 10 | Number of bottles: ?, ?, ?\n\nWhat are the three missing values in the table?",
+  "a": "27, 36, 45. Score: 1 point for all three values; two values earn 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.4",
+  "hr": true,
+  "gen": 2,
+  "rt": "mc",
+  "q": "Diego earns $11 per hour walking dogs. The relationship between the money earned, e, and the hours worked, h, is proportional.\n\nWhich equation gives the number of hours, h, that Diego must work to earn e dollars?",
+  "a": "D. h = (1/11)e",
+  "opts": [
+   "h = 11e",
+   "h = e − 11",
+   "e = (1/11)h",
+   "h = (1/11)e"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.4",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "The graph shows a proportional relationship between hours (x) and miles walked (y).\n\nWrite an equation for this relationship.",
+  "a": "y = 3.75x",
+  "opts": null,
+  "ft": "a straight line through the origin, (4, 15) and (8, 30), x from 0 to 10 by 1 and y from 0 to 33 by 3"
+ },
+ {
+  "code": "MA.7.AR.4.4",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "A printer prints at a constant rate. The proportional relationship is represented by y = 18x, where x is the number of minutes of printing and y is the number of pages.\n\nWhich description matches this relationship?",
+  "a": "A. The printer prints 18 pages each minute.",
+  "opts": [
+   "The printer prints 18 pages each minute.",
+   "The printer prints 18 more pages each minute than the minute before.",
+   "The printer takes 18 minutes for each page.",
+   "The printer prints 18 pages in all."
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.4",
+  "hr": false,
+  "gen": 1,
+  "rt": "mc",
+  "q": "A gardener uses 1/2 bag of soil for each planter. The relationship is proportional. Let x be the number of planters and let y be the number of bags of soil.\n\nWhich equation represents this relationship?",
+  "a": "C. y = (1/2)x",
+  "opts": [
+   "y = 2x",
+   "x = (1/2)y",
+   "y = (1/2)x",
+   "y = x + 1/2"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.4",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "The graph shows a proportional relationship between minutes (x) and pages read (y).\n\nWrite an equation for this relationship.",
+  "a": "y = 2.5x",
+  "opts": null,
+  "ft": "a straight line through the origin, (4, 10) and (8, 20), x from 0 to 10 by 1 and y from 0 to 22 by 2"
+ },
+ {
+  "code": "MA.7.AR.4.4",
+  "hr": false,
+  "gen": 1,
+  "rt": "mc",
+  "q": "A recipe uses 3/2 cup of sugar for each batch of muffins. The relationship is proportional. Let x be the number of batches and let y be the number of cups of sugar.\n\nWhich equation represents this relationship?",
+  "a": "A. y = (3/2)x",
+  "opts": [
+   "y = (3/2)x",
+   "y = (2/3)x",
+   "x = (3/2)y",
+   "y = x + 3/2"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.2.1",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "The net of a right circular cylinder is shown. The radius is 4 centimeters and the height is 24 centimeters.\n\nWhat is the surface area of the cylinder? Write your answer in terms of π.",
+  "a": "224π square centimeters",
+  "opts": null,
+  "ft": "the net of a cylinder: two circles of radius 4 cm and a rectangle 24 cm tall"
+ },
+ {
+  "code": "MA.7.GR.2.1",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "The net of a right circular cylinder is shown. Each circle has a diameter of 4 centimeters, and the rectangle is 24 centimeters tall.\n\nWhat is the surface area of the cylinder? Write your answer in terms of π.",
+  "a": "104π square centimeters",
+  "opts": null,
+  "ft": "the net of a cylinder: two circles each with a diameter of 4 cm drawn across it, and a rectangle 24 cm tall"
+ },
+ {
+  "code": "MA.7.GR.2.1",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "The right circular cylinder shown has a radius of 3 centimeters and a height of 24 centimeters.\n\nWhich net, with its dimensions, matches the cylinder?",
+  "a": "C. Two circles of radius 3 cm and a 6π cm by 24 cm rectangle",
+  "opts": [
+   "Two circles of radius 3 cm and a 3π cm by 24 cm rectangle",
+   "Two circles of radius 3 cm and a 6 cm by 24 cm rectangle",
+   "Two circles of radius 3 cm and a 6π cm by 24 cm rectangle",
+   "One circle of radius 3 cm and a 6π cm by 24 cm rectangle"
+  ],
+  "ft": "a right circular cylinder with a radius of 3 cm and a height of 24 cm"
+ },
+ {
+  "code": "MA.7.GR.2.1",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "The net of a right circular cylinder is shown. The circles have a radius of 9 inches and the rectangle is 24 inches tall.\n\nWhat is the area of the rectangle, in terms of π?",
+  "a": "432π square inches",
+  "opts": null,
+  "ft": "the net of a cylinder: two circles of radius 9 in. and a rectangle 24 in. tall"
+ },
+ {
+  "code": "MA.7.GR.2.1",
+  "hr": true,
+  "gen": 0,
+  "rt": "",
+  "q": "The net of a right circular cylinder is shown. The rectangle is 22π centimeters long and 19 centimeters tall.\n\nWhat is the surface area of the cylinder? Write your answer in terms of π.",
+  "a": "660π square centimeters",
+  "opts": null,
+  "ft": "the net of a cylinder: two circles with no radius labeled and a rectangle 22π cm long and 19 cm tall"
+ },
+ {
+  "code": "MA.7.GR.2.1",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "The net of a right circular cylinder is shown. The radius is 6 centimeters and the height is 8 centimeters.\n\nWhat is the surface area of the cylinder? Write your answer in terms of π.",
+  "a": "168π square centimeters",
+  "opts": null,
+  "ft": "the net of a cylinder: two circles of radius 6 cm and a rectangle 8 cm tall"
+ },
+ {
+  "code": "MA.7.GR.2.1",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "The net of a right circular cylinder is shown. Each circle has a diameter of 8 centimeters, and the rectangle is 16 centimeters tall.\n\nWhat is the surface area of the cylinder? Write your answer in terms of π.",
+  "a": "160π square centimeters",
+  "opts": null,
+  "ft": "the net of a cylinder: two circles each with a diameter of 8 cm drawn across it, and a rectangle 16 cm tall"
+ },
+ {
+  "code": "MA.7.GR.2.1",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "The net of a right circular cylinder is shown. The circles have a radius of 2 inches and the rectangle is 21 inches tall.\n\nWhat is the area of the rectangle, in terms of π?",
+  "a": "84π square inches",
+  "opts": null,
+  "ft": "the net of a cylinder: two circles of radius 2 in. and a rectangle 21 in. tall"
+ },
+ {
+  "code": "MA.7.GR.2.1",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "The net of a right circular cylinder is shown. The circles have a radius of 7 inches and the rectangle is 13 inches tall.\n\nWhat is the area of the rectangle, in terms of π?",
+  "a": "182π square inches",
+  "opts": null,
+  "ft": "the net of a cylinder: two circles of radius 7 in. and a rectangle 13 in. tall"
+ },
+ {
+  "code": "MA.7.GR.2.1",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "The net of a right circular cylinder is shown. Each circle has a diameter of 18 centimeters, and the rectangle is 14 centimeters tall.\n\nWhat is the surface area of the cylinder? Write your answer in terms of π.",
+  "a": "414π square centimeters",
+  "opts": null,
+  "ft": "the net of a cylinder: two circles each with a diameter of 18 cm drawn across it, and a rectangle 14 cm tall"
+ },
+ {
+  "code": "MA.7.GR.2.2",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "Surface area of a right circular cylinder: SA = 2πr² + 2πrh\n\nA cylindrical water tank has a radius of 9 feet and a height of 17 feet. Its whole outside surface, including the top and the bottom, will be covered with sheet metal.\n\nWhat is the area that the sheet metal must cover? Write your answer in terms of π.",
+  "a": "468π square feet",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.2.2",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "Surface area of a right circular cylinder: SA = 2πr² + 2πrh\n\nA cylindrical container is made of plastic. It has a radius of 3 inches and a height of 14 inches, and it has a bottom but no top.\n\nWhat is the area of the plastic needed to make the container? Write your answer in terms of π.",
+  "a": "93π square inches",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.2.2",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "Surface area of a right circular cylinder: SA = 2πr² + 2πrh\n\nA cylindrical gift tin with a lid has a radius of 3 inches and a height of 4 inches. The whole tin, including the lid and the bottom, is covered with decorative paper.\n\nWhat is the area the paper covers, in square inches?",
+  "a": "A. 42π",
+  "opts": [
+   "42π",
+   "30π",
+   "33π",
+   "24π"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.2.2",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "Surface area of a right circular cylinder: SA = 2πr² + 2πrh\n\nA cylindrical oatmeal container has a radius of 5 inches and a height of 11 inches. A label wraps all the way around its curved side, with no overlap; the top and the bottom are not covered.\n\nWhat is the area of the label? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+  "a": "345.58 square inches",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.2.2",
+  "hr": true,
+  "gen": 2,
+  "rt": "",
+  "q": "Surface area of a right circular cylinder: SA = 2πr² + 2πrh\n\nA cylindrical water tank stands on the ground. It has a radius of 7 feet and a height of 17 feet. The curved side and the top will be painted, but not the bottom. One gallon of paint covers 400 square feet, and paint is sold only in whole gallons.\n\nHow many gallons of paint must be bought? Use the π key on your calculator.",
+  "a": "3 gallons",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.2.2",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "Surface area of a right circular cylinder: SA = 2πr² + 2πrh\n\nA cylindrical planter has no top. It has a radius of 5 inches and a height of 12 inches. The outside of the planter, including its bottom, will be painted.\n\nWhat is the area that will be painted? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+  "a": "455.53 square inches",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.2.2",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "Surface area of a right circular cylinder: SA = 2πr² + 2πrh\n\nA cylindrical can has a radius of 7 centimeters and a height of 8 centimeters. A paper label wraps around the side of the can. It does not cover the top or the bottom.\n\nWhat is the area of the label? Write your answer in terms of π.",
+  "a": "112π square centimeters",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.2.2",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "Surface area of a right circular cylinder: SA = 2πr² + 2πrh\n\nA cylindrical water tank has a radius of 11 feet and a height of 10 feet. Its whole outside surface, including the top and the bottom, will be covered with sheet metal.\n\nWhat is the area that the sheet metal must cover? Write your answer in terms of π.",
+  "a": "462π square feet",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.2.2",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "Surface area of a right circular cylinder: SA = 2πr² + 2πrh\n\nA cylindrical container is made of plastic. It has a radius of 11 inches and a height of 13 inches, and it has a bottom but no top.\n\nWhat is the area of the plastic needed to make the container? Write your answer in terms of π.",
+  "a": "407π square inches",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.2.2",
+  "hr": false,
+  "gen": 4,
+  "rt": "",
+  "q": "Surface area of a right circular cylinder: SA = 2πr² + 2πrh\n\nA cylindrical oatmeal container has a radius of 3 inches and a height of 10 inches. A label wraps all the way around its curved side, with no overlap; the top and the bottom are not covered.\n\nWhat is the area of the label? Round your answer to the nearest hundredth. Use 3.14 for π.",
+  "a": "188.40 square inches",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.2.3",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "A cylindrical tank has a radius of 8 feet and a height of 12 feet.\n\nWhat is the volume of the tank? Round your answer to the nearest hundredth. Use 3.14 for π.",
+  "a": "2411.52 cubic feet",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.2.3",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "A cylindrical container has a diameter of 16 inches and a height of 24 inches.\n\nWhat is the volume of the container? Write your answer in terms of π.",
+  "a": "1536π cubic inches",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.2.3",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "A right circular cylinder has a radius of 6 units and a height of 16 units.\n\nWhat is the volume of the cylinder, in cubic units?",
+  "a": "C. 576π",
+  "opts": [
+   "192π",
+   "1152π",
+   "576π",
+   "96π"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.2.3",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A cylindrical trash can has a diameter of 20 inches and a height of 26 inches.\n\nWhat is the volume of the trash can? Round your answer to the nearest hundredth. Use 3.14 for π.",
+  "a": "8164 cubic inches (8164.00 also accepted)",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.2.3",
+  "hr": true,
+  "gen": 0,
+  "rt": "",
+  "q": "A cylindrical storage tank has a volume of 478 cubic feet and a radius of 3.2 feet.\n\nWhat is the height of the storage tank? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+  "a": "14.86 feet",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.2.3",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "A right circular cylinder has a radius of 8 units and a height of 4 units.\n\nWhat is the volume of the cylinder, in cubic units?",
+  "a": "C. 256π",
+  "opts": [
+   "64π",
+   "32π",
+   "256π",
+   "512π"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.2.3",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A cylindrical swimming pool has a diameter of 12 feet and a height of 3 feet.\n\nWhat is the volume of the pool? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+  "a": "339.29 cubic feet",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.2.3",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "A cylindrical container has a diameter of 8 inches and a height of 24 inches.\n\nWhat is the volume of the container? Write your answer in terms of π.",
+  "a": "384π cubic inches",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.2.3",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "A cylindrical tank has a radius of 8 feet and a height of 5 feet.\n\nWhat is the volume of the tank? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+  "a": "1005.31 cubic feet",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.2.3",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "A cylindrical container has a diameter of 4 inches and a height of 16 inches.\n\nWhat is the volume of the container? Write your answer in terms of π.",
+  "a": "64π cubic inches",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.1",
+  "hr": false,
+  "gen": 4,
+  "rt": "mc",
+  "q": "The line plot shows the number of pets in each household surveyed.\n\nWhich measure of center best describes a typical value in this data set, and why?",
+  "a": "A. the median, because one value is far from the rest and pulls the mean away",
+  "opts": [
+   "the median, because one value is far from the rest and pulls the mean away",
+   "the mean, because every value is close to the rest, with no outlier",
+   "the range, because it shows how spread out the data is",
+   "the mean, because it is easier to find on a line plot than the median"
+  ],
+  "ft": "a line plot on a number line from 0 to 12 of the 13 values from 1 to 12, with one value far to the right of all the others"
+ },
+ {
+  "code": "MA.7.DP.1.1",
+  "hr": false,
+  "gen": 1,
+  "rt": "mc",
+  "q": "The numbers of minutes a student practiced piano on six days are 32, 41, 50, 57, 64, 186.\n\nWhich measure of variation better describes the spread of the data, and why?",
+  "a": "C. the interquartile range, because an outlier stretches the range",
+  "opts": [
+   "the range, because there is no outlier to stretch it",
+   "the mean, because it uses every value in the data set",
+   "the interquartile range, because an outlier stretches the range",
+   "the range, because an outlier makes the spread easier to see"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.1",
+  "hr": false,
+  "gen": 0,
+  "rt": "mc",
+  "q": "The prices of the cars in a lot, in thousands of dollars, are 25, 29, 39, 42, 53, 243.\n\nWhich measure of center best describes a typical value in this data set?",
+  "a": "D. the median, because an outlier pulls the mean away from the rest",
+  "opts": [
+   "the mean, because no value is far enough away to pull it off center",
+   "the range, because it shows how spread out the data is",
+   "the mean, because only the middle value affects it",
+   "the median, because an outlier pulls the mean away from the rest"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.1",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "The histogram shows the numbers of minutes 25 students spent on homework last night.\n\nWhich measure of center best describes a typical value in this data set, and why?",
+  "a": "C. the median, because one value is far from the rest of the data",
+  "opts": [
+   "the range, because one value is far from the rest of the data",
+   "the mean, because no value is far from the rest of the data",
+   "the median, because one value is far from the rest of the data",
+   "the mean, because one value is far from the rest of the data"
+  ],
+  "ft": "a histogram with bars 0–9: 0, 10–19: 4, 20–29: 11, 30–39: 9, 40–49: 0, 50–59: 0, 60–69: 0, 70–79: 1"
+ },
+ {
+  "code": "MA.7.DP.1.1",
+  "hr": true,
+  "gen": 1,
+  "rt": "ms",
+  "q": "The prices, in dollars, of eight used bikes at a yard sale are 90, 30, 34, 26, 28, 22, 32, 30.\n\nOne value in this data set is an outlier. Select all the statements that are true.",
+  "a": "A. Removing 90 from the data set would change the mean more than it would change the median.; C. The range is more than twice the interquartile range.; D. The mean is greater than the median.",
+  "opts": [
+   "Removing 90 from the data set would change the mean more than it would change the median.",
+   "Removing 90 from the data set would not change the range.",
+   "The range is more than twice the interquartile range.",
+   "The mean is greater than the median.",
+   "The interquartile range is more than half of the range.",
+   "Removing 90 from the data set would change the median more than it would change the mean."
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.1",
+  "hr": false,
+  "gen": 0,
+  "rt": "mc",
+  "q": "The yearly salaries at a small shop, in thousands of dollars, are 26, 28, 34, 46, 52, 210.\n\nWhich measure of center best describes a typical value in this data set?",
+  "a": "B. the median, because an outlier pulls the mean away from the rest",
+  "opts": [
+   "the mean, because no value is far enough away to pull it off center",
+   "the median, because an outlier pulls the mean away from the rest",
+   "the median, because it is easier to calculate than the mean",
+   "the mean, because only the middle value affects it"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.1",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "The histogram shows the ages of the 25 people at a family picnic.\n\nWhich measure of center best describes a typical value in this data set, and why?",
+  "a": "D. the mean, because no value is far from the rest of the data",
+  "opts": [
+   "the mean, because one value is far from the rest of the data",
+   "the range, because no value is far from the rest of the data",
+   "the median, because one value is far from the rest of the data",
+   "the mean, because no value is far from the rest of the data"
+  ],
+  "ft": "a histogram with bars 0–9: 0, 10–19: 0, 20–29: 1, 30–39: 6, 40–49: 9, 50–59: 5, 60–69: 4, 70–79: 0"
+ },
+ {
+  "code": "MA.7.DP.1.1",
+  "hr": false,
+  "gen": 2,
+  "rt": "mc",
+  "q": "The box plot shows the minutes of practice for the members of a band.\n\nWhich measure of variation better describes the spread of the data, and why?",
+  "a": "A. the interquartile range, because one long whisker stretches the range",
+  "opts": [
+   "the interquartile range, because one long whisker stretches the range",
+   "the median, because it is in the middle of the box",
+   "the range, because both whiskers are short and nothing stretches it",
+   "the interquartile range, because it uses every value in the data set"
+  ],
+  "ft": "a box plot from 15 to 65 with Q1 = 20, median = 25 and Q3 = 30"
+ },
+ {
+  "code": "MA.7.DP.1.1",
+  "hr": false,
+  "gen": 1,
+  "rt": "mc",
+  "q": "The numbers of customers at a food truck on six days are 33, 43, 50, 55, 59, 153.\n\nWhich measure of variation better describes the spread of the data, and why?",
+  "a": "A. the interquartile range, because an outlier stretches the range",
+  "opts": [
+   "the interquartile range, because an outlier stretches the range",
+   "the range, because an outlier makes the spread easier to see",
+   "the range, because there is no outlier to stretch it",
+   "the median, because it is the middle value of the ordered data"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.1",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "The histogram shows the commute times, in minutes, of 25 workers at an office.\n\nWhich measure of center best describes a typical value in this data set, and why?",
+  "a": "B. the median, because one value is far from the rest of the data",
+  "opts": [
+   "the range, because one value is far from the rest of the data",
+   "the median, because one value is far from the rest of the data",
+   "the mean, because no value is far from the rest of the data",
+   "the mean, because one value is far from the rest of the data"
+  ],
+  "ft": "a histogram with bars 0–9: 0, 10–19: 5, 20–29: 9, 30–39: 10, 40–49: 0, 50–59: 0, 60–69: 0, 70–79: 1"
+ },
+ {
+  "code": "MA.7.DP.1.2",
+  "hr": false,
+  "gen": 0,
+  "rt": "mc",
+  "q": "Route A: 30, 28, 26, 30, 26\nRoute B: 21, 20, 24, 20, 25\n\nThe lists show the times, in minutes, of five trips on each of two bus routes. Which conclusion do the means of the two data sets support?",
+  "a": "A. Trips on Route A typically took about 6 more minutes than trips on Route B.",
+  "opts": [
+   "Trips on Route A typically took about 6 more minutes than trips on Route B.",
+   "Trips on Route A typically took about 30 more minutes than trips on Route B.",
+   "Trips on Route A typically took about 5 more minutes than trips on Route B.",
+   "Trips on Route B typically took about 6 more minutes than trips on Route A."
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.2",
+  "hr": false,
+  "gen": 4,
+  "rt": "mc",
+  "q": "The box plots show the heights, in centimeters, of the sunflowers grown in two gardens. The two gardens have the same number of sunflowers.\n\nA sunflower from one of the two gardens is 132 centimeters tall. Which garden did the sunflower more likely come from, and why?",
+  "a": "A. Garden A, because 132 is in the middle half for Garden A but in the top fourth for Garden B",
+  "opts": [
+   "Garden A, because 132 is in the middle half for Garden A but in the top fourth for Garden B",
+   "Garden B, because the median of the data for Garden B is closer to 132 than the median for Garden A",
+   "Garden B, because 132 is between the least and the greatest values of the data for Garden B",
+   "Either one is equally likely, because 132 is within the range of the data for both gardens"
+  ],
+  "ft": "two box plots on an axis from 95 to 155: Garden A from 125 to 150 with quartiles 130, 135, 145; Garden B from 100 to 135 with quartiles 110, 115, 120"
+ },
+ {
+  "code": "MA.7.DP.1.2",
+  "hr": false,
+  "gen": 2,
+  "rt": "mc",
+  "q": "The line plots show the numbers of pages read last night by the 9 students in each of two reading groups.\n\nWhich conclusion do the medians of the two groups support?",
+  "a": "D. Students in Group B typically read about 4 more pages than students in Group A.",
+  "opts": [
+   "Students in Group B typically read about 1 more pages than students in Group A.",
+   "Students in Group B typically read about 6 more pages than students in Group A.",
+   "Students in Group A typically read about 4 more pages than students in Group B.",
+   "Students in Group B typically read about 4 more pages than students in Group A."
+  ],
+  "ft": "two line plots on the same number line from 5 to 25. Group A: 6, 6, 8, 11, 13, 18, 18, 20, 20. Group B: 12, 15, 16, 16, 17, 19, 19, 20, 21"
+ },
+ {
+  "code": "MA.7.DP.1.2",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "The box plots show the times, in minutes, of trips on two bus routes.\n\nWhich conclusion about the two routes is supported by the box plots?",
+  "a": "A. Trips on Route A typically took longer, and the trip times on Route B varied more.",
+  "opts": [
+   "Trips on Route A typically took longer, and the trip times on Route B varied more.",
+   "Trips on Route A typically took longer, and the trip times on Route A varied more.",
+   "Trips on the two routes typically took the same amount of time, and the trip times on Route A varied more.",
+   "Trips on Route B typically took longer, and the trip times on Route B varied more."
+  ],
+  "ft": "two box plots: Route A from 25 to 50 with quartiles 35, 40, 45; Route B from 15 to 50 with quartiles 20, 30, 40"
+ },
+ {
+  "code": "MA.7.DP.1.2",
+  "hr": true,
+  "gen": 0,
+  "rt": "mc",
+  "q": "The line plots show the numbers of goals two soccer teams scored in their games.\n\nUse the mean and the range of each data set. Which conclusion is supported by the data?",
+  "a": "D. The Hawks typically scored more goals, and the Hawks' numbers of goals varied more.",
+  "opts": [
+   "The Sharks typically scored more goals, and the Hawks' numbers of goals varied more.",
+   "The Sharks typically scored more goals, and the Sharks' numbers of goals varied more.",
+   "The Hawks typically scored more goals, and the Sharks' numbers of goals varied more.",
+   "The Hawks typically scored more goals, and the Hawks' numbers of goals varied more."
+  ],
+  "ft": "two line plots on the same number line from 0 to 9. Hawks: 3, 3, 4, 4, 5, 6, 6, 7. Sharks: 3, 3, 3, 3, 4, 4, 4, 4, 4, 5"
+ },
+ {
+  "code": "MA.7.DP.1.2",
+  "hr": false,
+  "gen": 0,
+  "rt": "mc",
+  "q": "Team A: 48, 52, 55, 48, 47\nTeam B: 49, 43, 45, 45, 43\n\nThe lists show the points scored in five games by each of two basketball teams. Which conclusion do the means of the two data sets support?",
+  "a": "C. Team A typically scored about 5 more points per game than Team B.",
+  "opts": [
+   "Team A typically scored about 25 more points per game than Team B.",
+   "Team A typically scored about 6 more points per game than Team B.",
+   "Team A typically scored about 5 more points per game than Team B.",
+   "Team B typically scored about 5 more points per game than Team A."
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.2",
+  "hr": false,
+  "gen": 4,
+  "rt": "mc",
+  "q": "The box plots show the numbers of books read over the summer by the students in two classes. The two classes have the same number of students.\n\nA student from one of the two classes read 42 books over the summer. Which class is the student more likely in, and why?",
+  "a": "A. Class A, because 42 is in the middle half for Class A but in the top fourth for Class B",
+  "opts": [
+   "Class A, because 42 is in the middle half for Class A but in the top fourth for Class B",
+   "Class B, because 42 is between the least and the greatest values of the data for Class B",
+   "Class B, because the median of the data for Class B is closer to 42 than the median for Class A",
+   "Either one is equally likely, because 42 is within the range of the data for both classes"
+  ],
+  "ft": "two box plots on an axis from 0 to 60: Class A from 30 to 55 with quartiles 35, 45, 50; Class B from 10 to 45 with quartiles 15, 20, 25"
+ },
+ {
+  "code": "MA.7.DP.1.2",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "The box plots show the quiz scores of the students in two classes.\n\nWhich conclusion about the two classes is supported by the box plots?",
+  "a": "D. Students in the two classes typically scored the same, and the scores in Class A varied more.",
+  "opts": [
+   "Students in Class A typically scored higher, and the scores in Class A varied more.",
+   "Students in Class B typically scored higher, and the scores in Class A varied more.",
+   "Students in Class A typically scored higher, and the scores in Class B varied more.",
+   "Students in the two classes typically scored the same, and the scores in Class A varied more."
+  ],
+  "ft": "two box plots: Class A from 10 to 40 with quartiles 15, 25, 35; Class B from 10 to 35 with quartiles 20, 25, 30"
+ },
+ {
+  "code": "MA.7.DP.1.2",
+  "hr": false,
+  "gen": 2,
+  "rt": "mc",
+  "q": "The line plots show the numbers of push-ups done in one minute by the 9 students in each of two classes.\n\nWhich conclusion do the medians of the two groups support?",
+  "a": "A. Students in Class B typically did about 6 more push-ups than students in Class A.",
+  "opts": [
+   "Students in Class B typically did about 6 more push-ups than students in Class A.",
+   "Students in Class A typically did about 6 more push-ups than students in Class B.",
+   "Students in Class B typically did about 7 more push-ups than students in Class A.",
+   "Students in Class B typically did about 4 more push-ups than students in Class A."
+  ],
+  "ft": "two line plots on the same number line from 5 to 25. Class A: 5, 5, 7, 9, 12, 13, 13, 15, 19. Class B: 12, 13, 15, 16, 18, 19, 19, 23, 23"
+ },
+ {
+  "code": "MA.7.DP.1.2",
+  "hr": false,
+  "gen": 4,
+  "rt": "mc",
+  "q": "The box plots show the heights, in centimeters, of the sunflowers grown in two gardens. The two gardens have the same number of sunflowers.\n\nA sunflower from one of the two gardens is 139 centimeters tall. Which garden did the sunflower more likely come from, and why?",
+  "a": "C. Garden B, because 139 is in the middle half for Garden B but in the top fourth for Garden A",
+  "opts": [
+   "Garden A, because 139 is between the least and the greatest values of the data for Garden A",
+   "Either one is equally likely, because 139 is within the range of the data for both gardens",
+   "Garden B, because 139 is in the middle half for Garden B but in the top fourth for Garden A",
+   "Garden A, because the median of the data for Garden A is closer to 139 than the median for Garden B"
+  ],
+  "ft": "two box plots on an axis from 100 to 155: Garden A from 105 to 140 with quartiles 115, 120, 125; Garden B from 125 to 150 with quartiles 130, 140, 145"
+ },
+ {
+  "code": "MA.7.DP.1.5",
+  "hr": false,
+  "gen": 4,
+  "rt": "mc",
+  "q": "A student recorded the 280 kilograms of material collected at a recycling drive.\n\nPaper: 126 | Plastic: 70 | Glass: 56 | Metal: 28\n\nThe student wants a display that answers this question at a glance: is Paper more than half of the total? Which display is the most appropriate?",
+  "a": "D. a circle graph",
+  "opts": [
+   "a bar chart",
+   "a histogram",
+   "a line plot",
+   "a circle graph"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.5",
+  "hr": false,
+  "gen": 0,
+  "rt": "mc",
+  "q": "A class surveyed 140 students about the lunch they like best.\nPizza: 21\nTacos: 35\nSalad: 63\nPasta: 21\n\nThe class wants a display that answers this question at a glance: did about one-fourth of the students choose Pizza? Which display is the most appropriate?",
+  "a": "C. a circle graph",
+  "opts": [
+   "a histogram",
+   "a box plot",
+   "a circle graph",
+   "a bar chart"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.5",
+  "hr": false,
+  "gen": 2,
+  "rt": "mc",
+  "q": "A gardener recorded the heights of 120 sunflowers, measured to the nearest centimeter. Almost every value is different. The table summarizes the data.\n\nHeight (cm): 90–109, 110–129, 130–149, 150–169, 170–189 | Number: 11, 23, 45, 37, 4\n\nThe gardener wants a display that shows the shape of the distribution. Which display is the most appropriate for this data set?",
+  "a": "B. a histogram",
+  "opts": [
+   "a circle graph",
+   "a histogram",
+   "a line plot",
+   "a stem-and-leaf plot"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.5",
+  "hr": false,
+  "gen": 3,
+  "rt": "",
+  "q": "The data shows the number of pets for 16 students:\n1, 0, 3, 1, 1, 2, 1, 0, 1, 2, 0, 1, 0, 0, 1, 2\n\nChoose the display that shows every value and how often it occurs. Explain why it fits these data, and describe what it would look like.",
+  "a": "A line plot, because the data are numbers with only a few different values, so every value can be shown. It would have an X above each value for each time it appears: 0 → 5 Xs, 1 → 7 Xs, 2 → 3 Xs, 3 → 1 X. Score: 1 point — a line plot or dot plot (a bar graph of the counts also accepted) with a reason that mentions the few different values, plus the description; the name alone earns 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.5",
+  "hr": true,
+  "gen": 0,
+  "rt": "",
+  "q": "The two displays show the same data: the numbers of minutes 20 students spent reading over the weekend.\n\nWhich display can be used to find the interquartile range of the data? Explain why the other display cannot, and then use the display to find the interquartile range of the data.",
+  "a": "Display A, the box plot, because it marks the median and the quartiles; the histogram groups the values into intervals, so it shows only which interval holds the quartiles, not the exact value. From it, the interquartile range is 45 − 35 = 10. Score: 1 point — the display named, why the other cannot be used, and the value; the value alone earns 0.",
+  "opts": null,
+  "ft": "Display B: a histogram with bars 20–29: 4, 30–39: 5, 40–49: 8, 50–59: 1, 60–69: 2. Display A: a box plot from 20 to 65 with Q1 = 35, median = 40 and Q3 = 45"
+ },
+ {
+  "code": "MA.7.DP.1.5",
+  "hr": false,
+  "gen": 0,
+  "rt": "mc",
+  "q": "A class surveyed 260 students about the way they get to school.\nBus: 52\nCar: 39\nWalk: 104\nBike: 26\nTrain: 39\n\nThe class wants a display that answers this question at a glance: how many more students chose Bus than chose Train? Which display is the most appropriate?",
+  "a": "D. a bar chart",
+  "opts": [
+   "a histogram",
+   "a circle graph",
+   "a box plot",
+   "a bar chart"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.5",
+  "hr": false,
+  "gen": 3,
+  "rt": "",
+  "q": "The data shows the number of pets for 13 students:\n0, 4, 0, 2, 2, 1, 1, 3, 1, 0, 3, 2, 0\n\nChoose the display that shows every value and how often it occurs. Explain why it fits these data, and describe what it would look like.",
+  "a": "A line plot, because the data are numbers with only a few different values, so every value can be shown. It would have an X above each value for each time it appears: 0 → 4 Xs, 1 → 3 Xs, 2 → 3 Xs, 3 → 2 Xs, 4 → 1 X. Score: 1 point — a line plot or dot plot (a bar graph of the counts also accepted) with a reason that mentions the few different values, plus the description; the name alone earns 0.",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.5",
+  "hr": false,
+  "gen": 1,
+  "rt": "mc",
+  "q": "A teacher recorded the test scores of 15 students:\n97, 97, 79, 95, 97, 90, 79, 87, 89, 72, 72, 72, 91, 85, 98\n\nThe teacher wants a display that keeps every value and shows the shape of the data. Which display is the most appropriate for this data set?",
+  "a": "A. a stem-and-leaf plot",
+  "opts": [
+   "a stem-and-leaf plot",
+   "a box plot",
+   "a bar chart of categories",
+   "a circle graph"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.5",
+  "hr": false,
+  "gen": 0,
+  "rt": "mc",
+  "q": "A class surveyed 200 students about the way they get to school.\nBus: 60\nCar: 20\nWalk: 40\nBike: 50\nTrain: 30\n\nThe class wants a display that answers this question at a glance: how many more students chose Bus than chose Car? Which display is the most appropriate?",
+  "a": "B. a bar chart",
+  "opts": [
+   "a box plot",
+   "a bar chart",
+   "a circle graph",
+   "a histogram"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.1.5",
+  "hr": false,
+  "gen": 4,
+  "rt": "mc",
+  "q": "A student recorded how a family divides its monthly income of $4,800.\n\nRent: $2,160 | Food: $1,200 | Transportation: $960 | Savings: $480\n\nThe student wants a display that answers this question at a glance: is Rent more than half of the total? Which display is the most appropriate?",
+  "a": "A. a circle graph",
+  "opts": [
+   "a circle graph",
+   "a line plot",
+   "a histogram",
+   "a bar chart"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.DP.2.2",
+  "hr": false,
+  "gen": 4,
+  "rt": "match",
+  "q": "A probability is given for each event.\n\nDescribe each event as likely, unlikely or neither.",
+  "a": "The probability that a tossed coin lands on heads is 50%. → Neither likely nor unlikely; The probability that it snows in Orlando, Florida, this winter is 0.01. → Unlikely; The probability that a thunderstorm is within 5 miles of your house tomorrow is 7/10. → Likely",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.2",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "Evaluate. Write your answer in simplest form.\n\n1/4 − 3/4",
+  "a": "−1/2",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.3",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "A group of 4 friends owes $148.80 for a group gift. They split the amount owed equally, and each friend's share is recorded as a negative balance. Then Maya pays 5/6 of her share.\n\nWhat is Maya's balance now?",
+  "a": "−$6.20",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.2",
+  "hr": false,
+  "gen": 5,
+  "rt": "",
+  "q": "A patio is shaped like the figure shown: a 14 ft by 13 ft rectangle with a 7 ft by 5 ft rectangular notch removed from the middle of one edge. The dashed lines show the part that was removed.\n\nWhat is the area of the patio, in square feet?",
+  "a": "147 ft²",
+  "opts": null,
+  "ft": "patio: a 14 ft by 13 ft rectangle with a 7 ft by 5 ft rectangle removed from the middle of its top edge; the removed part is outlined with dashes"
+ },
+ {
+  "code": "MA.7.GR.1.3",
+  "hr": false,
+  "gen": 3,
+  "rt": "",
+  "q": "The circumference of a round pool is 125.66 feet.\n\nWhat is the diameter of the round pool? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+  "a": "40 feet (40.00 also accepted)",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.2",
+  "hr": false,
+  "gen": 2,
+  "rt": "mc",
+  "q": "What is the value of the expression?\n\n−1 4/5 ÷ (−4/5)",
+  "a": "B. 2 1/4",
+  "opts": [
+   "4/9",
+   "2 1/4",
+   "9/20",
+   "1 11/25"
+  ],
+  "ft": ""
+ },
+ {
+  "code": "MA.7.GR.1.5",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "A photo is reduced by a scale factor of 1/5. A side that measures 40 inches in the original is scaled down.\n\nWhat is the length of the corresponding side in the reduction, in inches?",
+  "a": "8 inches",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.2",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "A 5-foot person casts a 12-foot shadow. At the same time a tree casts a 39-foot shadow.\n\nHow tall is the tree, in feet?",
+  "a": "B. 16.25 ft",
+  "opts": [
+   "7.80 ft",
+   "16.25 ft",
+   "93.60 ft",
+   "32.00 ft"
+  ],
+  "ft": "Right triangle: a 5 ft person with a 12 ft shadow"
+ },
+ {
+  "code": "MA.7.AR.3.1",
+  "hr": false,
+  "gen": 5,
+  "rt": "",
+  "q": "A student estimated the number of seats in an auditorium to be 774. The actual number was 750 seats.\n\nWhat is the percent error of the estimate?",
+  "a": "3.2%",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.1.1",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "Write the expression using the fewest possible terms.\n\n((8/3)x − 4) − ((7/3)x − 5)",
+  "a": "(1/3)x + 1",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.NSO.2.3",
+  "hr": false,
+  "gen": 3,
+  "rt": "",
+  "q": "The price of one share of a company's stock changed by these amounts over 4 days.\n\n−$0.60, +$1.55, −$1.95, −$0.40\n\nWhat was the mean (average) daily change in the price?",
+  "a": "−$0.35",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.3.1",
+  "hr": false,
+  "gen": 0,
+  "rt": "",
+  "q": "A pair of shoes costs $27.11 and is on sale for 37.5% off.\n\nWhat is the sale price, to the nearest cent?",
+  "a": "$16.94",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.2.2",
+  "hr": false,
+  "gen": 1,
+  "rt": "",
+  "q": "What is the exact value of m in the equation shown?\n\n−3 19/25 = (3/5)m − 4",
+  "a": "m = 2/5",
+  "opts": null,
+  "ft": ""
+ },
+ {
+  "code": "MA.7.AR.4.2",
+  "hr": false,
+  "gen": 2,
+  "rt": "",
+  "q": "The graph shows the proportional relationship between minutes and liters of water.\n\nWhat is the constant of proportionality, in liters per minute?",
+  "a": "12.5 liters per minute",
+  "opts": null,
+  "ft": "a straight line through the origin and (2, 25) and (4, 50), with minutes 0 to 5 by 1 on the x-axis and liters of water 0 to 55 by 5 on the y-axis"
+ },
+ {
+  "code": "MA.7.GR.2.3",
+  "hr": false,
+  "gen": 3,
+  "rt": "mc",
+  "q": "A right circular cylinder has a radius of 4 units and a height of 6 units.\n\nWhat is the volume of the cylinder, in cubic units?",
+  "a": "D. 96π",
+  "opts": [
+   "48π",
+   "24π",
+   "192π",
+   "96π"
+  ],
+  "ft": ""
+ }
+]

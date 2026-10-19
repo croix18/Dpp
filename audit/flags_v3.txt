@@ -1,0 +1,33 @@
+C-AR.2.1 | check | 1, 5 | PERSISTS and now on the check itself: −2.4 < −2 − c and the rigor's four choices are all 1.5 − x ⋚ k; not one-step at AR.2.1; no negative coefficient on the check while comparison X2 has one; no real-world item anywhere | drop the c − x bank; rigor = real-world negative-coefficient write-and-solve (−12.5t < −200 → t > 16)
+C-AR.4.3 | check | 2 | key says (5, 6) is "inside the window of each graph" but the mini-grids run to ±4 | choose k with a lattice point inside ±4 (3/4 → (4, 3)); fix the key sentence
+C-AR.4.3 | recheck | 3 | constant −1/6: negative k is not a 7th-grade proportional relationship; (6, −1) also outside the grid | positive k with a lattice point inside the grid
+C-AR.4.3 | check | 1, 4, X2 | y = 12x three times across the sets | vary k
+C-AR.4.3 | check | 5 | rigor is a plain "graph y = (3/2)x", easier than regular 4 | add "mark and label (1, r)" or "Is (10, 14) on the line? Explain."
+C-NSO.1.2 | recheck/comparison | R2, X2 | option 0.(0) is literally 0; paired with 0.(08)/0.(03) it is a bar-extent-only pair again; vinculum printing unverified | replace with a misplaced-bar nonzero or a terminating decimal; confirm the bar prints
+C-NSO.1.2 | check | 2–5 | PERSISTS: denominators all in the 11/33/99 family | vary the pool (sixths, sevenths, ninths, twelfths)
+C-NSO.1.2 | check | 4 | key accepts only 63 7/11 %; 63.(63)% is the 7th-grade form | accept both
+C-DP.2.4 | check/R/X | 3, R1, X1 | PERSISTS: the law-of-large-numbers MC appears three times | cap at one per benchmark
+C-DP.2.2 | check/R/X | 2, R1, X1 | "cannot be a probability" MC in all three sets; R3 reuses check 4's rows with cosmetic changes | cap at one; new contexts on R
+C-GR.1.4 | check | 5 | rigor same step count as regular 3; L4 (circumference and area together, semicircles) never assessed; 24-inch pizza on both check and R | rigor = semicircular window: area and curved-edge length; vary R diameters
+C-DP.1.3 | check | 5 | the claim (1350) equals the computed prediction (1352), so the judgment is automatic | make the claim wrong, or two samples of different size, which to trust and why
+C-GR.1.1 | all sets | — | rhombus items are all b×h; ½d₁d₂ never assessed; three trapezoids of five on the check | swap check 4 for rhombus given diagonals
+C-NSO.2.2 | check | — | no regular division item; key prints "Simplify: 7/15" on fractions already simplest | add a division regular; suppress the line
+C-GR.1.5 | R, X | R1, X2 | one-multiplication items; no scale-with-units (1 in : 5 ft) item anywhere | add a scale-with-units generator
+C-NSO.2.3 / C-DP.2.1 / C-GR.1.2 | all sets | — | pool-tank template in all three sets (NSO.2.3); letter-card count in all three (DP.2.1); both comparison items additive, no removal on X (GR.1.2) | cap a template at two sets; make X2 a removal
+C-AR.4.5 | check | 3 vs 5 | the L4 compare-and-justify item is a regular (item 3, no justification asked) while the rigor is a graph-and-read task (AR.4.3 content) easier than items 3–4 | make item 3 the rigor with "Explain which store is the better buy"; demote the graph
+C-AR.4.5 | recheck/check | R2, 4 | calculator on, answer 88/15 = 5.866… with no format instruction; key lists only 5 13/15 | "write as a fraction" or terminating numbers
+C-DP.1.4 | set | — | L4 "construct a circle graph" has no item: the construction was cut, not moved to the rigor | rigor = construct from 3 categories with a ±5° rule; select-all becomes a regular
+C-DP.1.4 | check | 1 vs 4 | same read-percent-times-total template; 4 is strictly easier | replace 4 with the reverse (72° sector of 260 → how many)
+C-DP.1.4 / C-AR.1.2 / C-AR.4.1 | key | select-all and match items | no scoring rule printed while two-part items have one | append "1 point only if every box is correct"
+C-NSO.1.1 | check | 1, 2, 3 | three of four regulars are the product rule; quotient rule only inside the rigor | replace item 3 with (−10)^7 ÷ (−10)^4 as a single power
+C-AR.3.3 | check / R | 1, 3 / R3 | two divide-direction regulars, none multiply; R3 is area units (ft²→m²) which never appears on the check | item 1 → 3.5 kg to pounds; R3 → a length or mass conversion
+C-AR.3.2 | set | 5 | L2 (equivalent ratios) has no item; L4 explanation not asked | add "explain why 21 ÷ 6 is the scale factor" to item 5
+C-AR.1.1 | check | 5 | PERSISTS: L4 is "write an expression from a situation"; rigor is error analysis; no contextual item anywhere | add the contextual rigor (perimeter with sides 3x + 2 and x − 1)
+C-AR.1.1 | recheck | order | hardest template leads the re-check | order easiest first
+C-NSO.2.1 | check | 5 | PERSISTS (partial): L4 error-analysis has no item; rigor is a parentheses-placement task | add an error-analysis generator
+C-GR.2.1 | check | 1–5 | h = 15 in all five items | vary h
+C-AR.2.2 | check | 2, 5 | both "$25 fee + per-unit"; rigor equation near-clone of item 2; L3 names distributive property but no check item uses it | change item 2's fee; make item 4 p(x + q) = r
+C-GR.2.2 | check / R / X | 4 / R2, R1 / X1 | same cylinder reused across sets (r = 6, h = 9; r = 3, h = 8); two open-top items on the check, no label (lateral-only) case | redraw R2 and X1; make item 4 a label
+C-GR.2.3 | recheck | 3 | same tank as GR.2.2 check 5 (cross-benchmark reuse) | redraw
+C-DP.1.5 | check | 2, 5 | both keyed stem-and-leaf | item 2 → box plot or histogram context
+C-DP.1.2 | check | 2, 3, 4 | three consecutive box-plot items | swap item 2 for the two-list template

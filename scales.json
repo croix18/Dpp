@@ -1,0 +1,316 @@
+{
+ "order": [
+  [
+   2,
+   "Probability",
+   [
+    "MA.7.DP.2.1",
+    "MA.7.NSO.1.2",
+    "MA.7.DP.2.2",
+    "MA.7.DP.2.3",
+    "MA.7.DP.2.4"
+   ]
+  ],
+  [
+   3,
+   "Operations with Rational Numbers",
+   [
+    "MA.7.NSO.2.2",
+    "MA.7.NSO.2.3"
+   ]
+  ],
+  [
+   4,
+   "Area",
+   [
+    "MA.7.GR.1.1",
+    "MA.7.GR.1.2",
+    "MA.7.GR.1.3",
+    "MA.7.GR.1.4"
+   ]
+  ],
+  [
+   5,
+   "Scaling With Proportional Relationships",
+   [
+    "MA.7.DP.1.3",
+    "MA.7.GR.1.5"
+   ]
+  ],
+  [
+   6,
+   "Multi-Step Problems With Proportional Relationships",
+   [
+    "MA.7.AR.3.3",
+    "MA.7.AR.3.2",
+    "MA.7.AR.4.5"
+   ]
+  ],
+  [
+   7,
+   "Percentage Problems With Proportional Relationships",
+   [
+    "MA.7.DP.1.4",
+    "MA.7.AR.3.1"
+   ]
+  ],
+  [
+   8,
+   "Evaluating Numeric Expressions",
+   [
+    "MA.7.NSO.1.1",
+    "MA.7.NSO.2.1"
+   ]
+  ],
+  [
+   9,
+   "Algebraic Expressions",
+   [
+    "MA.7.AR.1.1",
+    "MA.7.AR.1.2"
+   ]
+  ],
+  [
+   10,
+   "Equations and Inequalities",
+   [
+    "MA.7.AR.2.1",
+    "MA.7.AR.2.2"
+   ]
+  ],
+  [
+   11,
+   "Representing Proportional Relationships",
+   [
+    "MA.7.AR.4.3",
+    "MA.7.AR.4.2",
+    "MA.7.AR.4.1",
+    "MA.7.AR.4.4"
+   ]
+  ],
+  [
+   12,
+   "Surface Area and Volume",
+   [
+    "MA.7.GR.2.1",
+    "MA.7.GR.2.2",
+    "MA.7.GR.2.3"
+   ]
+  ],
+  [
+   13,
+   "Numerical and Categorical Data",
+   [
+    "MA.7.DP.1.1",
+    "MA.7.DP.1.2",
+    "MA.7.DP.1.5"
+   ]
+  ]
+ ],
+ "scales": {
+  "MA.7.DP.2.1": {
+   "goal": "I can find the sample space of an experiment.",
+   "l2": "I can list some of the outcomes of a simple experiment.",
+   "l3": "I can list or count every outcome in the sample space, with no repeats or misses.",
+   "l4": "I can explain why a repeated color or letter counts as one outcome, and decide whether two experiments have the same sample space."
+  },
+  "MA.7.NSO.1.2": {
+   "goal": "I can rewrite rational numbers in equivalent forms.",
+   "l2": "I can convert between a fraction and a terminating decimal.",
+   "l3": "I can convert between fractions, decimals, and percents, including repeating decimals.",
+   "l4": "I can choose the best form of a number to solve a problem and explain why it is equivalent."
+  },
+  "MA.7.DP.2.2": {
+   "goal": "I can find and interpret the probability of a simple event.",
+   "l2": "I can tell whether an event is likely, unlikely, certain, or impossible.",
+   "l3": "I can write the probability of a simple event as a fraction, decimal, or percent and say what it means.",
+   "l4": "I can compare probabilities of events from different experiments and explain which is more likely."
+  },
+  "MA.7.DP.2.3": {
+   "goal": "I can find the theoretical probability of an event.",
+   "l2": "I can count the favorable outcomes and the total outcomes.",
+   "l3": "I can find the theoretical probability of a simple event and write it as a fraction, decimal, or percent.",
+   "l4": "I can find the probability of an event described by a condition (such as 'an even number' or 'not red') and explain my count."
+  },
+  "MA.7.DP.2.4": {
+   "goal": "I can use a simulation to find experimental probability.",
+   "l2": "I can record the results of trials in a table.",
+   "l3": "I can use results from a simulation to find an experimental probability and compare it to theoretical.",
+   "l4": "I can design a simulation for a situation and predict results for a larger number of trials."
+  },
+  "MA.7.NSO.2.2": {
+   "goal": "I can add, subtract, multiply, and divide rational numbers.",
+   "l2": "I can add and subtract integers and multiply and divide with the correct sign.",
+   "l3": "I can add, subtract, multiply, and divide fractions, decimals, and negatives accurately.",
+   "l4": "I can solve a multi-step computation with rational numbers and check that the sign and size make sense."
+  },
+  "MA.7.NSO.2.3": {
+   "goal": "I can solve real-world problems with rational numbers.",
+   "l2": "I can pick the operation a word problem needs.",
+   "l3": "I can solve a real-world problem involving rational numbers and state the answer with units.",
+   "l4": "I can solve a multi-step real-world problem with rational numbers and explain whether the answer is reasonable."
+  },
+  "MA.7.GR.1.1": {
+   "goal": "I can find the area of trapezoids, parallelograms, and rhombi.",
+   "l2": "I can find the area of a rectangle and a triangle.",
+   "l3": "I can use the formulas to find the area of a trapezoid, parallelogram, or rhombus.",
+   "l4": "I can find a missing dimension when the area is given, or explain where a formula comes from."
+  },
+  "MA.7.GR.1.2": {
+   "goal": "I can find the area of polygons and composite figures.",
+   "l2": "I can split a figure into shapes I know.",
+   "l3": "I can find the area of a polygon or composite figure by adding or subtracting areas.",
+   "l4": "I can solve a real-world problem with a composite figure, including one with a region removed."
+  },
+  "MA.7.GR.1.3": {
+   "goal": "I can use the relationship between circumference and diameter.",
+   "l2": "I can identify the radius, diameter, and circumference of a circle.",
+   "l3": "I can find circumference from radius or diameter, and radius or diameter from circumference.",
+   "l4": "I can explain pi as the ratio of circumference to diameter and use it in a real-world problem."
+  },
+  "MA.7.GR.1.4": {
+   "goal": "I can find the area of a circle.",
+   "l2": "I can find the radius from the diameter and square a number.",
+   "l3": "I can find the area of a circle from its radius or diameter.",
+   "l4": "I can solve a real-world problem using circumference and area together, including semicircles."
+  },
+  "MA.7.DP.1.3": {
+   "goal": "I can use a random sample to make a prediction about a population.",
+   "l2": "I can tell whether a sample is random and representative.",
+   "l3": "I can use a proportion from a sample to predict a value for the whole population.",
+   "l4": "I can judge whether a prediction is reasonable and explain how sample size or bias affects it."
+  },
+  "MA.7.GR.1.5": {
+   "goal": "I can solve problems with scale drawings and scale factors.",
+   "l2": "I can find a scale factor between two figures.",
+   "l3": "I can find actual lengths, perimeters, and areas from a scale drawing or scale factor.",
+   "l4": "I can explain how the scale factor changes perimeter versus area and use that in a real-world problem."
+  },
+  "MA.7.AR.3.3": {
+   "goal": "I can convert units using proportional reasoning.",
+   "l2": "I can set up a ratio between two units.",
+   "l3": "I can convert between measurement systems for length, area, weight or mass, volume, or money, using a conversion factor.",
+   "l4": "I can solve a multi-step conversion problem across measurement systems and check the result."
+  },
+  "MA.7.AR.3.2": {
+   "goal": "I can set up and solve proportions for real-world problems.",
+   "l2": "I can tell whether two ratios are equivalent.",
+   "l3": "I can write a proportion from a situation and solve it.",
+   "l4": "I can solve a multi-step problem with proportions and explain why the setup makes sense."
+  },
+  "MA.7.AR.4.5": {
+   "goal": "I can solve multi-step problems with proportional relationships.",
+   "l2": "I can find a unit rate.",
+   "l3": "I can solve a real-world problem with a proportional relationship in two or more steps.",
+   "l4": "I can compare two proportional situations and justify which is the better choice."
+  },
+  "MA.7.DP.1.4": {
+   "goal": "I can create and interpret circle graphs.",
+   "l2": "I can read a percent or category from a circle graph.",
+   "l3": "I can find the sector angle or percent for each category and interpret a circle graph.",
+   "l4": "I can construct a circle graph from data and use it to answer a comparison question."
+  },
+  "MA.7.AR.3.1": {
+   "goal": "I can solve percent problems: discount, markup, tax, tip, interest, percent change, percent error.",
+   "l2": "I can find a percent of a number.",
+   "l3": "I can solve a one-step percent problem such as a discount, tax, tip, or simple interest.",
+   "l4": "I can solve a multi-step percent problem, including percent change or percent error, and explain the result."
+  },
+  "MA.7.NSO.1.1": {
+   "goal": "I can apply the laws of exponents with whole-number exponents.",
+   "l2": "I can evaluate a power with a whole-number exponent.",
+   "l3": "I can use the product, quotient, and power rules to write an equivalent expression.",
+   "l4": "I can combine several exponent rules in one expression and explain each step."
+  },
+  "MA.7.NSO.2.1": {
+   "goal": "I can use order of operations with rational numbers.",
+   "l2": "I can use order of operations with whole numbers.",
+   "l3": "I can evaluate an expression with rational numbers, exponents, and grouping symbols.",
+   "l4": "I can find and explain an error in someone else's work with order of operations."
+  },
+  "MA.7.AR.1.1": {
+   "goal": "I can add and subtract linear expressions.",
+   "l2": "I can combine like terms with integer coefficients.",
+   "l3": "I can add and subtract linear expressions with rational coefficients.",
+   "l4": "I can write and simplify an expression from a real-world situation."
+  },
+  "MA.7.AR.1.2": {
+   "goal": "I can tell whether two expressions are equivalent.",
+   "l2": "I can use the distributive property on a simple expression.",
+   "l3": "I can decide whether two linear expressions are equivalent and rewrite one as the other.",
+   "l4": "I can justify equivalence using properties of operations, including factoring."
+  },
+  "MA.7.AR.2.1": {
+   "goal": "I can write and solve one-step inequalities and graph the solutions.",
+   "l2": "I can graph an inequality on a number line.",
+   "l3": "I can solve a one-step inequality, including with negative numbers, and graph the solution.",
+   "l4": "I can write an inequality from a real-world situation, solve it, and interpret the solution."
+  },
+  "MA.7.AR.2.2": {
+   "goal": "I can write and solve two-step equations.",
+   "l2": "I can solve a one-step equation.",
+   "l3": "I can solve a two-step equation, including with rational numbers or the distributive property.",
+   "l4": "I can write a two-step equation from a real-world context, solve it, and check the answer."
+  },
+  "MA.7.AR.4.3": {
+   "goal": "I can graph proportional relationships.",
+   "l2": "I can plot points from a table.",
+   "l3": "I can graph a proportional relationship and identify the points (0, 0) and (1, r).",
+   "l4": "I can use a graph to find the constant of proportionality and interpret it in context."
+  },
+  "MA.7.AR.4.2": {
+   "goal": "I can find the constant of proportionality.",
+   "l2": "I can find a unit rate from a ratio.",
+   "l3": "I can find the constant of proportionality from a table, graph, or written description.",
+   "l4": "I can explain what the constant of proportionality means in the situation."
+  },
+  "MA.7.AR.4.1": {
+   "goal": "I can decide whether a relationship is proportional.",
+   "l2": "I can check whether two ratios are equal.",
+   "l3": "I can decide whether a table, graph, or written description shows a proportional relationship and say why.",
+   "l4": "I can explain why a relationship is not proportional using more than one representation."
+  },
+  "MA.7.AR.4.4": {
+   "goal": "I can write an equation for a proportional relationship.",
+   "l2": "I can find the constant of proportionality.",
+   "l3": "I can write the equation y = kx from a table, graph, or description and use it.",
+   "l4": "I can translate between a table, a graph, an equation, and a description of the same relationship."
+  },
+  "MA.7.GR.2.1": {
+   "goal": "I can find the surface area of a right circular cylinder.",
+   "l2": "I can identify the parts of a cylinder's net.",
+   "l3": "I can find the surface area of a cylinder from its radius and height.",
+   "l4": "I can explain how the net gives the formula and find surface area with a missing dimension."
+  },
+  "MA.7.GR.2.2": {
+   "goal": "I can solve problems involving surface area of cylinders.",
+   "l2": "I can find the area of a circle and a rectangle.",
+   "l3": "I can solve a real-world problem with the surface area of a cylinder.",
+   "l4": "I can solve a multi-step surface-area problem, such as a label or an open-top can."
+  },
+  "MA.7.GR.2.3": {
+   "goal": "I can find the volume of a right circular cylinder.",
+   "l2": "I can find the area of the base.",
+   "l3": "I can find the volume of a cylinder from its radius or diameter and height.",
+   "l4": "I can solve a real-world volume problem, including comparing two cylinders."
+  },
+  "MA.7.DP.1.1": {
+   "goal": "I can choose and justify measures of center and spread.",
+   "l2": "I can find the mean, median, and range of a data set.",
+   "l3": "I can choose the best measure of center or spread for a data set and explain why.",
+   "l4": "I can explain how an outlier changes the mean, median, and range."
+  },
+  "MA.7.DP.1.2": {
+   "goal": "I can compare two data sets using their displays.",
+   "l2": "I can read values from a box plot or histogram.",
+   "l3": "I can compare two data sets using measures of center and spread from their displays.",
+   "l4": "I can make and justify a claim about two populations using their data displays."
+  },
+  "MA.7.DP.1.5": {
+   "goal": "I can choose and create an appropriate data display.",
+   "l2": "I can make a bar graph or dot plot from data.",
+   "l3": "I can choose the right display for numerical or categorical data and create it accurately.",
+   "l4": "I can explain why one display is better than another for a given question."
+  }
+ }
+}

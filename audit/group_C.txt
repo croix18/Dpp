@@ -1,0 +1,3547 @@
+
+
+==================== C-AR.2.1  (MA.7.AR.2.1, Unit 10: Equations and Inequalities) ====================
+--- SCALE: {"goal": "I can write and solve one-step inequalities and graph the solutions.", "l2": "I can graph an inequality on a number line.", "l3": "I can solve a one-step inequality, including with negative numbers, and graph the solution.", "l4": "I can write an inequality from a real-world situation, solve it, and interpret the solution."}
+--- CHECK (pages 137-138) ---
+7th Grade Math · Weekly Check · Unit 10                                                                                                             C-AR.2.1
+Benchmark: MA.7.AR.2.1 · Solve one-step inequalities                                                                     Student code: ________ Calculator: yes
+
+ Learning goal: I can write and solve one-step inequalities and graph the solutions. (circle your level after scoring)
+   4     I can write an inequality from a real-world situation, solve it, and interpret the solution.
+   3     I can solve a one-step inequality, including with negative numbers, and graph the solution.
+   2     I can graph an inequality on a number line.
+   1     I need help to start this benchmark.
+
+
+  1. The product of a number x and 7 is at most 56.
+
+  What are the possible values of x?
+
+
+
+
+  2. Solve the inequality.
+
+       x + 4 ≥ 11
+
+
+
+
+  3. Solve the inequality.
+
+       4x ≤ 20
+
+
+
+
+                                                                                                                                                     Turn over →
+
+                                                                                                                                             DPP Check Bank · p. 137
+7th Grade Math · Weekly Check · Unit 10 (continued)                                                                              C-AR.2.1
+Benchmark: MA.7.AR.2.1 · Solve one-step inequalities                                                                  Student code: ________
+
+  4. Solve the inequality.
+
+    5x ≥ 5
+
+
+
+
+  5. Solve the inequality.
+
+    −4x < −12
+
+
+  Which number line shows the solution?
+
+      A. Open circle at 3, shaded right                                         B. Open circle at 3, shaded left
+      C. Open circle at −3, shaded right                                        D. Closed circle at 3, shaded right
+
+
+
+
+Score: ____ / 5      My level: 1 2 3 4            → copy both to your progress strip
+
+                                                                                                                          DPP Check Bank · p. 138
+
+--- ANSWER KEY (page 139) ---
+Answer key — C-AR.2.1 · MA.7.AR.2.1 · Solve one-step inequalities
+Unit 10: Equations and Inequalities. Regular = on-benchmark item; Rigor = the item that needs the benchmark's
+reasoning. Mastery on the weekly check = 4 of 5.
+Weekly check (5 items)
+
+1. Regular x ≤ 8
+   "The product of a number x and 7" is 7x, and "at most 56" gives 7x ≤ 56.
+   Divide both sides by 7. Because 7 is positive, the symbol does not change: x ≤ 8.
+
+2. Regular x ≥ 7
+   Subtract 4 from both sides.
+   x ≥ 11 − 4 = 7
+
+
+3. Regular x ≤ 5
+   Divide both sides by 4.
+   x≤5
+
+
+4. Regular x ≥ 1
+   Divide both sides by 5.
+   x≥1
+
+
+5. Rigor    A. Open circle at 3, shaded right
+   Divide both sides by −4. Dividing by a negative reverses the symbol, so x > 3.
+   An open circle at 3 shows that 3 is not included, shaded right.
+
+
+Re-check strip (3 items, C-AR.2.1-R)
+1. Regular x ≤ −4
+   Divide both sides by 3.
+   x ≤ −4
+
+
+2. Regular x < 9
+   Subtract 6 from both sides.
+   x < 15 − 6 = 9
+
+
+3. Regular x > 6
+   "The product of a number x and 7" is 7x, and "greater than 42" gives 7x > 42.
+   Divide both sides by 7. Because 7 is positive, the symbol does not change: x > 6.
+
+
+Comparison strip (2 items, C-AR.2.1-X) — used on a later week's re-check when this benchmark was not retaught
+1. Regular h > −20
+   Multiply both sides by 5. Because 5 is positive, the inequality symbol does not change.
+   h > −4 × 5, so h > −20.
+
+
+2. Regular x < −2
+   Divide both sides by 2.
+   x < −2
+
+
+
+
+                                                                                                                DPP Check Bank · p. 139
+
+--- RE-CHECK HALF (page 141; printed twice) ---
+7th Grade Math · Re-check (3 items)                                               C-AR.2.1-R
+Benchmark: MA.7.AR.2.1 · Solve one-step inequalities       Student code: ________ Calculator: yes
+
+  1. Solve the inequality.
+
+    3x ≤ −12
+
+
+
+
+  2. Solve the inequality.
+
+    x + 6 < 15
+
+
+
+
+  3. The product of a number x and 7 is greater than 42.
+
+  What are the possible values of x?
+
+
+
+
+Score: ____ / 3    → copy to your progress strip
+
+
+
+
+7th Grade Math · Re-check (3 items)                                               C-AR.2.1-R
+Benchmark: MA.7.AR.2.1 · Solve one-step inequalities       Student code: ________ Calculator: yes
+
+  1. Solve the inequality.
+
+    3x ≤ −12
+
+
+
+
+  2. Solve the inequality.
+
+    x + 6 < 15
+
+
+
+
+  3. The product of a number x and 7 is greater than 42.
+
+  What are the possible values of x?
+
+
+
+
+Score: ____ / 3    → copy to your progress strip
+
+
+
+
+                                                                               DPP Check Bank · p. 141
+
+--- COMPARISON HALF (page 142; printed twice) ---
+7th Grade Math · Comparison items (2)                                         C-AR.2.1-X
+Benchmark: MA.7.AR.2.1 · Solve one-step inequalities   Student code: ________ Calculator: yes
+
+  1. Solve the inequality.
+
+     h
+       > −4
+     5
+      ​
+
+
+
+
+  2. Solve the inequality.
+
+    2x < −4
+
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                         C-AR.2.1-X
+Benchmark: MA.7.AR.2.1 · Solve one-step inequalities   Student code: ________ Calculator: yes
+
+  1. Solve the inequality.
+
+     h
+       > −4
+     5
+      ​
+
+
+
+
+  2. Solve the inequality.
+
+    2x < −4
+
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+                                                                           DPP Check Bank · p. 142
+
+
+==================== C-AR.2.2  (MA.7.AR.2.2, Unit 10: Equations and Inequalities) ====================
+--- SCALE: {"goal": "I can write and solve two-step equations.", "l2": "I can solve a one-step equation.", "l3": "I can solve a two-step equation, including with rational numbers or the distributive property.", "l4": "I can write a two-step equation from a real-world context, solve it, and check the answer."}
+--- CHECK (pages 143-144) ---
+7th Grade Math · Weekly Check · Unit 10                                                                                              C-AR.2.2
+Benchmark: MA.7.AR.2.2 · Two-step equations with rational numbers                                         Student code: ________ Calculator: yes
+
+ Learning goal: I can write and solve two-step equations. (circle your level after scoring)
+   4     I can write a two-step equation from a real-world context, solve it, and check the answer.
+   3     I can solve a two-step equation, including with rational numbers or the distributive property.
+   2     I can solve a one-step equation.
+   1     I need help to start this benchmark.
+
+
+ 1. Solve the equation for t.
+
+       2.5(t − 0.3) = −15.75
+
+
+
+
+ 2. Solve the equation for x.
+
+       −39 = 7x + 10
+
+
+
+
+ 3. Solve the equation for x.
+
+       6(x − 10) = −24
+
+
+
+
+                                                                                                                                      Turn over →
+
+                                                                                                                              DPP Check Bank · p. 143
+7th Grade Math · Weekly Check · Unit 10 (continued)                                             C-AR.2.2
+Benchmark: MA.7.AR.2.2 · Two-step equations with rational numbers                    Student code: ________
+
+ 4. Solve the equation for x.
+
+    2x + 0.25 = −9.75
+
+
+
+
+ 5. What is the exact value of z in the equation shown?
+
+         1  3
+    −5     = z−9
+         4  2
+         ​    ​
+
+
+
+
+Score: ____ / 5      My level: 1 2 3 4          → copy both to your progress strip
+
+                                                                                         DPP Check Bank · p. 144
+
+--- ANSWER KEY (page 145) ---
+Answer key — C-AR.2.2 · MA.7.AR.2.2 · Two-step equations with rational numbers
+Unit 10: Equations and Inequalities. Regular = on-benchmark item; Rigor = the item that needs the benchmark's
+reasoning. Mastery on the weekly check = 4 of 5.
+Weekly check (5 items)
+
+1. Regular t = −6
+   Divide both sides by 2.5: t − 0.3 = −15.75 ÷ 2.5 = −6.3.
+   Add 0.3 to both sides: t = −6.3 + 0.3 = −6.
+
+2. Regular x = −7
+   The variable can sit on either side.
+   Subtract 10: −49 = 7x.
+   Divide by 7: x = −7.
+
+3. Regular x = 6
+   Divide both sides by 6: x − 10 = −4.
+   Add 10: x = 6.
+
+4. Regular x = −5
+   Subtract 0.25 from both sides: 2x = −10.
+   Divide both sides by 2: x = −5.
+
+                  1   5
+5. Rigor z = 2      =
+                  2   2
+                   ​      ​
+
+
+
+
+                         1       3     3    3
+   Add 9 to both sides: −5 + 9 = 3 , so 3 = z .
+                         4       4     4    2
+                                  ​   ​       ​   ​
+
+
+
+
+                       3                                           2     15 2  1
+   Divide both sides by , which means multiplying by its reciprocal : z = × = 2 .
+                       2                                           3     4  3  2
+                              ​                                 ​      ​   ​    ​
+
+
+
+
+Re-check strip (3 items, C-AR.2.2-R)
+1. Regular x = −3
+   Subtract 2.5 from both sides: 2x = −6.
+   Divide both sides by 2: x = −3.
+
+2. Regular x = −8
+   Add 1 to both sides: −4x = 32.
+   Divide both sides by −4: x = −8.
+
+3. Regular x = 9
+   The variable can sit on either side.
+   Subtract 12: 54 = 6x.
+   Divide by 6: x = 9.
+
+
+Comparison strip (2 items, C-AR.2.2-X) — used on a later week's re-check when this benchmark was not retaught
+1. Regular x = 4
+   The variable can sit on either side.
+   Add 14: 16 = 4x.
+   Divide by 4: x = 4.
+
+2. Regular x = −8
+   Subtract 1 from both sides: 4x = −32.
+   Divide both sides by 4: x = −8.
+
+
+
+
+                                                                                                                DPP Check Bank · p. 145
+
+--- RE-CHECK HALF (page 147; printed twice) ---
+7th Grade Math · Re-check (3 items)                                                        C-AR.2.2-R
+Benchmark: MA.7.AR.2.2 · Two-step equations with rational numbers   Student code: ________ Calculator: yes
+
+ 1. Solve the equation for x.
+
+    2x + 2.5 = −3.5
+
+
+
+
+ 2. Solve the equation for x.
+
+    −4x − 1 = 31
+
+
+
+
+ 3. Solve the equation for x.
+
+    66 = 6x + 12
+
+
+
+
+Score: ____ / 3    → copy to your progress strip
+
+
+
+
+7th Grade Math · Re-check (3 items)                                                        C-AR.2.2-R
+Benchmark: MA.7.AR.2.2 · Two-step equations with rational numbers   Student code: ________ Calculator: yes
+
+ 1. Solve the equation for x.
+
+    2x + 2.5 = −3.5
+
+
+
+
+ 2. Solve the equation for x.
+
+    −4x − 1 = 31
+
+
+
+
+ 3. Solve the equation for x.
+
+    66 = 6x + 12
+
+
+
+
+Score: ____ / 3    → copy to your progress strip
+
+
+
+
+                                                                                        DPP Check Bank · p. 147
+
+--- COMPARISON HALF (page 148; printed twice) ---
+7th Grade Math · Comparison items (2)                                                      C-AR.2.2-X
+Benchmark: MA.7.AR.2.2 · Two-step equations with rational numbers   Student code: ________ Calculator: yes
+
+ 1. Solve the equation for x.
+
+    2 = 4x − 14
+
+
+
+
+ 2. Solve the equation for x.
+
+    4x + 1 = −31
+
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                      C-AR.2.2-X
+Benchmark: MA.7.AR.2.2 · Two-step equations with rational numbers   Student code: ________ Calculator: yes
+
+ 1. Solve the equation for x.
+
+    2 = 4x − 14
+
+
+
+
+ 2. Solve the equation for x.
+
+    4x + 1 = −31
+
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+                                                                                        DPP Check Bank · p. 148
+
+
+==================== C-AR.4.3  (MA.7.AR.4.3, Unit 11: Representing Proportional Relationships) ====================
+--- SCALE: {"goal": "I can graph proportional relationships.", "l2": "I can plot points from a table.", "l3": "I can graph a proportional relationship and identify the points (0, 0) and (1, r).", "l4": "I can use a graph to find the constant of proportionality and interpret it in context."}
+--- CHECK (pages 149-150) ---
+7th Grade Math · Weekly Check · Unit 11                                                                                                       C-AR.4.3
+Benchmark: MA.7.AR.4.3 · Graph proportional relationships                                                          Student code: ________ Calculator: yes
+
+ Learning goal: I can graph proportional relationships. (circle your level after scoring)
+   4   I can use a graph to find the constant of proportionality and interpret it in context.
+   3   I can graph a proportional relationship and identify the points (0, 0) and (1, r).
+   2   I can plot points from a table.
+   1   I need help to start this benchmark.
+
+
+  1. The relationship between hours (x) and miles walked (y) is proportional, with a constant of proportionality of 3.
+
+  Graph the relationship on the grid.
+
+                    18
+
+
+                    15
+
+
+                    12
+         deklaw selim
+
+
+
+
+                        9
+
+
+                        6
+
+
+                        3
+
+
+
+                        0   1   2        3     4       5       6
+                                     hours
+
+
+
+
+  2. The equation y = 4x represents a proportional relationship.
+
+  Graph the relationship on the grid.
+
+                   24
+
+
+                   20
+
+
+                    16
+
+
+                    12
+         y
+
+
+
+
+                        8
+
+
+                        4
+
+
+
+                        0   1   2        3     4       5       6
+                                         x
+
+
+
+
+                                                                                                                                               Turn over →
+
+                                                                                                                                       DPP Check Bank · p. 149
+7th Grade Math · Weekly Check · Unit 11 (continued)                                                                                              C-AR.4.3
+Benchmark: MA.7.AR.4.3 · Graph proportional relationships                                                                             Student code: ________
+
+  3. The table shows a proportional relationship between x and y .
+
+    x                    y
+    1                   5
+    2                10
+    3                15
+
+
+
+  Graph the relationship on the grid.
+
+                        30
+
+
+                        25
+
+
+                        20
+
+
+                         15
+            y
+
+
+
+
+                         10
+
+
+                             5
+
+  4. The equation y = x represents a proportional relationship.
+
+  Which graph represents this relationship?
+
+                                        A                               B
+                                            y                               y
+                                       4                               4
+                                        2                               2
+                                                         x                              x
+                             −4   −2            2   4        −4   −2            2   4
+                                       −2                              −2
+                                       −4                              −4
+
+
+
+                                        C                               D
+                                            y                               y
+                                       4                               4
+                                        2                               2
+                                                         x                              x
+                             −4   −2            2   4        −4   −2            2   4
+                                       −2                              −2
+                                       −4                              −4
+
+
+
+
+        Choose the graph that matches.
+
+        A Graph A                                                                                                         B Graph B
+  5. The relationship between hours (x) and dollars earned (y) is proportional.
+
+    hours                          dollars earned
+        1                                           8
+        2                                           16
+        4                                           32
+
+
+
+  Graph the relationship on the grid, and use the graph to find y when x = 3.
+
+                        40
+
+
+
+                         32
+            denrae srallod
+
+
+
+
+                        24
+
+
+
+                         16
+
+
+
+                             8
+
+
+Score: ____ / 5                                     My level: 1 2 3 4                       → copy both to your progress strip
+
+                                                                                                                                          DPP Check Bank · p. 150
+
+--- ANSWER KEY (page 151) ---
+Answer key — C-AR.4.3 · MA.7.AR.4.3 · Graph proportional relationships
+Unit 11: Representing Proportional Relationships. Regular = on-benchmark item; Rigor = the item that needs the
+benchmark's reasoning. Mastery on the weekly check = 4 of 5.
+Weekly check (5 items)
+
+1. Regular    A straight line through the origin and (1, 3), (2, 6), (3, 9).
+   The constant of proportionality 3 means y = 3x: each unit of hours gives 3 miles walked.
+   Plot (0, 0), (1, 3), (2, 6) and draw the line through them.
+
+2. Regular    A straight line through the origin and the points (1, 4), (2, 8) and (3, 12).
+   In y = 4x the constant of proportionality is 4, so every point has y = 4 × x.
+   Plot (0, 0), (1, 4), (2, 8), (3, 12) and draw the straight line through them.
+
+3. Regular    The points (1, 5), (2, 10), (3, 15) and a straight line through them and the origin.
+   Plot each row of the table as a point: (1, 5), (2, 10), (3, 15).
+   A proportional relationship is a straight line through (0, 0), so extend the line through the origin.
+
+4. Regular    Graph C
+   A proportional relationship is a straight line through the origin.
+   The constant of proportionality 1 is the slope: from (0, 0) the line rises 1 for each 1 unit to the right, passing through (1, 1).
+
+5. Rigor     A straight line through (0, 0), (1, 8), (2, 16), (4, 32); when x = 3, y = 24.
+   Plot the three table points and draw the straight line through them and the origin.
+   The line passes through (3, 24) — the constant of proportionality is 8, so y = 8 × 3 = 24.
+
+
+Re-check strip (3 items, C-AR.4.3-R)
+1. Regular    Graph B
+   A proportional relationship is a straight line through the origin.
+   The constant of proportionality 3 is the slope: from (0, 0) the line rises 3 for each 1 unit to the right, passing through (1, 3).
+
+2. Regular    The points (1, 4), (2, 8), (3, 12) and a straight line through them and the origin.
+   Plot each row of the table as a point: (1, 4), (2, 8), (3, 12).
+   A proportional relationship is a straight line through (0, 0), so extend the line through the origin.
+
+3. Regular    A straight line through the origin and (1, 2), (2, 4), (3, 6).
+   The constant of proportionality 2 means y = 2x: each unit of pounds of apples gives 2 cost.
+   Plot (0, 0), (1, 2), (2, 4) and draw the line through them.
+
+
+Comparison strip (2 items, C-AR.4.3-X) — used on a later week's re-check when this benchmark was not retaught
+
+1. Regular    A straight line through the origin and (1, 2), (2, 4), (3, 6).
+   The constant of proportionality 2 means y = 2x: each unit of minutes gives 2 gallons filled.
+   Plot (0, 0), (1, 2), (2, 4) and draw the line through them.
+
+2. Regular    Graph A
+   A proportional relationship is a straight line through the origin.
+   The constant of proportionality 2 is the slope: from (0, 0) the line rises 2 for each 1 unit to the right, passing through (1, 2).
+
+
+
+
+                                                                                                                                        DPP Check Bank · p. 151
+
+--- RE-CHECK HALF (page 153; printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                                                      C-AR.4.3-R
+Benchmark: MA.7.AR.4.3 · Graph proportional relationships                                                          Student code: ________ Calculator: yes
+
+  1. The equation y = 3x represents a proportional relationship.
+
+  Which graph represents this relationship?
+                                                   A                              B
+                                                       y                              y
+                                                  4                              4
+                                                   2                              2
+                                                                   x                              x
+                                        −4   −2            2   4       −4   −2            2   4
+                                                  −2                             −2
+                                                  −4                             −4
+
+
+
+                                                   C                              D
+                                                       y                              y
+                                                  4                              4
+                                                   2                              2
+                                                                   x                              x
+                                        −4   −2            2   4       −4   −2            2   4
+                                                  −2                             −2
+                                                  −4                             −4
+
+
+
+
+         Choose the graph that matches.
+        A. Graph A                                                                                    B. Graph B
+        C. Graph C                                                                                    D. Graph D
+
+  2. The table shows a proportional relationship between x and y .
+
+    x      y
+
+    1      4
+    2      8
+    3     12
+
+
+
+  Graph the relationship on the grid.
+                         24
+
+
+
+
+7th Grade Math · Re-check (3 items)                                                                                                      C-AR.4.3-R
+Benchmark: MA.7.AR.4.3 · Graph proportional relationships                                                          Student code: ________ Calculator: yes
+
+  1. The equation y = 3x represents a proportional relationship.
+
+  Which graph represents this relationship?
+                                                   A                              B
+                                                       y                              y
+                                                  4                              4
+                                                   2                              2
+                                                                   x                              x
+                                        −4   −2            2   4       −4   −2            2   4
+                                                  −2                             −2
+                                                  −4                             −4
+
+
+
+                                                   C                              D
+                                                       y                              y
+                                                  4                              4
+                                                   2                              2
+                                                                   x                              x
+                                        −4   −2            2   4       −4   −2            2   4
+                                                  −2                             −2
+                                                  −4                             −4
+
+
+
+
+         Choose the graph that matches.
+
+        A. Graph A                                                                                    B. Graph B
+        C. Graph C                                                                                    D. Graph D
+
+  2. The table shows a proportional relationship between x and y .
+
+    x      y
+
+    1      4
+    2      8
+    3     12
+
+
+
+  Graph the relationship on the grid.
+                         24
+
+
+
+                                                                                                                                       DPP Check Bank · p. 153
+
+--- COMPARISON HALF (page 154; printed twice) ---
+7th Grade Math · Comparison items (2)                                                                                                                               C-AR.4.3-X
+Benchmark: MA.7.AR.4.3 · Graph proportional relationships                                                                                     Student code: ________ Calculator: yes
+
+  1. The relationship between minutes (x) and gallons filled (y) is proportional, with a constant of proportionality of 2.
+
+  Graph the relationship on the grid.
+                                     12
+                                     11
+                                     10
+                                         9
+                                         8
+                        dellif snollag
+
+
+
+
+                                         7
+                                         6
+                                         5
+                                         4
+                                         3
+                                         2
+                                         1
+
+                                         0   1   2      3      4        5             6
+                                                     minutes
+
+
+
+
+  2. The equation y = 2x represents a proportional relationship.
+
+  Which graph represents this relationship?
+                                                                              A                              B
+                                                                                  y                              y
+                                                                             4                              4
+                                                                              2                              2
+                                                                                              x                              x
+                                                                   −4   −2            2   4       −4   −2            2   4
+                                                                             −2                             −2
+                                                                             −4                             −4
+
+
+
+                                                                              C                              D
+                                                                                  y                              y
+                                                                             4                              4
+                                                                              2                              2
+                                                                                              x                              x
+                                                                   −4   −2            2   4       −4   −2            2   4
+                                                                             −2                             −2
+                                                                             −4                             −4
+
+
+
+
+         Choose the graph that matches.
+      A. Graph A                                                                                                                 B. Graph B
+      C. Graph C                                                                                                                 D. Graph D
+
+Score:      /2       copy to your progress strip
+7th Grade Math · Comparison items (2)                                                                                                                               C-AR.4.3-X
+Benchmark: MA.7.AR.4.3 · Graph proportional relationships                                                                                     Student code: ________ Calculator: yes
+
+  1. The relationship between minutes (x) and gallons filled (y) is proportional, with a constant of proportionality of 2.
+
+  Graph the relationship on the grid.
+                                     12
+                                     11
+                                     10
+                                         9
+                                         8
+                        dellif snollag
+
+
+
+
+                                         7
+                                         6
+                                         5
+                                         4
+                                         3
+                                         2
+                                         1
+
+                                         0   1   2      3      4        5             6
+                                                     minutes
+
+
+
+
+  2. The equation y = 2x represents a proportional relationship.
+
+  Which graph represents this relationship?
+                                                                              A                              B
+                                                                                  y                              y
+                                                                             4                              4
+                                                                              2                              2
+                                                                                              x                              x
+                                                                   −4   −2            2   4       −4   −2            2   4
+                                                                             −2                             −2
+                                                                             −4                             −4
+
+
+
+                                                                              C                              D
+                                                                                  y                              y
+                                                                             4                              4
+                                                                              2                              2
+                                                                                              x                              x
+                                                                   −4   −2            2   4       −4   −2            2   4
+                                                                             −2                             −2
+                                                                             −4                             −4
+
+
+
+
+         Choose the graph that matches.
+      A. Graph A                                                                                                                 B. Graph B
+      C. Graph C                                                                                                                 D. Graph D
+
+Score:      /2       copy to your progress strip
+                                                                                                                                                                  DPP Check Bank · p. 154
+
+
+==================== C-AR.4.2  (MA.7.AR.4.2, Unit 11: Representing Proportional Relationships) ====================
+--- SCALE: {"goal": "I can find the constant of proportionality.", "l2": "I can find a unit rate from a ratio.", "l3": "I can find the constant of proportionality from a table, graph, equation, or description.", "l4": "I can explain what the constant of proportionality means in the situation."}
+--- CHECK (pages 155-156) ---
+7th Grade Math · Weekly Check · Unit 11                                                                                            C-AR.4.2
+Benchmark: MA.7.AR.4.2 · Constant of proportionality                                                    Student code: ________ Calculator: yes
+
+ Learning goal: I can find the constant of proportionality. (circle your level after scoring)
+   4       I can explain what the constant of proportionality means in the situation.
+   3       I can find the constant of proportionality from a table, graph, equation, or description.
+   2       I can find a unit rate from a ratio.
+   1       I need help to start this benchmark.
+
+
+  1. In a proportional relationship, 1.5 liters of paint are needed to cover 3 walls.
+
+  What is the constant of proportionality, in liters of paint per wall?
+
+           A. 0.5                                                                              B. 2
+           C. 4.5                                                                              D. 1.5
+
+
+
+
+  2. A proportional relationship gives 125 points for 5 games played.
+
+  What is the constant of proportionality, in points per game played?
+
+
+
+
+  3. The table shows a proportional relationship between x and y .
+
+       x       y
+
+       2      12
+       3      18
+       4      24
+       8      48
+
+
+
+  What is the constant of proportionality?
+
+
+
+
+                                                                                                                                    Turn over →
+
+                                                                                                                            DPP Check Bank · p. 155
+7th Grade Math · Weekly Check · Unit 11 (continued)                                                                                           C-AR.4.2
+Benchmark: MA.7.AR.4.2 · Constant of proportionality                                                                              Student code: ________
+
+  4. The daily fee for docking a boat at a marina is proportional to the length of the boat. The table shows the fee for four different boat lengths.
+
+    Boat length (feet)      Daily fee
+            14               $24.50
+            16               $28.00
+            17               $29.75
+            24               $42.00
+
+
+
+  What is the constant of proportionality, in dollars per foot?
+
+
+
+
+  5. The relationship between dollars and hours worked is proportional, with a constant of proportionality of 16.
+
+  What does the constant of proportionality represent in this situation?
+
+      A. the number of hours worked needed for one                             B. the amount earned for each hour worked
+          dollar
+      C. the total dollars altogether                                          D. the difference between the two quantities
+
+
+
+
+Score: ____ / 5      My level: 1 2 3 4           → copy both to your progress strip
+
+                                                                                                                                       DPP Check Bank · p. 156
+
+--- ANSWER KEY (page 157) ---
+Answer key — C-AR.4.2 · MA.7.AR.4.2 · Constant of proportionality
+Unit 11: Representing Proportional Relationships. Regular = on-benchmark item; Rigor = the item that needs the
+benchmark's reasoning. Mastery on the weekly check = 4 of 5.
+Weekly check (5 items)
+
+1. Regular    A. 0.5
+   The constant of proportionality is liters of paint per wall: 1.5 ÷ 3 = 0.5.
+
+2. Regular    25
+   The constant of proportionality is the unit rate: 125 ÷ 5 = 25.
+
+3. Regular    6
+   The constant of proportionality is y ÷ x.
+   12 ÷ 2 = 6, and every pair gives the same ratio.
+
+
+4. Regular    1.75
+   The constant of proportionality is the fee divided by the length.
+   24.5 ÷ 14 = 1.75, and 28 ÷ 16 = 1.75.
+   The constant of proportionality is 1.75 dollars per foot.
+
+5. Rigor     B. the amount earned for each hour worked
+   The constant of proportionality is the unit rate — how much of the first quantity goes with one of the second.
+   Here that is the amount earned for each hour worked.
+
+
+Re-check strip (3 items, C-AR.4.2-R)
+1. Regular    3.2
+   The constant of proportionality is the fee divided by the length.
+   38.4 ÷ 12 = 3.2, and 48 ÷ 15 = 3.2.
+   The constant of proportionality is 3.2 dollars per foot.
+
+2. Regular    30
+   The constant of proportionality is the unit rate: 60 ÷ 2 = 30.
+
+3. Regular    3
+   The constant of proportionality is y ÷ x.
+   6 ÷ 2 = 3, and every pair gives the same ratio.
+
+
+Comparison strip (2 items, C-AR.4.2-X) — used on a later week's re-check when this benchmark was not retaught
+
+1. Regular    2.25
+   The constant of proportionality is the fee divided by the length.
+   27 ÷ 12 = 2.25, and 33.75 ÷ 15 = 2.25.
+   The constant of proportionality is 2.25 dollars per foot.
+
+2. Regular    7
+   The constant of proportionality is y ÷ x.
+   14 ÷ 2 = 7, and every pair gives the same ratio.
+
+
+
+
+                                                                                                                    DPP Check Bank · p. 157
+
+--- RE-CHECK HALF (page 159; printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                                                      C-AR.4.2-R
+Benchmark: MA.7.AR.4.2 · Constant of proportionality                                                               Student code: ________ Calculator: yes
+
+  1. The daily fee for docking a boat at a marina is proportional to the length of the boat. The table shows the fee for four different boat
+  lengths.
+
+    Boat length (feet)      Daily fee
+               12            $38.40
+               15            $48.00
+               21            $67.20
+               25            $80.00
+
+
+
+  What is the constant of proportionality, in dollars per foot?
+
+  2. A proportional relationship gives 60 points for 2 games played.
+
+  What is the constant of proportionality, in points per game played?
+
+
+
+
+  3. The table shows a proportional relationship between x and y .
+
+    x      y
+
+    2      6
+    4     12
+    5     15
+    8     24
+
+7th Grade Math · Re-check (3 items)                                                                                                      C-AR.4.2-R
+Benchmark: MA.7.AR.4.2 · Constant of proportionality                                                               Student code: ________ Calculator: yes
+
+  1. The daily fee for docking a boat at a marina is proportional to the length of the boat. The table shows the fee for four different boat
+  lengths.
+
+    Boat length (feet)      Daily fee
+               12            $38.40
+               15            $48.00
+               21            $67.20
+               25            $80.00
+
+
+
+  What is the constant of proportionality, in dollars per foot?
+
+  2. A proportional relationship gives 60 points for 2 games played.
+
+  What is the constant of proportionality, in points per game played?
+
+
+
+
+  3. The table shows a proportional relationship between x and y .
+
+    x      y
+
+    2      6
+    4     12
+    5     15
+    8     24
+                                                                                                                                       DPP Check Bank · p. 159
+
+--- COMPARISON HALF (page 160; printed twice) ---
+7th Grade Math · Comparison items (2)                                                                                                    C-AR.4.2-X
+Benchmark: MA.7.AR.4.2 · Constant of proportionality                                                               Student code: ________ Calculator: yes
+
+  1. The daily fee for docking a boat at a marina is proportional to the length of the boat. The table shows the fee for four different boat
+  lengths.
+
+    Boat length (feet)      Daily fee
+               12            $27.00
+               15            $33.75
+               17            $38.25
+               18            $40.50
+
+
+
+  What is the constant of proportionality, in dollars per foot?
+
+  2. The table shows a proportional relationship between x and y .
+
+    x      y
+
+    2     14
+    4     28
+    5     35
+    8     56
+
+
+
+  What is the constant of proportionality?
+
+Score: ____ / 2     → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                                                                    C-AR.4.2-X
+Benchmark: MA.7.AR.4.2 · Constant of proportionality                                                               Student code: ________ Calculator: yes
+
+  1. The daily fee for docking a boat at a marina is proportional to the length of the boat. The table shows the fee for four different boat
+  lengths.
+
+    Boat length (feet)      Daily fee
+               12            $27.00
+               15            $33.75
+               17            $38.25
+               18            $40.50
+
+
+
+  What is the constant of proportionality, in dollars per foot?
+
+  2. The table shows a proportional relationship between x and y .
+
+    x      y
+
+    2     14
+    4     28
+    5     35
+    8     56
+
+
+
+  What is the constant of proportionality?
+
+Score: ____ / 2     → copy to your progress strip
+
+
+
+                                                                                                                                       DPP Check Bank · p. 160
+
+
+==================== C-AR.4.1  (MA.7.AR.4.1, Unit 11: Representing Proportional Relationships) ====================
+--- SCALE: {"goal": "I can decide whether a relationship is proportional.", "l2": "I can check whether two ratios are equal.", "l3": "I can decide whether a table, graph, or equation shows a proportional relationship and say why.", "l4": "I can explain why a relationship is not proportional using more than one representation."}
+--- CHECK (pages 161-162) ---
+7th Grade Math · Weekly Check · Unit 11                                                                                                            C-AR.4.1
+Benchmark: MA.7.AR.4.1 · Is it proportional? (table, graph, description)                                                Student code: ________ Calculator: yes
+
+ Learning goal: I can decide whether a relationship is proportional. (circle your level after scoring)
+   4       I can explain why a relationship is not proportional using more than one representation.
+   3       I can decide whether a table, graph, or equation shows a proportional relationship and say why.
+   2       I can check whether two ratios are equal.
+   1       I need help to start this benchmark.
+
+
+  1. A taxi charges 5 dollars for each mile driven.
+
+  Is the relationship between the miles driven and the total dollars proportional?
+
+           A. No, because the dollars and the miles driven are                               B. Yes, because every mile driven adds the same
+              different units.                                                                   amount and there is no charge before the first
+                                                                                                 mile driven.
+           C. Yes, because the total dollars increase as the                                 D. No, because there is a charge before the first
+              miles driven increase.                                                             mile driven.
+
+  2. Does the graph show a proportional relationship between x and y ?
+
+                  12
+                                             (4, 11)
+                  11
+               10
+                   9
+                   8
+                                (2, 7)
+                   7
+                   6
+             y
+
+
+
+
+                   5
+                   4
+                   3
+                   2
+                   1
+
+                   0   1    2     3      4     5       6   7   8   9   10
+                                               x
+
+           A. Yes, because y increases as x increases.                                       B. Yes, because two points on the line are labeled.
+           C. Yes, because the line is straight.                                             D. No, because the line does not pass through the
+                                                                                                 origin.
+
+  3. Does the table show a proportional relationship between x and y ?
+
+       x      y
+       2      12
+       3      18
+       4      24
+       5      30
+
+           A. Yes, because y ÷ x is the same for every pair of                               B. No, because y ÷ x is not the same for every pair
+              values.                                                                            of values.
+           C. Yes, because every y-value is larger than its x-                               D. No, because the x-values do not increase by the
+              value.                                                                             same amount.
+
+                                                                                                                                                    Turn over →
+
+                                                                                                                                            DPP Check Bank · p. 161
+7th Grade Math · Weekly Check · Unit 11 (continued)                                                                              C-AR.4.1
+Benchmark: MA.7.AR.4.1 · Is it proportional? (table, graph, description)                                              Student code: ________
+
+  4. Select all the situations that describe a proportional relationship.
+
+        Select all the correct answers.
+
+      ☐ A printer prints 12 pages every minute.                                  ☐ A phone plan costs $30 plus $0.10 for each text
+                                                                                   message.
+      ☐ A recipe uses 3 cups of flour for every 2 loaves                         ☐ A store sells oranges at $2.40 per pound.
+        of bread.
+      ☐ A gym charges $25 to join plus $10 each month.
+
+
+
+
+  5. Match each relationship to whether it is proportional.
+
+        Check one box in each row.
+                                                                                  Proportional   Not proportional
+           a graph that crosses the y-axis at 4                                         ☐              ☐
+           a 4 dollar fee plus 8 dollars for each hour worked                           ☐              ☐
+           8 dollars for each hour worked, with no starting fee                         ☐              ☐
+
+
+
+
+Score: ____ / 5       My level: 1 2 3 4            → copy both to your progress strip
+
+                                                                                                                          DPP Check Bank · p. 162
+
+--- ANSWER KEY (page 163) ---
+Answer key — C-AR.4.1 · MA.7.AR.4.1 · Is it proportional? (table, graph, description)
+Unit 11: Representing Proportional Relationships. Regular = on-benchmark item; Rigor = the item that needs the
+benchmark's reasoning. Mastery on the weekly check = 4 of 5.
+Weekly check (5 items)
+
+1. Regular   B. Yes, because every mile driven adds the same amount and there is no charge before the first mile
+driven.
+   A proportional relationship must pass through (0, 0) and have a constant ratio.
+   With no starting amount, 0 miles driven gives 0 dollars and every one adds 5, so it is proportional.
+
+2. Regular   D. No, because the line does not pass through the origin.
+   A graph shows a proportional relationship when it is a straight line through the origin (0, 0).
+   This line crosses the y-axis at 3, not at 0, so it is not proportional.
+
+3. Regular   A. Yes, because y ÷ x is the same for every pair of values.
+   Check y ÷ x for each pair: 12 ÷ 2 = 6, 18 ÷ 3 = 6, 24 ÷ 4 = 6, 30 ÷ 5 = 6.
+   Every ratio is the same, so the relationship is proportional.
+
+         A. A printer prints 12 pages every minute.; C. A recipe uses 3 cups of flour for every 2 loaves of bread.;
+4. Regular
+D. A store sells oranges at $2.40 per pound.
+   A relationship is proportional only when the two quantities have a constant ratio and start together at 0.
+   A joining fee, a starting charge, or a starting height means the relationship is not proportional.
+
+      a graph that crosses the y-axis at 4 → Not proportional; a 4 dollar fee plus 8 dollars for each hour
+5. Rigor
+worked → Not proportional; 8 dollars for each hour worked, with no starting fee → Proportional
+   A proportional relationship has a constant ratio and passes through (0, 0).
+   A starting fee or a nonzero y-intercept means the relationship is linear but not proportional.
+
+
+Re-check strip (3 items, C-AR.4.1-R)
+
+1. Regular   B. Yes, because y ÷ x is the same for every pair of values.
+   Check y ÷ x for each pair: 2 ÷ 1 = 2, 4 ÷ 2 = 2, 8 ÷ 4 = 2, 10 ÷ 5 = 2.
+   Every ratio is the same, so the relationship is proportional.
+
+2. Regular   D. No, because there is a charge before the first pound of apples.
+   A proportional relationship must pass through (0, 0) and have a constant ratio.
+   The starting amount of 8 means 0 pounds of apples already gives 8 dollars, so it is not proportional.
+
+         A. A car travels 45 miles for every hour driven.; C. A store sells oranges at $2.40 per pound.; D. A recipe
+3. Regular
+uses 3 cups of flour for every 2 loaves of bread.
+   A relationship is proportional only when the two quantities have a constant ratio and start together at 0.
+   A joining fee, a starting charge, or a starting height means the relationship is not proportional.
+
+
+Comparison strip (2 items, C-AR.4.1-X) — used on a later week's re-check when this benchmark was not retaught
+
+1. Regular   D. No, because the line does not pass through the origin.
+   A graph shows a proportional relationship when it is a straight line through the origin (0, 0).
+   This line crosses the y-axis at 4, not at 0, so it is not proportional.
+
+         A. A store sells oranges at $2.40 per pound.; C. A printer prints 12 pages every minute.; E. A recipe uses 3
+2. Regular
+cups of flour for every 2 loaves of bread.
+   A relationship is proportional only when the two quantities have a constant ratio and start together at 0.
+   A joining fee, a starting charge, or a starting height means the relationship is not proportional.
+
+
+
+
+                                                                                                                DPP Check Bank · p. 163
+
+--- RE-CHECK HALF (page 165; printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                                          C-AR.4.1-R
+Benchmark: MA.7.AR.4.1 · Is it proportional? (table, graph, description)                               Student code: ________ Calculator: yes
+
+  1. Does the table show a proportional relationship between x and y ?
+
+    x      y
+    1      2
+    2      4
+    4      8
+    5      10
+
+        A. Yes, because every y-value is larger than its x-                 B. Yes, because y ÷ x is the same for every pair of
+           value.                                                                values.
+        C. No, because y ÷ x is not the same for every pair                 D. No, because the x-values do not increase by the
+           of values.                                                            same amount.
+
+  2. A stand charges 8 dollars plus 5 dollars for each pound of apples.
+
+  Is the relationship between the pounds of apples and the total dollars proportional?
+
+        A. No, because the dollars and the pounds of                        B. Yes, because there is no charge before the first
+           apples are different units.                                           pound of apples.
+        C. Yes, because the amount added each time                          D. No, because there is a charge before the first
+           never changes.                                                        pound of apples.
+
+  3. Select all the situations that describe a proportional relationship.
+
+         S l       ll h
+7th Grade Math · Re-check (3 items)                                                                                          C-AR.4.1-R
+Benchmark: MA.7.AR.4.1 · Is it proportional? (table, graph, description)                               Student code: ________ Calculator: yes
+
+  1. Does the table show a proportional relationship between x and y ?
+
+    x      y
+
+    1      2
+    2      4
+    4      8
+    5      10
+
+        A. Yes, because every y-value is larger than its x-                 B. Yes, because y ÷ x is the same for every pair of
+           value.                                                                values.
+        C. No, because y ÷ x is not the same for every pair                 D. No, because the x-values do not increase by the
+           of values.                                                            same amount.
+
+  2. A stand charges 8 dollars plus 5 dollars for each pound of apples.
+
+  Is the relationship between the pounds of apples and the total dollars proportional?
+
+        A. No, because the dollars and the pounds of                        B. Yes, because there is no charge before the first
+           apples are different units.                                           pound of apples.
+        C. Yes, because the amount added each time                          D. No, because there is a charge before the first
+           never changes.                                                        pound of apples.
+
+  3. Select all the situations that describe a proportional relationship.
+
+         S l       ll h                                                                                                    DPP Check Bank · p. 165
+
+--- COMPARISON HALF (page 166; printed twice) ---
+7th Grade Math · Comparison items (2)                                                                                        C-AR.4.1-X
+Benchmark: MA.7.AR.4.1 · Is it proportional? (table, graph, description)                               Student code: ________ Calculator: yes
+
+  1. Does the graph show a proportional relationship between x and y ?
+                                                      (4, 12)
+                           12
+                           11
+                           10
+                             9
+                                         (2, 8)
+                             8
+                             7
+                             6
+                         y
+
+
+                             5
+                             4
+                             3
+                             2
+                             1
+
+                             0   1   2       3    4       5     6   7   8
+                                                  x
+
+
+
+
+      A. Yes, because y increases as x increases.                           B. Yes, because two points on the line are labeled.
+      C. Yes, because the line is straight.                                 D. No, because the line does not pass through the
+                                                                               origin.
+
+  2. Select all the situations that describe a proportional relationship.
+
+         Select all the correct answers.
+      ☐ A store sells oranges at $2.40 per pound.                           ☐ A candle is 9 inches tall and burns down 1 inch
+                                                                              each hour.
+      ☐ A printer prints 12 pages every minute.                             ☐ A savings account starts with $50 and grows by
+                                                                              $5 each week.
+      ☐ A recipe uses 3 cups of flour for every 2 loaves
+        of bread.
+
+Score:       /2     → copy to your progress strip
+
+7th Grade Math · Comparison items (2)                                                                                        C-AR.4.1-X
+Benchmark: MA.7.AR.4.1 · Is it proportional? (table, graph, description)                               Student code: ________ Calculator: yes
+
+  1. Does the graph show a proportional relationship between x and y ?
+                                                      (4, 12)
+                           12
+                           11
+                           10
+                             9
+                                         (2, 8)
+                             8
+                             7
+                             6
+                         y
+
+
+
+
+                             5
+                             4
+                             3
+                             2
+                             1
+
+                             0   1   2       3    4       5     6   7   8
+                                                  x
+
+
+
+
+      A. Yes, because y increases as x increases.                           B. Yes, because two points on the line are labeled.
+      C. Yes, because the line is straight.                                 D. No, because the line does not pass through the
+                                                                               origin.
+
+  2. Select all the situations that describe a proportional relationship.
+
+         Select all the correct answers.
+      ☐ A store sells oranges at $2.40 per pound.                           ☐ A candle is 9 inches tall and burns down 1 inch
+                                                                              each hour.
+      ☐ A printer prints 12 pages every minute.                             ☐ A savings account starts with $50 and grows by
+                                                                              $5 each week.
+      ☐ A recipe uses 3 cups of flour for every 2 loaves
+        of bread.
+
+Score:       /2     → copy to your progress strip
+                                                                                                                           DPP Check Bank · p. 166
+
+
+==================== C-AR.4.4  (MA.7.AR.4.4, Unit 11: Representing Proportional Relationships) ====================
+--- SCALE: {"goal": "I can write an equation for a proportional relationship.", "l2": "I can find the constant of proportionality.", "l3": "I can write the equation y = kx from a table, graph, or description and use it.", "l4": "I can translate between a table, a graph, an equation, and a description of the same relationship."}
+--- CHECK (pages 167-168) ---
+7th Grade Math · Weekly Check · Unit 11                                                                                                    C-AR.4.4
+Benchmark: MA.7.AR.4.4 · Translate between representations                                                      Student code: ________ Calculator: yes
+
+ Learning goal: I can write an equation for a proportional relationship. (circle your level after scoring)
+   4     I can translate between a table, a graph, an equation, and a description of the same relationship.
+   3     I can write the equation y = kx from a table, graph, or description and use it.
+   2     I can find the constant of proportionality.
+   1     I need help to start this benchmark.
+
+
+ 1. A proportional relationship gives 5 dollars for each hour worked. Let x be the number of hours worked and let y be the number of dollars.
+
+ Which equation represents this relationship?
+
+        A. x = 5y                                                                          B. y = x + 5
+        C. y = 5 ÷ x                                                                       D. y = 5x
+
+
+
+
+ 2. The graph shows a proportional relationship between hours worked (x) and dollars earned (y).
+
+ Write an equation for this relationship.
+
+             20
+
+
+
+
+              15
+
+
+
+
+              10
+          y
+
+
+
+
+                                           (2, 8)
+
+
+
+               5              (1, 4)
+
+
+
+
+               0          1            2            3   4       5
+                                             x
+
+
+
+
+ 3. A machine prints 4 pages each minute that it runs. The relationship between the number of minutes and the number of pages is
+ proportional.
+
+       Number of minutes          Number of pages
+                3                             ?
+                4                             ?
+                6                             ?
+
+
+
+ What are the three missing values in the table?
+
+
+
+
+                                                                                                                                            Turn over →
+
+                                                                                                                                    DPP Check Bank · p. 167
+7th Grade Math · Weekly Check · Unit 11 (continued)                                                                                      C-AR.4.4
+Benchmark: MA.7.AR.4.4 · Translate between representations                                                                    Student code: ________
+
+ 4. A proportional relationship is represented by y = 9x, where x is the number of minutes of reading and y is the number of pages.
+
+ Which description matches this relationship?
+
+        A. Each minute of reading gives 9 pages.                              B. Each minute of reading gives 9 more pages
+                                                                                     than the one before.
+        C. Each of the pages gives 9 minutes of reading.                      D. There are 9 pages in all.
+
+
+
+
+ 5. A proportional relationship is represented by the equation y = 4x. The table represents the same relationship.
+
+    x     y
+
+    1     4
+    2     8
+    7     ?
+
+
+
+ What is the missing y-value?
+
+
+
+
+Score: ____ / 5     My level: 1 2 3 4           → copy both to your progress strip
+
+                                                                                                                                  DPP Check Bank · p. 168
+
+--- ANSWER KEY (page 169) ---
+Answer key — C-AR.4.4 · MA.7.AR.4.4 · Translate between representations
+Unit 11: Representing Proportional Relationships. Regular = on-benchmark item; Rigor = the item that needs the
+benchmark's reasoning. Mastery on the weekly check = 4 of 5.
+Weekly check (5 items)
+
+1. Regular    D. y = 5x
+   Each hour worked adds 5 to y , so y = 5x.
+   "5 more than x" would be y = x + 5, which is a different relationship.
+
+2. Regular y = 4x
+   The line passes through (1, 4), so the constant of proportionality is 4.
+   The equation is y = 4x.
+
+3. Regular    12, 16, 24
+   Multiply each number of minutes by 4, the number of pages for one minute.
+   4 × 3 = 12
+   4 × 4 = 16
+   4 × 6 = 24
+
+
+4. Regular    A. Each minute of reading gives 9 pages.
+   In y = 9x, the constant 9 is the amount of y for one x.
+   So each minute of reading gives 9 pages.
+
+5. Rigor     28
+   y = 4x, so when x = 7, y = 4 × 7 = 28.
+
+
+Re-check strip (3 items, C-AR.4.4-R)
+1. Regular    28, 49, 56
+   Multiply each number of minutes by 7, the number of pages for one minute.
+   7 × 4 = 28
+   7 × 7 = 49
+   7 × 8 = 56
+
+
+2. Regular y = 2x
+   The constant of proportionality is y ÷ x = 4 ÷ 2 = 2.
+   A proportional relationship has the form y = kx, so y = 2x.
+
+3. Regular    A. Each minute gives 6 liters.
+   In y = 6x, the constant 6 is the amount of y for one x.
+   So each minute gives 6 liters.
+
+
+Comparison strip (2 items, C-AR.4.4-X) — used on a later week's re-check when this benchmark was not retaught
+
+1. Regular y = 2x
+   The line passes through (1, 2), so the constant of proportionality is 2.
+   The equation is y = 2x.
+
+2. Regular y = 2x
+   The constant of proportionality is y ÷ x = 4 ÷ 2 = 2.
+   A proportional relationship has the form y = kx, so y = 2x.
+
+
+
+
+                                                                                                                DPP Check Bank · p. 169
+
+--- RE-CHECK HALF (page 171; printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                                                    C-AR.4.4-R
+Benchmark: MA.7.AR.4.4 · Translate between representations                                                       Student code: ________ Calculator: yes
+
+ 1. A machine prints 7 pages each minute that it runs. The relationship between the number of minutes and the number of pages is
+ proportional.
+
+    Number of minutes        Number of pages
+               4                     ?
+               7                     ?
+               8                     ?
+
+
+
+ What are the three missing values in the table?
+
+ 2. The table shows a proportional relationship between x and y .
+
+    x      y
+    2      4
+    5     10
+    6     12
+
+
+
+ Write an equation for this relationship.
+
+ 3. A proportional relationship is represented by y = 6x, where x is the number of minutes and y is the number of liters.
+
+ Which description matches this relationship?
+
+        A. Each minute gives 6 liters.                                       B. Each minute gives 6 more liters than the one
+
+7th Grade Math · Re-check (3 items)                                                                                                    C-AR.4.4-R
+Benchmark: MA.7.AR.4.4 · Translate between representations                                                       Student code: ________ Calculator: yes
+
+ 1. A machine prints 7 pages each minute that it runs. The relationship between the number of minutes and the number of pages is
+ proportional.
+
+    Number of minutes        Number of pages
+               4                     ?
+               7                     ?
+               8                     ?
+
+
+
+ What are the three missing values in the table?
+
+ 2. The table shows a proportional relationship between x and y .
+
+    x      y
+    2      4
+    5     10
+    6     12
+
+
+
+ Write an equation for this relationship.
+
+ 3. A proportional relationship is represented by y = 6x, where x is the number of minutes and y is the number of liters.
+
+ Which description matches this relationship?
+
+        A. Each minute gives 6 liters.                                       B. Each minute gives 6 more liters than the one
+                                                                                                                                     DPP Check Bank · p. 171
+
+--- COMPARISON HALF (page 172; printed twice) ---
+7th Grade Math · Comparison items (2)                                                                                         C-AR.4.4-X
+Benchmark: MA.7.AR.4.4 · Translate between representations                                              Student code: ________ Calculator: yes
+
+ 1. The graph shows a proportional relationship between gallons of gas used (x) and miles driven (y).
+
+ Write an equation for this relationship.
+
+                         15
+
+
+
+
+                         10
+                        y
+
+
+
+
+                            5                (2, 4)
+
+                                    (1, 2)
+
+
+
+                            0   1       2        3    4   5   6   7   8
+                                                      x
+
+
+
+
+ 2. The table shows a proportional relationship between x and y .
+
+    x     y
+
+    2     4
+    3     6
+    5     10
+
+
+
+ Write an equation for this relationship.
+
+Score: ____ / 2   → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                                                         C-AR.4.4-X
+Benchmark: MA.7.AR.4.4 · Translate between representations                                              Student code: ________ Calculator: yes
+
+ 1. The graph shows a proportional relationship between gallons of gas used (x) and miles driven (y).
+
+ Write an equation for this relationship.
+
+                         15
+
+
+
+
+                         10
+                        y
+
+
+
+
+                            5                (2, 4)
+
+                                    (1, 2)
+
+
+
+                            0   1       2        3    4   5   6   7   8
+                                                      x
+
+
+
+
+ 2. The table shows a proportional relationship between x and y .
+
+    x     y
+
+    2     4
+    3     6
+    5     10
+
+
+
+ Write an equation for this relationship.
+
+Score: ____ / 2   → copy to your progress strip
+
+
+
+
+                                                                                                                            DPP Check Bank · p. 172
+
+
+==================== C-GR.2.1  (MA.7.GR.2.1, Unit 12: Surface Area and Volume) ====================
+--- SCALE: {"goal": "I can find the surface area of a right circular cylinder.", "l2": "I can identify the parts of a cylinder's net.", "l3": "I can find the surface area of a cylinder from its radius and height.", "l4": "I can explain how the net gives the formula and find surface area with a missing dimension."}
+--- CHECK (pages 173-174) ---
+7th Grade Math · Weekly Check · Unit 12                                                                                                           C-GR.2.1
+Benchmark: MA.7.GR.2.1 · Surface area of a cylinder from its net                                                      Student code: ________ Calculator: yes
+
+ Learning goal: I can find the surface area of a right circular cylinder. (circle your level after scoring)
+   4   I can explain how the net gives the formula and find surface area with a missing dimension.
+   3   I can find the surface area of a cylinder from its radius and height.
+   2   I can identify the parts of a cylinder's net.
+   1   I need help to start this benchmark.
+
+
+  1. The net of a right circular cylinder is shown. Each circle has a radius of 3 centimeters, and the rectangle is 6 centimeters tall.
+
+  What is the total area of the two circular bases? Write your answer in terms of π .
+
+
+
+
+                                              r = 3 cm
+
+
+
+                    circumference = 2πr                            h = 6 cm
+
+
+
+                                              r = 3 cm
+
+
+                                   Not drawn to scale
+
+
+
+
+  2. The right circular cylinder shown has a radius of 3 centimeters and a height of 8 centimeters.
+
+  The net of this cylinder is two circles and one rectangle. What is the surface area of the cylinder? Write your answer in terms of π .
+
+
+
+                                  r = 3 cm
+
+
+
+
+                                                       h = 8 cm
+
+
+
+
+                                                                                                                                                   Turn over →
+
+                                                                                                                                           DPP Check Bank · p. 173
+7th Grade Math · Weekly Check · Unit 12 (continued)                                                                                             C-GR.2.1
+Benchmark: MA.7.GR.2.1 · Surface area of a cylinder from its net                                                                     Student code: ________
+
+  3. The net of a right circular cylinder is shown. The circles have a radius of 4 inches and the rectangle is 4 inches tall.
+
+  What is the area of the rectangle, in terms of π ?
+
+
+
+                                        r = 4 in.
+
+
+                  circumference = 2πr                     h = 4 in.
+
+
+                                        r = 4 in.
+
+
+                               Not drawn to scale
+
+
+  4. The net of a right circular cylinder is shown. Each circle has a radius of 3 centimeters and the rectangle is 8 centimeters tall.
+
+  Which expression gives the total surface area of the cylinder?
+
+
+
+                                    r = 3 cm
+
+
+
+                 circumference = 2πr                 h = 8 cm
+
+
+
+                                    r = 3 cm
+
+
+                            Not drawn to scale
+
+
+      A. π(3)2 (8)                                                                B. π(3)2 + 2π(3)(8)
+      C. 2π(3)2 + π(3)(8)                                                         D. 2π(3)2 + 2π(3)(8)
+
+  5. The net of a right circular cylinder is shown, with a radius of 4 centimeters and a height of 10 centimeters.
+
+  What is the surface area of the cylinder? Use 3.14 for π and round to the nearest hundredth.
+
+
+
+                                     r = 4 cm
+
+
+
+                 circumference = 2πr                  h = 10 cm
+
+
+
+                                     r = 4 cm
+
+
+                             Not drawn to scale
+
+
+
+Score: ____ / 5      My level: 1 2 3 4              → copy both to your progress strip
+
+                                                                                                                                         DPP Check Bank · p. 174
+
+--- ANSWER KEY (page 175) ---
+Answer key — C-GR.2.1 · MA.7.GR.2.1 · Surface area of a cylinder from its net
+Unit 12: Surface Area and Volume. Regular = on-benchmark item; Rigor = the item that needs the benchmark's
+reasoning. Mastery on the weekly check = 4 of 5.
+Weekly check (5 items)
+
+1. Regular 18π square centimeters
+   One base is a circle: πr2 = 9π square centimeters.
+   Two bases: 2 × 9π = 18π square centimeters.
+
+2. Regular 66π square centimeters
+   Each circle in the net has area π(3)2 = 9π , and there are two of them: 18π .
+   The rectangle in the net is as wide as the circumference, 2π(3) = 6π , and 8 centimeters tall: 6π × 8 = 48π .
+   Total: 18π + 48π = 66π square centimeters.
+
+3. Regular 32π square inches
+   The rectangle wraps around the circle, so its width is the circumference: 2πr = 8π inches.
+   Area = 8π × 4 = 32π square inches.
+
+
+4. Regular    D. 2π(3)2 + 2π(3)(8)
+   Two circles: 2 × π(3)2 = 18π cm2 .
+   The rectangle wraps around a circle, so its length is the circumference 2π(3) = 6π cm; its area is 6π × 8 = 48π cm2 .
+   Total: 18π + 48π = 66π cm2 .
+
+5. Rigor     351.68 square centimeters (using 3.14) · 351.86 square centimeters (using the π key)
+   Bases: 2π(4)2 = 32π . Curved surface: 2π(4)(10) = 80π .
+   Total: 112π ≈ 112 × 3.14 = 351.68 square centimeters.
+   Using the π key instead of 3.14: 351.86 square centimeters.
+
+
+Re-check strip (3 items, C-GR.2.1-R)
+1. Regular 120π square inches
+   The rectangle wraps around the circle, so its width is the circumference: 2πr = 10π inches.
+   Area = 10π × 12 = 120π square inches.
+
+
+2. Regular 72π square centimeters
+   One base is a circle: πr2 = 36π square centimeters.
+   Two bases: 2 × 36π = 72π square centimeters.
+
+3. Regular    D. 2π(4)2 + 2π(4)(3)
+   Two circles: 2 × π(4)2 = 32π cm2 .
+   The rectangle wraps around a circle, so its length is the circumference 2π(4) = 8π cm; its area is 8π × 3 = 24π cm2 .
+   Total: 32π + 24π = 56π cm2 .
+
+
+Comparison strip (2 items, C-GR.2.1-X) — used on a later week's re-check when this benchmark was not retaught
+1. Regular 32π square centimeters
+   Each circle in the net has area π(2)2 = 4π , and there are two of them: 8π .
+   The rectangle in the net is as wide as the circumference, 2π(2) = 4π , and 6 centimeters tall: 4π × 6 = 24π .
+   Total: 8π + 24π = 32π square centimeters.
+
+2. Regular    A. 2π(7)2 + 2π(7)(4)
+   Two circles: 2 × π(7)2 = 98π cm2 .
+   The rectangle wraps around a circle, so its length is the circumference 2π(7) = 14π cm; its area is 14π × 4 = 56π cm2 .
+   Total: 98π + 56π = 154π cm2 .
+
+
+
+
+                                                                                                                             DPP Check Bank · p. 175
+
+--- RE-CHECK HALF (page 177; printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                                                          C-GR.2.1-R
+Benchmark: MA.7.GR.2.1 · Surface area of a cylinder from its net                                                      Student code: ________ Calculator: yes
+
+  1. The net of a right circular cylinder is shown. The circles have a radius of 5 inches and the rectangle is 12 inches tall.
+
+  What is the area of the rectangle, in terms of π ?
+
+                                           r = 5 in.
+
+
+
+                          circumference = 2πr           h = 12 in.
+
+
+
+                                           r = 5 in.
+
+
+                                   Not drawn to scale
+
+
+
+
+  2. The net of a right circular cylinder is shown. Each circle has a radius of 6 centimeters, and the rectangle is 12 centimeters tall.
+
+  What is the total area of the two circular bases? Write your answer in terms of π .
+
+                                           r = 6 cm
+
+
+
+                          circumference = 2πr           h = 12 cm
+
+
+
+                                           r = 6 cm
+
+
+                                   Not drawn to scale
+
+
+
+
+  3. The net of a right circular cylinder is shown. Each circle has a radius of 4 centimeters and the rectangle is 3 centimeters tall.
+
+  Which expression gives the total surface area of the cylinder?
+
+                                           r = 4 cm
+
+
+
+
+7th Grade Math · Re-check (3 items)                                                                                                          C-GR.2.1-R
+Benchmark: MA.7.GR.2.1 · Surface area of a cylinder from its net                                                      Student code: ________ Calculator: yes
+
+  1. The net of a right circular cylinder is shown. The circles have a radius of 5 inches and the rectangle is 12 inches tall.
+
+  What is the area of the rectangle, in terms of π ?
+
+                                           r = 5 in.
+
+
+
+                          circumference = 2πr           h = 12 in.
+
+
+
+                                           r = 5 in.
+
+
+                                   Not drawn to scale
+
+
+
+
+  2. The net of a right circular cylinder is shown. Each circle has a radius of 6 centimeters, and the rectangle is 12 centimeters tall.
+
+  What is the total area of the two circular bases? Write your answer in terms of π .
+
+                                           r = 6 cm
+
+
+
+                          circumference = 2πr           h = 12 cm
+
+
+
+                                           r = 6 cm
+
+
+                                   Not drawn to scale
+
+
+
+
+  3. The net of a right circular cylinder is shown. Each circle has a radius of 4 centimeters and the rectangle is 3 centimeters tall.
+
+  Which expression gives the total surface area of the cylinder?
+
+                                           r = 4 cm
+
+
+                                                                                                                                           DPP Check Bank · p. 177
+
+--- COMPARISON HALF (page 178; printed twice) ---
+7th Grade Math · Comparison items (2)                                                                                                        C-GR.2.1-X
+Benchmark: MA.7.GR.2.1 · Surface area of a cylinder from its net                                                     Student code: ________ Calculator: yes
+
+  1. The right circular cylinder shown has a radius of 2 centimeters and a height of 6 centimeters.
+
+  The net of this cylinder is two circles and one rectangle. What is the surface area of the cylinder? Write your answer in terms of π .
+
+                                       r = 2 cm
+
+
+
+                                                       h = 6 cm
+
+
+
+
+  2. The net of a right circular cylinder is shown. Each circle has a radius of 7 centimeters and the rectangle is 4 centimeters tall.
+
+  Which expression gives the total surface area of the cylinder?
+
+                                          r = 7 cm
+
+
+                         circumference = 2πr                h = 4 cm
+
+
+                                          r = 7 cm
+
+
+                                  Not drawn to scale
+
+
+
+
+      A. 2π(7)2 + 2π(7)(4)                                                      B. π(7)2 + 2π(7)(4)
+      C. π(7)2 (4)                                                              D. 2π(7)2 + π(7)(4)
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+7th Grade Math · Comparison items (2)                                                                                                        C-GR.2.1-X
+Benchmark: MA.7.GR.2.1 · Surface area of a cylinder from its net                                                     Student code: ________ Calculator: yes
+
+  1. The right circular cylinder shown has a radius of 2 centimeters and a height of 6 centimeters.
+
+  The net of this cylinder is two circles and one rectangle. What is the surface area of the cylinder? Write your answer in terms of π .
+
+                                       r = 2 cm
+
+
+
+                                                       h = 6 cm
+
+
+
+
+  2. The net of a right circular cylinder is shown. Each circle has a radius of 7 centimeters and the rectangle is 4 centimeters tall.
+
+  Which expression gives the total surface area of the cylinder?
+
+                                          r = 7 cm
+
+
+                         circumference = 2πr                h = 4 cm
+
+
+                                          r = 7 cm
+
+
+                                  Not drawn to scale
+
+
+
+
+      A. 2π(7)2 + 2π(7)(4)                                                      B. π(7)2 + 2π(7)(4)
+      C. π(7)2 (4)                                                              D. 2π(7)2 + π(7)(4)
+
+Score: ____ / 2    → copy to your progress strip
+
+
+                                                                                                                                           DPP Check Bank · p. 178
+
+
+==================== C-GR.2.2  (MA.7.GR.2.2, Unit 12: Surface Area and Volume) ====================
+--- SCALE: {"goal": "I can solve problems involving surface area of cylinders.", "l2": "I can find the area of a circle and a rectangle.", "l3": "I can solve a real-world problem with the surface area of a cylinder.", "l4": "I can solve a multi-step surface-area problem, such as a label or an open-top can."}
+--- CHECK (pages 179-180) ---
+7th Grade Math · Weekly Check · Unit 12                                                                                                      C-GR.2.2
+Benchmark: MA.7.GR.2.2 · Real-world cylinder surface area                                                         Student code: ________ Calculator: yes
+
+ Learning goal: I can solve problems involving surface area of cylinders. (circle your level after scoring)
+   4   I can solve a multi-step surface-area problem, such as a label or an open-top can.
+   3   I can solve a real-world problem with the surface area of a cylinder.
+   2   I can find the area of a circle and a rectangle.
+   1   I need help to start this benchmark.
+
+
+  1. Surface area of a right circular cylinder: SA = 2πr2 + 2πrh
+
+  A cylindrical post has a radius of 5 inches and a height of 9 inches. It will be painted on every surface.
+
+  Which expression gives the area to be painted, in square inches?
+
+       A. 90π                                                                               B. 95π
+       C. 140π                                                                              D. 115π
+
+
+
+
+  2. Curved surface of a right circular cylinder: 2πrh
+
+  A cylindrical can has a radius of 7 centimeters and a height of 8 centimeters. A label wraps around the can without covering the top or bottom.
+
+  What is the area of the label? Write your answer in terms of π .
+
+
+
+
+  3. Surface area of a right circular cylinder: SA = 2πr2 + 2πrh
+
+  A cylindrical container with an open top has a radius of 4 inches and a height of 6 inches.
+
+  How much material covers the container, including its base but not its top? Write your answer in terms of π .
+
+
+
+
+                                                                                                                                              Turn over →
+
+                                                                                                                                      DPP Check Bank · p. 179
+7th Grade Math · Weekly Check · Unit 12 (continued)                                                                                       C-GR.2.2
+Benchmark: MA.7.GR.2.2 · Real-world cylinder surface area                                                                     Student code: ________
+
+  4. Surface area of a right circular cylinder: SA = 2πr2 + 2πrh
+
+  A cylindrical water tank has a radius of 5 feet and a height of 6 feet.
+
+  How much metal is needed to cover the whole tank? Write your answer in terms of π .
+
+
+
+
+  5. Surface area of a right circular cylinder: SA = 2πr2 + 2πrh
+
+  A company packages salt in cylindrical containers. Each container has a radius of 3 inches, and the label and end caps together cover a surface
+  area of 42π square inches.
+
+  What is the height of the container?
+
+
+
+
+Score: ____ / 5      My level: 1 2 3 4           → copy both to your progress strip
+
+                                                                                                                                   DPP Check Bank · p. 180
+
+--- ANSWER KEY (page 181) ---
+Answer key — C-GR.2.2 · MA.7.GR.2.2 · Real-world cylinder surface area
+Unit 12: Surface Area and Volume. Regular = on-benchmark item; Rigor = the item that needs the benchmark's
+reasoning. Mastery on the weekly check = 4 of 5.
+Weekly check (5 items)
+
+1. Regular    C. 140π
+   SA = 2π(5)2 + 2π(5)(9) = 50π + 90π = 140π .
+
+
+2. Regular 112π square centimeters
+   The label covers only the curved surface: 2π(7)(8) = 112π square centimeters.
+
+3. Regular 64π square inches
+   One base: π(4)2 = 16π .
+   Curved surface: 2π(4)(6) = 48π .
+   Total: 16π + 48π = 64π square inches.
+
+4. Regular 110π square feet
+   SA = 2π(5)2 + 2π(5)(6) = 50π + 60π = 110π square feet.
+
+
+5. Rigor     4 inches
+   The two circular ends use 2π(3)2 = 18π square inches.
+   That leaves 42π − 18π = 24π square inches for the curved surface.
+   2π(3)h = 24π , so 6h = 24 and h = 4 inches.
+
+
+Re-check strip (3 items, C-GR.2.2-R)
+1. Regular 57π square inches
+   One base: π(3)2 = 9π .
+   Curved surface: 2π(3)(8) = 48π .
+   Total: 9π + 48π = 57π square inches.
+
+2. Regular 112π square centimeters
+   The label covers only the curved surface: 2π(4)(14) = 112π square centimeters.
+
+3. Regular    C. 180π
+   SA = 2π(6)2 + 2π(6)(9) = 72π + 108π = 180π .
+
+
+Comparison strip (2 items, C-GR.2.2-X) — used on a later week's re-check when this benchmark was not retaught
+1. Regular 96π square centimeters
+   The label covers only the curved surface: 2π(6)(8) = 96π square centimeters.
+
+2. Regular    C. 88π
+   SA = 2π(4)2 + 2π(4)(7) = 32π + 56π = 88π .
+
+
+
+
+                                                                                                                DPP Check Bank · p. 181
+
+--- RE-CHECK HALF (page 183; printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                                                     C-GR.2.2-R
+Benchmark: MA.7.GR.2.2 · Real-world cylinder surface area                                                         Student code: ________ Calculator: yes
+
+  1. Surface area of a right circular cylinder: SA = 2πr2 + 2πrh
+
+  A cylindrical container with an open top has a radius of 3 inches and a height of 8 inches.
+
+  How much material covers the container, including its base but not its top? Write your answer in terms of π .
+
+
+  2. Curved surface of a right circular cylinder: 2πrh
+
+  A cylindrical can has a radius of 4 centimeters and a height of 14 centimeters. A label wraps around the can without covering the top or
+  bottom.
+
+  What is the area of the label? Write your answer in terms of π .
+
+  3. Surface area of a right circular cylinder: SA = 2πr2 + 2πrh
+
+  A cylindrical post has a radius of 6 inches and a height of 9 inches. It will be painted on every surface.
+
+  Which expression gives the area to be painted, in square inches?
+
+      A. 108π                                                                  B. 144π
+      C. 180π                                                                  D. 126π
+
+Score: ____ / 3    → copy to your progress strip
+
+
+
+
+7th Grade Math · Re-check (3 items)                                                                                                     C-GR.2.2-R
+Benchmark: MA.7.GR.2.2 · Real-world cylinder surface area                                                         Student code: ________ Calculator: yes
+
+  1. Surface area of a right circular cylinder: SA = 2πr2 + 2πrh
+
+  A cylindrical container with an open top has a radius of 3 inches and a height of 8 inches.
+
+  How much material covers the container, including its base but not its top? Write your answer in terms of π .
+
+
+  2. Curved surface of a right circular cylinder: 2πrh
+
+  A cylindrical can has a radius of 4 centimeters and a height of 14 centimeters. A label wraps around the can without covering the top or
+  bottom.
+
+  What is the area of the label? Write your answer in terms of π .
+
+  3. Surface area of a right circular cylinder: SA = 2πr2 + 2πrh
+
+  A cylindrical post has a radius of 6 inches and a height of 9 inches. It will be painted on every surface.
+
+  Which expression gives the area to be painted, in square inches?
+
+      A. 108π                                                                  B. 144π
+      C. 180π                                                                  D. 126π
+
+Score: ____ / 3    → copy to your progress strip
+
+
+
+
+                                                                                                                                      DPP Check Bank · p. 183
+
+--- COMPARISON HALF (page 184; printed twice) ---
+7th Grade Math · Comparison items (2)                                                                                                 C-GR.2.2-X
+Benchmark: MA.7.GR.2.2 · Real-world cylinder surface area                                                       Student code: ________ Calculator: yes
+
+  1. Curved surface of a right circular cylinder: 2πrh
+
+  A cylindrical can has a radius of 6 centimeters and a height of 8 centimeters. A label wraps around the can without covering the top or bottom.
+
+  What is the area of the label? Write your answer in terms of π .
+
+
+  2. Surface area of a right circular cylinder: SA = 2πr2 + 2πrh
+
+  A cylindrical post has a radius of 4 inches and a height of 7 inches. It will be painted on every surface.
+
+  Which expression gives the area to be painted, in square inches?
+
+      A. 72π                                                                   B. 56π
+      C. 88π                                                                   D. 60π
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                                                                 C-GR.2.2-X
+Benchmark: MA.7.GR.2.2 · Real-world cylinder surface area                                                       Student code: ________ Calculator: yes
+
+  1. Curved surface of a right circular cylinder: 2πrh
+
+  A cylindrical can has a radius of 6 centimeters and a height of 8 centimeters. A label wraps around the can without covering the top or bottom.
+
+  What is the area of the label? Write your answer in terms of π .
+
+
+  2. Surface area of a right circular cylinder: SA = 2πr2 + 2πrh
+
+  A cylindrical post has a radius of 4 inches and a height of 7 inches. It will be painted on every surface.
+
+  Which expression gives the area to be painted, in square inches?
+
+      A. 72π                                                                   B. 56π
+      C. 88π                                                                   D. 60π
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+                                                                                                                                    DPP Check Bank · p. 184
+
+
+==================== C-GR.2.3  (MA.7.GR.2.3, Unit 12: Surface Area and Volume) ====================
+--- SCALE: {"goal": "I can find the volume of a right circular cylinder.", "l2": "I can find the area of the base.", "l3": "I can find the volume of a cylinder from its radius or diameter and height.", "l4": "I can solve a real-world volume problem, including comparing two cylinders."}
+--- CHECK (pages 185-186) ---
+7th Grade Math · Weekly Check · Unit 12                                                                                            C-GR.2.3
+Benchmark: MA.7.GR.2.3 · Volume of a cylinder                                                           Student code: ________ Calculator: yes
+
+ Learning goal: I can find the volume of a right circular cylinder. (circle your level after scoring)
+   4   I can solve a real-world volume problem, including comparing two cylinders.
+   3   I can find the volume of a cylinder from its radius or diameter and height.
+   2   I can find the area of the base.
+   1   I need help to start this benchmark.
+
+
+  1. A right circular cylinder has a radius of 6 units and a height of 6 units.
+
+  Which expression gives the volume of the cylinder, in cubic units?
+
+       A. 432π                                                                               B. 72π
+       C. 216π                                                                               D. 36π
+
+
+
+
+  2. A cylindrical can has a diameter of 8 inches and a height of 6 inches.
+
+  What is the volume of the can? Write your answer in terms of π .
+
+
+
+
+  3. A cylindrical tank has a radius of 5 feet and a height of 8 feet.
+
+  What is the volume of the tank? Use 3.14 for π and round to the nearest hundredth.
+
+
+
+
+                                                                                                                                    Turn over →
+
+                                                                                                                            DPP Check Bank · p. 185
+7th Grade Math · Weekly Check · Unit 12 (continued)                                                       C-GR.2.3
+Benchmark: MA.7.GR.2.3 · Volume of a cylinder                                                  Student code: ________
+
+  4. A right circular cylinder has a radius of 2 centimeters and a height of 12 centimeters.
+
+  What is the volume of the cylinder? Write your answer in terms of π .
+
+
+
+
+  5. A cylindrical vase has a volume of 108π cubic inches and a radius of 3 inches.
+
+  What is the height of the vase?
+
+
+
+
+Score: ____ / 5      My level: 1 2 3 4          → copy both to your progress strip
+
+                                                                                                   DPP Check Bank · p. 186
+
+--- ANSWER KEY (page 187) ---
+Answer key — C-GR.2.3 · MA.7.GR.2.3 · Volume of a cylinder
+Unit 12: Surface Area and Volume. Regular = on-benchmark item; Rigor = the item that needs the benchmark's
+reasoning. Mastery on the weekly check = 4 of 5.
+Weekly check (5 items)
+
+1. Regular    C. 216π
+   V = πr2 h = π(6)2 (6) = 216π .
+   The expression 72π would give the curved surface area instead.
+
+2. Regular 96π cubic inches
+   The radius is 8 ÷ 2 = 4 inches.
+   V = πr2 h = π(4)2 (6) = 96π cubic inches.
+
+
+3. Regular    628.00 cubic feet (using 3.14) · 628.32 cubic feet (using the π key)
+   V = πr2 h ≈ 3.14 × 25 × 8 = 628.00 cubic feet.
+   Using the π key instead of 3.14: 628.32 cubic feet.
+
+4. Regular 48π cubic centimeters
+   V = πr2 h = π(2)2 (12) = 48π cubic centimeters.
+
+
+5. Rigor     12 inches
+   V = πr2 h, so 108π = π(3)2 h = 9πh.
+   h = 108 ÷ 9 = 12 inches.
+
+
+Re-check strip (3 items, C-GR.2.3-R)
+1. Regular    452.16 cubic feet (using 3.14) · 452.39 cubic feet (using the π key)
+   V = πr2 h ≈ 3.14 × 36 × 4 = 452.16 cubic feet.
+   Using the π key instead of 3.14: 452.39 cubic feet.
+
+2. Regular 175π cubic centimeters
+   V = πr2 h = π(5)2 (7) = 175π cubic centimeters.
+
+
+3. Regular 144π cubic inches
+   The radius is 8 ÷ 2 = 4 inches.
+   V = πr2 h = π(4)2 (9) = 144π cubic inches.
+
+
+Comparison strip (2 items, C-GR.2.3-X) — used on a later week's re-check when this benchmark was not retaught
+1. Regular    A. 72π
+   V = πr2 h = π(3)2 (8) = 72π .
+   The expression 48π would give the curved surface area instead.
+
+2. Regular 180π cubic inches
+   The radius is 12 ÷ 2 = 6 inches.
+   V = πr2 h = π(6)2 (5) = 180π cubic inches.
+
+
+
+
+                                                                                                                DPP Check Bank · p. 187
+
+--- RE-CHECK HALF (page 189; printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                                 C-GR.2.3-R
+Benchmark: MA.7.GR.2.3 · Volume of a cylinder                                                 Student code: ________ Calculator: yes
+
+  1. A cylindrical tank has a radius of 6 feet and a height of 4 feet.
+
+  What is the volume of the tank? Use 3.14 for π and round to the nearest hundredth.
+
+
+
+
+  2. A right circular cylinder has a radius of 5 centimeters and a height of 7 centimeters.
+
+  What is the volume of the cylinder? Write your answer in terms of π .
+
+
+
+
+  3. A cylindrical can has a diameter of 8 inches and a height of 9 inches.
+
+  What is the volume of the can? Write your answer in terms of π .
+
+
+
+
+Score: ____ / 3    → copy to your progress strip
+
+
+
+
+7th Grade Math · Re-check (3 items)                                                                                 C-GR.2.3-R
+Benchmark: MA.7.GR.2.3 · Volume of a cylinder                                                 Student code: ________ Calculator: yes
+
+  1. A cylindrical tank has a radius of 6 feet and a height of 4 feet.
+
+  What is the volume of the tank? Use 3.14 for π and round to the nearest hundredth.
+
+
+
+
+  2. A right circular cylinder has a radius of 5 centimeters and a height of 7 centimeters.
+
+  What is the volume of the cylinder? Write your answer in terms of π .
+
+
+
+
+  3. A cylindrical can has a diameter of 8 inches and a height of 9 inches.
+
+  What is the volume of the can? Write your answer in terms of π .
+
+
+
+
+Score: ____ / 3    → copy to your progress strip
+
+
+
+
+                                                                                                                  DPP Check Bank · p. 189
+
+--- COMPARISON HALF (page 190; printed twice) ---
+7th Grade Math · Comparison items (2)                                                                            C-GR.2.3-X
+Benchmark: MA.7.GR.2.3 · Volume of a cylinder                                              Student code: ________ Calculator: yes
+
+  1. A right circular cylinder has a radius of 3 units and a height of 8 units.
+
+  Which expression gives the volume of the cylinder, in cubic units?
+
+      A. 72π                                                                      B. 24π
+      C. 144π                                                                     D. 48π
+
+  2. A cylindrical can has a diameter of 12 inches and a height of 5 inches.
+
+  What is the volume of the can? Write your answer in terms of π .
+
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                                            C-GR.2.3-X
+Benchmark: MA.7.GR.2.3 · Volume of a cylinder                                              Student code: ________ Calculator: yes
+
+  1. A right circular cylinder has a radius of 3 units and a height of 8 units.
+
+  Which expression gives the volume of the cylinder, in cubic units?
+
+      A. 72π                                                                      B. 24π
+      C. 144π                                                                     D. 48π
+
+  2. A cylindrical can has a diameter of 12 inches and a height of 5 inches.
+
+  What is the volume of the can? Write your answer in terms of π .
+
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+                                                                                                               DPP Check Bank · p. 190
+
+
+==================== C-DP.1.1  (MA.7.DP.1.1, Unit 13: Numerical and Categorical Data) ====================
+--- SCALE: {"goal": "I can choose and justify measures of center and spread.", "l2": "I can find the mean, median, and range of a data set.", "l3": "I can choose the best measure of center or spread for a data set and explain why.", "l4": "I can explain how an outlier changes the mean, median, and range."}
+--- CHECK (pages 191-192) ---
+7th Grade Math · Weekly Check · Unit 13                                                                                                          C-DP.1.1
+Benchmark: MA.7.DP.1.1 · Choose the appropriate measure of center                                                     Student code: ________ Calculator: yes
+
+ Learning goal: I can choose and justify measures of center and spread. (circle your level after scoring)
+   4   I can explain how an outlier changes the mean, median, and range.
+   3   I can choose the best measure of center or spread for a data set and explain why.
+   2   I can find the mean, median, and range of a data set.
+   1   I need help to start this benchmark.
+
+
+ 1. The line plot shows the number of books read last month by each student.
+
+ Which measure of center best describes a typical value in this data set, and why?
+
+
+
+
+            3      4      5      6         7    8        9     10        11   12
+
+
+       A. the mean, because every value is close to the                                    B. the median, because it uses every value in the
+          rest, with no outlier                                                               data set
+       C. the median, because one value is far from the                                    D. the range, because it shows how spread out the
+          rest and pulls the mean away                                                        data is
+
+
+
+ 2. The home prices on a block are 26, 29, 38, 43, 54, 222 thousands of dollars.
+
+ Which measure of center best describes a typical value in this data set?
+
+       A. the mean, because no value is far enough away                                    B. the range, because it shows how spread out the
+          to pull it off center                                                               data is
+       C. the median, because an outlier pulls the mean                                    D. the mean, because only the middle value
+          away from the rest                                                                  affects it
+
+
+
+ 3. The box plot shows the points scored per game.
+
+ Which measure better describes how spread out a typical value is, and why?
+
+             points scored per game
+
+
+
+            4            14           24            34              44
+
+
+       A. the median, because it is in the middle of the                                   B. the mean, because a box plot shows every value
+          box
+       C. the range, because there are no extreme values                                   D. the interquartile range, because the whiskers
+          stretching it                                                                       reach far beyond the box
+
+
+
+                                                                                                                                                  Turn over →
+
+                                                                                                                                          DPP Check Bank · p. 191
+7th Grade Math · Weekly Check · Unit 13 (continued)                                                              C-DP.1.1
+Benchmark: MA.7.DP.1.1 · Choose the appropriate measure of center                                     Student code: ________
+
+ 4. A nurse wants to report a typical waiting time at a clinic. This calls for a measure of ? .
+
+       Choose the word that makes the statement true.
+
+     A. variation                                                              B. probability
+     C. center                                                                 D. proportion
+
+
+
+
+ 5. The daily visitor counts at a museum are 49, 51, 53, 54, 56, 60, 202.
+
+ Which measure of center better describes a typical value in this data set, and what is that value?
+
+     A. the median, 54                                                         B. the mean, 75
+     C. the median, 75                                                         D. the range, 153
+
+
+
+
+Score: ____ / 5     My level: 1 2 3 4           → copy both to your progress strip
+
+                                                                                                          DPP Check Bank · p. 192
+
+--- ANSWER KEY (page 193) ---
+Answer key — C-DP.1.1 · MA.7.DP.1.1 · Choose the appropriate measure of center
+Unit 13: Numerical and Categorical Data. Regular = on-benchmark item; Rigor = the item that needs the benchmark's
+reasoning. Mastery on the weekly check = 4 of 5.
+Weekly check (5 items)
+
+1. Regular    C. the median, because one value is far from the rest and pulls the mean away
+   One dot sits at 12, far to the right of the cluster between 3 and 7.
+   That one value pulls the mean toward it, but it does not move the middle value, so the median describes a typical value better.
+
+2. Regular    C. the median, because an outlier pulls the mean away from the rest
+   One value, 222, is far from the rest — it is an outlier.
+   The mean is pulled toward the outlier, while the median stays near the other values, so the median, because an outlier pulls the mean away from the rest.
+
+3. Regular    C. the range, because there are no extreme values stretching it
+   The box (37 − 17 = 20 points) takes up most of the range (28 points), and the whiskers add very little.
+   With no long whiskers to stretch it, the range describes the spread just as well and is simpler to find.
+
+4. Regular    C. center
+   A measure of center (mean or median) reports a typical value.
+   A measure of variation (range or interquartile range) reports how spread out the values are.
+   Here the question asks for a measure of center.
+
+5. Rigor     A. the median, 54
+   202 is far from every other value, so it pulls the mean up to 525 ÷ 7 = 75 — larger than six of the seven counts.
+   The median ignores how far that one value is: the middle value of the ordered list is 54, which does describe a typical value.
+
+
+Re-check strip (3 items, C-DP.1.1-R)
+1. Regular    B. the median, because an outlier pulls the mean away from the rest
+   One value, 287, is far from the rest — it is an outlier.
+   The mean is pulled toward the outlier, while the median stays near the other values, so the median, because an outlier pulls the mean away from the rest.
+
+2. Regular    C. the interquartile range, because the whiskers reach far beyond the box
+   The box holds the middle half of the data and is narrow (41 − 33 = 8 minutes).
+   The whiskers reach out to 16 and 60, so the range (44 minutes) is stretched by the few most extreme values.
+   The interquartile range describes the typical spread better.
+
+3. Regular    C. the median, because one value is far from the rest and pulls the mean away
+   One dot sits at 16, far to the right of the cluster between 6 and 10.
+   That one value pulls the mean toward it, but it does not move the middle value, so the median describes a typical value better.
+
+
+Comparison strip (2 items, C-DP.1.1-X) — used on a later week's re-check when this benchmark was not retaught
+1. Regular    A. the range, because there are no extreme values stretching it
+   The box (47 − 22 = 25 points) takes up most of the range (34 points), and the whiskers add very little.
+   With no long whiskers to stretch it, the range describes the spread just as well and is simpler to find.
+
+2. Regular    B. center
+   A measure of center (mean or median) reports a typical value.
+   A measure of variation (range or interquartile range) reports how spread out the values are.
+   Here the question asks for a measure of center.
+
+
+
+
+                                                                                                                                                        DPP Check Bank · p. 193
+
+--- RE-CHECK HALF (page 195; printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                                             C-DP.1.1-R
+Benchmark: MA.7.DP.1.1 · Choose the appropriate measure of center                                        Student code: ________ Calculator: yes
+
+ 1. The home prices on a block are 20, 30, 36, 47, 50, 287 thousands of dollars.
+
+ Which measure of center best describes a typical value in this data set?
+
+     A. the mean, because no value is far enough away                         B. the median, because an outlier pulls the mean
+          to pull it off center                                                    away from the rest
+     C. the range, because it shows how spread out the                        D. the median, because it is easier to calculate
+          data is                                                                  than the mean
+
+ 2. The box plot shows the minutes of practice.
+
+ Which measure better describes how spread out a typical value is, and why?
+
+                       minutes of practice
+
+
+
+                      6          16         26         36           46   56        66
+
+
+     A. the mean, because a box plot shows every                              B. the median, because it is in the middle of the
+          value                                                                    box
+     C. the interquartile range, because the whiskers                         D. the range, because there are no extreme values
+          reach far beyond the box                                                 stretching it
+
+
+7th Grade Math · Re-check (3 items)                                                                                             C-DP.1.1-R
+Benchmark: MA.7.DP.1.1 · Choose the appropriate measure of center                                        Student code: ________ Calculator: yes
+
+ 1. The home prices on a block are 20, 30, 36, 47, 50, 287 thousands of dollars.
+
+ Which measure of center best describes a typical value in this data set?
+
+     A. the mean, because no value is far enough away                         B. the median, because an outlier pulls the mean
+          to pull it off center                                                    away from the rest
+     C. the range, because it shows how spread out the                        D. the median, because it is easier to calculate
+          data is                                                                  than the mean
+
+ 2. The box plot shows the minutes of practice.
+
+ Which measure better describes how spread out a typical value is, and why?
+
+                       minutes of practice
+
+
+
+                      6          16         26         36           46   56        66
+
+
+     A. the mean, because a box plot shows every                              B. the median, because it is in the middle of the
+          value                                                                    box
+     C. the interquartile range, because the whiskers                         D. the range, because there are no extreme values
+          reach far beyond the box                                                 stretching it
+
+                                                                                                                             DPP Check Bank · p. 195
+
+--- COMPARISON HALF (page 196; printed twice) ---
+7th Grade Math · Comparison items (2)                                                                                              C-DP.1.1-X
+Benchmark: MA.7.DP.1.1 · Choose the appropriate measure of center                                           Student code: ________ Calculator: yes
+
+ 1. The box plot shows the points scored per game.
+
+ Which measure better describes how spread out a typical value is, and why?
+
+                       points scored per game
+
+
+
+                      8            18           28            38    48         58
+
+
+     A. the range, because there are no extreme values                      B. the median, because it is in the middle of the
+          stretching it                                                         box
+     C. the interquartile range, because the whiskers                       D. the mean, because a box plot shows every
+          reach far beyond the box                                              value
+
+ 2. A library wants to report a typical number of books borrowed per day. This calls for a measure of ? .
+
+       Choose the word that makes the statement true.
+     A. proportion                                                          B. center
+     C. probability                                                         D. variation
+
+Score: ____ / 2   → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                                                              C-DP.1.1-X
+Benchmark: MA.7.DP.1.1 · Choose the appropriate measure of center                                           Student code: ________ Calculator: yes
+
+ 1. The box plot shows the points scored per game.
+
+ Which measure better describes how spread out a typical value is, and why?
+
+                       points scored per game
+
+
+
+                      8            18           28            38    48         58
+
+
+     A. the range, because there are no extreme values                      B. the median, because it is in the middle of the
+          stretching it                                                         box
+     C. the interquartile range, because the whiskers                       D. the mean, because a box plot shows every
+          reach far beyond the box                                              value
+
+ 2. A library wants to report a typical number of books borrowed per day. This calls for a measure of ? .
+
+       Choose the word that makes the statement true.
+     A. proportion                                                          B. center
+     C. probability                                                         D. variation
+
+Score: ____ / 2   → copy to your progress strip
+
+
+
+
+                                                                                                                                DPP Check Bank · p. 196
+
+
+==================== C-DP.1.2  (MA.7.DP.1.2, Unit 13: Numerical and Categorical Data) ====================
+--- SCALE: {"goal": "I can compare two data sets using their displays.", "l2": "I can read values from a box plot or histogram.", "l3": "I can compare two data sets using measures of center and spread from their displays.", "l4": "I can make and justify a claim about two populations using their data displays."}
+--- CHECK (pages 197-198) ---
+7th Grade Math · Weekly Check · Unit 13                                                                                                           C-DP.1.2
+Benchmark: MA.7.DP.1.2 · Compare two data sets                                                                         Student code: ________ Calculator: yes
+
+ Learning goal: I can compare two data sets using their displays. (circle your level after scoring)
+   4   I can make and justify a claim about two populations using their data displays.
+   3   I can compare two data sets using measures of center and spread from their displays.
+   2   I can read values from a box plot or histogram.
+   1   I need help to start this benchmark.
+
+
+ 1. Store A: 14, 16, 18, 20, 22
+ Store B: 28, 30, 32, 34, 36
+
+ The values are daily sales, in dollars. How much greater is the mean of Store B than the mean of Store A?
+
+
+
+
+ 2. The box plots show the wait times, in minutes, for two groups of patients at a clinic.
+
+ Which statement comparing the two groups is true?
+
+        Group A
+
+
+        Group B
+
+
+                  4     9        14        19   24   29    34        39   44
+
+
+
+       A. Group B has the greater median, and Group A                                     B. Group B has the greater median, and Group B
+          has the greater interquartile range.                                                 has the greater interquartile range.
+       C. The two groups have equal medians, and the                                      D. The two groups have equal medians, and Group
+          two groups have equal interquartile ranges.                                          B has the greater interquartile range.
+
+
+
+
+ 3. The box plots show the minutes of exercise per day for two groups.
+
+ How much greater is the median of Group B than the median of Group A?
+
+
+        Group A
+
+
+        Group B
+
+
+                  7         12        17        22    27        32        37
+
+
+
+
+                                                                                                                                                   Turn over →
+
+                                                                                                                                           DPP Check Bank · p. 197
+7th Grade Math · Weekly Check · Unit 13 (continued)                                                                              C-DP.1.2
+Benchmark: MA.7.DP.1.2 · Compare two data sets                                                                       Student code: ________
+
+ 4. Field A: 23, 24, 25, 26, 27
+ Field B: 19, 23, 25, 27, 31
+
+ The values are kilograms per plot. Which data set is more consistent?
+
+     A. Field A, because its mean is larger                                    B. Field A, because its range is smaller
+     C. Field B, because its range is larger                                   D. Field B, because it contains the largest value
+
+
+
+
+ 5. The box plots show quiz scores for two classes.
+
+ How much greater is the interquartile range of Class A than that of Class B?
+
+
+         Class A
+
+
+         Class B
+
+
+                   20               30                   40
+
+
+
+
+Score: ____ / 5         My level: 1 2 3 4        → copy both to your progress strip
+
+                                                                                                                          DPP Check Bank · p. 198
+
+--- ANSWER KEY (page 199) ---
+Answer key — C-DP.1.2 · MA.7.DP.1.2 · Compare two data sets
+Unit 13: Numerical and Categorical Data. Regular = on-benchmark item; Rigor = the item that needs the benchmark's
+reasoning. Mastery on the weekly check = 4 of 5.
+Weekly check (5 items)
+
+1. Regular    14 dollars
+   Store A: mean = 90 ÷ 5 = 18.
+   Store B: mean = 160 ÷ 5 = 32.
+   32 − 18 = 14 dollars.
+
+
+2. Regular    A. Group B has the greater median, and Group A has the greater interquartile range.
+   Group A's median is 22 minutes and Group B's median is 28 minutes.
+   Group A's interquartile range is 30 − 14 = 16 minutes and Group B's is 34 − 22 = 12 minutes.
+   Group B has the greater median, and Group A has the greater interquartile range.
+
+3. Regular    11 minutes
+   Group A has a median of 17 minutes and Group B has a median of 28 minutes.
+   28 − 17 = 11 minutes.
+
+
+4. Regular    B. Field A, because its range is smaller
+   Field A has a range of 4.
+   Field B has a range of 12.
+   A smaller range means the values vary less, so Field A is more consistent.
+
+5. Rigor     3 points
+   Class A: IQR = 35 − 29 = 6.
+   Class B: IQR = 37 − 34 = 3.
+   6 − 3 = 3 points.
+
+
+Re-check strip (3 items, C-DP.1.2-R)
+1. Regular    6 points
+   Team A: mean = 100 ÷ 5 = 20.
+   Team B: mean = 130 ÷ 5 = 26.
+   26 − 20 = 6 points.
+
+
+2. Regular    C. Field A, because its range is smaller
+   Field A has a range of 8.
+   Field B has a range of 22.
+   A smaller range means the values vary less, so Field A is more consistent.
+
+3. Regular    C. Group B has the greater median, and the two groups have equal interquartile ranges.
+   Group A's median is 17 minutes and Group B's median is 21 minutes.
+   Group A's interquartile range is 23 − 11 = 12 minutes and Group B's is 27 − 15 = 12 minutes.
+   Group B has the greater median, and the two groups have equal interquartile ranges.
+
+
+Comparison strip (2 items, C-DP.1.2-X) — used on a later week's re-check when this benchmark was not retaught
+
+1. Regular    14 books
+   Class 1: mean = 120 ÷ 5 = 24.
+   Class 2: mean = 190 ÷ 5 = 38.
+   38 − 24 = 14 books.
+
+
+2. Regular    C. Machine A, because its range is smaller
+   Machine A has a range of 10.
+   Machine B has a range of 30.
+   A smaller range means the values vary less, so Machine A is more consistent.
+
+
+
+
+                                                                                                                DPP Check Bank · p. 199
+
+--- RE-CHECK HALF (page 201; printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                                              C-DP.1.2-R
+Benchmark: MA.7.DP.1.2 · Compare two data sets                                                            Student code: ________ Calculator: yes
+
+ 1. Team A: 16, 18, 20, 22, 24
+ Team B: 22, 24, 26, 28, 30
+
+ The values are points scored per game. How much greater is the mean of Team B than the mean of Team A?
+
+
+
+ 2. Field A: 28, 31, 32, 33, 36
+ Field B: 21, 30, 32, 34, 43
+
+ The values are kilograms per plot. Which data set is more consistent?
+
+     A. Field B, because it contains the largest value                        B. Field B, because its range is larger
+     C. Field A, because its range is smaller                                 D. Field A, because its mean is larger
+
+ 3. The box plots show the wait times, in minutes, for two groups of patients at a clinic.
+
+ Which statement comparing the two groups is true?
+
+                           Group A
+
+
+                           Group B
+
+
+                                     4    9      14   19   24    29      34
+
+
+
+     A. Group A has the greater median, and Group B                           B. Group A has the greater median, and Group A
+          has the greater interquartile range                                     has the greater interquartile range
+7th Grade Math · Re-check (3 items)                                                                                              C-DP.1.2-R
+Benchmark: MA.7.DP.1.2 · Compare two data sets                                                            Student code: ________ Calculator: yes
+
+ 1. Team A: 16, 18, 20, 22, 24
+ Team B: 22, 24, 26, 28, 30
+
+ The values are points scored per game. How much greater is the mean of Team B than the mean of Team A?
+
+
+
+ 2. Field A: 28, 31, 32, 33, 36
+ Field B: 21, 30, 32, 34, 43
+
+ The values are kilograms per plot. Which data set is more consistent?
+
+     A. Field B, because it contains the largest value                        B. Field B, because its range is larger
+     C. Field A, because its range is smaller                                 D. Field A, because its mean is larger
+
+ 3. The box plots show the wait times, in minutes, for two groups of patients at a clinic.
+
+ Which statement comparing the two groups is true?
+
+                           Group A
+
+
+                           Group B
+
+
+                                     4    9      14   19   24    29      34
+
+
+
+     A. Group A has the greater median, and Group B                           B. Group A has the greater median, and Group A
+          has the greater interquartile range                                     has the greater interquartile range         DPP Check Bank · p. 201
+
+--- COMPARISON HALF (page 202; printed twice) ---
+7th Grade Math · Comparison items (2)                                                                                              C-DP.1.2-X
+Benchmark: MA.7.DP.1.2 · Compare two data sets                                                              Student code: ________ Calculator: yes
+
+ 1. Class 1: 20, 22, 24, 26, 28
+ Class 2: 34, 36, 38, 40, 42
+
+ The values are books read per student. How much greater is the mean of Class 2 than the mean of Class 1?
+
+
+
+ 2. Machine A: 31, 35, 36, 37, 41
+ Machine B: 21, 34, 36, 38, 51
+
+ The values are parts per hour. Which data set is more consistent?
+
+     A. Machine B, because its range is larger                           B. Machine B, because it contains the largest
+                                                                             value
+     C. Machine A, because its range is smaller                          D. Machine A, because its mean is larger
+
+Score: ____ / 2   → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                                                              C-DP.1.2-X
+Benchmark: MA.7.DP.1.2 · Compare two data sets                                                              Student code: ________ Calculator: yes
+
+ 1. Class 1: 20, 22, 24, 26, 28
+ Class 2: 34, 36, 38, 40, 42
+
+ The values are books read per student. How much greater is the mean of Class 2 than the mean of Class 1?
+
+
+
+ 2. Machine A: 31, 35, 36, 37, 41
+ Machine B: 21, 34, 36, 38, 51
+
+ The values are parts per hour. Which data set is more consistent?
+
+     A. Machine B, because its range is larger                           B. Machine B, because it contains the largest
+                                                                             value
+     C. Machine A, because its range is smaller                          D. Machine A, because its mean is larger
+
+Score: ____ / 2   → copy to your progress strip
+
+
+
+
+                                                                                                                                DPP Check Bank · p. 202
+
+
+==================== C-DP.1.5  (MA.7.DP.1.5, Unit 13: Numerical and Categorical Data) ====================
+--- SCALE: {"goal": "I can choose and create an appropriate data display.", "l2": "I can make a bar graph or dot plot from data.", "l3": "I can choose the right display for numerical or categorical data and create it accurately.", "l4": "I can explain why one display is better than another for a given question."}
+--- CHECK (pages 203-204) ---
+7th Grade Math · Weekly Check · Unit 13                                                                                                          C-DP.1.5
+Benchmark: MA.7.DP.1.5 · Choose an appropriate graph                                                                  Student code: ________ Calculator: yes
+
+ Learning goal: I can choose and create an appropriate data display. (circle your level after scoring)
+   4     I can explain why one display is better than another for a given question.
+   3     I can choose the right display for numerical or categorical data and create it accurately.
+   2     I can make a bar graph or dot plot from data.
+   1     I need help to start this benchmark.
+
+
+ 1. The data shows the number of siblings for 10 students:
+ 6, 5, 4, 0, 3, 1, 3, 2, 5, 0
+
+ The data is numerical with only a few different values, so a line plot is an appropriate display. Create the line plot on the number line.
+
+
+
+
+               0         1            2         3         4         5         6
+
+
+
+
+ 2. A student recorded the amounts a family spent last month, in dollars.
+
+       Rent    Food       Transportation        Savings
+        99         55            44                 22
+
+
+
+ The student wants a display that shows what part of the 220 dollars each category makes up. Which display best does that?
+
+        A. a histogram                                                                      B. a box plot
+        C. a circle graph                                                                   D. a stem-and-leaf plot
+
+
+
+
+ 3. A class surveyed 100 students about their favorite lunch.
+ Pizza: 25
+ Tacos: 15
+ Salad: 40
+ Pasta: 20
+
+ Which display best shows each choice as a part of the whole group?
+
+        A. a box plot                                                                       B. a histogram
+        C. a bar chart                                                                      D. a circle graph
+
+
+
+
+                                                                                                                                                  Turn over →
+
+                                                                                                                                          DPP Check Bank · p. 203
+7th Grade Math · Weekly Check · Unit 13 (continued)                                                                                      C-DP.1.5
+Benchmark: MA.7.DP.1.5 · Choose an appropriate graph                                                                         Student code: ________
+
+ 4. A researcher recorded the times of the runners, in minutes:
+ 25, 29, 41, 11, 32, 11, 11, 15, 17, 16, 11, 19, 30, 16
+
+ The researcher wants to show how many values fall in each interval — 0–9, 10–19, 20–29, 30–39, 40–49. Which display does that?
+
+     A. a circle graph                                                       B. a histogram
+     C. a bar chart of categories                                            D. a box plot
+
+
+
+
+ 5. A club recorded how many members are in each group:
+ Bus riders: 37
+ Walkers: 38
+ Car riders: 25
+
+ The club wants to compare the group totals directly, side by side. Which display best does that?
+
+     A. a bar chart                                                          B. a box plot
+     C. a circle graph                                                       D. a histogram
+
+
+
+
+Score: ____ / 5     My level: 1 2 3 4          → copy both to your progress strip
+
+                                                                                                                                  DPP Check Bank · p. 204
+
+--- ANSWER KEY (page 205) ---
+Answer key — C-DP.1.5 · MA.7.DP.1.5 · Choose an appropriate graph
+Unit 13: Numerical and Categorical Data. Regular = on-benchmark item; Rigor = the item that needs the benchmark's
+reasoning. Mastery on the weekly check = 4 of 5.
+Weekly check (5 items)
+
+1. Regular    An X above each value for each time it appears: 0 → 2 Xs, 1 → 1 X, 2 → 1 X, 3 → 2 Xs, 4 → 1 X, 5 → 2 Xs,
+6 → 1 X.
+   Count how many times each value occurs, then stack that many Xs above the value on the number line.
+   0: 2; 1: 1; 2: 1; 3: 2; 4: 1; 5: 2; 6: 1.
+
+2. Regular    C. a circle graph
+   The four categories are the parts of one whole of 220 dollars, and each value can be written as a percent of that whole.
+   A circle graph shows parts of a whole: each sector is the same fraction of the circle as its category is of the total.
+   The other three displays summarize numerical data — how values are spread out or where they fall — and none of them shows a category as a part of one whole.
+
+3. Regular    D. a circle graph
+   Each category is a part of one whole group of students, and the parts total 100%. A circle graph is built to show parts of a whole.
+
+4. Regular    B. a histogram
+   A histogram uses bars over equal numerical intervals to show how many values fall in each one.
+
+5. Rigor     A. a bar chart
+   The groups are categories, and the goal is to compare their counts. A bar chart gives each category its own bar, so the totals can be compared by height.
+
+
+Re-check strip (3 items, C-DP.1.5-R)
+1. Regular    B. a circle graph
+   Each category is a part of one whole group of students, and the parts total 100%. A circle graph is built to show parts of a whole.
+
+2. Regular    C. a circle graph
+   The four categories are the parts of one whole of 100 books, and each value can be written as a percent of that whole.
+   A circle graph shows parts of a whole: each sector is the same fraction of the circle as its category is of the total.
+   The other three displays summarize numerical data — how values are spread out or where they fall — and none of them shows a category as a part of one whole.
+
+3. Regular    An X above each value for each time it appears: 2 → 4 Xs, 3 → 1 X, 4 → 2 Xs, 5 → 2 Xs, 6 → 1 X, 7 → 2 Xs.
+   Count how many times each value occurs, then stack that many Xs above the value on the number line.
+   2: 4; 3: 1; 4: 2; 5: 2; 6: 1; 7: 2.
+
+
+Comparison strip (2 items, C-DP.1.5-X) — used on a later week's re-check when this benchmark was not retaught
+
+1. Regular    B. a circle graph
+   The four categories are the parts of one whole of 400 books, and each value can be written as a percent of that whole.
+   A circle graph shows parts of a whole: each sector is the same fraction of the circle as its category is of the total.
+   The other three displays summarize numerical data — how values are spread out or where they fall — and none of them shows a category as a part of one whole.
+
+2. Regular    B. a histogram
+   A histogram uses bars over equal numerical intervals to show how many values fall in each one.
+
+
+
+
+                                                                                                                                                       DPP Check Bank · p. 205
+
+--- RE-CHECK HALF (page 207; printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                                                     C-DP.1.5-R
+Benchmark: MA.7.DP.1.5 · Choose an appropriate graph                                                             Student code: ________ Calculator: yes
+
+ 1. A class surveyed 100 students about their favorite sport.
+ Soccer: 15
+ Basketball: 25
+ Track: 40
+ Swimming: 20
+
+ Which display best shows each choice as a part of the whole group?
+
+     A. a histogram                                                           B. a circle graph
+     C. a bar chart                                                           D. a box plot
+
+ 2. A student recorded the books checked out of a school library last week.
+
+    Fiction    Nonfiction      Poetry     Graphic novels
+      30            30           25             15
+
+
+
+ The student wants a display that shows what part of the 100 books each category makes up. Which display best does that?
+
+     A. a stem-and-leaf plot                                                  B. a histogram
+     C. a circle graph                                                        D. a box plot
+
+ 3. The data shows the books read last month for 12 students:
+ 2, 4, 2, 6, 5, 2, 3, 2, 7, 7, 4, 5
+
+ The data is numerical with only a few different values so a line plot is an appropriate display Create the line plot on the number line
+7th Grade Math · Re-check (3 items)                                                                                                     C-DP.1.5-R
+Benchmark: MA.7.DP.1.5 · Choose an appropriate graph                                                             Student code: ________ Calculator: yes
+
+ 1. A class surveyed 100 students about their favorite sport.
+ Soccer: 15
+ Basketball: 25
+ Track: 40
+ Swimming: 20
+
+ Which display best shows each choice as a part of the whole group?
+
+     A. a histogram                                                           B. a circle graph
+     C. a bar chart                                                           D. a box plot
+
+ 2. A student recorded the books checked out of a school library last week.
+
+    Fiction    Nonfiction      Poetry     Graphic novels
+      30            30           25             15
+
+
+
+ The student wants a display that shows what part of the 100 books each category makes up. Which display best does that?
+
+     A. a stem-and-leaf plot                                                  B. a histogram
+     C. a circle graph                                                        D. a box plot
+
+ 3. The data shows the books read last month for 12 students:
+ 2, 4, 2, 6, 5, 2, 3, 2, 7, 7, 4, 5
+
+ The data is numerical with only a few different values so a line plot is an appropriate display Create the line plot on the number line
+                                                                                                                                     DPP Check Bank · p. 207
+
+--- COMPARISON HALF (page 208; printed twice) ---
+7th Grade Math · Comparison items (2)                                                                                                C-DP.1.5-X
+Benchmark: MA.7.DP.1.5 · Choose an appropriate graph                                                          Student code: ________ Calculator: yes
+
+ 1. A student recorded the books checked out of a school library last week.
+
+    Fiction       Nonfiction   Poetry     Graphic novels
+      140            120         100            40
+
+
+
+ The student wants a display that shows what part of the 400 books each category makes up. Which display best does that?
+
+     A. a histogram                                                           B. a circle graph
+     C. a stem-and-leaf plot                                                  D. a box plot
+
+ 2. A researcher recorded the heights of the plants, in centimeters:
+ 16, 17, 19, 13, 33, 41, 34, 20, 40, 30, 15, 12, 15, 13
+
+ The researcher wants to show how many values fall in each interval — 0–9, 10–19, 20–29, 30–39, 40–49. Which display does that?
+
+     A. a box plot                                                            B. a histogram
+     C. a bar chart of categories                                             D. a circle graph
+
+Score: ____ / 2     → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                                                                C-DP.1.5-X
+Benchmark: MA.7.DP.1.5 · Choose an appropriate graph                                                          Student code: ________ Calculator: yes
+
+ 1. A student recorded the books checked out of a school library last week.
+
+    Fiction       Nonfiction   Poetry     Graphic novels
+      140            120         100            40
+
+
+
+ The student wants a display that shows what part of the 400 books each category makes up. Which display best does that?
+
+     A. a histogram                                                           B. a circle graph
+     C. a stem-and-leaf plot                                                  D. a box plot
+
+ 2. A researcher recorded the heights of the plants, in centimeters:
+ 16, 17, 19, 13, 33, 41, 34, 20, 40, 30, 15, 12, 15, 13
+
+ The researcher wants to show how many values fall in each interval — 0–9, 10–19, 20–29, 30–39, 40–49. Which display does that?
+
+     A. a box plot                                                            B. a histogram
+     C. a bar chart of categories                                             D. a circle graph
+
+Score: ____ / 2     → copy to your progress strip
+
+
+
+
+                                                                                                                                  DPP Check Bank · p. 208

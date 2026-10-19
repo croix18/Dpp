@@ -1,0 +1,4222 @@
+
+
+==================== C-DP.2.1  (MA.7.DP.2.1, Unit 2: Probability) ====================
+--- SCALE: {"goal": "I can find the sample space of an experiment.", "l2": "I can list some of the outcomes of a simple experiment.", "l3": "I can list or count every outcome in the sample space, with no repeats or misses.", "l4": "I can use an organized list, table, or tree diagram to find the sample space of a two-step experiment."}
+--- CHECK (pages 5-6) ---
+7th Grade Math · Weekly Check · Unit 2                                                                                                       C-DP.2.1
+Benchmark: MA.7.DP.2.1 · Sample space of a simple experiment                                                      Student code: ________ Calculator: yes
+
+ Learning goal: I can find the sample space of an experiment. (circle your level after scoring)
+   4   I can use an organized list, table, or tree diagram to find the sample space of a two-step experiment.
+   3   I can list or count every outcome in the sample space, with no repeats or misses.
+   2   I can list some of the outcomes of a simple experiment.
+   1   I need help to start this benchmark.
+
+
+ 1. Each letter of the word GRAPH is written on its own card, one letter per card, and all of the cards are placed in a bag. One card is drawn at
+ random.
+
+ List the sample space for this experiment.
+
+
+
+
+ 2. A spinner has 4 equal sections, colored yellow, white, red and orange. The spinner is spun once.
+
+ How many outcomes are in the sample space?
+
+       A. 4                                                                                B. 1
+       C. 8                                                                                D. 3
+
+
+
+
+ 3. A bag holds 5 green, 3 red, 5 black marbles. One marble is drawn at random and its color is recorded.
+
+ How many outcomes are in the sample space?
+
+       A. 13                                                                               B. 3
+       C. 10                                                                               D. 1
+
+
+
+
+                                                                                                                                             Turn over →
+
+                                                                                                                                        DPP Check Bank · p. 5
+7th Grade Math · Weekly Check · Unit 2 (continued)                                                                                        C-DP.2.1
+Benchmark: MA.7.DP.2.1 · Sample space of a simple experiment                                                                   Student code: ________
+
+ 4. A deck has 32 cards. Each card is labeled with a number from 1 to 8 in one of 4 suits: hearts, spades, clubs, diamonds. One card is drawn at
+ random.
+
+ How many outcomes are in the sample space?
+
+     A. 8                                                                     B. 32
+     C. 12                                                                    D. 4
+
+
+
+
+ 5. A spinner has 7 equal sections: 3 yellow, 2 purple, 2 green. The spinner is spun once and the color is recorded.
+
+ How many outcomes are in the sample space?
+
+     A. 4                                                                     B. 7
+     C. 3                                                                     D. 21
+
+
+
+
+Score: ____ / 5     My level: 1 2 3 4           → copy both to your progress strip
+
+                                                                                                                                     DPP Check Bank · p. 6
+
+--- ANSWER KEY (page 7) ---
+Answer key — C-DP.2.1 · MA.7.DP.2.1 · Sample space of a simple experiment
+Unit 2: Probability. Regular = on-benchmark item; Rigor = the item that needs the benchmark's reasoning. Mastery on
+the weekly check = 4 of 5.
+Weekly check (5 items)
+
+1. Regular {G, R, A, P , H}
+   Each card that can be drawn is one outcome, so the sample space lists every card in the bag.
+   GRAPH has 5 different letters, so there are 5 cards and 5 outcomes: {G, R, A, P , H}.
+
+2. Regular    A. 4
+   Each section is one possible outcome, and the spinner is spun once.
+   The sample space has 4 outcomes: yellow, white, red, orange.
+
+3. Regular    B. 3
+   The outcome recorded is the color, so the sample space is {green, red, black} — 3 outcomes.
+   The 13 marbles are not themselves the outcomes.
+
+4. Regular    B. 32
+   Every card in the deck is one possible outcome of a single draw.
+   The deck has 4 × 8 = 32 cards, so the sample space has 32 outcomes.
+
+5. Rigor     C. 3
+   The color is what gets recorded, so the outcomes are yellow, purple, green — 3 outcomes.
+   The 7 sections are not all different outcomes, because a color can appear on more than one section.
+
+
+Re-check strip (3 items, C-DP.2.1-R)
+1. Regular {F , R, A, C, T , I, O, N }
+   Each card that can be drawn is one outcome, so the sample space lists every card in the bag.
+   FRACTION has 8 different letters, so there are 8 cards and 8 outcomes: {F , R, A, C, T , I, O, N }.
+
+2. Regular    B. 6
+   Each section is one possible outcome, and the spinner is spun once.
+   The sample space has 6 outcomes: red, yellow, blue, purple, green, white.
+
+3. Regular    B. 3
+   The outcome recorded is the color, so the sample space is {blue, green, yellow} — 3 outcomes.
+   The 12 marbles are not themselves the outcomes.
+
+
+Comparison strip (2 items, C-DP.2.1-X) — used on a later week's re-check when this benchmark was not retaught
+1. Regular {A, N , G, L, E}
+   Each card that can be drawn is one outcome, so the sample space lists every card in the bag.
+   ANGLE has 5 different letters, so there are 5 cards and 5 outcomes: {A, N , G, L, E}.
+
+2. Regular    D. 24
+   Every card in the deck is one possible outcome of a single draw.
+   The deck has 4 × 6 = 24 cards, so the sample space has 24 outcomes.
+
+
+
+
+                                                                                                                DPP Check Bank · p. 7
+
+--- RE-CHECK HALF (page 9; printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                                                        C-DP.2.1-R
+Benchmark: MA.7.DP.2.1 · Sample space of a simple experiment                                                        Student code: ________ Calculator: yes
+
+ 1. Each letter of the word FRACTION is written on its own card, one letter per card, and all of the cards are placed in a bag. One card is drawn
+ at random.
+
+ List the sample space for this experiment.
+
+
+
+ 2. A spinner has 6 equal sections, colored red, yellow, blue, purple, green and white. The spinner is spun once.
+
+ How many outcomes are in the sample space?
+
+     A. 5                                                                    B. 6
+     C. 12                                                                   D. 1
+
+ 3. A bag holds 3 blue, 6 green, 3 yellow marbles. One marble is drawn at random and its color is recorded.
+
+ How many outcomes are in the sample space?
+
+     A. 1                                                                    B. 3
+     C. 12                                                                   D. 9
+
+Score: ____ / 3   → copy to your progress strip
+
+
+
+
+7th Grade Math · Re-check (3 items)                                                                                                        C-DP.2.1-R
+Benchmark: MA.7.DP.2.1 · Sample space of a simple experiment                                                        Student code: ________ Calculator: yes
+
+ 1. Each letter of the word FRACTION is written on its own card, one letter per card, and all of the cards are placed in a bag. One card is drawn
+ at random.
+
+ List the sample space for this experiment.
+
+
+
+ 2. A spinner has 6 equal sections, colored red, yellow, blue, purple, green and white. The spinner is spun once.
+
+ How many outcomes are in the sample space?
+
+     A. 5                                                                    B. 6
+     C. 12                                                                   D. 1
+
+ 3. A bag holds 3 blue, 6 green, 3 yellow marbles. One marble is drawn at random and its color is recorded.
+
+ How many outcomes are in the sample space?
+
+     A. 1                                                                    B. 3
+     C. 12                                                                   D. 9
+
+Score: ____ / 3   → copy to your progress strip
+
+
+
+
+                                                                                                                                          DPP Check Bank · p. 9
+
+--- COMPARISON HALF (page 10; printed twice) ---
+7th Grade Math · Comparison items (2)                                                                                                   C-DP.2.1-X
+Benchmark: MA.7.DP.2.1 · Sample space of a simple experiment                                                     Student code: ________ Calculator: yes
+
+ 1. Each letter of the word ANGLE is written on its own card, one letter per card, and all of the cards are placed in a bag. One card is drawn at
+ random.
+
+ List the sample space for this experiment.
+
+
+
+ 2. A deck has 24 cards. Each card is labeled with a number from 1 to 6 in one of 4 suits: hearts, spades, clubs, diamonds. One card is drawn at
+ random.
+
+ How many outcomes are in the sample space?
+
+     A. 10                                                                   B. 4
+     C. 6                                                                    D. 24
+
+Score: ____ / 2   → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                                                                   C-DP.2.1-X
+Benchmark: MA.7.DP.2.1 · Sample space of a simple experiment                                                     Student code: ________ Calculator: yes
+
+ 1. Each letter of the word ANGLE is written on its own card, one letter per card, and all of the cards are placed in a bag. One card is drawn at
+ random.
+
+ List the sample space for this experiment.
+
+
+
+ 2. A deck has 24 cards. Each card is labeled with a number from 1 to 6 in one of 4 suits: hearts, spades, clubs, diamonds. One card is drawn at
+ random.
+
+ How many outcomes are in the sample space?
+
+     A. 10                                                                   B. 4
+     C. 6                                                                    D. 24
+
+Score: ____ / 2   → copy to your progress strip
+
+
+
+
+                                                                                                                                      DPP Check Bank · p. 10
+
+
+==================== C-NSO.1.2  (MA.7.NSO.1.2, Unit 2: Probability) ====================
+--- SCALE: {"goal": "I can rewrite rational numbers in equivalent forms.", "l2": "I can convert between a fraction and a terminating decimal.", "l3": "I can convert between fractions, decimals, and percents, including repeating decimals.", "l4": "I can choose the best form of a number to solve a problem and explain why it is equivalent."}
+--- CHECK (pages 11-12) ---
+7th Grade Math · Weekly Check · Unit 2                                                                                                                          C-NSO.1.2
+Benchmark: MA.7.NSO.1.2 · Rewrite rational numbers in equivalent forms                                                                  Student code: ________ Calculator: yes
+
+ Learning goal: I can rewrite rational numbers in equivalent forms. (circle your level after scoring)
+   4           I can choose the best form of a number to solve a problem and explain why it is equivalent.
+   3           I can convert between fractions, decimals, and percents, including repeating decimals.
+   2           I can convert between a fraction and a terminating decimal.
+   1           I need help to start this benchmark.
+
+
+ 1. Write the fraction as a repeating decimal.
+
+       1
+       3
+           ​
+
+
+
+
+                                                                                            5
+ 2. Two identical bottles of sports drink are partly full. The first bottle is                full and the second bottle is 90% full.
+                                                                                            6
+                                                                                              ​
+
+
+
+
+ The first bottle holds ____ the second bottle.
+
+               Choose the phrase that correctly completes the sentence.
+       A. more than                                                                               B. the same amount as
+       C. less than                                                                               D. exactly twice as much as
+
+
+
+
+ 3. Which fraction is equivalent to 0.15?
+
+                    1                                                                                    3
+       A. 1                                                                                       B. 6
+                    2                                                                                    5
+                        ​                                                                                    ​
+
+
+
+
+                  5                                                                                     3
+       C.                                                                                         D.
+                  33                                                                                    20
+                        ​                                                                                    ​
+
+
+
+
+                                                                                                                                                                   Turn over →
+
+                                                                                                                                                             DPP Check Bank · p. 11
+7th Grade Math · Weekly Check · Unit 2 (continued)                                                   C-NSO.1.2
+Benchmark: MA.7.NSO.1.2 · Rewrite rational numbers in equivalent forms                       Student code: ________
+
+ 4. Write the fraction as a percent.
+
+     14
+     15
+          ​
+
+
+
+
+ 5. Select all the values that are equivalent to 1 ÷ 3.
+
+              Select all the correct answers.
+                 33                                                                  3
+     ☐                                                                        ☐
+                100                                                                  1
+                      ​                                                                  ​
+
+
+
+
+     ☐ 0.1                                                                           1
+                                                                              ☐
+                                                                                     3
+                                                                                         ​
+
+
+
+
+     ☐ 0.3
+
+
+
+
+Score: ____ / 5           My level: 1 2 3 4     → copy both to your progress strip
+
+                                                                                                  DPP Check Bank · p. 12
+
+--- ANSWER KEY (page 13) ---
+Answer key — C-NSO.1.2 · MA.7.NSO.1.2 · Rewrite rational numbers in equivalent forms
+Unit 2: Probability. Regular = on-benchmark item; Rigor = the item that needs the benchmark's reasoning. Mastery on
+the weekly check = 4 of 5.
+Weekly check (5 items)
+
+1. Regular 0.3
+   1 ÷ 3 = 0.3 — the digit 3 repeats.
+
+
+2. Regular    C. less than
+                                                       5
+   Rewrite both amounts in the same form. = 5 ÷ 6, which is about 83.33%.
+                                               6
+                                                            ​
+
+
+
+
+   83.33% is less than 90%, so the first bottle holds less than the second bottle.
+
+                               5
+3. Regular    C.
+                               33
+                                    ​
+
+
+
+
+                                                      15   5
+   Two repeating digits go over 99: 0.15 =               =    .
+                                                      99   33
+                                                        ​       ​
+
+
+
+
+                       1   280
+4. Regular 93            =     %
+                       3    3
+                               ​          ​
+
+
+
+
+                                                                    1
+   A percent is the value out of 100: 14 ÷ 15 × 100 = 93 %.
+                                                                    3
+                                                                        ​
+
+
+
+
+                   1
+5. Rigor     D. ; E. 0.3
+                   3
+                           ​
+
+
+
+
+          1
+   1 ÷ 3 = = 0.3.
+          3
+              ​
+
+
+
+
+   The bar means the digit 3 repeats forever.
+    33
+        = 0.33 stops after two digits, so it is close to 0.3 but not equal.
+   100
+         ​
+
+
+
+
+   3
+     is 3 ÷ 1, not 1 ÷ 3.
+   1
+     ​
+
+
+
+
+   0.1 is 1 ÷ 10, not 1 ÷ 3.
+
+
+Re-check strip (3 items, C-NSO.1.2-R)
+
+1. Regular    A. more than
+                                                       4
+   Rewrite both amounts in the same form. = 4 ÷ 9, which is about 44.44%.
+                                             9
+                                                            ​
+
+
+
+
+   44.44% is more than 15%, so the first bottle holds more than the second bottle.
+
+                  17
+2. Regular
+                  18
+                       ​
+
+
+
+
+                                        85   17
+   0.94 = (94 − 9) ÷ 90 =                  =    .
+                                        90   18
+                                              ​   ​
+
+
+
+
+3. Regular 0.6
+   2 ÷ 3 = 0.6 — the digit 6 repeats.
+
+
+Comparison strip (2 items, C-NSO.1.2-X) — used on a later week's re-check when this benchmark was not retaught
+1. Regular    C. more than
+                                                       7
+   Rewrite both amounts in the same form. = 7 ÷ 9, which is about 77.78%.
+                                             9
+                                                            ​
+
+
+
+
+   77.78% is more than 20%, so the first bottle holds more than the second bottle.
+
+2. Regular 0.53
+   8 ÷ 15 = 0.53 — the digit 3 repeats.
+
+
+
+
+                                                                                                                 DPP Check Bank · p. 13
+
+--- RE-CHECK HALF (page 15; printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                                                              C-NSO.1.2-R
+Benchmark: MA.7.NSO.1.2 · Rewrite rational numbers in equivalent forms                                                       Student code: ________ Calculator: yes
+
+                                                                                 4
+ 1. Two identical bottles of sports drink are partly full. The first bottle is     full and the second bottle is 15% full.
+                                                                                 9
+                                                                                  ​
+
+
+
+
+ The first bottle holds ____ the second bottle.
+
+             Choose the phrase that correctly completes the sentence.
+     A. more than                                                                     B. less than
+     C. exactly twice as much as                                                      D. the same amount as
+
+ 2. Write the repeating decimal as a fraction in simplest form.
+
+    0.94
+
+
+
+
+ 3. Write the fraction as a repeating decimal.
+
+     2
+     3
+         ​
+
+
+
+
+Score: ____ / 3      → copy to your progress strip
+
+
+
+
+7th Grade Math · Re-check (3 items)                                                                                                              C-NSO.1.2-R
+Benchmark: MA.7.NSO.1.2 · Rewrite rational numbers in equivalent forms                                                       Student code: ________ Calculator: yes
+
+                                                                                 4
+ 1. Two identical bottles of sports drink are partly full. The first bottle is     full and the second bottle is 15% full.
+                                                                                 9
+                                                                                  ​
+
+
+
+
+ The first bottle holds ____ the second bottle.
+
+             Choose the phrase that correctly completes the sentence.
+     A. more than                                                                     B. less than
+     C. exactly twice as much as                                                      D. the same amount as
+
+ 2. Write the repeating decimal as a fraction in simplest form.
+
+    0.94
+
+
+
+
+ 3. Write the fraction as a repeating decimal.
+
+     2
+     3
+         ​
+
+
+
+
+Score: ____ / 3      → copy to your progress strip
+
+
+
+
+                                                                                                                                                  DPP Check Bank · p. 15
+
+--- COMPARISON HALF (page 16; printed twice) ---
+7th Grade Math · Comparison items (2)                                                                                                            C-NSO.1.2-X
+Benchmark: MA.7.NSO.1.2 · Rewrite rational numbers in equivalent forms                                                       Student code: ________ Calculator: yes
+
+                                                                                 7
+ 1. Two identical bottles of sports drink are partly full. The first bottle is     full and the second bottle is 20% full.
+                                                                                 9
+                                                                                  ​
+
+
+
+
+ The first bottle holds ____ the second bottle.
+
+              Choose the phrase that correctly completes the sentence.
+     A. exactly twice as much as                                                      B. less than
+     C. more than                                                                     D. the same amount as
+
+ 2. Write the fraction as a repeating decimal.
+
+      8
+     15
+          ​
+
+
+
+
+Score: ____ / 2       → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                                                                            C-NSO.1.2-X
+Benchmark: MA.7.NSO.1.2 · Rewrite rational numbers in equivalent forms                                                       Student code: ________ Calculator: yes
+
+                                                                                 7
+ 1. Two identical bottles of sports drink are partly full. The first bottle is     full and the second bottle is 20% full.
+                                                                                 9
+                                                                                  ​
+
+
+
+
+ The first bottle holds ____ the second bottle.
+
+              Choose the phrase that correctly completes the sentence.
+     A. exactly twice as much as                                                      B. less than
+     C. more than                                                                     D. the same amount as
+
+ 2. Write the fraction as a repeating decimal.
+
+      8
+     15
+          ​
+
+
+
+
+Score: ____ / 2       → copy to your progress strip
+
+
+
+
+                                                                                                                                                  DPP Check Bank · p. 16
+
+
+==================== C-DP.2.2  (MA.7.DP.2.2, Unit 2: Probability) ====================
+--- SCALE: {"goal": "I can find and interpret the probability of a simple event.", "l2": "I can tell whether an event is likely, unlikely, certain, or impossible.", "l3": "I can write the probability of a simple event as a fraction, decimal, or percent and say what it means.", "l4": "I can compare probabilities of events from different experiments and explain which is more likely."}
+--- CHECK (pages 17-18) ---
+7th Grade Math · Weekly Check · Unit 2                                                                                                               C-DP.2.2
+Benchmark: MA.7.DP.2.2 · Interpret and compare probabilities                                                              Student code: ________ Calculator: yes
+
+ Learning goal: I can find and interpret the probability of a simple event. (circle your level after scoring)
+   4   I can compare probabilities of events from different experiments and explain which is more likely.
+   3   I can write the probability of a simple event as a fraction, decimal, or percent and say what it means.
+   2   I can tell whether an event is likely, unlikely, certain, or impossible.
+   1   I need help to start this benchmark.
+
+
+  1. Which value cannot be the probability of an event?
+
+       A. 1                                                                                 B. 1.4
+       C. 0                                                                                 D. 45%
+
+
+
+
+  2. The probability of rain tomorrow is reported as 85%.
+
+  Is this event likely or unlikely? Explain using the probability.
+
+       A. As likely as not, because the probability is a                                    B. Likely, because 85% is greater than 50% and
+          percentage.                                                                            closer to 1 than to 0.
+       C. Impossible, because 85% is close to 1.                                            D. Unlikely, because 85% is greater than 50%.
+
+
+
+
+  3. The probability that an event occurs is P (event) = 0.5. This event is ? .
+
+        Choose the phrase that makes the statement true.
+
+       A. almost certain                                                                    B. unlikely
+       C. very unlikely                                                                     D. as likely as not
+
+
+
+
+                                                                                                                                                      Turn over →
+
+                                                                                                                                               DPP Check Bank · p. 17
+7th Grade Math · Weekly Check · Unit 2 (continued)                                                                              C-DP.2.2
+Benchmark: MA.7.DP.2.2 · Interpret and compare probabilities                                                         Student code: ________
+
+                                 7                              9
+  4. Event M has probability . Event N has probability            .
+                                 8                             10
+                                                                  ​
+
+
+
+
+  Which event is more likely?
+
+      A. Event M                                                               B. They are equally likely.
+      C. Event N                                                               D. There is not enough information.
+
+
+
+
+  5. Match each probability to the phrase that describes it.
+
+       Check one box in each row.
+                              Unlikely        As likely as not        Likely
+          P (B) = 0.5             ☐                    ☐               ☐
+          P (A) = 0.1             ☐                    ☐               ☐
+          P (C) = 0.9             ☐                    ☐               ☐
+
+
+
+
+Score: ____ / 5      My level: 1 2 3 4           → copy both to your progress strip
+
+                                                                                                                          DPP Check Bank · p. 18
+
+--- ANSWER KEY (page 19) ---
+Answer key — C-DP.2.2 · MA.7.DP.2.2 · Interpret and compare probabilities
+Unit 2: Probability. Regular = on-benchmark item; Rigor = the item that needs the benchmark's reasoning. Mastery on
+the weekly check = 4 of 5.
+Weekly check (5 items)
+
+1. Regular   B. 1.4
+   Every probability is between 0 and 1 (or 0% and 100%).
+   1.4 is impossible because a probability can never be greater than 1.
+
+2. Regular   B. Likely, because 85% is greater than 50% and closer to 1 than to 0.
+   85% = 0.85, which is greater than 0.5, so it is closer to 1 than to 0.
+   An event with a probability less than 0.5 is unlikely and an event with a probability greater than 0.5 is likely, so this event is likely.
+
+3. Regular   D. as likely as not
+   A probability of 0.5 sits exactly at 0.5.
+   Probabilities very close to 0 are very unlikely, those very close to 1 are almost certain, and 0.5 means as likely as not, so 0.5 is as likely as not.
+
+4. Regular   C. Event N
+    7            9
+      ≈ 0.88 and    = 0.9.
+    8            10
+     ​                ​
+
+
+
+
+                                9
+   The greater probability is      , so that event is more likely.
+                                10
+                                        ​
+
+
+
+
+5. Rigor P (B) = 0.5 → As likely as not; P (A) = 0.1 → Unlikely; P (C) = 0.9 → Likely
+   Probabilities near 0 describe unlikely events, probabilities near 1 describe likely events, and exactly 0.5 means as likely as not.
+   0.1 is unlikely, 0.5 is as likely as not, and 0.9 is likely.
+
+
+Re-check strip (3 items, C-DP.2.2-R)
+
+1. Regular   A. Likely, because 80% is greater than 50% and closer to 1 than to 0.
+   80% = 0.8, which is greater than 0.5, so it is closer to 1 than to 0.
+   An event with a probability less than 0.5 is unlikely and an event with a probability greater than 0.5 is likely, so this event is likely.
+
+2. Regular   B. 120%
+   Every probability is between 0 and 1 (or 0% and 100%).
+   120% is impossible because a percentage probability can never be greater than 100%.
+
+3. Regular   C. Event S
+    3           1
+      ≈ 0.38 and = 0.5.
+    8           2
+     ​            ​
+
+
+
+
+                                1
+   The greater probability is , so that event is more likely.
+                                2
+                                    ​
+
+
+
+
+Comparison strip (2 items, C-DP.2.2-X) — used on a later week's re-check when this benchmark was not retaught
+1. Regular   B. Event N
+    2            7
+      ≈ 0.67 and    = 0.7.
+    3            10
+     ​                ​
+
+
+
+
+                                7
+   The greater probability is      , so that event is more likely.
+                                10
+                                        ​
+
+
+
+
+2. Regular   C. 1.4
+   Every probability is between 0 and 1 (or 0% and 100%).
+   1.4 is impossible because a probability can never be greater than 1.
+
+
+
+
+                                                                                                                                                            DPP Check Bank · p. 19
+
+--- RE-CHECK HALF (page 21; printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                                         C-DP.2.2-R
+Benchmark: MA.7.DP.2.2 · Interpret and compare probabilities                                         Student code: ________ Calculator: yes
+
+  1. The probability of a bus arriving on time is reported as 80%.
+
+  Is this event likely or unlikely? Explain using the probability.
+
+      A. Likely, because 80% is greater than 50% and                   B. Impossible, because 80% is close to 1.
+          closer to 1 than to 0.
+      C. As likely as not, because the probability is a                D. Unlikely, because 80% is greater than 50%.
+          percentage.
+
+  2. Which value cannot be the probability of an event?
+
+      A. 45%                                                           B. 120%
+      C. 0                                                             D. 1
+
+                                3                              1
+  3. Event R has probability . Event S has probability .
+                                8                              2
+                                    ​                              ​
+
+
+
+
+  Which event is more likely?
+
+      A. There is not enough information.                              B. They are equally likely.
+      C. Event S                                                       D. Event R
+
+Score: ____ / 3    → copy to your progress strip
+
+
+
+
+7th Grade Math · Re-check (3 items)                                                                                         C-DP.2.2-R
+Benchmark: MA.7.DP.2.2 · Interpret and compare probabilities                                         Student code: ________ Calculator: yes
+
+  1. The probability of a bus arriving on time is reported as 80%.
+
+  Is this event likely or unlikely? Explain using the probability.
+
+      A. Likely, because 80% is greater than 50% and                   B. Impossible, because 80% is close to 1.
+          closer to 1 than to 0.
+      C. As likely as not, because the probability is a                D. Unlikely, because 80% is greater than 50%.
+          percentage.
+
+  2. Which value cannot be the probability of an event?
+
+      A. 45%                                                           B. 120%
+      C. 0                                                             D. 1
+
+                                3                              1
+  3. Event R has probability . Event S has probability .
+                                8                              2
+                                    ​                              ​
+
+
+
+
+  Which event is more likely?
+
+      A. There is not enough information.                              B. They are equally likely.
+      C. Event S                                                       D. Event R
+
+Score: ____ / 3    → copy to your progress strip
+
+
+
+                                                                                                                          DPP Check Bank · p. 21
+
+--- COMPARISON HALF (page 22; printed twice) ---
+7th Grade Math · Comparison items (2)                                                                                  C-DP.2.2-X
+Benchmark: MA.7.DP.2.2 · Interpret and compare probabilities                                    Student code: ________ Calculator: yes
+
+                                 2                              7
+  1. Event M has probability . Event N has probability            .
+                                 3                             10
+                                     ​                            ​
+
+
+
+
+  Which event is more likely?
+
+      A. They are equally likely.                                     B. Event N
+      C. Event M                                                      D. There is not enough information.
+
+  2. Which value cannot be the probability of an event?
+
+      A. 1                                                            B. 0
+      C. 1.4                                                               3
+                                                                      D.
+                                                                           8
+                                                                               ​
+
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                                                  C-DP.2.2-X
+Benchmark: MA.7.DP.2.2 · Interpret and compare probabilities                                    Student code: ________ Calculator: yes
+
+                                 2                              7
+  1. Event M has probability . Event N has probability            .
+                                 3                             10
+                                     ​                            ​
+
+
+
+
+  Which event is more likely?
+
+      A. They are equally likely.                                     B. Event N
+      C. Event M                                                      D. There is not enough information.
+
+  2. Which value cannot be the probability of an event?
+
+      A. 1                                                            B. 0
+      C. 1.4                                                               3
+                                                                      D.
+                                                                           8
+                                                                               ​
+
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+                                                                                                                     DPP Check Bank · p. 22
+
+
+==================== C-DP.2.3  (MA.7.DP.2.3, Unit 2: Probability) ====================
+--- SCALE: {"goal": "I can find theoretical probability and compare it to experimental results.", "l2": "I can count the favorable outcomes and the total outcomes.", "l3": "I can find the theoretical probability of an event and compare it to the experimental probability.", "l4": "I can explain why experimental and theoretical probabilities differ and how more trials affect that."}
+--- CHECK (pages 23-24) ---
+7th Grade Math · Weekly Check · Unit 2                                                                                                                    C-DP.2.3
+Benchmark: MA.7.DP.2.3 · Find theoretical probability of an event                                                              Student code: ________ Calculator: yes
+
+ Learning goal: I can find theoretical probability and compare it to experimental results. (circle your level after scoring)
+   4   I can explain why experimental and theoretical probabilities differ and how more trials affect that.
+   3   I can find the theoretical probability of an event and compare it to the experimental probability.
+   2   I can count the favorable outcomes and the total outcomes.
+   1   I need help to start this benchmark.
+
+
+  1. A fair spinner has 5 equal sections. 4 sections are yellow. The spinner is spun once.
+
+  What is the probability that the spinner lands on yellow? Write your answer as a percent.
+
+
+
+
+  2. A bag holds 18 marbles, and 4 of them are red. One marble is drawn at random.
+
+  What is the probability of drawing a red marble? Give your answer as a fraction in simplest form.
+
+            4                                                                                   2
+       A.                                                                                  B.
+            17                                                                                  9
+                    ​                                                                               ​
+
+
+
+
+            7                                                                                   1
+       C.                                                                                  D.
+            9                                                                                   6
+                ​                                                                                   ​
+
+
+
+
+  3. A bag has 8 red, 3 blue, and 6 green marbles.
+
+  What is the probability of drawing a red marble?
+
+
+
+
+                                                                                                                                                           Turn over →
+
+                                                                                                                                                    DPP Check Bank · p. 23
+7th Grade Math · Weekly Check · Unit 2 (continued)                                                                       C-DP.2.3
+Benchmark: MA.7.DP.2.3 · Find theoretical probability of an event                                             Student code: ________
+
+  4. A fair 12-sided die is rolled.
+
+  What is the theoretical probability of rolling less than 7?
+
+
+
+
+  5. A bag has 7 red marbles and 3 blue marbles. One marble is drawn at random.
+
+  Drawing a marble that is not red is ____ drawing a red marble.
+
+        Choose the option that correctly completes the sentence.
+      A. equally likely as                                                      B. less likely than
+      C. more likely than                                                       D. impossible compared with
+
+
+
+
+Score: ____ / 5      My level: 1 2 3 4            → copy both to your progress strip
+
+                                                                                                                   DPP Check Bank · p. 24
+
+--- ANSWER KEY (page 25) ---
+Answer key — C-DP.2.3 · MA.7.DP.2.3 · Find theoretical probability of an event
+Unit 2: Probability. Regular = on-benchmark item; Rigor = the item that needs the benchmark's reasoning. Mastery on
+the weekly check = 4 of 5.
+Weekly check (5 items)
+
+1. Regular           80%
+   All 5 sections are equally likely, so the sample space has 5 outcomes and 4 of them are yellow.
+                 4
+   P (yellow) =    .
+                 5
+                                                 ​
+
+
+
+
+   4 ÷ 5 = 0.8, and 0.8 = 80%.
+
+                                                 2
+2. Regular           B.
+                                                 9
+                                                     ​
+
+
+
+
+                                                                     4   2
+   P (red) = favorable outcomes ÷ total outcomes =                      = .
+                                                                     18  9
+                                                                        ​   ​
+
+
+
+
+                      8
+3. Regular
+                     17
+                                             ​
+
+
+
+
+             8
+   P (red) =    .
+             17
+                                         ​
+
+
+
+
+                     1
+4. Regular
+                     2
+                             ​
+
+
+
+
+   Favorable: 1 through 6 = 6 outcomes.
+           6    1
+   P =        =
+           12   2
+             ​                   ​
+
+
+
+
+5. Rigor     B. less likely than
+                 3             7
+   P (not red) =    . P (red) = .
+                 10            10
+                                                         ​       ​
+
+
+
+
+    3     7
+       <    .
+   10    10
+      ​          ​
+
+
+
+
+Re-check strip (3 items, C-DP.2.3-R)
+                     1
+1. Regular
+                     2
+                         ​
+
+
+
+
+   Favorable: 1 through 5 = 5 outcomes.
+           5    1
+   P =        =
+           10   2
+             ​                   ​
+
+
+
+
+                                                  6
+2. Regular           A.
+                                                 23
+                                                                     6
+   P (red) = favorable outcomes ÷ total outcomes =                      .
+                                                                     23
+                                                                        ​
+
+
+
+
+3. Regular           37.5%
+   All 8 sections are equally likely, so the sample space has 8 outcomes and 3 of them are blue.
+              3
+   P (blue) =   .
+              8
+                                     ​
+
+
+
+
+   3 ÷ 8 = 0.375, and 0.375 = 37.5%.
+
+
+Comparison strip (2 items, C-DP.2.3-X) — used on a later week's re-check when this benchmark was not retaught
+1. Regular           0.92
+   All 50 sections are equally likely, so the sample space has 50 outcomes and 46 of them are blue.
+              46   23
+   P (blue) =    =    .
+              50   25
+                                             ​               ​
+
+
+
+
+   46 ÷ 50 = 0.92.
+
+                                                 14
+2. Regular           C.
+                                                 23
+                                                                     14
+   P (red) = favorable outcomes ÷ total outcomes =                      .
+                                                                     23
+                                                                        ​
+
+
+
+
+                                                                                                                DPP Check Bank · p. 25
+
+--- RE-CHECK HALF (page 27; printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                                          C-DP.2.3-R
+Benchmark: MA.7.DP.2.3 · Find theoretical probability of an event                                     Student code: ________ Calculator: yes
+
+  1. A fair 10-sided die is rolled.
+
+  What is the theoretical probability of rolling less than 6?
+
+
+
+
+  2. A bag holds 23 marbles, and 6 of them are red. One marble is drawn at random.
+
+  What is the probability of drawing a red marble? Give your answer as a fraction in simplest form.
+
+           6                                                                        5
+      A.                                                                       B.
+           23                                                                       23
+                ​                                                                        ​
+
+
+
+
+           17                                                                       3
+      C.                                                                       D.
+           23                                                                       11
+                ​                                                                        ​
+
+
+
+
+  3. A fair spinner has 8 equal sections. 3 sections are blue. The spinner is spun once.
+
+  What is the probability that the spinner lands on blue? Write your answer as a percent.
+
+
+
+
+Score: ____ / 3     → copy to your progress strip
+
+
+
+
+7th Grade Math · Re-check (3 items)                                                                                          C-DP.2.3-R
+Benchmark: MA.7.DP.2.3 · Find theoretical probability of an event                                     Student code: ________ Calculator: yes
+
+  1. A fair 10-sided die is rolled.
+
+  What is the theoretical probability of rolling less than 6?
+
+
+
+
+  2. A bag holds 23 marbles, and 6 of them are red. One marble is drawn at random.
+
+  What is the probability of drawing a red marble? Give your answer as a fraction in simplest form.
+
+           6                                                                        5
+      A.                                                                       B.
+           23                                                                       23
+                ​                                                                        ​
+
+
+
+
+           17                                                                       3
+      C.                                                                       D.
+           23                                                                       11
+                ​                                                                        ​
+
+
+
+
+  3. A fair spinner has 8 equal sections. 3 sections are blue. The spinner is spun once.
+
+  What is the probability that the spinner lands on blue? Write your answer as a percent.
+
+
+
+
+Score: ____ / 3     → copy to your progress strip
+
+
+
+
+                                                                                                                           DPP Check Bank · p. 27
+
+--- COMPARISON HALF (page 28; printed twice) ---
+7th Grade Math · Comparison items (2)                                                                                        C-DP.2.3-X
+Benchmark: MA.7.DP.2.3 · Find theoretical probability of an event                                     Student code: ________ Calculator: yes
+
+  1. A fair spinner has 50 equal sections. 46 sections are blue. The spinner is spun once.
+
+  What is the probability that the spinner lands on blue? Write your answer as a decimal.
+
+
+
+
+  2. A bag holds 23 marbles, and 14 of them are red. One marble is drawn at random.
+
+  What is the probability of drawing a red marble? Give your answer as a fraction in simplest form.
+
+           9                                                                       13
+      A.                                                                      B.
+           23                                                                      23
+                ​                                                                       ​
+
+
+
+
+           14                                                                      7
+      C.                                                                      D.
+           23                                                                      11
+                ​                                                                       ​
+
+
+
+
+Score: ____ / 2     → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                                                        C-DP.2.3-X
+Benchmark: MA.7.DP.2.3 · Find theoretical probability of an event                                     Student code: ________ Calculator: yes
+
+  1. A fair spinner has 50 equal sections. 46 sections are blue. The spinner is spun once.
+
+  What is the probability that the spinner lands on blue? Write your answer as a decimal.
+
+
+
+
+  2. A bag holds 23 marbles, and 14 of them are red. One marble is drawn at random.
+
+  What is the probability of drawing a red marble? Give your answer as a fraction in simplest form.
+
+           9                                                                       13
+      A.                                                                      B.
+           23                                                                      23
+                ​                                                                       ​
+
+
+
+
+           14                                                                      7
+      C.                                                                      D.
+           23                                                                      11
+                ​                                                                       ​
+
+
+
+
+Score: ____ / 2     → copy to your progress strip
+
+
+
+
+                                                                                                                           DPP Check Bank · p. 28
+
+
+==================== C-DP.2.4  (MA.7.DP.2.4, Unit 2: Probability) ====================
+--- SCALE: {"goal": "I can use a simulation to find experimental probability.", "l2": "I can record the results of trials in a table.", "l3": "I can use results from a simulation to find an experimental probability and compare it to theoretical.", "l4": "I can design a simulation for a situation and predict results for a larger number of trials."}
+--- CHECK (pages 29-30) ---
+7th Grade Math · Weekly Check · Unit 2                                                                                                               C-DP.2.4
+Benchmark: MA.7.DP.2.4 · Experimental vs theoretical probability                                                          Student code: ________ Calculator: yes
+
+ Learning goal: I can use a simulation to find experimental probability. (circle your level after scoring)
+   4   I can design a simulation for a situation and predict results for a larger number of trials.
+   3   I can use results from a simulation to find an experimental probability and compare it to theoretical.
+   2   I can record the results of trials in a table.
+   1   I need help to start this benchmark.
+
+
+  1. A bag contains only red marbles and purple marbles. When one marble is drawn at random, the probability that it is red is 0.2. A student
+  draws a marble, records its color and returns it to the bag. The student repeats this 100 times.
+
+  About how many times would you expect the student to draw a red marble?
+
+
+
+
+  2. Two students each simulate rolling a fair die. One runs 120 trials and the other runs 5000 trials.
+
+  Whose experimental probability is expected to be closer to the theoretical probability?
+
+       A. The student who ran 120 trials, because fewer                                     B. The student who ran 5000 trials, because more
+          trials means fewer chances for error.                                                  trials usually bring the experimental probability
+                                                                                                 closer to the theoretical one.
+       C. Both are equally close, because the experiment                                    D. Neither, because experimental probability never
+          is fair.                                                                               gets close to theoretical probability.
+
+
+
+
+  3. A fair coin is tossed 500 times and lands on heads 220 times.
+
+  What is the experimental probability of landing on heads? Write your answer as a decimal.
+
+
+
+
+                                                                                                                                                      Turn over →
+
+                                                                                                                                               DPP Check Bank · p. 29
+7th Grade Math · Weekly Check · Unit 2 (continued)                                                                                            C-DP.2.4
+Benchmark: MA.7.DP.2.4 · Experimental vs theoretical probability                                                                   Student code: ________
+
+  4. A fair 6-sided die is rolled 120 times. It lands on a 2 exactly 14 times.
+
+  What is the experimental probability of rolling a 2, and how does it compare with the theoretical probability? Write both as fractions in simplest
+  form.
+
+
+
+
+  5. A fair spinner with 4 equal sections is spun 400 times and lands on section 1 exactly 88 times.
+
+  Which statement about the probabilities of landing on section 1 is true?
+
+                                        1                                        B. The spinner must be unfair, because the two
+      A. The theoretical probability is ; the
+                                        4                                              probabilities are not equal.
+                                                             ​
+
+
+
+
+                                       11
+         experimental probability of      is a little less
+                                       50
+                                                         ​
+
+
+
+
+          because of random variation.
+
+                                        1                                                                          1
+      C. The theoretical probability is ; the                                    D. The experimental probability is , because the
+                                        4                                                                          4
+                                                             ​                                                                 ​
+
+
+
+
+                                       11                                              spinner is fair.
+         experimental probability of      is a little greater
+                                       50
+                                                         ​
+
+
+
+
+          because of random variation.
+
+
+
+
+Score: ____ / 5      My level: 1 2 3 4            → copy both to your progress strip
+
+                                                                                                                                        DPP Check Bank · p. 30
+
+--- ANSWER KEY (page 31) ---
+Answer key — C-DP.2.4 · MA.7.DP.2.4 · Experimental vs theoretical probability
+Unit 2: Probability. Regular = on-benchmark item; Rigor = the item that needs the benchmark's reasoning. Mastery on
+the weekly check = 4 of 5.
+Weekly check (5 items)
+
+1. Regular    about 20 times
+   The theoretical probability of drawing red is 0.2, so about 20% of the draws should be red.
+   0.2 × 100 = 20.
+   About 20 of the 100 draws would be expected to be red. The actual number will usually differ a little, because of random variation.
+
+         B. The student who ran 5000 trials, because more trials usually bring the experimental probability
+2. Regular
+closer to the theoretical one.
+   Experimental probabilities vary from trial to trial, but as the number of trials increases they typically get closer to the theoretical probability.
+   The 5000-trial simulation is expected to be closer.
+
+3. Regular    0.44
+   Experimental probability = successes ÷ trials.
+   220 ÷ 500 = 0.44.
+
+                                          7                             1
+        Experimental: ; theoretical: . The experimental probability is slightly less than the theoretical
+4. Regular
+                     60             6
+                                              ​                             ​
+
+
+
+
+probability.
+                                                              14    7
+   Experimental probability = times it happened ÷ trials =        =    ≈ 0.12.
+                                                             120    60
+                                                                                    ​         ​
+
+
+
+
+                                                         1
+   Theoretical probability = 1 favorable face ÷ 6 faces = ≈ 0.17.
+                                                         6
+                                                                    ​
+
+
+
+
+                                                                                                                   1
+   They are close but not equal; with more trials the experimental probability usually gets closer to .
+                                                                                                                   6
+                                                                                                                       ​
+
+
+
+
+                                                                        1                                                  11
+5. Rigor     A. The theoretical probability is ; the experimental probability of                                              is a little less because of random
+                                                                        4                                                  50
+                                                                                ​                                             ​
+
+
+
+
+variation.
+                  1                               88       11
+   Theoretical: = 0.25. Experimental:      =     ≈ 0.22.
+               4                       400   50
+                      ​                                ​        ​
+
+
+
+
+   The experimental result is below the theoretical one by 12 spins, which is normal random variation.
+
+
+Re-check strip (3 items, C-DP.2.4-R)
+                                                                                        11                                                     1
+1. Regular    D. The experimental probability,                                             , is a little less than the theoretical probability, .
+                                                                                        25                                                     2
+                                                                                          ​                                                        ​
+
+
+
+
+               4   1
+   Theoretical: = = 0.5.
+               8   2
+                      ​       ​
+
+
+
+
+                 44    11
+   Experimental:     =    = 0.44.
+                 100   25
+                          ​       ​
+
+
+
+
+   The experimental probability is a little less than the theoretical probability because of random variation.
+
+2. Regular    about 160 times
+   The theoretical probability of drawing green is 0.4, so about 40% of the draws should be green.
+   0.4 × 400 = 160.
+   About 160 of the 400 draws would be expected to be green. The actual number will usually differ a little, because of random variation.
+
+         C. The student who ran 2000 trials, because more trials usually bring the experimental probability
+3. Regular
+closer to the theoretical one.
+   Experimental probabilities vary from trial to trial, but as the number of trials increases they typically get closer to the theoretical probability.
+   The 2000-trial simulation is expected to be closer.
+
+
+Comparison strip (2 items, C-DP.2.4-X) — used on a later week's re-check when this benchmark was not retaught
+1. Regular    0.56
+   Experimental probability = successes ÷ trials.
+   112 ÷ 200 = 0.56.
+
+                                                                                         87                                                     7
+2. Regular    D. The experimental probability,                                              , is a little less than the theoretical probability, .
+                                                                                        100                                                     8
+                                                                                                  ​                                                    ​
+
+
+
+
+              7
+   Theoretical:  = 0.875.
+              8
+                      ​
+
+
+
+
+                 348    87
+   Experimental:     =      = 0.87.
+                 400    100
+                          ​           ​
+
+
+
+
+   The experimental probability is a little less than the theoretical probability because of random variation.
+
+
+
+
+                                                                                                                                                           DPP Check Bank · p. 31
+
+--- RE-CHECK HALF (page 33; printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                                                     C-DP.2.4-R
+Benchmark: MA.7.DP.2.4 · Experimental vs theoretical probability                                                 Student code: ________ Calculator: yes
+
+  1. A spinner has 8 equal sections, and 4 of them are red. In a simulation the spinner is spun 100 times and lands on red 44 times.
+
+  Which statement correctly compares the experimental and theoretical probabilities of landing on red?
+
+      A. The two probabilities must be equal because                                                              11
+                                                                               B. The experimental probability,      , is a little
+          the spinner is fair.                                                                                    25
+                                                                                                                              ​
+
+
+
+
+                                                                                                                                1
+                                                                                   greater than the theoretical probability, .
+                                                                                                                                2
+                                                                                                                                           ​
+
+
+
+
+                                                        11                                                        11
+      C. The theoretical probability is                    , because that      D. The experimental probability,      , is a little less
+                                                        25                                                        25
+                                                           ​                                                                  ​
+
+
+
+
+          is what actually happened.                                                                                 1
+                                                                                   than the theoretical probability, .
+                                                                                                                     2
+                                                                                                                                  ​
+
+
+
+
+  2. A bag contains only green marbles and blue marbles. When one marble is drawn at random, the probability that it is green is 0.4. A student
+  draws a marble, records its color and returns it to the bag. The student repeats this 400 times.
+
+  About how many times would you expect the student to draw a green marble?
+
+
+
+  3. Two students each simulate rolling a fair die. One runs 2000 trials and the other runs 100 trials.
+
+  Whose experimental probability is expected to be closer to the theoretical probability?
+
+      A. Both are equally close, because the experiment                        B. Neither, because experimental probability
+          is fair.                                                                 never gets close to theoretical probability.
+    C The student who ran 2000 trials because more                             D The student who ran 100 trials because fewer
+7th Grade Math · Re-check (3 items)                                                                                                     C-DP.2.4-R
+Benchmark: MA.7.DP.2.4 · Experimental vs theoretical probability                                                 Student code: ________ Calculator: yes
+
+  1. A spinner has 8 equal sections, and 4 of them are red. In a simulation the spinner is spun 100 times and lands on red 44 times.
+
+  Which statement correctly compares the experimental and theoretical probabilities of landing on red?
+
+      A. The two probabilities must be equal because                                                              11
+                                                                               B. The experimental probability,      , is a little
+          the spinner is fair.                                                                                    25
+                                                                                                                              ​
+
+
+
+
+                                                                                                                                1
+                                                                                   greater than the theoretical probability, .
+                                                                                                                                2
+                                                                                                                                           ​
+
+
+
+
+                                                        11                                                        11
+      C. The theoretical probability is                    , because that      D. The experimental probability,      , is a little less
+                                                        25                                                        25
+                                                           ​                                                                  ​
+
+
+
+
+          is what actually happened.                                                                                 1
+                                                                                   than the theoretical probability, .
+                                                                                                                     2
+                                                                                                                                  ​
+
+
+
+
+  2. A bag contains only green marbles and blue marbles. When one marble is drawn at random, the probability that it is green is 0.4. A student
+  draws a marble, records its color and returns it to the bag. The student repeats this 400 times.
+
+  About how many times would you expect the student to draw a green marble?
+
+
+
+  3. Two students each simulate rolling a fair die. One runs 2000 trials and the other runs 100 trials.
+
+  Whose experimental probability is expected to be closer to the theoretical probability?
+
+      A. Both are equally close, because the experiment                        B. Neither, because experimental probability
+          is fair.                                                                 never gets close to theoretical probability.
+      C The student who ran 2000 trials because more                           D The student who ran 100 trials becauseDPPfewer
+                                                                                                                           Check Bank · p. 33
+
+--- COMPARISON HALF (page 34; printed twice) ---
+7th Grade Math · Comparison items (2)                                                                                                    C-DP.2.4-X
+Benchmark: MA.7.DP.2.4 · Experimental vs theoretical probability                                                 Student code: ________ Calculator: yes
+
+  1. A fair coin is tossed 200 times and lands on heads 112 times.
+
+  What is the experimental probability of landing on heads? Write your answer as a decimal.
+
+
+
+
+  2. A spinner has 8 equal sections, and 7 of them are red. In a simulation the spinner is spun 400 times and lands on red 348 times.
+
+  Which statement correctly compares the experimental and theoretical probabilities of landing on red?
+
+                                                         87                  B. The two probabilities must be equal because
+      A. The theoretical probability is                     , because that
+                                                        100                      the spinner is fair.
+                                                             ​
+
+
+
+
+          is what actually happened.
+
+                                          87                                                                     87
+      C. The experimental probability,       , is a little                   D. The experimental probability,        , is a little less
+                                         100                                                                    100
+                                                                 ​                                                             ​
+
+
+
+
+                                                       7                                                           7
+          greater than the theoretical probability, .                            than the theoretical probability, .
+                                                       8                                                           8
+                                                                     ​                                                             ​
+
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                                                                    C-DP.2.4-X
+Benchmark: MA.7.DP.2.4 · Experimental vs theoretical probability                                                 Student code: ________ Calculator: yes
+
+  1. A fair coin is tossed 200 times and lands on heads 112 times.
+
+  What is the experimental probability of landing on heads? Write your answer as a decimal.
+
+
+
+
+  2. A spinner has 8 equal sections, and 7 of them are red. In a simulation the spinner is spun 400 times and lands on red 348 times.
+
+  Which statement correctly compares the experimental and theoretical probabilities of landing on red?
+
+                                                         87                  B. The two probabilities must be equal because
+      A. The theoretical probability is                     , because that
+                                                        100                      the spinner is fair.
+                                                             ​
+
+
+
+
+          is what actually happened.
+
+                                          87                                                                     87
+      C. The experimental probability,       , is a little                   D. The experimental probability,        , is a little less
+                                         100                                                                    100
+                                                                 ​                                                             ​
+
+
+
+
+                                                       7                                                           7
+          greater than the theoretical probability, .                            than the theoretical probability, .
+                                                       8                                                           8
+                                                                     ​                                                             ​
+
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+                                                                                                                                        DPP Check Bank · p. 34
+
+
+==================== C-NSO.2.2  (MA.7.NSO.2.2, Unit 3: Operations with Rational Numbers) ====================
+--- SCALE: {"goal": "I can add, subtract, multiply, and divide rational numbers.", "l2": "I can add and subtract integers and multiply and divide with the correct sign.", "l3": "I can add, subtract, multiply, and divide fractions, decimals, and negatives accurately.", "l4": "I can solve a multi-step computation with rational numbers and check that the sign and size make sense."}
+--- CHECK (pages 35-36) ---
+7th Grade Math · Weekly Check · Unit 3                                                                                                    C-NSO.2.2
+Benchmark: MA.7.NSO.2.2 · Four operations with rational numbers                                                    Student code: ________ Calculator: no
+
+ Learning goal: I can add, subtract, multiply, and divide rational numbers. (circle your level after scoring)
+   4     I can solve a multi-step computation with rational numbers and check that the sign and size make sense.
+   3     I can add, subtract, multiply, and divide fractions, decimals, and negatives accurately.
+   2     I can add and subtract integers and multiply and divide with the correct sign.
+   1     I need help to start this benchmark.
+
+
+ 1. Evaluate. Write your answer in simplest form.
+
+        2    1
+       − ÷ (− )
+        3    3
+          ​           ​
+
+
+
+
+        A. 2                                                                                        2
+                                                                                            B.
+                                                                                                    9
+                                                                                                        ​
+
+
+
+
+              2                                                                                     1
+        C.                                                                                  D.
+              3                                                                                     2
+                  ​                                                                                     ​
+
+
+
+
+ 2. Subtract. Write your answer in simplest form.
+
+        3    3
+       − − (− )
+        4    4
+          ​           ​
+
+
+
+
+ 3. Evaluate the expression.
+
+       −3 × (−2.5)
+
+
+
+
+                                                                                                                                              Turn over →
+
+                                                                                                                                       DPP Check Bank · p. 35
+7th Grade Math · Weekly Check · Unit 3 (continued)                                              C-NSO.2.2
+Benchmark: MA.7.NSO.2.2 · Four operations with rational numbers                         Student code: ________
+
+ 4. What number makes the equation true?
+
+     3                 4
+    − +           =−
+     5                 5
+        ​     ​            ​
+
+
+
+
+ 5. Decide whether each product is positive or negative.
+
+       Check one box in each row.
+                                        Positive   Negative
+            −3.5 × 3.5                    ☐            ☐
+            −1.5 × (−2.5)                 ☐            ☐
+            1.5 × (−3.5)                  ☐            ☐
+            3.5 × 2.5                     ☐            ☐
+
+
+
+
+Score: ____ / 5                My level: 1 2 3 4   → copy both to your progress strip
+
+                                                                                             DPP Check Bank · p. 36
+
+--- ANSWER KEY (page 37) ---
+Answer key — C-NSO.2.2 · MA.7.NSO.2.2 · Four operations with rational numbers
+Unit 3: Operations with Rational Numbers. Regular = on-benchmark item; Rigor = the item that needs the benchmark's
+reasoning. Mastery on the weekly check = 4 of 5.
+Weekly check (5 items)
+
+1. Regular           A. 2
+   Dividing by a fraction means multiplying by its reciprocal.
+    2
+   − × (−3) = 2.
+    3
+         ​
+
+
+
+
+2. Regular           0
+   LCD of 4 and 4 is 4.
+    3    3   0
+   − − (− ) = .
+    4    4   4
+         ​                   ​                   ​
+
+
+
+
+   Simplify: 0.
+
+3. Regular               7.5
+   3 × 2.5 = 7.5.
+   The signs match, so the product is positive.
+   = 7.5
+
+                                 1
+4. Regular −
+                                 5
+                                     ​
+
+
+
+
+   The missing term is the difference of the two known numbers.
+    4      3    1
+   − − (− ) = − .
+    5      5    5
+         ​                   ​                                       ​
+
+
+
+
+           3    1     4
+   Check: − + (− ) = − .
+           5    5     5
+                             ​                                   ​                   ​
+
+
+
+
+5. Rigor −3.5 × 3.5 → Negative; −1.5 × (−2.5) → Positive; 1.5 × (−3.5) → Negative; 3.5 × 2.5 → Positive
+   Two factors with the same sign give a positive product.
+   Two factors with different signs give a negative product.
+
+
+Re-check strip (3 items, C-NSO.2.2-R)
+1. Regular           −2
+   8 × 0.25 = 2.
+   The signs differ, so the product is negative.
+   = −2
+
+                                     3    18
+2. Regular −3                          =−
+                                     5     5
+                                         ​                                       ​
+
+
+
+
+   The missing term is the difference of the two known numbers.
+     4 4      3
+   −2 − = −3 .
+     5 5      5
+             ​   ​
+
+
+
+
+         4      3     4
+   Check: + (−3 ) = −2 .
+         5      5     5
+                     ​                                       ​                           ​
+
+
+
+
+                                  5
+3. Regular −
+                                 24
+                                             ​
+
+
+
+
+   LCD of 6 and 8 is 24.
+     20 15       5
+   −   +     =− .
+     24 24       24
+             ​           ​                           ​
+
+
+
+
+              5
+   Simplify: − .
+              24
+                                     ​
+
+
+
+
+Comparison strip (2 items, C-NSO.2.2-X) — used on a later week's re-check when this benchmark was not retaught
+                                     1    5
+1. Regular −1                          =−
+                                     4    4
+                                         ​                                   ​
+
+
+
+
+   The missing term is the difference of the two known numbers.
+   3          1
+     − 2 = −1 .
+   4          4
+     ​                           ​
+
+
+
+
+                 1   3
+   Check: 2 + (−1 ) = .
+                 4   4
+                                                         ​               ​
+
+
+
+
+2. Regular           −7.5
+   3 × 2.5 = 7.5.
+   The signs differ, so the product is negative.
+   = −7.5
+
+
+
+
+                                                                                                                 DPP Check Bank · p. 37
+
+--- RE-CHECK HALF (page 39; printed twice) ---
+7th Grade Math · Re-check (3 items)                                                  C-NSO.2.2-R
+Benchmark: MA.7.NSO.2.2 · Four operations with rational numbers   Student code: ________ Calculator: no
+
+ 1. Evaluate the expression.
+
+    8 × (−0.25)
+
+
+
+
+ 2. What number makes the equation true?
+
+     4                   4
+       +          = −2
+     5                   5
+      ​       ​              ​
+
+
+
+
+ 3. Evaluate. Write your answer in simplest form.
+
+     5 5
+    − +
+     6 8
+          ​       ​
+
+
+
+
+Score: ____ / 3          → copy to your progress strip
+
+
+
+
+7th Grade Math · Re-check (3 items)                                                  C-NSO.2.2-R
+Benchmark: MA.7.NSO.2.2 · Four operations with rational numbers   Student code: ________ Calculator: no
+
+ 1. Evaluate the expression.
+
+    8 × (−0.25)
+
+
+
+
+ 2. What number makes the equation true?
+
+     4                   4
+       +          = −2
+     5                   5
+      ​       ​              ​
+
+
+
+
+ 3. Evaluate. Write your answer in simplest form.
+
+     5 5
+    − +
+     6 8
+          ​       ​
+
+
+
+
+Score: ____ / 3          → copy to your progress strip
+
+
+
+
+                                                                                      DPP Check Bank · p. 39
+
+--- COMPARISON HALF (page 40; printed twice) ---
+7th Grade Math · Comparison items (2)                                                C-NSO.2.2-X
+Benchmark: MA.7.NSO.2.2 · Four operations with rational numbers   Student code: ________ Calculator: no
+
+ 1. What number makes the equation true?
+
+                   3
+    2+         =
+                   4
+           ​           ​
+
+
+
+
+ 2. Evaluate the expression.
+
+    −3 × 2.5
+
+
+
+
+Score: ____ / 2            → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                C-NSO.2.2-X
+Benchmark: MA.7.NSO.2.2 · Four operations with rational numbers   Student code: ________ Calculator: no
+
+ 1. What number makes the equation true?
+
+                   3
+    2+         =
+                   4
+           ​           ​
+
+
+
+
+ 2. Evaluate the expression.
+
+    −3 × 2.5
+
+
+
+
+Score: ____ / 2            → copy to your progress strip
+
+
+
+
+                                                                                      DPP Check Bank · p. 40
+
+
+==================== C-NSO.2.3  (MA.7.NSO.2.3, Unit 3: Operations with Rational Numbers) ====================
+--- SCALE: {"goal": "I can solve real-world problems with rational numbers.", "l2": "I can pick the operation a word problem needs.", "l3": "I can solve a real-world problem involving rational numbers and state the answer with units.", "l4": "I can solve a multi-step real-world problem with rational numbers and explain whether the answer is reasonable."}
+--- CHECK (pages 41-42) ---
+7th Grade Math · Weekly Check · Unit 3                                                                                                           C-NSO.2.3
+Benchmark: MA.7.NSO.2.3 · Real-world problems with rational numbers                                                      Student code: ________ Calculator: yes
+
+ Learning goal: I can solve real-world problems with rational numbers. (circle your level after scoring)
+   4   I can solve a multi-step real-world problem with rational numbers and explain whether the answer is reasonable.
+   3   I can solve a real-world problem involving rational numbers and state the answer with units.
+   2   I can pick the operation a word problem needs.
+   1   I need help to start this benchmark.
+
+
+ 1. A student buys 4 notebooks at $7.25 each. Sales tax is 6%.
+
+ What is the total cost?
+
+       A. $30.74                                                                          B. $7.69
+       C. $1.74                                                                           D. $29.00
+
+
+
+
+ 2. The temperature starts at 8∘ F, then changes by −4, +5, −3 over three hours.
+
+ What is the final temperature?
+
+
+
+
+ 3. A student has $30.75. They spend $5.75 on lunch and $3.75 on supplies.
+
+ How much money is left?
+
+
+
+
+                                                                                                                                                     Turn over →
+
+                                                                                                                                              DPP Check Bank · p. 41
+7th Grade Math · Weekly Check · Unit 3 (continued)                                                                       C-NSO.2.3
+Benchmark: MA.7.NSO.2.3 · Real-world problems with rational numbers                                              Student code: ________
+
+ 4. You start with $75.00. You spend $12.50, earn $20.00, then spend $8.50.
+
+ How much do you have now?
+
+
+
+
+ 5. A student borrows $800.00 at 10% simple interest for 2 years, then repays it in 24 equal monthly payments.
+
+ What is each monthly payment, to the nearest cent?
+
+
+
+
+Score: ____ / 5     My level: 1 2 3 4           → copy both to your progress strip
+
+                                                                                                                      DPP Check Bank · p. 42
+
+--- ANSWER KEY (page 43) ---
+Answer key — C-NSO.2.3 · MA.7.NSO.2.3 · Real-world problems with rational numbers
+Unit 3: Operations with Rational Numbers. Regular = on-benchmark item; Rigor = the item that needs the benchmark's
+reasoning. Mastery on the weekly check = 4 of 5.
+Weekly check (5 items)
+
+1. Regular    A. $30.74
+   Subtotal: 4 × $7.25 = $29.00.
+   Tax: 6% of $29.00 = $1.74.
+   Total: $29.00 + $1.74 = $30.74.
+
+2. Regular 6∘ F
+   8 − 4 + 5 − 3 = 6∘ F.
+
+
+3. Regular    $21.25
+   $30.75 − $5.75 − $3.75 = $21.25
+
+
+4. Regular    $74.00
+   $75.00 − $12.50 + $20.00 − $8.50 = $74.00.
+
+
+5. Rigor     $40.00
+   Interest: $800.00 × 0.1 × 2 = $160.00.
+   Total: $800.00 + $160.00 = $960.00.
+   Monthly: $960.00 ÷ 24 = $40.00.
+
+
+Re-check strip (3 items, C-NSO.2.3-R)
+1. Regular 1∘ F
+   −2 − 2 + 7 − 2 = 1∘ F.
+
+              2
+2. Regular      cup
+              3
+               ​
+
+
+
+
+                   1     2
+   Flour used: 5 ×    = 1 cups.
+                   3     3
+                       ​       ​
+
+
+
+
+                1    2   2
+   Flour left: 2 − 1 = cup.
+                3    3   3
+                   ​       ​       ​
+
+
+
+
+3. Regular    $72.75
+   $75.00 − $12.50 + $25.00 − $14.75 = $72.75.
+
+
+Comparison strip (2 items, C-NSO.2.3-X) — used on a later week's re-check when this benchmark was not retaught
+1. Regular    $104.00
+   $100.00 − $12.50 + $25.00 − $8.50 = $104.00.
+
+
+2. Regular    C. $18.02
+   Subtotal: 4 × $4.25 = $17.00.
+   Tax: 6% of $17.00 = $1.02.
+   Total: $17.00 + $1.02 = $18.02.
+
+
+
+
+                                                                                                                 DPP Check Bank · p. 43
+
+--- RE-CHECK HALF (page 45; printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                                                  C-NSO.2.3-R
+Benchmark: MA.7.NSO.2.3 · Real-world problems with rational numbers                                              Student code: ________ Calculator: yes
+
+ 1. The temperature starts at −2∘ F, then changes by −2, +7, −2 over three hours.
+
+ What is the final temperature?
+
+
+
+
+                    1                                                                1
+ 2. A baker uses      cup of flour for each batch of muffins. The baker starts with 2 cups of flour and makes 5 batches.
+                    3                                                                3
+                     ​                                                              ​
+
+
+
+
+ How many cups of flour are left?
+
+
+
+
+ 3. You start with $75.00. You spend $12.50, earn $25.00, then spend $14.75.
+
+ How much do you have now?
+
+
+
+
+Score: ____ / 3   → copy to your progress strip
+
+
+
+
+7th Grade Math · Re-check (3 items)                                                                                                  C-NSO.2.3-R
+Benchmark: MA.7.NSO.2.3 · Real-world problems with rational numbers                                              Student code: ________ Calculator: yes
+
+ 1. The temperature starts at −2∘ F, then changes by −2, +7, −2 over three hours.
+
+ What is the final temperature?
+
+
+
+
+                    1                                                                1
+ 2. A baker uses      cup of flour for each batch of muffins. The baker starts with 2 cups of flour and makes 5 batches.
+                    3                                                                3
+                     ​                                                              ​
+
+
+
+
+ How many cups of flour are left?
+
+
+
+
+ 3. You start with $75.00. You spend $12.50, earn $25.00, then spend $14.75.
+
+ How much do you have now?
+
+
+
+
+Score: ____ / 3   → copy to your progress strip
+
+
+
+
+                                                                                                                                      DPP Check Bank · p. 45
+
+--- COMPARISON HALF (page 46; printed twice) ---
+7th Grade Math · Comparison items (2)                                                                      C-NSO.2.3-X
+Benchmark: MA.7.NSO.2.3 · Real-world problems with rational numbers                    Student code: ________ Calculator: yes
+
+ 1. You start with $100.00. You spend $12.50, earn $25.00, then spend $8.50.
+
+ How much do you have now?
+
+
+
+
+ 2. A student buys 4 notebooks at $4.25 each. Sales tax is 6%.
+
+ What is the total cost?
+
+     A. $1.02                                                              B. $17.00
+     C. $18.02                                                             D. $4.51
+
+Score: ____ / 2   → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                                      C-NSO.2.3-X
+Benchmark: MA.7.NSO.2.3 · Real-world problems with rational numbers                    Student code: ________ Calculator: yes
+
+ 1. You start with $100.00. You spend $12.50, earn $25.00, then spend $8.50.
+
+ How much do you have now?
+
+
+
+
+ 2. A student buys 4 notebooks at $4.25 each. Sales tax is 6%.
+
+ What is the total cost?
+
+     A. $1.02                                                              B. $17.00
+     C. $18.02                                                             D. $4.51
+
+Score: ____ / 2   → copy to your progress strip
+
+
+
+
+                                                                                                            DPP Check Bank · p. 46
+
+
+==================== C-GR.1.1  (MA.7.GR.1.1, Unit 4: Area) ====================
+--- SCALE: {"goal": "I can find the area of trapezoids, parallelograms, and rhombi.", "l2": "I can find the area of a rectangle and a triangle.", "l3": "I can use the formulas to find the area of a trapezoid, parallelogram, or rhombus.", "l4": "I can find a missing dimension when the area is given, or explain where a formula comes from."}
+--- CHECK (pages 47-48) ---
+7th Grade Math · Weekly Check · Unit 4                                                                                                        C-GR.1.1
+Benchmark: MA.7.GR.1.1 · Area of trapezoids, parallelograms, and rhombi                                            Student code: ________ Calculator: yes
+
+ Learning goal: I can find the area of trapezoids, parallelograms, and rhombi. (circle your level after scoring)
+   4   I can find a missing dimension when the area is given, or explain where a formula comes from.
+   3   I can use the formulas to find the area of a trapezoid, parallelogram, or rhombus.
+   2   I can find the area of a rectangle and a triangle.
+   1   I need help to start this benchmark.
+
+
+  1. A rhombus has a base of 7 centimeters and a vertical height of 5 centimeters.
+
+  What is its area, in square centimeters?
+
+
+
+
+                              h = 5 cm
+
+
+
+
+                           b = 7 cm
+                                  Not drawn to scale
+
+
+
+
+  2. What is the area of the parallelogram shown?
+
+
+
+
+                              h = 9 in.
+
+
+
+
+                                      b = 12 in.
+                                  Not drawn to scale
+
+
+
+
+                                                                                                                                               Turn over →
+
+                                                                                                                                        DPP Check Bank · p. 47
+7th Grade Math · Weekly Check · Unit 4 (continued)                                                   C-GR.1.1
+Benchmark: MA.7.GR.1.1 · Area of trapezoids, parallelograms, and rhombi                   Student code: ________
+
+  3. A trapezoid has bases of 14 cm and 6 cm and a vertical height of 7 cm.
+
+  What is its area, in square centimeters?
+
+
+                                    b₂ = 6 cm
+
+
+
+                                  h = 7 cm
+
+
+
+
+                                    b = 14 cm
+                                 Not drawn to scale
+
+
+
+
+  4. Find the area of the rhombus shown.
+
+
+
+
+                             h=3m
+
+
+
+
+                           b=5m
+                                 Not drawn to scale
+
+
+
+
+  5. A parallelogram has an area of 63 square inches and a vertical height of 9 inches.
+
+  What is the length of its base?
+
+
+
+
+Score: ____ / 5      My level: 1 2 3 4           → copy both to your progress strip
+
+                                                                                               DPP Check Bank · p. 48
+
+--- ANSWER KEY (page 49) ---
+Answer key — C-GR.1.1 · MA.7.GR.1.1 · Area of trapezoids, parallelograms, and rhombi
+Unit 4: Area. Regular = on-benchmark item; Rigor = the item that needs the benchmark's reasoning. Mastery on the
+weekly check = 4 of 5.
+Weekly check (5 items)
+
+1. Regular 35 cm2
+   A rhombus is a parallelogram, so A = bh.
+   7 × 5 = 35 cm2 .
+
+
+2. Regular 108 in.2
+   A = bh = 12 × 9 = 108 in.2
+
+
+3. Regular 70 cm2
+        1
+   A = ( b 1 + b 2 ) h.
+        2
+           ​    ​   ​
+
+
+
+
+   1                  1
+     (14 + 6)(7) = (20)(7) = 70 cm2 .
+   2                  2
+     ​                  ​
+
+
+
+
+4. Regular 15 m2
+   A rhombus is a parallelogram, so A = bh.
+   A = 5 × 3 = 15 m2 .
+
+
+5. Rigor       7 in.
+   A = bh, so 63 = b × 9.
+   b = 63 ÷ 9 = 7 in.
+
+
+Re-check strip (3 items, C-GR.1.1-R)
+
+1. Regular 30 cm2
+        1
+   A = ( b 1 + b 2 ) h.
+        2
+           ​    ​   ​
+
+
+
+
+   1                  1
+     (14 + 6)(3) = (20)(3) = 30 cm2 .
+   2                  2
+     ​                  ​
+
+
+
+
+2. Regular 70 m2
+   A rhombus is a parallelogram, so A = bh.
+   A = 10 × 7 = 70 m2 .
+
+
+3. Regular 36 in.2
+   A = bh = 9 × 4 = 36 in.2
+
+
+Comparison strip (2 items, C-GR.1.1-X) — used on a later week's re-check when this benchmark was not retaught
+1. Regular 42 in.2
+   A = bh = 7 × 6 = 42 in.2
+
+
+2. Regular 35 m2
+   A rhombus is a parallelogram, so A = bh.
+   A = 7 × 5 = 35 m2 .
+
+
+
+
+                                                                                                                DPP Check Bank · p. 49
+
+--- RE-CHECK HALF (page 51; printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                 C-GR.1.1-R
+Benchmark: MA.7.GR.1.1 · Area of trapezoids, parallelograms, and rhombi       Student code: ________ Calculator: yes
+
+  1. A trapezoid has bases of 14 cm and 6 cm and a vertical height of 3 cm.
+
+  What is its area, in square centimeters?
+
+                                  b₂ = 6 cm
+
+
+
+                                h = 3 cm
+
+
+
+
+                                  b = 14 cm
+                                Not drawn to scale
+
+
+
+
+  2. Find the area of the rhombus shown.
+
+
+
+
+                             h=7m
+
+
+
+
+                           b = 10 m
+                                Not drawn to scale
+
+
+
+
+  3. What is the area of the parallelogram shown?
+
+
+
+
+                             h = 4 in.
+
+
+
+
+                                   b = 9 in.
+                                Not drawn to scale
+
+
+
+7th Grade Math · Re-check (3 items)                                                                 C-GR.1.1-R
+Benchmark: MA.7.GR.1.1 · Area of trapezoids, parallelograms, and rhombi       Student code: ________ Calculator: yes
+
+  1. A trapezoid has bases of 14 cm and 6 cm and a vertical height of 3 cm.
+
+  What is its area, in square centimeters?
+
+                                  b₂ = 6 cm
+
+
+
+                                h = 3 cm
+
+
+
+
+                                  b = 14 cm
+                                Not drawn to scale
+
+
+
+
+  2. Find the area of the rhombus shown.
+
+
+
+
+                             h=7m
+
+
+
+
+                           b = 10 m
+                                Not drawn to scale
+
+
+
+
+  3. What is the area of the parallelogram shown?
+
+
+
+
+                             h = 4 in.
+
+
+
+
+                                   b = 9 in.
+                                Not drawn to scale
+
+                                                                                                   DPP Check Bank · p. 51
+
+--- COMPARISON HALF (page 52; printed twice) ---
+7th Grade Math · Comparison items (2)                                                           C-GR.1.1-X
+Benchmark: MA.7.GR.1.1 · Area of trapezoids, parallelograms, and rhombi   Student code: ________ Calculator: yes
+
+  1. What is the area of the parallelogram shown?
+
+
+
+
+                            h = 6 in.
+
+
+
+
+                                   b = 7 in.
+                               Not drawn to scale
+
+
+
+
+  2. Find the area of the rhombus shown.
+
+
+
+
+                            h=5m
+
+
+
+
+                           b=7m
+                               Not drawn to scale
+
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                           C-GR.1.1-X
+Benchmark: MA.7.GR.1.1 · Area of trapezoids, parallelograms, and rhombi   Student code: ________ Calculator: yes
+
+  1. What is the area of the parallelogram shown?
+
+
+
+
+                            h = 6 in.
+
+
+
+
+                                   b = 7 in.
+                               Not drawn to scale
+
+
+
+
+  2. Find the area of the rhombus shown.
+
+
+
+
+                            h=5m
+
+
+
+
+                           b=7m
+                               Not drawn to scale
+
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+                                                                                               DPP Check Bank · p. 52
+
+
+==================== C-GR.1.2  (MA.7.GR.1.2, Unit 4: Area) ====================
+--- SCALE: {"goal": "I can find the area of polygons and composite figures.", "l2": "I can split a figure into shapes I know.", "l3": "I can find the area of a polygon or composite figure by adding or subtracting areas.", "l4": "I can solve a real-world problem with a composite figure, including one with a region removed."}
+--- CHECK (pages 53-54) ---
+7th Grade Math · Weekly Check · Unit 4                                                                                                C-GR.1.2
+Benchmark: MA.7.GR.1.2 · Area of polygons and composite figures                                            Student code: ________ Calculator: yes
+
+ Learning goal: I can find the area of polygons and composite figures. (circle your level after scoring)
+   4   I can solve a real-world problem with a composite figure, including one with a region removed.
+   3   I can find the area of a polygon or composite figure by adding or subtracting areas.
+   2   I can split a figure into shapes I know.
+   1   I need help to start this benchmark.
+
+
+ 1. An L-shaped room is a 10 ft × 12 ft rectangle with a 3 ft × 4 ft corner cut out.
+
+ Find the area.
+
+                                         3 ft
+
+                                                   4 ft
+
+          12 ft
+
+
+
+
+                               10 ft
+                                   Not drawn to scale
+
+
+
+
+ 2. A figure is a square (side 11 m) with a triangle (base 11 m, height 5 m) attached to one side.
+
+ Find the total area.
+
+                                                       5m
+
+
+
+
+          11 m
+
+
+
+
+                                  11 m
+                                   Not drawn to scale
+
+
+
+
+                                                                                                                                       Turn over →
+
+                                                                                                                                DPP Check Bank · p. 53
+7th Grade Math · Weekly Check · Unit 4 (continued)                                                                                              C-GR.1.2
+Benchmark: MA.7.GR.1.2 · Area of polygons and composite figures                                                                      Student code: ________
+
+ 3. An L-shaped figure is formed by removing an 8 m by 2 m rectangle from one corner of a 17 m by 12 m rectangle.
+
+ What is the area of the L-shaped figure, in square meters?
+
+                                                 8m
+
+                                                                  2m
+
+
+          12 m
+
+
+
+
+                                       17 m
+                                 Not drawn to scale
+
+     A. 204 m2                                                                  B. 16 m2
+     C. 188 m2                                                                  D. 220 m2
+
+ 4. A stage floor is shaped like the figure shown: an 11 ft × 12 ft rectangle with a triangle attached to one end. The triangle's base is the 12 ft side
+ and its height is 7 ft.
+
+ What is the area of the stage floor, in square feet?
+
+                                                    7 ft
+
+
+
+
+          12 ft
+
+
+
+
+                               11 ft
+                                 Not drawn to scale
+
+
+ 5. A yard is 19 m × 10 m. A pool (4 m × 5 m) fills one corner.
+
+ How much does it cost to sod the remaining grass at $1.50/m2 ?
+
+                                                           4m
+
+
+                                                                       5m
+         10 m
+
+
+
+
+                                        19 m
+                                 Not drawn to scale
+
+
+Score: ____ / 5     My level: 1 2 3 4           → copy both to your progress strip
+
+                                                                                                                                          DPP Check Bank · p. 54
+
+--- ANSWER KEY (page 55) ---
+Answer key — C-GR.1.2 · MA.7.GR.1.2 · Area of polygons and composite figures
+Unit 4: Area. Regular = on-benchmark item; Rigor = the item that needs the benchmark's reasoning. Mastery on the
+weekly check = 4 of 5.
+Weekly check (5 items)
+                  2
+1. Regular 108 ft
+   Full rectangle: 10 × 12 = 120.
+   Cut-out: 3 × 4 = 12.
+   Area: 120 − 12 = 108 ft2 .
+
+2. Regular 148.5 m2
+   Square: 112 = 121.
+              1
+   Triangle: (11)(5) = 27.5.
+              2
+                  ​
+
+
+
+
+   Total: 121 + 27.5 = 148.5 m2 .
+
+3. Regular    C. 188 m2
+   Large rectangle: 17 × 12 = 204 m2 .
+   Removed piece: 8 × 2 = 16 m2 .
+   204 − 16 = 188 m2 .
+
+                      2
+4. Regular 174 ft
+   Rectangle: 11 × 12 = 132.
+              1
+   Triangle: × 12 × 7 = 42.
+              2
+                  ​
+
+
+
+
+   Total: 132 + 42 = 174 ft2 .
+
+5. Rigor     $255.00
+   Yard: 19 × 10 = 190 m2 .
+   Pool: 4 × 5 = 20 m2 .
+   Grass: 190 − 20 = 170 m2 .
+   Cost: 170 × $1.50 = $255.00.
+
+
+Re-check strip (3 items, C-GR.1.2-R)
+
+1. Regular 80 cm2
+   Rectangle: 14 × 5 = 70
+              1
+   Triangle: × 5 × 4 = 10
+              2
+                  ​
+
+
+
+
+   Total: 70 + 10 = 80 cm2
+
+2. Regular 115 m2
+   Square: 102 = 100.
+              1
+   Triangle: (10)(3) = 15.
+              2
+                  ​
+
+
+
+
+   Total: 100 + 15 = 115 m2 .
+
+                  2
+3. Regular 87 in.
+   Rectangle: 11 × 6 = 66.
+              1
+   Triangle: × 6 × 7 = 21.
+              2
+                  ​
+
+
+
+
+   Total: 66 + 21 = 87 in.2 .
+
+
+Comparison strip (2 items, C-GR.1.2-X) — used on a later week's re-check when this benchmark was not retaught
+1. Regular 140 cm2
+   Rectangle: 11 × 10 = 110
+              1
+   Triangle: × 10 × 6 = 30
+              2
+                  ​
+
+
+
+
+   Total: 110 + 30 = 140 cm2
+
+2. Regular 80 m2
+   Square: 82 = 64.
+              1
+   Triangle: (8)(4) = 16.
+              2
+                  ​
+
+
+
+
+   Total: 64 + 16 = 80 m2 .
+
+
+
+
+                                                                                                                DPP Check Bank · p. 55
+
+--- RE-CHECK HALF (page 57; printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                                                        C-GR.1.2-R
+Benchmark: MA.7.GR.1.2 · Area of polygons and composite figures                                                      Student code: ________ Calculator: yes
+
+ 1. A composite figure is made of a rectangle (14 cm × 5 cm) with a triangle (base 5 cm, height 4 cm) attached to one side.
+
+ What is the total area?
+                                                       4 cm
+
+
+           5 cm
+
+
+                             14 cm
+                            Not drawn to scale
+
+
+
+ 2. A figure is a square (side 10 m) with a triangle (base 10 m, height 3 m) attached to one side.
+
+ Find the total area.
+                                             3m
+
+
+
+
+                   10 m
+
+
+
+
+                             10 m
+                              Not drawn to scale
+
+
+
+
+ 3. A banner is shaped like the figure shown: an 11 in. × 6 in. rectangle with a triangle attached to one end. The triangle's base is the 6 in. side
+ and its height is 7 in.
+
+ What is the area of the banner, in square inches?
+                                                   7 in.
+
+
+7th Grade Math · Re-check (3 items)                                                                                                        C-GR.1.2-R
+Benchmark: MA.7.GR.1.2 · Area of polygons and composite figures                                                      Student code: ________ Calculator: yes
+
+ 1. A composite figure is made of a rectangle (14 cm × 5 cm) with a triangle (base 5 cm, height 4 cm) attached to one side.
+
+ What is the total area?
+                                                       4 cm
+
+
+           5 cm
+
+
+                             14 cm
+                            Not drawn to scale
+
+
+
+ 2. A figure is a square (side 10 m) with a triangle (base 10 m, height 3 m) attached to one side.
+
+ Find the total area.
+                                             3m
+
+
+
+
+                   10 m
+
+
+
+
+                             10 m
+                              Not drawn to scale
+
+
+
+
+ 3. A banner is shaped like the figure shown: an 11 in. × 6 in. rectangle with a triangle attached to one end. The triangle's base is the 6 in. side
+ and its height is 7 in.
+
+ What is the area of the banner, in square inches?
+                                                   7 in.
+
+                                                                                                                                          DPP Check Bank · p. 57
+
+--- COMPARISON HALF (page 58; printed twice) ---
+7th Grade Math · Comparison items (2)                                                                                                 C-GR.1.2-X
+Benchmark: MA.7.GR.1.2 · Area of polygons and composite figures                                                 Student code: ________ Calculator: yes
+
+ 1. A composite figure is made of a rectangle (11 cm × 10 cm) with a triangle (base 10 cm, height 6 cm) attached to one side.
+
+ What is the total area?
+                                                   6 cm
+
+
+
+
+                  10 cm
+
+
+
+
+                             11 cm
+                              Not drawn to scale
+
+
+
+
+ 2. A figure is a square (side 8 m) with a triangle (base 8 m, height 4 m) attached to one side.
+
+ Find the total area.
+                                                   4m
+
+
+
+
+                    8m
+
+
+
+
+                             8m
+                              Not drawn to scale
+
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                                                                 C-GR.1.2-X
+Benchmark: MA.7.GR.1.2 · Area of polygons and composite figures                                                 Student code: ________ Calculator: yes
+
+ 1. A composite figure is made of a rectangle (11 cm × 10 cm) with a triangle (base 10 cm, height 6 cm) attached to one side.
+
+ What is the total area?
+                                                   6 cm
+
+
+
+
+                  10 cm
+
+
+
+
+                             11 cm
+                              Not drawn to scale
+
+
+
+
+ 2. A figure is a square (side 8 m) with a triangle (base 8 m, height 4 m) attached to one side.
+
+ Find the total area.
+                                                   4m
+
+
+
+
+                    8m
+
+
+
+
+                             8m
+                              Not drawn to scale
+
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+                                                                                                                                     DPP Check Bank · p. 58
+
+
+==================== C-GR.1.3  (MA.7.GR.1.3, Unit 4: Area) ====================
+--- SCALE: {"goal": "I can use the relationship between circumference and diameter.", "l2": "I can identify the radius, diameter, and circumference of a circle.", "l3": "I can find circumference from radius or diameter, and radius or diameter from circumference.", "l4": "I can explain pi as the ratio of circumference to diameter and use it in a real-world problem."}
+--- CHECK (pages 59-60) ---
+7th Grade Math · Weekly Check · Unit 4                                                                                                           C-GR.1.3
+Benchmark: MA.7.GR.1.3 · Circumference of a circle                                                                    Student code: ________ Calculator: yes
+
+ Learning goal: I can use the relationship between circumference and diameter. (circle your level after scoring)
+   4   I can explain pi as the ratio of circumference to diameter and use it in a real-world problem.
+   3   I can find circumference from radius or diameter, and radius or diameter from circumference.
+   2   I can identify the radius, diameter, and circumference of a circle.
+   1   I need help to start this benchmark.
+
+
+  1. A circle has a radius of 5 centimeters.
+
+  What is the circumference of the circle? Write your answer in terms of π .
+
+
+
+
+  2. A circular tabletop has a radius of 4 feet.
+
+  What is the circumference of the tabletop? Use 3.14 for π and round to the nearest hundredth.
+
+
+
+
+  3. A circular garden has a radius of 3 feet. To find the distance once around the garden, you use the formula ? .
+
+        Choose the formula that makes the statement true.
+       A. C = 2πd                                                                         B. C = 2πr
+       C. C = πr                                                                          D. A = πr2
+
+
+
+
+                                                                                                                                                  Turn over →
+
+                                                                                                                                           DPP Check Bank · p. 59
+7th Grade Math · Weekly Check · Unit 4 (continued)                                                                                        C-GR.1.3
+Benchmark: MA.7.GR.1.3 · Circumference of a circle                                                                             Student code: ________
+
+  4. A circular garden has a diameter of 9 feet. To find the distance around the edge of the garden, you use the formula ? .
+
+       Choose the formula that makes the statement true.
+
+      A. A = πr2                                                               B. C = πr
+      C. C = 2πd                                                               D. C = πd
+
+
+
+
+  5. A scooter wheel has a diameter of 6 inches.
+
+  How far does the wheel travel in one full turn? Use 3.14 for π and round to the nearest hundredth.
+
+
+
+
+Score: ____ / 5      My level: 1 2 3 4           → copy both to your progress strip
+
+                                                                                                                                    DPP Check Bank · p. 60
+
+--- ANSWER KEY (page 61) ---
+Answer key — C-GR.1.3 · MA.7.GR.1.3 · Circumference of a circle
+Unit 4: Area. Regular = on-benchmark item; Rigor = the item that needs the benchmark's reasoning. Mastery on the
+weekly check = 4 of 5.
+Weekly check (5 items)
+
+1. Regular 10π centimeters
+   C = 2πr = 2 × π × 5 = 10π centimeters.
+
+
+2. Regular    25.12 feet (using 3.14) · 25.13 feet (using the π key)
+   C = 2πr ≈ 2 × 3.14 × 4 = 25.12 feet.
+   Using the π key instead of 3.14: 25.13 feet.
+
+3. Regular    B. C = 2πr
+   The distance around a circle is its circumference: C = 2πr = 6π feet.
+   A = πr2 would give the space inside the garden instead. C = πr uses the radius where the diameter belongs, and C = 2πd doubles the diameter.
+
+
+4. Regular    D. C = πd
+   The distance around a circle is its circumference: C = πd = 9π feet.
+   A = πr2 would give the space inside the garden instead. C = πr uses the radius where the diameter belongs, and C = 2πd doubles the diameter.
+
+
+5. Rigor     18.84 inches (using 3.14) · 18.85 inches (using the π key)
+   One full turn covers the circumference: C = πd ≈ 3.14 × 6 = 18.84 inches.
+   Using the π key instead of 3.14: 18.85 inches.
+
+
+Re-check strip (3 items, C-GR.1.3-R)
+1. Regular    125.60 feet (using 3.14) · 125.66 feet (using the π key)
+   C = 2πr ≈ 2 × 3.14 × 20 = 125.60 feet.
+   Using the π key instead of 3.14: 125.66 feet.
+
+2. Regular 52π centimeters
+   C = 2πr = 2 × π × 26 = 52π centimeters.
+
+
+3. Regular    C. C = πd
+   The distance around a circle is its circumference: C = πd = 7π feet.
+   A = πr2 would give the space inside the garden instead. C = πr uses the radius where the diameter belongs, and C = 2πd doubles the diameter.
+
+
+Comparison strip (2 items, C-GR.1.3-X) — used on a later week's re-check when this benchmark was not retaught
+
+1. Regular    A. C = πd
+   The distance around a circle is its circumference: C = πd = 6π feet.
+   A = πr2 would give the space inside the garden instead. C = πr uses the radius where the diameter belongs, and C = 2πd doubles the diameter.
+
+
+2. Regular    50.24 feet (using 3.14) · 50.27 feet (using the π key)
+   C = 2πr ≈ 2 × 3.14 × 8 = 50.24 feet.
+   Using the π key instead of 3.14: 50.27 feet.
+
+
+
+
+                                                                                                                                                  DPP Check Bank · p. 61
+
+--- RE-CHECK HALF (page 63; printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                                                     C-GR.1.3-R
+Benchmark: MA.7.GR.1.3 · Circumference of a circle                                                                Student code: ________ Calculator: yes
+
+  1. A circular skating rink has a radius of 20 feet.
+
+  What is the circumference of the skating rink? Use 3.14 for π and round to the nearest hundredth.
+
+
+
+
+  2. A circle has a radius of 26 centimeters.
+
+  What is the circumference of the circle? Write your answer in terms of π .
+
+
+
+
+  3. A circular garden has a diameter of 7 feet. To find the length of a fence around the garden, you use the formula ? .
+
+       Choose the formula that makes the statement true.
+      A. C = 2πd                                                               B. A = πr2
+      C. C = πd                                                                D. C = πr
+
+Score: ____ / 3    → copy to your progress strip
+
+
+
+
+7th Grade Math · Re-check (3 items)                                                                                                     C-GR.1.3-R
+Benchmark: MA.7.GR.1.3 · Circumference of a circle                                                                Student code: ________ Calculator: yes
+
+  1. A circular skating rink has a radius of 20 feet.
+
+  What is the circumference of the skating rink? Use 3.14 for π and round to the nearest hundredth.
+
+
+
+
+  2. A circle has a radius of 26 centimeters.
+
+  What is the circumference of the circle? Write your answer in terms of π .
+
+
+
+
+  3. A circular garden has a diameter of 7 feet. To find the length of a fence around the garden, you use the formula ? .
+
+       Choose the formula that makes the statement true.
+
+      A. C = 2πd                                                               B. A = πr2
+      C. C = πd                                                                D. C = πr
+
+Score: ____ / 3    → copy to your progress strip
+
+
+
+
+                                                                                                                                       DPP Check Bank · p. 63
+
+--- COMPARISON HALF (page 64; printed twice) ---
+7th Grade Math · Comparison items (2)                                                                                                  C-GR.1.3-X
+Benchmark: MA.7.GR.1.3 · Circumference of a circle                                                               Student code: ________ Calculator: yes
+
+  1. A circular garden has a diameter of 6 feet. To find the distance once around the garden, you use the formula ? .
+
+       Choose the formula that makes the statement true.
+
+      A. C = πd                                                              B. A = πr2
+      C. C = 2πd                                                             D. C = πr
+
+  2. A circular merry-go-round has a radius of 8 feet.
+
+  What is the circumference of the merry-go-round? Use 3.14 for π and round to the nearest hundredth.
+
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                                                                  C-GR.1.3-X
+Benchmark: MA.7.GR.1.3 · Circumference of a circle                                                               Student code: ________ Calculator: yes
+
+  1. A circular garden has a diameter of 6 feet. To find the distance once around the garden, you use the formula ? .
+
+       Choose the formula that makes the statement true.
+
+      A. C = πd                                                              B. A = πr2
+      C. C = 2πd                                                             D. C = πr
+
+  2. A circular merry-go-round has a radius of 8 feet.
+
+  What is the circumference of the merry-go-round? Use 3.14 for π and round to the nearest hundredth.
+
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+                                                                                                                                      DPP Check Bank · p. 64
+
+
+==================== C-GR.1.4  (MA.7.GR.1.4, Unit 4: Area) ====================
+--- SCALE: {"goal": "I can find the area of a circle.", "l2": "I can find the radius from the diameter and square a number.", "l3": "I can find the area of a circle from its radius or diameter.", "l4": "I can solve a real-world problem using circumference and area together, including semicircles."}
+--- CHECK (pages 65-66) ---
+7th Grade Math · Weekly Check · Unit 4                                                                                            C-GR.1.4
+Benchmark: MA.7.GR.1.4 · Area of a circle                                                               Student code: ________ Calculator: yes
+
+ Learning goal: I can find the area of a circle. (circle your level after scoring)
+   4   I can solve a real-world problem using circumference and area together, including semicircles.
+   3   I can find the area of a circle from its radius or diameter.
+   2   I can find the radius from the diameter and square a number.
+   1   I need help to start this benchmark.
+
+
+  1. A circle has a radius of 16 inches.
+
+  What is the area of the circle? Write your answer in terms of π .
+
+
+
+
+  2. An 8-inch pizza is cut into 4 equal slices. A student eats 2 slices.
+
+  How many square inches of pizza did the student eat? Write your answer in terms of π .
+
+
+
+
+  3. A circle has a radius of 9 units.
+
+  Which expression gives the area of the circle?
+
+       A. 81π                                                                           B. 18π
+       C. 324π                                                                          D. 9π
+
+
+
+
+                                                                                                                                    Turn over →
+
+                                                                                                                             DPP Check Bank · p. 65
+7th Grade Math · Weekly Check · Unit 4 (continued)                                               C-GR.1.4
+Benchmark: MA.7.GR.1.4 · Area of a circle                                              Student code: ________
+
+  4. A circle has a diameter of 17 centimeters.
+
+  What is the area of the circle? Write your answer in terms of π .
+
+
+
+
+  5. A circular garden has a radius of 15 meters.
+
+  What is the area of the garden? Use 3.14 for π and round to the nearest hundredth.
+
+
+
+
+Score: ____ / 5      My level: 1 2 3 4       → copy both to your progress strip
+
+                                                                                            DPP Check Bank · p. 66
+
+--- ANSWER KEY (page 67) ---
+Answer key — C-GR.1.4 · MA.7.GR.1.4 · Area of a circle
+Unit 4: Area. Regular = on-benchmark item; Rigor = the item that needs the benchmark's reasoning. Mastery on the
+weekly check = 4 of 5.
+Weekly check (5 items)
+
+1. Regular 256π square inches
+   A = πr2 = π × 162 = 256π square inches.
+
+2. Regular 8π square inches
+   The radius is 8 ÷ 2 = 4 inches, so the whole pizza has area π(4)2 = 16π square inches.
+                    1
+   The student ate    of the pizza.
+                    2
+                       ​
+
+
+
+
+    1
+      × 16π = 8π square inches.
+    2
+     ​
+
+
+
+
+3. Regular    A. 81π
+   A = πr2 = π × 9 × 9 = 81π .
+   The expression 18π would give the circumference instead.
+
+4. Regular 72.25π square centimeters
+   The radius is 17 ÷ 2 = 8.5 centimeters.
+   A = πr2 = π × 8.52 = 72.25π square centimeters.
+
+
+5. Rigor     706.50 square meters (using 3.14) · 706.86 square meters (using the π key)
+   A = πr2 ≈ 3.14 × 152 = 3.14 × 225 = 706.50square meters.
+   Using the π key instead of 3.14: 706.86 square meters.
+
+
+Re-check strip (3 items, C-GR.1.4-R)
+1. Regular 16π square feet
+   The whole circle has area πr2 = 64π square feet.
+   A quarter of that is 64π ÷ 4 = 16π square feet.
+
+2. Regular 14π square inches
+   The radius is 8 ÷ 2 = 4 inches, so the whole pizza has area π(4)2 = 16π square inches.
+                     7
+   The student ate     of the pizza.
+                     8
+                       ​
+
+
+
+
+    7
+      × 16π = 14π square inches.
+    8
+     ​
+
+
+
+
+3. Regular 12.25π square centimeters
+   The radius is 7 ÷ 2 = 3.5 centimeters.
+   A = πr2 = π × 3.52 = 12.25π square centimeters.
+
+
+Comparison strip (2 items, C-GR.1.4-X) — used on a later week's re-check when this benchmark was not retaught
+
+1. Regular 40π square inches
+   The radius is 20 ÷ 2 = 10 inches, so the whole pizza has area π(10)2 = 100π square inches.
+                    2
+   The student ate    of the pizza.
+                    5
+                       ​
+
+
+
+
+    2
+      × 100π = 40π square inches.
+    5
+     ​
+
+
+
+
+2. Regular 90.25π square centimeters
+   The radius is 19 ÷ 2 = 9.5 centimeters.
+   A = πr2 = π × 9.52 = 90.25π square centimeters.
+
+
+
+
+                                                                                                                DPP Check Bank · p. 67
+
+--- RE-CHECK HALF (page 69; printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                              C-GR.1.4-R
+Benchmark: MA.7.GR.1.4 · Area of a circle                                                  Student code: ________ Calculator: yes
+
+  1. A quarter circle has a radius of 8 feet.
+
+  What is the area of the quarter circle? Write your answer in terms of π .
+
+
+
+
+  2. An 8-inch pizza is cut into 8 equal slices. A student eats 7 slices.
+
+  How many square inches of pizza did the student eat? Write your answer in terms of π .
+
+
+
+
+  3. A circle has a diameter of 7 centimeters.
+
+  What is the area of the circle? Write your answer in terms of π .
+
+
+
+
+Score: ____ / 3    → copy to your progress strip
+
+
+
+
+7th Grade Math · Re-check (3 items)                                                                              C-GR.1.4-R
+Benchmark: MA.7.GR.1.4 · Area of a circle                                                  Student code: ________ Calculator: yes
+
+  1. A quarter circle has a radius of 8 feet.
+
+  What is the area of the quarter circle? Write your answer in terms of π .
+
+
+
+
+  2. An 8-inch pizza is cut into 8 equal slices. A student eats 7 slices.
+
+  How many square inches of pizza did the student eat? Write your answer in terms of π .
+
+
+
+
+  3. A circle has a diameter of 7 centimeters.
+
+  What is the area of the circle? Write your answer in terms of π .
+
+
+
+
+Score: ____ / 3    → copy to your progress strip
+
+
+
+
+                                                                                                                DPP Check Bank · p. 69
+
+--- COMPARISON HALF (page 70; printed twice) ---
+7th Grade Math · Comparison items (2)                                                                            C-GR.1.4-X
+Benchmark: MA.7.GR.1.4 · Area of a circle                                                  Student code: ________ Calculator: yes
+
+  1. A 20-inch pizza is cut into 5 equal slices. A student eats 2 slices.
+
+  How many square inches of pizza did the student eat? Write your answer in terms of π .
+
+
+
+
+  2. A circle has a diameter of 19 centimeters.
+
+  What is the area of the circle? Write your answer in terms of π .
+
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                                            C-GR.1.4-X
+Benchmark: MA.7.GR.1.4 · Area of a circle                                                  Student code: ________ Calculator: yes
+
+  1. A 20-inch pizza is cut into 5 equal slices. A student eats 2 slices.
+
+  How many square inches of pizza did the student eat? Write your answer in terms of π .
+
+
+
+
+  2. A circle has a diameter of 19 centimeters.
+
+  What is the area of the circle? Write your answer in terms of π .
+
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+                                                                                                                DPP Check Bank · p. 70
+
+
+==================== C-DP.1.3  (MA.7.DP.1.3, Unit 5: Scaling With Proportional Relationships) ====================
+--- SCALE: {"goal": "I can use a random sample to make a prediction about a population.", "l2": "I can tell whether a sample is random and representative.", "l3": "I can use a proportion from a sample to predict a value for the whole population.", "l4": "I can judge whether a prediction is reasonable and explain how sample size or bias affects it."}
+--- CHECK (pages 71-72) ---
+7th Grade Math · Weekly Check · Unit 5                                                                                                            C-DP.1.3
+Benchmark: MA.7.DP.1.3 · Predictions from a random sample                                                              Student code: ________ Calculator: yes
+
+ Learning goal: I can use a random sample to make a prediction about a population. (circle your level after scoring)
+   4     I can judge whether a prediction is reasonable and explain how sample size or bias affects it.
+   3     I can use a proportion from a sample to predict a value for the whole population.
+   2     I can tell whether a sample is random and representative.
+   1     I need help to start this benchmark.
+
+
+ 1. A factory checks a random sample of 200 seeds and finds that 20 of them sprouted.
+
+ Based on this sample, about how many of 1000 seeds would be expected to sprout?
+
+
+
+
+ 2. A random sample of 200 students at a school were asked which way of getting to school they prefer. The results are shown in the table.
+
+       Walking     The bus       A car
+         60           40          100
+
+
+
+ There are 2000 students at the school. Based on this sample, about how many students at the school prefer walking?
+
+
+
+
+ 3. In a random sample of 200 households, 50 own a pet.
+
+ Based on this sample, about how many of the 1600 households in the population own a pet?
+
+        A. 533                                                                               B. 50
+        C. 400                                                                               D. 1200
+
+
+
+
+                                                                                                                                                   Turn over →
+
+                                                                                                                                            DPP Check Bank · p. 71
+7th Grade Math · Weekly Check · Unit 5 (continued)                                                                C-DP.1.3
+Benchmark: MA.7.DP.1.3 · Predictions from a random sample                                              Student code: ________
+
+ 4. In a random sample of 300 riders surveyed, 90 use a monthly pass.
+
+ Based on this sample, about how many of the 2500 riders in the whole population use a monthly pass?
+
+
+
+
+ 5. In a random sample of 120 students, 18 ride the bus. The school has 1400 students in all.
+
+ Based on this sample, about how many of the 1400 students do not ride the bus?
+
+
+
+
+Score: ____ / 5     My level: 1 2 3 4          → copy both to your progress strip
+
+                                                                                                            DPP Check Bank · p. 72
+
+--- ANSWER KEY (page 73) ---
+Answer key — C-DP.1.3 · MA.7.DP.1.3 · Predictions from a random sample
+Unit 5: Scaling With Proportional Relationships. Regular = on-benchmark item; Rigor = the item that needs the
+benchmark's reasoning. Mastery on the weekly check = 4 of 5.
+Weekly check (5 items)
+
+1. Regular    about 100
+                        20       1
+   The sample rate is     =    , or 1 out of every 10.
+                      200   10
+                             ​       ​
+
+
+
+
+   1000 ÷ 10 = 100.
+
+
+2. Regular    about 600 students
+   In the sample, 60 out of 200 students prefer walking.
+    60     x
+        =      , so x = 60 ÷ 200 × 2000 = 600.
+    200   2000
+       ​       ​
+
+
+
+
+   About 600 students at the school prefer walking.
+
+3. Regular    C. 400
+   Sample proportion: 50 ÷ 200 = 0.25.
+   Prediction: 0.25 × 1600 = 400.
+
+4. Regular    about 750
+   Sample proportion: 90 ÷ 300 = 0.3, or 30%.
+   Apply it to the population: 0.3 × 2500 = 750 riders.
+
+5. Rigor     about 1190 students
+   The sample proportion who do is 18 ÷ 120 = 0.15, giving 210 of the 1400.
+   1400 − 210 = 1190 students.
+
+
+Re-check strip (3 items, C-DP.1.3-R)
+
+1. Regular    about 1200
+   Sample proportion: 90 ÷ 300 = 0.3, or 30%.
+   Apply it to the population: 0.3 × 4000 = 1200 families.
+
+2. Regular    about 480 students
+   The sample proportion is 80 ÷ 200 = 0.4.
+   0.4 × 1200 = 480 students.
+
+
+3. Regular    D. 160
+   Sample proportion: 40 ÷ 200 = 0.2.
+   Prediction: 0.2 × 800 = 160.
+
+
+Comparison strip (2 items, C-DP.1.3-X) — used on a later week's re-check when this benchmark was not retaught
+
+1. Regular    A. 150
+   Sample proportion: 30 ÷ 200 = 0.15.
+   Prediction: 0.15 × 1000 = 150.
+
+2. Regular    about 2000
+   Sample proportion: 240 ÷ 300 = 0.8, or 80%.
+   Apply it to the population: 0.8 × 2500 = 2000 riders.
+
+
+
+
+                                                                                                                DPP Check Bank · p. 73
+
+--- RE-CHECK HALF (page 75; printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                                                  C-DP.1.3-R
+Benchmark: MA.7.DP.1.3 · Predictions from a random sample                                                     Student code: ________ Calculator: yes
+
+ 1. In a random sample of 300 families surveyed, 90 recycle weekly.
+
+ Based on this sample, about how many of the 4000 families in the whole population recycle weekly?
+
+
+
+
+ 2. In a random sample of 200 students, 80 prefer the later start time.
+
+ Based on this sample, about how many of the 1200 students in the whole population prefer the later start time?
+
+
+
+
+ 3. In a random sample of 200 passengers, 40 check a bag.
+
+ Based on this sample, about how many of the 800 passengers in the population check a bag?
+
+     A. 200                                                               B. 640
+     C. 40                                                                D. 160
+
+Score: ____ / 3   → copy to your progress strip
+
+
+
+
+7th Grade Math · Re-check (3 items)                                                                                                  C-DP.1.3-R
+Benchmark: MA.7.DP.1.3 · Predictions from a random sample                                                     Student code: ________ Calculator: yes
+
+ 1. In a random sample of 300 families surveyed, 90 recycle weekly.
+
+ Based on this sample, about how many of the 4000 families in the whole population recycle weekly?
+
+
+
+
+ 2. In a random sample of 200 students, 80 prefer the later start time.
+
+ Based on this sample, about how many of the 1200 students in the whole population prefer the later start time?
+
+
+
+
+ 3. In a random sample of 200 passengers, 40 check a bag.
+
+ Based on this sample, about how many of the 800 passengers in the population check a bag?
+
+     A. 200                                                               B. 640
+     C. 40                                                                D. 160
+
+Score: ____ / 3   → copy to your progress strip
+
+
+
+
+                                                                                                                                   DPP Check Bank · p. 75
+
+--- COMPARISON HALF (page 76; printed twice) ---
+7th Grade Math · Comparison items (2)                                                                                         C-DP.1.3-X
+Benchmark: MA.7.DP.1.3 · Predictions from a random sample                                              Student code: ________ Calculator: yes
+
+ 1. In a random sample of 200 members, 30 attend on weekends.
+
+ Based on this sample, about how many of the 1000 members in the population attend on weekends?
+
+     A. 150                                                              B. 30
+     C. 176                                                              D. 850
+
+ 2. In a random sample of 300 riders surveyed, 240 use a monthly pass.
+
+ Based on this sample, about how many of the 2500 riders in the whole population use a monthly pass?
+
+
+
+
+Score: ____ / 2   → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                                                         C-DP.1.3-X
+Benchmark: MA.7.DP.1.3 · Predictions from a random sample                                              Student code: ________ Calculator: yes
+
+ 1. In a random sample of 200 members, 30 attend on weekends.
+
+ Based on this sample, about how many of the 1000 members in the population attend on weekends?
+
+     A. 150                                                              B. 30
+     C. 176                                                              D. 850
+
+ 2. In a random sample of 300 riders surveyed, 240 use a monthly pass.
+
+ Based on this sample, about how many of the 2500 riders in the whole population use a monthly pass?
+
+
+
+
+Score: ____ / 2   → copy to your progress strip
+
+
+
+
+                                                                                                                            DPP Check Bank · p. 76
+
+
+==================== C-GR.1.5  (MA.7.GR.1.5, Unit 5: Scaling With Proportional Relationships) ====================
+--- SCALE: {"goal": "I can solve problems with scale drawings and scale factors.", "l2": "I can find a scale factor between two figures.", "l3": "I can find actual lengths, perimeters, and areas from a scale drawing or scale factor.", "l4": "I can explain how the scale factor changes perimeter versus area and use that in a real-world problem."}
+--- CHECK (pages 77-78) ---
+7th Grade Math · Weekly Check · Unit 5                                                                                                      C-GR.1.5
+Benchmark: MA.7.GR.1.5 · Scale drawings and scale factor                                                         Student code: ________ Calculator: yes
+
+ Learning goal: I can solve problems with scale drawings and scale factors. (circle your level after scoring)
+   4   I can explain how the scale factor changes perimeter versus area and use that in a real-world problem.
+   3   I can find actual lengths, perimeters, and areas from a scale drawing or scale factor.
+   2   I can find a scale factor between two figures.
+   1   I need help to start this benchmark.
+
+
+  1. A rectangle measures 5 units by 8 units. It is enlarged by a scale factor of 3.
+
+  What is the area of the enlarged rectangle, in square units?
+
+
+
+
+  2. Figure 2 is a scale drawing of Figure 1. A side that measures 3 centimeters in Figure 1 measures 9 centimeters in the corresponding position
+  in Figure 2.
+
+  What scale factor was used to produce Figure 2 from Figure 1?
+
+
+
+
+  3. A trapezoid is enlarged by a scale factor of 3.
+
+  By what factor does the area of the trapezoid change?
+
+       A. 9                                                                               B. 6
+       C. 27                                                                              D. 3
+
+
+
+
+                                                                                                                                             Turn over →
+
+                                                                                                                                      DPP Check Bank · p. 77
+7th Grade Math · Weekly Check · Unit 5 (continued)                                                                                  C-GR.1.5
+Benchmark: MA.7.GR.1.5 · Scale drawings and scale factor                                                                 Student code: ________
+
+                                                  1
+  4. A photo is reduced by a scale factor of . A side that measures 30 inches in the original is scaled down.
+                                                  5
+                                                      ​
+
+
+
+
+  What is the length of the corresponding side in the reduction, in inches?
+
+
+
+
+  5. On a blueprint, a rectangular wall measures 2.5 inches long and 4 inches tall. The actual wall is 12.5 feet long.
+
+  What is the area of the actual wall, in square feet?
+
+
+
+
+Score: ____ / 5      My level: 1 2 3 4           → copy both to your progress strip
+
+                                                                                                                              DPP Check Bank · p. 78
+
+--- ANSWER KEY (page 79) ---
+Answer key — C-GR.1.5 · MA.7.GR.1.5 · Scale drawings and scale factor
+Unit 5: Scaling With Proportional Relationships. Regular = on-benchmark item; Rigor = the item that needs the
+benchmark's reasoning. Mastery on the weekly check = 4 of 5.
+Weekly check (5 items)
+
+1. Regular    360
+   The enlarged rectangle measures 15 by 24, so its area is 360 square units.
+   That is 32 = 9 times the original area of 40.
+
+2. Regular    3
+   The scale factor is the constant of proportionality between corresponding lengths: new length ÷ original length.
+   9 ÷ 3 = 3.
+   The factor is greater than 1, so Figure 2 is an enlargement.
+
+3. Regular     A. 9
+   Every length is multiplied by 3, and an area is a product of two lengths, so the area is multiplied by 3 × 3 = 9.
+
+4. Regular         6
+                                        1
+   Multiply by the scale factor: 30 ×     = 6 inches.
+                                        5
+                                         ​
+
+
+
+
+5. Rigor     250 square feet
+   Find the scale factor between the blueprint and the wall: 12.5 ÷ 2.5 = 5 feet for each inch.
+   Actual height: 4 × 5 = 20 feet.
+   Area: 12.5 × 20 = 250 square feet.
+
+
+Re-check strip (3 items, C-GR.1.5-R)
+
+1. Regular    D. 64
+   Every length is multiplied by 8, and an area is a product of two lengths, so the area is multiplied by 8 × 8 = 64.
+
+2. Regular    270
+   The enlarged rectangle measures 15 by 18, so its area is 270 square units.
+   That is 32 = 9 times the original area of 30.
+
+                   1
+3. Regular
+                   2
+                       ​
+
+
+
+
+   The scale factor is the constant of proportionality between corresponding lengths: new length ÷ original length.
+             1
+   4÷8=        .
+             2
+               ​
+
+
+
+
+   The factor is between 0 and 1, so Figure 2 is a reduction.
+
+
+Comparison strip (2 items, C-GR.1.5-X) — used on a later week's re-check when this benchmark was not retaught
+
+1. Regular    8
+                                        1
+   Multiply by the scale factor: 32 ×     = 8 inches.
+                                        4
+                                         ​
+
+
+
+
+2. Regular    162
+   The enlarged rectangle measures 9 by 18, so its area is 162 square units.
+   That is 32 = 9 times the original area of 18.
+
+
+
+
+                                                                                                                        DPP Check Bank · p. 79
+
+--- RE-CHECK HALF (page 81; printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                                                   C-GR.1.5-R
+Benchmark: MA.7.GR.1.5 · Scale drawings and scale factor                                                        Student code: ________ Calculator: yes
+
+  1. A parallelogram is enlarged by a scale factor of 8.
+
+  By what factor does the area of the parallelogram change?
+
+      A. 16                                                                    B. 8
+      C. 512                                                                   D. 64
+
+  2. A rectangle measures 5 units by 6 units. It is enlarged by a scale factor of 3.
+
+  What is the area of the enlarged rectangle, in square units?
+
+
+
+
+  3. Figure 2 is a scale drawing of Figure 1. A side that measures 8 centimeters in Figure 1 measures 4 centimeters in the corresponding position
+  in Figure 2.
+
+  What scale factor was used to produce Figure 2 from Figure 1?
+
+
+
+Score: ____ / 3    → copy to your progress strip
+
+
+
+
+7th Grade Math · Re-check (3 items)                                                                                                   C-GR.1.5-R
+Benchmark: MA.7.GR.1.5 · Scale drawings and scale factor                                                        Student code: ________ Calculator: yes
+
+  1. A parallelogram is enlarged by a scale factor of 8.
+
+  By what factor does the area of the parallelogram change?
+
+      A. 16                                                                    B. 8
+      C. 512                                                                   D. 64
+
+  2. A rectangle measures 5 units by 6 units. It is enlarged by a scale factor of 3.
+
+  What is the area of the enlarged rectangle, in square units?
+
+
+
+
+  3. Figure 2 is a scale drawing of Figure 1. A side that measures 8 centimeters in Figure 1 measures 4 centimeters in the corresponding position
+  in Figure 2.
+
+  What scale factor was used to produce Figure 2 from Figure 1?
+
+
+
+Score: ____ / 3    → copy to your progress strip
+
+
+
+
+                                                                                                                                     DPP Check Bank · p. 81
+
+--- COMPARISON HALF (page 82; printed twice) ---
+7th Grade Math · Comparison items (2)                                                                                                 C-GR.1.5-X
+Benchmark: MA.7.GR.1.5 · Scale drawings and scale factor                                                        Student code: ________ Calculator: yes
+
+                                                  1
+  1. A photo is reduced by a scale factor of . A side that measures 32 inches in the original is scaled down.
+                                                  4
+                                                      ​
+
+
+
+
+  What is the length of the corresponding side in the reduction, in inches?
+
+
+
+
+  2. A rectangle measures 3 units by 6 units. It is enlarged by a scale factor of 3.
+
+  What is the area of the enlarged rectangle, in square units?
+
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                                                                 C-GR.1.5-X
+Benchmark: MA.7.GR.1.5 · Scale drawings and scale factor                                                        Student code: ________ Calculator: yes
+
+                                                  1
+  1. A photo is reduced by a scale factor of . A side that measures 32 inches in the original is scaled down.
+                                                  4
+                                                      ​
+
+
+
+
+  What is the length of the corresponding side in the reduction, in inches?
+
+
+
+
+  2. A rectangle measures 3 units by 6 units. It is enlarged by a scale factor of 3.
+
+  What is the area of the enlarged rectangle, in square units?
+
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+                                                                                                                                     DPP Check Bank · p. 82

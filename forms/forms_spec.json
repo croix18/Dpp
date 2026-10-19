@@ -1,0 +1,6165 @@
+{
+ "regex": "^-?(\\d+(\\.\\d+)?|\\.\\d+|\\d+/\\d+|\\d+ \\d+/\\d+)$",
+ "regex_error": "Type only a number, like 12 or -3.5 or 2/7 or 4 1/3. No units, $, %, π or commas.",
+ "forms": [
+  {
+   "unit": 2,
+   "unit_title": "Probability",
+   "code": "MA.7.DP.2.1",
+   "id": "C-DP.2.1",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Sample space of a simple experiment",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.2.1/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.2.1/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Checkboxes",
+     "native": true,
+     "options": [
+      "red circle",
+      "red star",
+      "red triangle",
+      "yellow circle",
+      "yellow star",
+      "yellow triangle"
+     ],
+     "correct": [
+      "red circle",
+      "yellow star",
+      "yellow triangle"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.DP.2.1/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.DP.2.1/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Checkboxes",
+     "native": true,
+     "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+     ],
+     "correct": [
+      "1",
+      "5",
+      "8",
+      "9"
+     ]
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.DP.2.1/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Checkboxes",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "correct": [
+      "B",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 2,
+   "unit_title": "Probability",
+   "code": "MA.7.DP.2.1",
+   "id": "C-DP.2.1",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Sample space of a simple experiment",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.2.1/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.2.1/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.DP.2.1/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Checkboxes",
+     "native": true,
+     "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+     ],
+     "correct": [
+      "1",
+      "2",
+      "8"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 2,
+   "unit_title": "Probability",
+   "code": "MA.7.DP.2.1",
+   "id": "C-DP.2.1",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Sample space of a simple experiment",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.2.1/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.2.1/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Checkboxes",
+     "native": true,
+     "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+     ],
+     "correct": [
+      "1",
+      "6",
+      "9"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 2,
+   "unit_title": "Probability",
+   "code": "MA.7.NSO.1.2",
+   "id": "C-NSO.1.2",
+   "set": "chk",
+   "label": "Check",
+   "calc": "no",
+   "name": "Rewrite rational numbers in equivalent forms",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.NSO.1.2/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "46/99"
+     ],
+     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "kind": "frac"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.NSO.1.2/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.NSO.1.2/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.NSO.1.2/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "63 7/11",
+      "700/11",
+      "63 63/99"
+     ],
+     "note": "Type the percent without the % sign, as a whole number, a fraction or a mixed number. Example: for 12 1/2%, type 12 1/2",
+     "kind": "frac"
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.NSO.1.2/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 2,
+   "unit_title": "Probability",
+   "code": "MA.7.NSO.1.2",
+   "id": "C-NSO.1.2",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "no",
+   "name": "Rewrite rational numbers in equivalent forms",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.NSO.1.2/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.NSO.1.2/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Checkboxes",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "correct": [
+      "A",
+      "C"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.NSO.1.2/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "77 7/9",
+      "700/9"
+     ],
+     "note": "Type the percent without the % sign, as a whole number, a fraction or a mixed number. Example: for 12 1/2%, type 12 1/2",
+     "kind": "frac"
+    }
+   ]
+  },
+  {
+   "unit": 2,
+   "unit_title": "Probability",
+   "code": "MA.7.NSO.1.2",
+   "id": "C-NSO.1.2",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "no",
+   "name": "Rewrite rational numbers in equivalent forms",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.NSO.1.2/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.NSO.1.2/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Checkboxes",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "correct": [
+      "B",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 2,
+   "unit_title": "Probability",
+   "code": "MA.7.DP.2.2",
+   "id": "C-DP.2.2",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Interpret and compare probabilities",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.2.2/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.2.2/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.DP.2.2/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.DP.2.2/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.DP.2.2/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 2,
+   "unit_title": "Probability",
+   "code": "MA.7.DP.2.2",
+   "id": "C-DP.2.2",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Interpret and compare probabilities",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.2.2/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.2.2/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.DP.2.2/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 2,
+   "unit_title": "Probability",
+   "code": "MA.7.DP.2.2",
+   "id": "C-DP.2.2",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Interpret and compare probabilities",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.2.2/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.2.2/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 2,
+   "unit_title": "Probability",
+   "code": "MA.7.DP.2.3",
+   "id": "C-DP.2.3",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Find theoretical probability of an event",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.2.3/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "1/4"
+     ],
+     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "kind": "frac"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.2.3/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "0.24",
+      ".24"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.DP.2.3/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.DP.2.3/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "2/11"
+     ],
+     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "kind": "frac"
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.DP.2.3/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "25/26"
+     ],
+     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "kind": "frac"
+    }
+   ]
+  },
+  {
+   "unit": 2,
+   "unit_title": "Probability",
+   "code": "MA.7.DP.2.3",
+   "id": "C-DP.2.3",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Find theoretical probability of an event",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.2.3/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "75"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.2.3/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "3/8"
+     ],
+     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "kind": "frac"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.DP.2.3/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 2,
+   "unit_title": "Probability",
+   "code": "MA.7.DP.2.3",
+   "id": "C-DP.2.3",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Find theoretical probability of an event",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.2.3/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.2.3/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "0.75",
+      ".75"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 2,
+   "unit_title": "Probability",
+   "code": "MA.7.DP.2.4",
+   "id": "C-DP.2.4",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Experimental vs theoretical probability",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.2.4/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.2.4/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "0.51",
+      ".51"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.DP.2.4/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.DP.2.4/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.DP.2.4/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 2,
+   "unit_title": "Probability",
+   "code": "MA.7.DP.2.4",
+   "id": "C-DP.2.4",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Experimental vs theoretical probability",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.2.4/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.2.4/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "0.47",
+      ".47"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.DP.2.4/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "100"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 2,
+   "unit_title": "Probability",
+   "code": "MA.7.DP.2.4",
+   "id": "C-DP.2.4",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Experimental vs theoretical probability",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.2.4/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.2.4/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 3,
+   "unit_title": "Operations with Rational Numbers",
+   "code": "MA.7.NSO.2.2",
+   "id": "C-NSO.2.2",
+   "set": "chk",
+   "label": "Check",
+   "calc": "no",
+   "name": "Four operations with rational numbers",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.NSO.2.2/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "-16.28"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.NSO.2.2/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "4/5",
+      "0.8",
+      "0.80",
+      ".8",
+      ".80"
+     ],
+     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "kind": "frac"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.NSO.2.2/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "-1 21/100",
+      "-121/100",
+      "-1.21"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "frac"
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.NSO.2.2/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "-1/4",
+      "-0.25",
+      "-.25"
+     ],
+     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "kind": "frac"
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.NSO.2.2/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 3,
+   "unit_title": "Operations with Rational Numbers",
+   "code": "MA.7.NSO.2.2",
+   "id": "C-NSO.2.2",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "no",
+   "name": "Four operations with rational numbers",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.NSO.2.2/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "-45.75",
+      "-45 3/4",
+      "-183/4"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.NSO.2.2/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "-6"
+     ],
+     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.NSO.2.2/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "5/6"
+     ],
+     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "kind": "frac"
+    }
+   ]
+  },
+  {
+   "unit": 3,
+   "unit_title": "Operations with Rational Numbers",
+   "code": "MA.7.NSO.2.2",
+   "id": "C-NSO.2.2",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "no",
+   "name": "Four operations with rational numbers",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.NSO.2.2/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "-3/4",
+      "-0.75",
+      "-.75"
+     ],
+     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "kind": "frac"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.NSO.2.2/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "-8/15"
+     ],
+     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "kind": "frac"
+    }
+   ]
+  },
+  {
+   "unit": 3,
+   "unit_title": "Operations with Rational Numbers",
+   "code": "MA.7.NSO.2.3",
+   "id": "C-NSO.2.3",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Real-world problems with rational numbers",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.NSO.2.3/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "90"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.NSO.2.3/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "-10.45"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.NSO.2.3/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "-22.1",
+      "-22.10",
+      "-22 1/10",
+      "-221/10"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.NSO.2.3/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "-0.60",
+      "-0.6",
+      "-.60",
+      "-.6"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.NSO.2.3/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "4"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 3,
+   "unit_title": "Operations with Rational Numbers",
+   "code": "MA.7.NSO.2.3",
+   "id": "C-NSO.2.3",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Real-world problems with rational numbers",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.NSO.2.3/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "-20.8",
+      "-20.80",
+      "-20 4/5",
+      "-104/5"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.NSO.2.3/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "-0.33",
+      "-.33"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.NSO.2.3/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "-4.70",
+      "-4.7"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 3,
+   "unit_title": "Operations with Rational Numbers",
+   "code": "MA.7.NSO.2.3",
+   "id": "C-NSO.2.3",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Real-world problems with rational numbers",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.NSO.2.3/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "-1.01"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.NSO.2.3/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "-5.70",
+      "-5.7"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 4,
+   "unit_title": "Area",
+   "code": "MA.7.GR.1.1",
+   "id": "C-GR.1.1",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Area of trapezoids, parallelograms, and rhombi",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.GR.1.1/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "126"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.GR.1.1/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "105"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.GR.1.1/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "35.75",
+      "35 3/4",
+      "143/4"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.GR.1.1/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "87.5",
+      "87.50",
+      "87 1/2",
+      "175/2"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.GR.1.1/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "8"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 4,
+   "unit_title": "Area",
+   "code": "MA.7.GR.1.1",
+   "id": "C-GR.1.1",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Area of trapezoids, parallelograms, and rhombi",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.GR.1.1/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "153"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.GR.1.1/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.GR.1.1/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "99"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 4,
+   "unit_title": "Area",
+   "code": "MA.7.GR.1.1",
+   "id": "C-GR.1.1",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Area of trapezoids, parallelograms, and rhombi",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.GR.1.1/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "35"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.GR.1.1/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "66"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 4,
+   "unit_title": "Area",
+   "code": "MA.7.GR.1.2",
+   "id": "C-GR.1.2",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Area of polygons and composite figures",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.GR.1.2/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "95"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.GR.1.2/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "78"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.GR.1.2/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "205"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.GR.1.2/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "477.5",
+      "477.50",
+      "477 1/2",
+      "955/2"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.GR.1.2/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 4,
+   "unit_title": "Area",
+   "code": "MA.7.GR.1.2",
+   "id": "C-GR.1.2",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Area of polygons and composite figures",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.GR.1.2/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "108"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.GR.1.2/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "70"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.GR.1.2/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "117"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 4,
+   "unit_title": "Area",
+   "code": "MA.7.GR.1.2",
+   "id": "C-GR.1.2",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Area of polygons and composite figures",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.GR.1.2/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "165"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.GR.1.2/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "850"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 4,
+   "unit_title": "Area",
+   "code": "MA.7.GR.1.3",
+   "id": "C-GR.1.3",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Circumference of a circle",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.GR.1.3/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "22"
+     ],
+     "note": "Type only the number in front of π. Example: for 7π, type 7.",
+     "kind": "pi"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.GR.1.3/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "34",
+      "34.0",
+      "34.00"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.GR.1.3/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "10",
+      "10.0",
+      "10.00"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.GR.1.3/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "12.57"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.GR.1.3/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "63"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 4,
+   "unit_title": "Area",
+   "code": "MA.7.GR.1.3",
+   "id": "C-GR.1.3",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Circumference of a circle",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.GR.1.3/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "13",
+      "13.0",
+      "13.00"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.GR.1.3/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "3.14"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.GR.1.3/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "30"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 4,
+   "unit_title": "Area",
+   "code": "MA.7.GR.1.3",
+   "id": "C-GR.1.3",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Circumference of a circle",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.GR.1.3/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "36"
+     ],
+     "note": "Type only the number in front of π. Example: for 7π, type 7.",
+     "kind": "pi"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.GR.1.3/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "8",
+      "8.0",
+      "8.00"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 4,
+   "unit_title": "Area",
+   "code": "MA.7.GR.1.4",
+   "id": "C-GR.1.4",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Area of a circle",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.GR.1.4/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "36"
+     ],
+     "note": "Type only the number in front of π. Example: for 7π, type 7.",
+     "kind": "pi"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.GR.1.4/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "153.86"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.GR.1.4/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "80"
+     ],
+     "note": "Type only the number in front of π. Example: for 7π, type 7.",
+     "kind": "pi"
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.GR.1.4/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "1384.74"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.GR.1.4/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 4,
+   "unit_title": "Area",
+   "code": "MA.7.GR.1.4",
+   "id": "C-GR.1.4",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Area of a circle",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.GR.1.4/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "196"
+     ],
+     "note": "Type only the number in front of π. Example: for 7π, type 7.",
+     "kind": "pi"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.GR.1.4/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "803.84"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.GR.1.4/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "75"
+     ],
+     "note": "Type only the number in front of π. Example: for 7π, type 7.",
+     "kind": "pi"
+    }
+   ]
+  },
+  {
+   "unit": 4,
+   "unit_title": "Area",
+   "code": "MA.7.GR.1.4",
+   "id": "C-GR.1.4",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Area of a circle",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.GR.1.4/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.GR.1.4/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "2289.06"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 5,
+   "unit_title": "Scaling With Proportional Relationships",
+   "code": "MA.7.DP.1.3",
+   "id": "C-DP.1.3",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Predictions from a random sample",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.1.3/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.1.3/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.DP.1.3/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "96"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.DP.1.3/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "250"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.DP.1.3/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 5,
+   "unit_title": "Scaling With Proportional Relationships",
+   "code": "MA.7.DP.1.3",
+   "id": "C-DP.1.3",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Predictions from a random sample",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.1.3/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "60"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.1.3/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "800"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.DP.1.3/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "500"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 5,
+   "unit_title": "Scaling With Proportional Relationships",
+   "code": "MA.7.DP.1.3",
+   "id": "C-DP.1.3",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Predictions from a random sample",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.1.3/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.1.3/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "75"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 5,
+   "unit_title": "Scaling With Proportional Relationships",
+   "code": "MA.7.GR.1.5",
+   "id": "C-GR.1.5",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Scale drawings and scale factor",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.GR.1.5/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "280"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.GR.1.5/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "9"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.GR.1.5/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "6",
+      "6/1",
+      "12/2"
+     ],
+     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "kind": "frac"
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.GR.1.5/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "7.5",
+      "7.50",
+      "7 1/2",
+      "15/2"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.GR.1.5/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "562.5",
+      "562.50",
+      "562 1/2",
+      "1125/2"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 5,
+   "unit_title": "Scaling With Proportional Relationships",
+   "code": "MA.7.GR.1.5",
+   "id": "C-GR.1.5",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Scale drawings and scale factor",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.GR.1.5/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "14"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.GR.1.5/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.GR.1.5/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "4",
+      "4/1",
+      "12/3"
+     ],
+     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "kind": "frac"
+    }
+   ]
+  },
+  {
+   "unit": 5,
+   "unit_title": "Scaling With Proportional Relationships",
+   "code": "MA.7.GR.1.5",
+   "id": "C-GR.1.5",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Scale drawings and scale factor",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.GR.1.5/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.GR.1.5/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "32"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 6,
+   "unit_title": "Multi-Step Problems With Proportional Relationships",
+   "code": "MA.7.AR.3.3",
+   "id": "C-AR.3.3",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Unit conversions across measurement systems",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.3.3/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.3.3/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "58.75"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.AR.3.3/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "22.4",
+      "22.40"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.AR.3.3/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "1030.4",
+      "1030.40"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.AR.3.3/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 6,
+   "unit_title": "Multi-Step Problems With Proportional Relationships",
+   "code": "MA.7.AR.3.3",
+   "id": "C-AR.3.3",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Unit conversions across measurement systems",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.3.3/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.3.3/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "69.75"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.AR.3.3/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "30.6",
+      "30.60"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 6,
+   "unit_title": "Multi-Step Problems With Proportional Relationships",
+   "code": "MA.7.AR.3.3",
+   "id": "C-AR.3.3",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Unit conversions across measurement systems",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.3.3/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.3.3/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "96.5",
+      "96.50",
+      "96.6",
+      "96.60"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 6,
+   "unit_title": "Multi-Step Problems With Proportional Relationships",
+   "code": "MA.7.AR.3.2",
+   "id": "C-AR.3.2",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Solve problems involving proportions",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.3.2/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.3.2/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "8.1",
+      "8.10",
+      "8 1/10",
+      "81/10"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.AR.3.2/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "26.64"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.AR.3.2/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "1 1/4",
+      "5/4"
+     ],
+     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "kind": "frac"
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.AR.3.2/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 6,
+   "unit_title": "Multi-Step Problems With Proportional Relationships",
+   "code": "MA.7.AR.3.2",
+   "id": "C-AR.3.2",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Solve problems involving proportions",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.3.2/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.3.2/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.AR.3.2/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "17.5",
+      "17.50",
+      "17 1/2",
+      "35/2"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 6,
+   "unit_title": "Multi-Step Problems With Proportional Relationships",
+   "code": "MA.7.AR.3.2",
+   "id": "C-AR.3.2",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Solve problems involving proportions",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.3.2/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "3/4"
+     ],
+     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "kind": "frac"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.3.2/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 6,
+   "unit_title": "Multi-Step Problems With Proportional Relationships",
+   "code": "MA.7.AR.4.5",
+   "id": "C-AR.4.5",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Real-world proportional problems",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.4.5/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "55"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.4.5/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "21 3/5",
+      "108/5"
+     ],
+     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "kind": "frac"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.AR.4.5/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "27.00",
+      "27",
+      "27.0"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.AR.4.5/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.AR.4.5/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 6,
+   "unit_title": "Multi-Step Problems With Proportional Relationships",
+   "code": "MA.7.AR.4.5",
+   "id": "C-AR.4.5",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Real-world proportional problems",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.4.5/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "26.40",
+      "26.4"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.4.5/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "24"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.AR.4.5/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "9"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 6,
+   "unit_title": "Multi-Step Problems With Proportional Relationships",
+   "code": "MA.7.AR.4.5",
+   "id": "C-AR.4.5",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Real-world proportional problems",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.4.5/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.4.5/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "16.20",
+      "16.2"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 7,
+   "unit_title": "Percentage Problems With Proportional Relationships",
+   "code": "MA.7.DP.1.4",
+   "id": "C-DP.1.4",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Circle graphs",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.1.4/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "135"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.1.4/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "10"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.DP.1.4/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.DP.1.4/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "185"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.DP.1.4/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Checkboxes",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "correct": [
+      "C",
+      "E"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 7,
+   "unit_title": "Percentage Problems With Proportional Relationships",
+   "code": "MA.7.DP.1.4",
+   "id": "C-DP.1.4",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Circle graphs",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.1.4/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "36"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.1.4/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.DP.1.4/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "23"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 7,
+   "unit_title": "Percentage Problems With Proportional Relationships",
+   "code": "MA.7.DP.1.4",
+   "id": "C-DP.1.4",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Circle graphs",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.1.4/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "15"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.1.4/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 7,
+   "unit_title": "Percentage Problems With Proportional Relationships",
+   "code": "MA.7.AR.3.1",
+   "id": "C-AR.3.1",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Multi-step real-world percent problems",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.3.1/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "67.74"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.3.1/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "3480.75"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.AR.3.1/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.AR.3.1/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "7.5",
+      "7.50",
+      "7 1/2",
+      "15/2"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.AR.3.1/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 7,
+   "unit_title": "Percentage Problems With Proportional Relationships",
+   "code": "MA.7.AR.3.1",
+   "id": "C-AR.3.1",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Multi-step real-world percent problems",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.3.1/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "32.5",
+      "32.50",
+      "32 1/2",
+      "65/2"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.3.1/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "92.51"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.AR.3.1/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "6.25",
+      "6 1/4",
+      "25/4"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 7,
+   "unit_title": "Percentage Problems With Proportional Relationships",
+   "code": "MA.7.AR.3.1",
+   "id": "C-AR.3.1",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Multi-step real-world percent problems",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.3.1/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "2706.00",
+      "2706",
+      "2706.0"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.3.1/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "58.89"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 8,
+   "unit_title": "Evaluating Numeric Expressions",
+   "code": "MA.7.NSO.1.1",
+   "id": "C-NSO.1.1",
+   "set": "chk",
+   "label": "Check",
+   "calc": "no",
+   "name": "Laws of exponents (whole-number exponents)",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.NSO.1.1/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "64/729"
+     ],
+     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "kind": "frac"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.NSO.1.1/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.NSO.1.1/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "100"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.NSO.1.1/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "4"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.NSO.1.1/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 8,
+   "unit_title": "Evaluating Numeric Expressions",
+   "code": "MA.7.NSO.1.1",
+   "id": "C-NSO.1.1",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "no",
+   "name": "Laws of exponents (whole-number exponents)",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.NSO.1.1/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "243"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.NSO.1.1/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.NSO.1.1/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "1000"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 8,
+   "unit_title": "Evaluating Numeric Expressions",
+   "code": "MA.7.NSO.1.1",
+   "id": "C-NSO.1.1",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "no",
+   "name": "Laws of exponents (whole-number exponents)",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.NSO.1.1/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "5"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.NSO.1.1/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "625"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 8,
+   "unit_title": "Evaluating Numeric Expressions",
+   "code": "MA.7.NSO.2.1",
+   "id": "C-NSO.2.1",
+   "set": "chk",
+   "label": "Check",
+   "calc": "no",
+   "name": "Order of operations with rational numbers",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.NSO.2.1/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "12.36"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.NSO.2.1/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.NSO.2.1/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "8 1/3",
+      "25/3"
+     ],
+     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "kind": "frac"
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.NSO.2.1/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "11 5/8",
+      "93/8"
+     ],
+     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "kind": "frac"
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.NSO.2.1/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 8,
+   "unit_title": "Evaluating Numeric Expressions",
+   "code": "MA.7.NSO.2.1",
+   "id": "C-NSO.2.1",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "no",
+   "name": "Order of operations with rational numbers",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.NSO.2.1/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "4 5/8",
+      "37/8"
+     ],
+     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "kind": "frac"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.NSO.2.1/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.NSO.2.1/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "2 5/8",
+      "21/8",
+      "2.625"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "frac"
+    }
+   ]
+  },
+  {
+   "unit": 8,
+   "unit_title": "Evaluating Numeric Expressions",
+   "code": "MA.7.NSO.2.1",
+   "id": "C-NSO.2.1",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "no",
+   "name": "Order of operations with rational numbers",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.NSO.2.1/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "31.25"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.NSO.2.1/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "2 1/4",
+      "9/4",
+      "2.25"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "frac"
+    }
+   ]
+  },
+  {
+   "unit": 9,
+   "unit_title": "Algebraic Expressions",
+   "code": "MA.7.AR.1.1",
+   "id": "C-AR.1.1",
+   "set": "chk",
+   "label": "Check",
+   "calc": "no",
+   "name": "Simplify linear expressions",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.1.1/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.1.1/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.AR.1.1/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.AR.1.1/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.AR.1.1/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 9,
+   "unit_title": "Algebraic Expressions",
+   "code": "MA.7.AR.1.1",
+   "id": "C-AR.1.1",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "no",
+   "name": "Simplify linear expressions",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.1.1/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.1.1/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.AR.1.1/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 9,
+   "unit_title": "Algebraic Expressions",
+   "code": "MA.7.AR.1.1",
+   "id": "C-AR.1.1",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "no",
+   "name": "Simplify linear expressions",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.1.1/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.1.1/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 9,
+   "unit_title": "Algebraic Expressions",
+   "code": "MA.7.AR.1.2",
+   "id": "C-AR.1.2",
+   "set": "chk",
+   "label": "Check",
+   "calc": "no",
+   "name": "Determine if two expressions are equivalent",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.1.2/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Checkboxes",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "correct": [
+      "A",
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.1.2/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.AR.1.2/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.AR.1.2/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.AR.1.2/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 9,
+   "unit_title": "Algebraic Expressions",
+   "code": "MA.7.AR.1.2",
+   "id": "C-AR.1.2",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "no",
+   "name": "Determine if two expressions are equivalent",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.1.2/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.1.2/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.AR.1.2/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Checkboxes",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "correct": [
+      "A",
+      "E"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 9,
+   "unit_title": "Algebraic Expressions",
+   "code": "MA.7.AR.1.2",
+   "id": "C-AR.1.2",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "no",
+   "name": "Determine if two expressions are equivalent",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.1.2/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.1.2/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 10,
+   "unit_title": "Equations and Inequalities",
+   "code": "MA.7.AR.2.1",
+   "id": "C-AR.2.1",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Solve one-step inequalities",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.2.1/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.2.1/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.AR.2.1/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.AR.2.1/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.AR.2.1/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 10,
+   "unit_title": "Equations and Inequalities",
+   "code": "MA.7.AR.2.1",
+   "id": "C-AR.2.1",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Solve one-step inequalities",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.2.1/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.2.1/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.AR.2.1/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 10,
+   "unit_title": "Equations and Inequalities",
+   "code": "MA.7.AR.2.1",
+   "id": "C-AR.2.1",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Solve one-step inequalities",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.2.1/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.2.1/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 10,
+   "unit_title": "Equations and Inequalities",
+   "code": "MA.7.AR.2.2",
+   "id": "C-AR.2.2",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Two-step equations with rational numbers",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.2.2/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.2.2/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "-2"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.AR.2.2/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.AR.2.2/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "3 1/3",
+      "10/3"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "frac"
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.AR.2.2/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 10,
+   "unit_title": "Equations and Inequalities",
+   "code": "MA.7.AR.2.2",
+   "id": "C-AR.2.2",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Two-step equations with rational numbers",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.2.2/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "-9"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.2.2/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.AR.2.2/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 10,
+   "unit_title": "Equations and Inequalities",
+   "code": "MA.7.AR.2.2",
+   "id": "C-AR.2.2",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Two-step equations with rational numbers",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.2.2/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.2.2/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "2 1/3",
+      "7/3"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "frac"
+    }
+   ]
+  },
+  {
+   "unit": 11,
+   "unit_title": "Representing Proportional Relationships",
+   "code": "MA.7.AR.4.3",
+   "id": "C-AR.4.3",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Graph proportional relationships",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.4.3/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.4.3/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.AR.4.3/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.AR.4.3/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.AR.4.3/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 11,
+   "unit_title": "Representing Proportional Relationships",
+   "code": "MA.7.AR.4.3",
+   "id": "C-AR.4.3",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Graph proportional relationships",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.4.3/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.4.3/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.AR.4.3/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 11,
+   "unit_title": "Representing Proportional Relationships",
+   "code": "MA.7.AR.4.3",
+   "id": "C-AR.4.3",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Graph proportional relationships",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.4.3/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.4.3/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 11,
+   "unit_title": "Representing Proportional Relationships",
+   "code": "MA.7.AR.4.2",
+   "id": "C-AR.4.2",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Constant of proportionality",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.4.2/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.4.2/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "3.1",
+      "3.10"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.AR.4.2/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "1.8",
+      "1.80",
+      "1 4/5",
+      "9/5"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.AR.4.2/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "2/5"
+     ],
+     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "kind": "frac"
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.AR.4.2/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 11,
+   "unit_title": "Representing Proportional Relationships",
+   "code": "MA.7.AR.4.2",
+   "id": "C-AR.4.2",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Constant of proportionality",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.4.2/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "0.9",
+      "0.90",
+      ".9",
+      ".90",
+      "9/10"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.4.2/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "3.95"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.AR.4.2/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 11,
+   "unit_title": "Representing Proportional Relationships",
+   "code": "MA.7.AR.4.2",
+   "id": "C-AR.4.2",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Constant of proportionality",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.4.2/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "9/7",
+      "1 2/7"
+     ],
+     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "kind": "frac"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.4.2/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "8/11"
+     ],
+     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "kind": "frac"
+    }
+   ]
+  },
+  {
+   "unit": 11,
+   "unit_title": "Representing Proportional Relationships",
+   "code": "MA.7.AR.4.1",
+   "id": "C-AR.4.1",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Is it proportional? (table, graph, description)",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.4.1/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Checkboxes",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "correct": [
+      "A",
+      "E"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.4.1/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.AR.4.1/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.AR.4.1/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.AR.4.1/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 11,
+   "unit_title": "Representing Proportional Relationships",
+   "code": "MA.7.AR.4.1",
+   "id": "C-AR.4.1",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Is it proportional? (table, graph, description)",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.4.1/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Checkboxes",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "correct": [
+      "B",
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.4.1/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.AR.4.1/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 11,
+   "unit_title": "Representing Proportional Relationships",
+   "code": "MA.7.AR.4.1",
+   "id": "C-AR.4.1",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Is it proportional? (table, graph, description)",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.4.1/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Checkboxes",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "correct": [
+      "A",
+      "C",
+      "E"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.4.1/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "86"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 11,
+   "unit_title": "Representing Proportional Relationships",
+   "code": "MA.7.AR.4.4",
+   "id": "C-AR.4.4",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Translate between representations",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.4.4/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.4.4/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.AR.4.4/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.AR.4.4/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.AR.4.4/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 11,
+   "unit_title": "Representing Proportional Relationships",
+   "code": "MA.7.AR.4.4",
+   "id": "C-AR.4.4",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Translate between representations",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.4.4/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.4.4/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.AR.4.4/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 11,
+   "unit_title": "Representing Proportional Relationships",
+   "code": "MA.7.AR.4.4",
+   "id": "C-AR.4.4",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Translate between representations",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.AR.4.4/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.AR.4.4/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 12,
+   "unit_title": "Surface Area and Volume",
+   "code": "MA.7.GR.2.1",
+   "id": "C-GR.2.1",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Surface area of a cylinder from its net",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.GR.2.1/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "224"
+     ],
+     "note": "Type only the number in front of π. Example: for 7π, type 7.",
+     "kind": "pi"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.GR.2.1/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "104"
+     ],
+     "note": "Type only the number in front of π. Example: for 7π, type 7.",
+     "kind": "pi"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.GR.2.1/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.GR.2.1/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "432"
+     ],
+     "note": "Type only the number in front of π. Example: for 7π, type 7.",
+     "kind": "pi"
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.GR.2.1/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "660"
+     ],
+     "note": "Type only the number in front of π. Example: for 7π, type 7.",
+     "kind": "pi"
+    }
+   ]
+  },
+  {
+   "unit": 12,
+   "unit_title": "Surface Area and Volume",
+   "code": "MA.7.GR.2.1",
+   "id": "C-GR.2.1",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Surface area of a cylinder from its net",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.GR.2.1/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "168"
+     ],
+     "note": "Type only the number in front of π. Example: for 7π, type 7.",
+     "kind": "pi"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.GR.2.1/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "160"
+     ],
+     "note": "Type only the number in front of π. Example: for 7π, type 7.",
+     "kind": "pi"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.GR.2.1/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "84"
+     ],
+     "note": "Type only the number in front of π. Example: for 7π, type 7.",
+     "kind": "pi"
+    }
+   ]
+  },
+  {
+   "unit": 12,
+   "unit_title": "Surface Area and Volume",
+   "code": "MA.7.GR.2.1",
+   "id": "C-GR.2.1",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Surface area of a cylinder from its net",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.GR.2.1/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "182"
+     ],
+     "note": "Type only the number in front of π. Example: for 7π, type 7.",
+     "kind": "pi"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.GR.2.1/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "414"
+     ],
+     "note": "Type only the number in front of π. Example: for 7π, type 7.",
+     "kind": "pi"
+    }
+   ]
+  },
+  {
+   "unit": 12,
+   "unit_title": "Surface Area and Volume",
+   "code": "MA.7.GR.2.2",
+   "id": "C-GR.2.2",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Real-world cylinder surface area",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.GR.2.2/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "468"
+     ],
+     "note": "Type only the number in front of π. Example: for 7π, type 7.",
+     "kind": "pi"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.GR.2.2/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "93"
+     ],
+     "note": "Type only the number in front of π. Example: for 7π, type 7.",
+     "kind": "pi"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.GR.2.2/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.GR.2.2/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "345.58"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.GR.2.2/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "3"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 12,
+   "unit_title": "Surface Area and Volume",
+   "code": "MA.7.GR.2.2",
+   "id": "C-GR.2.2",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Real-world cylinder surface area",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.GR.2.2/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "455.53"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.GR.2.2/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "112"
+     ],
+     "note": "Type only the number in front of π. Example: for 7π, type 7.",
+     "kind": "pi"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.GR.2.2/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "462"
+     ],
+     "note": "Type only the number in front of π. Example: for 7π, type 7.",
+     "kind": "pi"
+    }
+   ]
+  },
+  {
+   "unit": 12,
+   "unit_title": "Surface Area and Volume",
+   "code": "MA.7.GR.2.2",
+   "id": "C-GR.2.2",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Real-world cylinder surface area",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.GR.2.2/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "407"
+     ],
+     "note": "Type only the number in front of π. Example: for 7π, type 7.",
+     "kind": "pi"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.GR.2.2/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "188.40",
+      "188.4"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 12,
+   "unit_title": "Surface Area and Volume",
+   "code": "MA.7.GR.2.3",
+   "id": "C-GR.2.3",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Volume of a cylinder",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.GR.2.3/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "2411.52"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.GR.2.3/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "1536"
+     ],
+     "note": "Type only the number in front of π. Example: for 7π, type 7.",
+     "kind": "pi"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.GR.2.3/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.GR.2.3/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "8164",
+      "8164.0",
+      "8164.00"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.GR.2.3/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "14.86"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    }
+   ]
+  },
+  {
+   "unit": 12,
+   "unit_title": "Surface Area and Volume",
+   "code": "MA.7.GR.2.3",
+   "id": "C-GR.2.3",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Volume of a cylinder",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.GR.2.3/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.GR.2.3/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "339.29"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.GR.2.3/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "384"
+     ],
+     "note": "Type only the number in front of π. Example: for 7π, type 7.",
+     "kind": "pi"
+    }
+   ]
+  },
+  {
+   "unit": 12,
+   "unit_title": "Surface Area and Volume",
+   "code": "MA.7.GR.2.3",
+   "id": "C-GR.2.3",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Volume of a cylinder",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.GR.2.3/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "1005.31"
+     ],
+     "note": "Type a number only. No units, $ or %.",
+     "kind": "num"
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.GR.2.3/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Short answer",
+     "accept": [
+      "64"
+     ],
+     "note": "Type only the number in front of π. Example: for 7π, type 7.",
+     "kind": "pi"
+    }
+   ]
+  },
+  {
+   "unit": 13,
+   "unit_title": "Numerical and Categorical Data",
+   "code": "MA.7.DP.1.1",
+   "id": "C-DP.1.1",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Choose a measure of center or variation",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.1.1/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.1.1/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.DP.1.1/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.DP.1.1/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.DP.1.1/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Checkboxes",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+     ],
+     "correct": [
+      "A",
+      "C",
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 13,
+   "unit_title": "Numerical and Categorical Data",
+   "code": "MA.7.DP.1.1",
+   "id": "C-DP.1.1",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Choose a measure of center or variation",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.1.1/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.1.1/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.DP.1.1/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 13,
+   "unit_title": "Numerical and Categorical Data",
+   "code": "MA.7.DP.1.1",
+   "id": "C-DP.1.1",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Choose a measure of center or variation",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.1.1/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.1.1/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 13,
+   "unit_title": "Numerical and Categorical Data",
+   "code": "MA.7.DP.1.2",
+   "id": "C-DP.1.2",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Compare two data sets",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.1.2/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.1.2/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.DP.1.2/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.DP.1.2/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.DP.1.2/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 13,
+   "unit_title": "Numerical and Categorical Data",
+   "code": "MA.7.DP.1.2",
+   "id": "C-DP.1.2",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Compare two data sets",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.1.2/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.1.2/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.DP.1.2/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 13,
+   "unit_title": "Numerical and Categorical Data",
+   "code": "MA.7.DP.1.2",
+   "id": "C-DP.1.2",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Compare two data sets",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.1.2/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.1.2/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 13,
+   "unit_title": "Numerical and Categorical Data",
+   "code": "MA.7.DP.1.5",
+   "id": "C-DP.1.5",
+   "set": "chk",
+   "label": "Check",
+   "calc": "yes",
+   "name": "Choose an appropriate graph",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.1.5/chk/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.1.5/chk/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.DP.1.5/chk/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 4,
+     "slot": "MA.7.DP.1.5/chk/3",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 5,
+     "slot": "MA.7.DP.1.5/chk/4",
+     "hr": true,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 13,
+   "unit_title": "Numerical and Categorical Data",
+   "code": "MA.7.DP.1.5",
+   "id": "C-DP.1.5",
+   "set": "re",
+   "label": "Re-check",
+   "calc": "yes",
+   "name": "Choose an appropriate graph",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.1.5/re/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.1.5/re/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 3,
+     "slot": "MA.7.DP.1.5/re/2",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "unit": 13,
+   "unit_title": "Numerical and Categorical Data",
+   "code": "MA.7.DP.1.5",
+   "id": "C-DP.1.5",
+   "set": "cmp",
+   "label": "Comparison",
+   "calc": "yes",
+   "name": "Choose an appropriate graph",
+   "questions": [
+    {
+     "n": 1,
+     "slot": "MA.7.DP.1.5/cmp/0",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "slot": "MA.7.DP.1.5/cmp/1",
+     "hr": false,
+     "points": 1,
+     "type": "Multiple choice",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    }
+   ]
+  }
+ ]
+}

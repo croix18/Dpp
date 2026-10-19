@@ -1,0 +1,274 @@
+[
+ {
+  "slot": "MA.7.GR.1.2/chk/1",
+  "why": "Tent figure: the triangle was drawn at about half its height, so the outline looked like one straight-sided triangle (reads as 84.5 instead of 78). Redrawn with the bend at 7 of 13 ft so the two parts are visible; 'Not drawn to scale' stays.",
+  "edit": [
+   {
+    "field": "fig",
+    "find": "140,24 174.62,68 230,146 50,146 105.38,68",
+    "replace": "140,24 174.62,80.31 230,146 50,146 105.38,80.31"
+   },
+   {
+    "field": "fig",
+    "find": "x1=\"105.38\" y1=\"68\" x2=\"174.62\" y2=\"68\"",
+    "replace": "x1=\"105.38\" y1=\"80.31\" x2=\"174.62\" y2=\"80.31\""
+   },
+   {
+    "field": "fig",
+    "find": "<text x=\"140\" y=\"82\"",
+    "replace": "<text x=\"140\" y=\"95\""
+   },
+   {
+    "field": "fig",
+    "find": "x1=\"178.62\" y1=\"68\" x2=\"247\" y2=\"68\"",
+    "replace": "x1=\"178.62\" y1=\"80.31\" x2=\"247\" y2=\"80.31\""
+   },
+   {
+    "field": "fig",
+    "find": "x1=\"244\" y1=\"24\" x2=\"244\" y2=\"68\"",
+    "replace": "x1=\"244\" y1=\"24\" x2=\"244\" y2=\"80.31\""
+   },
+   {
+    "field": "fig",
+    "find": "x1=\"241\" y1=\"68\" x2=\"247\" y2=\"68\"",
+    "replace": "x1=\"241\" y1=\"80.31\" x2=\"247\" y2=\"80.31\""
+   },
+   {
+    "field": "fig",
+    "find": "y=\"49.85\"",
+    "replace": "y=\"56.01\""
+   },
+   {
+    "field": "fig",
+    "find": "x1=\"244\" y1=\"68\" x2=\"244\" y2=\"146\"",
+    "replace": "x1=\"244\" y1=\"80.31\" x2=\"244\" y2=\"146\""
+   },
+   {
+    "field": "fig",
+    "find": "y=\"110.85\"",
+    "replace": "y=\"117.01\""
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.DP.2.2/chk/4",
+  "why": "'How much more likely' can mean a difference (0.5) or a ratio (3.5 times); the key credits only the difference.",
+  "edit": [
+   {
+    "field": "q",
+    "find": "and find how much more likely it is.",
+    "replace": "and find the difference between the two probabilities."
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.NSO.2.2/re/1",
+  "why": "4/5 - 1/3 has no negative number and no multiplication or division: a grade-5 item on a rational-number-operations re-check.",
+  "redraw": {
+   "require": [
+    "[−-]\\s*\\d",
+    "[×÷]"
+   ]
+  }
+ },
+ {
+  "slot": "MA.7.DP.1.5/re/2",
+  "why": "A line plot also 'keeps every value and shows the shape' for 15 scores, so B was defensible; replaced with a box plot, which does not keep every value.",
+  "edit": [
+   {
+    "field": "opts.1",
+    "find": "a line plot",
+    "replace": "a box plot"
+   },
+   {
+    "field": "s",
+    "find": "A line plot would need a place for almost every number from 72 to 98, with few marks stacked.",
+    "replace": "A box plot shows the shape and spread but not every value."
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.4.1/chk/0",
+  "why": "'Burns down 1 inch each hour' is proportional if read as inches burned vs hours; the key assumes height. Named the pair.",
+  "edit": [
+   {
+    "field": "*",
+    "find": "burns down 1 inch each hour.",
+    "replace": "burns down 1 inch each hour (its height compared with the hours burned)."
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.4.1/re/0",
+  "why": "Same candle ambiguity; and 'oranges at $2.40 per pound' repeated a correct option from the check word for word.",
+  "edit": [
+   {
+    "field": "*",
+    "find": "burns down 1 inch each hour.",
+    "replace": "burns down 1 inch each hour (its height compared with the hours burned)."
+   },
+   {
+    "field": "*",
+    "find": "A store sells oranges at $2.40 per pound.",
+    "replace": "A store sells grapes at $1.85 per pound."
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.4.1/cmp/0",
+  "why": "'Grows 1 inch each week' is proportional if read as inches grown vs weeks; the key assumes height. Named the pair.",
+  "edit": [
+   {
+    "field": "*",
+    "find": "grows 1 inch each week.",
+    "replace": "grows 1 inch each week (its height compared with the number of weeks)."
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.DP.2.4/chk/4",
+  "why": "Key accepted 1 or 3 purple marbles; 0.215 x 10 = 2.15 and with 200 draws 1 (0.10) and 3 (0.30) are not reasonable. Accept 2 only.",
+  "edit": [
+   {
+    "field": "a",
+    "find": " (1 or 3 also accepted)",
+    "replace": ""
+   },
+   {
+    "field": "s",
+    "find": "; 1 or 3 would also be a reasonable estimate.",
+    "replace": "."
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.2.1/chk/4",
+  "why": "Choice C (4.5 - x < 8.5) is a two-step inequality with the variable negated, beyond MA.7.AR.2.1. Replaced with a one-step distractor that still has a different boundary.",
+  "edit": [
+   {
+    "field": "opts.2",
+    "find": "4.5 − x < 8.5",
+    "replace": "x − 4.5 > −8.5"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.GR.1.3/re/1",
+  "why": "Re-check 2 was check item 2 run backwards (r = 17 gives 106.81; 106.81 gives d = 34).",
+  "redraw": {}
+ },
+ {
+  "slot": "MA.7.AR.3.2/re/2",
+  "why": "Re-check 3 reused check item 3's ground-beef table ($4.44 a pound, same rows).",
+  "redraw": {}
+ },
+ {
+  "slot": "MA.7.DP.1.5/re/0",
+  "why": "Re-check 1 was check item 3 (120 sunflowers, same bins, same answer) with new counts.",
+  "redraw": {
+   "forbid": [
+    "sunflower"
+   ]
+  }
+ },
+ {
+  "slot": "MA.7.GR.2.2/re/2",
+  "why": "Re-check 3 used check item 5's cylinder (r = 7, h = 17) and offered check 5's answer (287 pi) as a distractor.",
+  "redraw": {}
+ },
+ {
+  "slot": "MA.7.NSO.1.2/re/2",
+  "why": "Re-check 3 asked for 0.(63) as a fraction: 7/11, the same number as check item 4.",
+  "redraw": {}
+ },
+ {
+  "slot": "MA.7.AR.4.5/cmp/1",
+  "why": "Comparison 2 was check item 4 (same carriage, same 1/2 mile per 5 minutes) with only the ride length changed.",
+  "redraw": {}
+ },
+ {
+  "slot": "MA.7.AR.3.3/cmp/1",
+  "why": "Comparison 2 was check item 4 (same pump, same 20 liters a minute) with only the run time changed. Replacement kept multi-step, like the check it is compared against.",
+  "redraw": {
+   "excludeGen": [
+    0,
+    1
+   ]
+  }
+ },
+ {
+  "slot": "MA.7.NSO.2.2/re/1",
+  "why": "Follow-up: the solution multiplied a mixed number directly; convert to an improper fraction first.",
+  "edit": [
+   {
+    "field": "s",
+    "find": "−1.5 = −1 1/2.",
+    "replace": "−1.5 = −3/2."
+   },
+   {
+    "field": "s",
+    "find": "−1 1/2 × 4/1 = −6.",
+    "replace": "−3/2 × 4/1 = −12/2 = −6."
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.DP.1.5/re/2",
+  "why": "Follow-up: the solution said 'few repeats', but 72 and 97 each appear three times.",
+  "edit": [
+   {
+    "field": "s",
+    "find": "The values are spread over several tens, from 72 to 98, with few repeats. A stem-and-leaf plot keeps every value (the leaves) and shows the shape (the stems).",
+    "replace": "The scores are numerical. A stem-and-leaf plot keeps every value (each leaf is one score), and the lengths of its leaf rows show the shape."
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.DP.2.4/chk/4",
+  "why": "Follow-up: once Part C gives 2 of 10 marbles, 'about 400' was a defensible Part B answer the key marked wrong. Part B now says to use Part A.",
+  "edit": [
+   {
+    "field": "q",
+    "find": "Part B. If the student makes 2,000 more draws",
+    "replace": "Part B. Use your answer to Part A. If the student makes 2,000 more draws"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.DP.2.2/chk/4",
+  "why": "Follow-up: the student chooses the form, so the difference can be written 1/2 or 50%.",
+  "edit": [
+   {
+    "field": "a",
+    "find": ", by 0.5. Score:",
+    "replace": ", by 0.5 (1/2 or 50% also accepted). Score:"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.3.3/cmp/1",
+  "why": "Follow-up: 96.54 sits at a rounding boundary; a student who rounds the factor to 1.61 gets 96.6.",
+  "edit": [
+   {
+    "field": "a",
+    "find": "96.5 kilometers",
+    "replace": "96.5 kilometers (96.6 also accepted if the factor was rounded to 1.61)"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.4.5/re/0",
+  "why": "Re-check 1 graphed the same carriage rate as check item 1 (1/2 mile in 10 minutes). Redrawn at a new rate, still a graphing item.",
+  "redraw": {
+   "excludeGen": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "forbid": [
+    "1/2 mile"
+   ]
+  }
+ }
+]

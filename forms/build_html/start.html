@@ -1,0 +1,88 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+@font-face{font-family:Lexend;src:url('file:///home/claude/dpp/lexend0.ttf')}
+@page{size:letter;margin:0.45in 0.5in}
+body{font-family:Lexend,Arial,sans-serif;color:#111;font-size:10.5px;line-height:1.4;margin:0}
+h1{font-size:17px;margin:0 0 2px}
+h2{font-size:12.5px;margin:14px 0 5px;padding-bottom:2px;border-bottom:1.2px solid #1f2a44}
+.sub{color:#555;font-size:10.5px;margin-bottom:8px}
+.box{border:1px solid #bbb;border-radius:6px;padding:7px 10px;margin:6px 0;background:#fafaf7}
+.box b{font-weight:600}
+.copy{background:#fff;border:1px solid #ddd;padding:1px 5px;border-radius:3px}
+.mono{font-family:'Courier New',monospace;font-size:10px;word-break:break-all}
+table{border-collapse:collapse;width:100%}
+th{background:#1f2a44;color:#fff;font-weight:600;text-align:left;padding:4px 6px;font-size:9.5px}
+td{border-bottom:1px solid #ddd;padding:5px 6px;vertical-align:top}
+td.n{font-weight:700;font-size:13px;width:18px}
+td.img img{width:1.9in;border:1px solid #ccc;display:block}
+.sm{font-size:8.8px;color:#555;margin-top:2px}
+.dim{color:#777}
+.tag{display:inline-block;font-size:8px;border:1px solid #999;border-radius:3px;padding:0 3px;margin-left:3px;color:#444}
+tr{page-break-inside:avoid}
+ol{padding-left:18px;margin:4px 0}li{margin:2px 0}
+.two{display:flex;gap:14px}.two>div{flex:1}
+</style></head><body>
+<h1>DPP Weekly Checks in Google Forms</h1>
+<div class="sub">7th grade on-level · all 34 benchmarks · 102 forms · 340 questions · every question grades itself</div>
+
+<h2>What is in this folder</h2>
+<table>
+<tr><th>Item</th><th>What it is</th></tr>
+<tr><td><b>Unit folders</b></td><td>One folder per Math Nation unit. Inside, one folder per benchmark, in teaching order. Each benchmark has three forms:
+<b>1 Check</b> (5 questions, Thursday), <b>2 Re-check</b> (3 questions, Wednesday after a reteach) and <b>3 Comparison</b> (2 questions, Wednesday, for a benchmark that was <i>not</i> retaught).</td></tr>
+<tr><td><b>In each form folder</b></td><td><b>Build sheet.pdf</b> (title, description, every question's type, options and answer key), the question images <b>Q1.png, Q2.png …</b> to upload,
+<b>Level scale.png</b> for checks, and an <b>Answers</b> folder with the answer and worked solution for each question.</td></tr>
+<tr><td><b>01 Form build list.xlsx</b></td><td>Every form and question in one list, with columns to tick off what is built and paste each form's link.</td></tr>
+</table>
+
+<h2>One-time setup: the template form (about 15 minutes)</h2>
+<ol>
+<li>Upload this whole folder to your <b>school</b> Google Drive, so student responses stay in the school account.</li>
+<li>Make a new blank form named <span class="copy">DPP template</span>. Settings → <b>Make this a quiz</b>: on. Release grades: <b>Immediately after each submission</b>.
+Respondents can see: <b>Missed questions</b> and <b>Point values</b> on, <b>Correct answers</b> off.</li>
+<li>Settings → Responses: <b>Collect email addresses: Verified</b>, <b>Limit to 1 response</b>: on.</li>
+<li>Add these questions, all <b>Required</b>:
+<ol type="a">
+<li><b>Teacher</b>: Multiple choice, <span class="copy">Mr. C. Shaffer</span>, <span class="copy">Mr. J. Shaffer</span>. 0 points.</li>
+<li><b>Period</b>: Dropdown, your period numbers. 0 points.</li>
+<li><b>Choice question (copy me)</b>: Multiple choice with options <span class="copy">A</span> <span class="copy">B</span> <span class="copy">C</span> <span class="copy">D</span>. 1 point.</li>
+<li><b>Typed question (copy me)</b>: Short answer. ⋮ → Response validation → <b>Regular expression</b> → <b>Matches</b> →
+<span class="copy mono">^-?(\d+(\.\d+)?|\.\d+|\d+/\d+|\d+ \d+/\d+)$</span> with the error text <span class="copy">Type only a number, like 12 or -3.5 or 2/7 or 4 1/3. No units, $, %, π or commas.</span>. 1 point.</li>
+<li><b>Level</b> (last): Multiple choice, <span class="copy">Which level are you at right now?</span> with options Level 1 to Level 4. 0 points.</li>
+</ol></li>
+</ol>
+
+<h2>Building one form (about 5 minutes for a check)</h2>
+<ol>
+<li>In Drive, right-click <b>DPP template</b> → <b>Make a copy</b>. Rename it with the <b>Form title</b> from the build sheet, and paste the <b>Description</b>.</li>
+<li>For each question on the build sheet: click the <b>copy me</b> question of the right type, click <b>Duplicate</b>, drag it into place, click the image icon and pick <b>Q1.png</b> (Google Drive tab → this folder).</li>
+<li>Click <b>Answer key</b>: pick the letter, or for a typed question type every accepted answer from the build sheet and tick <b>Mark all other answers incorrect</b>.
+Checkbox questions (a few) are built from a plain Checkboxes question with the options on the sheet.</li>
+<li>Delete the two <b>copy me</b> questions. On a check, add <b>Level scale.png</b> to the Level question; on a re-check or comparison form, delete the Level question.</li>
+<li>Turn <b>Locked mode</b> on for no-calculator forms (the build sheet says which). Locked mode works only on school-managed Chromebooks, and it also blocks the Chromebook calculator.</li>
+<li>Click <b>Preview</b>, answer it once with the key to check the score is 5/5 (or 3/3, 2/2), then delete that test response.</li>
+</ol>
+
+<h2>The week with Forms</h2>
+<div class="two"><div><ol>
+<li><b>Before Thursday</b>: build or open the week's <b>Check</b>. Post its link in your Google Classroom and John's (as a co-teacher in his class, or send him the link to post).</li>
+<li><b>Thursday</b>, last 8 minutes: students take the check. Forms scores it and shows each student their score; they choose their level at the end.</li>
+<li><b>Friday or Monday</b>: open Responses → Summary. <b>Frequently missed questions</b> shows the item that gave the most trouble. That decides the reteach.</li>
+</ol></div><div><ol start="4">
+<li><b>Tuesday</b>: reteach, 8–10 minutes.</li>
+<li><b>Wednesday</b>: students take two short forms: the <b>Re-check</b> for the retaught benchmark and the <b>Comparison</b> form for the most recent benchmark that was not retaught.</li>
+<li><b>Data</b>: Responses → <b>Link to Sheets</b>, and link every form to one spreadsheet. The Teacher and Period columns split the two classes.</li>
+</ol></div></div>
+
+<div style="page-break-before:always"></div>
+<h2>Good to know</h2>
+<ul>
+<li><b>Typed answers.</b> The validation only lets students submit a plain number, fraction or mixed number, so the accepted answers on each build sheet cover the ways a correct answer can be typed.
+If a student types a correct answer the key missed, open Responses → Question, find it, and mark it correct; Forms re-scores everyone who typed the same thing.</li>
+<li><b>π answers.</b> Students type only the number in front of π (for 7π they type 7). The question image says so.</li>
+<li><b>Correct answers stay hidden</b> until both teachers have given the form, so one class cannot pass answers to the next. Turn them on afterward if you want students to review.</li>
+<li><b>What changed from the paper bank.</b> Forms cannot grade a graph, an expression or a written explanation, so 59 of the 340 problems now ask students to choose (the right graph, expression, inequality or full answer) or check boxes; 4 were redrawn from Cadence. The build sheet marks each one, and the list is on the next page. Every other problem is unchanged from edition 4.1.</li>
+</ul>
+
+<h2>Problems changed for Forms</h2>
+<table><tr><th>Form</th><th>Q</th><th>What changed</th></tr><tr><td>C-DP.2.1 Check</td><td>2</td><td>Same problem, now check-the-boxes (paper: a written answer) <span class='dim'>(list answer)</span></td></tr><tr><td>C-DP.2.1 Check</td><td>4</td><td>Same problem, now check-the-boxes (paper: a written answer) <span class='dim'>(list answer)</span></td></tr><tr><td>C-DP.2.1 Re-check</td><td>3</td><td>Same problem, now check-the-boxes (paper: a written answer) <span class='dim'>(list answer)</span></td></tr><tr><td>C-DP.2.1 Comparison</td><td>2</td><td>Same problem, now check-the-boxes (paper: a written answer) <span class='dim'>(list answer)</span></td></tr><tr><td>C-NSO.1.2 Check</td><td>2</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(a repeating bar cannot be typed)</span></td></tr><tr><td>C-NSO.1.2 Check</td><td>5</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(explanation plus a repeating decimal)</span></td></tr><tr><td>C-DP.2.2 Check</td><td>4</td><td>Same problem, now multiple choice (paper: a matching grid) <span class='dim'>(matching grid)</span></td></tr><tr><td>C-DP.2.2 Check</td><td>5</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(event, both probabilities and the difference)</span></td></tr><tr><td>C-DP.2.2 Re-check</td><td>3</td><td>Same problem, now multiple choice (paper: a matching grid) <span class='dim'>(matching grid)</span></td></tr><tr><td>C-DP.2.4 Check</td><td>1</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(three-part answer)</span></td></tr><tr><td>C-DP.2.4 Check</td><td>5</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(three-part answer)</span></td></tr><tr><td>C-DP.2.4 Comparison</td><td>2</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(three-part answer)</span></td></tr><tr><td>C-NSO.2.2 Check</td><td>5</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(step plus value)</span></td></tr><tr><td>C-GR.1.2 Check</td><td>5</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(plot plus difference)</span></td></tr><tr><td>C-DP.1.3 Check</td><td>5</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(choice, prediction and reason)</span></td></tr><tr><td>C-AR.3.3 Check</td><td>5</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(store plus amount)</span></td></tr><tr><td>C-AR.3.2 Check</td><td>1</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(proportion plus solution)</span></td></tr><tr><td>C-AR.3.2 Check</td><td>5</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(distance plus time)</span></td></tr><tr><td>C-AR.4.5 Check</td><td>4</td><td>Redrawn from Cadence (the paper item was a written answer) <span class='dim'>(graph answer)</span></td></tr><tr><td>C-AR.4.5 Check</td><td>5</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(store plus explanation plus amount)</span></td></tr><tr><td>C-AR.4.5 Re-check</td><td>1</td><td>Redrawn from Cadence (the paper item was a written answer) <span class='dim'>(graph answer)</span></td></tr><tr><td>C-AR.3.1 Check</td><td>3</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(percent plus count)</span></td></tr><tr><td>C-NSO.1.1 Check</td><td>5</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(step plus single power)</span></td></tr><tr><td>C-NSO.1.1 Re-check</td><td>2</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(a typed exponent cannot be matched reliably)</span></td></tr><tr><td>C-AR.1.1 Check</td><td>1</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(a typed expression cannot be matched reliably)</span></td></tr><tr><td>C-AR.1.1 Check</td><td>3</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(typed expression)</span></td></tr><tr><td>C-AR.1.1 Check</td><td>4</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(typed expression)</span></td></tr><tr><td>C-AR.1.1 Check</td><td>5</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(expression plus simplified form)</span></td></tr><tr><td>C-AR.1.1 Re-check</td><td>1</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(typed expression)</span></td></tr><tr><td>C-AR.1.1 Re-check</td><td>3</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(typed expression)</span></td></tr><tr><td>C-AR.1.1 Comparison</td><td>1</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(typed expression)</span></td></tr><tr><td>C-AR.1.1 Comparison</td><td>2</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(typed expression)</span></td></tr><tr><td>C-AR.1.2 Check</td><td>2</td><td>Redrawn from Cadence (the paper item was a matching grid) <span class='dim'>(matching grid)</span></td></tr><tr><td>C-AR.1.2 Check</td><td>5</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(yes/no plus both simplified forms)</span></td></tr><tr><td>C-AR.1.2 Comparison</td><td>2</td><td>Redrawn from Cadence (the paper item was a matching grid) <span class='dim'>(matching grid)</span></td></tr><tr><td>C-AR.2.1 Check</td><td>2</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(a typed inequality cannot be matched reliably)</span></td></tr><tr><td>C-AR.2.1 Check</td><td>4</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(typed inequality)</span></td></tr><tr><td>C-AR.2.1 Re-check</td><td>1</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(typed inequality)</span></td></tr><tr><td>C-AR.2.1 Re-check</td><td>3</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(solution plus graph)</span></td></tr><tr><td>C-AR.2.1 Comparison</td><td>1</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(typed inequality)</span></td></tr><tr><td>C-AR.2.1 Comparison</td><td>2</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(solution plus graph)</span></td></tr><tr><td>C-AR.2.2 Check</td><td>1</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(equation plus solution)</span></td></tr><tr><td>C-AR.2.2 Check</td><td>3</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(equation plus solution)</span></td></tr><tr><td>C-AR.2.2 Check</td><td>5</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(equation, solution, gym and amount)</span></td></tr><tr><td>C-AR.2.2 Re-check</td><td>2</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(equation plus solution)</span></td></tr><tr><td>C-AR.2.2 Comparison</td><td>1</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(equation plus solution)</span></td></tr><tr><td>C-AR.4.3 Check</td><td>2</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(a drawn graph cannot be graded)</span></td></tr><tr><td>C-AR.4.3 Check</td><td>3</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(graph plus the meaning of the constant)</span></td></tr><tr><td>C-AR.4.3 Check</td><td>4</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(a drawn graph cannot be graded)</span></td></tr><tr><td>C-AR.4.3 Check</td><td>5</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(graph plus explanation)</span></td></tr><tr><td>C-AR.4.3 Re-check</td><td>1</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(a drawn graph cannot be graded)</span></td></tr><tr><td>C-AR.4.3 Re-check</td><td>2</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(graph plus the meaning of the constant)</span></td></tr><tr><td>C-AR.4.3 Re-check</td><td>3</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(a drawn graph cannot be graded)</span></td></tr><tr><td>C-AR.4.2 Check</td><td>5</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(constant plus meaning)</span></td></tr><tr><td>C-AR.4.1 Check</td><td>5</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(three-part judgment)</span></td></tr><tr><td>C-AR.4.4 Check</td><td>1</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(a typed equation cannot be matched reliably)</span></td></tr><tr><td>C-AR.4.4 Check</td><td>3</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(typed equation)</span></td></tr><tr><td>C-AR.4.4 Check</td><td>4</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(three values)</span></td></tr><tr><td>C-AR.4.4 Re-check</td><td>1</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(typed equation)</span></td></tr><tr><td>C-AR.4.4 Comparison</td><td>1</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(typed equation)</span></td></tr><tr><td>C-DP.1.5 Check</td><td>4</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(display, reason and description)</span></td></tr><tr><td>C-DP.1.5 Check</td><td>5</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(display, reason and value)</span></td></tr><tr><td>C-DP.1.5 Re-check</td><td>2</td><td>Same problem, now multiple choice (paper: a written answer) <span class='dim'>(display, reason and description)</span></td></tr></table>
+</body></html>

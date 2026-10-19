@@ -1,0 +1,1890 @@
+[
+ {
+  "slot": "MA.7.DP.2.1/chk/1",
+  "why": "list answer; Forms cannot grade a typed set",
+  "edit": [
+   {
+    "field": "q",
+    "find": "List the sample space for this experiment.",
+    "replace": "Select all the outcomes in the sample space for this experiment."
+   }
+  ],
+  "set": {
+   "rt": "ms",
+   "opts": [
+    "red circle",
+    "red star",
+    "red triangle",
+    "yellow circle",
+    "yellow star",
+    "yellow triangle"
+   ],
+   "key": [
+    0,
+    4,
+    5
+   ],
+   "a": "red circle; yellow star; yellow triangle",
+   "s": "Each colored shape that can be drawn is one outcome: red circle, yellow star and yellow triangle. A shape that is on more than one card is still only one outcome, so the sample space is {red circle, yellow star, yellow triangle}.\nRed star, red triangle and yellow circle are not on any card, so they cannot be drawn.",
+   "inst": null
+  },
+  "forms": {
+   "native": true
+  }
+ },
+ {
+  "slot": "MA.7.DP.2.1/chk/3",
+  "why": "list answer",
+  "edit": [
+   {
+    "field": "q",
+    "find": "List the sample space for this experiment.",
+    "replace": "Select all the outcomes in the sample space for this experiment."
+   }
+  ],
+  "set": {
+   "rt": "ms",
+   "opts": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+   ],
+   "key": [
+    0,
+    4,
+    7,
+    8
+   ],
+   "a": "1; 5; 8; 9",
+   "s": "The faces show only the numbers 1, 5, 8 and 9. A number on more than one face is still one outcome, so the sample space is {1, 5, 8, 9}.\nThe die has 8 faces, but 2, 3, 4, 6 and 7 are not on any face, so they cannot be rolled.",
+   "inst": null
+  },
+  "forms": {
+   "native": true
+  }
+ },
+ {
+  "slot": "MA.7.DP.2.1/re/2",
+  "why": "list answer",
+  "edit": [
+   {
+    "field": "q",
+    "find": "List the sample space for this experiment.",
+    "replace": "Select all the outcomes in the sample space for this experiment."
+   }
+  ],
+  "set": {
+   "rt": "ms",
+   "opts": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+   ],
+   "key": [
+    0,
+    1,
+    7
+   ],
+   "a": "1; 2; 8",
+   "s": "The tiles show only the numbers 1, 2 and 8. A number on more than one tile is still one outcome, so the sample space is {1, 2, 8}.\nNo tile shows 3, 4, 5, 6, 7 or 9, so those numbers cannot be drawn.",
+   "inst": null
+  },
+  "forms": {
+   "native": true
+  }
+ },
+ {
+  "slot": "MA.7.DP.2.1/cmp/1",
+  "why": "list answer",
+  "edit": [
+   {
+    "field": "q",
+    "find": "List the sample space for this experiment.",
+    "replace": "Select all the outcomes in the sample space for this experiment."
+   }
+  ],
+  "set": {
+   "rt": "ms",
+   "opts": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9"
+   ],
+   "key": [
+    0,
+    5,
+    8
+   ],
+   "a": "1; 6; 9",
+   "s": "The faces show only the numbers 1, 6 and 9. A number on more than one face is still one outcome, so the sample space is {1, 6, 9}.\nThe die has 6 faces, but 2, 3, 4, 5, 7 and 8 are not on any face, so they cannot be rolled.",
+   "inst": null
+  },
+  "forms": {
+   "native": true
+  }
+ },
+ {
+  "slot": "MA.7.NSO.1.2/chk/1",
+  "why": "a repeating bar cannot be typed",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "0.<span class=\"rep\">39</span>",
+    "0.3<span class=\"rep\">9</span>",
+    "0.<span class=\"rep\">3</span>",
+    "0.39"
+   ],
+   "key": 0,
+   "a": "A. 0.<span class=\"rep\">39</span>",
+   "s": "13 ÷ 33 = 0.393939…, so the two digits 39 repeat forever and the bar goes over both: 0.<span class=\"rep\">39</span>.\n0.39 stops after two digits, so it equals 39/100. A bar over only the 9 means 0.3999…, which equals 0.4, and 0.<span class=\"rep\">3</span> equals 1/3.",
+   "inst": null,
+   "rows": null,
+   "cols": null,
+   "q": "Which decimal is equal to the fraction?\n\n13/33"
+  }
+ },
+ {
+  "slot": "MA.7.NSO.1.2/chk/4",
+  "why": "explanation plus a repeating decimal",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "No. The calculator rounded a repeating decimal; the exact value is 5.<span class=\"rep\">75</span>.",
+    "No. The calculator added extra digits; the exact value is 5.75.",
+    "Yes. The calculator shows every digit of 190/33, so 190/33 = 5.757575758.",
+    "No. The calculator rounded a repeating decimal; the exact value is 5.7<span class=\"rep\">5</span>."
+   ],
+   "key": 0,
+   "a": "A. No. The calculator rounded a repeating decimal; the exact value is 5.<span class=\"rep\">75</span>.",
+   "s": "190 ÷ 33 = 5.757575757…, and the digits 75 repeat forever, so the exact value is 5.<span class=\"rep\">75</span>.\nThe calculator keeps nine decimal places. The next digit is 5, so the ninth digit, 7, rounds up to 8. The display is rounded, not exact, so Maya is not correct.\n5.7<span class=\"rep\">5</span> means 5.7555…, and 5.75 stops after two decimal places; neither equals 190/33.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "Is Maya correct? Explain, and write the exact value of 190/33 as a repeating decimal.",
+    "replace": "Is Maya correct? Choose the statement that is true."
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.NSO.1.2/chk/3",
+  "why": "exact percent typed as a mixed number",
+  "set": {
+   "a": "63 7/11%&nbsp;(or 63.<span class=\"rep\">63</span>%)"
+  },
+  "forms": {
+   "type": "sa",
+   "accept": [
+    "63 7/11",
+    "700/11",
+    "63 63/99"
+   ],
+   "note": "Type the percent without the % sign, as a whole number, a fraction or a mixed number. Example: for 12 1/2%, type 12 1/2"
+  }
+ },
+ {
+  "slot": "MA.7.NSO.1.2/re/1",
+  "why": "answer explanation reordered so a repeating bar is not read as part of the fraction above it",
+  "set": {
+   "s": "8 ÷ 99 = 8/99 = 0.<span class=\"rep\">08</span> (the block 08 repeats forever).\n8/99 = 16/198, so 16/198 also names the quotient.\n0.0808 stops after 4 decimal places; it is not the repeating decimal.\n0.<span class=\"rep\">8</span> repeats only the digit 8, not 08.\n99/8 is 99 ÷ 8, not 8 ÷ 99."
+  }
+ },
+ {
+  "slot": "MA.7.GR.1.5/chk/2",
+  "why": "the stem allows a fraction, so equivalent fractions count",
+  "forms": {
+   "type": "sa",
+   "accept": [
+    "6",
+    "6/1",
+    "12/2"
+   ]
+  }
+ },
+ {
+  "slot": "MA.7.GR.1.5/re/2",
+  "why": "the stem allows a fraction, so equivalent fractions count",
+  "forms": {
+   "type": "sa",
+   "accept": [
+    "4",
+    "4/1",
+    "12/3"
+   ]
+  }
+ },
+ {
+  "slot": "MA.7.NSO.1.2/re/2",
+  "why": "exact percent typed as a mixed number",
+  "set": {
+   "a": "77 7/9%&nbsp;(or 77.<span class=\"rep\">7</span>%)"
+  },
+  "forms": {
+   "type": "sa",
+   "accept": [
+    "77 7/9",
+    "700/9"
+   ],
+   "note": "Type the percent without the % sign, as a whole number, a fraction or a mixed number. Example: for 12 1/2%, type 12 1/2"
+  }
+ },
+ {
+  "slot": "MA.7.DP.2.2/chk/3",
+  "why": "matching grid; Forms grid scoring is per row, not one point for all rows",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "unlikely, neither likely nor unlikely, likely",
+    "likely, neither likely nor unlikely, unlikely",
+    "unlikely, neither likely nor unlikely, unlikely",
+    "unlikely, likely, likely"
+   ],
+   "key": 0,
+   "a": "A. unlikely, neither likely nor unlikely, likely",
+   "s": "2% is close to 0, so Event 1 is unlikely.\n1/2 is exactly halfway between 0 and 1, so Event 2 is neither likely nor unlikely.\n0.6 is greater than 1/2, so Event 3 is likely.",
+   "inst": null,
+   "rows": null,
+   "cols": null,
+   "q": "A probability is given for each event.\n\nEvent 1: The probability that it snows in Orlando, Florida, this winter is 2%.\nEvent 2: The probability that a spinner with two equal sections, one red and one blue, lands on red is 1/2.\nEvent 3: The probability that a hurricane passes within 100 miles of the city in the next two days is 0.6.\n\nWhich choice describes Events 1, 2 and 3, in that order?"
+  }
+ },
+ {
+  "slot": "MA.7.DP.2.2/re/2",
+  "why": "matching grid",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "likely, likely, unlikely",
+    "unlikely, neither likely nor unlikely, likely",
+    "likely, neither likely nor unlikely, likely",
+    "likely, neither likely nor unlikely, unlikely"
+   ],
+   "key": 3,
+   "a": "D. likely, neither likely nor unlikely, unlikely",
+   "s": "0.65 is greater than 1/2, so Event 1 is likely.\n50% is exactly 1/2, so Event 2 is neither likely nor unlikely.\n3/10 = 0.3 is less than 1/2, so Event 3 is unlikely.",
+   "inst": null,
+   "rows": null,
+   "cols": null,
+   "q": "A probability is given for each event.\n\nEvent 1: The probability that a hurricane passes within 100 miles of the city in the next two days is 0.65.\nEvent 2: The probability that a spinner with two equal sections, one red and one blue, lands on red is 50%.\nEvent 3: The probability that a thunderstorm is within 5 miles of your house tomorrow is 3/10.\n\nWhich choice describes Events 1, 2 and 3, in that order?"
+  }
+ },
+ {
+  "slot": "MA.7.DP.2.2/chk/4",
+  "why": "event, both probabilities and the difference",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "Rain: 0.2 = 20%, and 20% is more than 7/10 because 20 is greater than 7.",
+    "The die: P(greater than 3) = 7/10 = 0.7, which is 0.5 more than 0.2.",
+    "The die: P(greater than 3) = 8/10 = 0.8, which is 0.6 more than 0.2.",
+    "The die: P(greater than 3) = 3/10 = 0.3, which is 0.1 more than 0.2."
+   ],
+   "key": 1,
+   "a": "B. The die: P(greater than 3) = 7/10 = 0.7, which is 0.5 more than 0.2.",
+   "s": "The numbers greater than 3 are 4, 5, 6, 7, 8, 9 and 10: 7 of the 10 equally likely faces, so P(greater than 3) = 7/10 = 0.7.\nIn the same form, 0.7 > 0.2, so the die showing a number greater than 3 is more likely, by 0.7 − 0.2 = 0.5.\n3/10 counts 1, 2 and 3 instead; 8/10 also counts the 3; 20% cannot be compared with 7/10 by comparing 20 with 7.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "Which is more likely: that the die shows a number greater than 3, or that it rains tomorrow? Write both probabilities in the same form to justify your answer, and find the difference between the two probabilities.",
+    "replace": "Which is more likely: that the die shows a number greater than 3, or that it rains tomorrow? Choose the answer that compares the two probabilities correctly."
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.DP.2.4/chk/0",
+  "why": "three-part answer",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "experimental 2/23, theoretical 1/12; the experimental probability is greater",
+    "experimental 2/25, theoretical 1/12; the experimental probability is greater",
+    "experimental 2/25, theoretical 1/12; the experimental probability is less",
+    "experimental 1/12, theoretical 2/25; the experimental probability is greater"
+   ],
+   "key": 2,
+   "a": "C. experimental 2/25, theoretical 1/12; the experimental probability is less",
+   "s": "Experimental: 24 of the 300 rolls landed on 9, so 24/300 = 2/25.\nTheoretical: 1 of the 12 equally likely faces is a 9, so 1/12.\n2/25 = 0.08 and 1/12 ≈ 0.083, so the experimental probability is slightly less than the theoretical probability.\n2/23 divides by the 276 rolls that were not a 9 instead of by all 300 rolls.",
+   "inst": null,
+   "rows": null,
+   "cols": null,
+   "q": "A fair 12-sided die is rolled 300 times. It lands on a 9 exactly 24 times.\n\nFind the experimental probability of rolling a 9 and the theoretical probability of rolling a 9, each as a fraction in simplest form. Then compare them.\n\nWhich choice is correct?"
+  }
+ },
+ {
+  "slot": "MA.7.DP.2.4/cmp/1",
+  "why": "three-part answer",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "experimental 23/200, theoretical 1/10; the experimental probability is greater",
+    "experimental 23/177, theoretical 1/10; the experimental probability is greater",
+    "experimental 23/200, theoretical 1/10; the experimental probability is less",
+    "experimental 1/10, theoretical 23/200; the experimental probability is less"
+   ],
+   "key": 0,
+   "a": "A. experimental 23/200, theoretical 1/10; the experimental probability is greater",
+   "s": "Experimental: 23 of the 200 rolls landed on 3, so 23/200.\nTheoretical: 1 of the 10 equally likely faces is a 3, so 1/10.\n23/200 = 0.115 and 1/10 = 0.1, so the experimental probability is slightly greater than the theoretical probability.\n23/177 divides by the 177 rolls that were not a 3 instead of by all 200 rolls.",
+   "inst": null,
+   "rows": null,
+   "cols": null,
+   "q": "A fair 10-sided die is rolled 200 times. It lands on a 3 exactly 23 times.\n\nFind the experimental probability of rolling a 3 and the theoretical probability of rolling a 3, each as a fraction in simplest form. Then compare them.\n\nWhich choice is correct?"
+  }
+ },
+ {
+  "slot": "MA.7.DP.2.4/chk/4",
+  "why": "three-part answer",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "Part A: 0.43; Part B: about 860 times; Part C: about 4 purple marbles",
+    "Part A: 0.215; Part B: about 43 times; Part C: about 2 purple marbles",
+    "Part A: 0.215; Part B: about 430 times; Part C: about 2 purple marbles",
+    "Part A: 0.215; Part B: about 430 times; Part C: about 4 purple marbles"
+   ],
+   "key": 2,
+   "a": "C. Part A: 0.215; Part B: about 430 times; Part C: about 2 purple marbles",
+   "s": "Part A: 43 of the 200 draws were purple, so the experimental probability is 43 ÷ 200 = 0.215.\nPart B: 0.215 × 2,000 = 430, so about 430 purple draws.\nPart C: 0.215 × 10 = 2.15, so about 2 of the 10 marbles are purple.\n0.43 divides by 100 instead of 200; 43 times uses 200 draws instead of 2,000; 4 marbles divides the 43 purple draws by 10 instead of multiplying the probability by 10.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "Part C. About how many of the 10 marbles in the bag are purple?",
+    "replace": "Part C. About how many of the 10 marbles in the bag are purple?\n\nWhich choice gives correct answers to all three parts?"
+   },
+   {
+    "field": "q",
+    "find": "Part A. What is the experimental probability of drawing a purple marble? Write it as a decimal.",
+    "replace": "Part A. What is the experimental probability of drawing a purple marble, as a decimal?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.NSO.2.2/chk/4",
+  "why": "step plus value",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "Step 2; the correct value is −16/27",
+    "Step 2; the correct value is 11/27",
+    "Step 1; the correct value is −16/27",
+    "Step 1; the correct value is 16/27"
+   ],
+   "key": 2,
+   "a": "C. Step 1; the correct value is −16/27",
+   "s": "Step 1 is the first error: −1/6 × 5/9 = −5/54, because a negative times a positive is negative. The student wrote 5/54.\nCorrect work: −1/6 ÷ 1 4/5 = −1/6 ÷ 9/5 = −1/6 × 5/9 = −5/54. Then −5/54 − 1/2 = −5/54 − 27/54 = −32/54 = −16/27.\n11/27 keeps the student's 5/54 and subtracts in the wrong order in Step 2. −16/27 is the right value, but the first error is in Step 1.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "In which step did the student make the first error? What is the correct value of the expression?",
+    "replace": "In which step did the student make the first error, and what is the correct value of the expression?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.GR.1.2/chk/4",
+  "why": "plot plus difference",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "Plot A, by 54.5 m²",
+    "Plot A, by 50 m²",
+    "Plot A, by 9.5 m²",
+    "Plot B, by 1 m²"
+   ],
+   "key": 2,
+   "a": "C. Plot A, by 9.5 m²",
+   "s": "Plot A: trapezoid ½(17 + 10)(3) = 40.5 m², rectangle 17 × 7 = 119 m², so 159.5 m².\nPlot B: parallelogram 15 × 6 = 90 m², rectangle 15 × 4 = 60 m², so 150 m².\n159.5 − 150 = 9.5, so Plot A is greater by 9.5 m².\n50 m² leaves out the ½ in the trapezoid formula; 54.5 m² takes half of the parallelogram; 1 m² uses only the 10 m base for the trapezoid, which makes Plot A 149 m².",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  }
+ },
+ {
+  "slot": "MA.7.GR.1.3/re/1",
+  "why": "answer text has a comment after the number",
+  "forms": {
+   "type": "sa",
+   "accept": [
+    "3.14"
+   ]
+  }
+ },
+ {
+  "slot": "MA.7.DP.1.3/chk/4",
+  "why": "choice, prediction and reason",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "Sample B, which predicts about 945 students, because a larger share of its students said yes.",
+    "Sample A, which predicts about 735 students, because a larger random sample usually gives a proportion closer to the whole school's.",
+    "Sample A, which predicts about 1365 students, because a larger random sample usually gives a proportion closer to the whole school's.",
+    "Neither; the principal should use about 840 students, halfway between the two predictions, because the samples disagree."
+   ],
+   "key": 1,
+   "a": "B. Sample A, which predicts about 735 students, because a larger random sample usually gives a proportion closer to the whole school's.",
+   "s": "Sample A: 210/600 = 35%, and 35% of 2100 is 735. Sample B: 54/120 = 45%, and 45% of 2100 is 945.\nBoth samples are random, so the larger one, Sample A with 600 students, is more likely to have a proportion close to the whole school's. Trust Sample A: about 735 students.\n1365 uses the 390 students in Sample A who said no (65% of 2100), and averaging gives the smaller sample as much weight as the larger one.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "Which sample's prediction should the principal trust more, and about how many of the 2100 students does it predict? Explain your choice.",
+    "replace": "Which sample's prediction should the principal trust more, about how many of the 2100 students does it predict, and why?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.3.3/chk/4",
+  "why": "store plus amount",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "Store A, by $9.76 per pound",
+    "Store A, by $30.22 per pound",
+    "Store A, by $1.01 per pound",
+    "Store A, by $0.46 per pound"
+   ],
+   "key": 3,
+   "a": "D. Store A, by $0.46 per pound",
+   "s": "Store B charges $17.05 for 1 kilogram, which is about 2.2 pounds, so its price per pound is 17.05 ÷ 2.2 = $7.75.\nStore A charges $7.29 per pound, so Store A charges less: $7.75 − $7.29 = $0.46 less per pound.\n$9.76 subtracts $7.29 from the price of a kilogram without converting; $30.22 multiplies by 2.2 instead of dividing; $1.01 compares the prices per kilogram ($16.04 and $17.05), not per pound.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  }
+ },
+ {
+  "slot": "MA.7.AR.3.2/chk/0",
+  "why": "proportion plus solution",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "28/16 = p/20; p = 35",
+    "28/20 = p/16; p = 22.4",
+    "28/20 = p/16; p = 35",
+    "28/16 = p/20; p = 32"
+   ],
+   "key": 0,
+   "a": "A. 28/16 = p/20; p = 35",
+   "s": "Peanuts to raisins is 28 to 16, so keep peanuts on top and raisins on the bottom on both sides: 28/16 = p/20.\nCross-multiply: 16p = 28 × 20 = 560, so p = 560 ÷ 16 = 35 ounces.\n28/20 = p/16 pairs the mix's peanuts with the hiker's raisins, so it does not keep the ratio (it gives p = 22.4). p = 32 adds 4 to 28 because 20 is 4 more than 16; a ratio is kept by multiplying, not adding.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "Write a proportion that can be used to find p, the number of ounces of peanuts that keeps the same ratio. Then solve the proportion.",
+    "replace": "Which choice shows a proportion that can be used to find p, the number of ounces of peanuts that keeps the same ratio, and the correct value of p?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.3.2/chk/4",
+  "why": "distance plus time",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "about 9.3 kilometers; about 56 minutes",
+    "about 24.2 kilometers; about 145 minutes",
+    "about 24.2 kilometers; about 90 minutes",
+    "about 93 kilometers; about 558 minutes"
+   ],
+   "key": 1,
+   "a": "B. about 24.2 kilometers; about 145 minutes",
+   "s": "10 kilometers ≈ 6.2 miles, so the race is 15 × 10 ÷ 6.2 ≈ 24.19, or about 24.2 kilometers.\nAt 6 minutes per kilometer: 24.2 × 6 ≈ 145 minutes (2 hours 25 minutes).\n9.3 and 93 kilometers use the conversion the wrong way; 90 minutes uses 6 minutes per mile instead of per kilometer.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  }
+ },
+ {
+  "slot": "MA.7.AR.4.5/chk/3",
+  "why": "graph answer; redraw from a Forms-gradable generator",
+  "redraw": {
+   "excludeGen": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "gradable": true
+  },
+  "after": {
+   "s": "Unit rate: 154 ÷ 5.5 = 28 miles per gallon. Then 210 ÷ 28 = 7.5 gallons.\n4.0 gallons (5.5 × 154 ÷ 210) turns the ratio upside down; 38.2 gallons (210 ÷ 5.5) treats 5.5 as miles per gallon; 6.9 gallons (5.5 + 210 ÷ 154) adds the scale factor instead of multiplying by it."
+  },
+  "expect": {
+   "q": "It travels 154 miles on 5.5 gallons of gas.",
+   "a": "D. 7.5 gallons"
+  }
+ },
+ {
+  "slot": "MA.7.AR.4.5/re/0",
+  "why": "graph answer; redraw from a Forms-gradable generator",
+  "redraw": {
+   "excludeGen": [
+    0,
+    1,
+    2
+   ],
+   "gradable": true
+  }
+ },
+ {
+  "slot": "MA.7.AR.4.5/chk/4",
+  "why": "store plus explanation plus amount",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "Store A, because its price is about $2.63 per meter, which is less than Store B's $2.75 per meter.",
+    "Store A, because $6.30 is less than $13.75.",
+    "Store B, because its price is $2.75 per meter, which is $0.05 less than Store A's $2.80 per meter.",
+    "Store B, because its price is $2.75 per meter, which is $0.40 less than Store A's $3.15 per meter."
+   ],
+   "key": 2,
+   "a": "C. Store B, because its price is $2.75 per meter, which is $0.05 less than Store A's $2.80 per meter.",
+   "s": "Store A: $6.30 ÷ 2 1/4 meters = $6.30 ÷ 2.25 = $2.80 per meter. Store B: $13.75 ÷ 5 meters = $2.75 per meter.\nStore B charges less for each meter, so it is the better buy, by $2.80 − $2.75 = $0.05 per meter.\nThe totals cannot be compared because the lengths are different. $3.15 divides $6.30 by 2 and ignores the 1/4 meter; about $2.63 uses 2.4 for 2 1/4 instead of 2.25.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "Which store is the better buy? Explain, and tell how much lower its price is per meter.",
+    "replace": "Which store is the better buy, and why?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.3.1/chk/2",
+  "why": "percent plus count",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "45%; 81 dogs",
+    "55%; 99 dogs",
+    "about 122%; 220 dogs",
+    "55%; 81 dogs"
+   ],
+   "key": 1,
+   "a": "B. 55%; 99 dogs",
+   "s": "For every 11 dogs there are 9 cats, so dogs are 11 of every 11 + 9 = 20 pets: 11/20 = 55%.\n55% of 180 = 0.55 × 180 = 99 dogs.\n45% is the percent of cats; 122% compares dogs with cats instead of with all the pets.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  }
+ },
+ {
+  "slot": "MA.7.NSO.1.1/chk/4",
+  "why": "step plus single power",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "Step 2; (1/2)<sup>2</sup>",
+    "Step 1; (1/2)<sup>11</sup>",
+    "Step 1; (1/2)<sup>19</sup>",
+    "Step 1; (1/2)<sup>60</sup>"
+   ],
+   "key": 1,
+   "a": "B. Step 1; (1/2)<sup>11</sup>",
+   "s": "Step 1 is the first error. A power of a power multiplies the exponents: ((1/2)<sup>5</sup>)<sup>3</sup> = (1/2)<sup>15</sup>, not (1/2)<sup>8</sup>.\nThen divide by subtracting exponents: (1/2)<sup>15</sup> ÷ (1/2)<sup>4</sup> = (1/2)<sup>11</sup>.\n(1/2)<sup>19</sup> adds the exponents when dividing, and (1/2)<sup>60</sup> multiplies all three exponents.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "In which step did the student make the first error? Write the expression correctly as a single power.",
+    "replace": "In which step did the student make the first error, and what is the correct single power?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.NSO.1.1/re/1",
+  "why": "a typed exponent cannot be matched reliably",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "9<sup>6</sup>",
+    "9<sup>8</sup>",
+    "9<sup>16</sup>",
+    "18<sup>4</sup>"
+   ],
+   "key": 1,
+   "a": "B. 9<sup>8</sup>",
+   "s": "A power of a power multiplies the exponents: (9<sup>4</sup>)<sup>2</sup> = 9<sup>4 × 2</sup> = 9<sup>8</sup>.\n9<sup>6</sup> adds the exponents, 9<sup>16</sup> raises 4 to the second power, and 18<sup>4</sup> doubles the base instead of the exponent.",
+   "inst": null,
+   "rows": null,
+   "cols": null,
+   "q": "Which single power is equal to the expression?\n\n(9<sup>4</sup>)<sup>2</sup>"
+  }
+ },
+ {
+  "slot": "MA.7.AR.1.1/chk/0",
+  "why": "a typed expression cannot be matched reliably",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "(5/6)p + 2",
+    "(5/3)p + 4",
+    "(5/3)p + 2",
+    "(11/3)p"
+   ],
+   "key": 2,
+   "a": "C. (5/3)p + 2",
+   "s": "Group like terms: (5/6)p + (5/6)p = (10/6)p = (5/3)p, and 3 + (−1) = 2. The expression is (5/3)p + 2.\n(5/6)p + 2 counts only one of the p-terms, (5/3)p + 4 treats −1 as +1, and (11/3)p adds the constant into the p-term, but unlike terms cannot be combined.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "Write the expression using the fewest possible terms.",
+    "replace": "Which expression is equivalent to the expression shown, written with the fewest possible terms?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.1.1/chk/2",
+  "why": "typed expression",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "(25/24)x + 8",
+    "(7/24)x + 8",
+    "(25/24)x + 4",
+    "(−25/24)x − 8"
+   ],
+   "key": 0,
+   "a": "A. (25/24)x + 8",
+   "s": "The blank is ((2/3)x + 6) − ((−3/8)x − 2).\nx-terms: 2/3 − (−3/8) = 16/24 + 9/24 = 25/24. Constants: 6 − (−2) = 8. The expression is (25/24)x + 8.\nCheck: ((2/3)x + 6) − ((25/24)x + 8) = (−9/24)x − 2 = (−3/8)x − 2.\n(7/24)x + 8 subtracts 3/8 instead of −3/8, and (25/24)x + 4 subtracts 2 instead of −2.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "What expression makes the equation true?",
+    "replace": "Which expression makes the equation true?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.1.1/chk/3",
+  "why": "typed expression",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "−x − 4",
+    "x − 12",
+    "(11/3)x − 4",
+    "−x − 12"
+   ],
+   "key": 3,
+   "a": "D. −x − 12",
+   "s": "Subtracting the second group subtracts both of its terms: (4/3)x − 8 − (7/3)x − 4.\nx-terms: 4/3 − 7/3 = −3/3 = −1, so −x. Constants: −8 − 4 = −12. The expression is −x − 12.\n−x − 4 subtracts only the x-term of the second group; (11/3)x − 4 adds the groups instead of subtracting; x − 12 subtracts 4/3 from 7/3.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "Write the expression using the fewest possible terms.",
+    "replace": "Which expression is equivalent to the expression shown, written with the fewest possible terms?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.1.1/chk/4",
+  "why": "expression plus simplified form",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "7x − 1.5",
+    "(7/2)x − 1.5",
+    "7x + 5",
+    "7x − 3"
+   ],
+   "key": 3,
+   "a": "D. 7x − 3",
+   "s": "Perimeter = 2(length) + 2(width) = 2((5/2)x + 0.5) + 2(x − 2).\nDistribute: 5x + 1 + 2x − 4. Combine like terms: 7x − 3.\n(7/2)x − 1.5 adds the length and the width only once; 7x + 5 adds 4 instead of subtracting it; 7x − 1.5 doubles the x-terms but not the constants.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "Write an expression for the perimeter of the rectangle, in meters. Then write it using the fewest possible terms.",
+    "replace": "Which expression gives the perimeter of the rectangle, in meters, written with the fewest possible terms?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.1.1/re/0",
+  "why": "typed expression",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "4.93x − 11",
+    "6.09x − 11",
+    "7.07x − 1",
+    "4.93x − 1"
+   ],
+   "key": 3,
+   "a": "D. 4.93x − 1",
+   "s": "Subtracting the group subtracts every term in it: 6x − 6 − 0.49x + 5 − 0.58x.\nx-terms: 6 − 0.49 − 0.58 = 4.93. Constants: −6 + 5 = −1. The expression is 4.93x − 1.\n4.93x − 11 does not change the sign of −5; 6.09x − 11 changes the sign of only the first term; 7.07x − 1 adds the x-terms instead of subtracting them.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "Write the expression using the fewest possible terms.",
+    "replace": "Which expression is equivalent to the expression shown, written with the fewest possible terms?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.1.1/re/2",
+  "why": "typed expression",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "(−19/6)x − 9",
+    "(19/6)x + 7",
+    "(−1/6)x + 9",
+    "(19/6)x + 9"
+   ],
+   "key": 3,
+   "a": "D. (19/6)x + 9",
+   "s": "The blank is ((3/2)x + 8) − ((−5/3)x − 1).\nx-terms: 3/2 − (−5/3) = 9/6 + 10/6 = 19/6. Constants: 8 − (−1) = 9. The expression is (19/6)x + 9.\nCheck: ((3/2)x + 8) − ((19/6)x + 9) = (−10/6)x − 1 = (−5/3)x − 1.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "What expression makes the equation true?",
+    "replace": "Which expression makes the equation true?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.1.1/cmp/0",
+  "why": "typed expression",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "3.03x − 3",
+    "0.97x − 5",
+    "1.85x − 5",
+    "0.97x − 3"
+   ],
+   "key": 3,
+   "a": "D. 0.97x − 3",
+   "s": "Subtract every term in the group: 2x − 4 − 0.59x + 1 − 0.44x.\nx-terms: 2 − 0.59 − 0.44 = 0.97. Constants: −4 + 1 = −3. The expression is 0.97x − 3.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "Write the expression using the fewest possible terms.",
+    "replace": "Which expression is equivalent to the expression shown, written with the fewest possible terms?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.1.1/cmp/1",
+  "why": "typed expression",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "(1/12)x − 9",
+    "(−1/12)x − 5",
+    "(1/12)x + 5",
+    "(41/12)x − 9"
+   ],
+   "key": 2,
+   "a": "C. (1/12)x + 5",
+   "s": "The blank is ((7/4)x − 2) − ((5/3)x − 7).\nx-terms: 7/4 − 5/3 = 21/12 − 20/12 = 1/12. Constants: −2 − (−7) = 5. The expression is (1/12)x + 5.\nCheck: ((5/3)x − 7) + ((1/12)x + 5) = (21/12)x − 2 = (7/4)x − 2.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "What expression makes the equation true?",
+    "replace": "Which expression makes the equation true?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.1.2/chk/1",
+  "why": "matching grid; redraw from an unused Forms-gradable generator, with a non-unit fraction so it matches the comparison item in difficulty",
+  "redraw": {
+   "excludeGen": [
+    0,
+    1,
+    3,
+    4,
+    5
+   ],
+   "gradable": true,
+   "require": [
+    "\\((?:[2-9]|\\d\\d)/\\d+\\)\\("
+   ]
+  },
+  "after": {
+   "q": "A student rewrote (4/3)(12x + 12) as 28x.\n\nThe correct equivalent expression is ____.",
+   "opts": [
+    "16x + 12",
+    "28x",
+    "(40/3)x + 40/3",
+    "16x + 16"
+   ],
+   "key": 3,
+   "a": "D. 16x + 16",
+   "s": "The student multiplied only 12x by 4/3, which gives 16x + 12, and then added 16x and 12 as if they were like terms.\nBoth terms must be multiplied by 4/3, and an x-term and a constant cannot be combined: (4/3)(12x + 12) = 16x + 16."
+  }
+ },
+ {
+  "slot": "MA.7.AR.1.2/cmp/1",
+  "why": "matching grid; redraw from a Forms-gradable generator, with a non-unit fraction like the check item",
+  "redraw": {
+   "excludeGen": [
+    0,
+    1,
+    3,
+    4,
+    5
+   ],
+   "gradable": true,
+   "require": [
+    "\\((?:[2-9]|\\d\\d)/\\d+\\)\\("
+   ]
+  },
+  "after": {
+   "q": "A student rewrote (7/4)(12x + 4) as 25x.\n\nThe correct equivalent expression is ____.",
+   "opts": [
+    "21x + 7",
+    "(55/4)x + 23/4",
+    "21x + 4",
+    "25x"
+   ],
+   "key": 0,
+   "a": "A. 21x + 7",
+   "s": "The student multiplied only 12x by 7/4, which gives 21x + 4, and then added 21x and 4 as if they were like terms.\nBoth terms must be multiplied by 7/4, and an x-term and a constant cannot be combined: (7/4)(12x + 4) = 21x + 7."
+  }
+ },
+ {
+  "slot": "MA.7.AR.1.2/chk/4",
+  "why": "yes/no plus both simplified forms",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "Yes; both have a constant term of 3.",
+    "No; the first simplifies to −(3/2)x + 3 and the second to −(1/2)x + 3.",
+    "Yes; both simplify to −(3/2)x + 3.",
+    "No; the first simplifies to −(3/2)x − 3 and the second to −(1/2)x + 3."
+   ],
+   "key": 1,
+   "a": "B. No; the first simplifies to −(3/2)x + 3 and the second to −(1/2)x + 3.",
+   "s": "First: −(3/4)(4x − 4) + (3/2)x = −3x + 3 + (3/2)x = −(3/2)x + 3.\nSecond: (11/2)x − (3/4)(8x − 4) = (11/2)x − 6x + 3 = −(1/2)x + 3.\nThe x-terms are different, so the expressions are not equivalent. Having the same constant term is not enough, and −(3/4) × (−4) is +3, not −3.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "Are the two expressions equivalent? Write each expression using the fewest possible terms, and use those forms to explain your answer.",
+    "replace": "Are the two expressions equivalent? Choose the answer with the correct reason."
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.2.1/chk/1",
+  "why": "a typed inequality cannot be matched reliably",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "t ≥ 3.9",
+    "t ≤ −3.9",
+    "t ≥ −9.9",
+    "t ≥ −3.9"
+   ],
+   "key": 3,
+   "a": "D. t ≥ −3.9",
+   "s": "Add 3 to both sides: t ≥ −6.9 + 3, so t ≥ −3.9.\nAdding the same number to both sides does not reverse the inequality symbol.\nt ≥ −9.9 subtracts 3 instead of adding it.",
+   "inst": null,
+   "rows": null,
+   "cols": null,
+   "q": "Solve the inequality.\n\n−3 + t ≥ −6.9\n\nWhat is the solution?"
+  }
+ },
+ {
+  "slot": "MA.7.AR.2.1/chk/3",
+  "why": "typed inequality",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "x > 10",
+    "x > 2.5",
+    "x < −10",
+    "x < 10"
+   ],
+   "key": 0,
+   "a": "A. x > 10",
+   "s": "The product of x and −0.5 is less than −5: −0.5x < −5.\nDivide both sides by −0.5. Dividing by a negative number reverses the inequality symbol: x > 10.\nCheck: x = 12 gives −0.5 × 12 = −6, which is less than −5.\nx < 10 forgets to reverse the symbol; x > 2.5 multiplies −5 by −0.5 instead of dividing.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  }
+ },
+ {
+  "slot": "MA.7.AR.2.1/re/0",
+  "why": "typed inequality",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "x > 8",
+    "x > 18",
+    "x < −8",
+    "x < 8"
+   ],
+   "key": 0,
+   "a": "A. x > 8",
+   "s": "The product of x and −1.5 is less than −12: −1.5x < −12.\nDivide both sides by −1.5 and reverse the symbol: x > 8.\nCheck: x = 10 gives −1.5 × 10 = −15, which is less than −12.\nx < 8 forgets to reverse the symbol; x > 18 multiplies instead of dividing.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  }
+ },
+ {
+  "slot": "MA.7.AR.2.1/cmp/0",
+  "why": "typed inequality",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "x ≤ 50",
+    "x ≥ 8",
+    "x ≤ 8",
+    "x < 8"
+   ],
+   "key": 2,
+   "a": "C. x ≤ 8",
+   "s": "\"At least −20\" means greater than or equal to −20: −2.5x ≥ −20.\nDivide both sides by −2.5 and reverse the symbol: x ≤ 8.\nCheck: x = 8 gives −20, which is at least −20, and x = 4 gives −10, which is also at least −20.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  }
+ },
+ {
+  "slot": "MA.7.AR.2.1/re/2",
+  "why": "solution plus graph",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "Number line A",
+    "Number line B",
+    "Number line C",
+    "Number line D"
+   ],
+   "key": 3,
+   "a": "D. Number line D",
+   "s": "Multiply both sides by −4. Multiplying by a negative number reverses the inequality symbol: n ≤ 1.25 × (−4), so n ≤ −5.\n−5 is included (≤), so the circle at −5 is closed, and the solutions less than −5 are shaded to the left: number line D.",
+   "inst": null,
+   "rows": null,
+   "cols": null,
+   "q": "Solve the inequality.\n\nn/(−4) ≥ 1.25\n\nWhich number line shows the solution?"
+  },
+  "fig": {
+   "builder": "numline4",
+   "min": -8,
+   "max": 8,
+   "lines": [
+    {
+     "x": -5,
+     "open": false,
+     "dir": "right"
+    },
+    {
+     "x": -5,
+     "open": true,
+     "dir": "left"
+    },
+    {
+     "x": 5,
+     "open": false,
+     "dir": "left"
+    },
+    {
+     "x": -5,
+     "open": false,
+     "dir": "left"
+    }
+   ]
+  }
+ },
+ {
+  "slot": "MA.7.AR.2.1/cmp/1",
+  "why": "solution plus graph",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "Number line A",
+    "Number line B",
+    "Number line C",
+    "Number line D"
+   ],
+   "key": 2,
+   "a": "C. Number line C",
+   "s": "Divide both sides by 0.5: w ≤ 2.5 ÷ 0.5, so w ≤ 5. Dividing by a positive number does not reverse the symbol.\n5 is included (≤), so the circle at 5 is closed, and the solutions less than 5 are shaded to the left: number line C.\nThe closed circle at 2 comes from subtracting 0.5 instead of dividing by it.",
+   "inst": null,
+   "rows": null,
+   "cols": null,
+   "q": "Solve the inequality.\n\n0.5w ≤ 2.5\n\nWhich number line shows the solution?"
+  },
+  "fig": {
+   "builder": "numline4",
+   "min": -2,
+   "max": 8,
+   "lines": [
+    {
+     "x": 2,
+     "open": false,
+     "dir": "left"
+    },
+    {
+     "x": 5,
+     "open": false,
+     "dir": "right"
+    },
+    {
+     "x": 5,
+     "open": false,
+     "dir": "left"
+    },
+    {
+     "x": 5,
+     "open": true,
+     "dir": "left"
+    }
+   ]
+  }
+ },
+ {
+  "slot": "MA.7.AR.2.2/chk/0",
+  "why": "equation plus solution",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "12.5h − 25 = 62.5; h = 7",
+    "25h + 12.5 = 62.5; h = 2",
+    "12.5h + 25 = 62.5; h = 7",
+    "12.5h + 25 = 62.5; h = 3"
+   ],
+   "key": 3,
+   "a": "D. 12.5h + 25 = 62.5; h = 3",
+   "s": "Total = entry fee + $12.50 for each hour: 12.5h + 25 = 62.5.\nSubtract 25: 12.5h = 37.5. Divide by 12.5: h = 3.\nCheck: 12.5 × 3 + 25 = 62.5.\nh = 7 adds 25 instead of subtracting it; 25h + 12.5 swaps the hourly rate and the entry fee.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "Write an equation that can be used to find h, the number of hours of skate rental the visitor paid for. Then solve the equation.",
+    "replace": "Which choice shows an equation that can be used to find h, the number of hours of skate rental the visitor paid for, and its solution?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.2.2/chk/2",
+  "why": "equation plus solution",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "3(s + 5) = 105; s = 30",
+    "3s + 5 = 105; s = 33 1/3",
+    "3(s + 5) = 105; s = 35",
+    "3(s − 5) = 105; s = 40"
+   ],
+   "key": 0,
+   "a": "A. 3(s + 5) = 105; s = 30",
+   "s": "Each student now has s + 5 dollars, and 3 students together have $105: 3(s + 5) = 105.\nDivide by 3: s + 5 = 35. Subtract 5: s = 30.\nCheck: 3 × (30 + 5) = 105.\n3s + 5 adds the $5.00 once instead of for each student; s = 35 stops before subtracting 5.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "Write an equation that can be used to find s. Then solve the equation.",
+    "replace": "Which choice shows an equation that can be used to find s, and its solution?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.2.2/chk/4",
+  "why": "equation, solution, gym and amount",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "n = 6; Gym B, by $26.50",
+    "n = 9; Gym A, by $53.00",
+    "n = 9; Gym A, by $18.00",
+    "n = 8; Gym A, by $26.50"
+   ],
+   "key": 1,
+   "a": "B. n = 9; Gym A, by $53.00",
+   "s": "The months cost 24.50 × n, and the coupon takes off $35.00: 24.5n − 35 = 185.5.\nAdd 35: 24.5n = 220.5. Divide by 24.5: n = 9.\nGym B for 9 months: 26.50 × 9 = $238.50, with no coupon. Jordan paid Gym A $185.50, so Gym A cost less, by 238.50 − 185.50 = $53.00.\n$18.00 leaves out the coupon; n = 8 divides 185.50 by 24.50 and rounds; n = 6 adds the coupon instead of subtracting it (24.5n + 35 = 185.5 gives about 6.1).",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "Write and solve an equation to find n, the number of months Jordan paid for.",
+    "replace": "Let n be the number of months Jordan paid for."
+   },
+   {
+    "field": "q",
+    "find": "For the same number of months, which gym would have cost less, and by how much?",
+    "replace": "Which choice gives n, the gym that would have cost less for the same number of months, and how much less?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.2.2/re/1",
+  "why": "equation plus solution",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "6(b − 1.25) = 40.5; b = 8",
+    "b − 1.25 = 40.5; b = 41.75",
+    "6(b − 1.25) = 40.5; b = 6.75",
+    "6(b + 1.25) = 40.5; b = 5.5"
+   ],
+   "key": 0,
+   "a": "A. 6(b − 1.25) = 40.5; b = 8",
+   "s": "Each box weighs b − 1.25 pounds after the packaging is removed, and 6 boxes weigh 40.5 pounds: 6(b − 1.25) = 40.5.\nDivide by 6: b − 1.25 = 6.75. Add 1.25: b = 8.\nCheck: 6 × (8 − 1.25) = 6 × 6.75 = 40.5.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "Write an equation that can be used to find b. Then solve the equation.",
+    "replace": "Which choice shows an equation that can be used to find b, and its solution?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.2.2/cmp/0",
+  "why": "equation plus solution",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "3.75g + 15 = 33.75; g = 5",
+    "15g + 3.75 = 33.75; g = 2",
+    "3.75g + 15 = 33.75; g = 13",
+    "3.75g − 15 = 33.75; g = 13"
+   ],
+   "key": 0,
+   "a": "A. 3.75g + 15 = 33.75; g = 5",
+   "s": "Total = entry fee + $3.75 for each game: 3.75g + 15 = 33.75.\nSubtract 15: 3.75g = 18.75. Divide by 3.75: g = 5.\nCheck: 3.75 × 5 + 15 = 33.75.\ng = 13 adds the 15 instead of subtracting it; 15g + 3.75 swaps the price per game and the entry fee.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "A park charges a $18.00 entry fee plus $3.75 for each game. A visitor paid $44.25 in all.",
+    "replace": "A park charges a $15.00 entry fee plus $3.75 for each game. A visitor paid $33.75 in all."
+   },
+   {
+    "field": "q",
+    "find": "Write an equation that can be used to find g, the number of games the visitor paid for. Then solve the equation.",
+    "replace": "Which choice shows an equation that can be used to find g, the number of games the visitor paid for, and its solution?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.4.3/chk/1",
+  "why": "a drawn graph cannot be graded; choose the graph instead",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "Graph A",
+    "Graph B",
+    "Graph C",
+    "Graph D"
+   ],
+   "key": 1,
+   "a": "B. Graph B",
+   "s": "A proportional relationship is a straight line through the origin. Here every point has y = 5 × x, so the line passes through (0, 0) and (4, 20), (5, 25), (6, 30).\nGraph B is the only line that does. The other lines either start above the origin or rise at the wrong rate, so they miss these points.",
+   "inst": null,
+   "rows": null,
+   "cols": null,
+   "q": "The table shows a proportional relationship between x and y.\n\n<table class=\"ftab\"><tr><th>x</th><th>y</th></tr><tr><td>4</td><td>20</td></tr><tr><td>5</td><td>25</td></tr><tr><td>6</td><td>30</td></tr></table>\n\nWhich graph represents this relationship?"
+  },
+  "fig": {
+   "builder": "grid4",
+   "grid": {
+    "xmin": 0,
+    "xmax": 6,
+    "ymin": 0,
+    "ymax": 45,
+    "xstep": 1,
+    "ystep": 5,
+    "xlabel": "x",
+    "ylabel": "y"
+   },
+   "lines": [
+    {
+     "m": 2.5,
+     "b": 0
+    },
+    {
+     "m": 5,
+     "b": 0
+    },
+    {
+     "m": 2.5,
+     "b": 5
+    },
+    {
+     "m": 5,
+     "b": 5
+    }
+   ]
+  }
+ },
+ {
+  "slot": "MA.7.AR.4.3/chk/3",
+  "why": "a drawn graph cannot be graded; choose the graph instead",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "Graph A",
+    "Graph B",
+    "Graph C",
+    "Graph D"
+   ],
+   "key": 0,
+   "a": "A. Graph A",
+   "s": "A proportional relationship is a straight line through the origin. Here every point has y = 14 × x, so the line passes through (0, 0) and (1, 14), (5, 70), (10, 140).\nGraph A is the only line that does. The other lines either start above the origin or rise at the wrong rate, so they miss these points.",
+   "inst": null,
+   "rows": null,
+   "cols": null,
+   "q": "A proportional relationship is given by the equation y = 14x.\n\nWhich graph represents this relationship for x-values from 0 to 10?"
+  },
+  "fig": {
+   "builder": "grid4",
+   "grid": {
+    "xmin": 0,
+    "xmax": 10,
+    "ymin": 0,
+    "ymax": 168,
+    "xstep": 1,
+    "ystep": 14,
+    "xlabel": "x",
+    "ylabel": "y"
+   },
+   "lines": [
+    {
+     "m": 14,
+     "b": 0
+    },
+    {
+     "m": 28,
+     "b": 0
+    },
+    {
+     "m": 14,
+     "b": 14
+    },
+    {
+     "m": 28,
+     "b": 14
+    }
+   ]
+  }
+ },
+ {
+  "slot": "MA.7.AR.4.3/re/0",
+  "why": "a drawn graph cannot be graded; choose the graph instead",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "Graph A",
+    "Graph B",
+    "Graph C",
+    "Graph D"
+   ],
+   "key": 2,
+   "a": "C. Graph C",
+   "s": "A proportional relationship is a straight line through the origin. Here every point has y = 16 × x, so the line passes through (0, 0) and (2, 32), (4, 64), (5, 80).\nGraph C is the only line that does. The other lines either start above the origin or rise at the wrong rate, so they miss these points.",
+   "inst": null,
+   "rows": null,
+   "cols": null,
+   "q": "The table shows a proportional relationship between x and y.\n\n<table class=\"ftab\"><tr><th>x</th><th>y</th></tr><tr><td>2</td><td>32</td></tr><tr><td>4</td><td>64</td></tr><tr><td>5</td><td>80</td></tr></table>\n\nWhich graph represents this relationship?"
+  },
+  "fig": {
+   "builder": "grid4",
+   "grid": {
+    "xmin": 0,
+    "xmax": 6,
+    "ymin": 0,
+    "ymax": 160,
+    "xstep": 1,
+    "ystep": 16,
+    "xlabel": "x",
+    "ylabel": "y"
+   },
+   "lines": [
+    {
+     "m": 32,
+     "b": 0
+    },
+    {
+     "m": 16,
+     "b": 16
+    },
+    {
+     "m": 16,
+     "b": 0
+    },
+    {
+     "m": 32,
+     "b": 16
+    }
+   ]
+  }
+ },
+ {
+  "slot": "MA.7.AR.4.3/re/2",
+  "why": "a drawn graph cannot be graded; choose the graph instead",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "Graph A",
+    "Graph B",
+    "Graph C",
+    "Graph D"
+   ],
+   "key": 3,
+   "a": "D. Graph D",
+   "s": "A proportional relationship is a straight line through the origin. Here every point has y = 23 × x, so the line passes through (0, 0) and (1, 23), (2, 46), (6, 138).\nGraph D is the only line that does. The other lines either start above the origin or rise at the wrong rate, so they miss these points.",
+   "inst": null,
+   "rows": null,
+   "cols": null,
+   "q": "A proportional relationship is given by the equation y = 23x.\n\nWhich graph represents this relationship for x-values from 0 to 6?"
+  },
+  "fig": {
+   "builder": "grid4",
+   "grid": {
+    "xmin": 0,
+    "xmax": 6,
+    "ymin": 0,
+    "ymax": 207,
+    "xstep": 1,
+    "ystep": 23,
+    "xlabel": "x",
+    "ylabel": "y"
+   },
+   "lines": [
+    {
+     "m": 23,
+     "b": 23
+    },
+    {
+     "m": 11.5,
+     "b": 0
+    },
+    {
+     "m": 11.5,
+     "b": 46
+    },
+    {
+     "m": 23,
+     "b": 0
+    }
+   ]
+  }
+ },
+ {
+  "slot": "MA.7.AR.4.3/chk/2",
+  "why": "graph plus the meaning of the constant",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "Graph 3; each hour, 6 more miles are biked.",
+    "Graph 4; each hour, 12 more miles are biked.",
+    "Graph 4; it takes 12 hours to bike 1 mile.",
+    "Graph 1; it takes 12 hours to bike 1 mile."
+   ],
+   "key": 1,
+   "a": "B. Graph 4; each hour, 12 more miles are biked.",
+   "s": "The constant of proportionality 12 means y = 12x: each hour, 12 more miles are biked. The graph is a straight line through the origin that passes through (1, 12), (2, 24) and (6, 72): Graph 4.\nGraph 1 starts at (0, 12) instead of the origin, Graph 2 rises twice as fast and Graph 3 half as fast. “12 hours to bike 1 mile” switches the two quantities.",
+   "inst": null,
+   "rows": null,
+   "cols": null,
+   "q": "The relationship between hours (x) and miles biked (y) is proportional, with a constant of proportionality of 12.\n\nWhich graph represents this relationship for 0 to 6 hours, and what does the constant of proportionality mean in this situation?"
+  },
+  "fig": {
+   "builder": "grid4",
+   "grid": {
+    "xmin": 0,
+    "xmax": 6,
+    "ymin": 0,
+    "ymax": 96,
+    "xstep": 1,
+    "ystep": 12,
+    "xlabel": "hours",
+    "ylabel": "miles biked"
+   },
+   "labels": [
+    "Graph 1",
+    "Graph 2",
+    "Graph 3",
+    "Graph 4"
+   ],
+   "lines": [
+    {
+     "m": 12,
+     "b": 12
+    },
+    {
+     "m": 24,
+     "b": 0
+    },
+    {
+     "m": 6.0,
+     "b": 0
+    },
+    {
+     "m": 12,
+     "b": 0
+    }
+   ]
+  }
+ },
+ {
+  "slot": "MA.7.AR.4.3/re/1",
+  "why": "graph plus the meaning of the constant",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "Graph 2; it takes 15 boxes to hold 1 book.",
+    "Graph 3; it takes 15 boxes to hold 1 book.",
+    "Graph 2; each box holds 15 books.",
+    "Graph 4; each box holds 30 books."
+   ],
+   "key": 2,
+   "a": "C. Graph 2; each box holds 15 books.",
+   "s": "The constant of proportionality 15 means y = 15x: each box holds 15 books. The graph is a straight line through the origin that passes through (1, 15), (2, 30) and (6, 90): Graph 2.\nGraph 3 starts at (0, 15) instead of the origin, Graph 4 rises twice as fast and Graph 1 half as fast. “15 boxes to hold 1 book” switches the two quantities.",
+   "inst": null,
+   "rows": null,
+   "cols": null,
+   "q": "The relationship between boxes (x) and books packed (y) is proportional, with a constant of proportionality of 15.\n\nWhich graph represents this relationship for 0 to 6 boxes, and what does the constant of proportionality mean in this situation?"
+  },
+  "fig": {
+   "builder": "grid4",
+   "grid": {
+    "xmin": 0,
+    "xmax": 6,
+    "ymin": 0,
+    "ymax": 120,
+    "xstep": 1,
+    "ystep": 15,
+    "xlabel": "boxes",
+    "ylabel": "books packed"
+   },
+   "labels": [
+    "Graph 1",
+    "Graph 2",
+    "Graph 3",
+    "Graph 4"
+   ],
+   "lines": [
+    {
+     "m": 7.5,
+     "b": 0
+    },
+    {
+     "m": 15,
+     "b": 0
+    },
+    {
+     "m": 15,
+     "b": 15
+    },
+    {
+     "m": 30,
+     "b": 0
+    }
+   ]
+  }
+ },
+ {
+  "slot": "MA.7.AR.4.3/chk/4",
+  "why": "graph plus explanation",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "Graph 2; no, because 5/8 × 40 = 25, not 64.",
+    "Graph 1; yes, because 8/5 × 40 = 64.",
+    "Graph 1; no, because 64 ÷ 40 = 1.6, not 8/5.",
+    "Graph 3; no, because 64 − 40 = 24, not 8 − 5 = 3."
+   ],
+   "key": 1,
+   "a": "B. Graph 1; yes, because 8/5 × 40 = 64.",
+   "s": "A constant of proportionality of 8/5 means y = (8/5)x, a straight line through the origin that passes through (5, 8) and (25, 40): Graph 1. Graph 2 has the reciprocal constant 5/8, and Graph 3 passes through (5, 8) but not through the origin.\nFor x = 40, y = 8/5 × 40 = 64, so (40, 64) is on the line, even though it is past the edge of the grid. The ratio test agrees: 64 ÷ 40 = 1.6, and 1.6 = 8/5.",
+   "inst": null,
+   "rows": null,
+   "cols": null,
+   "q": "The constant of proportionality for a proportional relationship between x and y is 8/5.\n\nWhich graph shows the relationship, and is the point (40, 64) on its line? The grids stop at x = 25."
+  },
+  "fig": {
+   "builder": "grid4",
+   "grid": {
+    "xmin": 0,
+    "xmax": 25,
+    "ymin": 0,
+    "ymax": 48,
+    "xstep": 5,
+    "ystep": 8,
+    "xlabel": "x",
+    "ylabel": "y"
+   },
+   "labels": [
+    "Graph 1",
+    "Graph 2",
+    "Graph 3"
+   ],
+   "lines": [
+    {
+     "m": 1.6,
+     "b": 0
+    },
+    {
+     "m": 0.625,
+     "b": 0
+    },
+    {
+     "m": 1,
+     "b": 3
+    }
+   ]
+  }
+ },
+ {
+  "slot": "MA.7.AR.4.4/chk/0",
+  "why": "a typed equation cannot be matched reliably",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "y = x + 1",
+    "y = 5x",
+    "y = 1.25x",
+    "y = 0.8x"
+   ],
+   "key": 2,
+   "a": "C. y = 1.25x",
+   "s": "Use the labeled point (4, 5): the constant of proportionality is 5 ÷ 4 = 1.25, so y = 1.25x.\ny = 0.8x divides 4 by 5 instead; y = 5x uses the y-value of one point; y = x + 1 fits (4, 5) but not (8, 10), and its graph would not pass through the origin.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "Write an equation for this relationship.",
+    "replace": "Which equation represents this relationship?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.4.4/chk/2",
+  "why": "typed equation",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "y = 3x",
+    "y = x + 4",
+    "y = 6x",
+    "y = (1/3)x"
+   ],
+   "key": 0,
+   "a": "A. y = 3x",
+   "s": "Each y-value is 3 times its x-value: 6 ÷ 2 = 3, 15 ÷ 5 = 3, 21 ÷ 7 = 3. The equation is y = 3x.\ny = x + 4 works only for the first row (2 + 4 = 6), not for 5 and 15; y = 6x uses the first y-value.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "Write an equation for this relationship.",
+    "replace": "Which equation represents this relationship?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.4.4/re/0",
+  "why": "typed equation",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "y = x + 11",
+    "y = 3.75x",
+    "y = (4/15)x",
+    "y = 15x"
+   ],
+   "key": 1,
+   "a": "B. y = 3.75x",
+   "s": "Use the labeled point (4, 15): the constant of proportionality is 15 ÷ 4 = 3.75, so y = 3.75x.\ny = (4/15)x divides 4 by 15 instead, y = 15x uses the y-value of one point, and y = x + 11 fits (4, 15) but not (8, 30).",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "Write an equation for this relationship.",
+    "replace": "Which equation represents this relationship?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.4.4/cmp/0",
+  "why": "typed equation",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "y = x + 6",
+    "y = 10x",
+    "y = 2.5x",
+    "y = 0.4x"
+   ],
+   "key": 2,
+   "a": "C. y = 2.5x",
+   "s": "Use the labeled point (4, 10): the constant of proportionality is 10 ÷ 4 = 2.5, so y = 2.5x.\ny = x + 6 fits (4, 10) but not (8, 20); y = 0.4x divides 4 by 10; y = 10x uses the y-value of one point.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "Write an equation for this relationship.",
+    "replace": "Which equation represents this relationship?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.4.4/chk/3",
+  "why": "three values",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "24, 32, 40",
+    "27, 36, 45",
+    "27, 31.5, 36",
+    "54, 72, 90"
+   ],
+   "key": 1,
+   "a": "B. 27, 36, 45",
+   "s": "The constant of proportionality is 4.5 bottles per minute, so bottles = 4.5 × minutes.\n4.5 × 6 = 27, 4.5 × 8 = 36, 4.5 × 10 = 45.\n24, 32 and 40 use 4 bottles per minute and drop the 0.5; 54, 72 and 90 use 9, the change from one row to the next, as the rate per minute; 27, 31.5, 36 adds 4.5 for each row, but the rows are 2 minutes apart.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "What are the three missing values in the table?",
+    "replace": "Which choice gives the three missing values, in order?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.4.2/chk/4",
+  "why": "constant plus meaning",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "2; each batch uses 2 cups of blue paint.",
+    "6; each cup of blue paint is used with 6 cups of white paint.",
+    "1/6; each cup of blue paint is used with 1/6 cup of white paint.",
+    "1/6; each cup of white paint is used with 1/6 cup of blue paint."
+   ],
+   "key": 3,
+   "a": "D. 1/6; each cup of white paint is used with 1/6 cup of blue paint.",
+   "s": "y is cups of blue paint and x is cups of white paint, so the constant of proportionality is y ÷ x = 2 ÷ 12 = 1/6.\nIt means each cup of white paint is used with 1/6 cup of blue paint.\n6 is x ÷ y, the reciprocal, which would be the constant if x and y were switched.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "What is the constant of proportionality? What does it mean in this situation?",
+    "replace": "What is the constant of proportionality, and what does it mean in this situation?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.AR.4.1/chk/4",
+  "why": "three-part judgment",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "Noor's reason is not correct; the relationship is proportional, with constant of proportionality 1.2.",
+    "Noor's reason is correct; a proportional table must include x = 0, so the relationship is not proportional.",
+    "Noor's reason is not correct, but the relationship is not proportional, because the x-values do not increase by the same amount.",
+    "Noor's reason is not correct; the relationship is proportional, with constant of proportionality 0.6."
+   ],
+   "key": 0,
+   "a": "A. Noor's reason is not correct; the relationship is proportional, with constant of proportionality 1.2.",
+   "s": "y ÷ x is the same for every pair: 1.8 ÷ 1.5 = 1.2, 2.4 ÷ 2 = 1.2, 3 ÷ 2.5 = 1.2, 6 ÷ 5 = 1.2. So the relationship is proportional, with constant of proportionality 1.2.\nA table does not need to show x = 0 to be proportional, and the x-values do not need to increase by the same amount.\n0.6 is how much y increases when x goes from 1.5 to 2, not y ÷ x.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "Is Noor's reason correct? Is the relationship proportional? If it is, give the constant of proportionality; if it is not, name a pair whose ratio is different.",
+    "replace": "Is Noor's reason correct? Is the relationship proportional, and if it is, what is the constant of proportionality?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.DP.1.5/chk/3",
+  "why": "display, reason and description",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "A box plot, because it shows the median and the spread of the values.",
+    "A line plot with 7 Xs above 0, 5 above 1, 3 above 2 and 1 above 3, because there are only a few different values.",
+    "A histogram with one bar for 0–1 and one bar for 2–3, because it groups the values into intervals.",
+    "A line plot with 5 Xs above 0, 7 above 1, 3 above 2 and 1 above 3, because there are only a few different values."
+   ],
+   "key": 3,
+   "a": "D. A line plot with 5 Xs above 0, 7 above 1, 3 above 2 and 1 above 3, because there are only a few different values.",
+   "s": "The data are numbers with only a few different values (0, 1, 2 and 3), so a line plot can show every value, with an X for each time it occurs.\nCount: 0 appears 5 times, 1 appears 7 times, 2 appears 3 times and 3 appears 1 time (16 values in all).\nA histogram groups values into intervals and a box plot shows only five summary values, so neither shows every value.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "Choose the display that shows every value and how often it occurs. Explain why it fits these data, and describe what it would look like.",
+    "replace": "Which display shows every value and how often it occurs, and fits these data?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.DP.1.5/re/1",
+  "why": "display, reason and description",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "A histogram with one bar for 0–1, one bar for 2–3 and one bar for 4–5, because it groups the values into intervals.",
+    "A box plot, because it shows the median and the spread of the values.",
+    "A line plot with 4 Xs above 0, 3 above 1, 3 above 2, 2 above 3 and 1 above 4, because there are only a few different values.",
+    "A line plot with 4 Xs above 0, 3 above 1, 2 above 2, 3 above 3 and 1 above 4, because there are only a few different values."
+   ],
+   "key": 2,
+   "a": "C. A line plot with 4 Xs above 0, 3 above 1, 3 above 2, 2 above 3 and 1 above 4, because there are only a few different values.",
+   "s": "The data are numbers with only a few different values (0 to 4), so a line plot can show every value, with an X for each time it occurs.\nCount: 0 appears 4 times, 1 appears 3 times, 2 appears 3 times, 3 appears 2 times and 4 appears 1 time (13 values in all).",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "Choose the display that shows every value and how often it occurs. Explain why it fits these data, and describe what it would look like.",
+    "replace": "Which display shows every value and how often it occurs, and fits these data?"
+   }
+  ]
+ },
+ {
+  "slot": "MA.7.DP.1.5/chk/4",
+  "why": "display, reason and value",
+  "set": {
+   "rt": "mc",
+   "opts": [
+    "Display B, the histogram, because it shows how many values are in each interval; the interquartile range is 10 minutes.",
+    "Display A, the box plot, because it marks the quartiles; the interquartile range is 45 minutes.",
+    "Display B, the histogram, because it shows every interval; the interquartile range is 8 minutes.",
+    "Display A, the box plot, because it marks the quartiles; the interquartile range is 10 minutes."
+   ],
+   "key": 3,
+   "a": "D. Display A, the box plot, because it marks the quartiles; the interquartile range is 10 minutes.",
+   "s": "A box plot marks Q1 and Q3, so the interquartile range is Q3 − Q1 = 45 − 35 = 10 minutes.\nA histogram groups the values into intervals, so it shows only that Q1 is in 30–39 and Q3 is in 40–49, not their exact values.\n45 minutes is the range (65 − 20), not the interquartile range, and 8 is the height of the tallest bar.",
+   "inst": null,
+   "rows": null,
+   "cols": null
+  },
+  "edit": [
+   {
+    "field": "q",
+    "find": "Which display can be used to find the interquartile range of the data? Explain why the other display cannot, and then use the display to find the interquartile range of the data.",
+    "replace": "Which display can be used to find the interquartile range of the data, and why? What is the interquartile range?"
+   }
+  ]
+ }
+]

@@ -1,0 +1,2951 @@
+{
+ "MA.7.NSO.1.1": {
+  "label": "Laws of exponents (whole-number exponents)",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "mc",
+    "samples": [
+     "Which expression is equivalent to 10^3 × 10^4?",
+     "Which expression is equivalent to 3^4 × 3^2?",
+     "Which expression is equivalent to 2^2 × 2^3?"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "Evaluate the expression. 8^8 ÷ 8^6",
+     "Evaluate the expression. 10^8 ÷ 10^6",
+     "Evaluate the expression. 4^6 ÷ 4^3"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "Write the expression as a single power. (3^5)^3",
+     "Write the expression as a single power. (5^3)^4",
+     "Write the expression as a single power. (2^5)^3"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "sa",
+    "samples": [
+     "Evaluate the expression. 4^4 × 4^0",
+     "Evaluate the expression. 2^3 × 2^4",
+     "Evaluate the expression. 2^2 × 2^3"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "The equation shown is true. (9^4)^n = 9^8 What is the value of n?",
+     "The equation shown is true. (4^2)^n = 4^6 What is the value of n?",
+     "The equation shown is true. (7^3)^n = 7^6 What is the value of n?"
+    ]
+   },
+   {
+    "gen": 5,
+    "rt": "sa",
+    "samples": [
+     "Evaluate the expression. (−10)^5 ÷ (−10)^3",
+     "Evaluate the expression. (−2)^5 ÷ (−2)^2",
+     "Write the expression as a single power. (−10)^8 ÷ (−10)^3"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "Evaluate the expression. Write your answer as a fraction in simplest form. ((−1/2)^5 × (−1/2)^4) ÷ (−1/2)^7",
+     "Evaluate the expression. Write your answer as a fraction in simplest form. ((1/3)^4 × (1/3)^4) ÷ (1/3)^5",
+     "Evaluate the expression. Write your answer as a fraction in simplest form. ((−3/4)^2 × (−3/4)^6) ÷ (−3/4)^5"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "Evaluate the expression. Write your answer as a fraction in simplest form. ((−1/3)^3)^3 ÷ (−1/3)^3",
+     "Evaluate the expression. Write your answer as a fraction in simplest form. ((5/2)^3)^2 ÷ (5/2)^3",
+     "Evaluate the expression. Write your answer as a fraction in simplest form. (1/3)^2 × ((1/3)^2)^2"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "A student wrote (5^2 × 5^4)^2 as a single power. Step 1: (5^6)^2 Step 2: 5^8 In which step did the student mak",
+     "A student wrote (3^3)^2 ÷ 3^2 as a single power. Step 1: 3^5 ÷ 3^2 Step 2: 3^3 In which step did the student m",
+     "A student wrote ((1/2)^5 × (1/2)^4)^3 as a single power. Step 1: ((1/2)^9)^3 Step 2: (1/2)^12 In which step di"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "sa",
+    "samples": [
+     "The equation shown is true. ((2/3)^n)^2 ÷ (2/3)^2 = (2/3)^6 What is the value of n?",
+     "The equation shown is true. (5^n)^2 ÷ 5^2 = 5^4 What is the value of n?",
+     "The equation shown is true. (3^n)^3 × 3^2 = 3^14 What is the value of n?"
+    ]
+   }
+  ]
+ },
+ "MA.7.NSO.1.2": {
+  "label": "Rewrite rational numbers in equivalent forms",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "Write the fraction as a repeating decimal. 65/99",
+     "Write the fraction as a repeating decimal. 5/33",
+     "Write the fraction as a repeating decimal. 7/9"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "Write the repeating decimal as a fraction in simplest form. 0.6̅",
+     "Write the repeating decimal as a fraction in simplest form. 0.1̅",
+     "Write the repeating decimal as a fraction in simplest form. 0.6̅0̅"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "mc",
+    "samples": [
+     "Which fraction is equivalent to 0.8̅1̅?",
+     "Which fraction is equivalent to 0.6̅5̅?",
+     "Which fraction is equivalent to 0.1̅8̅?"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "sa",
+    "samples": [
+     "Write the fraction as an exact percent. 13/15",
+     "Write the fraction as an exact percent. 3/11",
+     "Write the fraction as an exact percent. 14/15"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "ms",
+    "samples": [
+     "Select all the values that are equivalent to 5 ÷ 9.",
+     "Select all the values that name the same number as 1 ÷ 9.",
+     "Select all the values that are equal to the quotient 8 ÷ 9."
+    ]
+   },
+   {
+    "gen": 5,
+    "rt": "etc",
+    "samples": [
+     "Two identical bottles of sports drink are partly full. The first bottle is 14/99 full and the second bottle is",
+     "Two identical bottles of sports drink are partly full. The first bottle is 7/11 full and the second bottle is ",
+     "Two identical bottles of sports drink are partly full. The first bottle is 5/18 full and the second bottle is "
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "Justin uses a calculator to find 289/44. The calculator shows 6.568181818. Justin says that 289/44 = 6.5681818",
+     "Priya uses a calculator to find 137/44. The calculator shows 3.113636364. Priya says that 137/44 = 3.113636364",
+     "Priya uses a calculator to find 85/66. The calculator shows 1.287878788. Priya says that 85/66 = 1.287878788. "
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "Kai and Rosa each started with a full glue stick. Kai has used 1/6 of the glue stick, and Rosa has used 25% of",
+     "Kai and Rosa each started with a full glue stick. Kai has used 8/9 of the glue stick, and Rosa has used 75% of",
+     "Kai and Rosa each started with a full glue stick. Kai has used 2/9 of the glue stick, and Rosa has used 15% of"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "Write 3 14/15 in three equivalent forms: as a fraction, as a repeating decimal and as a percent.",
+     "Write 5 5/6 in three equivalent forms: as a fraction, as a repeating decimal and as a percent.",
+     "Write 7 5/11 in three equivalent forms: as a fraction, as a repeating decimal and as a percent."
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "Four numbers are shown. 16.3% 0.16 0.1̅6̅ 1/6 Which list shows the numbers in order from least to greatest?",
+     "Four numbers are shown. 0.9̅4̅ 0.94 94.4% 17/18 Which list shows the numbers in order from least to greatest?",
+     "Four numbers are shown. 0.93 0.9̅3̅ 14/15 93.3% Which list shows the numbers in order from least to greatest?"
+    ]
+   }
+  ]
+ },
+ "MA.7.NSO.2.1": {
+  "label": "Order of operations with rational numbers",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "Evaluate the expression. Write your answer as a decimal. (2.1 − |2.3 − 5.9|)³ ÷ 0.25",
+     "Evaluate the expression. Write your answer as a decimal. (4.5 − |3.7 − 7.7|)³ ÷ 5",
+     "Evaluate the expression. Write your answer as a decimal. (4.3 − |2.5 − 5.3|)³ ÷ 0.25"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "Evaluate the expression. [(−1 1/2 − 2)² − 0.75] ÷ 2",
+     "Evaluate the expression. [(−1/2 − 3)² − 1.25] ÷ 0.5",
+     "Evaluate the expression. [(−1/2 − 3)² − 2.75] ÷ 0.5"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "What is the value of the expression? Write your answer as a fraction in simplest form. [(3 3/4 − 4)² + |5/8 − ",
+     "What is the value of the expression? Write your answer as a fraction in simplest form. [(5 3/5 − 6)² + |2/3 − ",
+     "What is the value of the expression? Write your answer as a fraction in simplest form. [(4 3/5 − 5)² + |4/5 − "
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "What is the value of the expression? 2.8 − [0.75 + (1 − 2.5)²] ÷ 0.5",
+     "What is the value of the expression? −0.3 − [1.25 + (0 − 0.5)²] ÷ 2",
+     "What is the value of the expression? 2.9 − [2.5 + (−1 − 1.5)²] ÷ 2"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "Evaluate the expression. 4 × (|3.64 − 5.02| − 0.3²)",
+     "Evaluate the expression. 3 × (|3.89 − 7.23| − 0.6²)",
+     "Evaluate the expression. 2 × (|1.91 − 3.41| − 0.3²)"
+    ]
+   },
+   {
+    "gen": 5,
+    "rt": "sa",
+    "samples": [
+     "Evaluate the expression. Write your answer as a fraction in simplest form. 9 − 3[(1/2 − 2)² + 1/2 ÷ 3]",
+     "Evaluate the expression. 10 − 4[(1/2 − 2)² + 3/4 ÷ 3]",
+     "Evaluate the expression. Write your answer as a fraction in simplest form. 12 − 3[(2/3 − 2)² + 1/6 ÷ 3]"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "A student evaluated the expression −1.7 − (2 − |3 − 7|)² ÷ 2 × 3 as shown. Step 1: −1.7 − (2 − 4)² ÷ 2 × 3 Ste",
+     "A student evaluated the expression 2.9 − (5 − |6 − 8|)² ÷ 4 × 2 as shown. Step 1: 2.9 − (5 − 2)² ÷ 4 × 2 Step ",
+     "A student evaluated the expression −2.6 − (5 − |7 − 14|)² ÷ 2 × 3 as shown. Step 1: −2.6 − (5 − (−7))² ÷ 2 × 3"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "mc",
+    "samples": [
+     "Where should one pair of parentheses be placed so that the expression has a value of 3.75? −4.5 + 3 × 5 − 1.5²",
+     "Where should one pair of parentheses be placed so that the expression has a value of −38.75? −8.5 + 2 × 5 − 2.",
+     "Where should one pair of parentheses be placed so that the expression has a value of −14.25? −7.5 + 3 × 4 − 2."
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "Evaluate the expression. Write your answer as a fraction in simplest form. [|(2 3/4 − 0.5)² − 1 1/2| − 0.5] ÷ ",
+     "Evaluate the expression. Write your answer as a fraction in simplest form. [3.5 − |(1 3/4 − 0.5)³ − 2 1/2|] ÷ ",
+     "Evaluate the expression. Write your answer as a fraction in simplest form. [2.5 − |(3/4 − 1.5)² − 5 1/2|] ÷ 3/"
+    ]
+   }
+  ]
+ },
+ "MA.7.NSO.2.2": {
+  "label": "Four operations with rational numbers",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "Evaluate. Write your answer in simplest form. −4/5 − 1/2",
+     "Evaluate. Write your answer in simplest form. 7/8 − 1/2",
+     "Evaluate. Write your answer in simplest form. 2/3 − 7/8"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "Evaluate the expression. Write your answer in simplest form. −1/2 × (−1.7)",
+     "Evaluate the expression. Write your answer in simplest form. −2/3 × (−1.2)",
+     "Evaluate the expression. Write your answer in simplest form. −1/2 × 2.3"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "mc",
+    "samples": [
+     "What is the value of the expression? 1/5 ÷ (−4/5)",
+     "What is the value of the expression? −1 1/5 ÷ (−3/5)",
+     "What is the value of the expression? 1 1/3 ÷ (−2/3)"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "sa",
+    "samples": [
+     "Subtract. Write your answer in simplest form. −2/5 − (−1/8)",
+     "Subtract. Write your answer in simplest form. −5/6 − 1/2",
+     "Subtract. Write your answer in simplest form. 2/3 − (−3/8)"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "What is the value of the expression? 5.7 − 8.74 − 30.1",
+     "What is the value of the expression? 9.14 − 7.68 − 38.7",
+     "What is the value of the expression? 7.79 − 8.72 − 24.2"
+    ]
+   },
+   {
+    "gen": 5,
+    "rt": "sa",
+    "samples": [
+     "What number makes the equation true? 3 1/5 + ____ = 4.27",
+     "What number makes the equation true? −2 1/2 + ____ = 1.43",
+     "What number makes the equation true? 3 1/5 + ____ = −0.7"
+    ]
+   },
+   {
+    "gen": 6,
+    "rt": "sa",
+    "samples": [
+     "What is the value of the expression? Write your answer in simplest form. 0.8 ÷ (−2/5)",
+     "What is the value of the expression? Write your answer in simplest form. 1.2 ÷ (−3/4)",
+     "What is the value of the expression? Write your answer in simplest form. 2.25 ÷ 3/8"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "What number makes the equation true? −1 2/5 × ____ + 0.19 = 4.11",
+     "What number makes the equation true? 2 1/5 × ____ + 0.61 = −4.23",
+     "What number makes the equation true? −2 1/5 × ____ − 0.57 = −1.45"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "A student evaluated the expression −5/6 ÷ (−1/5) − 3/8 as shown. Step 1: −6/5 × (−1/5) = 6/25 Step 2: 6/25 − 3",
+     "A student evaluated the expression −1/5 ÷ 3/4 − 1/4 as shown. Step 1: −1/5 × 3/4 = −3/20 Step 2: −3/20 − 1/4 =",
+     "A student evaluated the expression −1/6 ÷ (−1 1/4) − 1/3 as shown. Step 1: −1/6 × (−5/4) = 5/24 Step 2: 5/24 −"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "What is the value of the expression? Write your answer in simplest form. (−3/5 + 0.75) ÷ (2 3/4 − 4)",
+     "What is the value of the expression? Write your answer in simplest form. (−4/5 + 0.6) ÷ (1 3/4 − 2)",
+     "What is the value of the expression? Write your answer in simplest form. (−3/5 + 1.5) ÷ (3 1/2 − 5)"
+    ]
+   }
+  ]
+ },
+ "MA.7.NSO.2.3": {
+  "label": "Real-world problems with rational numbers",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "A water trough contains 25 3/4 gallons of water. The horses drink at a rate of 2.25 gallons per hour for 8 hou",
+     "A tank contains 43 1/2 gallons of water. Water leaks out at 1.75 gallons per hour for 2 hours, and then 7 1/4 ",
+     "A water trough contains 73 3/4 gallons of water. The horses drink at a rate of 0.4 gallons per hour for 5 hour"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "At 6 a.m. the temperature at a weather station was −6.1°C. The temperature then fell 3.5°C each hour for 6 hou",
+     "At 6 a.m. the temperature at a weather station was −11.4°C. The temperature then fell 3.5°C each hour for 4 ho",
+     "At 6 a.m. the temperature at a weather station was −6.6°C. The temperature then fell 1.5°C each hour for 4 hou"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "A group of 5 friends owes $104.00 for a group gift. They split the amount owed equally, and each friend's shar",
+     "A group of 6 friends owes $53.52 for a canoe rental. They split the amount owed equally, and each friend's sha",
+     "A group of 4 friends owes $67.68 for a rented party tent. They split the amount owed equally, and each friend'"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "sa",
+    "samples": [
+     "The price of one share of a company's stock changed by these amounts over 5 days. −$0.35, −$2.50, +$1.10, −$2.",
+     "The price of one share of a company's stock changed by these amounts over 5 days. +$0.20, −$2.10, +$1.05, −$2.",
+     "The price of one share of a company's stock changed by these amounts over 5 days. +$1.55, −$0.40, +$1.00, +$1."
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "A bank account has a balance of −$25.88. The owner deposits 1/2 of a $600.00 paycheck, then pays a bill of $86",
+     "A bank account has a balance of −$4.04. The owner deposits 3/4 of a $280.00 paycheck, then pays a bill of $29.",
+     "A bank account has a balance of −$5.06. The owner deposits 2/5 of a $610.00 paycheck, then pays a bill of $57."
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "A student's lunch account was charged a $3.75 fee, and then the student bought 5 lunches for $3.51 each. After",
+     "A student's lunch account was charged a $3.75 fee, and then the student bought 7 lunches for $2.64 each. After",
+     "A student's lunch account was charged a $1.50 fee, and then the student bought 3 lunches for $2.50 each. After"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "Diver A starts at −16 3/4 feet and rises 1.25 feet each second for 8 seconds. Diver B starts at −15.5 feet and",
+     "Diver A starts at −18 feet and rises 2.5 feet each second for 2 seconds. Diver B starts at −8.5 feet and desce",
+     "Diver A starts at −16 1/2 feet and rises 0.5 feet each second for 4 seconds. Diver B starts at −15.5 feet and "
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "The temperature in a garage on a winter night is 6.8°F. The temperature drops 1 3/4°F each hour. After how man",
+     "The air temperature at a mountain weather station is 7.5°F. The temperature drops 3 1/2°F each hour. After how",
+     "The air temperature at a mountain weather station is 12.5°F. The temperature drops 1 1/4°F each hour. After ho"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "sa",
+    "samples": [
+     "At 11 a.m. the temperature was 2 3/4°F. At 5 p.m. it was −18 1/4°F. The temperature changed by the same amount",
+     "At 9 a.m. the temperature was −2 3/4°F. At 2 p.m. it was −14°F. The temperature changed by the same amount eac",
+     "At 6 a.m. the temperature was 1°F. At 11 a.m. it was −15 1/4°F. The temperature changed by the same amount eac"
+    ]
+   }
+  ]
+ },
+ "MA.7.AR.1.1": {
+  "label": "Simplify linear expressions",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "Write the expression using the fewest possible terms. ((4/3)x + 9) − ((8/3)x + 4)",
+     "Write the expression using the fewest possible terms. ((7/4)x − 9) − ((1/4)x − 2)",
+     "Write the expression using the fewest possible terms. ((5/2)x + 2) − ((3/2)x + 4)"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "What expression makes the equation true? ((1/6)x − 4) + (____) = (3/4)x + 2",
+     "What expression makes the equation true? ((−1/2)x − 6) − (____) = (−5/4)x + 6",
+     "What expression makes the equation true? ((−1/3)x + 9) + (____) = (3/4)x + 1"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "mc",
+    "samples": [
+     "Which expression is equivalent to the expression shown? (1.2x + 3) + (0.6x − 3.5)",
+     "Which expression is equivalent to the expression shown? (0.8x + 3) + (0.5x − 7)",
+     "Which expression is equivalent to the expression shown? (1.2x + 3) + (1.6x − 3.5)"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "sa",
+    "samples": [
+     "Write the expression using the fewest possible terms. (3 + (2/3)m) + ((3/4)m − 9)",
+     "Write the expression using the fewest possible terms. (3 + (1/2)p) + ((3/4)p − 9)",
+     "Write the expression using the fewest possible terms. (1 + (2/3)p) + ((11/12)p − 4)"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "Write the expression using the fewest possible terms. (5x − 7) − (3 − (1/3)x)",
+     "Write the expression using the fewest possible terms. (5x − 3) − (8 − (1/3)x)",
+     "Write the expression using the fewest possible terms. (9x − 6) − (7 − (1/2)x)"
+    ]
+   },
+   {
+    "gen": 5,
+    "rt": "sa",
+    "samples": [
+     "Write the expression using the fewest possible terms. (8x − 5) − (0.02x − 8 + 0.55x)",
+     "Write the expression using the fewest possible terms. (7x − 1) − (0.21x − 2 + 0.17x)",
+     "Write the expression using the fewest possible terms. (3x − 6) − (0.07x − 4 + 0.49x)"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "A student simplified the expression as shown. ((5/2)x − 4) − (7 − (7/4)x) Step 1: (5/2)x − 4 − 7 − (7/4)x Step",
+     "A student simplified the expression as shown. ((7/2)x − 6) − (5 − (5/6)x) Step 1: (7/2)x − 6 − 5 − (5/6)x Step",
+     "A student simplified the expression as shown. ((7/4)x − 5) − (8 − (1/5)x) Step 1: (7/4)x − 5 − 8 + (1/5)x Step"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "A rectangle has a length of (5x + 1) feet and a width of ((1/2)x − 0.5) feet. Write an expression for the peri",
+     "A family buys 3 adult tickets and 5 student tickets for a museum. An adult ticket costs (x + 6) dollars, and a",
+     "A family buys 3 adult tickets and 5 student tickets for a play. An adult ticket costs (x + 4) dollars, and a s"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "Write the expression using the fewest possible terms. (0.75x − 0.75) − (−(1/8)x + 1.25) − ((1/6)x − 0.5)",
+     "Write the expression using the fewest possible terms. (0.5x − 0.75) − ((1/3)x + 1.75) − (−(1/4)x − 0.5)",
+     "Write the expression using the fewest possible terms. (1.5x − 1.5) − ((7/6)x + 2.75) − ((11/8)x − 0.5)"
+    ]
+   }
+  ]
+ },
+ "MA.7.AR.1.2": {
+  "label": "Determine if two expressions are equivalent",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "ms",
+    "samples": [
+     "Select all the expressions that are equivalent to (5/3)(3x + 15).",
+     "Select all the expressions that are equivalent to (5/3)(3x + 12).",
+     "Select all the expressions that are equivalent to (1/2)(6x + 10)."
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "mc",
+    "samples": [
+     "Which expression is equivalent to −0.5(6x − 4)?",
+     "Which expression is equivalent to 2.5(8x − 2)?",
+     "Which expression is equivalent to −1.5(10x − 2)?"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "etc",
+    "samples": [
+     "A student rewrote (1/2)(2x + 2) as 2x. The correct equivalent expression is ____.",
+     "A student rewrote (7/4)(8x + 12) as 35x. The correct equivalent expression is ____.",
+     "A student rewrote (1/3)(9x + 6) as 5x. The correct equivalent expression is ____."
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "Which expression is equivalent to 1.5x + 0.5?",
+     "Which expression is equivalent to 3.5x + 1?",
+     "Which expression is equivalent to 4x + 8?"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "mc",
+    "samples": [
+     "Are the two expressions equivalent? 1.5(4x − 2) + 5x + 5 and 11x + 2",
+     "Are the two expressions equivalent? 2.5(4x − 4) + 5x + 6 and 15x − 3",
+     "Are the two expressions equivalent? 2.5(4x − 4) + 5x + 4 and 15x − 7"
+    ]
+   },
+   {
+    "gen": 5,
+    "rt": "match",
+    "samples": [
+     "Match each expression to an equivalent expression."
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "Three expressions are shown. Expression 1: 0.25(8 − 8x) − (2/3)x Expression 2: (2/3)(3 − x) − 2x Expression 3:",
+     "Three expressions are shown. Expression 1: 2 − (8/3)x Expression 2: 0.5(4 − 4x) − (2/3)x Expression 3: (2/3)(3",
+     "Three expressions are shown. Expression 1: (2/3)(3 − x) − x Expression 2: 0.25(8 − 4x) − (2/3)x Expression 3: "
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "match",
+    "samples": [
+     "Match each expression to an equivalent expression."
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "Two expressions are shown. −(1/2)(6x − 4) + (3/2)x and (3/2)x − (1/2)(6x − 4) Are the two expressions equivale",
+     "Two expressions are shown. −(1/2)(2x − 4) − (2/3)x and (10/3)x − (5/4)(4x − 4) Are the two expressions equival",
+     "Two expressions are shown. −(2/3)(6x − 6) + (1/2)x and −(5/2)x − (1/4)(4x − 16) Are the two expressions equiva"
+    ]
+   }
+  ]
+ },
+ "MA.7.AR.2.1": {
+  "label": "Solve one-step inequalities",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "Solve the inequality. Then graph the solution on the number line. k + 0.5 > −4.5",
+     "Solve the inequality. Then graph the solution on the number line. x/(−2) < 0.5",
+     "Solve the inequality. Then graph the solution on the number line. w + 4.5 < 5.5"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "Solve the inequality. −7.8 ≥ 2.5 − z",
+     "Solve the inequality. 4.1 ≥ 7 − k",
+     "Solve the inequality. −2.7 + h ≤ 8.1"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "The product of a number x and −0.5 is greater than 5.5. What are the possible values of x?",
+     "The product of a number x and −2.5 is greater than 25. What are the possible values of x?",
+     "The product of a number x and −2.5 is less than 25. What are the possible values of x?"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "Solve the inequality. −0.2t < 1.6 Which number line shows the solution?",
+     "Solve the inequality. −0.125n > −0.625 Which number line shows the solution?",
+     "Solve the inequality. −1.5d > 9 Which number line shows the solution?"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "mc",
+    "samples": [
+     "The graph shows the solution of an inequality. Which inequality has this solution?"
+    ]
+   },
+   {
+    "gen": 5,
+    "rt": "sa",
+    "samples": [
+     "Solve the inequality. k/(−5) < 0.6",
+     "Solve the inequality. −4.1 > w/(−5)",
+     "Solve the inequality. z/(−4) < −3.7"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "An underwater robot starts at the surface of a lake and is lowered at a steady rate of 2.5 feet per second. Fo",
+     "An underwater robot starts at the surface of a lake and is lowered at a steady rate of 3.2 feet per second. Fo",
+     "A scuba diver starts at the surface and descends at a steady rate of 6 meters per minute. For safety, the dive"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "mc",
+    "samples": [
+     "The number line shows the solution of one of the inequalities below. Which inequality has this solution?"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "A shelf can hold at most 34.25 pounds. Each box placed on the shelf weighs 1.25 pounds. Write and solve an ine",
+     "A shelf can hold at most 71.5 pounds. Each box placed on the shelf weighs 2.5 pounds. Write and solve an inequ",
+     "A player needs at least 72 points to reach the next level. Each round of a game earns 2.5 points. Write and so"
+    ]
+   }
+  ]
+ },
+ "MA.7.AR.2.2": {
+  "label": "Two-step equations with rational numbers",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "Solve the equation for x. −12 = 2x − 14",
+     "Solve the equation for x. −11 = 5x + 9",
+     "Solve the equation for x. 1 = −2x + 5"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "What is the exact value of t in the equation shown? −3/5 = (4/3)t − 7",
+     "What is the exact value of k in the equation shown? −4 5/12 = (5/6)k − 9",
+     "What is the exact value of k in the equation shown? −5 9/10 = (3/4)k − 8"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "5 friends each bought a ticket to a concert for the same price, t dollars, plus a $4.75 service fee on each ti",
+     "6 friends each bought a ticket to a concert for the same price, t dollars, plus a $2.50 service fee on each ti",
+     "6 friends each bought a ticket to a concert for the same price, t dollars, plus a $3.50 service fee on each ti"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "sa",
+    "samples": [
+     "A park charges a $35.00 entry fee plus $7.50 for each game. A visitor paid $95.00 in all. Write an equation th",
+     "A park charges a $8.00 entry fee plus $8.75 for each hour of skate rental. A visitor paid $51.75 in all. Write",
+     "A park charges a $20.00 entry fee plus $12.50 for each ride. A visitor paid $107.50 in all. Write an equation "
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "mc",
+    "samples": [
+     "A number, x, is decreased by 4. That result is then multiplied by 4, giving 8. Which equation represents this ",
+     "A number, x, is decreased by 8. That result is then multiplied by 5, giving 5. Which equation represents this ",
+     "A number, x, is decreased by 6. That result is then multiplied by 6, giving −12. Which equation represents thi"
+    ]
+   },
+   {
+    "gen": 5,
+    "rt": "sa",
+    "samples": [
+     "Solve the equation for k. 2.5(k + 1.6) = 21.5",
+     "Solve the equation for z. 1.5(z + 1.9) = 13.35",
+     "Solve the equation for w. 2.5(w + 3) = 20"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "At noon the temperature was 8.8°F. The temperature changed by the same amount each hour. After 3.5 hours, the ",
+     "At noon the temperature was 15.3°F. The temperature changed by the same amount each hour. After 6 hours, the t",
+     "A scuba diver is at an elevation of −5.7 meters. The diver's elevation changes by the same amount each minute,"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "A student solved the equation shown, but made an error. −2.4(x − 3.4) = 11.52 Step 1: x − 3.4 = −4.8 Step 2: x",
+     "A student solved the equation shown, but made an error. −0.6(x − 3.3) = 0.9 Step 1: −0.6x − 3.3 = 0.9 Step 2: ",
+     "A student solved the equation shown, but made an error. −2.4(x + 0.6) = −8.16 Step 1: −2.4x − 1.44 = −8.16 Ste"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "An electrician charges $56.00 for each hour, and bills the travel to the job as half an hour at the same rate.",
+     "Gym A charges $17.50 each month. Priya used a coupon worth $35.00 off the total and paid Gym A $140.00 in all.",
+     "An electrician charges $80.00 for each hour, and bills the travel to the job as half an hour at the same rate."
+    ]
+   }
+  ]
+ },
+ "MA.7.AR.3.1": {
+  "label": "Multi-step real-world percent problems",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "A jacket costs $30.33 and is on sale for 22% off. What is the sale price, to the nearest cent?",
+     "A pair of shoes costs $52.93 and is on sale for 12% off. What is the sale price, to the nearest cent?",
+     "A video game costs $33.12 and is on sale for 12% off. What is the sale price, to the nearest cent?"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "A skateboard costs $44.64. The sales tax rate is 7%. What is the total cost, including tax, to the nearest cen",
+     "A tent costs $48.99. The sales tax rate is 8.25%. What is the total cost, including tax, to the nearest cent?",
+     "A pair of headphones costs $79.27. The sales tax rate is 7.5%. What is the total cost, including tax, to the n"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "Maya deposits $2400.00 in an account that pays 4.25% simple interest each year. Maya leaves the money in the a",
+     "Devon deposits $2400.00 in an account that pays 1.8% simple interest each year. Devon leaves the money in the ",
+     "Nora deposits $2400.00 in an account that pays 4.25% simple interest each year. Nora leaves the money in the a"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "sa",
+    "samples": [
+     "The number of members of a running club changed from 750 to 543. What is the percent decrease?",
+     "The number of members of a running club changed from 625 to 565. What is the percent decrease?",
+     "The population of a small town changed from 2400 to 2292. What is the percent decrease?"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "The ratio of fiction books to nonfiction books among the books on a shelf is 3:2. Every book on the shelf is f",
+     "The ratio of fiction books to nonfiction books among the books on a shelf is 3:5. Every book on the shelf is f",
+     "The ratio of boys to girls among the students in a class is 2:3. Every student in the class is a boy or a girl"
+    ]
+   },
+   {
+    "gen": 5,
+    "rt": "sa",
+    "samples": [
+     "A student estimated the number of steps on a trail to be 574. The actual number was 656 steps. What is the per",
+     "A student estimated the number of seats in an auditorium to be 399. The actual number was 380 seats. What is t",
+     "A student estimated the number of people at a concert to be 840. The actual number was 875 people. What is the"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "mc",
+    "samples": [
+     "A store takes 36% off the original price of $112.50, then takes another 45% off the reduced price. What is the",
+     "A store takes 36% off the original price of $87.50, then takes another 8% off the reduced price. What is the f",
+     "A store takes 12% off the original price of $162.50, then takes another 8% off the reduced price. What is the "
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "A school club has 80 members, and 75% of them are seventh graders. After 30 new members join, 70% of the club'",
+     "A school club has 40 members, and 55% of them are seventh graders. After 40 new members join, 70% of the club'",
+     "A school club has 20 members, and 75% of them are seventh graders. After 25 new members join, 60% of the club'"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "A store buys a product for $87.50, marks it up 36%, then puts it on sale for 35% off. What is the sale price?",
+     "A store buys a product for $18.75, marks it up 76%, then puts it on sale for 35% off. What is the sale price?",
+     "A store buys a product for $81.25, marks it up 76%, then puts it on sale for 15% off. What is the sale price?"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "sa",
+    "samples": [
+     "A store marked up the price of a backpack by 40% of the price it paid for the backpack. The marked-up price is",
+     "A store marked up the price of a jacket by 75% of the price it paid for the jacket. The marked-up price is $66",
+     "A store marked up the price of a pair of boots by 75% of the price it paid for the pair of boots. The marked-u"
+    ]
+   }
+  ]
+ },
+ "MA.7.AR.3.2": {
+  "label": "Solve problems involving proportions",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "A recipe uses 2/3 cup of oil for every 3 dozen muffins. The amounts are proportional. How much oil is needed f",
+     "A recipe uses 1 1/4 cups of oil for every 4 dozen muffins. The amounts are proportional. How much oil is neede",
+     "A recipe uses 3/4 cup of oil for every 3 dozen muffins. The amounts are proportional. How much oil is needed f"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "mc",
+    "samples": [
+     "On a map, 4 cm represents 17 km. How many kilometers does 5 cm represent?",
+     "On a map, 4 cm represents 19 km. How many kilometers does 11 cm represent?",
+     "On a map, 8 cm represents 12 km. How many kilometers does 13 cm represent?"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "A market charges $2.40 for every 6 pounds of peaches. How much does the market charge for 11.5 pounds of peach",
+     "A market charges $3.60 for every 6 pounds of peaches. How much does the market charge for 10 pounds of peaches",
+     "A drip line uses 5.25 gallons of water every 3 hours. How many gallons of water does the drip line use in 10 h"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "A 5-foot person casts a 10-foot shadow. At the same time a tree casts a 15-foot shadow. How tall is the tree, ",
+     "A 5.5-foot person casts a 6-foot shadow. At the same time a tree casts a 21-foot shadow. How tall is the tree,",
+     "A 6-foot person casts an 8-foot shadow. At the same time a tree casts a 28-foot shadow. How tall is the tree, "
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "The table shows what different amounts of ground beef cost at one store. The cost is proportional to the numbe"
+    ]
+   },
+   {
+    "gen": 5,
+    "rt": "sa",
+    "samples": [
+     "On a team, the ratio of wins to losses is 30:35. This season the team has 28 losses. Write a proportion that c",
+     "In a recipe, the ratio of flour to sugar is 12:8. A baker uses 6 cups of flour. Write a proportion that can be",
+     "On a team, the ratio of wins to losses is 18:8. This season the team has 27 wins. Write a proportion that can "
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "A recipe uses 3 cups of flour for 12 servings. A banquet needs 50 servings. Flour comes in 2-cup bags. How man",
+     "A recipe uses 4 cups of flour for 8 servings. A banquet needs 27 servings. Flour comes in 2-cup bags. How many",
+     "A recipe uses 4.5 cups of flour for 6 servings. A banquet needs 25 servings. Flour comes in 2-cup bags. How ma"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "Kendra usually runs 5-kilometer races, and 5 kilometers is about 3.1 miles. Kendra is training for a long trai",
+     "Devin usually runs 5-kilometer races, and 5 kilometers is about 3.1 miles. Devin is training for a trail race,",
+     "Jamal usually runs 10-kilometer races, and 10 kilometers is about 6.2 miles. Jamal is training for a relay leg"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "A student writes 10 place cards in 18 minutes, working at a constant rate. The student needs 75 place cards an",
+     "A student writes 4 place cards in 18 minutes, working at a constant rate. The student needs 50 place cards and",
+     "A student writes 4 place cards in 10 minutes, working at a constant rate. The student needs 42 place cards and"
+    ]
+   }
+  ]
+ },
+ "MA.7.AR.3.3": {
+  "label": "Unit conversions across measurement systems",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "1 inch = 2.54 centimeters. How many centimeters are in 40 inches?",
+     "1 inch = 2.54 centimeters. How many centimeters are in 62 inches?",
+     "1 inch = 2.54 centimeters. How many centimeters are in 32 inches?"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "1 kilogram ≈ 2.2 pounds. How many pounds is 18 kilograms?",
+     "1 kilogram ≈ 2.2 pounds. How many pounds is 15 kilograms?",
+     "1 kilogram ≈ 2.2 pounds. How many pounds is 45 kilograms?"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "1 hour = 60 minutes, and 1 mile ≈ 1.609 kilometers. A car travels at 52 miles per hour for 195 minutes. How ma",
+     "1 hour = 60 minutes, and 1 mile ≈ 1.609 kilometers. A train travels at 80 kilometers per hour for 135 minutes.",
+     "1 hour = 60 minutes, and 1 mile ≈ 1.609 kilometers. A car travels at 52 miles per hour for 165 minutes. How ma"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "sa",
+    "samples": [
+     "On one day, 1 U.S. dollar could be exchanged for 0.95 euros. Elif exchanged $80.00 for euros and then spent 22",
+     "On one day, 1 U.S. dollar could be exchanged for 0.8 Swiss francs. Jonah exchanged $150.00 for Swiss francs an",
+     "On one day, 1 U.S. dollar could be exchanged for 0.82 euros. A watch is priced at 65.60 euros. Maya has $90.00"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "1 gallon ≈ 3.785 liters. A rain barrel holds 121 liters. How many gallons is that? Round to the nearest tenth.",
+     "1 inch = 2.54 centimeters. A poster is 81 centimeters wide. How many inches wide is the poster? Round to the n",
+     "1 inch = 2.54 centimeters. A poster is 183 centimeters wide. How many inches wide is the poster? Round to the "
+    ]
+   },
+   {
+    "gen": 5,
+    "rt": "mc",
+    "samples": [
+     "1 kilogram ≈ 2.2 pounds. A suitcase weighs 18 pounds. What is its mass in kilograms, to the nearest tenth?",
+     "1 kilogram ≈ 2.2 pounds. A suitcase weighs 57 pounds. What is its mass in kilograms, to the nearest tenth?",
+     "1 kilogram ≈ 2.2 pounds. A suitcase weighs 32 pounds. What is its mass in kilograms, to the nearest tenth?"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "mc",
+    "samples": [
+     "A market sells almonds for $25.08 per kilogram. 1 kilogram ≈ 2.2 pounds. At that price, what is the cost of 0.",
+     "A market sells almonds for $14.96 per kilogram. 1 kilogram ≈ 2.2 pounds. At that price, what is the cost of 1.",
+     "A market sells walnuts for $20.68 per kilogram. 1 kilogram ≈ 2.2 pounds. At that price, what is the cost of 5."
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "Store A sells almonds for $10.51 per pound. Store B sells almonds for $23.76 per kilogram. 1 kilogram ≈ 2.2 po",
+     "Store A sells cheddar cheese for $7.32 per pound. Store B sells cheddar cheese for $15.40 per kilogram. 1 kilo",
+     "Store A sells almonds for $9.08 per pound. Store B sells almonds for $18.92 per kilogram. 1 kilogram ≈ 2.2 pou"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "A sprinter moves at 7 meters per second. 1 kilometer = 1000 meters, and 1 mile ≈ 1.609 kilometers. What is the",
+     "A cyclist moves at 6.8 meters per second. 1 kilometer = 1000 meters, and 1 mile ≈ 1.609 kilometers. What is th",
+     "A skateboarder moves at 5.9 meters per second. 1 kilometer = 1000 meters, and 1 mile ≈ 1.609 kilometers. What "
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "sa",
+    "samples": [
+     "A gardener needs 66 feet of string lights to go around a patio. The lights are sold only in packs that are 12 ",
+     "A gardener needs 133 feet of string lights to go around a patio. The lights are sold only in packs that are 12",
+     "A gardener needs 146 feet of string lights to go around a patio. The lights are sold only in packs that are 10"
+    ]
+   }
+  ]
+ },
+ "MA.7.AR.4.1": {
+  "label": "Is it proportional? (table, graph, description)",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "mc",
+    "samples": [
+     "Does the table show a proportional relationship between x and y? x: 1, 2, 3, 4 | y: 8, 16, 29, 32",
+     "Does the table show a proportional relationship between x and y? x: 2, 3, 4, 5 | y: 6, 9, 14, 15",
+     "Does the table show a proportional relationship between x and y? x: 1, 2, 3, 4 | y: 5, 10, 20, 20"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "mc",
+    "samples": [
+     "A shop charges 5 dollars plus 8 dollars for each hour of rental. Is the relationship between the hours of rent",
+     "A machine takes 4 minutes for each box packed. Is the relationship between the boxes packed and the total minu",
+     "A shop charges 12 dollars for each hour of rental. Is the relationship between the hours of rental and the tot"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "mc",
+    "samples": [
+     "Does the graph show a proportional relationship between x and y?"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "ms",
+    "samples": [
+     "Select all the situations that describe a proportional relationship."
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "The table does not show a proportional relationship. x: 1, 2, 4, 5 | y: 6, 12, 24, 33 Which value of y would h",
+     "The table does not show a proportional relationship. x: 3, 6, 9, 12 | y: 12, 27, 36, 48 Which value of y would",
+     "The table does not show a proportional relationship. x: 1, 2, 4, 5 | y: 3, 6, 14, 15 Which value of y would ha"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "mc",
+    "samples": [
+     "Jordan kept a record of three training runs. Distance (miles): 5, 10, 15 | Time: 40 minutes, 1 hour 20 minutes",
+     "Angela kept a record of three training runs. Distance (miles): 5, 7, 11 | Time: 1 hour, 1 hour 24 minutes, 2 h",
+     "Owen kept a record of three training runs. Distance (miles): 5, 8, 16 | Time: 40 minutes, 1 hour 4 minutes, 2 "
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "The table shows values of x and y. x: 2.5, 4, 6, 7.5 | y: 4.5, 7.2, 11.2, 13.5 Eli says the relationship canno",
+     "The table shows values of x and y. x: 0.5, 3, 6, 7.5 | y: 1.8, 10.8, 21.6, 27 Marcus says the relationship can",
+     "The table shows values of x and y. x: 1.5, 2, 2.5, 6 | y: 3.75, 5, 6.05, 15 Caleb says the relationship cannot"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "mc",
+    "samples": [
+     "Relationship A: the table shows ticket costs at Theater A for different numbers of tickets. Number of tickets:"
+    ]
+   }
+  ]
+ },
+ "MA.7.AR.4.2": {
+  "label": "Constant of proportionality",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "The table shows a proportional relationship between x and y. x: 5, 6, 8, 9 | y: 25, 30, 40, 45 What is the con",
+     "The table shows a proportional relationship between x and y. x: 18, 27, 36, 45 | y: 34, 51, 68, 85 What is the",
+     "The table shows a proportional relationship between x and y. x: 10, 30, 50, 60 | y: 17, 51, 85, 102 What is th"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "The graph shows a proportional relationship between x and y. What is the constant of proportionality? Write yo"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "The graph shows the proportional relationship between pounds of apples and cost (dollars). What is the constan",
+     "The graph shows the proportional relationship between minutes and gallons of water. What is the constant of pr",
+     "The graph shows the proportional relationship between batches and cups of flour. What is the constant of propo"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "In a proportional relationship, 19.2 liters of paint are needed to cover 12 walls. What is the constant of pro",
+     "In a proportional relationship, 16.2 inches of snow fall in 12 hours. What is the constant of proportionality,",
+     "In a proportional relationship, 20.7 liters of paint are needed to cover 9 walls. What is the constant of prop"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "The daily fee for docking a boat at a marina is proportional to the length of the boat. The table shows the fe"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "The table shows the amount of gas a car uses to travel different distances. The relationship is proportional. "
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "Each batch of lemonade is made with 3 cups of lemonade mix and 24 cups of water. The relationship between cups",
+     "Each pitcher of iced tea is made with 3 tea bags and 24 cups of water. The relationship between tea bags and c",
+     "Each pitcher of iced tea is made with 3 tea bags and 18 cups of water. The relationship between tea bags and c"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "Two pumps each fill a tank at a constant rate. For each pump, the relationship between minutes and gallons pum"
+    ]
+   }
+  ]
+ },
+ "MA.7.AR.4.3": {
+  "label": "Graph proportional relationships",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "The equation y = 12x represents a proportional relationship. Graph the relationship on the grid for x-values f",
+     "The equation y = 10x represents a proportional relationship. Graph the relationship on the grid for x-values f",
+     "A proportional relationship is given by the equation y = 22x. Graph the relationship on the grid for x-values "
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "The table shows a proportional relationship between x and y. x: 2, 5, 6 | y: 36, 90, 108 Graph the relationshi",
+     "The table shows a proportional relationship between x and y. x: 1, 3, 4 | y: 4, 12, 16 Graph the relationship ",
+     "The table shows a proportional relationship between x and y. x: 2, 4, 5 | y: 30, 60, 75 Graph the relationship"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "The relationship between pounds of apples (x) and cost ($) (y) is proportional, with a constant of proportiona",
+     "The relationship between minutes (x) and pages printed (y) is proportional, with a constant of proportionality",
+     "The relationship between tickets (x) and cost ($) (y) is proportional, with a constant of proportionality of 5"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "A proportional relationship between x and y has a constant of proportionality of 3. Which graph represents thi",
+     "Which graph shows the proportional relationship between x and y with a constant of proportionality of 3/2?",
+     "A proportional relationship between x and y has a constant of proportionality of 2. Which graph represents thi"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "mc",
+    "samples": [
+     "The table shows a proportional relationship between x and y. x: 2, 4, 6 | y: 3, 6, 9 Which graph represents th",
+     "The table shows a proportional relationship between x and y. x: 1, 2, 3 | y: 4, 8, 12 Which graph represents t",
+     "The table shows a proportional relationship between x and y. x: 2, 3, 4 | y: 4, 6, 8 Which graph represents th"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "The relationship between minutes (x) and gallons pumped (y) is proportional. minutes: 2, 4, 6 | gallons pumped",
+     "The relationship between minutes (x) and gallons pumped (y) is proportional. minutes: 4, 8, 16 | gallons pumpe",
+     "The relationship between days (x) and inches grown (y) is proportional. days: 7, 14, 21 | inches grown: 2, 4, "
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "The constant of proportionality for a proportional relationship between x and y is 3/8. Graph the relationship",
+     "A proportional relationship between x and y has a constant of proportionality of 2/5. Graph the relationship o",
+     "A proportional relationship between x and y has a constant of proportionality of 4/5. Graph the relationship o"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "The table shows a proportional relationship between x and y. x: 7, 14, 21 | y: 9, 18, 27 A student graphed the",
+     "The table shows a proportional relationship between x and y. x: 9, 18, 27 | y: 11, 22, 33 A student graphed th",
+     "The table shows a proportional relationship between x and y. x: 7, 14, 21 | y: 12, 24, 36 A student graphed th"
+    ]
+   }
+  ]
+ },
+ "MA.7.AR.4.4": {
+  "label": "Translate between representations",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "The table shows a proportional relationship between x and y. x: 3, 5, 7 | y: 24, 40, 56 Write an equation for ",
+     "The table shows a proportional relationship between x and y. x: 2, 3, 4 | y: 16, 24, 32 Write an equation for ",
+     "The table shows a proportional relationship between x and y. x: 3, 5, 7 | y: 9, 15, 21 Write an equation for t"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "mc",
+    "samples": [
+     "A hiker walks 3.5 miles each hour. The relationship is proportional. Let x be the number of hours and let y be",
+     "Apples cost $2.50 per pound. The relationship is proportional. Let x be the number of pounds of apples and let",
+     "A hiker walks 4.5 miles each hour. The relationship is proportional. Let x be the number of hours and let y be"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "The graph shows a proportional relationship between batches made (x) and cups of flour used (y). Write an equa",
+     "The graph shows a proportional relationship between minutes (x) and gallons of water used (y). Write an equati",
+     "The graph shows a proportional relationship between minutes (x) and pages read (y). Write an equation for this"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "A printer prints at a constant rate. The proportional relationship is represented by y = 18x, where x is the n",
+     "Grapes are sold by the pound. The proportional relationship is represented by y = 4x, where x is the number of",
+     "A runner runs at a constant speed. The proportional relationship is represented by y = 8x, where x is the numb"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "A machine produces 2.5 labels each second that it runs, on average. The relationship between the number of sec",
+     "A machine packs 3.5 boxes each minute that it runs, on average. The relationship between the number of minutes",
+     "A machine fills 4.5 bottles each minute that it runs, on average. The relationship between the number of minut"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "The table shows a proportional relationship between x and y. x: 2.5, 4.5, 5, 12 | y: 2, 3.6, 4, 9.6 Write an e",
+     "The table shows a proportional relationship between x and y. x: 1.5, 3, 5, 7.5 | y: 3.6, 7.2, 12, 18 Write an ",
+     "The table shows a proportional relationship between x and y. x: 1.5, 4.5, 6, 7.5 | y: 3.75, 11.25, 15, 18.75 W"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "Sam earns $76.00 for 8 hours of work. The relationship between the number of hours worked, h, and the money ea",
+     "Sam earns $47.50 for 5 hours of work. The relationship between the number of hours worked, h, and the money ea",
+     "Sam earns $51.25 for 5 hours of work. The relationship between the number of hours worked, h, and the money ea"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "mc",
+    "samples": [
+     "Luis earns $13 per hour mowing lawns. The relationship between the money earned, e, and the hours worked, h, i",
+     "Diego earns $19 per hour babysitting. The relationship between the money earned, e, and the hours worked, h, i",
+     "Hana earns $15 per hour babysitting. The relationship between the money earned, e, and the hours worked, h, is"
+    ]
+   }
+  ]
+ },
+ "MA.7.AR.4.5": {
+  "label": "Real-world proportional problems",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "A horse-drawn carriage travels at a constant rate. It travels 1/4 mile in 4 minutes. At this rate, how many mi",
+     "A horse-drawn carriage travels at a constant rate. It travels 3/4 mile in 6 minutes. At this rate, how many mi",
+     "A horse-drawn carriage travels at a constant rate. It travels 2/3 mile in 6 minutes. At this rate, how many mi"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "A garden hose puts 1/3 gallon of water into a tub every 2/3 minute, at a constant rate. How many gallons of wa",
+     "A garden hose puts 3/4 gallon of water into a tub every 1/2 minute, at a constant rate. How many gallons of wa",
+     "A 3-D printer uses 2/5 ounce of plastic every 2/3 hour, at a constant rate. How many ounces of plastic does th"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "A carriage travels at a constant rate. After 5 minutes, it has traveled 1/2 mile. The relationship between min",
+     "A carriage travels at a constant rate. After 8 minutes, it has traveled 1/2 mile. The relationship between min",
+     "A carriage travels at a constant rate. After 15 minutes, it has traveled 3/4 mile. The relationship between mi"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "A car uses gas at a constant rate. It travels 187 miles on 5.5 gallons of gas. How many gallons of gas are nee",
+     "A car uses gas at a constant rate. It travels 153 miles on 4.5 gallons of gas. How many gallons of gas are nee",
+     "A car uses gas at a constant rate. It travels 165 miles on 5.5 gallons of gas. How many gallons of gas are nee"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "A store sells ribbon at a constant price. 4 1/4 meters of ribbon cost $6.80. At that rate, what is the cost of",
+     "A store sells ribbon at a constant price. 3 3/4 meters of ribbon cost $21.00. At that rate, what is the cost o",
+     "A store sells ribbon at a constant price. 4 1/4 meters of ribbon cost $11.90. At that rate, what is the cost o"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "Store A sells 4 pounds of apples for $9.88. Store B sells 6 pounds of the same apples for $13.62. At each stor",
+     "Store A sells 4 pounds of pears for $6.92. Store B sells 5 pounds of the same pears for $9.40. At each store, ",
+     "Store A sells 4 pounds of bananas for $11.16. Store B sells 6 pounds of the same bananas for $17.82. At each s"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "Store A sells chain for $3.15 for 1 3/4 feet. Store B sells the same chain for $5.64 for 3 feet. At each store",
+     "Store A sells fabric for $5.40 for 2 1/4 yards. Store B sells the same fabric for $13.20 for 6 yards. At each ",
+     "Store A sells chain for $6.00 for 1 1/2 feet. Store B sells the same chain for $30.40 for 8 feet. At each stor"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "A driver is taking a trip of 1550 miles. The car travels 28.8 miles for each gallon of gas, and its gas tank h",
+     "A driver is taking a trip of 950 miles. The car travels 19 miles for each gallon of gas, and its gas tank hold",
+     "A driver is taking a trip of 1650 miles. The car travels 32.3 miles for each gallon of gas, and its gas tank h"
+    ]
+   }
+  ]
+ },
+ "MA.7.GR.1.1": {
+  "label": "Area of trapezoids, parallelograms, and rhombi",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "A trapezoid has bases of 7 cm and 5 cm and a vertical height of 4 cm. What is its area, in square centimeters?",
+     "A trapezoid has bases of 11 cm and 4 cm and a vertical height of 3 cm. What is its area, in square centimeters",
+     "A trapezoid has bases of 10 cm and 6 cm and a vertical height of 9 cm. What is its area, in square centimeters"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "The parallelogram shown has a base of 7 inches and a vertical height of 3 inches. What is its area, in square ",
+     "The parallelogram shown has a base of 7 inches and a vertical height of 11 inches. What is its area, in square",
+     "The parallelogram shown has a base of 13 inches and a vertical height of 10 inches. What is its area, in squar"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "The rhombus shown has a base of 10 meters and a vertical height of 7 meters. What is its area, in square meter",
+     "The rhombus shown has a base of 6 meters and a vertical height of 5 meters. What is its area, in square meters",
+     "The rhombus shown has a base of 20 meters and a vertical height of 17 meters. What is its area, in square mete"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "A rhombus has a base of 13 inches and a vertical height of 10 inches. What is its area, in square inches?",
+     "A rhombus has a base of 12 inches and a vertical height of 5 inches. What is its area, in square inches?",
+     "A rhombus has a base of 9 inches and a vertical height of 6 inches. What is its area, in square inches?"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "A trapezoid has bases of 13.5 centimeters and 13 centimeters and a vertical height of 6 centimeters. What is i",
+     "A rhombus has a base of 9 centimeters and a vertical height of 8.5 centimeters. What is its area, in square ce",
+     "A parallelogram has a base of 6.5 centimeters and a vertical height of 5 centimeters. What is its area, in squ"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "The trapezoid shown has a base of 4 centimeters and a vertical height of 8 centimeters. Its area is equal to t",
+     "The trapezoid shown has a base of 17 centimeters and a vertical height of 8 centimeters. Its area is equal to ",
+     "The trapezoid shown has a base of 7 centimeters and a vertical height of 8 centimeters. Its area is equal to t"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "The trapezoid shown has an area of 126 square centimeters and a vertical height of 12 centimeters. The longer ",
+     "The trapezoid shown has an area of 84 square centimeters and a vertical height of 12 centimeters. The longer b",
+     "The trapezoid shown has an area of 72 square centimeters and a vertical height of 9 centimeters. The longer ba"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "The parallelogram shown has a vertical height of 3 centimeters. Its area is equal to the area of a trapezoid w",
+     "The parallelogram shown has a vertical height of 5 centimeters. Its area is equal to the area of a trapezoid w",
+     "The parallelogram shown has a vertical height of 14 centimeters. Its area is equal to the area of a trapezoid "
+    ]
+   }
+  ]
+ },
+ "MA.7.GR.1.2": {
+  "label": "Area of polygons and composite figures",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "A stained-glass panel is shaped like the figure shown: a trapezoid with bases of 11 in. and 7 in. and a vertic",
+     "The front of a tent is shaped like the figure shown: a trapezoid with bases of 10 ft and 8 ft and a vertical h",
+     "A birdhouse front is shaped like the figure shown: a trapezoid with bases of 10 in. and 5 in. and a vertical h"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "mc",
+    "samples": [
+     "A wall mural is shaped like the figure shown: a rectangle 8 ft wide and 3 ft tall, with a parallelogram on top",
+     "A sign is shaped like the figure shown: a rectangle 10 ft wide and 5 ft tall, with a parallelogram on top. The",
+     "A sign is shaped like the figure shown: a rectangle 17 ft wide and 4 ft tall, with a parallelogram on top. The"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "A garden is shaped like the figure shown: a rectangle 14 m wide and 10 m tall, with a trapezoid on top. The tr",
+     "A wooden sign is shaped like the figure shown: a rectangle 24 in. wide and 20 in. tall, with a trapezoid on to",
+     "A wooden sign is shaped like the figure shown: a rectangle 40 in. wide and 12 in. tall, with a trapezoid on to"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "sa",
+    "samples": [
+     "A hexagonal tabletop is shaped like the hexagon shown. It is made of two congruent trapezoids that share the 4",
+     "A hexagonal garden bed is shaped like the hexagon shown. It is made of two congruent trapezoids that share the",
+     "A hexagonal tabletop is shaped like the hexagon shown. It is made of two congruent trapezoids that share the 3"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "A stage floor is shaped like the figure shown: a 15 ft × 11 ft rectangle with a triangle attached to one end. ",
+     "A garden bed is shaped like the figure shown: a 16 ft × 6 ft rectangle with a triangle attached to one end. Th",
+     "A banner is shaped like the figure shown: a 13 in. × 8 in. rectangle with a triangle attached to one end. The "
+    ]
+   },
+   {
+    "gen": 5,
+    "rt": "sa",
+    "samples": [
+     "A garden is shaped like the figure shown: a 9 m by 6 m rectangle with a 5 m by 2 m rectangular corner removed.",
+     "A garden is shaped like the figure shown: a 15 m by 9 m rectangle with an 8 m by 4 m rectangular corner remove",
+     "A garden is shaped like the figure shown: a 16 m by 7 m rectangle with a 5 m by 3 m rectangular notch removed "
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "The end wall of a garage is shaped like the figure shown: a rectangle 23 ft wide and 8 ft tall, with a triangl",
+     "The end wall of a shed is shaped like the figure shown: a rectangle 16 ft wide and 11 ft tall, with a triangle",
+     "The end wall of a cabin is shaped like the figure shown: a rectangle 24 ft wide and 10 ft tall, with a triangl"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "A sign is shaped like the figure shown: a trapezoid on top of a rectangle, with a triangular notch cut from th",
+     "A banner is shaped like the figure shown: a trapezoid on top of a rectangle, with a triangular notch cut from ",
+     "A patio is shaped like the figure shown: a trapezoid on top of a rectangle, with a triangular notch cut from t"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "A stage is shaped like the figure shown: a rectangle 29 ft long and 12 ft deep, with a trapezoid-shaped wing o",
+     "A stage is shaped like the figure shown: a rectangle 18 ft long and 13 ft deep, with a trapezoid-shaped wing o",
+     "A stage is shaped like the figure shown: a rectangle 24 ft long and 16 ft deep, with a trapezoid-shaped wing o"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "sa",
+    "samples": [
+     "A park is shaped like the figure shown: a rectangle 41 m by 25 m with a parallelogram-shaped section along its",
+     "A park is shaped like the figure shown: a rectangle 62 m by 25 m with a parallelogram-shaped section along its",
+     "A park is shaped like the figure shown: a rectangle 42 m by 25 m with a parallelogram-shaped section along its"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "Two garden plots are shown. Plot A is a trapezoid with bases of 15 m and 11 m and a vertical height of 3 m, jo",
+     "Two garden plots are shown. Plot A is a trapezoid with bases of 11 m and 6 m and a vertical height of 7 m, joi",
+     "Two garden plots are shown. Plot A is a trapezoid with bases of 12 m and 5 m and a vertical height of 6 m, joi"
+    ]
+   }
+  ]
+ },
+ "MA.7.GR.1.3": {
+  "label": "Circumference of a circle",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "A circle has a radius of 6 meters. What is the circumference of the circle? Write your answer in terms of π.",
+     "A circle has a radius of 36 centimeters. What is the circumference of the circle? Write your answer in terms o",
+     "A circle has a radius of 31 centimeters. What is the circumference of the circle? Write your answer in terms o"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "The circumference of a circle is 70π meters. What is the radius of the circle?",
+     "The circumference of a circle is 108π inches. What is the radius of the circle?",
+     "The circumference of a circle is 40π meters. What is the radius of the circle?"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "A circular merry-go-round has a radius of 9 feet. What is the circumference of the merry-go-round? Round your ",
+     "A circular skating rink has a radius of 36 feet. What is the circumference of the skating rink? Round your ans",
+     "A circular pond has a radius of 6 feet. What is the circumference of the pond? Round your answer to the neares"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "sa",
+    "samples": [
+     "The circumference of a round tabletop is 251.20 inches. What is the diameter of the round tabletop? Round your",
+     "The circumference of a circular running track is 157.00 meters. What is the diameter of the circular running t",
+     "The circumference of a round pool is 125.60 feet. What is the diameter of the round pool? Round your answer to"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "A round window has a circumference of 150.72 inches, as shown. What is the radius of the round window? Round y",
+     "A round plate has a circumference of 56.55 centimeters, as shown. What is the radius of the round plate? Round",
+     "A round pizza pan has a circumference of 43.96 inches, as shown. What is the radius of the round pizza pan? Ro"
+    ]
+   },
+   {
+    "gen": 5,
+    "rt": "sa",
+    "samples": [
+     "A student measured the diameter and the circumference of three paper cups, in centimeters. The results are sho",
+     "A student measured the diameter and the circumference of three circular lids, in centimeters. The results are ",
+     "A student measured the diameter and the circumference of three round clock faces, in centimeters. The results "
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "A running track is made of two straight sides and two semicircular ends, as shown. Each straight side is 61 me",
+     "A running track is made of two straight sides and two semicircular ends, as shown. Each straight side is 71 me",
+     "A running track is made of two straight sides and two semicircular ends, as shown. Each straight side is 105 m"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "A wheelbarrow wheel has a diameter of 14 inches. The wheel rolls in a straight line for 90 feet. How many comp",
+     "A wheelbarrow wheel has a diameter of 18 inches. The wheel rolls in a straight line for 120 feet. How many com",
+     "A scooter wheel has a diameter of 8 inches. The wheel rolls in a straight line for 200 feet. How many complete"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "A bicycle wheel makes 40 complete turns while the bicycle rolls 126 feet in a straight line. What is the diame",
+     "A bicycle wheel makes 45 complete turns while the bicycle rolls 306 feet in a straight line. What is the diame",
+     "A bicycle wheel makes 50 complete turns while the bicycle rolls 209 feet in a straight line. What is the diame"
+    ]
+   }
+  ]
+ },
+ "MA.7.GR.1.4": {
+  "label": "Area of a circle",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "A circular clock face has a radius of 5 inches. What is the area of the circular clock face? Round your answer",
+     "A circular trampoline has a diameter of 12 feet. What is the area of the circular trampoline? Round your answe",
+     "A circular skating rink has a radius of 22 meters. What is the area of the circular skating rink? Round your a"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "A circle has a diameter of 16 inches. What is the area of the circle? Write your answer in terms of π.",
+     "A circle has a diameter of 24 centimeters. What is the area of the circle? Write your answer in terms of π.",
+     "A circle has a diameter of 24 inches. What is the area of the circle? Write your answer in terms of π."
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "A half circle has a radius of 34 feet. What is the area of the half circle? Write your answer in terms of π.",
+     "A circle has a radius of 3 feet. What is the area of one-third of the circle? Write your answer in terms of π.",
+     "A quarter circle has a radius of 8 feet. What is the area of the quarter circle? Write your answer in terms of"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "A circle has a radius of 26 inches. What is the area of the circle, in square inches?",
+     "A circle has a radius of 38 inches. What is the area of the circle, in square inches?",
+     "A circle has a radius of 36 inches. What is the area of the circle, in square inches?"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "A 30-inch pizza is cut into 3 equal slices. (The size of a pizza is its diameter.) A student eats 1 slice. How",
+     "A 24-inch pizza is cut into 3 equal slices. (The size of a pizza is its diameter.) A student eats 1 slice. How",
+     "A 24-inch pizza is cut into 3 equal slices. (The size of a pizza is its diameter.) A student eats 2 slices. Ho"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "A rug is shaped like the half circle shown. Its flat edge is a diameter of 8 feet. Fringe runs along its curve",
+     "A garden bed is shaped like the half circle shown. Its flat edge is a diameter of 12 feet. A brick border runs",
+     "A rug is shaped like the half circle shown. Its flat edge is a diameter of 6 feet. Fringe runs along its curve"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "A pizza's size is its diameter. Mia can buy one 20-inch pizza or two 14-inch pizzas. Which choice has more piz",
+     "A pizza's size is its diameter. Mia can buy one 20-inch pizza or two 10-inch pizzas. Which choice has more piz",
+     "A pizza's size is its diameter. Rosa can buy one 12-inch pizza or two 8-inch pizzas. Which choice has more piz"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "mc",
+    "samples": [
+     "A circular fountain has a diameter of 8 feet. A walkway 8 feet wide surrounds the fountain, as shown. What is ",
+     "A circular fountain has a diameter of 18 feet. A walkway 5 feet wide surrounds the fountain, as shown. What is",
+     "A circular fountain has a diameter of 8 feet. A walkway 4 feet wide surrounds the fountain, as shown. What is "
+    ]
+   }
+  ]
+ },
+ "MA.7.GR.1.5": {
+  "label": "Scale drawings and scale factor",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "A drawing is enlarged by a scale factor of 2.5. A side that measures 10 centimeters in the drawing is scaled u",
+     "A drawing is enlarged by a scale factor of 3.5. A side that measures 8 centimeters in the drawing is scaled up",
+     "A drawing is enlarged by a scale factor of 2.5. A side that measures 19 centimeters in the drawing is scaled u"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "A photo is reduced by a scale factor of 1/5. A side that measures 50 inches in the original is scaled down. Wh",
+     "A photo is reduced by a scale factor of 1/4. A side that measures 48 inches in the original is scaled down. Wh",
+     "A photo is reduced by a scale factor of 1/4. A side that measures 56 inches in the original is scaled down. Wh"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "A rectangle measures 5 units by 10 units. It is enlarged by a scale factor of 6. What is the area of the enlar",
+     "A rectangle measures 7 units by 7 units. It is enlarged by a scale factor of 4. What is the area of the enlarg",
+     "A rectangle measures 4 units by 10 units. It is enlarged by a scale factor of 2. What is the area of the enlar"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "A parallelogram has a perimeter of 60 centimeters. It is enlarged by a scale factor of 6. What is the perimete",
+     "A hexagon has a perimeter of 20 centimeters. It is reduced by a scale factor of 1/2. What is the perimeter of ",
+     "A triangle has a perimeter of 16 centimeters. It is enlarged by a scale factor of 2. What is the perimeter of "
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "A map of a park uses the scale 1 inch : 40 feet. On the map, a fence is 2.5 inches long. How long is the actua",
+     "A model of a building uses the scale 1 centimeter : 4 meters. On the model, a hallway is 4 centimeters long. H",
+     "A floor plan uses the scale 1 inch : 10 feet. The actual kitchen counter is 40 feet long. How long is the kitc"
+    ]
+   },
+   {
+    "gen": 5,
+    "rt": "sa",
+    "samples": [
+     "Figure 2 is a scale drawing of Figure 1. A side that measures 9 centimeters in Figure 1 measures 54 centimeter",
+     "Figure 2 is a scale drawing of Figure 1. A side that measures 9 centimeters in Figure 1 measures 27 centimeter",
+     "Figure 2 is a scale drawing of Figure 1. A side that measures 8 centimeters in Figure 1 measures 40 centimeter"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "mc",
+    "samples": [
+     "Figure 2 is a scale drawing of Figure 1. A side that measures 36 centimeters in Figure 1 measures 45 centimete",
+     "Figure 2 is a scale drawing of Figure 1. A side that measures 8 centimeters in Figure 1 measures 6 centimeters",
+     "Figure 2 is a scale drawing of Figure 1. A side that measures 10 centimeters in Figure 1 measures 25 centimete"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "A scale drawing of a park uses the scale 1 inch = 30 feet. On the drawing, the park has an area of 18 square i",
+     "A scale drawing of an apartment uses the scale 1 inch = 12 feet. On the drawing, the apartment has an area of ",
+     "A scale drawing of an apartment uses the scale 1 inch = 8 feet. On the drawing, the apartment has an area of 1"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "A rectangular room measures 35 feet by 30 feet. On a floor plan, the 35-foot wall is drawn 3.5 inches long. Wh",
+     "A rectangular room measures 35 feet by 20 feet. On a floor plan, the 35-foot wall is drawn 3.5 inches long. Wh",
+     "A rectangular room measures 10 feet by 6 feet. On a floor plan, the 10-foot wall is drawn 2.5 inches long. Wha"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "sa",
+    "samples": [
+     "On a blueprint, the rectangular front wall of a gymnasium measures 2.5 inches long and 3 inches tall. The actu",
+     "On a blueprint, the rectangular front wall of a gymnasium measures 3.5 inches long and 4.5 inches tall. The ac",
+     "On a blueprint, the rectangular front wall of a gymnasium measures 1.5 inches long and 4.5 inches tall. The ac"
+    ]
+   }
+  ]
+ },
+ "MA.7.GR.2.1": {
+  "label": "Surface area of a cylinder from its net",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "The net of a right circular cylinder is shown. Each circle has a diameter of 12 centimeters, and the rectangle",
+     "The net of a right circular cylinder is shown. Each circle has a diameter of 18 centimeters, and the rectangle",
+     "The net of a right circular cylinder is shown. Each circle has a diameter of 8 centimeters, and the rectangle "
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "The net of a right circular cylinder is shown. The circles have a radius of 4 inches and the rectangle is 8 in",
+     "The net of a right circular cylinder is shown. The circles have a radius of 9 inches and the rectangle is 20 i",
+     "The net of a right circular cylinder is shown. The circles have a radius of 3 inches and the rectangle is 17 i"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "The net of a right circular cylinder is shown. The radius is 3 centimeters and the height is 12 centimeters. W",
+     "The net of a right circular cylinder is shown. The radius is 4 centimeters and the height is 8 centimeters. Wh",
+     "The net of a right circular cylinder is shown. The radius is 5 centimeters and the height is 22 centimeters. W"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "The right circular cylinder shown has a radius of 5 centimeters and a height of 14 centimeters. Which net, wit",
+     "The right circular cylinder shown has a radius of 6 centimeters and a height of 3 centimeters. Which net, with",
+     "The right circular cylinder shown has a radius of 4 centimeters and a height of 3 centimeters. Which net, with"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "The right circular cylinder shown has a radius of 7 centimeters and a height of 20 centimeters. The net of thi",
+     "The right circular cylinder shown has a radius of 8 centimeters and a height of 24 centimeters. The net of thi",
+     "The right circular cylinder shown has a radius of 6 centimeters and a height of 16 centimeters. The net of thi"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "The net of a right circular cylinder is shown. The rectangle is 30π centimeters long and 6 centimeters tall. W",
+     "The net of a right circular cylinder is shown. The rectangle is 20π centimeters long and 15 centimeters tall. ",
+     "The net of a right circular cylinder is shown. The rectangle is 32π centimeters long and 10 centimeters tall. "
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "The right circular cylinder shown has a radius of 10 centimeters and a height of 5 centimeters. Maya drew its ",
+     "The right circular cylinder shown has a radius of 11 centimeters and a height of 16 centimeters. Marcus drew i",
+     "The right circular cylinder shown has a radius of 15 centimeters and a height of 16 centimeters. Luis drew its"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "mc",
+    "samples": [
+     "The net of a right circular cylinder is shown. Each circle has a radius of 17 centimeters, and the rectangle i",
+     "The net of a right circular cylinder is shown. Each circle has a radius of 10 centimeters, and the rectangle i",
+     "The net of a right circular cylinder is shown. Each circle has a radius of 14 centimeters, and the rectangle i"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "The right circular cylinder shown has a radius of 13 centimeters and a height of 19 centimeters. Which net, wi",
+     "The right circular cylinder shown has a radius of 17 centimeters and a height of 19 centimeters. Which net, wi",
+     "The right circular cylinder shown has a radius of 15 centimeters and a height of 9 centimeters. Which net, wit"
+    ]
+   }
+  ]
+ },
+ "MA.7.GR.2.2": {
+  "label": "Real-world cylinder surface area",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "Surface area of a right circular cylinder: SA = 2πr² + 2πrh A cylindrical water tank has a radius of 11 feet a",
+     "Surface area of a right circular cylinder: SA = 2πr² + 2πrh A cylindrical water tank has a radius of 7 feet an",
+     "Surface area of a right circular cylinder: SA = 2πr² + 2πrh A cylindrical water tank has a radius of 3 feet an"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "Surface area of a right circular cylinder: SA = 2πr² + 2πrh A cylindrical can has a radius of 13 centimeters a",
+     "Surface area of a right circular cylinder: SA = 2πr² + 2πrh A cylindrical can has a radius of 5 centimeters an",
+     "Surface area of a right circular cylinder: SA = 2πr² + 2πrh A cylindrical can has a radius of 11 centimeters a"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "Surface area of a right circular cylinder: SA = 2πr² + 2πrh A cylindrical container is made of plastic. It has"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "Surface area of a right circular cylinder: SA = 2πr² + 2πrh A cylindrical gift tin with a lid has a radius of "
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "Surface area of a right circular cylinder: SA = 2πr² + 2πrh A cylindrical water tower has a radius of 11 feet ",
+     "Surface area of a right circular cylinder: SA = 2πr² + 2πrh A cylindrical oatmeal container has a radius of 5 ",
+     "Surface area of a right circular cylinder: SA = 2πr² + 2πrh A cylindrical water tank is open at the top. It ha"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "Surface area of a right circular cylinder: SA = 2πr² + 2πrh A company makes a closed cylindrical can with a ra"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "Surface area of a right circular cylinder: SA = 2πr² + 2πrh A cylindrical grain silo has a radius of 7 feet an",
+     "Surface area of a right circular cylinder: SA = 2πr² + 2πrh A cylindrical grain silo has a radius of 9 feet an",
+     "Surface area of a right circular cylinder: SA = 2πr² + 2πrh A cylindrical grain silo has a radius of 5 feet an"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "Surface area of a right circular cylinder: SA = 2πr² + 2πrh A cylindrical water tank stands on the ground. It "
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "sa",
+    "samples": [
+     "Surface area of a right circular cylinder: SA = 2πr² + 2πrh A company packages salt in cylindrical containers.",
+     "Surface area of a right circular cylinder: SA = 2πr² + 2πrh A company packages paint primer in cylindrical con",
+     "Surface area of a right circular cylinder: SA = 2πr² + 2πrh A company packages popcorn in cylindrical containe"
+    ]
+   }
+  ]
+ },
+ "MA.7.GR.2.3": {
+  "label": "Volume of a cylinder",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "A cylindrical swimming pool has a diameter of 20 feet and a height of 3 feet. What is the volume of the pool? ",
+     "A cylindrical paint can has a diameter of 8 inches and a height of 9 inches. What is the volume of the can? Ro",
+     "A cylindrical water tank has a diameter of 28 feet and a height of 11 feet. What is the volume of the tank? Ro"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "A cylindrical container has a diameter of 16 inches and a height of 4 inches. What is the volume of the contai",
+     "A cylindrical container has a diameter of 12 inches and a height of 4 inches. What is the volume of the contai",
+     "A cylindrical container has a diameter of 8 inches and a height of 20 inches. What is the volume of the contai"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "A cylindrical tank has a radius of 10 feet and a height of 14 feet. What is the volume of the tank? Round your",
+     "A cylindrical tank has a radius of 2 feet and a height of 7 feet. What is the volume of the tank? Round your a",
+     "A cylindrical tank has a radius of 10 feet and a height of 15 feet. What is the volume of the tank? Round your"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "A right circular cylinder has a radius of 10 units and a height of 8 units. What is the volume of the cylinder",
+     "A right circular cylinder has a radius of 4 units and a height of 14 units. What is the volume of the cylinder",
+     "A right circular cylinder has a radius of 6 units and a height of 5 units. What is the volume of the cylinder,"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "A storage tin is shaped like the right circular cylinder shown. Its radius is 3.5 inches and its height is 4 i",
+     "A candle is shaped like the right circular cylinder shown. Its radius is 4.5 inches and its height is 6 inches",
+     "A storage tin is shaped like the right circular cylinder shown. Its radius is 3.5 inches and its height is 7 i"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "A cylindrical storage tank has a volume of 540 cubic feet and a radius of 3.4 feet. What is the height of the ",
+     "A cylindrical water tank has a volume of 512 cubic meters and a radius of 3.2 meters. What is the height of th",
+     "A cylindrical water tank has a volume of 280 cubic meters and a radius of 3.2 meters. What is the height of th"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "A cylindrical container with a radius of 2 centimeters holds water 10 centimeters deep. All of the water is po",
+     "A cylindrical container with a radius of 4 centimeters holds water 3 centimeters deep. All of the water is pou",
+     "A cylindrical container with a radius of 4 centimeters holds water 34 centimeters deep. All of the water is po"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "mc",
+    "samples": [
+     "Cylinder A has a radius of 2 centimeters and a height of 10 centimeters. Cylinder B has a radius of 6 centimet",
+     "Cylinder A has a radius of 4 centimeters and a height of 10 centimeters. Cylinder B has a radius of 8 centimet",
+     "Cylinder A has a radius of 2 centimeters and a height of 8 centimeters. Cylinder B has a radius of 6 centimete"
+    ]
+   }
+  ]
+ },
+ "MA.7.DP.1.1": {
+  "label": "Choose a measure of center or variation",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "mc",
+    "samples": [
+     "The prices of the board games in a store, in dollars, are 21, 29, 36, 47, 49, 245. Which measure of center bes",
+     "The yearly salaries at a small shop, in thousands of dollars, are 21, 30, 36, 41, 52, 182. Which measure of ce",
+     "The prices of the jackets in a store, in dollars, are 25, 31, 35, 41, 52, 265. Which measure of center best de"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "mc",
+    "samples": [
+     "The numbers of customers at a food truck on six days are 30, 39, 50, 53, 60, 63. Which measure of variation be",
+     "The numbers of pages a student read on six days are 31, 38, 50, 53, 61, 231. Which measure of variation better",
+     "The numbers of pages a student read on six days are 31, 37, 46, 54, 61, 231. Which measure of variation better"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "mc",
+    "samples": [
+     "The box plot shows the ages of the members of a hiking club. Which measure of variation better describes the s",
+     "The box plot shows the minutes of practice for the members of a band. Which measure of variation better descri",
+     "The box plot shows the points scored per game by a basketball team. Which measure of variation better describe"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "The histogram shows the numbers of minutes 25 students spent on homework last night. Which measure of center b",
+     "The histogram shows the commute times, in minutes, of 25 workers at an office. Which measure of center best de",
+     "The histogram shows the ages of the 25 people at a family picnic. Which measure of center best describes a typ"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "mc",
+    "samples": [
+     "The line plot shows the number of minutes each bus arrived after its scheduled time. Which measure of center b",
+     "The line plot shows the number of pets in each household surveyed. Which measure of center best describes a ty",
+     "The line plot shows the number of books read last month by each student. Which measure of center best describe"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "mc",
+    "samples": [
+     "The stem-and-leaf plot shows the ages of the people in a pottery class. Key: 4 | 5 means 45. Stem: 4, 5, 6 | L",
+     "The stem-and-leaf plot shows the ages of the people in a pottery class. Key: 2 | 2 means 22. Stem: 2, 3, 4 | L",
+     "The stem-and-leaf plot shows the scores on a science quiz. Key: 5 | 2 means 52. Stem: 0, 1, 2, 3, 4, 5, 6, 7 |"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "ms",
+    "samples": [
+     "The prices, in dollars, of eight used bikes at a yard sale are 19, 23, 17, 23, 22, 53, 23, 23. One value in th",
+     "The prices, in dollars, of eight used bikes at a yard sale are 35, 45, 44, 33, 40, 33, 14, 36. One value in th",
+     "The numbers of minutes eight students spent on homework last night are 32, 82, 32, 23, 29, 21, 31, 23. One val"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "mc",
+    "samples": [
+     "The household incomes of nine families in a neighborhood, in thousands of dollars, are 37, 40, 55, 39, 39, 43,",
+     "The prices, in dollars, of nine T-shirts at a store are 14, 28, 26, 19, 23, 25, 14, 13, 18. The store adds a d",
+     "The prices, in dollars, of nine T-shirts at a store are 24, 24, 20, 25, 16, 21, 12, 15, 23. The store adds a d"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "The yearly salaries, in thousands of dollars, of the seven people at a small company are 47, 48, 42, 236, 41, ",
+     "The prices, in dollars, of seven used bikes for sale are 72, 481, 81, 75, 65, 86, 92. Ben says a typical value",
+     "The yearly salaries, in thousands of dollars, of the seven people at a small company are 34, 46, 32, 47, 202, "
+    ]
+   }
+  ]
+ },
+ "MA.7.DP.1.2": {
+  "label": "Compare two data sets",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "mc",
+    "samples": [
+     "Route A: 35, 39, 32, 38, 36 Route B: 26, 31, 34, 35, 29 The lists show the times, in minutes, of five trips on",
+     "Team A: 56, 60, 56, 61, 57 Team B: 51, 53, 49, 57, 55 The lists show the points scored in five games by each o",
+     "Class 1: 10, 8, 14, 16, 12 Class 2: 14, 20, 15, 15, 11 The lists show the numbers of books read last month by "
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "mc",
+    "samples": [
+     "Field A: 34, 36, 37, 38, 40 Field B: 26, 35, 37, 39, 48 The values are kilograms per plot. Which data set is m",
+     "Field A: 22, 24, 25, 26, 28 Field B: 18, 23, 25, 27, 32 The values are kilograms per plot. Which data set is m",
+     "Field A: 31, 32, 33, 34, 35 Field B: 23, 31, 33, 35, 43 The values are kilograms per plot. Which data set is m"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "mc",
+    "samples": [
+     "The line plots show the numbers of pages read last night by the 9 students in each of two reading groups. Whic",
+     "The line plots show the numbers of minutes of exercise per day for the 9 members of each of two groups. Which ",
+     "The line plots show the numbers of push-ups done in one minute by the 9 students in each of two classes. Which"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "The box plots show the quiz scores of the students in two classes. Which conclusion about the two classes is s",
+     "The box plots show the wait times, in minutes, at two clinics. Which conclusion about the two clinics is suppo",
+     "The box plots show the times, in minutes, of trips on two bus routes. Which conclusion about the two routes is"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "mc",
+    "samples": [
+     "The box plots show the times, in seconds, that the swimmers on two teams took to swim one lap. The two teams h",
+     "The box plots show the heights, in centimeters, of the sunflowers grown in two gardens. The two gardens have t",
+     "The box plots show the numbers of books read over the summer by the students in two classes. The two classes h"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "mc",
+    "samples": [
+     "The line plots show the numbers of goals two soccer teams scored in their games. Use the mean and the range of",
+     "The line plots show the numbers of hours of sleep the students in two clubs got last night. Use the mean and t",
+     "The line plots show the numbers of books the students in two reading groups read last month. Use the mean and "
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "mc",
+    "samples": [
+     "Ava: 23, 23, 19, 26, 27, 19, 25, 159, 21, 19 Sam: 22, 25, 30, 29, 26, 22, 27, 25, 30, 24 The lists show the nu",
+     "Truck A: 36, 37, 156, 32, 37, 30, 35, 37, 35, 32 Truck B: 39, 33, 35, 34, 39, 33, 38, 39, 41, 37 The lists sho",
+     "Maya: 14, 13, 14, 12, 10, 40, 12, 10, 9, 8 Leo: 17, 10, 15, 17, 13, 10, 12, 16, 10, 17 The lists show the numb"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "mc",
+    "samples": [
+     "The histograms show the heights, in inches, of 20 plants of each of two kinds. Which data set has more variabi",
+     "The histograms show the scores of 20 players in each of two bowling leagues. Which data set has more variabili"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "The two-sided stem-and-leaf plot shows the quiz scores for 9 students in each of two classes. Read the leaves ",
+     "The two-sided stem-and-leaf plot shows the customers served each hour for 9 hours at each of two stores. Read ",
+     "The two-sided stem-and-leaf plot shows the minutes spent on homework each night for 9 juniors and 9 seniors. R"
+    ]
+   }
+  ]
+ },
+ "MA.7.DP.1.3": {
+  "label": "Predictions from a random sample",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "A store has 2600 shoppers. Based on a random sample of 100 shoppers, it is predicted that about 390 of the 260",
+     "A store has 3000 shoppers. Based on a random sample of 150 shoppers, it is predicted that about 1200 of the 30",
+     "A gym has 1500 members. Based on a random sample of 400 members, it is predicted that about 975 of the 1500 me"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "mc",
+    "samples": [
+     "In a random sample of 150 households, 30 own a pet. Based on this sample, about how many of the 2000 household",
+     "In a random sample of 300 passengers, 75 check a bag. Based on this sample, about how many of the 1000 passeng",
+     "In a random sample of 300 households, 60 own a pet. Based on this sample, about how many of the 800 households"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "A factory checks a random sample of 500 marbles and finds that 100 of them are red. Based on this sample, abou",
+     "A factory checks a random sample of 400 marbles and finds that 200 of them are red. Based on this sample, abou",
+     "A factory checks a random sample of 500 seeds and finds that 100 of them sprouted. Based on this sample, about"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "To predict how many of the 900 students in the school want a later start time, Lena asked the 35 members of th",
+     "To predict how many of the 1000 students in the school would join an after-school club, Mateo asked the 37 stu",
+     "To predict how many of the 3900 residents in the town would use a new bike lane, Omar asked the 38 people at t"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "A random sample of 250 students at a school were asked which kind of milk they prefer. The results are shown i",
+     "A random sample of 100 students at a school were asked which kind of milk they prefer. The results are shown i",
+     "A random sample of 200 students at a school were asked which way of getting to school they prefer. The results"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "A random sample of 280 students at a school were asked which sport they like best. The results are shown in th",
+     "A random sample of 120 students at a school were asked which sport they like best. The results are shown in th",
+     "A random sample of 160 students at a school were asked which sport they like best. The results are shown in th"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "To estimate how many bass live in a reservoir, biologists caught 36 bass, tagged them and released them. Later",
+     "To estimate how many trout live in a stretch of river, biologists caught 45 trout, tagged them and released th",
+     "To estimate how many trout live in a stretch of river, biologists caught 50 trout, tagged them and released th"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "The mayor wants to predict how many of the 5000 residents in the town would use a new bike lane. Two random sa",
+     "The mayor wants to predict how many of the 2200 residents in the town would use a new bike lane. Two random sa",
+     "The manager wants to predict how many of the 2600 customers in the store want the store to open earlier. Two r"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "A school has 1200 students. To predict how many of them want more art classes, Lena asked a random sample of 2",
+     "A school has 2400 students. To predict how many of them want more art classes, Lena asked a random sample of 2",
+     "A school has 1500 students. To predict how many of them want more art classes, Lena asked a random sample of 1"
+    ]
+   }
+  ]
+ },
+ "MA.7.DP.1.4": {
+  "label": "Circle graphs",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "The circle graph shows how 280 students answered a survey. How many students chose Walk?",
+     "The circle graph shows how 720 students answered a survey. How many students chose Car?",
+     "The circle graph shows how 620 students answered a survey. How many students chose Salad?"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "The circle graph shows how 360 people answered a survey. How many more people chose Spring than Winter?",
+     "The circle graph shows how 760 people answered a survey. How many more people chose Yellow than Red?",
+     "The circle graph shows how 340 people answered a survey. How many more people chose Science than Fiction?"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "A circle graph of survey results has four sections: Cats, Dogs, Birds and Fish. The Cats section is 2/5 of the",
+     "A circle graph of survey results has four sections: Cats, Dogs, Birds and Fish. The Cats section is 3/10 of th",
+     "A circle graph of survey results has four sections: Basketball, Soccer, Baseball and Tennis. The Basketball se"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "740 students were asked which lunch they like best. In a circle graph of the results, the Pasta section has a ",
+     "140 people were asked which sport they like best. In a circle graph of the results, the Swimming section has a",
+     "680 students were asked how they get to school. In a circle graph of the results, the Bus section has a centra"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "A survey asked 140 students which class is their favorite. The results are shown in the table. Science: 28 | M",
+     "A survey asked 220 students how they get to school. The results are shown in the table. Walk: 66 | Bicycle: 66",
+     "A survey asked 280 people which pet they would most like to have. The results are shown in the table. Dogs: 28"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "Every seventh grader at a school was asked what they like to do after school. The circle graph shows the resul",
+     "Every seventh grader at a school was asked which sport they like best. The circle graph shows the results. 22 ",
+     "Every seventh grader at a school was asked which lunch they like best. The circle graph shows the results. 42 "
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "A survey asked 520 people which pet they would most like to have. The results are shown in the table. Dogs: 15",
+     "A survey asked 120 people which pet they would most like to have. The results are shown in the table. Dogs: 30",
+     "A survey asked 560 students how they get to school. The results are shown in the table. Walk: 56 | Bicycle: 16"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "A survey asked 120 students which color they like best. The results are shown in the table. Red: 30 | Blue: 12",
+     "A survey asked 120 students which lunch they like best. The results are shown in the table. Pizza: 42 | Tacos:",
+     "A survey asked 340 students which sport they like best. The results are shown in the table. Soccer: 68 | Tenni"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "ms",
+    "samples": [
+     "540 students were asked which lunch they like best. The circle graph shows the results. Select all the stateme",
+     "640 students were asked which lunch they like best. The circle graph shows the results. Select all the stateme",
+     "420 students were asked how they get to school. The circle graph shows the results. Select all the statements "
+    ]
+   }
+  ]
+ },
+ "MA.7.DP.1.5": {
+  "label": "Choose an appropriate graph",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "mc",
+    "samples": [
+     "A class surveyed 300 students about the sport they like best. Soccer: 60 Basketball: 45 Track: 45 Swimming: 30",
+     "A class surveyed 140 students about the way they get to school. Bus: 28 Car: 21 Walk: 14 Bike: 49 Train: 28 Th",
+     "A class surveyed 360 students about the sport they like best. Soccer: 54 Basketball: 36 Track: 54 Swimming: 14"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "mc",
+    "samples": [
+     "A coach recorded the times, in seconds, of 15 runners: 89, 62, 83, 78, 64, 86, 63, 47, 59, 45, 62, 43, 63, 51,",
+     "A student recorded the number of pets in 12 homes: 0, 4, 1, 2, 3, 1, 4, 0, 1, 1, 2, 1 The student wants a disp",
+     "A nurse recorded the ages of 15 patients: 24, 47, 47, 40, 52, 43, 33, 41, 42, 45, 26, 64, 46, 55, 43 The nurse"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "mc",
+    "samples": [
+     "A farmer recorded the weights of 150 apples, measured to the nearest gram. Almost every value is different. Th",
+     "A gardener recorded the heights of 120 sunflowers, measured to the nearest centimeter. Almost every value is d",
+     "A race official recorded the finishing times of 250 runners in a race, to the nearest minute. Almost every val"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "sa",
+    "samples": [
+     "The data shows the books read last month for 12 students: 4, 1, 6, 1, 6, 0, 6, 1, 0, 5, 2, 3 Choose the displa",
+     "The data shows the books read last month for 16 students: 5, 1, 4, 4, 7, 5, 6, 6, 3, 7, 3, 1, 5, 2, 2, 4 Choos",
+     "The data shows the number of pets for 10 students: 4, 3, 2, 1, 0, 0, 1, 2, 2, 0 Choose the display that shows "
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "mc",
+    "samples": [
+     "A student recorded the 580 kilograms of material collected at a recycling drive. Paper: 232 | Plastic: 174 | G",
+     "A student recorded how a family divides its monthly income of $5,700. Rent: $1,995 | Food: $1,710 | Transporta",
+     "A student recorded how a family divides its monthly income of $5,400. Rent: $2,160 | Food: $1,620 | Transporta"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "The two displays show the same data: the scores of 20 students on a math test. Which display can be used to fi",
+     "The two displays show the same data: the numbers of minutes 20 students spent reading over the weekend. Which "
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "A teacher recorded the numbers of minutes 20 students spent reading on Sunday: 37, 17, 42, 52, 67, 62, 16, 43,",
+     "A teacher recorded the ages of 20 people in a fitness class: 43, 48, 61, 54, 51, 59, 24, 38, 55, 43, 33, 25, 6",
+     "A teacher recorded the numbers of minutes 20 students spent reading on Sunday: 45, 42, 28, 23, 53, 52, 57, 55,"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "ms",
+    "samples": [
+     "A researcher recorded the test scores of 15 students: 25, 42, 43, 22, 53, 50, 27, 39, 54, 52, 65, 32, 42, 31, ",
+     "A researcher recorded the numbers of minutes 15 students spent on a project: 46, 68, 68, 56, 26, 61, 65, 33, 6",
+     "A researcher recorded the numbers of minutes 15 students spent on a project: 48, 64, 60, 36, 31, 52, 34, 51, 2"
+    ]
+   }
+  ]
+ },
+ "MA.7.DP.2.1": {
+  "label": "Sample space of a simple experiment",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "There are 3 purple, 6 white and 10 yellow marbles in a bag. One marble is chosen at random and its color is re",
+     "There are 12 red, 11 purple, 7 black and 5 blue marbles in a jar. One marble is chosen at random and its color",
+     "There are 11 black, 10 white, 8 purple and 3 blue marbles in a box. One marble is chosen at random and its col"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "The tiles in a box are numbered 3, 5, 5, 9, 9, 1, 9, 6, 5. One tile is drawn at random and its number is recor",
+     "A set of cards shows these colored shapes, one on each card: red square, yellow heart, green star, green star,",
+     "A set of cards shows these colored shapes, one on each card: red triangle, red triangle, blue triangle, yellow"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "A fair 6-sided die has these shapes on its faces: square, circle, square, triangle, star, star. The die is rol",
+     "A fair 6-sided die has these numbers on its faces: 4, 2, 8, 7, 4, 7. The die is rolled once and the number on ",
+     "A fair 8-sided die has these shapes on its faces: star, square, circle, star, square, square, circle, triangle"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "Experiment 1: A spinner has 6 equal sections colored blue, green, green, green, green and yellow. It is spun o",
+     "Experiment 1: A spinner has 5 equal sections colored orange, purple, orange, green and green. It is spun once ",
+     "Experiment 1: A spinner has 5 equal sections colored red, green, red, green and yellow. It is spun once and th"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "etc",
+    "samples": [
+     "A spinner has 6 equal sections: 1 is red, 2 are yellow, 2 are orange and 1 is green. The spinner is spun once ",
+     "A spinner has 6 equal sections: 1 is yellow, 3 are red, 1 is purple and 1 is green. The spinner is spun once a",
+     "A spinner has 6 equal sections: 1 is green, 2 are red and 3 are purple. The spinner is spun once and the color"
+    ]
+   },
+   {
+    "gen": 5,
+    "rt": "mc",
+    "samples": [
+     "Each letter of the word FUNCTION is written on its own card, one card for each letter, and the cards are place",
+     "Each letter of the word AVERAGE is written on its own card, one card for each letter, and the cards are placed",
+     "Each letter of the word SCALENE is written on its own card, one card for each letter, and the cards are placed"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "ms",
+    "samples": [
+     "A spinner has equal sections. It is spun once and the color it lands on is recorded. The sample space for this",
+     "A bag holds only marbles. One marble is drawn at random and its color is recorded. The sample space for this e"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "ms",
+    "samples": [
+     "In each experiment below, the color is recorded. Select all the experiments whose sample space is {yellow, blu",
+     "In each experiment below, the color is recorded. Select all the experiments whose sample space is {orange, yel",
+     "In each experiment below, the color is recorded. Select all the experiments whose sample space is {blue, orang"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "match",
+    "samples": [
+     "There are 7 cards, and each card shows one colored shape: red square, blue triangle, blue square, red square, ",
+     "There are 7 cards, and each card shows one colored shape: green square, red square, green star, red square, re",
+     "There are 7 cards, and each card shows one colored shape: red star, red triangle, green star, red square, red "
+    ]
+   }
+  ]
+ },
+ "MA.7.DP.2.2": {
+  "label": "Interpret and compare probabilities",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "mc",
+    "samples": [
+     "The probability that the bus is late tomorrow is 30%. A spinner is spun. The probability that it lands on gree",
+     "The probability that the Tigers win their next game is 85%. The probability that the seed sprouts this week is",
+     "The probability that the Tigers win their next game is 3/8. A card is drawn from a set of letter cards. The pr"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "mc",
+    "samples": [
+     "The probability that Mia makes her next free throw is 3/8. The probability that Jon makes his next free throw ",
+     "The probability that the Tigers win their next game is 1/3. The probability that the Lions win their next game",
+     "The probability that Mia makes her next free throw is 5/8. The probability that Jon makes his next free throw "
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "mc",
+    "samples": [
+     "The probability of a bus arriving on time is reported as 65%. Is this event likely or unlikely? Explain using ",
+     "The probability of a delayed flight is reported as 10%. Is this event likely or unlikely? Explain using the pr",
+     "The probability of a delayed flight is reported as 30%. Is this event likely or unlikely? Explain using the pr"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "Which value cannot be the probability of an event?"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "match",
+    "samples": [
+     "A probability is given for each event. Describe each event as likely, unlikely or neither."
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "ms",
+    "samples": [
+     "A weather forecast gives P(rain on Saturday) = 0.7 and P(rain on Sunday) = 60%. Select all the true statements",
+     "A weather forecast gives P(rain on Saturday) = 0.3 and P(rain on Sunday) = 1/5. Select all the true statements",
+     "A weather forecast gives P(rain on Saturday) = 0.65 and P(rain on Sunday) = 45%. Select all the true statement"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "Four events and their probabilities are given. Event A: The school bus is late. P(A) = 0.6. Event B: It rains ",
+     "Four events and their probabilities are given. Event A: A marble drawn from a bag is red. P(A) = 0.5. Event B:",
+     "Four events and their probabilities are given. Event A: A spinner lands on green. P(A) = 65%. Event B: The Tig"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "A fair 12-sided die has faces numbered 1 through 12. The probability that it rains tomorrow is 55%. Which is m",
+     "A bag holds 3 green, 9 blue and 8 yellow marbles. The probability that the school bus is late tomorrow is 40%.",
+     "A spinner has 16 equal sections, and 4 of them are red. The probability that it rains tomorrow is 0.6. Which i"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "ms",
+    "samples": [
+     "Three events and their probabilities are given. P(Mia makes her next free throw) = 0.75 P(a card drawn from a ",
+     "Three events and their probabilities are given. P(a card drawn from a set of letter cards shows a vowel) = 0.8",
+     "Three events and their probabilities are given. P(the bus is late tomorrow) = 3/10 P(a marble drawn from a bag"
+    ]
+   }
+  ]
+ },
+ "MA.7.DP.2.3": {
+  "label": "Find theoretical probability of an event",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "mc",
+    "samples": [
+     "A bag holds 30 marbles, and 6 of them are red. One marble is drawn at random. What is the probability of drawi",
+     "A bag holds 24 marbles, and 19 of them are red. One marble is drawn at random. What is the probability of draw",
+     "A bag holds 18 marbles, and 14 of them are red. One marble is drawn at random. What is the probability of draw"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "A fair 20-sided die has faces numbered 1 through 20. The die is rolled once. What is the probability of rollin",
+     "A fair 10-sided die has faces numbered 1 through 10. The die is rolled once. What is the probability of rollin",
+     "A fair 8-sided die has faces numbered 1 through 8. The die is rolled once. What is the probability of rolling "
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "Letter cards for the word COEFFICIENT are placed in a bag, one card for each letter. One card is drawn at rand",
+     "Letter cards for the word STATISTICS are placed in a bag, one card for each letter. One card is drawn at rando",
+     "Letter cards for the word EXPONENT are placed in a bag, one card for each letter. One card is drawn at random."
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "sa",
+    "samples": [
+     "A bag has 6 red, 6 blue and 3 green marbles. One marble is drawn at random. What is the probability of drawing",
+     "A bag has 7 red, 5 blue and 6 green marbles. One marble is drawn at random. What is the probability of drawing",
+     "A bag has 3 red, 7 blue and 2 green marbles. One marble is drawn at random. What is the probability of drawing"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "A standard deck has 52 cards: 13 cards (ace, 2 through 10, jack, queen and king) in each of four suits — heart"
+    ]
+   },
+   {
+    "gen": 5,
+    "rt": "sa",
+    "samples": [
+     "A fair spinner has 5 equal sections. 2 sections are red. The spinner is spun once. What is the probability tha",
+     "A fair spinner has 25 equal sections. 19 sections are yellow. The spinner is spun once. What is the probabilit",
+     "A fair spinner has 20 equal sections. 3 sections are purple. The spinner is spun once. What is the probability"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "A fair 20-sided die has faces numbered 1 through 20. The die is rolled once. What is the probability of rollin",
+     "A fair 10-sided die has faces numbered 1 through 10. The die is rolled once. What is the probability of rollin",
+     "A fair 12-sided die has faces numbered 1 through 12. The die is rolled once. What is the probability of rollin"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "A bag holds 20 marbles. Each marble is red, blue or green. One marble is drawn at random. P(red) = 3/10 and P(",
+     "A bag holds 80 marbles. Each marble is red, blue or green. One marble is drawn at random. P(red) = 2/5 and P(b",
+     "A bag holds 50 marbles. Each marble is red, blue or green. One marble is drawn at random. P(red) = 3/10 and P("
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "sa",
+    "samples": [
+     "A spinner has 10 equal sections numbered 1 through 10. Sections 1 to 4 are blue, sections 5 and 6 are green, a",
+     "A spinner has 10 equal sections numbered 1 through 10. Sections 1 to 6 are blue, sections 7 and 8 are green, a",
+     "A spinner has 8 equal sections numbered 1 through 8. Sections 1 to 3 are blue, sections 4 and 5 are green, and"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "sa",
+    "samples": [
+     "A standard deck has 52 cards: 13 cards (ace, 2 through 10, jack, queen and king) in each of four suits — heart"
+    ]
+   }
+  ]
+ },
+ "MA.7.DP.2.4": {
+  "label": "Experimental vs theoretical probability",
+  "reg": [
+   {
+    "gen": 0,
+    "rt": "sa",
+    "samples": [
+     "A fair coin is tossed 600 times and lands on heads 318 times. What is the experimental probability of landing ",
+     "A fair coin is tossed 600 times and lands on heads 288 times. What is the experimental probability of landing ",
+     "A fair coin is tossed 200 times and lands on heads 98 times. What is the experimental probability of landing o"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "A fair 12-sided die is rolled 200 times. It lands on a 9 exactly 18 times. Part A. What is the experimental pr",
+     "A fair 6-sided die is rolled 600 times. It lands on a 6 exactly 103 times. Part A. What is the experimental pr",
+     "A fair 12-sided die is rolled 200 times. It lands on a 12 exactly 15 times. Part A. What is the experimental p"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "mc",
+    "samples": [
+     "A spinner has 10 equal sections, and 5 of them are red. In a simulation the spinner is spun 200 times and land",
+     "A spinner has 4 equal sections, and 2 of them are red. In a simulation the spinner is spun 200 times and lands",
+     "A spinner has 5 equal sections, and 2 of them are red. In a simulation the spinner is spun 200 times and lands"
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "mc",
+    "samples": [
+     "Two students each simulate rolling a fair die. One runs 130 trials and the other runs 1,500 trials. Whose expe",
+     "Two students each simulate rolling a fair die. One runs 290 trials and the other runs 2,300 trials. Whose expe",
+     "Two students each simulate spinning a fair spinner. One runs 7,500 trials and the other runs 160 trials. Whose"
+    ]
+   },
+   {
+    "gen": 4,
+    "rt": "sa",
+    "samples": [
+     "A bag contains only blue marbles and green marbles. When one marble is drawn at random, the probability that i",
+     "A bag contains only purple marbles and blue marbles. When one marble is drawn at random, the probability that ",
+     "A bag contains only green marbles and purple marbles. When one marble is drawn at random, the probability that"
+    ]
+   }
+  ],
+  "hr": [
+   {
+    "gen": 0,
+    "rt": "mc",
+    "samples": [
+     "Three bags each hold 20 marbles. Bag A has 6 red marbles, Bag B has 7 red marbles and Bag C has 8 red marbles;",
+     "Three bags each hold 40 marbles. Bag A has 8 red marbles, Bag B has 10 red marbles and Bag C has 12 red marble",
+     "Three bags each hold 20 marbles. Bag A has 7 red marbles, Bag B has 8 red marbles and Bag C has 9 red marbles;"
+    ]
+   },
+   {
+    "gen": 1,
+    "rt": "sa",
+    "samples": [
+     "A bag holds 25 marbles. Each marble is blue, green or yellow, but the number of each color is not known. A stu",
+     "A bag holds 25 marbles. Each marble is yellow, green or blue, but the number of each color is not known. A stu",
+     "A bag holds 40 marbles. Each marble is red, blue or yellow, but the number of each color is not known. A stude"
+    ]
+   },
+   {
+    "gen": 2,
+    "rt": "ms",
+    "samples": [
+     "A student rolls a fair 6-sided die 240 times and records how often it lands on 4. It lands on 4 a total of 34 ",
+     "A student rolls a fair 10-sided die 120 times and records how often it lands on 6. It lands on 6 a total of 8 ",
+     "A student rolls a fair 8-sided die 160 times and records how often it lands on 2. It lands on 2 a total of 14 "
+    ]
+   },
+   {
+    "gen": 3,
+    "rt": "sa",
+    "samples": [
+     "The first group tosses a fair coin 100 times and gets heads a total of 42 times. The second group tosses a fai",
+     "The first group tosses a fair coin 100 times and gets heads a total of 57 times. The second group tosses a fai",
+     "The first group spins a fair spinner with 5 equal sections, one of them blue, 100 times and gets blue a total "
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,68 @@
+C-DP.2.4 | recheck | 3 | [LAYOUT, fixed] answer choices cut off | layout
+C-GR.1.2 | recheck | 3 | [LAYOUT, fixed] figure cut, score line missing | layout
+C-GR.1.1 | recheck | — | [LAYOUT, fixed] score line missing | layout
+C-NSO.1.2 | check | 3 | Stem reads "equivalent to 0.15" with no visible repeating bar in the text extract; if the vinculum does not print, 3/20 is also correct and the keyed 5/33 is wrong | verify the vinculum renders in print; otherwise write "0.151515…" or drop the 3/20 distractor
+C-DP.2.1 | check | 4 | Stem states "A deck has 32 cards," so the keyed answer (32 outcomes) is in the first sentence | reword: give only "numbers 1–8 in each of 4 suits" and ask for the count
+C-DP.2.1 | comparison | 2 | Same flaw: "A deck has 24 cards" hands students the answer | remove the total from the stem
+C-DP.2.1 | check | 5 | Rigor item is the same trick as regular item 3 (colors repeated across sections, record the color) and no harder | rigor bank needs a two-attribute single draw (number AND color) or "which experiment has a sample space of 6 outcomes"
+C-DP.2.1 | check | 2–5 | Four of five items are the identical "How many outcomes are in the sample space?" MC template | add list / organized-table / "which list is the sample space" error-analysis generators
+C-DP.2.3 | check | 3 | Stem omits "one marble is drawn at random" and does not specify answer form | match the wording of the other marble items
+C-DP.2.3 | check | 2, 3 | Items 2 and 3 are the same bag-of-marbles P(red) template | add a different-context generator (letters in a word, number cube with a compound condition)
+C-DP.2.2 | check | 5 | Rigor item (match 0.1/0.5/0.9 to unlikely/likely) is the Level-2 skill and easier than regular item 4 | rigor bank: compare probabilities given in mixed forms (3/8 vs 0.4 vs 35%) and justify the order
+C-DP.2.2 | check | 2, 3, 5 | Three of five items are likely/unlikely classification; only one compares probabilities | add a mixed-form comparison generator
+C-DP.2.4 | check | 5 | Rigor item is an MC version of what regular item 4 asks constructed-response | rigor bank: predict the count for a larger number of trials from a simulation table, or design a simulation
+C-DP.2.4 | check | 4 | Asks for two fractions and a comparison in one blank; no defined score for a partial answer | split into (a) experimental (b) theoretical (c) compare
+C-GR.1.4 | check | 5 | Rigor item (area from radius with 3.14) is easier than regular items 2 and 4 | rigor bank: semicircle / composite with a circle / find radius given area
+C-GR.1.4 | check | 1, 3, 4, 5 | Four of five are "area from r or d" | add a real-world or part-circle generator
+C-GR.1.3 | check | 5 | Rigor item (C = πd with 3.14) is the same computation as regular item 2 | rigor bank: given circumference find diameter/radius; wheel turns to cover a distance
+C-GR.1.3 | check | 3, 4 | Two "choose the formula" items in one check; nothing tests radius/diameter from circumference | add a "C = 31.4 ft, find the radius" generator
+C-NSO.2.2 | check | 5 | Rigor item asks only for the sign of each product (Level-2 skill) | rigor bank: multi-step expression with fractions and decimals, ask whether sign/size is reasonable
+C-NSO.2.2 | check | 2 | −3/4 − (−3/4) is a − a = 0; tests only sign flipping | generator should avoid equal operands; use unlike denominators
+C-NSO.2.3 | check | 5 | Rigor item uses simple interest I = prt, which is MA.7.AR.3.1 and not yet taught in Unit 3 | rigor bank: multi-step shopping/elevation problem with mixed fractions and decimals, no interest formula
+C-NSO.2.3 | check | 3, 4 | Items 3 and 4 are the same money-in/money-out template; no check item uses fractions or mixed numbers | add a fraction-context generator (recipe/flour style)
+C-NSO.1.2 | check | 4 | 14/15 as a percent is 93⅓%; stem does not say exact or rounded | generator: say "as an exact percent" or only use terminating fractions
+C-NSO.1.2 | check | 1, 5 | Item 5 ("values equivalent to 1 ÷ 3") contains the answer to item 1 (1/3 = 0.3 repeating) | avoid the same fraction twice in one set (build-side dedupe now covers answers; generator could vary the fraction pool)
+C-NSO.1.2 | recheck/comparison | 1 | 4/9 vs 15% and 7/9 vs 20% are so far apart no conversion is needed | generator: pick near values (4/9 vs 45%)
+C-GR.1.1 | comparison | 2 | Same numbers as a check item (7 × 5) | [build-side dedupe now blocks repeated answers]
+C-GR.1.1 | check | 1, 2, 4 | Three of five are A = bh from a labeled figure; no trapezoid/rhombus missing-dimension item | rigor bank: trapezoid with a missing base given area
+C-GR.1.1 | check | 3 | Figure labels "b = 14 cm" and "b₂ = 6 cm" are inconsistent (should be b₁ and b₂) | fix the trapezoid figure labels (also re-check 1)
+C-DP.1.3 | check | 1, 3, 4 | All the "k of n in sample, how many of N" template | add a reverse item (given prediction, find sample proportion) and a reasonableness/bias judgment
+C-GR.1.2 | check | 1, 3 / 2, 4 | Two L-shape-by-removal and two rectangle-plus-triangle; only two templates | add trapezoid+rectangle decomposition and a missing-side-length figure
+C-GR.1.2 | recheck | 1–3 | All three re-check items are rectangle/square + triangle; removal never re-checked | regular bank needs more than two templates
+C-AR.3.1 | check | 4 | Item was item 2 verbatim with "Maya" → "Devon" ($750, 5%, 1 yr) | [build-side dedupe now ignores names]; generator could vary the template more
+C-AR.1.1 | check | 5 | Rigor (6x + 4) − (5x + 1) is the same template as item 1 and easier than item 4 (decimal coefficients) | rigor bank: contextual item, e.g. perimeter of a rectangle with sides (3x + 2) and (x − 1)
+C-NSO.2.1 | check | 2 | No item anywhere in the bank contains a fraction or decimal although the benchmark says rational numbers; 4³ − 48 is a 6th-grade item | add generators with fractions/decimals: ½ × (10 − 2²) + 1.5
+C-NSO.2.1 | check | 4 | |−7| + 3 is one step, far below grade level | generator: |−6.5| − 2 × (−1.5)²
+C-NSO.2.1 | check | 5 | Rigor 6(3² + 4) no harder than regular item 1 | rigor bank: −2 × |3 − 7| + (−8) ÷ 2²
+C-DP.1.4 | check | 5 | No item asks to construct a circle graph or find a sector angle from counts (the benchmark verb is construct) | add a sector-angle generator: 40 surveyed, 14 chose Pizza → 126°
+C-DP.1.4 | recheck | 3 | Figure text shows Swimming 10%, Track 20%, Soccer 40%; the Basketball 30% the key relies on is absent from the figure | check the circle-graph figure prints all labels, or have the key show 100 − 70 first
+C-NSO.1.1 | check | 2 | "Evaluate (4⁴)²" with no calculator forces 4⁸ = 65,536 by hand | generator: ask "write as a single power" (also re-check 2: (6³)², comparison 2: (4³)²)
+C-NSO.1.1 | check | 4 | (10¹)ⁿ = 10² is solved without any exponent law | generator: avoid exponent 1, e.g. (10²)ⁿ = 10⁶
+C-AR.1.2 | check | 2, 3, 4 | Three of four regulars are "distribute one constant over a binomial"; only one item asks whether two expressions are equivalent | add an "are these equivalent? explain" generator
+C-AR.1.2 | check | 3 | "Choose the expression that correctly completes the equation" but no equation is shown, only a sentence with a blank | fix the stem to show "4(2x + 5) = ____" (also comparison 2)
+C-AR.1.2 | check | 2 | Select-all boxes were unlettered while the key says "A; E" | [fixed in the build: boxes lettered]
+C-AR.4.5 | check | 1 | $22.00 × 6 is a single multiplication on a "multi-step" benchmark | generator: two-step, e.g. earns $22/h for 6 h, spends $45 → $87
+C-AR.4.5 | check | 2, 4 | Same "scale the ratio" template, indistinguishable from AR.3.2 items; no better-buy item | add a better-buy / compare-two-situations generator (12 oz for $3.00 vs 20 oz for $4.60)
+C-AR.3.3 | check | 1–4 | All four conversions multiply by the given factor; none divide; three have no context | add divide-direction and contextual generators (How many inches is 38.1 cm?)
+C-AR.3.3 | comparison | 2 | 11 × 3.785 = 41.635 is a rounding tie at the nearest hundredth | generator: avoid products ending in 5 at the third decimal
+C-AR.3.1 | check | 5 | Rigor answer $48.00 identical to item 3's answer | [build-side answer dedupe now blocks this]
+C-AR.3.2 | recheck | 2 | Same answer (12 ft) and ratio as a check item | [build-side answer dedupe]
+C-AR.4.3 | check | 4 | Only "Graph A / Graph B" choices printed with keyed answer Graph C | [layout, fixed] verify in print
+C-AR.4.3 | recheck | 3 (key) | Key reads "each unit of pounds of apples gives 2 cost" | fix the solution-step wording in the generator
+C-AR.4.4 | check | 5 | Rigor item (y = 4x, find y when x = 7) is plain substitution, easiest item on the check | rigor bank: given a graph write the equation and a sentence; given a description build table + equation
+C-AR.4.4 | comparison | 1, 2 | Both answers y = 2x | [build-side answer dedupe]
+C-DP.1.5 | check | 5 | Rigor item is the same template as items 2–4 and the stem describes the answer (bar chart) | rigor bank: two displays of the same data, which better answers a question and why
+C-DP.1.5 | check | 2, 3 | Same parts-of-a-whole → circle graph template with the cue "part of the whole" in the stem | add a numerical-data case (20 scores → box plot / dot plot)
+C-GR.2.1 | check | 4 | Items 2 and 4 used the identical cylinder (r = 3, h = 8) | [build-side dedupe]; generator could vary dimensions more
+C-GR.2.1 | check | 5 | Rigor is the same full-SA computation as item 2 with 3.14 substituted | rigor bank: missing height (SA = 112π, r = 4, find h)
+C-GR.2.2 | check | 1 | Stem says "Which expression gives the area" but choices are evaluated values (90π …) | fix stem wording ("What is the area to be painted?") (also recheck 3, comparison 2)
+C-GR.2.2 | recheck | 2 | Answer 112π identical to a check item | [build-side answer dedupe]
+C-AR.2.2 | check | 1–5 | All five are bare "Solve the equation"; nothing asks to write an equation from a context (benchmark says write and solve) | add a real-world write-and-solve generator
+C-AR.2.1 | check | 3, 4 | 4x ≤ 20 and 5x ≥ 5 same template; no negative coefficient or graph-the-solution item | add x − 3 > −5 "graph your solution" and a negative-coefficient generator
+C-AR.4.2 | check | 1–5 | No item uses a graph although the benchmark names table, graph, equation, description | add a "read k from a line through (1, k)" generator
+C-AR.4.2 | check | 5 | Rigor (pick the meaning of k = 16) takes less work than regular item 4 | fold interpretation into a compute-and-explain item
+C-DP.1.2 | check | 5 | Rigor requires reading quartiles 29, 34, 35, 37 off an axis whose only ticks are 20, 30, 40 | box-plot figure: add unit tick marks or place quartiles on printed gridlines
+C-DP.1.2 | check | 1–5 | Every item is computational; none asks for a conclusion about the two populations | add a "which group typically waits longer, and how do you know?" generator
+C-DP.1.1 | check | 4 | "A typical waiting time calls for a measure of ? (center/variation/…)" is vocabulary only | generator: data set, pick mean vs median and justify (also comparison 2)
+C-DP.1.1 | check | 3 | "Which measure better describes how spread out a typical value is" is awkward; keyed answer depends on an unstated no-outlier judgment | reword to "Which measure of variation best describes the spread, and why?"; make whiskers clearly short (also recheck 2, comparison 1)
+C-AR.4.1 | check | 4 | Select-all key refers to letters but page had unlettered boxes | [fixed in the build]

@@ -1,0 +1,3254 @@
+### PRIOR FLAGS (edition 2; check each against the new text below)
+C-AR.4.5 | check | 1–4 | PERSISTS: all unit-rate-then-scale; no compare-two-offers item, so scale L4 is untestable; item 2 is the same template as AR.3.2 | add a better-buy generator (3½ m for $9.80 vs 5 m for $13.50)
+C-AR.4.5 | check | 5 | grid's minutes axis labeled 0, 50, 100 but the answer is 120 minutes; key plots (12, ¼), not on a labeled gridline | extend the axis to 150 or change the ride to 2 miles; plot (48, 1) and (96, 2)
+C-DP.1.4 | check | 1 vs 5 | the five-sector construction (item 1) is far more work than the rigor and has no scoring rule as one point | make the construction the rigor with a rule (3–4 categories); replace item 1 with a single central-angle item
+C-AR.3.3 | check | 2, 3 | two consecutive context-free one-step multiplications; no time/currency conversion although L3 names them | replace item 3 with a contextual two-step or a time/currency conversion
+C-NSO.2.1 | check | 1, 2, 4, 5 | absolute value in 4 of 5; regulars decimal-only; L4 (find and explain an error) has no item; "24 − 4|1.27 − …|" implied multiplication vs "4 × |…|" on the same page; (−1.5)³ ÷ 5 heavier than the rigor | one fraction regular; an error-analysis generator; print the × everywhere; use (−1.5)² or ÷ 2
+C-AR.1.1 | check | 5 | L4 is "write and simplify from a situation" but the rigor is symbolic (missing subtrahend) | add the contextual rigor (perimeter of a rectangle with sides 3x + 2 and x − 1); keep the subtrahend item as a regular
+C-AR.1.2 | check | 5 | 37/3 x as a leading coefficient is contrived; no factored-equivalent item on the check although L4 names factoring | generate from the target (7/3 x − 5/3(3x − 9)); move a factoring item into the check
+
+
+==================== C-AR.3.3  (MA.7.AR.3.3, Unit 6: Multi-Step Problems With Proportional Relationships) ====================
+--- SCALE: {"goal": "I can convert units using proportional reasoning.", "l2": "I can set up a ratio between two units.", "l3": "I can convert between units of length, mass, volume, time, or currency using a conversion factor.", "l4": "I can solve a multi-step conversion problem across measurement systems and check the result."}
+--- CHECK ---
+7th Grade Math · Weekly Check · Unit 6                                                                                                C-AR.3.3
+Benchmark: MA.7.AR.3.3 · Unit conversions across measurement systems                                       Student code: ________ Calculator: yes
+
+ Learning goal: I can convert units using proportional reasoning. (circle your level after scoring)
+  4    I can solve a multi-step conversion problem across measurement systems and check the result.
+  3    I can convert between units of length, mass, volume, time, or currency using a conversion factor.
+  2    I can set up a ratio between two units.
+  1    I need help to start this benchmark.
+
+
+ 1.
+      1 kilogram ≈ 2.2 pounds.
+
+
+ A suitcase weighs 40 pounds. What is its mass in kilograms, to the nearest tenth?
+      A. 1.8 kilograms                                                      B. 37.8 kilograms
+      C. 18.2 kilograms                                                     D. 88.0 kilograms
+
+
+
+
+ 2. On one day, 1 U.S. dollar could be exchanged for 0.9 Swiss francs.
+
+ Maya exchanged $100.00 for Swiss francs and then spent 31.25 Swiss francs on a meal. How many Swiss francs did
+ Maya have left?
+
+
+
+
+                                                                                                                                         Turn over →
+
+                                                                                                                                   DPP Check Bank · p. 83
+7th Grade Math · Weekly Check · Unit 6 (continued)                                                                C-AR.3.3
+Benchmark: MA.7.AR.3.3 · Unit conversions across measurement systems                                   Student code: ________
+
+ 3.
+      1 inch = 2.54 centimeters.
+
+
+ A poster is 196 centimeters wide. How many inches wide is the poster? Round to the nearest tenth.
+
+
+
+
+ 4.
+      1 hour = 60 minutes.
+
+ Nadia is paid $18.40 for each hour of work. On Saturday Nadia worked 195 minutes. How much was Nadia paid for
+ Saturday?
+
+
+
+
+ 5. Store A sells cheddar cheese for $7.29 per pound. Store B sells cheddar cheese for $17.05 per kilogram.
+ 1 kilogram ≈ 2.2 pounds.
+
+ Which store charges less per pound, and how much less per pound?
+
+
+
+
+Score: ____ / 5    My level: 1 2 3 4   → copy both to your progress strip
+
+                                                                                                               DPP Check Bank · p. 84
+
+--- ANSWER KEY ---
+Answer key — C-AR.3.3 · MA.7.AR.3.3 · Unit conversions across measurement systems
+Unit 6: Multi-Step Problems With Proportional Relationships. Regular = on-benchmark item; Rigor = the item that needs the
+benchmark's reasoning. Mastery on the weekly check = 4 of 5.
+Weekly check (5 items)
+1. Regular C. 18.2 kilograms
+   Each kilogram is about 2.2 pounds, so there are fewer kilograms than pounds: divide by 2.2.
+   40 ÷ 2.2 ≈ 18.182, which rounds to 18.2 kilograms.
+
+2. Regular 58.75 Swiss francs
+   Each dollar becomes 0.9 Swiss francs: 100 × 0.9 = 90.00 Swiss francs.
+   Subtract the meal: 90.00 − 31.25 = 58.75 Swiss francs.
+
+3. Regular 77.2 inches
+   Each inch is 2.54 centimeters, so divide the centimeters by 2.54: 196 ÷ 2.54 ≈ 77.165.
+   Rounded to the nearest tenth: 77.2 inches.
+   Multiplying by 2.54 instead would give a number of inches larger than the number of centimeters, which cannot be right.
+
+4. Regular $59.80
+   Convert minutes to hours: 195 ÷ 60 = 3.25 hours.
+   Pay: 3.25 × $18.40 = $59.80.
+
+5. Rigor Store A, by $0.46 per pound. Score: 1 point for the store and the amount per pound; the store alone
+earns 0.
+   Store B's price is for about 2.2 pounds, so divide by 2.2 to get the price per pound: $17.05 ÷ 2.2 = $7.75 per pound.
+   Store A charges $7.29 per pound.
+   $7.75 − $7.29 = $0.46, so Store A charges $0.46 less per pound.
+
+
+Re-check strip (3 items, C-AR.3.3-R)
+
+1. Regular D. 26.4 kilograms
+   Each kilogram is about 2.2 pounds, so there are fewer kilograms than pounds: divide by 2.2.
+   58 ÷ 2.2 ≈ 26.364, which rounds to 26.4 kilograms.
+
+2. Regular 69.75 euros
+   Each dollar becomes 0.88 euros: 100 × 0.88 = 88.00 euros.
+   Subtract the meal: 88.00 − 18.25 = 69.75 euros.
+
+3. Regular 45.5 square meters
+   Each square meter is 10.764 square feet, so divide the square feet by 10.764: 490 ÷ 10.764 ≈ 45.522.
+   Rounded to the nearest tenth: 45.5 square meters.
+
+Comparison strip (2 items, C-AR.3.3-X) — used on a later week's re-check when this benchmark was not retaught
+
+1. Regular B. 12.7 kilograms
+   Each kilogram is about 2.2 pounds, so there are fewer kilograms than pounds: divide by 2.2.
+   28 ÷ 2.2 ≈ 12.727, which rounds to 12.7 kilograms.
+
+2. Regular $27.60
+   Convert minutes to hours: 90 ÷ 60 = 1.5 hours.
+   Pay: 1.5 × $18.40 = $27.60.
+
+
+
+
+                                                                                                                             DPP Check Bank · p. 85
+
+--- RE-CHECK HALF (printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                               C-AR.3.3-R
+Benchmark: MA.7.AR.3.3 · Unit conversions across measurement systems                        Student code: ________ Calculator: yes
+
+ 1.
+      1 kilogram ≈ 2.2 pounds.
+
+
+ A suitcase weighs 58 pounds. What is its mass in kilograms, to the nearest tenth?
+      A. 55.8 kilograms                                                B. 127.6 kilograms
+      C. 2.6 kilograms                                                 D. 26.4 kilograms
+
+ 2. On one day, 1 U.S. dollar could be exchanged for 0.88 euros.
+
+ Maya exchanged $100.00 for euros and then spent 18.25 euros on a meal. How many euros did Maya have left?
+
+
+
+ 3.
+      1 square meter = 10.764 square feet.
+
+
+ A classroom floor has an area of 490 square feet. What is the area of the floor in square meters? Round to the nearest
+ tenth.
+
+Score: ____ / 3     → copy to your progress strip
+
+
+
+
+7th Grade Math · Re-check (3 items)                                                                               C-AR.3.3-R
+Benchmark: MA.7.AR.3.3 · Unit conversions across measurement systems                        Student code: ________ Calculator: yes
+
+ 1.
+      1 kilogram ≈ 2.2 pounds.
+
+
+ A suitcase weighs 58 pounds. What is its mass in kilograms, to the nearest tenth?
+      A. 55.8 kilograms                                                B. 127.6 kilograms
+      C. 2.6 kilograms                                                 D. 26.4 kilograms
+
+ 2. On one day, 1 U.S. dollar could be exchanged for 0.88 euros.
+
+ Maya exchanged $100.00 for euros and then spent 18.25 euros on a meal. How many euros did Maya have left?
+
+
+
+ 3.
+      1 square meter = 10.764 square feet.
+
+
+ A classroom floor has an area of 490 square feet. What is the area of the floor in square meters? Round to the nearest
+ tenth.
+
+Score: ____ / 3     → copy to your progress strip
+
+
+
+
+                                                                                                                    DPP Check Bank · p. 87
+
+--- COMPARISON HALF (printed twice) ---
+7th Grade Math · Comparison items (2)                                                                            C-AR.3.3-X
+Benchmark: MA.7.AR.3.3 · Unit conversions across measurement systems                       Student code: ________ Calculator: yes
+
+ 1.
+      1 kilogram ≈ 2.2 pounds.
+
+
+ A suitcase weighs 28 pounds. What is its mass in kilograms, to the nearest tenth?
+      A. 25.8 kilograms                                                B. 12.7 kilograms
+      C. 61.6 kilograms                                                D. 1.3 kilograms
+
+ 2.
+      1 hour = 60 minutes.
+
+ Felix is paid $18.40 for each hour of work. On Saturday Felix worked 90 minutes. How much was Felix paid for
+ Saturday?
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                                            C-AR.3.3-X
+Benchmark: MA.7.AR.3.3 · Unit conversions across measurement systems                       Student code: ________ Calculator: yes
+
+ 1.
+      1 kilogram ≈ 2.2 pounds.
+
+
+ A suitcase weighs 28 pounds. What is its mass in kilograms, to the nearest tenth?
+      A. 25.8 kilograms                                                B. 12.7 kilograms
+      C. 61.6 kilograms                                                D. 1.3 kilograms
+
+ 2.
+      1 hour = 60 minutes.
+
+ Felix is paid $18.40 for each hour of work. On Saturday Felix worked 90 minutes. How much was Felix paid for
+ Saturday?
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+                                                                                                                   DPP Check Bank · p. 88
+
+
+==================== C-AR.3.2  (MA.7.AR.3.2, Unit 6: Multi-Step Problems With Proportional Relationships) ====================
+--- SCALE: {"goal": "I can set up and solve proportions for real-world problems.", "l2": "I can tell whether two ratios are equivalent.", "l3": "I can write a proportion from a situation and solve it.", "l4": "I can solve a multi-step problem with proportions and explain why the setup makes sense."}
+--- CHECK ---
+7th Grade Math · Weekly Check · Unit 6                                                                                              C-AR.3.2
+Benchmark: MA.7.AR.3.2 · Solve problems involving proportions                                            Student code: ________ Calculator: yes
+
+ Learning goal: I can set up and solve proportions for real-world problems. (circle your level after scoring)
+  4    I can solve a multi-step problem with proportions and explain why the setup makes sense.
+  3    I can write a proportion from a situation and solve it.
+  2    I can tell whether two ratios are equivalent.
+  1    I need help to start this benchmark.
+
+
+ 1. The table shows what different amounts of ground beef cost at one store. The cost is proportional to the number of
+ pounds.
+
+   Pounds of ground beef             Cost
+                1.5                  $6.24
+                 2                   $8.32
+                2.5                 $10.40
+                 4                  $16.64
+
+
+
+ At this store, what will 8 pounds of ground beef cost?
+
+
+
+
+ 2. On a map, 4 cm represents 11 km.
+
+ How many kilometers does 6 cm represent?
+      A. 2.18 km                                                            B. 66.00 km
+      C. 16.50 km                                                           D. 13.00 km
+
+
+
+
+                                                                                                                                       Turn over →
+
+                                                                                                                                 DPP Check Bank · p. 89
+7th Grade Math · Weekly Check · Unit 6 (continued)                                                                 C-AR.3.2
+Benchmark: MA.7.AR.3.2 · Solve problems involving proportions                                           Student code: ________
+
+ 3. 2.4 cups of mix are needed for every 6 gallons of water.
+
+ How many cups of mix are needed for 7 gallons of water?
+
+
+
+
+ 4. A 6-foot person casts a 10-foot shadow. At the same time a tree casts a 35-foot shadow.
+
+ How tall is the tree, in feet?
+
+
+
+
+          6 ft
+
+
+
+
+                                  10 ft
+                          Not drawn to scale
+
+     A. 5.83 ft                                                         B. 31.00 ft
+     C. 21.00 ft                                                        D. 58.33 ft
+
+
+
+
+ 5. A recipe uses 2.5 cups of flour for 6 servings. A banquet needs 21 servings. Flour comes in 5-cup bags.
+
+ How many whole bags of flour must be bought?
+
+
+
+
+Score: ____ / 5    My level: 1 2 3 4      → copy both to your progress strip
+
+                                                                                                                DPP Check Bank · p. 90
+
+--- ANSWER KEY ---
+Answer key — C-AR.3.2 · MA.7.AR.3.2 · Solve problems involving proportions
+Unit 6: Multi-Step Problems With Proportional Relationships. Regular = on-benchmark item; Rigor = the item that needs the
+benchmark's reasoning. Mastery on the weekly check = 4 of 5.
+Weekly check (5 items)
+1. Regular $33.28
+   The cost is proportional to the weight, so find the cost of one pound.
+   $6.24 ÷ 1.5 = $4.16 for one pound.
+   $4.16 × 8 = $33.28.
+
+2. Regular C. 16.50 km
+   Scale: 11 ÷ 4 = 2.75 km for every 1 cm.
+   6 × 2.75 = 16.50 km.
+   Adding 2 cm to 11 km treats the scale as additive; 4 × 6 ÷ 11 sets up the ratio upside down.
+
+3. Regular 2.8 cups of mix
+   Unit rate: 2.4 ÷ 6 = 0.4 cups of mix per gallon.
+   7 × 0.4 = 2.8.
+
+4. Regular C. 21.00 ft
+   The tree's shadow is 35 ÷ 10 = 3.5 times as long as the person's.
+   The tree is 3.5 times as tall: 6 × 3.5 = 21.00 ft.
+
+5. Rigor 2 bags
+   The amounts are proportional, so scale the flour by 21 ÷ 6.
+   Flour needed: 2.5 × 21 ÷ 6 = 8.75 cups.
+   8.75 ÷ 5 = 1.75 bags; part of a bag cannot be bought, so round up to 2 bags.
+
+
+Re-check strip (3 items, C-AR.3.2-R)
+
+1. Regular B. 22.5 ft
+   The tree's shadow is 18 ÷ 4 = 4.5 times as long as the person's.
+   The tree is 4.5 times as tall: 5 × 4.5 = 22.5 ft.
+
+2. Regular $40.40
+   The cost is proportional to the weight, so find the cost of one pound.
+   $8.08 ÷ 2 = $4.04 for one pound.
+   $4.04 × 10 = $40.40.
+
+             1       5
+3. Regular 1 =         cups
+             4       4
+                 ​    ​
+
+
+
+
+                    1     1
+   Oil for 1 dozen: ÷ 2 = cup.
+                    2     4
+                      ​       ​
+
+
+
+
+                       1    1
+   Oil for 5 dozen: 5 × = 1 cups.
+                       4    4
+                          ​       ​
+
+
+
+
+Comparison strip (2 items, C-AR.3.2-X) — used on a later week's re-check when this benchmark was not retaught
+
+1. Regular 5.6 cups of mix
+   Unit rate: 2.4 ÷ 3 = 0.8 cups of mix per gallon.
+   7 × 0.8 = 5.6.
+
+2. Regular B. 11.25 ft
+   The tree's shadow is 20 ÷ 8 = 2.5 times as long as the person's.
+   The tree is 2.5 times as tall: 4.5 × 2.5 = 11.25 ft.
+
+
+
+
+                                                                                                                DPP Check Bank · p. 91
+
+--- RE-CHECK HALF (printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                                     C-AR.3.2-R
+Benchmark: MA.7.AR.3.2 · Solve problems involving proportions                                     Student code: ________ Calculator: yes
+
+ 1. A 5-foot person casts a 4-foot shadow. At the same time a tree casts an 18-foot shadow.
+
+ How tall is the tree, in feet?
+
+
+                  5 ft
+
+
+
+
+                                  4 ft
+                           Not drawn to scale
+
+
+
+
+     A. 3.6 ft                                                         B. 22.5 ft
+     C. 19.0 ft                                                        D. 14.4 ft
+
+ 2. The table shows what different amounts of ground beef cost at one store. The cost is proportional to the number of
+ pounds.
+
+   Pounds of ground beef                        Cost
+                  2                             $8.08
+                 2.5                            $10.10
+                  3                             $12.12
+                 4.5                            $18.18
+
+
+
+ At this store, what will 10 pounds of ground beef cost?
+                          1
+ 3. A recipe uses           cup of oil for every 2 dozen muffins. The amounts are proportional.
+                          2
+                             ​
+
+
+
+
+ How much oil is needed for 5 dozen muffins?
+
+
+
+
+Score: ____ / 3          → copy to your progress strip
+
+
+
+
+                                                                                                                          DPP Check Bank · p. 93
+
+--- COMPARISON HALF (printed twice) ---
+7th Grade Math · Comparison items (2)                                                                        C-AR.3.2-X
+Benchmark: MA.7.AR.3.2 · Solve problems involving proportions                          Student code: ________ Calculator: yes
+
+ 1. 2.4 cups of mix are needed for every 3 gallons of water.
+
+ How many cups of mix are needed for 7 gallons of water?
+
+
+
+ 2. A 4.5-foot person casts an 8-foot shadow. At the same time a tree casts a 20-foot shadow.
+
+ How tall is the tree, in feet?
+
+
+
+                   4.5 ft
+
+
+
+
+                                     8 ft
+                            Not drawn to scale
+
+
+
+     A. 35.56 ft                                                B. 11.25 ft
+     C. 4.44 ft                                                 D. 16.50 ft
+
+Score: ____ / 2      → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                                        C-AR.3.2-X
+Benchmark: MA.7.AR.3.2 · Solve problems involving proportions                          Student code: ________ Calculator: yes
+
+ 1. 2.4 cups of mix are needed for every 3 gallons of water.
+
+ How many cups of mix are needed for 7 gallons of water?
+
+
+
+ 2. A 4.5-foot person casts an 8-foot shadow. At the same time a tree casts a 20-foot shadow.
+
+ How tall is the tree, in feet?
+
+
+
+                   4.5 ft
+
+
+
+
+                                     8 ft
+                            Not drawn to scale
+
+
+
+     A. 35.56 ft                                                B. 11.25 ft
+     C. 4.44 ft                                                 D. 16.50 ft
+
+Score: ____ / 2      → copy to your progress strip
+
+
+
+
+                                                                                                               DPP Check Bank · p. 94
+
+
+==================== C-AR.4.5  (MA.7.AR.4.5, Unit 6: Multi-Step Problems With Proportional Relationships) ====================
+--- SCALE: {"goal": "I can solve multi-step problems with proportional relationships.", "l2": "I can find a unit rate.", "l3": "I can solve a real-world problem with a proportional relationship in two or more steps.", "l4": "I can compare two proportional situations and justify which is the better choice."}
+--- CHECK ---
+7th Grade Math · Weekly Check · Unit 6                                                                                              C-AR.4.5
+Benchmark: MA.7.AR.4.5 · Real-world proportional problems                                                 Student code: ________ Calculator: yes
+
+ Learning goal: I can solve multi-step problems with proportional relationships. (circle your level after scoring)
+  4   I can compare two proportional situations and justify which is the better choice.
+  3   I can solve a real-world problem with a proportional relationship in two or more steps.
+  2   I can find a unit rate.
+  1   I need help to start this benchmark.
+
+                                                        1
+ 1. A store sells ribbon at a constant price. 4 meters of ribbon cost $23.80.
+                                                        4
+                                                            ​
+
+
+
+
+                                        1
+ At that rate, what is the cost of 7 meters of ribbon?
+                                        2
+                                            ​
+
+
+
+
+                                                                            2
+ 2. A horse-drawn carriage travels at a constant rate. It travels             mile in 6 minutes.
+                                                                            3
+                                                                              ​
+
+
+
+
+ At this rate, how many minutes will it take the carriage to travel 2 miles?
+
+
+
+
+                                                3
+ 3. Store A sells fabric for $9.75 for 3 yards. Store B sells the same fabric for $16.08 for 6 yards. At each store, the cost is
+                                        4
+                                                    ​
+
+
+
+
+ proportional to the amount bought.
+
+ Which store has the lower price per yard, and how much lower is it per yard?
+
+
+
+
+                            3                       1
+ 4. A 3-D printer uses        ounce of plastic every hour, at a constant rate.
+                            5                       3
+                                ​                               ​
+
+
+
+
+ How many ounces of plastic does the printer use in 12 hours?
+
+
+
+
+                                                                                                                                        Turn over →
+
+                                                                                                                                  DPP Check Bank · p. 95
+7th Grade Math · Weekly Check · Unit 6 (continued)                                                                         C-AR.4.5
+Benchmark: MA.7.AR.4.5 · Real-world proportional problems                                                        Student code: ________
+                                                                                    1
+ 5. A carriage travels at a constant rate. After 5 minutes, it has traveled           mile. The relationship between minutes and
+                                                                                    2
+                                                                                     ​
+
+
+
+
+ miles is proportional.
+
+ Graph the relationship on the grid. Then use the graph to find how many minutes it takes the carriage to complete a 1.5-
+ mile ride.
+
+                 2
+
+
+
+
+                1.5
+        selim
+
+
+
+
+                 1
+
+
+
+
+                0.5
+
+
+
+
+                 0           5            10           15         20
+                                    minutes
+
+
+
+
+Score: ____ / 5       My level: 1 2 3 4        → copy both to your progress strip
+
+                                                                                                                         DPP Check Bank · p. 96
+
+--- ANSWER KEY ---
+Answer key — C-AR.4.5 · MA.7.AR.4.5 · Real-world proportional problems
+Unit 6: Multi-Step Problems With Proportional Relationships. Regular = on-benchmark item; Rigor = the item that needs the
+benchmark's reasoning. Mastery on the weekly check = 4 of 5.
+Weekly check (5 items)
+1. Regular $42.00
+                                                                                                1       1
+     Write the lengths as decimals: 4 meters is 4.25 meters and 7 meters is 7.5 meters.
+                                                                                                4       2
+                                                                                                    ​       ​
+
+
+
+
+     Unit price: $23.80 ÷ 4.25 = $5.60 per meter.
+     Cost: 7.5 × $5.60 = $42.00.
+
+2. Regular 18 minutes
+                                                            2                           3
+     Minutes for 1 mile: 6 ÷ = 6 × = 9 minutes.
+                             3       2
+                                                                ​                           ​
+
+
+
+
+     Minutes for 2 miles: 2 × 9 = 18 minutes.
+
+3. Regular Store A, by $0.08 per yard. Score: 1 point for the store and the amount per yard; the store alone earns
+0.
+     Store A: $9.75 ÷ 3.75 = $2.60 per yard.
+     Store B: $16.08 ÷ 6 = $2.68 per yard.
+     $2.68 − $2.60 = $0.08, so Store A has the lower price, by $0.08 per yard.
+
+                       3               108
+4. Regular 21 =                            ounces
+                       5                5
+                           ​                            ​
+
+
+
+
+               3 1      3      4
+     Unit rate: ÷ = × 3 = 1 ounces per hour.
+               5 3      5      5
+                   ​               ​                ​                           ​
+
+
+
+
+                        4    3
+     In 12 hours: 12 × 1 = 21 ounces.
+                        5    5
+                                            ​                               ​
+
+
+
+
+5. Rigor A straight line through (0, 0) and (5, 0.5); the 1.5-mile ride takes 15 minutes. Score: 1 point for the graph
+and the minutes; the graph alone earns 0.
+                                        1
+     Plot (0, 0) and (5, ) and draw the straight line through them.
+                                        2
+                                                    ​
+
+
+
+
+                                                            1
+     The carriage takes 5 ÷ = 5 × 2 = 10 minutes per mile, so the line passes through (15, 1.5): 1.5 × 10 = 15.
+                           2
+                                                                    ​
+
+
+
+
+     Read across from 1.5 on the miles axis to the line, then down to 15 minutes.
+
+Re-check strip (3 items, C-AR.4.5-R)
+1. Regular 70 minutes
+                           1
+     Minutes for 1 mile: 5 ÷ = 5 × 4 = 20 minutes.
+                           4
+                                                                ​
+
+
+
+
+                  1        1
+     Minutes for 3 miles: 3 × 20 = 70 minutes.
+                  2        2
+                               ​                                ​
+
+
+
+
+                  13   88
+2. Regular 5         =    ounces
+                  15   15
+                       ​                        ​
+
+
+
+
+               2 3     2 4   8
+     Unit rate: ÷ = × =         ounces per hour.
+               5 4     5 3   15
+                   ​               ​                ​           ​                   ​
+
+
+
+
+                      8   13
+     In 11 hours: 11 × = 5 ounces.
+                      15  15
+                                        ​                               ​
+
+
+
+
+3. Regular $27.00
+                                                                                                1       1
+     Write the lengths as decimals: 4 meters is 4.25 meters and 7 meters is 7.5 meters.
+                                        4                        2
+                                                                                                    ​       ​
+
+
+
+
+     Unit price: $15.30 ÷ 4.25 = $3.60 per meter.
+     Cost: 7.5 × $3.60 = $27.00.
+
+Comparison strip (2 items, C-AR.4.5-X) — used on a later week's re-check when this benchmark was not retaught
+1. Regular 15 ounces
+               1 1      1       1
+     Unit rate:  ÷ = × 3 = 1 ounces per hour.
+               2 3      2       2
+                   ​               ​                ​                           ​
+
+
+
+
+                        1
+     In 10 hours: 10 × 1 = 15 ounces.
+                        2
+                                                ​
+
+
+
+
+2. Regular Store A, by $0.15 per meter. Score: 1 point for the store and the amount per meter; the store alone
+earns 0.
+     Store A: $8.75 ÷ 2.5 = $3.50 per meter.
+     Store B: $21.90 ÷ 6 = $3.65 per meter.
+     $3.65 − $3.50 = $0.15, so Store A has the lower price, by $0.15 per meter.
+
+                                                                                                                  DPP Check Bank · p. 97
+
+--- RE-CHECK HALF (printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                              C-AR.4.5-R
+Benchmark: MA.7.AR.4.5 · Real-world proportional problems                                  Student code: ________ Calculator: yes
+                                                                    1
+ 1. A horse-drawn carriage travels at a constant rate. It travels     mile in 5 minutes.
+                                                                    4
+                                                                     ​
+
+
+
+
+                                                                         1
+ At this rate, how many minutes will it take the carriage to travel 3 miles?
+                                                                         2
+                                                                             ​
+
+
+
+
+                         2                       3
+ 2. A 3-D printer uses     ounce of plastic every hour, at a constant rate.
+                         5                       4
+                           ​                              ​
+
+
+
+
+ How many ounces of plastic does the printer use in 11 hours?
+
+
+                                                  1
+ 3. A store sells ribbon at a constant price. 4 meters of ribbon cost $15.30.
+                                                  4
+                                                      ​
+
+
+
+
+                                      1
+ At that rate, what is the cost of 7 meters of ribbon?
+                                      2
+                                          ​
+
+
+
+
+Score: ____ / 3   → copy to your progress strip
+
+
+
+
+7th Grade Math · Re-check (3 items)                                                                              C-AR.4.5-R
+Benchmark: MA.7.AR.4.5 · Real-world proportional problems                                  Student code: ________ Calculator: yes
+                                                                    1
+ 1. A horse-drawn carriage travels at a constant rate. It travels     mile in 5 minutes.
+                                                                    4
+                                                                     ​
+
+
+
+
+                                                                         1
+ At this rate, how many minutes will it take the carriage to travel 3 miles?
+                                                                         2
+                                                                             ​
+
+
+
+
+                         2                       3
+ 2. A 3-D printer uses     ounce of plastic every hour, at a constant rate.
+                         5                       4
+                           ​                              ​
+
+
+
+
+ How many ounces of plastic does the printer use in 11 hours?
+
+
+                                                  1
+ 3. A store sells ribbon at a constant price. 4 meters of ribbon cost $15.30.
+                                                  4
+                                                      ​
+
+
+
+
+                                      1
+ At that rate, what is the cost of 7 meters of ribbon?
+                                      2
+                                          ​
+
+
+
+
+Score: ____ / 3   → copy to your progress strip
+
+
+
+
+                                                                                                                   DPP Check Bank · p. 99
+
+--- COMPARISON HALF (printed twice) ---
+7th Grade Math · Comparison items (2)                                                                           C-AR.4.5-X
+Benchmark: MA.7.AR.4.5 · Real-world proportional problems                                 Student code: ________ Calculator: yes
+                         1                       1
+ 1. A 3-D printer uses     ounce of plastic every hour, at a constant rate.
+                         2                       3
+                           ​                          ​
+
+
+
+
+ How many ounces of plastic does the printer use in 10 hours?
+
+
+                                          1
+ 2. Store A sells ribbon for $8.75 for 2 meters. Store B sells the same ribbon for $21.90 for 6 meters. At each store, the
+                                        2
+                                              ​
+
+
+
+
+ cost is proportional to the amount bought.
+
+ Which store has the lower price per meter, and how much lower is it per meter?
+
+Score: ____ / 2   → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                                           C-AR.4.5-X
+Benchmark: MA.7.AR.4.5 · Real-world proportional problems                                 Student code: ________ Calculator: yes
+                         1                       1
+ 1. A 3-D printer uses     ounce of plastic every hour, at a constant rate.
+                         2                       3
+                           ​                          ​
+
+
+
+
+ How many ounces of plastic does the printer use in 10 hours?
+
+
+                                          1
+ 2. Store A sells ribbon for $8.75 for 2 meters. Store B sells the same ribbon for $21.90 for 6 meters. At each store, the
+                                        2
+                                              ​
+
+
+
+
+ cost is proportional to the amount bought.
+
+ Which store has the lower price per meter, and how much lower is it per meter?
+
+Score: ____ / 2   → copy to your progress strip
+
+
+
+
+                                                                                                                 DPP Check Bank · p. 100
+
+
+==================== C-DP.1.4  (MA.7.DP.1.4, Unit 7: Percentage Problems With Proportional Relationships) ====================
+--- SCALE: {"goal": "I can create and interpret circle graphs.", "l2": "I can read a percent or category from a circle graph.", "l3": "I can find the sector angle or percent for each category and interpret a circle graph.", "l4": "I can construct a circle graph from data and use it to answer a comparison question."}
+--- CHECK ---
+7th Grade Math · Weekly Check · Unit 7                                                                                     C-DP.1.4
+Benchmark: MA.7.DP.1.4 · Circle graphs                                                          Student code: ________ Calculator: yes
+
+ Learning goal: I can create and interpret circle graphs. (circle your level after scoring)
+  4    I can construct a circle graph from data and use it to answer a comparison question.
+  3    I can find the sector angle or percent for each category and interpret a circle graph.
+  2    I can read a percent or category from a circle graph.
+  1    I need help to start this benchmark.
+
+
+ 1. The circle graph shows how 360 people answered a survey.
+
+ How many more people chose Mystery than Science?
+
+                                                         Fiction 20%
+
+
+
+            Poetry 45%
+
+
+                                                         Mystery 20%
+
+
+
+                                                         Science 15%
+
+
+
+
+                                                                                                                                      1
+ 2. A circle graph of survey results has four sections: Basketball, Soccer, Baseball and Tennis. The Basketball section is
+                                                                                                                                      4
+                                                                                                                                          ​
+
+
+
+
+                                                                      7
+ of the graph, the Soccer section is 15%, and the Baseball section is    of the graph. The percent for Tennis is not given.
+                                                                      20
+                                                                                     ​
+
+
+
+
+ What percent of the circle graph is Tennis?
+
+
+
+
+ 3. A survey asked 520 students how they get to school. The results are shown in the table.
+
+   Walk        Bicycle     Car     Bus
+      156        156        78     130
+
+
+
+ In a circle graph of the data, what is the measure of the central angle of the Car section?
+
+
+
+
+                                                                                                                               Turn over →
+
+                                                                                                                       DPP Check Bank · p. 101
+7th Grade Math · Weekly Check · Unit 7 (continued)                                                                     C-DP.1.4
+Benchmark: MA.7.DP.1.4 · Circle graphs                                                                     Student code: ________
+
+ 4. The circle graph shows how 260 students answered a survey.
+
+ How many students chose Track?
+
+                                                    Soccer 15%
+
+
+
+        Swimming 45%
+                                                    Basketball 20%
+
+
+
+
+                                                    Track 20%
+
+
+
+
+ 5. 580 students were asked which lunch they like best. The circle graph shows the results.
+
+ Select all the statements that the circle graph supports.
+
+
+           Salad 30%
+                                                     Pizza 35%
+
+
+
+
+           Pasta 15%
+                                                     Tacos 20%
+
+      Select all the correct answers.
+     ☐ 203 of the 580 students chose Pizza.                            ☐ Pasta was chosen by twice as many students as
+     A.                                                                B. Tacos.
+     ☐ The Salad section has a central angle of 30°.                   ☐ 5 more students chose Tacos than Pasta.
+     C.                                                                D.
+     ☐ Pizza and Salad together were chosen by more than
+     E. half of the students.
+
+
+
+
+Score: ____ / 5   My level: 1 2 3 4      → copy both to your progress strip
+
+                                                                                                                   DPP Check Bank · p. 102
+
+--- ANSWER KEY ---
+Answer key — C-DP.1.4 · MA.7.DP.1.4 · Circle graphs
+Unit 7: Percentage Problems With Proportional Relationships. Regular = on-benchmark item; Rigor = the item that needs the
+benchmark's reasoning. Mastery on the weekly check = 4 of 5.
+Weekly check (5 items)
+1. Regular 18 more people
+   Mystery: 0.2 × 360 = 72 people.
+   Science: 0.15 × 360 = 54 people.
+   72 − 54 = 18 more people chose Mystery.
+
+2. Regular 25%
+   1           7
+     = 25% and    = 35%.
+   4           20
+    ​
+
+
+
+
+   A circle graph always totals 100%: 25 + 15 + 35 = 75.
+   100 − 75 = 25%.
+
+3. Regular 54°
+                                                  78       3
+   Car was chosen by 78 of the 520 students:         =     = 15%.
+                                                520    20
+                                                       ​       ​
+
+
+
+
+   A whole circle is 360°, so the central angle is 15% of 360∘ = 0.15 × 360 = 54∘ .
+
+4. Regular 52 students
+   Track is 20% of the circle.
+   0.2 × 260 = 52 students.
+
+5. Rigor A. 203 of the 580 students chose Pizza.; E. Pizza and Salad together were chosen by more than half of
+the students.
+   Counts: Pizza 0.35 × 580 = 203; Tacos 0.2 × 580 = 116; Pasta 0.15 × 580 = 87; Salad 0.3 × 580 = 174.
+   Central angles: Pizza 35% of 360∘ = 126∘ ; Tacos 20% of 360∘ = 72∘ ; Pasta 15% of 360∘ = 54∘ ; Salad 30% of 360∘ = 108∘ .
+   True: 203 of the 580 students chose Pizza. Pizza and Salad together were chosen by more than half of the students.
+
+Re-check strip (3 items, C-DP.1.4-R)
+1. Regular 33 more people
+   Yellow: 0.15 × 660 = 99 people.
+   Green: 0.1 × 660 = 66 people.
+   99 − 66 = 33 more people chose Yellow.
+
+2. Regular B. 126°
+   A whole circle is 360°.
+   35% of 360∘ = 0.35 × 360 = 126∘ .
+
+3. Regular 27.5%
+   1            1
+     = 12.5% and = 20%.
+   8            5
+    ​                ​
+
+
+
+
+   A circle graph always totals 100%: 12.5 + 40 + 20 = 72.5.
+   100 − 72.5 = 27.5%.
+
+
+Comparison strip (2 items, C-DP.1.4-X) — used on a later week's re-check when this benchmark was not retaught
+1. Regular D. 306°
+   A whole circle is 360°.
+   85% of 360∘ = 0.85 × 360 = 306∘ .
+
+2. Regular 156 more people
+   Spring: 0.35 × 780 = 273 people.
+   Winter: 0.15 × 780 = 117 people.
+   273 − 117 = 156 more people chose Spring.
+
+
+
+
+                                                                                                                               DPP Check Bank · p. 103
+
+--- RE-CHECK HALF (printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                                         C-DP.1.4-R
+Benchmark: MA.7.DP.1.4 · Circle graphs                                                                Student code: ________ Calculator: yes
+
+ 1. The circle graph shows how 660 people answered a survey.
+
+ How many more people chose Yellow than Green?
+               Yellow 15%
+
+
+                                         Red 35%
+               Green 10%
+
+
+
+
+                  Blue 40%
+
+
+
+
+ 2. In a circle graph, the Science section is 35% of the whole.
+
+ What is the measure of the central angle of that section?
+     A. 234°                                                          B. 126°
+     C. 35°                                                           D. 105°
+
+                                                                                                              1
+ 3. A circle graph of survey results has four sections: Math, Science, History and Art. The Math section is     of the graph, the
+                                                                                                              8
+                                                                                                               ​
+
+
+
+
+                                                   1
+ Science section is 40%, and the History section is of the graph. The percent for Art is not given.
+                                                   5
+                                                       ​
+
+
+
+
+ What percent of the circle graph is Art?
+
+Score: ____ / 3        → copy to your progress strip
+
+
+
+
+7th Grade Math · Re-check (3 items)                                                                                         C-DP.1.4-R
+Benchmark: MA.7.DP.1.4 · Circle graphs                                                                Student code: ________ Calculator: yes
+
+ 1. The circle graph shows how 660 people answered a survey.
+
+ How many more people chose Yellow than Green?
+               Yellow 15%
+
+
+                                         Red 35%
+               Green 10%
+
+
+
+
+                  Blue 40%
+
+
+
+
+ 2. In a circle graph, the Science section is 35% of the whole.
+
+ What is the measure of the central angle of that section?
+     A. 234°                                                          B. 126°
+     C. 35°                                                           D. 105°
+
+                                                                                                              1
+ 3. A circle graph of survey results has four sections: Math, Science, History and Art. The Math section is     of the graph, the
+                                                                                                              8
+                                                                                                               ​
+
+
+
+
+                                                   1
+ Science section is 40%, and the History section is of the graph. The percent for Art is not given.
+                                                   5
+                                                       ​
+
+
+
+
+ What percent of the circle graph is Art?
+
+Score: ____ / 3        → copy to your progress strip
+
+
+
+
+                                                                                                                            DPP Check Bank · p. 105
+
+--- COMPARISON HALF (printed twice) ---
+7th Grade Math · Comparison items (2)                                                              C-DP.1.4-X
+Benchmark: MA.7.DP.1.4 · Circle graphs                                       Student code: ________ Calculator: yes
+
+ 1. In a circle graph, the Science section is 85% of the whole.
+
+ What is the measure of the central angle of that section?
+     A. 54°                                                        B. 255°
+     C. 85°                                                        D. 306°
+
+ 2. The circle graph shows how 780 people answered a survey.
+
+ How many more people chose Spring than Winter?
+                                   Winter 15%
+
+                                                      Spring 35%
+
+
+                                     Fall 20%
+
+
+
+
+                                                      Summer 30%
+
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                              C-DP.1.4-X
+Benchmark: MA.7.DP.1.4 · Circle graphs                                       Student code: ________ Calculator: yes
+
+ 1. In a circle graph, the Science section is 85% of the whole.
+
+ What is the measure of the central angle of that section?
+     A. 54°                                                        B. 255°
+     C. 85°                                                        D. 306°
+
+ 2. The circle graph shows how 780 people answered a survey.
+
+ How many more people chose Spring than Winter?
+                                   Winter 15%
+
+                                                      Spring 35%
+
+
+                                     Fall 20%
+
+
+
+
+                                                      Summer 30%
+
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+                                                                                                    DPP Check Bank · p. 106
+
+
+==================== C-AR.3.1  (MA.7.AR.3.1, Unit 7: Percentage Problems With Proportional Relationships) ====================
+--- SCALE: {"goal": "I can solve percent problems: discount, markup, tax, tip, interest, percent change, percent error.", "l2": "I can find a percent of a number.", "l3": "I can solve a one-step percent problem such as a discount, tax, tip, or simple interest.", "l4": "I can solve a multi-step percent problem, including percent change or percent error, and explain the result."}
+--- CHECK ---
+7th Grade Math · Weekly Check · Unit 7                                                                                                  C-AR.3.1
+Benchmark: MA.7.AR.3.1 · Multi-step real-world percent problems                                           Student code: ________ Calculator: yes
+
+ Learning goal: I can solve percent problems: discount, markup, tax, tip, interest, percent change, percent error. (circle your level after
+ scoring)
+  4   I can solve a multi-step percent problem, including percent change or percent error, and explain the result.
+  3   I can solve a one-step percent problem such as a discount, tax, tip, or simple interest.
+  2   I can find a percent of a number.
+  1   I need help to start this benchmark.
+
+
+ 1. Nora deposits $3150.00 in an account that pays 1.8% simple interest each year. Nora leaves the money in the account
+ for 5 years, then withdraws everything.
+
+ How much does Nora withdraw?
+
+
+
+
+ 2. A pair of shoes costs $62.95 and is on sale for 15% off.
+
+ What is the sale price, to the nearest cent?
+
+
+
+
+                                                                                                                                            Turn over →
+
+                                                                                                                                    DPP Check Bank · p. 107
+7th Grade Math · Weekly Check · Unit 7 (continued)                                                                 C-AR.3.1
+Benchmark: MA.7.AR.3.1 · Multi-step real-world percent problems                                         Student code: ________
+
+ 3. 63% of the seventh graders at a school are in a sports club.
+
+ What is the ratio of seventh graders in a sports club to seventh graders not in a sports club? If 567 seventh graders are
+ in a sports club, how many are not?
+
+
+
+
+ 4. The number of visitors to a museum each month changed from 320 to 344.
+
+ What is the percent increase?
+
+
+
+
+ 5. A store takes 30% off the original price of $90.00, then takes another 25% off the reduced price.
+
+ What is the final price?
+     A. $63.00                                                         B. $67.50
+     C. $40.50                                                         D. $47.25
+
+
+
+
+Score: ____ / 5   My level: 1 2 3 4      → copy both to your progress strip
+
+                                                                                                               DPP Check Bank · p. 108
+
+--- ANSWER KEY ---
+Answer key — C-AR.3.1 · MA.7.AR.3.1 · Multi-step real-world percent problems
+Unit 7: Percentage Problems With Proportional Relationships. Regular = on-benchmark item; Rigor = the item that needs the
+benchmark's reasoning. Mastery on the weekly check = 4 of 5.
+Weekly check (5 items)
+1. Regular $3433.50
+   Interest: I = P rt = 3150 × 0.018 × 5 = $283.50.
+   Withdrawal is the principal plus the interest: $3150.00 + $283.50 = $3433.50.
+
+2. Regular $53.51
+   Discount: $62.95 × 0.15 = $9.4425 ≈ $9.44.
+   Sale price: $62.95 − $9.44 = $53.51.
+   15% must be written as 0.15 before multiplying.
+
+3. Regular 63:37; 333 seventh graders. Score: 1 point for the ratio and the count; one alone earns 0.
+   63% are in a sports club, so 100% − 63% = 37% are not.
+   The ratio is 63 : 37.
+   For every 63 seventh graders in a sports club there are 37 who are not. 567 ÷ 63 = 9, so 9 × 37 = 333 seventh graders are not in a sports club.
+
+4. Regular 7.5%
+   Change: 344 − 320 = 24, an increase of 24.
+   Compare the change with the ORIGINAL amount: 24 ÷ 320 = 0.075.
+   0.075 × 100 = 7.5%.
+
+5. Rigor D. $47.25
+   First discount: $90.00 × 70% = $63.00.
+   Second discount applies to $63.00, not to the original: $63.00 × 75% = $47.25.
+   Taking 30% and then 25% is not the same as taking 55%.
+
+Re-check strip (3 items, C-AR.3.1-R)
+1. Regular 32.5%
+   Change: 162 − 240 = −78, a decrease of 78.
+   Compare the change with the ORIGINAL amount: 78 ÷ 240 = 0.325.
+   0.325 × 100 = 32.5%.
+
+2. Regular $92.51
+   Tax: $86.46 × 0.07 = $6.0522 ≈ $6.05.
+   Total: $86.46 + $6.05 = $92.51.
+
+3. Regular 6.25%
+   Percent error compares the size of the error with the ACTUAL amount.
+   Error: ∣285 − 304∣ = 19.
+   19 ÷ 304 = 0.0625.
+   0.0625 × 100 = 6.25%.
+
+
+Comparison strip (2 items, C-AR.3.1-X) — used on a later week's re-check when this benchmark was not retaught
+1. Regular $2706.00
+   Interest: I = P rt = 2400 × 0.0425 × 3 = $306.00.
+   Withdrawal is the principal plus the interest: $2400.00 + $306.00 = $2706.00.
+
+2. Regular $58.89
+   Tax: $54.78 × 0.075 = $4.1085 ≈ $4.11.
+   Total: $54.78 + $4.11 = $58.89.
+
+
+
+
+                                                                                                                                          DPP Check Bank · p. 109
+
+--- RE-CHECK HALF (printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                          C-AR.3.1-R
+Benchmark: MA.7.AR.3.1 · Multi-step real-world percent problems                        Student code: ________ Calculator: yes
+
+ 1. The number of visitors to a museum each month changed from 240 to 162.
+
+ What is the percent decrease?
+
+
+
+ 2. A bike helmet costs $86.46. The sales tax rate is 7%.
+
+ What is the total cost, including tax, to the nearest cent?
+
+
+
+ 3. A student estimated the number of steps on a trail to be 285. The actual number was 304 steps.
+
+ What is the percent error of the estimate?
+
+
+
+Score: ____ / 3    → copy to your progress strip
+
+
+
+
+7th Grade Math · Re-check (3 items)                                                                          C-AR.3.1-R
+Benchmark: MA.7.AR.3.1 · Multi-step real-world percent problems                        Student code: ________ Calculator: yes
+
+ 1. The number of visitors to a museum each month changed from 240 to 162.
+
+ What is the percent decrease?
+
+
+
+ 2. A bike helmet costs $86.46. The sales tax rate is 7%.
+
+ What is the total cost, including tax, to the nearest cent?
+
+
+
+ 3. A student estimated the number of steps on a trail to be 285. The actual number was 304 steps.
+
+ What is the percent error of the estimate?
+
+
+
+Score: ____ / 3    → copy to your progress strip
+
+
+
+
+                                                                                                              DPP Check Bank · p. 111
+
+--- COMPARISON HALF (printed twice) ---
+7th Grade Math · Comparison items (2)                                                                       C-AR.3.1-X
+Benchmark: MA.7.AR.3.1 · Multi-step real-world percent problems                       Student code: ________ Calculator: yes
+
+ 1. Andre deposits $2400.00 in an account that pays 4.25% simple interest each year. Andre leaves the money in the
+ account for 3 years, then withdraws everything.
+
+ How much does Andre withdraw?
+
+
+ 2. A tent costs $54.78. The sales tax rate is 7.5%.
+
+ What is the total cost, including tax, to the nearest cent?
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                                       C-AR.3.1-X
+Benchmark: MA.7.AR.3.1 · Multi-step real-world percent problems                       Student code: ________ Calculator: yes
+
+ 1. Andre deposits $2400.00 in an account that pays 4.25% simple interest each year. Andre leaves the money in the
+ account for 3 years, then withdraws everything.
+
+ How much does Andre withdraw?
+
+
+ 2. A tent costs $54.78. The sales tax rate is 7.5%.
+
+ What is the total cost, including tax, to the nearest cent?
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+                                                                                                             DPP Check Bank · p. 112
+
+
+==================== C-NSO.1.1  (MA.7.NSO.1.1, Unit 8: Evaluating Numeric Expressions) ====================
+--- SCALE: {"goal": "I can apply the laws of exponents with whole-number exponents.", "l2": "I can evaluate a power with a whole-number exponent.", "l3": "I can use the product, quotient, and power rules to write an equivalent expression.", "l4": "I can combine several exponent rules in one expression and explain each step."}
+--- CHECK ---
+7th Grade Math · Weekly Check · Unit 8                                                                                       C-NSO.1.1
+Benchmark: MA.7.NSO.1.1 · Laws of exponents (whole-number exponents)                                   Student code: ________ Calculator: no
+
+ Learning goal: I can apply the laws of exponents with whole-number exponents. (circle your level after scoring)
+  4    I can combine several exponent rules in one expression and explain each step.
+  3    I can use the product, quotient, and power rules to write an equivalent expression.
+  2    I can evaluate a power with a whole-number exponent.
+  1    I need help to start this benchmark.
+
+
+ 1. Evaluate the expression.
+
+        1 0    1 3
+      (− ) × (− )
+        2      2
+          ​          ​
+
+
+
+
+ 2. Which expression is equivalent to 45 × 42 ?
+      A. 47                                                                 B. 167
+      C. 43                                                                 D. 410
+
+
+
+
+                                                                                                                                    Turn over →
+
+                                                                                                                             DPP Check Bank · p. 113
+7th Grade Math · Weekly Check · Unit 8 (continued)                                       C-NSO.1.1
+Benchmark: MA.7.NSO.1.1 · Laws of exponents (whole-number exponents)             Student code: ________
+
+ 3. Write the expression as a single power.
+
+    (−10)2 × (−10)4
+
+
+
+
+ 4. The equation shown is true.
+
+    (64 )n = 616
+
+
+ What is the value of n?
+
+
+
+
+ 5. Evaluate the expression. Write your answer as a fraction in simplest form.
+
+              3
+      1 3     1 6
+    (( ) ) ÷ ( )
+      2       2
+         ​            ​
+
+
+
+
+Score: ____ / 5    My level: 1 2 3 4   → copy both to your progress strip
+
+                                                                                        DPP Check Bank · p. 114
+
+--- ANSWER KEY ---
+Answer key — C-NSO.1.1 · MA.7.NSO.1.1 · Laws of exponents (whole-number exponents)
+Unit 8: Evaluating Numeric Expressions. Regular = on-benchmark item; Rigor = the item that needs the benchmark's
+reasoning. Mastery on the weekly check = 4 of 5.
+Weekly check (5 items)
+                           1
+1. Regular −
+                           8
+                               ​
+
+
+
+
+                                                                         3
+                                                                 1
+   Add the exponents: 0 + 3 = 3, so the expression equals (− ) .
+                                                                 2
+                                                                     ​
+
+
+
+
+               3
+     1     1
+   (− ) = − . (Any nonzero base to the power 0 equals 1.)
+     2     8
+           ​                       ​
+
+
+
+
+2. Regular A. 47
+   When multiplying powers with the same base, add the exponents.
+   45 × 42 = 47 .
+
+3. Regular (−10)6
+   The bases are the same, so add the exponents: 2 + 4 = 6.
+   The product is (−10)6 , which is positive because the exponent is even.
+
+4. Regular 4
+   A power raised to a power multiplies the exponents, so 4 × n = 16.
+   n = 16 ÷ 4 = 4.
+
+               1
+5. Rigor
+               8
+                   ​
+
+
+
+
+                                                                                     3   3           9
+   A power raised to a power multiplies the exponents: 3 × 3 = 9, so (( ) ) = ( ) .
+                                                                             1               1
+                                                                             2               2
+                                                                                 ​               ​
+
+
+
+
+                                                                                                                 3
+                                                                                                         1
+   Dividing powers with the same base subtracts the exponents: 9 − 6 = 3, so the expression equals ( ) .
+                                                                                                         2
+                                                                                                             ​
+
+
+
+
+    1 3 1
+   ( ) = .
+    2   8
+      ​                ​
+
+
+
+
+Re-check strip (3 items, C-NSO.1.1-R)
+1. Regular 316
+   A power raised to a power multiplies the exponents: 4 × 4 = 16.
+   So (34 )4 = 316 .
+   Adding the exponents here would give 38 ; exponents are added only when powers are multiplied.
+
+2. Regular (−9)5
+   The bases are the same, so add the exponents: 3 + 2 = 5.
+   The product is (−9)5 , which is negative because the exponent is odd.
+
+3. Regular 7
+   Write 729 as a power of 9: 729 = 93 .
+   Dividing powers with the same base subtracts the exponents, so n − 4 = 3.
+   n = 3 + 4 = 7.
+
+
+Comparison strip (2 items, C-NSO.1.1-X) — used on a later week's re-check when this benchmark was not retaught
+1. Regular 27
+   Add the exponents: 3 + 0 = 3, so the expression equals 33 .
+   33 = 27. (Any nonzero base to the power 0 equals 1.)
+
+2. Regular 98
+   A power raised to a power multiplies the exponents: 4 × 2 = 8.
+   So (94 )2 = 98 .
+   Adding the exponents here would give 96 ; exponents are added only when powers are multiplied.
+
+
+
+
+                                                                                                                     DPP Check Bank · p. 115
+
+--- RE-CHECK HALF (printed twice) ---
+7th Grade Math · Re-check (3 items)                                                       C-NSO.1.1-R
+Benchmark: MA.7.NSO.1.1 · Laws of exponents (whole-number exponents)   Student code: ________ Calculator: no
+
+ 1. Write the expression as a single power.
+
+    (34 )4
+
+
+
+
+ 2. Write the expression as a single power.
+
+    (−9)3 × (−9)2
+
+
+
+
+ 3. The equation shown is true.
+
+    9n ÷ 94 = 729
+
+
+ What is the value of n?
+
+Score: ____ / 3     → copy to your progress strip
+
+
+
+
+7th Grade Math · Re-check (3 items)                                                       C-NSO.1.1-R
+Benchmark: MA.7.NSO.1.1 · Laws of exponents (whole-number exponents)   Student code: ________ Calculator: no
+
+ 1. Write the expression as a single power.
+
+    (34 )4
+
+
+
+
+ 2. Write the expression as a single power.
+
+    (−9)3 × (−9)2
+
+
+
+
+ 3. The equation shown is true.
+
+    9n ÷ 94 = 729
+
+
+ What is the value of n?
+
+Score: ____ / 3     → copy to your progress strip
+
+
+
+
+                                                                                             DPP Check Bank · p. 117
+
+--- COMPARISON HALF (printed twice) ---
+7th Grade Math · Comparison items (2)                                                     C-NSO.1.1-X
+Benchmark: MA.7.NSO.1.1 · Laws of exponents (whole-number exponents)   Student code: ________ Calculator: no
+
+ 1. Evaluate the expression.
+
+    33 × 30
+
+
+
+
+ 2. Write the expression as a single power.
+
+    (94 )2
+
+
+
+
+Score: ____ / 2   → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                     C-NSO.1.1-X
+Benchmark: MA.7.NSO.1.1 · Laws of exponents (whole-number exponents)   Student code: ________ Calculator: no
+
+ 1. Evaluate the expression.
+
+    33 × 30
+
+
+
+
+ 2. Write the expression as a single power.
+
+    (94 )2
+
+
+
+
+Score: ____ / 2   → copy to your progress strip
+
+
+
+
+                                                                                             DPP Check Bank · p. 118
+
+
+==================== C-NSO.2.1  (MA.7.NSO.2.1, Unit 8: Evaluating Numeric Expressions) ====================
+--- SCALE: {"goal": "I can use order of operations with rational numbers.", "l2": "I can use order of operations with whole numbers.", "l3": "I can evaluate an expression with rational numbers, exponents, and grouping symbols.", "l4": "I can find and explain an error in someone else's work with order of operations."}
+--- CHECK ---
+7th Grade Math · Weekly Check · Unit 8                                                                                          C-NSO.2.1
+Benchmark: MA.7.NSO.2.1 · Order of operations with rational numbers                                      Student code: ________ Calculator: no
+
+ Learning goal: I can use order of operations with rational numbers. (circle your level after scoring)
+  4     I can find and explain an error in someone else's work with order of operations.
+  3     I can evaluate an expression with rational numbers, exponents, and grouping symbols.
+  2     I can use order of operations with whole numbers.
+  1     I need help to start this benchmark.
+
+
+ 1. Evaluate the expression.
+
+      5 × (∣1.92 − 6.14∣ − 1.22 )
+
+
+
+
+ 2. What is the value of the expression?
+
+              2
+         1        1
+      [(5 − 6) + ∣ − 3∣] × 2
+         3        2
+           ​            ​
+
+
+
+
+                                                                                                                                      Turn over →
+
+                                                                                                                               DPP Check Bank · p. 119
+7th Grade Math · Weekly Check · Unit 8 (continued)                                                          C-NSO.2.1
+Benchmark: MA.7.NSO.2.1 · Order of operations with rational numbers                                 Student code: ________
+
+ 3. Evaluate the expression.
+
+                 2
+            2      2
+    15 − 4[( − 2) + ÷ 3]
+            3      3
+                  ​         ​
+
+
+
+
+ 4. What is the value of the expression?
+
+    7.3 − [0.75 + (−0.5 − 2)2 ] ÷ 0.5
+
+     A. 0.60                                                            B. −6.70
+     C. 19.05                                                           D. 18.30
+
+
+
+
+ 5. Where should one pair of parentheses be placed so that the expression has a value of 65.75?
+
+    −6.5 + 3 × 3 − 0.52
+
+     A. −6.5 + 3 × (3 − 0.5)2                                           B. −6.5 + 3 × (3 − 0.52 )
+     C. (−6.5 + 3) × 3 − 0.52                                           D. −6.5 + (3 × 3 − 0.5)2
+
+
+
+
+Score: ____ / 5       My level: 1 2 3 4   → copy both to your progress strip
+
+                                                                                                           DPP Check Bank · p. 120
+
+--- ANSWER KEY ---
+Answer key — C-NSO.2.1 · MA.7.NSO.2.1 · Order of operations with rational numbers
+Unit 8: Evaluating Numeric Expressions. Regular = on-benchmark item; Rigor = the item that needs the benchmark's reasoning. Mastery on the weekly check = 4 of 5.
+
+
+Weekly check (5 items)
+1.   Regular             13.9
+      Inside the absolute value: 1.92 − 6.14 = −4.22, so ∣1.92 − 6.14∣ = 4.22.
+      The exponent: 1.22 = 1.44.
+      Inside the parentheses: 4.22 − 1.44 = 2.78.
+      Multiply: 5 × 2.78 = 13.9.
+
+
+                                 8   53
+2.   Regular             5         =
+                                 9 19 2
+                                             ​                                                                              ​
+
+
+
+
+      Inside the parentheses: 5 3 − 6 = − 3 .                                                            ​                                          ​
+
+
+
+
+                                                         2
+                                             2                                           4
+      The exponent: (− ) = .                     ​                                                   ​
+
+
+                                             3                                           9
+                                                                                                         1                       1      1        1
+      Inside the absolute value:                                                                                 ​       − 3 = −2 , so ∣ − 3∣ = 2 .             ​       ​       ​
+
+
+                                                                                                  2                              2      2        2
+                                                         4                                       1                          17
+      Inside the brackets: 9 + 2 2 = 2 18 .                              ​                                   ​                      ​
+
+
+
+
+      Multiply: 2 17 × 2 = 5 8 .
+                         ​                                           ​
+
+
+                    18                               9
+
+
+
+3.   Regular                 7
+      Inside the parentheses: 2 − 2 = −1 1 .                                                     ​                                                  ​
+
+
+
+
+                             2
+                               3                                                                                                                3
+                           1      7
+      The exponent: (−1 ) = 1 .                      ​                                                               ​
+
+
+                           3      9
+              2        2 1     2
+      Divide: 3 ÷ 3 = 3 × 3 = 9 .
+                ​                    ​                   ​                               ​
+
+
+
+
+                             7 2
+      Inside the brackets: 1 + = 2.                                                  ​                       ​
+
+
+                             9 9
+      Multiply: 4 × 2 = 8.
+      Subtract: 15 − 8 = 7.
+
+
+
+4.   Regular                 B. −6.70
+      Innermost grouping first: −0.5 − 2 = −2.5.
+      The exponent: (−2.5)2 = 6.25.
+      Inside the brackets: 0.75 + 6.25 = 7.
+      Divide: 7 ÷ 0.5 = 14.
+      Subtract: 7.3 − 14 = −6.7.
+      Subtracting before dividing gives 0.60; dropping the brackets gives 19.05.
+
+
+
+5.   Rigor          D. −6.5 + (3 × 3 − 0.5)2
+      Evaluate each choice.
+      (−6.5 + 3) × 3 − 0.52 = −10.75
+      −6.5 + 3 × (3 − 0.5)2 = 12.25
+      −6.5 + (3 × 3 − 0.5)2 = 65.75
+      −6.5 + 3 × (3 − 0.52 ) = 1.75
+      Without parentheses the expression is 2.25. Only −6.5 + (3 × 3 − 0.5)2 has the value 65.75.
+
+
+
+Re-check strip (3 items, C-NSO.2.1-R)
+                                             3   91
+1.   Regular             11                    =
+                                             8 1 81
+                                                             ​                                                                          ​
+
+
+
+
+      Inside the parentheses: 1 − 1 = .                                                                  ​                                  ​
+
+
+
+
+                             2
+                                    4    4
+                         1        1
+      The exponent: ( ) = .              ​                                                   ​
+
+
+                         4       16
+              1         1 1       1
+      Divide: ÷ 2 = × = .
+                ​                    ​                   ​                               ​
+
+
+
+              2         2 2       4
+      Inside the brackets: 1 + 1 = 5 .                                               ​                       ​                  ​
+
+
+                               16 4   16
+                     5     5
+      Multiply: 2 × 16 = 8 . ​
+
+
+
+
+      Subtract: 12 − 5 = 11 3 .  ​                                           ​
+
+
+                       8       8
+
+
+
+2.   Regular             7.74
+      Inside the absolute value: 3.82 − 6.49 = −2.67, so ∣3.82 − 6.49∣ = 2.67.
+      The exponent: 0.32 = 0.09.
+      Inside the parentheses: 2.67 − 0.09 = 2.58.
+      Multiply: 3 × 2.58 = 7.74.
+
+
+                                             5   93
+3.   Regular                 11                =
+                                             8 1 81
+                                                                 ​                                                                      ​
+
+
+
+
+      Inside the parentheses: 2 − 3 = − .                                                                ​                                          ​
+
+
+
+
+                                                         2
+                                                                                          2                                                     2
+                                             1                                           1
+      The exponent: (− ) = .
+                      2   4
+                                                 ​                                                   ​
+
+
+
+
+                                                                                                         3                                                  5       3       5
+      Inside the absolute value: 8 − 4 = −3 8 , so ∣ 8 − 4∣ = 3 8 .                                              ​                                              ​       ​       ​
+
+
+
+
+      Inside the brackets: 1 + 3 5 = 3 7 .                               ​                                   ​                  ​
+
+
+                             4                                                                   8                         8
+      Multiply: 3 7 × 3 = 11 5 .
+                     ​                                               ​
+
+
+                  8          8
+
+
+
+
+Comparison strip (2 items, C-NSO.2.1-X) — used on a later week's re-check when this benchmark was not retaught
+1.   Regular             B. 1.025
+      Innermost grouping first: 1 − 2.5 = −1.5.
+      The exponent: (−1.5)2 = 2.25.
+      Inside the brackets: 2.5 + 2.25 = 4.75.
+      Divide: 4.75 ÷ 2 = 2.375.
+      Subtract: 3.4 − 2.375 = 1.025.
+      Subtracting before dividing gives −0.675; dropping the brackets gives 2.025.
+
+
+                                 15   111
+2.   Regular             6          =
+                                 16 1 163
+                                                             ​                                                                                          ​
+
+
+
+
+      Inside the parentheses: 3 4 − 4 = − 4 .                                                            ​                                          ​
+
+
+
+
+                                                         2
+                                             3                                           9
+      The exponent: (− ) =                       ​                                                           .
+                                                                                                             ​
+
+
+                                             4                                           16
+                                             3     1        3                              1
+      Inside the absolute value:    − 2 = −1 , so ∣ − 2∣ = 1 .                                                   ​                                              ​       ​       ​
+
+
+                                 4           4     4        4
+                            9     3      5
+      Inside the brackets: 16 + 1 4 = 2 16 .                                         ​                               ​                      ​
+
+
+
+
+                  5       15
+      Multiply: 2 × 3 = 6 .
+                         ​                                                       ​
+
+
+                 16       16
+
+
+
+
+                                                                                                                                                                                    DPP Check Bank · p. 121
+
+--- RE-CHECK HALF (printed twice) ---
+7th Grade Math · Re-check (3 items)                                                      C-NSO.2.1-R
+Benchmark: MA.7.NSO.2.1 · Order of operations with rational numbers   Student code: ________ Calculator: no
+
+ 1. Evaluate the expression.
+
+                  2
+             1      1
+    12 − 2[(1 − 1) + ÷ 2]
+             4      2
+                  ​          ​
+
+
+
+
+ 2. Evaluate the expression.
+
+    3 × (∣3.82 − 6.49∣ − 0.32 )
+
+
+
+
+ 3. What is the value of the expression?
+
+               2
+       1        3
+    [(2 − 3) + ∣ − 4∣] × 3
+       2        8
+         ​              ​
+
+
+
+
+Score: ____ / 3       → copy to your progress strip
+
+
+
+
+7th Grade Math · Re-check (3 items)                                                      C-NSO.2.1-R
+Benchmark: MA.7.NSO.2.1 · Order of operations with rational numbers   Student code: ________ Calculator: no
+
+ 1. Evaluate the expression.
+
+                  2
+             1      1
+    12 − 2[(1 − 1) + ÷ 2]
+             4      2
+                  ​          ​
+
+
+
+
+ 2. Evaluate the expression.
+
+    3 × (∣3.82 − 6.49∣ − 0.32 )
+
+
+
+
+ 3. What is the value of the expression?
+
+               2
+       1        3
+    [(2 − 3) + ∣ − 4∣] × 3
+       2        8
+         ​              ​
+
+
+
+
+Score: ____ / 3       → copy to your progress strip
+
+
+
+
+                                                                                            DPP Check Bank · p. 123
+
+--- COMPARISON HALF (printed twice) ---
+7th Grade Math · Comparison items (2)                                                                C-NSO.2.1-X
+Benchmark: MA.7.NSO.2.1 · Order of operations with rational numbers               Student code: ________ Calculator: no
+
+ 1. What is the value of the expression?
+
+    3.4 − [2.5 + (1 − 2.5)2 ] ÷ 2
+
+     A. 2.025                                                         B. 1.025
+     C. 3.275                                                         D. −0.675
+
+ 2. What is the value of the expression?
+
+            2
+       1        1
+    [(3 − 4) + ∣ − 2∣] × 3
+       4        4
+         ​            ​
+
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                                C-NSO.2.1-X
+Benchmark: MA.7.NSO.2.1 · Order of operations with rational numbers               Student code: ________ Calculator: no
+
+ 1. What is the value of the expression?
+
+    3.4 − [2.5 + (1 − 2.5)2 ] ÷ 2
+
+     A. 2.025                                                         B. 1.025
+     C. 3.275                                                         D. −0.675
+
+ 2. What is the value of the expression?
+
+            2
+       1        1
+    [(3 − 4) + ∣ − 2∣] × 3
+       4        4
+         ​            ​
+
+
+
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+                                                                                                        DPP Check Bank · p. 124
+
+
+==================== C-AR.1.1  (MA.7.AR.1.1, Unit 9: Algebraic Expressions) ====================
+--- SCALE: {"goal": "I can add and subtract linear expressions.", "l2": "I can combine like terms with integer coefficients.", "l3": "I can add and subtract linear expressions with rational coefficients.", "l4": "I can write and simplify an expression from a real-world situation."}
+--- CHECK ---
+7th Grade Math · Weekly Check · Unit 9                                                                                   C-AR.1.1
+Benchmark: MA.7.AR.1.1 · Simplify linear expressions                                           Student code: ________ Calculator: no
+
+ Learning goal: I can add and subtract linear expressions. (circle your level after scoring)
+  4    I can write and simplify an expression from a real-world situation.
+  3    I can add and subtract linear expressions with rational coefficients.
+  2    I can combine like terms with integer coefficients.
+  1    I need help to start this benchmark.
+
+
+ 1. Write the expression using the fewest possible terms.
+
+            1         2
+      (1 + ( ) n) + (( ) n − 2)
+            2         3
+               ​            ​
+
+
+
+
+ 2. Which expression is equivalent to the expression shown?
+
+      (0.4x + 6.5) + (0.6x − 2.5)
+
+      A. x + 4                                                                 B. x − 4
+      C. 0.24x + 4                                                             D. 5x
+
+
+
+
+                                                                                                                             Turn over →
+
+                                                                                                                     DPP Check Bank · p. 125
+7th Grade Math · Weekly Check · Unit 9 (continued)                                                                   C-AR.1.1
+Benchmark: MA.7.AR.1.1 · Simplify linear expressions                                                    Student code: ________
+
+ 3. What expression makes the equation true?
+
+       4                                7
+    ((− ) x − 6) − (              ) = (− ) x + 9
+       3                                4
+             ​                    ​           ​
+
+
+
+
+ 4. Write the expression using the fewest possible terms.
+
+                     1
+    (4x − 8) − (3 − ( ) x)
+                     2
+                              ​
+
+
+
+
+ 5. A student simplified the expression as shown.
+
+      3                 3
+    (( ) x − 9) − (4 − ( ) x)
+      2                 8
+         ​                            ​
+
+
+
+
+          3                           3
+ Step 1: ( ) x − 9 − 4 + ( ) x
+          2                           8
+                 ​                        ​
+
+
+
+
+          3
+ Step 2: ( ) x − 9 − 4
+          5
+                     ​
+
+
+
+
+          3
+ Step 3: ( ) x − 13
+          5
+                     ​
+
+
+
+
+ In which step did the student make the first error? Write the correct expression using the fewest possible terms.
+
+
+
+
+Score: ____ / 5          My level: 1 2 3 4        → copy both to your progress strip
+
+                                                                                                               DPP Check Bank · p. 126
+
+--- ANSWER KEY ---
+Answer key — C-AR.1.1 · MA.7.AR.1.1 · Simplify linear expressions
+Unit 9: Algebraic Expressions. Regular = on-benchmark item; Rigor = the item that needs the benchmark's reasoning. Mastery on the weekly check = 4 of 5.
+
+Weekly check (5 items)
+                                             7    1
+1. Regular                   (                 = 1 )n − 1
+                                             6    6
+                                                                                         ​
+
+
+
+
+                            1       2
+    Group the like terms: (( ) n + ( ) n) + (1 − 2).
+                            2       3
+                                                                                         ​                       ​
+
+
+
+
+            1 2       7                 7
+    n-terms: + = , so the n-term is ( ) n.
+            2 3       6                 6
+                         ​                   ​                   ​                                                       ​
+
+
+
+
+    Constants: 1 − 2 = −1.
+        7
+    = ( )n − 1
+        6
+            ​
+
+
+
+
+2. Regular                   A. x + 4
+    Add the x-terms: 0.4x + 0.6x = x. Add the constants: 6.5 − 2.5 = 4.
+    An x-term and a constant cannot be combined into one term.
+
+                                              5
+3. Regular                   (                  ) x − 15
+                                             12
+                                                             ​
+
+
+
+
+    The missing expression is the first expression minus the result.
+        4                7                 4        7       5
+    ((− ) x − 6) − ((− ) x + 9): x-terms (− ) x − (− ) x = ( ) x; constants −6 − 9 = −15.
+        3                4                 3        4       12
+                ​                                                                ​                                                       ​               ​           ​
+
+
+
+
+                                5
+    The missing expression is ( ) x − 15.
+                               12
+                                                                                                             ​
+
+
+
+
+                                     4                                                           5                7
+    Check: ((− ) x − 6) − ((                                                                        ) x − 15) = (− ) x + 9.
+                                     3                                                           12               4
+                                         ​                                                               ​                                   ​
+
+
+
+
+                                             9    1
+4. Regular                   (                 = 4 ) x − 11
+                                             2    2
+                                                     ​                                       ​
+
+
+
+
+                                                                                                                                                                             1
+    Subtracting the second expression changes both of its signs: 4x − 8 − 3 + ( ) x.
+                                                                                                                                                                             2
+                                                                                                                                                                                 ​
+
+
+
+
+                    1         9
+    x-terms: 4x + ( 2 ) x = ( 2 ) x. Constants: −8 − 3 = −11.
+                                                         ​                           ​
+
+
+
+
+        9
+    = ( ) x − 11
+        2
+            ​
+
+
+
+
+                                                                                                                                                                                 15    7
+5. Rigor                Step 2; the correct expression is (                                                                                                                         = 1 ) x − 13. Score: 1 point for the step and the correct expression;
+                                                                                                                                                                                  8    8
+                                                                                                                                                                                     ​               ​
+
+
+
+
+the step alone earns 0.
+                                                                                                                                                                                                             3 3  12 3   15
+    Step 2 adds the numerators and adds the denominators. Fractions are added with a common denominator:                                                                                                      + =    + =    .
+                                                                                                                                                                                                             2 8   8  8   8
+                                                                                                                                                                                                              ​   ​   ​   ​   ​
+
+
+
+
+                                                                                           3               3
+    Correct work: subtracting the whole expression changes the sign of both of its terms: ( ) x − 9 − 4 + ( ) x.
+                                                                                           2               8
+                                                                                                                                                                                                 ​       ​
+
+
+
+
+                                            12       3       15
+    x-terms with a common denominator: ( ) x + ( ) x = ( ) x. Constants: −9 − 4 = −13.
+                                            8        8        8
+                                                                                                                                 ​               ​           ​
+
+
+
+
+                               15
+    The correct expression is ( 8 ) x − 13.                                                          ​
+
+
+
+
+Re-check strip (3 items, C-AR.1.1-R)
+                                             25    1
+1. Regular                   (                  = 1 )x + 8
+                                             24    24
+                                                             ​                                               ​
+
+
+
+
+    The missing expression is the first expression minus the result.
+       2               3                    2      3      25
+    (( ) x + 6) − ((− ) x − 2): x-terms ( ) x − (− ) x = ( ) x; constants 6 − (−2) = 8.
+       3               8                    3      8      24
+        ​                                                                    ​                                               ​                       ​           ​
+
+
+
+
+                                25
+    The missing expression is ( 24 ) x + 8.                                                                  ​
+
+
+
+
+              2               25              3
+    Check: (( ) x + 6) − (( ) x + 8) = (− ) x − 2.
+              3               24              8
+                                 ​                                                               ​                                   ​
+
+
+
+
+2. Regular                   D. 3.1x − 4
+    Add the x-terms: 1.5x + 1.6x = 3.1x. Add the constants: 3 − 7 = −4.
+    An x-term and a constant cannot be combined into one term.
+
+                                             11    3
+3. Regular                   (                  = 1 )w + 1
+                                              8    8
+                                                             ​                                   ​
+
+
+
+
+                          1    7
+    Group the like terms: (( ) w + ( ) w) + (5 − 4).
+                          2    8
+                                                                                         ​                           ​
+
+
+
+
+            1 7       11             11
+    w-terms: + = , so the w-term is ( ) w.
+            2 8        8              8
+                             ​                   ​                   ​                                                       ​
+
+
+
+
+    Constants: 5 − 4 = 1.
+        11
+    = ( )w + 1
+         8
+                    ​
+
+
+
+
+Comparison strip (2 items, C-AR.1.1-X) — used on a later week's re-check when this benchmark was not retaught
+
+1. Regular                   −x − 12
+                                                                                                                                                                         4               7
+    Subtracting the whole expression changes the sign of each of its terms: ( ) x − 8 − ( ) x − 4.
+                                                                                                                                                                         3               3
+                                                                                                                                                                             ​               ​
+
+
+
+
+              4       7
+    x-terms: ( ) x − ( ) x = −x. Constants: −8 − 4 = −12.
+              3       3
+                                 ​                                       ​
+
+
+
+
+    = −x − 12
+
+
+2. Regular                   D. 7.7x + 1.5
+    Add the x-terms: 3.2x + 4.5x = 7.7x. Add the constants: 2 − 0.5 = 1.5.
+    An x-term and a constant cannot be combined into one term.
+
+                                                                                                                                                                                                                                               DPP Check Bank · p. 127
+
+--- RE-CHECK HALF (printed twice) ---
+7th Grade Math · Re-check (3 items)                                                               C-AR.1.1-R
+Benchmark: MA.7.AR.1.1 · Simplify linear expressions                        Student code: ________ Calculator: no
+
+ 1. What expression makes the equation true?
+
+      2                        3
+    (( ) x + 6) − (      ) = (− ) x − 2
+      3                        8
+         ​               ​        ​
+
+
+
+
+ 2. Which expression is equivalent to the expression shown?
+
+    (1.5x + 3) + (1.6x − 7)
+
+     A. 3.1x + 4                                              B. 2.4x − 4
+     C. −0.9x                                                 D. 3.1x − 4
+
+ 3. Write the expression using the fewest possible terms.
+
+          1         7
+    (5 + ( ) w) + (( ) w − 4)
+          2         8
+             ​               ​
+
+
+
+
+Score: ____ / 3    → copy to your progress strip
+
+
+
+
+7th Grade Math · Re-check (3 items)                                                               C-AR.1.1-R
+Benchmark: MA.7.AR.1.1 · Simplify linear expressions                        Student code: ________ Calculator: no
+
+ 1. What expression makes the equation true?
+
+      2                        3
+    (( ) x + 6) − (      ) = (− ) x − 2
+      3                        8
+         ​               ​        ​
+
+
+
+
+ 2. Which expression is equivalent to the expression shown?
+
+    (1.5x + 3) + (1.6x − 7)
+
+     A. 3.1x + 4                                              B. 2.4x − 4
+     C. −0.9x                                                 D. 3.1x − 4
+
+ 3. Write the expression using the fewest possible terms.
+
+          1         7
+    (5 + ( ) w) + (( ) w − 4)
+          2         8
+             ​               ​
+
+
+
+
+Score: ____ / 3    → copy to your progress strip
+
+
+
+
+                                                                                                  DPP Check Bank · p. 129
+
+--- COMPARISON HALF (printed twice) ---
+7th Grade Math · Comparison items (2)                                                               C-AR.1.1-X
+Benchmark: MA.7.AR.1.1 · Simplify linear expressions                          Student code: ________ Calculator: no
+
+ 1. Write the expression using the fewest possible terms.
+
+      4             7
+    (( ) x − 8) − (( ) x + 4)
+      3             3
+         ​                 ​
+
+
+
+
+ 2. Which expression is equivalent to the expression shown?
+
+    (3.2x + 2) + (4.5x − 0.5)
+
+     A. 14.4x + 1.5                                           B. 7.7x − 1.5
+     C. 9.2x                                                  D. 7.7x + 1.5
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+7th Grade Math · Comparison items (2)                                                               C-AR.1.1-X
+Benchmark: MA.7.AR.1.1 · Simplify linear expressions                          Student code: ________ Calculator: no
+
+ 1. Write the expression using the fewest possible terms.
+
+      4             7
+    (( ) x − 8) − (( ) x + 4)
+      3             3
+         ​                 ​
+
+
+
+
+ 2. Which expression is equivalent to the expression shown?
+
+    (3.2x + 2) + (4.5x − 0.5)
+
+     A. 14.4x + 1.5                                           B. 7.7x − 1.5
+     C. 9.2x                                                  D. 7.7x + 1.5
+
+Score: ____ / 2    → copy to your progress strip
+
+
+
+
+                                                                                                    DPP Check Bank · p. 130
+
+
+==================== C-AR.1.2  (MA.7.AR.1.2, Unit 9: Algebraic Expressions) ====================
+--- SCALE: {"goal": "I can tell whether two expressions are equivalent.", "l2": "I can use the distributive property on a simple expression.", "l3": "I can decide whether two linear expressions are equivalent and rewrite one as the other.", "l4": "I can justify equivalence using properties of operations, including factoring."}
+--- CHECK ---
+7th Grade Math · Weekly Check · Unit 9                                                                                              C-AR.1.2
+Benchmark: MA.7.AR.1.2 · Determine if two expressions are equivalent                                      Student code: ________ Calculator: no
+
+ Learning goal: I can tell whether two expressions are equivalent. (circle your level after scoring)
+  4    I can justify equivalence using properties of operations, including factoring.
+  3    I can decide whether two linear expressions are equivalent and rewrite one as the other.
+  2    I can use the distributive property on a simple expression.
+  1    I need help to start this benchmark.
+
+
+ 1. Which expression is equivalent to 1.5(10x − 4)?
+      A. 9x                                                                  B. 15x − 6
+      C. 11.5x − 2.5                                                         D. 15x − 4
+
+
+
+
+                                                                  3
+ 2. Select all the expressions that are equivalent to ( ) (16x + 4).
+                                                                  4
+                                                                      ​
+
+
+
+
+       Select all the correct answers.
+      ☐ 15x                                                                  ☐ 12x + 3
+      A.                                                                     B.
+      ☐ 12x + 4                                                                    3              3
+                                                                             ☐ ( ) (16x) + ( ) (4)
+                                                                                4           4
+                                                                                        ​             ​
+
+
+
+
+      C.                                                                     D.
+           67         19
+      ☐ ( )x +
+         4     4
+                ​          ​
+
+
+
+
+      E.
+
+
+
+
+                                                                                                                                        Turn over →
+
+                                                                                                                                DPP Check Bank · p. 131
+7th Grade Math · Weekly Check · Unit 9 (continued)                                                                               C-AR.1.2
+Benchmark: MA.7.AR.1.2 · Determine if two expressions are equivalent                                                Student code: ________
+
+ 3. Match each expression to an equivalent expression.
+      Check one box in each row.
+                                           6x − 6     2x + 1     3x + 12
+
+               1.5(2x + 8)                     ☐        ☐          ☐
+                1
+               ( ) (12x − 12)                  ☐        ☐          ☐
+                2
+                  ​
+
+
+
+
+               (0.5x + 6) + (1.5x − 5)         ☐        ☐          ☐
+
+
+
+
+ 4. Which expression is equivalent to 9x + 4.5?
+     A. 1.5(6x + 3)                                                          B. 1.5(6x + 4.5)
+     C. 9(x + 3)                                                             D. 1.5(9x + 3)
+
+
+
+
+       4                                 14
+ 5. ( ) (10 − x) − 4x and 8 − (             )x
+       5                                 5
+           ​                               ​
+
+
+
+
+ Are the two expressions equivalent?
+                                                                   14        B. Yes, because both expressions have an x-term and a
+     A. Yes, because both expressions simplify to 8 − (               ) x.
+                                                                   5            constant term.
+                                                                       ​
+
+
+
+
+     C. No, because the first expression simplifies to                       D. No, because the first expression simplifies to
+                    24             14                                                     16               14
+               8 − ( ) x, not 8 − ( ) x.                                            8−(      ) x, not 8 − ( ) x.
+                     5              5                                                      5                5
+                       ​                                                                    ​               ​
+
+
+
+
+Score: ____ / 5        My level: 1 2 3 4       → copy both to your progress strip
+
+                                                                                                                           DPP Check Bank · p. 132
+
+--- ANSWER KEY ---
+Answer key — C-AR.1.2 · MA.7.AR.1.2 · Determine if two expressions are equivalent
+Unit 9: Algebraic Expressions. Regular = on-benchmark item; Rigor = the item that needs the benchmark's reasoning. Mastery on the weekly check = 4 of 5.
+
+Weekly check (5 items)
+
+1. Regular      B. 15x − 6
+    Distribute 1.5 to both terms inside the parentheses.
+    1.5 × 10x = 15x and 1.5 × (−4) = −6, so the result is 15x − 6.
+
+                                                                     3                                                           3
+2. Regular      B. 12x + 3; D. ( ) (16x) + ( ) (4)
+                                                                     4                                                           4
+                                                                         ​                                                               ​
+
+
+
+
+              3                 3                   3
+    Distribute  to both terms: × 16x = 12x and × 4 = 3.
+              4                 4                   4
+                   ​                                 ​                                   ​
+
+
+
+
+        3                                              3           3
+    So ( ) (16x + 4) = 12x + 3, which is also written ( ) (16x) + ( ) (4).
+        4                                              4           4
+           ​                                                                                             ​                                       ​
+
+
+
+
+                                        1
+3. Regular      1.5(2x + 8) → 3x + 12; ( ) (12x − 12) → 6x − 6; (0.5x + 6) + (1.5x − 5) → 2x + 1
+                                        2
+                                                                                                     ​
+
+
+
+
+    Use the properties of operations to write each expression with the fewest possible terms.
+      1
+    ( ) (12x − 12) = 6x − 6
+      2
+       ​
+
+
+
+
+    (0.5x + 6) + (1.5x − 5) = 2x + 1
+    1.5(2x + 8) = 3x + 12
+
+
+4. Regular       A. 1.5(6x + 3)
+    Both terms of 9x + 4.5 are 1.5 times a whole number: 9 = 1.5 × 6 and 4.5 = 1.5 × 3.
+    So 9x + 4.5 = 1.5(6x + 3). Check by distributing: 1.5 × 6x = 9x and 1.5 × 3 = 4.5.
+
+                                                                                                                                                                     24    4               14    4
+5. Rigor       C. No, because the first expression simplifies to 8 − (                                                                                                  = 4 ) x, not 8 − (    = 2 ) x.
+                                                                                                                                                                      5    5                5    5
+                                                                                                                                                                       ​    ​               ​     ​
+
+
+
+
+                4               4             4         4               4
+    Distribute:   × 10 = 8 and × (−x) = − ( ) x, so ( ) (10 − x) = 8 − ( ) x.
+                5               5             5         5               5
+                       ​                     ​                               ​                               ​                                               ​
+
+
+
+
+                                4              24
+    Combine the x-terms: − ( ) x − 4x = − ( ) x.
+                                5               5
+                                         ​                                       ​
+
+
+
+
+                                  24                      14
+    The first expression is 8 − ( ) x; the second is 8 − ( ) x.
+                                  5                       5
+                                                         ​                                                                   ​
+
+
+
+
+    The constants match but the x-terms differ, so the expressions are not equivalent.
+                           4                                                       4                    16
+    Distributing             to 10 only would give 8 − 5x; dropping the sign of − ( ) x would give 8 − ( ) x.
+                           5                                                       5                    5
+                            ​                                                                                                                            ​       ​
+
+
+
+
+Re-check strip (3 items, C-AR.1.2-R)
+
+1. Regular      A. No, because the first simplifies to 8x − 2, not 8x − 1.5.
+    Distribute and combine: 0.5(8x − 6) = 4x − 3, then + 4x + 1 gives 8x − 2.
+    The second expression is 8x − 1.5. The constants differ (−2 and − 1.5), so they are not equivalent.
+    The 0.5 multiplies both terms in the parentheses.
+
+                                5       1                                                5                                       1
+2. Regular      A. ( = 1 ) (12x) + ( = 1 ) (20); C. 15x + 25
+                                4       4                                                4                                       4
+                                    ​            ​                                           ​                                       ​
+
+
+
+
+              5                5                   5
+    Distribute  to both terms: × 12x = 15x and × 20 = 25.
+              4                4                   4
+                   ​                                 ​                                   ​
+
+
+
+
+        5                                                5           5
+    So ( ) (12x + 20) = 15x + 25, which is also written ( ) (12x) + ( ) (20).
+        4                                                4           4
+           ​                                                                                                         ​                               ​
+
+
+
+
+                                         1
+3. Regular      2.5(8x + 6) → 20x + 15; ( ) (10x − 8) → 5x − 4; (2.5x + 6) + (4.5x − 2) → 7x + 4
+                                         2
+                                                                                                                 ​
+
+
+
+
+    Use the properties of operations to write each expression with the fewest possible terms.
+      1
+    ( ) (10x − 8) = 5x − 4
+      2
+       ​
+
+
+
+
+    (2.5x + 6) + (4.5x − 2) = 7x + 4
+    2.5(8x + 6) = 20x + 15
+
+
+Comparison strip (2 items, C-AR.1.2-X) — used on a later week's re-check when this benchmark was not retaught
+                                       1
+1. Regular      0.5(6x + 6) → 3x + 3; ( ) (24x − 12) → 6x − 3; (0.5x + 8) + (2.5x − 8) → 3x
+                                       4
+                                                                                                 ​
+
+
+
+
+    Use the properties of operations to write each expression with the fewest possible terms.
+      1
+    ( ) (24x − 12) = 6x − 3
+      4
+       ​
+
+
+
+
+    (0.5x + 8) + (2.5x − 8) = 3x
+    0.5(6x + 6) = 3x + 3
+
+                                                             1                                               1
+2. Regular      B. 2x + 4; E. ( ) (4x) + ( ) (8)
+                                                             2                                               2
+                                                                 ​                                                       ​
+
+
+
+
+              1                1                  1
+    Distribute  to both terms: × 4x = 2x and × 8 = 4.
+              2                2                  2
+                   ​                                 ​                               ​
+
+
+
+
+        1                                            1          1
+    So ( ) (4x + 8) = 2x + 4, which is also written ( ) (4x) + ( ) (8).
+        2                                            2          2
+           ​                                                                                     ​                                           ​
+
+
+
+
+                                                                                                                                                                                                         DPP Check Bank · p. 133
+
+--- RE-CHECK HALF (printed twice) ---
+7th Grade Math · Re-check (3 items)                                                                                   C-AR.1.2-R
+Benchmark: MA.7.AR.1.2 · Determine if two expressions are equivalent                            Student code: ________ Calculator: no
+
+ 1. Are the two expressions equivalent?
+
+ 0.5(8x − 6) + 4x + 1 and 8x − 1.5
+
+     A. No, because the first simplifies to 8x − 2, not 8x − 1.5.      B. Yes, because both of them simplify to 8x − 1.5.
+     C. No, because 0.5(8x − 6) is 4x − 6, giving 8x − 5.              D. Yes, because both have an x-term and a constant
+                                                                          term.
+
+                                                              5
+ 2. Select all the expressions that are equivalent to ( ) (12x + 20).
+                                                              4
+                                                                  ​
+
+
+
+
+      Select all the correct answers.
+           5                5                                               53       85
+     ☐ ( ) (12x) + ( ) (20)                                            ☐ ( )x +
+        4           4                                                     4     4
+                   ​            ​                                                ​        ​
+
+
+
+
+     A.                                                                B.
+     ☐ 15x + 25                                                        ☐ 15x + 20
+     C.                                                                D.
+     ☐ 40x
+     E.
+
+ 3. Match each expression to an equivalent expression.
+      Check one box in each row.
+                                        5x − 4    7x + 4    20x + 15
+
+        2.5(8x + 6)                       ☐            ☐       ☐
+         1
+        ( ) (10x − 8)                     ☐            ☐       ☐
+         2
+               ​
+
+
+
+
+        (2.5x + 6) + (4.5x − 2)           ☐            ☐       ☐
+
+Score: ____ / 3        → copy to your progress strip
+
+
+
+
+                                                                                                                      DPP Check Bank · p. 135
+
+--- COMPARISON HALF (printed twice) ---
+7th Grade Math · Comparison items (2)                                                                   C-AR.1.2-X
+Benchmark: MA.7.AR.1.2 · Determine if two expressions are equivalent              Student code: ________ Calculator: no
+
+ 1. Match each expression to an equivalent expression.
+       Check one box in each row.
+
+                                           6x − 3      3x    3x + 3
+
+         0.5(6x + 6)                         ☐         ☐       ☐
+          1
+         ( ) (24x − 12)                      ☐         ☐       ☐
+          4
+                   ​
+
+
+
+
+         (0.5x + 8) + (2.5x − 8)             ☐         ☐       ☐
+
+                                                              1
+ 2. Select all the expressions that are equivalent to ( ) (4x + 8).
+                                                              2
+                                                                  ​
+
+
+
+
+       Select all the correct answers.
+     ☐ 2x + 8                                                          ☐ 2x + 4
+     A.                                                                B.
+           9            17                                             ☐ 6x
+     ☐ ( )x +
+        2     2                                                        D.
+               ​             ​
+
+
+
+
+     C.
+           1                     1
+     ☐ ( ) (4x) + ( ) (8)
+        2          2
+               ​                     ​
+
+
+
+
+     E.
+
+Score: ____ / 2        → copy to your progress strip
+
+
+
+7th Grade Math · Comparison items (2)                                                                   C-AR.1.2-X
+Benchmark: MA.7.AR.1.2 · Determine if two expressions are equivalent              Student code: ________ Calculator: no
+
+ 1. Match each expression to an equivalent expression.
+       Check one box in each row.
+
+                                           6x − 3      3x    3x + 3
+
+         0.5(6x + 6)                         ☐         ☐       ☐
+          1
+         ( ) (24x − 12)                      ☐         ☐       ☐
+          4
+                   ​
+
+
+
+
+         (0.5x + 8) + (2.5x − 8)             ☐         ☐       ☐
+
+                                                              1
+ 2. Select all the expressions that are equivalent to ( ) (4x + 8).
+                                                              2
+                                                                  ​
+
+
+
+
+       Select all the correct answers.
+     ☐ 2x + 8                                                          ☐ 2x + 4
+     A.                                                                B.
+           9
+     ☐ ( )x +
+                        17                                             ☐ 6x
+        2     2                                                        D.
+               ​             ​
+
+
+
+
+     C.
+           1                     1
+     ☐ ( ) (4x) + ( ) (8)
+        2          2
+               ​                     ​
+
+
+
+
+     E.
+
+Score: ____ / 2        → copy to your progress strip
+
+
+                                                                                                       DPP Check Bank · p. 136

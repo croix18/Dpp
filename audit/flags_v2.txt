@@ -1,0 +1,42 @@
+C-NSO.1.2 | check/recheck/comparison | 1, R3, X2 | PERSISTS: repeating-decimal vinculum must print; X2 options C and E differ only by bar placement (0.2(6) vs 0.(26)) and option F restates 4/15 | verify the bar prints; replace E with 0.27 or 26/100 and F with 12/45
+C-NSO.1.2 | check | 1 | 0.58(3) → 7/12 needs the delayed-repeat algorithm, beyond MA.7.NSO.1.2 (purely repeating decimals) | use purely repeating decimals (0.(45) → 5/11, 0.(6) → 2/3)
+C-NSO.1.2 | check | 2–5 | four of five denominators are 11 or 22 | vary the fraction pool (sixths, sevenths, ninths, twelfths)
+C-DP.2.2 | check | 5 | PERSISTS: rigor is still a likely/unlikely judgment; the L4 skill (compare probabilities across experiments in mixed forms) is a regular item | rigor bank: compare 3/8 vs 0.4 vs 35% and justify the order
+C-DP.2.2 | check | 1, 4, 5 | PERSISTS: three likely/unlikely items, one comparison | add a mixed-form comparison generator
+C-DP.2.3 | check | 5 | rigor is an algebra item ((2+x)/(8+x) = 2/5), not MA.7.DP.2.3 | rigor: P(not red) or P(even or > 14) with an explained count
+C-DP.2.4 | check | 1, X2 | PERSISTS: three-part answer scored as one point with no partial-credit rule | state the rule on the key (all three parts, or score the comparison only)
+C-DP.2.4 | check | 3, 5 (+R1, X1) | both regular 3 and rigor 5 are law-of-large-numbers; the same MC appears four times across the sets | rigor: predict a count for more trials or design a simulation; cap the "more trials" MC at one per benchmark
+C-DP.2.1 | check | 1, 2 | DOMAIN has no repeated letter, so item 1 is "count the letters"; items 1 and 2 are both letter cards | use a word with a repeat; make item 2 a non-letter context
+C-DP.1.3 | check | 1–4 | PERSISTS: all "k of n in sample, how many of N"; no reverse or bias item; L2 (random/representative) never assessed | add reverse and bias/representativeness generators
+C-GR.1.4 | check | 1, 3, 4 | PERSISTS: three bare "area from r or d" (1 and 3 the same item, one MC); no numeric real-world area item | add a real-world item using 3.14; use non-half fractions on the pizza item
+C-GR.1.3 | check | 3, 4 | same template (d = C ÷ π); stems never say which π, so 22/7 gives a third answer | make 4 "find the radius"; every rounding stem says "Use 3.14 for π" or "Use the π key"
+C-GR.1.1 | check | 2 | b = h = 10, so bh, b² and 10×10 all give 100 | force b ≠ h
+C-GR.1.2 | check | 4, 5 | a figure reuses one number for two different dimensions (17 in. is both a height and a base) | force distinct dimension values within a figure
+C-GR.1.2 | recheck/comparison | — | PERSISTS: no R or X item subtracts a region | add a removal template to the regular bank
+C-NSO.2.2 | comparison / check | X2, 1 | PERSISTS: −3/4 − (−3/4) = 0 and 1/3 − (−1/3): equal operands; key prints "LCD of 3 and 3 is 3" | block equal operands; skip the LCD line when denominators match
+C-NSO.2.3 | check | 1, 2, 4, 5 | four of five are "start value + rate × time ± adjustment"; 1 and 5 both divers; R2/X2 same tank leak numbers | add a different structure (split a debt, fraction of a paycheck); vary numbers across sets
+C-AR.4.5 | check | 1–4 | PERSISTS: all unit-rate-then-scale; no compare-two-offers item, so scale L4 is untestable; item 2 is the same template as AR.3.2 | add a better-buy generator (3½ m for $9.80 vs 5 m for $13.50)
+C-AR.4.5 | check | 5 | grid's minutes axis labeled 0, 50, 100 but the answer is 120 minutes; key plots (12, ¼), not on a labeled gridline | extend the axis to 150 or change the ride to 2 miles; plot (48, 1) and (96, 2)
+C-DP.1.4 | check | 1 vs 5 | the five-sector construction (item 1) is far more work than the rigor and has no scoring rule as one point | make the construction the rigor with a rule (3–4 categories); replace item 1 with a single central-angle item
+C-AR.3.3 | check | 2, 3 | two consecutive context-free one-step multiplications; no time/currency conversion although L3 names them | replace item 3 with a contextual two-step or a time/currency conversion
+C-NSO.2.1 | check | 1, 2, 4, 5 | absolute value in 4 of 5; regulars decimal-only; L4 (find and explain an error) has no item; "24 − 4|1.27 − …|" implied multiplication vs "4 × |…|" on the same page; (−1.5)³ ÷ 5 heavier than the rigor | one fraction regular; an error-analysis generator; print the × everywhere; use (−1.5)² or ÷ 2
+C-AR.1.1 | check | 5 | L4 is "write and simplify from a situation" but the rigor is symbolic (missing subtrahend) | add the contextual rigor (perimeter of a rectangle with sides 3x + 2 and x − 1); keep the subtrahend item as a regular
+C-AR.1.2 | check | 5 | 37/3 x as a leading coefficient is contrived; no factored-equivalent item on the check although L4 names factoring | generate from the target (7/3 x − 5/3(3x − 9)); move a factoring item into the check
+C-AR.2.1 | comparison | 1 | 7.7 ≥ −4.2 − h: the variable carries a negative sign; not a one-step inequality at MA.7.AR.2.1 | generator must not emit "c − x" forms
+C-AR.2.1 | check | all | L3 says "graph the solution" but no item asks for a graph; item 1 is graph → inequality | make item 3 "solve and graph on the number line"
+C-AR.2.1 | recheck key | 2 | "Subtract −8.4 from both sides" | "Add 8.4 to both sides"
+C-AR.4.2 | check | 5 | keys BOTH 3 and 1/3 as the constant although the stem fixes the order (tea bags → cups) | define x and y and key one value, or say "depending on which quantity is x"
+C-AR.4.2 | check | 1, 2 | both keyed 1.5 | [build] answer dedupe within a check — generator number pool is small
+C-AR.4.3 | check | 5 | must read x at y = 9 but the y-axis is labeled 5, 10, 15 | ask for y = 15, or scale the axis by 3s
+C-AR.4.3 | check | 3 | key justifies Graph D by (2, 5) but the mini-grids are labeled to ±4 | pick k so the key point sits inside the grid, or extend mini-grids to ±6
+C-AR.4.3 | check vs strips | ck 2 ≡ R3 (y = 9x); ck 4 ≡ X2 (k = 6) | identical equations/graphs reused across the check and its strips | [build] dedupe on k; generator pool is small
+C-AR.4.2 / C-AR.4.3 | scale | L4 | "explain what k means" / "find k from a graph and interpret" assessed by no item | add an interpretation sentence to one item
+C-AR.2.2 | check | 5 | rigor is a bare equation with fractions; the benchmark's "write and solve" lives in regular item 3 | rigor: context write-and-solve with a twist; demote the fraction item
+C-GR.2.1 | check | 4, 5 | item 4's key computes 2π(5) = 10π and item 5 then hands the student a 10π rectangle; r = 5 in three items | rigor radius not seen elsewhere on the check (16π → r = 8)
+C-GR.2.2 | check | 2, 3, 4 | three consecutive full-SA computations; open-top case only on the re-check | swap one for the open-top template
+C-GR.2.2 / C-GR.2.3 | check/recheck/comparison | several | "round to the nearest hundredth" with no π instruction; key accepts 471.24 and 471.00 | stem says "Use the π key" or "Use 3.14"; key carries one answer
+C-GR.2.3 | check | 1, 4 | two bare πr²h items in terms of π with tiny numbers | replace item 4 with diameter-plus-rounding or "find h given V"
+C-DP.1.5 | check | 1 | constructed response (choose, explain, describe) scored as one point; "dot plot" synonym has no ruling | 1-point rubric with accepted synonyms, or MC plus "describe it"
+C-DP.1.2 | check | 3 | box-plot axis for "books read" starts at −5 | start axes at 0 when the quantity cannot be negative
+C-AR.4.1 | check key | 2 | explanation cites "a joining fee" not present in any choice | generator must reference the actual distractors
+C-DP.1.1 | label | — | Cadence's label "Choose the appropriate measure of center" while items also cover variation | relabel "Choose a measure of center or variation"

@@ -1,0 +1,160 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Script setup</title>
+<style>
+@font-face{font-family:Lexend;src:url('file:///home/claude/dpp/lexend0.ttf');font-weight:100 900}
+@page{size:letter;margin:0.45in 0.55in}
+body{font-family:Lexend,Arial,sans-serif;color:#111;font-size:10.2px;line-height:1.42;margin:0}
+h1{font-size:18px;margin:0 0 2px}
+h2{font-size:12.5px;margin:13px 0 5px;padding-bottom:2px;border-bottom:1.2px solid #1f2a44;page-break-after:avoid}
+h3{font-size:11px;margin:10px 0 3px;page-break-after:avoid}
+.sub{color:#555;margin-bottom:8px}
+.box{border:1px solid #bbb;border-radius:6px;padding:6px 10px;margin:6px 0;background:#fafaf7;page-break-inside:avoid}
+.warn{border-color:#c9a227;background:#fffbea}
+.test{border-color:#2f6f4f;background:#f2f8f4}
+b{font-weight:600}
+code,.mono{font-family:'Courier New',monospace;font-size:9.8px}
+code{background:#fff;border:1px solid #ddd;border-radius:3px;padding:0 3px;white-space:nowrap}
+pre{font-family:'Courier New',monospace;font-size:9.6px;background:#fff;border:1px solid #ccc;border-radius:5px;padding:6px 9px;margin:5px 0;white-space:pre;line-height:1.35}
+pre .c{color:#2f6f4f}
+.step{display:flex;gap:9px;margin:9px 0 4px}
+.step .t{page-break-after:avoid}
+li,pre{page-break-inside:avoid}
+.num{flex:0 0 22px;height:22px;border-radius:11px;background:#1f2a44;color:#fff;font-weight:700;font-size:11.5px;display:flex;align-items:center;justify-content:center;margin-top:1px}
+.step .body{flex:1}
+.step .t{font-weight:700;font-size:11.2px}
+.step .time{color:#666;font-weight:400;font-size:9.6px}
+ol,ul{padding-left:17px;margin:3px 0}li{margin:2px 0}
+ol.sub-steps{list-style:lower-alpha}
+table{border-collapse:collapse;width:100%;margin:4px 0}
+th{background:#1f2a44;color:#fff;font-weight:600;text-align:left;padding:4px 6px;font-size:9.4px}
+td{border-bottom:1px solid #ddd;padding:4px 6px;vertical-align:top}
+tr{page-break-inside:avoid}
+.k{white-space:nowrap}
+.dim{color:#666}
+.brk{page-break-before:always}
+</style></head><body>
+
+<h1>Build all 102 forms with a script</h1>
+<div class="sub">DPP Weekly Checks in Google Forms · setup takes about 30 minutes once, then the script builds for about an hour on its own</div>
+
+<div class="box"><b>What the script does.</b> In your <b>personal</b> Google Drive it builds every Check, Re-check and Comparison form:
+the title and description, the Teacher and Period questions, each question's picture, the answer choices, every answer key and point value,
+the typing rule on typed answers, and the Level question on checks. It also makes a links sheet with each form's status, its edit link and a
+<b>copy link</b> for your school account.<br>
+<b>What you still do each week:</b> open the copy link in your school account, publish the copy and post its link (about 2 minutes a form).
+Students only ever use the school copies, so their responses stay in the school account.</div>
+
+<h2>What's in the zip</h2>
+<table>
+<tr><th style="width:27%">Item</th><th>What it is</th></tr>
+<tr><td><b>DPP Forms kit</b> (folder)</td><td><code>forms_manifest.json</code> (every form, question, choice and answer key) and an <code>images</code> folder (374 question and level-scale pictures). You upload this folder as is.</td></tr>
+<tr><td><b>Code.gs.txt</b></td><td>The script. You paste it into Apps Script.</td></tr>
+<tr><td><b>appsscript.json.txt</b></td><td>The script's settings: the permissions it asks for.</td></tr>
+</table>
+
+<h2>Setup (once)</h2>
+
+<div class="step"><div class="num">1</div><div class="body"><div class="t">Upload the kit to your personal Drive <span class="time">· 3 minutes</span></div>
+Unzip the download. At <b>drive.google.com</b>, signed in to your <b>personal</b> account, click <b>New → Folder upload</b> and choose the
+<b>DPP Forms kit</b> folder. Wait until all 375 files are up. Keep the folder name. (Personal account, because your district blocks Apps Script on the school account.)
+</div></div>
+
+<div class="step"><div class="num">2</div><div class="body"><div class="t">Make the template form <span class="time">· 3 minutes</span></div>
+At <b>forms.google.com</b> (personal account), start a <b>Blank form</b> and name it <code>DPP template</code>. Leave it with no questions. On its <b>Settings</b> tab:
+<ul>
+<li><b>Make this a quiz</b>: on. <b>Release grades</b>: Immediately after each submission. Respondents can see: <b>Missed questions</b> on, <b>Correct answers</b> off, <b>Point values</b> on.</li>
+<li><b>Responses</b>: <b>Collect email addresses</b>: Verified. <b>Limit to 1 response</b>: on.</li>
+</ul>
+Every form the script builds is a copy of this one, so these settings carry over (correct answers stay hidden, so one period can't pass them to the next).
+Copy the template's <b>ID</b> from the address bar: the long code between <code>/d/</code> and <code>/edit</code>.
+</div></div>
+
+<div class="step"><div class="num">3</div><div class="body"><div class="t">Make the script project <span class="time">· 5 minutes</span></div>
+<ol class="sub-steps">
+<li>Go to <b>script.google.com</b> (personal account) → <b>New project</b>. Click <b>Untitled project</b> and name it <code>DPP Forms builder</code>.</li>
+<li>In <b>Code.gs</b>, select all the sample code and delete it. Open <b>Code.gs.txt</b> from the zip (it opens in Notepad, TextEdit or Text), select all, copy, and paste it into the editor. Click <b>Save</b> (the disk icon).</li>
+<li>Click <b>Project Settings</b> (the gear on the left) and tick <b>Show "appsscript.json" manifest file in editor</b>. Go back to the <b>Editor</b> (the <code>&lt; &gt;</code> icon), click <b>appsscript.json</b>, select all, and paste the contents of <b>appsscript.json.txt</b> over it. Save.</li>
+<li>Back in <b>Code.gs</b>, fill in three lines near the top, keeping the quote marks, then Save:</li>
+</ol>
+<pre>  TEMPLATE_FORM_ID: '<b>1AbC…xyz</b>',             <span class="c">// the template's ID from step 2</span>
+  SCHOOL_EMAIL: '<b>your school Google address</b>', <span class="c">// the built folder is shared with it, view only</span>
+  ONLY: '<b>C-NSO.1.2</b>',                       <span class="c">// the test build in step 6; set back to '' in step 7</span></pre>
+</div></div>
+
+<div class="step"><div class="num">4</div><div class="body"><div class="t">Turn on the Google Forms API <span class="time">· about 10 minutes</span></div>
+Apps Script can't set the answer key of a typed question or choose Verified emails, but Google's Forms API can. Using it takes a free Google Cloud project.
+<ol>
+<li>Go to <b>console.cloud.google.com</b>, signed in to your personal account. Agree to the terms if asked.</li>
+<li>Click the project picker at the top → <b>New project</b>. Name: <code>DPP Forms</code>. Location: <b>No organization</b>. <b>Create</b>, then make sure <b>DPP Forms</b> is the project shown at the top.</li>
+<li><b>☰ menu → APIs &amp; Services → Library</b>. Search <b>Google Forms API</b> → <b>Enable</b>. Back in the Library, search <b>Google Drive API</b> → <b>Enable</b>. (Apps Script needs the Drive API turned on in a project like this one.)</li>
+<li><b>☰ menu → Google Auth Platform</b> → <b>Get started</b>. App name: <code>DPP Forms</code>. User support email: your Gmail. <b>Next</b>. Audience: <b>External</b>. <b>Next</b>. Contact information: your Gmail. <b>Next</b>. Tick the agreement → <b>Continue</b> → <b>Create</b>.</li>
+<li><b>Google Auth Platform → Audience → Test users → Add users</b>: your Gmail → <b>Save</b>. Leave the publishing status on <b>Testing</b>.</li>
+<li><b>☰ menu → Cloud overview → Dashboard</b>: copy the <b>Project number</b> (all digits, not the project ID).</li>
+<li>In Apps Script: <b>Project Settings → Google Cloud Platform (GCP) Project → Change project</b>, paste the number, <b>Set project</b>.</li>
+</ol>
+<div class="box"><b>Rather skip this step?</b> In Code.gs set <code>USE_FORMS_API: false</code>. The script builds everything else and lists the 166 typed answer keys in a <b>Typed keys to add</b> tab of the links sheet,
+one accepted answer per cell, with each form's edit link. You then add them by hand in each form (about an hour) and tick <b>Mark all other answers incorrect</b> on each.</div>
+</div></div>
+
+<div class="step"><div class="num">5</div><div class="body"><div class="t">Check the setup <span class="time">· 2 minutes</span></div>
+In the editor, choose <b>testSetup</b> in the function menu next to <b>Run</b>, and click <b>Run</b>. The first time, Google asks for permission:
+<b>Review permissions</b> → your personal account → <b>Google hasn't verified this app</b> → <b>Continue</b> (if you only see <i>Back to safety</i>, click <b>Advanced → Go to DPP Forms (unsafe)</b>).
+On the next screen tick <b>Select all</b>, then <b>Continue</b>. It's your own script; Google shows this warning for any script it hasn't reviewed.<br>
+The <b>Execution log</b> then lists <b>OK</b>, <b>NOTE</b> and <b>FIX</b> lines. Do what each FIX line says and run testSetup again until there are none.
+</div></div>
+
+<div class="step"><div class="num">6</div><div class="body"><div class="t">Test build: one benchmark, 3 forms <span class="time">· 15 minutes</span></div>
+With <code>ONLY: 'C-NSO.1.2'</code>, choose <b>buildForms</b> and click <b>Run</b>. In a minute or two it builds that benchmark's Check, Re-check and Comparison,
+plus the links sheet: <b>My Drive → DPP Forms kit → DPP Forms (built) → DPP Forms links</b>. Then check one form all the way through, as a student would get it:
+<ol class="sub-steps">
+<li>Signed in to your <b>school</b> account, open the links sheet (it's in <b>Shared with me</b>). On the <b>C-NSO.1.2 Check</b> row, click the <b>Copy link</b> → <b>Make a copy</b>.</li>
+<li>In the copy, look over Settings: quiz on, correct answers hidden, Verified emails, 1 response. Click <b>Question 4</b> → <b>Answer key</b>. It should list
+<code>63 7/11</code>, <code>700/11</code> and <code>63 63/99</code>. <b>Note whether "Mark all other answers incorrect" is ticked.</b> The question should also still have its <b>Response validation</b> rule.</li>
+<li><b>Publish</b> the copy (leave Locked mode off for this test; it only works on school Chromebooks), open its link and take it: on Question 1 type <code>12 cm</code> (it should refuse it), then a wrong number such as <code>1/2</code>;
+on Question 4 type <code>700/11</code>. Submit and view your score: Question 1 should be marked wrong with 0 points, Question 4 right.</li>
+<li>Done? In the copy, <b>Responses → ⋮ → Delete all responses</b>, then move the copy to the Trash.</li>
+</ol>
+<div class="box warn"><b>If "Mark all other answers incorrect" is not ticked</b> (and Question 1 was left unmarked instead of scored 0): the keys are right, but Forms waits for you to grade any answer not on the key.
+Go ahead with the full build anyway. Then either tick that box once on each typed question in the built forms (166 questions, about 40 minutes), or tick it on the 1 to 5 typed questions each time you copy a form.</div>
+</div></div>
+
+<div class="step"><div class="num">7</div><div class="body"><div class="t">Full build <span class="time">· about an hour, on its own</span></div>
+Set <code>ONLY: ''</code> (two quote marks, nothing between), Save, choose <b>buildForms</b> and click <b>Run</b>. The first run works for about 5 minutes, then logs
+<i>"the next run starts by itself in about a minute"</i>. You can close the tab. Each run builds what it can in 5 minutes and starts the next,
+and the three test forms are kept. Watch the links sheet: each row's <b>Status</b> turns to <b>built</b>, and the last run logs <i>"All 102 forms are built"</i>.
+If the Status column stops changing for 15 minutes, run buildForms again; it picks up where it stopped.
+</div></div>
+
+<h2>Each week <span class="dim" style="font-weight:400">· about 2 minutes a form</span></h2>
+<ol>
+<li>Signed in to your <b>school</b> account, open the links sheet (bookmark it). Rows run in teaching order. Click the form's <b>Copy link</b> → <b>Make a copy</b>.
+The copy is in your school My Drive as "Copy of …"; students see only the form title.</li>
+<li>If the sheet's <b>Locked mode</b> column says <b>on</b> (no-calculator forms), open the copy's <b>Settings</b> and turn on <b>Locked mode</b> under the quiz's Chromebook settings.</li>
+<li>Click <b>Publish</b>, with responders limited to your school (not "Anyone with the link"), copy the link, and post it in your Google Classroom and John's.</li>
+<li><b>Responses → Link to Sheets</b>: link it to your one DPP responses spreadsheet, as in <i>00 Start here.pdf</i>. The rest of the week runs as that guide says.</li>
+</ol>
+
+<h2>If something goes wrong</h2>
+<table>
+<thead><tr><th style="width:38%">What you see</th><th>What to do</th></tr></thead>
+<tr><td>FIX There is no folder named "DPP Forms kit"</td><td>Upload the folder (not the zip) to My Drive with that exact name (step 1).</td></tr>
+<tr><td>Forms API 403: … isn't turned on</td><td>Step 4.3: enable the Google Forms API in the DPP Forms project. Wait a minute, then run again.</td></tr>
+<tr><td>Turn on the Google Drive API …</td><td>Step 4.3: enable the Google Drive API too.</td></tr>
+<tr><td>Access was refused, or "insufficient authentication scopes"</td><td>Run testSetup and tick <b>Select all</b> on the permission screen. Check the project number (step 4.7).</td></tr>
+<tr><td>Google asks for permission again</td><td>Normal: a project in Testing asks again after 7 days. Click through as in step 5.</td></tr>
+<tr><td>The Status column stopped changing</td><td>Run buildForms again. It skips built forms and rebuilds any half-built one. Google caps a personal account's background script time at 90 minutes a day, so on a slow day the last few forms may need a run the next day.</td></tr>
+<tr><td>A row's Status says <b>failed: …</b></td><td>Fix what it names (usually a missing picture: put it back in <code>images</code>), then run buildForms again. It rebuilds only those forms.</td></tr>
+<tr><td>The copy link opens in your personal account</td><td>Switch to your school account in the top-right corner, or open the link in a browser window signed in only to your school account.</td></tr>
+<tr><td>The copy link says you need access</td><td>In your personal Drive, share <b>DPP Forms (built)</b> with your school address as <b>Viewer</b> (SCHOOL_EMAIL does this). If it still refuses, the district is blocking files from personal accounts: ask your tech office to allow your own Gmail.</td></tr>
+<tr><td>A spare form named like a check sits in My Drive</td><td>A run was cut off mid-form. Delete it; the real one is in DPP Forms (built) and in the links sheet.</td></tr>
+<tr><td>You want to start again from scratch</td><td>Run <b>startOver</b>. It moves every built form and the links sheet to the Trash (you can restore them for 30 days). Then run buildForms.</td></tr>
+</table>
+
+<h2>Good to know</h2>
+<ul>
+<li>The forms in your personal Drive are masters. Edit one, and only copies made after that get the change.</li>
+<li>The script changes nothing outside the <b>DPP Forms kit</b> folder. It only reads the template, and testSetup makes one test form, which goes straight to the Trash.</li>
+<li>Typed answers accept every way the key lists (for example <code>63 7/11</code> or <code>700/11</code>). If a student types a correct answer the key missed, mark it correct under <b>Responses → Question</b>; Forms re-scores everyone who typed the same thing.</li>
+<li>The links sheet's <b>Edit link</b> opens the master; the <b>Copy link</b> makes a school copy. The <b>Form ID</b> column is for the script.</li>
+</ul>
+</body></html>
