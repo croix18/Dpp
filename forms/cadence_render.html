@@ -1267,7 +1267,7 @@ body.gv-open{overflow:hidden}
 
   /* ---------- 4. a run → TeX ---------- */
   function toTeX(run) {
-    let s = '', depth = 0, barOpen = false; const stack = [];
+    let s = '', depth = 0, barOpen = false; const stack = [], opens = [];
     for (let k = 0; k < run.length; k++) {
       const tk = run[k], nx = run[k + 1], pv = run[k - 1];
       switch (tk.t) {
@@ -1307,8 +1307,18 @@ body.gv-open{overflow:hidden}
           if (tk.v === '/') { // a/b with single letters or parenthesised parts: \frac
             s += '/'; break; }
           s += OPS[tk.v]; break; }
-        case T.OPEN: depth++; stack.push(s.length); s += tk.v === '{' ? '\\{' : tk.v; break;
-        case T.CLOSE: { depth = Math.max(0, depth - 1); const at = stack.pop(); const body = at != null ? s.slice(at) : '';
+        case T.OPEN: depth++; stack.push(s.length); opens.push(k); s += tk.v === '{' ? '\\{' : tk.v; break;
+        case T.CLOSE: { depth = Math.max(0, depth - 1); const at = stack.pop(); const body = at != null ? s.slice(at) : ''; const ok = opens.pop();
+          // a bracketed fraction used as a coefficient prints bare, as on FAST: (5/6)p → \frac{5}{6}p, = (−3/8)x → = -\frac{3}{8}x.
+          // Kept when a number, letter or bracket comes right before it (2(5/2)x), and a negative one after + − × ÷.
+          if (at != null && tk.v === ')' && ok != null && /^\((-)?\\frac\{\d+\}\{\d+\}$/.test(body)) {
+            let j = k + 1; while (run[j] && run[j].t === T.SP) j++; const nxt = run[j];
+            let i = ok - 1; while (i >= 0 && run[i].t === T.SP) i--; const prv = i >= 0 ? run[i] : null;
+            const coef = nxt && (nxt.t === T.VAR || (nxt.t === T.OPEN && nxt.v === '('));
+            const glued = prv && [T.NUM, T.VAR, T.CLOSE, T.FRAC, T.ATOM].includes(prv.t);
+            const signClash = body[1] === '-' && prv && prv.t === T.OP && prv.v !== '=' && prv.v !== '<' && prv.v !== '>' && prv.v !== '≤' && prv.v !== '≥';
+            if (coef && !glued && !signClash) { s = s.slice(0, at) + body.slice(1); break; }
+          }
           if (at != null && tk.v === ')' && /\\d?frac|\\sqrt|[A-Za-z]\/[A-Za-z]/.test(body)) { s = s.slice(0, at) + '\\left(' + body.slice(1) + '\\right)'; }
           else if (at != null && tk.v === ']' && /\\d?frac|\\sqrt|\\left\(/.test(body)) { s = s.slice(0, at) + '\\left[' + body.slice(1) + '\\right]'; }
           else s += tk.v === '}' ? '\\}' : tk.v; break; }

@@ -8,6 +8,8 @@
  *   buildForms()  Builds the forms. Each run works for up to 5 minutes, then starts the next
  *                 run by itself a minute later, until every form is built.
  *   startOver()   Moves every built form and the links sheet to the Trash.
+ *   updateMessages()  For forms built with an earlier kit: puts this kit's message on the page students
+ *                 see after they submit. Changes nothing else.
  *
  * Progress and links: the "DPP Forms links" sheet inside the "DPP Forms (built)" folder.
  */
@@ -20,7 +22,7 @@ const CONFIG = {
   TEACHERS: ['Mr. C. Shaffer', 'Mr. J. Shaffer'],
   PERIODS: ['1', '2', '3', '4', '5', '6', '7'],
   USE_FORMS_API: true,                       // sets typed answer keys and Verified emails (setup step 4); false = you type the keys
-  ONLY: '',                                  // e.g. 'C-NSO.1.2' builds just that benchmark's three forms
+  ONLY: '',                                  // e.g. 'C-NSO.1.2' or 'Unit 9, Unit 10': builds just those forms
   IMAGE_WIDTH: 640,                          // pixels; Google Forms shows images up to 740 wide
 };
 
@@ -36,6 +38,7 @@ const STOP_KEY = 'DPP_STOP_BUILD';          // set by startOver() so a running b
 const STOP_FRESH_MS = 10 * 60 * 1000;       // an older stop flag is left over from a failed startOver()
 const FAILS_KEY = 'DPP_FAILED_RUNS';        // runs in a row that hit an error; the build stops at 3
 const FORMS_API = 'https://forms.googleapis.com/v1/forms/';
+const CONFIRMATION = 'Your answers are in. Choose View score to see your score and which questions you missed.';
 const COLUMNS = ['Order', 'Form', 'Title', 'Questions', 'Calculator', 'Locked mode', 'Typed answer keys',
   'Status', 'Edit link', 'Copy link (open while signed in to your school account)', 'Form ID'];
 const COL = { order: 1, key: 2, status: 8, id: 11 };
@@ -78,8 +81,9 @@ function buildPass_(started) {
   const ss = openLog_(out);
   const sheet = logSheet_(ss);
   const images = imageFiles_(kit.folder);
-  const forms = kit.manifest.forms.filter(f => !CONFIG.ONLY || f.id === CONFIG.ONLY || f.key === CONFIG.ONLY);
-  if (!forms.length) throw setupError_(`No form matches ONLY = "${CONFIG.ONLY}". Use an ID like C-NSO.1.2, or leave it blank.`);
+  const pick = pickForms_(kit.manifest.forms);
+  if (pick.unknown.length) throw setupError_(onlyHelp_(pick.unknown));
+  const forms = pick.forms;
   const props = PropertiesService.getScriptProperties();
 
   const rows = readLog_(sheet);
@@ -156,7 +160,7 @@ function buildOne_(F, M, images, out, ss, sheet, row) {
   form.setDescription(F.description);
   form.setIsQuiz(true);
   form.setShuffleQuestions(false);
-  form.setConfirmationMessage('Your answers are in. Copy your score and your level onto your progress strip.');
+  form.setConfirmationMessage(CONFIRMATION);
 
   form.addMultipleChoiceItem().setTitle('Teacher').setChoiceValues(CONFIG.TEACHERS).setRequired(true);
   form.addListItem().setTitle('Period').setChoiceValues(CONFIG.PERIODS).setRequired(true);
@@ -322,9 +326,9 @@ function testSetup() {
     fix(explain_(e));
   }
 
-  if (CONFIG.ONLY && !kit.manifest.forms.some(f => f.id === CONFIG.ONLY || f.key === CONFIG.ONLY)) {
-    fix(`No form matches ONLY = "${CONFIG.ONLY}". Use an ID like C-NSO.1.2, or leave it blank.`);
-  }
+  const pick = pickForms_(kit.manifest.forms);
+  if (pick.unknown.length) fix(onlyHelp_(pick.unknown));
+  else if (CONFIG.ONLY) ok(`ONLY picks ${pick.forms.length} forms: ${CONFIG.ONLY}.`);
 
   if (CONFIG.TEMPLATE_FORM_ID) {
     try {
@@ -408,7 +412,51 @@ function startOver() {
   }
 }
 
+// ───────────────────────────── forms built with an earlier kit ─────────────────────────────
+
+/** Earlier kits told students to copy their score onto a paper progress strip. This puts the current
+ *  message on every built form in the links sheet and changes nothing else. About a minute for all 102. */
+function updateMessages() {
+  const kit = openKit_();
+  const out = firstLive_(kit.folder.getFoldersByName(CONFIG.OUTPUT_FOLDER_NAME));
+  const file = out && firstLive_(out.getFilesByName(LOG_NAME));
+  if (!file) {
+    console.log('No forms are built yet, so there is nothing to update. buildForms() already uses the new message.');
+    return;
+  }
+  const rows = readLog_(logSheet_(SpreadsheetApp.openById(file.getId())));
+  let n = 0;
+  const missed = [];
+  Object.keys(rows).forEach(key => {
+    const r = rows[key];
+    if (r.status !== 'built' || !r.id) return;
+    try {
+      FormApp.openById(r.id).setConfirmationMessage(CONFIRMATION);
+      n++;
+    } catch (e) {
+      missed.push(`${key} (${explain_(e)})`);
+    }
+  });
+  console.log(`Updated the message on ${n} built forms.` + (missed.length ? ` Could not open: ${missed.join('; ')}.` : ''));
+}
+
 // ───────────────────────────── helpers ─────────────────────────────
+
+/** The forms ONLY names: benchmark IDs (C-AR.1.1), form names (C-AR.1.1 Check) or units (Unit 9), separated by commas. */
+function pickForms_(forms) {
+  const parts = String(CONFIG.ONLY || '').split(/[,;]/).map(t => t.trim()).filter(String);
+  if (!parts.length) return { forms: forms, unknown: [] };
+  const hit = (f, t) => {
+    const u = t.match(/^unit\s*0*(\d+)$/i);
+    return u ? f.unit === Number(u[1]) : (f.id.toLowerCase() === t.toLowerCase() || f.key.toLowerCase() === t.toLowerCase());
+  };
+  return { forms: forms.filter(f => parts.some(t => hit(f, t))), unknown: parts.filter(t => !forms.some(f => hit(f, t))) };
+}
+
+function onlyHelp_(unknown) {
+  return `Nothing in the kit matches ${unknown.map(t => '"' + t + '"').join(', ')} in ONLY. ` +
+    'Use benchmark IDs like C-NSO.1.2, units like Unit 9, separated by commas, or leave it blank.';
+}
 
 function setupError_(message) {
   const e = new Error(message);

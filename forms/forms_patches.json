@@ -1164,6 +1164,11 @@
   "edit": [
    {
     "field": "q",
+    "find": "3 students each saved",
+    "replace": "Three students each saved"
+   },
+   {
+    "field": "q",
     "find": "Write an equation that can be used to find s. Then solve the equation.",
     "replace": "Which choice shows an equation that can be used to find s, and its solution?"
    }
@@ -1219,6 +1224,11 @@
    "cols": null
   },
   "edit": [
+   {
+    "field": "q",
+    "find": "6 identical boxes each weigh",
+    "replace": "Six identical boxes each weigh"
+   },
    {
     "field": "q",
     "find": "Write an equation that can be used to find b. Then solve the equation.",

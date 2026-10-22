@@ -62,7 +62,7 @@ function expectChoiceItem(it, kind, title, values, correct, points) {
 
 /** Every form in `forms` exists once, live, in the output folder, and matches the manifest item by item. */
 function verifyBuild(W, { only = '', typed = 'set', template = false, schoolEmail = '', extraForms = 0 } = {}) {
-  const forms = MANIFEST.forms.filter(f => !only || f.id === only || f.key === only);
+  const forms = MANIFEST.forms.filter(f => !only || f.id === only || f.key === only || (only === '__units910' && (f.unit === 9 || f.unit === 10)));
   const out = outFolder(W);
   const { ss, head, rows } = logRows(W);
   assert.strictEqual(head.length, 11);
@@ -87,7 +87,7 @@ function verifyBuild(W, { only = '', typed = 'set', template = false, schoolEmai
     assert.strictEqual(f.description, F.description);
     assert.strictEqual(f.isQuiz, true);
     assert.strictEqual(f.shuffle, false);
-    assert(/progress strip/.test(f.confirmation));
+    assert(/View score/.test(f.confirmation) && !/strip/.test(f.confirmation));
     if (template) assert.strictEqual(f.extra.fromTemplate, true, 'template settings carried over');
     const apiOn = W.config.USE_FORMS_API !== false && W.apiMode === 'ok';
     assert.strictEqual(f.emailType, apiOn || template ? 'VERIFIED' : 'FORMAPP_ON', F.key + ' email collection');
@@ -229,7 +229,7 @@ test('testSetup: template not a quiz, bad ONLY, missing image, USE_FORMS_API fal
   run(W, 'testSetup');
   const out = lastLogs(W);
   assert(/FIX   1 images are missing from "images", for example C-AR.4.3-chk-Q5.png/.test(out), out);
-  assert(/FIX   No form matches ONLY = "C-XX.9.9"/.test(out), out);
+  assert(/FIX   Nothing in the kit matches "C-XX.9.9" in ONLY/.test(out), out);
   assert(/FIX   The template "DPP template" is not a quiz yet/.test(out), out);
   assert(/NOTE  USE_FORMS_API is false, so typed answer keys go in the "Typed keys to add" tab for you to enter\.$/m.test(out), out);
   assert.strictEqual(W.fetches.length, 0);
@@ -613,6 +613,64 @@ test('the Forms API refuses Verified emails: keys are still set; testSetup expla
   run(W, 'buildForms');
   assert(logsOf(W).some(l => /refused Verified emails/.test(l)));
   return verifyBuild(W, { only: 'C-NSO.1.2', template: true });
+});
+
+test('ONLY takes a list: "Unit 9, Unit 10" builds exactly those 12 forms in one run', () => {
+  const W = makeWorld({ config: { ONLY: 'Unit 9, Unit 10' } });
+  run(W, 'testSetup');
+  assert(/OK    ONLY picks 12 forms: Unit 9, Unit 10\./.test(lastLogs(W)), lastLogs(W));
+  run(W, 'buildForms');
+  drain(W);
+  const ids = [...new Set(logRows(W).rows.map(r => r.key.split(' ')[0]))].sort();
+  assert.deepStrictEqual(ids, ['C-AR.1.1', 'C-AR.1.2', 'C-AR.2.1', 'C-AR.2.2']);
+  const note = verifyBuild(W, { only: '__units910' });
+  return note + `; ${W.execs.length} run(s)`;
+});
+
+test('ONLY is forgiving about case and spacing, and mixes IDs and form names', () => {
+  const W = makeWorld({ config: { ONLY: ' c-ar.1.1 ;C-AR.2.2 Check,unit 13 ' } });
+  run(W, 'buildForms');
+  drain(W);
+  const keys = logRows(W).rows.map(r => r.key).sort();
+  const want = MANIFEST.forms.filter(f => f.id === 'C-AR.1.1' || f.key === 'C-AR.2.2 Check' || f.unit === 13).map(f => f.key).sort();
+  assert.deepStrictEqual(keys, want);
+  return keys.length + ' forms';
+});
+
+test('updateMessages: forms built with an earlier kit get the new message; nothing else changes', () => {
+  const W = makeWorld();
+  run(W, 'buildForms');
+  drain(W);
+  const OLD = 'Your answers are in. Copy your score and your level onto your progress strip.';
+  const { rows } = logRows(W);
+  const forms = rows.map(r => W.nodes.get(r.id).form);
+  forms.forEach(f => { f.confirmation = OLD; });
+  const before = JSON.stringify(forms.map(f => Object.assign({}, f, { confirmation: '' })));
+  const t0 = W.T;
+  const ex = run(W, 'updateMessages');
+  assert(!ex.error && !ex.killed, ex.error && ex.error.message);
+  assert(forms.every(f => /View score/.test(f.confirmation) && !/strip/.test(f.confirmation)), 'every form updated');
+  assert.strictEqual(JSON.stringify(forms.map(f => Object.assign({}, f, { confirmation: '' }))), before, 'nothing else changed');
+  assert(/Updated the message on 102 built forms\.$/.test(lastLogs(W)), lastLogs(W));
+  assert(W.T - t0 < 5 * MIN, 'well inside one run');
+  return `${minutes(W.T - t0)} simulated min for 102 forms`;
+});
+
+test('updateMessages before anything is built says so and changes nothing', () => {
+  const W = makeWorld();
+  const ex = run(W, 'updateMessages');
+  assert(!ex.error, ex.error && ex.error.message);
+  assert(/nothing to update/.test(lastLogs(W)), lastLogs(W));
+  assert.strictEqual(findLive(W, n => n.mime === MIME.FORMS).length, 0);
+});
+
+test('ONLY with a typo stops at once and names the bad part', () => {
+  const W = makeWorld({ config: { ONLY: 'Unit 9, C-AR.9.9' } });
+  run(W, 'buildForms');
+  assert(/Nothing in the kit matches "C-AR.9.9" in ONLY/.test(W.execs[0].error.message), W.execs[0].error.message);
+  assert.strictEqual(liveTriggers(W).length, 0);
+  run(W, 'testSetup');
+  assert(/FIX   Nothing in the kit matches "C-AR.9.9" in ONLY/.test(lastLogs(W)), lastLogs(W));
 });
 
 console.log(results.join('\n'));

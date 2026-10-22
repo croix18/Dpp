@@ -1346,6 +1346,7 @@
   "kind": "replace",
   "ok": true,
   "notes": [
+   "edited q",
    "edited q"
   ],
   "before": {
@@ -1357,7 +1358,7 @@
   "after": {
    "gen": 2,
    "rt": "mc",
-   "q": "3 students each saved the same amount, s dollars, and then each earned $5.00 more. Together they now have $105.00.\n\nWhich choice shows an equation that can be used to find s, and its solution?",
+   "q": "Three students each saved the same amount, s dollars, and then each earned $5.00 more. Together they now have $105.00.\n\nWhich choice shows an equation that can be used to find s, and its solution?",
    "a": "A. 3(s + 5) = 105; s = 30",
    "opts": [
     "3(s + 5) = 105; s = 30",
@@ -1405,6 +1406,7 @@
   "kind": "replace",
   "ok": true,
   "notes": [
+   "edited q",
    "edited q"
   ],
   "before": {
@@ -1416,7 +1418,7 @@
   "after": {
    "gen": 2,
    "rt": "mc",
-   "q": "6 identical boxes each weigh b pounds with the packaging. After 1.25 pounds of packaging is removed from each box, the 6 boxes weigh 40.5 pounds in all.\n\nWhich choice shows an equation that can be used to find b, and its solution?",
+   "q": "Six identical boxes each weigh b pounds with the packaging. After 1.25 pounds of packaging is removed from each box, the 6 boxes weigh 40.5 pounds in all.\n\nWhich choice shows an equation that can be used to find b, and its solution?",
    "a": "A. 6(b − 1.25) = 40.5; b = 8",
    "opts": [
     "6(b − 1.25) = 40.5; b = 8",

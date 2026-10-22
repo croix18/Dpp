@@ -288,7 +288,8 @@ mc('MA.7.AR.2.2/chk/0', 'equation plus solution',
 mc('MA.7.AR.2.2/chk/2', 'equation plus solution',
    ['3(s − 5) = 105; s = 40', '3(s + 5) = 105; s = 30', '3s + 5 = 105; s = 33 1/3', '3(s + 5) = 105; s = 35'], 1,
    'Each student now has s + 5 dollars, and 3 students together have $105: 3(s + 5) = 105.\nDivide by 3: s + 5 = 35. Subtract 5: s = 30.\nCheck: 3 × (30 + 5) = 105.\n3s + 5 adds the $5.00 once instead of for each student; s = 35 stops before subtracting 5.',
-   edit=[('Write an equation that can be used to find s. Then solve the equation.', 'Which choice shows an equation that can be used to find s, and its solution?')])
+   edit=[('3 students each saved', 'Three students each saved'),
+         ('Write an equation that can be used to find s. Then solve the equation.', 'Which choice shows an equation that can be used to find s, and its solution?')])
 mc('MA.7.AR.2.2/chk/4', 'equation, solution, gym and amount',
    ['n = 9; Gym A, by $18.00', 'n = 8; Gym A, by $26.50', 'n = 6; Gym B, by $26.50', 'n = 9; Gym A, by $53.00'], 3,
    'The months cost 24.50 × n, and the coupon takes off $35.00: 24.5n − 35 = 185.5.\nAdd 35: 24.5n = 220.5. Divide by 24.5: n = 9.\nGym B for 9 months: 26.50 × 9 = $238.50, with no coupon. Jordan paid Gym A $185.50, so Gym A cost less, by 238.50 − 185.50 = $53.00.\n$18.00 leaves out the coupon; n = 8 divides 185.50 by 24.50 and rounds; n = 6 adds the coupon instead of subtracting it (24.5n + 35 = 185.5 gives about 6.1).',
@@ -297,7 +298,8 @@ mc('MA.7.AR.2.2/chk/4', 'equation, solution, gym and amount',
 mc('MA.7.AR.2.2/re/1', 'equation plus solution',
    ['6(b + 1.25) = 40.5; b = 5.5', '6(b − 1.25) = 40.5; b = 8', 'b − 1.25 = 40.5; b = 41.75', '6(b − 1.25) = 40.5; b = 6.75'], 1,
    'Each box weighs b − 1.25 pounds after the packaging is removed, and 6 boxes weigh 40.5 pounds: 6(b − 1.25) = 40.5.\nDivide by 6: b − 1.25 = 6.75. Add 1.25: b = 8.\nCheck: 6 × (8 − 1.25) = 6 × 6.75 = 40.5.',
-   edit=[('Write an equation that can be used to find b. Then solve the equation.', 'Which choice shows an equation that can be used to find b, and its solution?')])
+   edit=[('6 identical boxes each weigh', 'Six identical boxes each weigh'),
+         ('Write an equation that can be used to find b. Then solve the equation.', 'Which choice shows an equation that can be used to find b, and its solution?')])
 mc('MA.7.AR.2.2/cmp/0', 'equation plus solution',
    ['15g + 3.75 = 33.75; g = 2', '3.75g + 15 = 33.75; g = 13', '3.75g − 15 = 33.75; g = 13', '3.75g + 15 = 33.75; g = 5'], 3,
    'Total = entry fee + $3.75 for each game: 3.75g + 15 = 33.75.\nSubtract 15: 3.75g = 18.75. Divide by 3.75: g = 5.\nCheck: 3.75 × 5 + 15 = 33.75.\ng = 13 adds the 15 instead of subtracting it; 15g + 3.75 swaps the price per game and the entry fee.',

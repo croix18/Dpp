@@ -1,6 +1,6 @@
 # Notes for the Cadence reviewer (from the Google Forms build, Oct 2026)
 
-These came up while turning edition 4.1 of the DPP check bank into self-grading Google Forms. Items 1–6 also affect Cadence's own paper output. The Forms images were rendered from a copy of cadence.html with fixes 2 and 3 applied; cadence.html itself was not changed.
+These came up while turning edition 4.1 of the DPP check bank into self-grading Google Forms. Items 1–7 also affect Cadence's own paper output. The Forms images were rendered from a copy of cadence.html with fixes 2 and 3 applied; cadence.html itself was not changed.
 
 ## Renderer
 
@@ -10,9 +10,10 @@ These came up while turning edition 4.1 of the DPP check bank into self-grading 
 4. **Lines cover tick labels in the four-graph choice planes.** `figChoicePlanes` draws the labels before the line, so a line runs over its "2" or "−2" (AR.4.3 which-graph items). Draw the labels last; they already have a white halo.
 5. **One-letter axis titles are rotated.** A rotated "y" reads like the symbol ≻ at screen size. Keep one-letter axis titles upright.
 6. **The dashed "removed part" lines in `figComposite` use the grid color** (`#d8d5cd`), which is very faint on a screen. A mid gray such as `#8a867d`, width 1.5, reads clearly.
+7. **Fraction coefficients print inside brackets.** The generators write a fraction coefficient as `(5/6)p`, and the closer turns that into `\left(\frac{5}{6}\right)p`, so `((5/6)p − 1)` shows two sets of brackets. FAST and most textbooks print `\frac{5}{6}p`. Fix (applied for Units 9 and 10 in the Forms render copy, Oct 22): in the `)` branch, when the brackets hold only a (signed) fraction and the next token is a letter or `(`, drop them, unless a number, letter or bracket comes right before (`2(5/2)x`) or a negative fraction follows `+ − × ÷` (`x + (−3/8)x`).
 
 ## Generators
 
-7. **MA.7.AR.1.2 regular G2** ("A student rewrote (a/b)(cx + d) as ___x"): the student's wrong answer is always the sum of the correct answer's two numbers (16x + 16 → 32x), so a student can find the key by adding. A more realistic error that removes the shortcut: the student multiplies only the first term, then combines (16x + 12 → 28x).
-8. **Items Forms cannot grade.** Graphing items (AR.4.3 G0–G2 and H1, AR.2.1 G0, AR.4.5 G2), expression and inequality answers (AR.1.1, AR.2.1, AR.4.4 "write an equation"), set listings (DP.2.1 G0–G2) and multi-part "1 point for all parts" items have no auto-gradable form. If Cadence ever exports to Forms, these need a choice version. The Forms build used: a choice of four graphs with the y-axis running past the correct line's end (so the correct line never runs corner to corner) and a parallel twin for each line through the origin; equation-and-solution pairs; "select all the outcomes" checkboxes; and composite choices whose distractors each come from one named error.
-9. **Article before amounts**: "a $18.00 entry fee" should be "an $18.00"; the template should use "an" before 8, 11, 18 and 80–89.
+8. **MA.7.AR.1.2 regular G2** ("A student rewrote (a/b)(cx + d) as ___x"): the student's wrong answer is always the sum of the correct answer's two numbers (16x + 16 → 32x), so a student can find the key by adding. A more realistic error that removes the shortcut: the student multiplies only the first term, then combines (16x + 12 → 28x).
+9. **Items Forms cannot grade.** Graphing items (AR.4.3 G0–G2 and H1, AR.2.1 G0, AR.4.5 G2), expression and inequality answers (AR.1.1, AR.2.1, AR.4.4 "write an equation"), set listings (DP.2.1 G0–G2) and multi-part "1 point for all parts" items have no auto-gradable form. If Cadence ever exports to Forms, these need a choice version. The Forms build used: a choice of four graphs with the y-axis running past the correct line's end (so the correct line never runs corner to corner) and a parallel twin for each line through the origin; equation-and-solution pairs; "select all the outcomes" checkboxes; and composite choices whose distractors each come from one named error.
+10. **Article before amounts**: "a $18.00 entry fee" should be "an $18.00"; the template should use "an" before 8, 11, 18 and 80–89.

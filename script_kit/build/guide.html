@@ -123,6 +123,8 @@ Set <code>ONLY: ''</code> (two quote marks, nothing between), Save, choose <b>bu
 <i>"the next run starts by itself in about a minute"</i>. You can close the tab. Each run builds what it can in 5 minutes and starts the next,
 and the three test forms are kept. Watch the links sheet: each row's <b>Status</b> turns to <b>built</b>, and the last run logs <i>"All 102 forms are built"</i>.
 If the Status column stops changing for 15 minutes, run buildForms again; it picks up where it stopped.
+<div class="box"><b>Need some units first?</b> <code>ONLY</code> takes a list: <code>ONLY: 'Unit 9, Unit 10'</code> builds just those 12 forms (about 6 minutes).
+Set it back to <code>''</code> later and run buildForms again for the rest; forms already built are skipped.</div>
 </div></div>
 
 <h2>Each week <span class="dim" style="font-weight:400">· about 2 minutes a form</span></h2>
@@ -147,6 +149,7 @@ The copy is in your school My Drive as "Copy of …"; students see only the form
 <tr><td>The copy link opens in your personal account</td><td>Switch to your school account in the top-right corner, or open the link in a browser window signed in only to your school account.</td></tr>
 <tr><td>The copy link says you need access</td><td>In your personal Drive, share <b>DPP Forms (built)</b> with your school address as <b>Viewer</b> (SCHOOL_EMAIL does this). If it still refuses, the district is blocking files from personal accounts: ask your tech office to allow your own Gmail.</td></tr>
 <tr><td>A spare form named like a check sits in My Drive</td><td>A run was cut off mid-form. Delete it; the real one is in DPP Forms (built) and in the links sheet.</td></tr>
+<tr><td>You built the forms with an earlier copy of this kit</td><td>Keep them: the questions and keys are the same. Paste this kit's <code>Code.gs</code> over the old code (copy your CONFIG lines across), Save, and run <b>updateMessages</b> once. The message students see after they submit stops mentioning a paper progress strip.</td></tr>
 <tr><td>You want to start again from scratch</td><td>Run <b>startOver</b>. It moves every built form and the links sheet to the Trash (you can restore them for 30 days). Then run buildForms.</td></tr>
 </table>
 
