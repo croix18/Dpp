@@ -152,6 +152,7 @@ ol.steps li{margin:${K(2)} 0}
 .chg{display:inline-block;margin-top:${K(4)};font-size:${K(15)};color:#7a5a00;background:var(--gold2);border-radius:20px;padding:1px ${K(11)}}
 .got{margin-top:${K(4)};font-size:${K(21)};color:var(--ok);font-weight:600}
 .got .katex{color:var(--ok)}
+.pst{font-size:${K(17)};color:#444;margin-top:${K(3)};line-height:1.4}
 .turn .got{font-size:${K(23)};margin-top:${K(8)}}
 .watch{border-left:5px solid var(--gold);padding:${K(4)} 0 ${K(4)} ${K(18)};font-size:${K(19)};line-height:1.42}
 .watch b{display:block;font-size:${K(14)};font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);margin-bottom:${K(4)}}
@@ -181,7 +182,8 @@ ol.steps li{margin:${K(2)} 0}
   const figQ = (p, w) => p.fig && p.check[0] !== 'ineq' ? `<div class="fig">${numberLine(p.fig, w, true)}</div>` : '';
   const figA = (p, w) => { const f = p.fig && p.check[0] === 'ineq' ? p.fig : answerFig(p); return f ? `<div class="fig">${numberLine(f, w, true)}</div>` : ''; };
   const pBlock = (p, i, withAns) => {
-    const under = withAns ? `<div class="got">${ans(p.answer)}</div>` : (p.change ? `<span class="chg">${esc(p.change)}</span>` : '');
+    const steps = withAns && p.steps.length ? `<div class="pst">${p.steps.map(x => `<div>${Mc(x)}</div>`).join('')}</div>` : '';
+    const under = withAns ? `<div class="got">${ans(p.answer)}</div>${steps}` : (p.change ? `<span class="chg">${esc(p.change)}</span>` : '');
     const fq = figQ(p, 400);
     // a graph to read: the prompt, then the graph with the change note beside it (lesson page) or the answer under it
     const inner = fq ? (withAns ? `${prompt(p.prompt)}${fq}${under}` : `${prompt(p.prompt)}<div class="wf">${fq}${under}</div>`)

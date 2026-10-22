@@ -1,0 +1,5354 @@
+{
+ "edition": "4.1 Forms",
+ "regex": "^-?(\\d+(\\.\\d+)?|\\.\\d+|\\d+/\\d+|\\d+ \\d+/\\d+)$",
+ "regex_error": "Type only a number, like 12 or -3.5 or 2/7 or 4 1/3. No units, $, %, π or commas.",
+ "forms": [
+  {
+   "order": 1,
+   "key": "C-DP.2.1 Check",
+   "id": "C-DP.2.1",
+   "set": "chk",
+   "unit": 2,
+   "title": "C-DP.2.1 Check · Sample space of a simple experiment",
+   "description": "Learning goal: I can find the sample space of an experiment. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-DP.2.1-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.2.1-chk-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.2.1-chk-Q2.png",
+     "type": "cb",
+     "options": [
+      "red circle",
+      "red star",
+      "red triangle",
+      "yellow circle",
+      "yellow star",
+      "yellow triangle"
+     ],
+     "correct": [
+      "red circle",
+      "yellow star",
+      "yellow triangle"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-DP.2.1-chk-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-DP.2.1-chk-Q4.png",
+     "type": "cb",
+     "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+     ],
+     "correct": [
+      "1",
+      "5",
+      "8",
+      "9"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-DP.2.1-chk-Q5.png",
+     "type": "cb",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "correct": [
+      "B",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 2,
+   "key": "C-DP.2.1 Re-check",
+   "id": "C-DP.2.1",
+   "set": "re",
+   "unit": 2,
+   "title": "C-DP.2.1 Re-check · Sample space of a simple experiment",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.2.1-re-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.2.1-re-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-DP.2.1-re-Q3.png",
+     "type": "cb",
+     "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+     ],
+     "correct": [
+      "1",
+      "2",
+      "8"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 3,
+   "key": "C-DP.2.1 Comparison",
+   "id": "C-DP.2.1",
+   "set": "cmp",
+   "unit": 2,
+   "title": "C-DP.2.1 Review · Sample space of a simple experiment",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.2.1-cmp-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.2.1-cmp-Q2.png",
+     "type": "cb",
+     "options": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+     ],
+     "correct": [
+      "1",
+      "6",
+      "9"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 4,
+   "key": "C-NSO.1.2 Check",
+   "id": "C-NSO.1.2",
+   "set": "chk",
+   "unit": 2,
+   "title": "C-NSO.1.2 Check · Rewrite rational numbers in equivalent forms",
+   "description": "Learning goal: I can rewrite rational numbers in equivalent forms. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. No calculator.",
+   "calc": "no",
+   "locked": "on",
+   "level_image": "C-NSO.1.2-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-NSO.1.2-chk-Q1.png",
+     "type": "sa",
+     "accept": [
+      "46/99"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-NSO.1.2-chk-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-NSO.1.2-chk-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-NSO.1.2-chk-Q4.png",
+     "type": "sa",
+     "accept": [
+      "63 7/11",
+      "700/11",
+      "63 63/99"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-NSO.1.2-chk-Q5.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 5,
+   "key": "C-NSO.1.2 Re-check",
+   "id": "C-NSO.1.2",
+   "set": "re",
+   "unit": 2,
+   "title": "C-NSO.1.2 Re-check · Rewrite rational numbers in equivalent forms",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. No calculator.",
+   "calc": "no",
+   "locked": "on",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-NSO.1.2-re-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-NSO.1.2-re-Q2.png",
+     "type": "cb",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "correct": [
+      "A",
+      "C"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-NSO.1.2-re-Q3.png",
+     "type": "sa",
+     "accept": [
+      "77 7/9",
+      "700/9"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 6,
+   "key": "C-NSO.1.2 Comparison",
+   "id": "C-NSO.1.2",
+   "set": "cmp",
+   "unit": 2,
+   "title": "C-NSO.1.2 Review · Rewrite rational numbers in equivalent forms",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. No calculator.",
+   "calc": "no",
+   "locked": "on",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-NSO.1.2-cmp-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-NSO.1.2-cmp-Q2.png",
+     "type": "cb",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "correct": [
+      "B",
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 7,
+   "key": "C-DP.2.2 Check",
+   "id": "C-DP.2.2",
+   "set": "chk",
+   "unit": 2,
+   "title": "C-DP.2.2 Check · Interpret and compare probabilities",
+   "description": "Learning goal: I can find and interpret the probability of a simple event. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-DP.2.2-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.2.2-chk-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.2.2-chk-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-DP.2.2-chk-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-DP.2.2-chk-Q4.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-DP.2.2-chk-Q5.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 8,
+   "key": "C-DP.2.2 Re-check",
+   "id": "C-DP.2.2",
+   "set": "re",
+   "unit": 2,
+   "title": "C-DP.2.2 Re-check · Interpret and compare probabilities",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.2.2-re-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.2.2-re-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-DP.2.2-re-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 9,
+   "key": "C-DP.2.2 Comparison",
+   "id": "C-DP.2.2",
+   "set": "cmp",
+   "unit": 2,
+   "title": "C-DP.2.2 Review · Interpret and compare probabilities",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.2.2-cmp-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.2.2-cmp-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 10,
+   "key": "C-DP.2.3 Check",
+   "id": "C-DP.2.3",
+   "set": "chk",
+   "unit": 2,
+   "title": "C-DP.2.3 Check · Find theoretical probability of an event",
+   "description": "Learning goal: I can find the theoretical probability of an event. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-DP.2.3-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.2.3-chk-Q1.png",
+     "type": "sa",
+     "accept": [
+      "1/4"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.2.3-chk-Q2.png",
+     "type": "sa",
+     "accept": [
+      "0.24",
+      ".24"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-DP.2.3-chk-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-DP.2.3-chk-Q4.png",
+     "type": "sa",
+     "accept": [
+      "2/11"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-DP.2.3-chk-Q5.png",
+     "type": "sa",
+     "accept": [
+      "25/26"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 11,
+   "key": "C-DP.2.3 Re-check",
+   "id": "C-DP.2.3",
+   "set": "re",
+   "unit": 2,
+   "title": "C-DP.2.3 Re-check · Find theoretical probability of an event",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.2.3-re-Q1.png",
+     "type": "sa",
+     "accept": [
+      "75"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.2.3-re-Q2.png",
+     "type": "sa",
+     "accept": [
+      "3/8"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-DP.2.3-re-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 12,
+   "key": "C-DP.2.3 Comparison",
+   "id": "C-DP.2.3",
+   "set": "cmp",
+   "unit": 2,
+   "title": "C-DP.2.3 Review · Find theoretical probability of an event",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.2.3-cmp-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.2.3-cmp-Q2.png",
+     "type": "sa",
+     "accept": [
+      "0.75",
+      ".75"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 13,
+   "key": "C-DP.2.4 Check",
+   "id": "C-DP.2.4",
+   "set": "chk",
+   "unit": 2,
+   "title": "C-DP.2.4 Check · Experimental vs theoretical probability",
+   "description": "Learning goal: I can use a simulation to find experimental probability. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-DP.2.4-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.2.4-chk-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.2.4-chk-Q2.png",
+     "type": "sa",
+     "accept": [
+      "0.51",
+      ".51"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-DP.2.4-chk-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-DP.2.4-chk-Q4.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-DP.2.4-chk-Q5.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 14,
+   "key": "C-DP.2.4 Re-check",
+   "id": "C-DP.2.4",
+   "set": "re",
+   "unit": 2,
+   "title": "C-DP.2.4 Re-check · Experimental vs theoretical probability",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.2.4-re-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.2.4-re-Q2.png",
+     "type": "sa",
+     "accept": [
+      "0.47",
+      ".47"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-DP.2.4-re-Q3.png",
+     "type": "sa",
+     "accept": [
+      "100"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 15,
+   "key": "C-DP.2.4 Comparison",
+   "id": "C-DP.2.4",
+   "set": "cmp",
+   "unit": 2,
+   "title": "C-DP.2.4 Review · Experimental vs theoretical probability",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.2.4-cmp-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.2.4-cmp-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 16,
+   "key": "C-NSO.2.2 Check",
+   "id": "C-NSO.2.2",
+   "set": "chk",
+   "unit": 3,
+   "title": "C-NSO.2.2 Check · Four operations with rational numbers",
+   "description": "Learning goal: I can add, subtract, multiply, and divide rational numbers. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. No calculator.",
+   "calc": "no",
+   "locked": "on",
+   "level_image": "C-NSO.2.2-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-NSO.2.2-chk-Q1.png",
+     "type": "sa",
+     "accept": [
+      "-16.28"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-NSO.2.2-chk-Q2.png",
+     "type": "sa",
+     "accept": [
+      "4/5",
+      "0.8",
+      "0.80",
+      ".8",
+      ".80"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-NSO.2.2-chk-Q3.png",
+     "type": "sa",
+     "accept": [
+      "-1 21/100",
+      "-121/100",
+      "-1.21"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-NSO.2.2-chk-Q4.png",
+     "type": "sa",
+     "accept": [
+      "-1/4",
+      "-0.25",
+      "-.25"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-NSO.2.2-chk-Q5.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 17,
+   "key": "C-NSO.2.2 Re-check",
+   "id": "C-NSO.2.2",
+   "set": "re",
+   "unit": 3,
+   "title": "C-NSO.2.2 Re-check · Four operations with rational numbers",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. No calculator.",
+   "calc": "no",
+   "locked": "on",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-NSO.2.2-re-Q1.png",
+     "type": "sa",
+     "accept": [
+      "-45.75",
+      "-45 3/4",
+      "-183/4"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-NSO.2.2-re-Q2.png",
+     "type": "sa",
+     "accept": [
+      "-6"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-NSO.2.2-re-Q3.png",
+     "type": "sa",
+     "accept": [
+      "5/6"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 18,
+   "key": "C-NSO.2.2 Comparison",
+   "id": "C-NSO.2.2",
+   "set": "cmp",
+   "unit": 3,
+   "title": "C-NSO.2.2 Review · Four operations with rational numbers",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. No calculator.",
+   "calc": "no",
+   "locked": "on",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-NSO.2.2-cmp-Q1.png",
+     "type": "sa",
+     "accept": [
+      "-3/4",
+      "-0.75",
+      "-.75"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-NSO.2.2-cmp-Q2.png",
+     "type": "sa",
+     "accept": [
+      "-8/15"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 19,
+   "key": "C-NSO.2.3 Check",
+   "id": "C-NSO.2.3",
+   "set": "chk",
+   "unit": 3,
+   "title": "C-NSO.2.3 Check · Real-world problems with rational numbers",
+   "description": "Learning goal: I can solve real-world problems with rational numbers. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-NSO.2.3-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-NSO.2.3-chk-Q1.png",
+     "type": "sa",
+     "accept": [
+      "90"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-NSO.2.3-chk-Q2.png",
+     "type": "sa",
+     "accept": [
+      "-10.45"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-NSO.2.3-chk-Q3.png",
+     "type": "sa",
+     "accept": [
+      "-22.1",
+      "-22.10",
+      "-22 1/10",
+      "-221/10"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-NSO.2.3-chk-Q4.png",
+     "type": "sa",
+     "accept": [
+      "-0.60",
+      "-0.6",
+      "-.60",
+      "-.6"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-NSO.2.3-chk-Q5.png",
+     "type": "sa",
+     "accept": [
+      "4"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 20,
+   "key": "C-NSO.2.3 Re-check",
+   "id": "C-NSO.2.3",
+   "set": "re",
+   "unit": 3,
+   "title": "C-NSO.2.3 Re-check · Real-world problems with rational numbers",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-NSO.2.3-re-Q1.png",
+     "type": "sa",
+     "accept": [
+      "-20.8",
+      "-20.80",
+      "-20 4/5",
+      "-104/5"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-NSO.2.3-re-Q2.png",
+     "type": "sa",
+     "accept": [
+      "-0.33",
+      "-.33"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-NSO.2.3-re-Q3.png",
+     "type": "sa",
+     "accept": [
+      "-4.70",
+      "-4.7"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 21,
+   "key": "C-NSO.2.3 Comparison",
+   "id": "C-NSO.2.3",
+   "set": "cmp",
+   "unit": 3,
+   "title": "C-NSO.2.3 Review · Real-world problems with rational numbers",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-NSO.2.3-cmp-Q1.png",
+     "type": "sa",
+     "accept": [
+      "-1.01"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-NSO.2.3-cmp-Q2.png",
+     "type": "sa",
+     "accept": [
+      "-5.70",
+      "-5.7"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 22,
+   "key": "C-GR.1.1 Check",
+   "id": "C-GR.1.1",
+   "set": "chk",
+   "unit": 4,
+   "title": "C-GR.1.1 Check · Area of trapezoids, parallelograms, and rhombi",
+   "description": "Learning goal: I can find the area of trapezoids, parallelograms, and rhombi. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-GR.1.1-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-GR.1.1-chk-Q1.png",
+     "type": "sa",
+     "accept": [
+      "126"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-GR.1.1-chk-Q2.png",
+     "type": "sa",
+     "accept": [
+      "105"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-GR.1.1-chk-Q3.png",
+     "type": "sa",
+     "accept": [
+      "35.75",
+      "35 3/4",
+      "143/4"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-GR.1.1-chk-Q4.png",
+     "type": "sa",
+     "accept": [
+      "87.5",
+      "87.50",
+      "87 1/2",
+      "175/2"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-GR.1.1-chk-Q5.png",
+     "type": "sa",
+     "accept": [
+      "8"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 23,
+   "key": "C-GR.1.1 Re-check",
+   "id": "C-GR.1.1",
+   "set": "re",
+   "unit": 4,
+   "title": "C-GR.1.1 Re-check · Area of trapezoids, parallelograms, and rhombi",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-GR.1.1-re-Q1.png",
+     "type": "sa",
+     "accept": [
+      "153"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-GR.1.1-re-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-GR.1.1-re-Q3.png",
+     "type": "sa",
+     "accept": [
+      "99"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 24,
+   "key": "C-GR.1.1 Comparison",
+   "id": "C-GR.1.1",
+   "set": "cmp",
+   "unit": 4,
+   "title": "C-GR.1.1 Review · Area of trapezoids, parallelograms, and rhombi",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-GR.1.1-cmp-Q1.png",
+     "type": "sa",
+     "accept": [
+      "35"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-GR.1.1-cmp-Q2.png",
+     "type": "sa",
+     "accept": [
+      "66"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 25,
+   "key": "C-GR.1.2 Check",
+   "id": "C-GR.1.2",
+   "set": "chk",
+   "unit": 4,
+   "title": "C-GR.1.2 Check · Area of polygons and composite figures",
+   "description": "Learning goal: I can find the area of polygons and composite figures. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-GR.1.2-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-GR.1.2-chk-Q1.png",
+     "type": "sa",
+     "accept": [
+      "95"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-GR.1.2-chk-Q2.png",
+     "type": "sa",
+     "accept": [
+      "78"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-GR.1.2-chk-Q3.png",
+     "type": "sa",
+     "accept": [
+      "205"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-GR.1.2-chk-Q4.png",
+     "type": "sa",
+     "accept": [
+      "477.5",
+      "477.50",
+      "477 1/2",
+      "955/2"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-GR.1.2-chk-Q5.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 26,
+   "key": "C-GR.1.2 Re-check",
+   "id": "C-GR.1.2",
+   "set": "re",
+   "unit": 4,
+   "title": "C-GR.1.2 Re-check · Area of polygons and composite figures",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-GR.1.2-re-Q1.png",
+     "type": "sa",
+     "accept": [
+      "108"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-GR.1.2-re-Q2.png",
+     "type": "sa",
+     "accept": [
+      "70"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-GR.1.2-re-Q3.png",
+     "type": "sa",
+     "accept": [
+      "117"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 27,
+   "key": "C-GR.1.2 Comparison",
+   "id": "C-GR.1.2",
+   "set": "cmp",
+   "unit": 4,
+   "title": "C-GR.1.2 Review · Area of polygons and composite figures",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-GR.1.2-cmp-Q1.png",
+     "type": "sa",
+     "accept": [
+      "165"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-GR.1.2-cmp-Q2.png",
+     "type": "sa",
+     "accept": [
+      "850"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 28,
+   "key": "C-GR.1.3 Check",
+   "id": "C-GR.1.3",
+   "set": "chk",
+   "unit": 4,
+   "title": "C-GR.1.3 Check · Circumference of a circle",
+   "description": "Learning goal: I can use the relationship between circumference and diameter. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-GR.1.3-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-GR.1.3-chk-Q1.png",
+     "type": "sa",
+     "accept": [
+      "22"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-GR.1.3-chk-Q2.png",
+     "type": "sa",
+     "accept": [
+      "34",
+      "34.0",
+      "34.00"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-GR.1.3-chk-Q3.png",
+     "type": "sa",
+     "accept": [
+      "10",
+      "10.0",
+      "10.00"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-GR.1.3-chk-Q4.png",
+     "type": "sa",
+     "accept": [
+      "12.57"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-GR.1.3-chk-Q5.png",
+     "type": "sa",
+     "accept": [
+      "63"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 29,
+   "key": "C-GR.1.3 Re-check",
+   "id": "C-GR.1.3",
+   "set": "re",
+   "unit": 4,
+   "title": "C-GR.1.3 Re-check · Circumference of a circle",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-GR.1.3-re-Q1.png",
+     "type": "sa",
+     "accept": [
+      "13",
+      "13.0",
+      "13.00"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-GR.1.3-re-Q2.png",
+     "type": "sa",
+     "accept": [
+      "3.14"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-GR.1.3-re-Q3.png",
+     "type": "sa",
+     "accept": [
+      "30"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 30,
+   "key": "C-GR.1.3 Comparison",
+   "id": "C-GR.1.3",
+   "set": "cmp",
+   "unit": 4,
+   "title": "C-GR.1.3 Review · Circumference of a circle",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-GR.1.3-cmp-Q1.png",
+     "type": "sa",
+     "accept": [
+      "36"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-GR.1.3-cmp-Q2.png",
+     "type": "sa",
+     "accept": [
+      "8",
+      "8.0",
+      "8.00"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 31,
+   "key": "C-GR.1.4 Check",
+   "id": "C-GR.1.4",
+   "set": "chk",
+   "unit": 4,
+   "title": "C-GR.1.4 Check · Area of a circle",
+   "description": "Learning goal: I can find the area of a circle. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-GR.1.4-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-GR.1.4-chk-Q1.png",
+     "type": "sa",
+     "accept": [
+      "36"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-GR.1.4-chk-Q2.png",
+     "type": "sa",
+     "accept": [
+      "153.86"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-GR.1.4-chk-Q3.png",
+     "type": "sa",
+     "accept": [
+      "80"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-GR.1.4-chk-Q4.png",
+     "type": "sa",
+     "accept": [
+      "1384.74"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-GR.1.4-chk-Q5.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 32,
+   "key": "C-GR.1.4 Re-check",
+   "id": "C-GR.1.4",
+   "set": "re",
+   "unit": 4,
+   "title": "C-GR.1.4 Re-check · Area of a circle",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-GR.1.4-re-Q1.png",
+     "type": "sa",
+     "accept": [
+      "196"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-GR.1.4-re-Q2.png",
+     "type": "sa",
+     "accept": [
+      "803.84"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-GR.1.4-re-Q3.png",
+     "type": "sa",
+     "accept": [
+      "75"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 33,
+   "key": "C-GR.1.4 Comparison",
+   "id": "C-GR.1.4",
+   "set": "cmp",
+   "unit": 4,
+   "title": "C-GR.1.4 Review · Area of a circle",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-GR.1.4-cmp-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-GR.1.4-cmp-Q2.png",
+     "type": "sa",
+     "accept": [
+      "2289.06"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 34,
+   "key": "C-DP.1.3 Check",
+   "id": "C-DP.1.3",
+   "set": "chk",
+   "unit": 5,
+   "title": "C-DP.1.3 Check · Predictions from a random sample",
+   "description": "Learning goal: I can use a random sample to make a prediction about a population. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-DP.1.3-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.1.3-chk-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.1.3-chk-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-DP.1.3-chk-Q3.png",
+     "type": "sa",
+     "accept": [
+      "96"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-DP.1.3-chk-Q4.png",
+     "type": "sa",
+     "accept": [
+      "250"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-DP.1.3-chk-Q5.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 35,
+   "key": "C-DP.1.3 Re-check",
+   "id": "C-DP.1.3",
+   "set": "re",
+   "unit": 5,
+   "title": "C-DP.1.3 Re-check · Predictions from a random sample",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.1.3-re-Q1.png",
+     "type": "sa",
+     "accept": [
+      "60"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.1.3-re-Q2.png",
+     "type": "sa",
+     "accept": [
+      "800"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-DP.1.3-re-Q3.png",
+     "type": "sa",
+     "accept": [
+      "500"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 36,
+   "key": "C-DP.1.3 Comparison",
+   "id": "C-DP.1.3",
+   "set": "cmp",
+   "unit": 5,
+   "title": "C-DP.1.3 Review · Predictions from a random sample",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.1.3-cmp-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.1.3-cmp-Q2.png",
+     "type": "sa",
+     "accept": [
+      "75"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 37,
+   "key": "C-GR.1.5 Check",
+   "id": "C-GR.1.5",
+   "set": "chk",
+   "unit": 5,
+   "title": "C-GR.1.5 Check · Scale drawings and scale factor",
+   "description": "Learning goal: I can solve problems with scale drawings and scale factors. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-GR.1.5-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-GR.1.5-chk-Q1.png",
+     "type": "sa",
+     "accept": [
+      "280"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-GR.1.5-chk-Q2.png",
+     "type": "sa",
+     "accept": [
+      "9"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-GR.1.5-chk-Q3.png",
+     "type": "sa",
+     "accept": [
+      "6",
+      "6/1",
+      "12/2"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-GR.1.5-chk-Q4.png",
+     "type": "sa",
+     "accept": [
+      "7.5",
+      "7.50",
+      "7 1/2",
+      "15/2"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-GR.1.5-chk-Q5.png",
+     "type": "sa",
+     "accept": [
+      "562.5",
+      "562.50",
+      "562 1/2",
+      "1125/2"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 38,
+   "key": "C-GR.1.5 Re-check",
+   "id": "C-GR.1.5",
+   "set": "re",
+   "unit": 5,
+   "title": "C-GR.1.5 Re-check · Scale drawings and scale factor",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-GR.1.5-re-Q1.png",
+     "type": "sa",
+     "accept": [
+      "14"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-GR.1.5-re-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-GR.1.5-re-Q3.png",
+     "type": "sa",
+     "accept": [
+      "4",
+      "4/1",
+      "12/3"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 39,
+   "key": "C-GR.1.5 Comparison",
+   "id": "C-GR.1.5",
+   "set": "cmp",
+   "unit": 5,
+   "title": "C-GR.1.5 Review · Scale drawings and scale factor",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-GR.1.5-cmp-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-GR.1.5-cmp-Q2.png",
+     "type": "sa",
+     "accept": [
+      "32"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 40,
+   "key": "C-AR.3.3 Check",
+   "id": "C-AR.3.3",
+   "set": "chk",
+   "unit": 6,
+   "title": "C-AR.3.3 Check · Unit conversions across measurement systems",
+   "description": "Learning goal: I can convert units using proportional reasoning. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-AR.3.3-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.3.3-chk-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.3.3-chk-Q2.png",
+     "type": "sa",
+     "accept": [
+      "58.75"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-AR.3.3-chk-Q3.png",
+     "type": "sa",
+     "accept": [
+      "22.4",
+      "22.40"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-AR.3.3-chk-Q4.png",
+     "type": "sa",
+     "accept": [
+      "1030.4",
+      "1030.40"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-AR.3.3-chk-Q5.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 41,
+   "key": "C-AR.3.3 Re-check",
+   "id": "C-AR.3.3",
+   "set": "re",
+   "unit": 6,
+   "title": "C-AR.3.3 Re-check · Unit conversions across measurement systems",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.3.3-re-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.3.3-re-Q2.png",
+     "type": "sa",
+     "accept": [
+      "69.75"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-AR.3.3-re-Q3.png",
+     "type": "sa",
+     "accept": [
+      "30.6",
+      "30.60"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 42,
+   "key": "C-AR.3.3 Comparison",
+   "id": "C-AR.3.3",
+   "set": "cmp",
+   "unit": 6,
+   "title": "C-AR.3.3 Review · Unit conversions across measurement systems",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.3.3-cmp-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.3.3-cmp-Q2.png",
+     "type": "sa",
+     "accept": [
+      "96.5",
+      "96.50",
+      "96.6",
+      "96.60"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 43,
+   "key": "C-AR.3.2 Check",
+   "id": "C-AR.3.2",
+   "set": "chk",
+   "unit": 6,
+   "title": "C-AR.3.2 Check · Solve problems involving proportions",
+   "description": "Learning goal: I can set up and solve proportions for real-world problems. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-AR.3.2-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.3.2-chk-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.3.2-chk-Q2.png",
+     "type": "sa",
+     "accept": [
+      "8.1",
+      "8.10",
+      "8 1/10",
+      "81/10"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-AR.3.2-chk-Q3.png",
+     "type": "sa",
+     "accept": [
+      "26.64"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-AR.3.2-chk-Q4.png",
+     "type": "sa",
+     "accept": [
+      "1 1/4",
+      "5/4"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-AR.3.2-chk-Q5.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 44,
+   "key": "C-AR.3.2 Re-check",
+   "id": "C-AR.3.2",
+   "set": "re",
+   "unit": 6,
+   "title": "C-AR.3.2 Re-check · Solve problems involving proportions",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.3.2-re-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.3.2-re-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-AR.3.2-re-Q3.png",
+     "type": "sa",
+     "accept": [
+      "17.5",
+      "17.50",
+      "17 1/2",
+      "35/2"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 45,
+   "key": "C-AR.3.2 Comparison",
+   "id": "C-AR.3.2",
+   "set": "cmp",
+   "unit": 6,
+   "title": "C-AR.3.2 Review · Solve problems involving proportions",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.3.2-cmp-Q1.png",
+     "type": "sa",
+     "accept": [
+      "3/4"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.3.2-cmp-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 46,
+   "key": "C-AR.4.5 Check",
+   "id": "C-AR.4.5",
+   "set": "chk",
+   "unit": 6,
+   "title": "C-AR.4.5 Check · Real-world proportional problems",
+   "description": "Learning goal: I can solve multi-step problems with proportional relationships. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-AR.4.5-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.4.5-chk-Q1.png",
+     "type": "sa",
+     "accept": [
+      "55"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.4.5-chk-Q2.png",
+     "type": "sa",
+     "accept": [
+      "21 3/5",
+      "108/5"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-AR.4.5-chk-Q3.png",
+     "type": "sa",
+     "accept": [
+      "27.00",
+      "27",
+      "27.0"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-AR.4.5-chk-Q4.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-AR.4.5-chk-Q5.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 47,
+   "key": "C-AR.4.5 Re-check",
+   "id": "C-AR.4.5",
+   "set": "re",
+   "unit": 6,
+   "title": "C-AR.4.5 Re-check · Real-world proportional problems",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.4.5-re-Q1.png",
+     "type": "sa",
+     "accept": [
+      "26.40",
+      "26.4"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.4.5-re-Q2.png",
+     "type": "sa",
+     "accept": [
+      "24"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-AR.4.5-re-Q3.png",
+     "type": "sa",
+     "accept": [
+      "9"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 48,
+   "key": "C-AR.4.5 Comparison",
+   "id": "C-AR.4.5",
+   "set": "cmp",
+   "unit": 6,
+   "title": "C-AR.4.5 Review · Real-world proportional problems",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.4.5-cmp-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.4.5-cmp-Q2.png",
+     "type": "sa",
+     "accept": [
+      "16.20",
+      "16.2"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 49,
+   "key": "C-DP.1.4 Check",
+   "id": "C-DP.1.4",
+   "set": "chk",
+   "unit": 7,
+   "title": "C-DP.1.4 Check · Circle graphs",
+   "description": "Learning goal: I can create and interpret circle graphs. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-DP.1.4-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.1.4-chk-Q1.png",
+     "type": "sa",
+     "accept": [
+      "135"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.1.4-chk-Q2.png",
+     "type": "sa",
+     "accept": [
+      "10"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-DP.1.4-chk-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-DP.1.4-chk-Q4.png",
+     "type": "sa",
+     "accept": [
+      "185"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-DP.1.4-chk-Q5.png",
+     "type": "cb",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "correct": [
+      "C",
+      "E"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 50,
+   "key": "C-DP.1.4 Re-check",
+   "id": "C-DP.1.4",
+   "set": "re",
+   "unit": 7,
+   "title": "C-DP.1.4 Re-check · Circle graphs",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.1.4-re-Q1.png",
+     "type": "sa",
+     "accept": [
+      "36"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.1.4-re-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-DP.1.4-re-Q3.png",
+     "type": "sa",
+     "accept": [
+      "23"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 51,
+   "key": "C-DP.1.4 Comparison",
+   "id": "C-DP.1.4",
+   "set": "cmp",
+   "unit": 7,
+   "title": "C-DP.1.4 Review · Circle graphs",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.1.4-cmp-Q1.png",
+     "type": "sa",
+     "accept": [
+      "15"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.1.4-cmp-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 52,
+   "key": "C-AR.3.1 Check",
+   "id": "C-AR.3.1",
+   "set": "chk",
+   "unit": 7,
+   "title": "C-AR.3.1 Check · Multi-step real-world percent problems",
+   "description": "Learning goal: I can solve percent problems: discount, markup, tax, tip, interest, percent change, percent error. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-AR.3.1-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.3.1-chk-Q1.png",
+     "type": "sa",
+     "accept": [
+      "67.74"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.3.1-chk-Q2.png",
+     "type": "sa",
+     "accept": [
+      "3480.75"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-AR.3.1-chk-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-AR.3.1-chk-Q4.png",
+     "type": "sa",
+     "accept": [
+      "7.5",
+      "7.50",
+      "7 1/2",
+      "15/2"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-AR.3.1-chk-Q5.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 53,
+   "key": "C-AR.3.1 Re-check",
+   "id": "C-AR.3.1",
+   "set": "re",
+   "unit": 7,
+   "title": "C-AR.3.1 Re-check · Multi-step real-world percent problems",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.3.1-re-Q1.png",
+     "type": "sa",
+     "accept": [
+      "32.5",
+      "32.50",
+      "32 1/2",
+      "65/2"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.3.1-re-Q2.png",
+     "type": "sa",
+     "accept": [
+      "92.51"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-AR.3.1-re-Q3.png",
+     "type": "sa",
+     "accept": [
+      "6.25",
+      "6 1/4",
+      "25/4"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 54,
+   "key": "C-AR.3.1 Comparison",
+   "id": "C-AR.3.1",
+   "set": "cmp",
+   "unit": 7,
+   "title": "C-AR.3.1 Review · Multi-step real-world percent problems",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.3.1-cmp-Q1.png",
+     "type": "sa",
+     "accept": [
+      "2706.00",
+      "2706",
+      "2706.0"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.3.1-cmp-Q2.png",
+     "type": "sa",
+     "accept": [
+      "58.89"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 55,
+   "key": "C-NSO.1.1 Check",
+   "id": "C-NSO.1.1",
+   "set": "chk",
+   "unit": 8,
+   "title": "C-NSO.1.1 Check · Laws of exponents (whole-number exponents)",
+   "description": "Learning goal: I can apply the laws of exponents with whole-number exponents. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. No calculator.",
+   "calc": "no",
+   "locked": "on",
+   "level_image": "C-NSO.1.1-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-NSO.1.1-chk-Q1.png",
+     "type": "sa",
+     "accept": [
+      "64/729"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-NSO.1.1-chk-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-NSO.1.1-chk-Q3.png",
+     "type": "sa",
+     "accept": [
+      "100"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-NSO.1.1-chk-Q4.png",
+     "type": "sa",
+     "accept": [
+      "4"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-NSO.1.1-chk-Q5.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 56,
+   "key": "C-NSO.1.1 Re-check",
+   "id": "C-NSO.1.1",
+   "set": "re",
+   "unit": 8,
+   "title": "C-NSO.1.1 Re-check · Laws of exponents (whole-number exponents)",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. No calculator.",
+   "calc": "no",
+   "locked": "on",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-NSO.1.1-re-Q1.png",
+     "type": "sa",
+     "accept": [
+      "243"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-NSO.1.1-re-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-NSO.1.1-re-Q3.png",
+     "type": "sa",
+     "accept": [
+      "1000"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 57,
+   "key": "C-NSO.1.1 Comparison",
+   "id": "C-NSO.1.1",
+   "set": "cmp",
+   "unit": 8,
+   "title": "C-NSO.1.1 Review · Laws of exponents (whole-number exponents)",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. No calculator.",
+   "calc": "no",
+   "locked": "on",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-NSO.1.1-cmp-Q1.png",
+     "type": "sa",
+     "accept": [
+      "5"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-NSO.1.1-cmp-Q2.png",
+     "type": "sa",
+     "accept": [
+      "625"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 58,
+   "key": "C-NSO.2.1 Check",
+   "id": "C-NSO.2.1",
+   "set": "chk",
+   "unit": 8,
+   "title": "C-NSO.2.1 Check · Order of operations with rational numbers",
+   "description": "Learning goal: I can use order of operations with rational numbers. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. No calculator.",
+   "calc": "no",
+   "locked": "on",
+   "level_image": "C-NSO.2.1-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-NSO.2.1-chk-Q1.png",
+     "type": "sa",
+     "accept": [
+      "12.36"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-NSO.2.1-chk-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-NSO.2.1-chk-Q3.png",
+     "type": "sa",
+     "accept": [
+      "8 1/3",
+      "25/3"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-NSO.2.1-chk-Q4.png",
+     "type": "sa",
+     "accept": [
+      "11 5/8",
+      "93/8"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-NSO.2.1-chk-Q5.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 59,
+   "key": "C-NSO.2.1 Re-check",
+   "id": "C-NSO.2.1",
+   "set": "re",
+   "unit": 8,
+   "title": "C-NSO.2.1 Re-check · Order of operations with rational numbers",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. No calculator.",
+   "calc": "no",
+   "locked": "on",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-NSO.2.1-re-Q1.png",
+     "type": "sa",
+     "accept": [
+      "4 5/8",
+      "37/8"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-NSO.2.1-re-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-NSO.2.1-re-Q3.png",
+     "type": "sa",
+     "accept": [
+      "2 5/8",
+      "21/8",
+      "2.625"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 60,
+   "key": "C-NSO.2.1 Comparison",
+   "id": "C-NSO.2.1",
+   "set": "cmp",
+   "unit": 8,
+   "title": "C-NSO.2.1 Review · Order of operations with rational numbers",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. No calculator.",
+   "calc": "no",
+   "locked": "on",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-NSO.2.1-cmp-Q1.png",
+     "type": "sa",
+     "accept": [
+      "31.25"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-NSO.2.1-cmp-Q2.png",
+     "type": "sa",
+     "accept": [
+      "2 1/4",
+      "9/4",
+      "2.25"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 61,
+   "key": "C-AR.1.1 Check",
+   "id": "C-AR.1.1",
+   "set": "chk",
+   "unit": 9,
+   "title": "C-AR.1.1 Check · Simplify linear expressions",
+   "description": "Learning goal: I can add and subtract linear expressions. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. No calculator.",
+   "calc": "no",
+   "locked": "on",
+   "level_image": "C-AR.1.1-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.1.1-chk-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.1.1-chk-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-AR.1.1-chk-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-AR.1.1-chk-Q4.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-AR.1.1-chk-Q5.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 62,
+   "key": "C-AR.1.1 Re-check",
+   "id": "C-AR.1.1",
+   "set": "re",
+   "unit": 9,
+   "title": "C-AR.1.1 Re-check · Simplify linear expressions",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. No calculator.",
+   "calc": "no",
+   "locked": "on",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.1.1-re-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.1.1-re-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-AR.1.1-re-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 63,
+   "key": "C-AR.1.1 Comparison",
+   "id": "C-AR.1.1",
+   "set": "cmp",
+   "unit": 9,
+   "title": "C-AR.1.1 Review · Simplify linear expressions",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. No calculator.",
+   "calc": "no",
+   "locked": "on",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.1.1-cmp-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.1.1-cmp-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 64,
+   "key": "C-AR.1.2 Check",
+   "id": "C-AR.1.2",
+   "set": "chk",
+   "unit": 9,
+   "title": "C-AR.1.2 Check · Determine if two expressions are equivalent",
+   "description": "Learning goal: I can tell whether two expressions are equivalent. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. No calculator.",
+   "calc": "no",
+   "locked": "on",
+   "level_image": "C-AR.1.2-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.1.2-chk-Q1.png",
+     "type": "cb",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "correct": [
+      "A",
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.1.2-chk-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-AR.1.2-chk-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-AR.1.2-chk-Q4.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-AR.1.2-chk-Q5.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 65,
+   "key": "C-AR.1.2 Re-check",
+   "id": "C-AR.1.2",
+   "set": "re",
+   "unit": 9,
+   "title": "C-AR.1.2 Re-check · Determine if two expressions are equivalent",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. No calculator.",
+   "calc": "no",
+   "locked": "on",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.1.2-re-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.1.2-re-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-AR.1.2-re-Q3.png",
+     "type": "cb",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "correct": [
+      "A",
+      "E"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 66,
+   "key": "C-AR.1.2 Comparison",
+   "id": "C-AR.1.2",
+   "set": "cmp",
+   "unit": 9,
+   "title": "C-AR.1.2 Review · Determine if two expressions are equivalent",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. No calculator.",
+   "calc": "no",
+   "locked": "on",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.1.2-cmp-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.1.2-cmp-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 67,
+   "key": "C-AR.2.1 Check",
+   "id": "C-AR.2.1",
+   "set": "chk",
+   "unit": 10,
+   "title": "C-AR.2.1 Check · Solve one-step inequalities",
+   "description": "Learning goal: I can write and solve one-step inequalities and graph the solutions. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-AR.2.1-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.2.1-chk-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.2.1-chk-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-AR.2.1-chk-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-AR.2.1-chk-Q4.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-AR.2.1-chk-Q5.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 68,
+   "key": "C-AR.2.1 Re-check",
+   "id": "C-AR.2.1",
+   "set": "re",
+   "unit": 10,
+   "title": "C-AR.2.1 Re-check · Solve one-step inequalities",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.2.1-re-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.2.1-re-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-AR.2.1-re-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 69,
+   "key": "C-AR.2.1 Comparison",
+   "id": "C-AR.2.1",
+   "set": "cmp",
+   "unit": 10,
+   "title": "C-AR.2.1 Review · Solve one-step inequalities",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.2.1-cmp-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.2.1-cmp-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 70,
+   "key": "C-AR.2.2 Check",
+   "id": "C-AR.2.2",
+   "set": "chk",
+   "unit": 10,
+   "title": "C-AR.2.2 Check · Two-step equations with rational numbers",
+   "description": "Learning goal: I can write and solve two-step equations. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-AR.2.2-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.2.2-chk-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.2.2-chk-Q2.png",
+     "type": "sa",
+     "accept": [
+      "-2"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-AR.2.2-chk-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-AR.2.2-chk-Q4.png",
+     "type": "sa",
+     "accept": [
+      "3 1/3",
+      "10/3"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-AR.2.2-chk-Q5.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 71,
+   "key": "C-AR.2.2 Re-check",
+   "id": "C-AR.2.2",
+   "set": "re",
+   "unit": 10,
+   "title": "C-AR.2.2 Re-check · Two-step equations with rational numbers",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.2.2-re-Q1.png",
+     "type": "sa",
+     "accept": [
+      "-9"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.2.2-re-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-AR.2.2-re-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 72,
+   "key": "C-AR.2.2 Comparison",
+   "id": "C-AR.2.2",
+   "set": "cmp",
+   "unit": 10,
+   "title": "C-AR.2.2 Review · Two-step equations with rational numbers",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.2.2-cmp-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.2.2-cmp-Q2.png",
+     "type": "sa",
+     "accept": [
+      "2 1/3",
+      "7/3"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 73,
+   "key": "C-AR.4.3 Check",
+   "id": "C-AR.4.3",
+   "set": "chk",
+   "unit": 11,
+   "title": "C-AR.4.3 Check · Graph proportional relationships",
+   "description": "Learning goal: I can graph proportional relationships. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-AR.4.3-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.4.3-chk-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.4.3-chk-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-AR.4.3-chk-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-AR.4.3-chk-Q4.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-AR.4.3-chk-Q5.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 74,
+   "key": "C-AR.4.3 Re-check",
+   "id": "C-AR.4.3",
+   "set": "re",
+   "unit": 11,
+   "title": "C-AR.4.3 Re-check · Graph proportional relationships",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.4.3-re-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.4.3-re-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-AR.4.3-re-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 75,
+   "key": "C-AR.4.3 Comparison",
+   "id": "C-AR.4.3",
+   "set": "cmp",
+   "unit": 11,
+   "title": "C-AR.4.3 Review · Graph proportional relationships",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.4.3-cmp-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.4.3-cmp-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 76,
+   "key": "C-AR.4.2 Check",
+   "id": "C-AR.4.2",
+   "set": "chk",
+   "unit": 11,
+   "title": "C-AR.4.2 Check · Constant of proportionality",
+   "description": "Learning goal: I can find the constant of proportionality. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-AR.4.2-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.4.2-chk-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.4.2-chk-Q2.png",
+     "type": "sa",
+     "accept": [
+      "3.1",
+      "3.10"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-AR.4.2-chk-Q3.png",
+     "type": "sa",
+     "accept": [
+      "1.8",
+      "1.80",
+      "1 4/5",
+      "9/5"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-AR.4.2-chk-Q4.png",
+     "type": "sa",
+     "accept": [
+      "2/5"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-AR.4.2-chk-Q5.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 77,
+   "key": "C-AR.4.2 Re-check",
+   "id": "C-AR.4.2",
+   "set": "re",
+   "unit": 11,
+   "title": "C-AR.4.2 Re-check · Constant of proportionality",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.4.2-re-Q1.png",
+     "type": "sa",
+     "accept": [
+      "0.9",
+      "0.90",
+      ".9",
+      ".90",
+      "9/10"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.4.2-re-Q2.png",
+     "type": "sa",
+     "accept": [
+      "3.95"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-AR.4.2-re-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 78,
+   "key": "C-AR.4.2 Comparison",
+   "id": "C-AR.4.2",
+   "set": "cmp",
+   "unit": 11,
+   "title": "C-AR.4.2 Review · Constant of proportionality",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.4.2-cmp-Q1.png",
+     "type": "sa",
+     "accept": [
+      "9/7",
+      "1 2/7"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.4.2-cmp-Q2.png",
+     "type": "sa",
+     "accept": [
+      "8/11"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 79,
+   "key": "C-AR.4.1 Check",
+   "id": "C-AR.4.1",
+   "set": "chk",
+   "unit": 11,
+   "title": "C-AR.4.1 Check · Is it proportional? (table, graph, description)",
+   "description": "Learning goal: I can decide whether a relationship is proportional. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-AR.4.1-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.4.1-chk-Q1.png",
+     "type": "cb",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "correct": [
+      "A",
+      "E"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.4.1-chk-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-AR.4.1-chk-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-AR.4.1-chk-Q4.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-AR.4.1-chk-Q5.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 80,
+   "key": "C-AR.4.1 Re-check",
+   "id": "C-AR.4.1",
+   "set": "re",
+   "unit": 11,
+   "title": "C-AR.4.1 Re-check · Is it proportional? (table, graph, description)",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.4.1-re-Q1.png",
+     "type": "cb",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "correct": [
+      "B",
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.4.1-re-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-AR.4.1-re-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 81,
+   "key": "C-AR.4.1 Comparison",
+   "id": "C-AR.4.1",
+   "set": "cmp",
+   "unit": 11,
+   "title": "C-AR.4.1 Review · Is it proportional? (table, graph, description)",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.4.1-cmp-Q1.png",
+     "type": "cb",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "correct": [
+      "A",
+      "C",
+      "E"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.4.1-cmp-Q2.png",
+     "type": "sa",
+     "accept": [
+      "86"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 82,
+   "key": "C-AR.4.4 Check",
+   "id": "C-AR.4.4",
+   "set": "chk",
+   "unit": 11,
+   "title": "C-AR.4.4 Check · Translate between representations",
+   "description": "Learning goal: I can write an equation for a proportional relationship. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-AR.4.4-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.4.4-chk-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.4.4-chk-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-AR.4.4-chk-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-AR.4.4-chk-Q4.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-AR.4.4-chk-Q5.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 83,
+   "key": "C-AR.4.4 Re-check",
+   "id": "C-AR.4.4",
+   "set": "re",
+   "unit": 11,
+   "title": "C-AR.4.4 Re-check · Translate between representations",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.4.4-re-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.4.4-re-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-AR.4.4-re-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 84,
+   "key": "C-AR.4.4 Comparison",
+   "id": "C-AR.4.4",
+   "set": "cmp",
+   "unit": 11,
+   "title": "C-AR.4.4 Review · Translate between representations",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-AR.4.4-cmp-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-AR.4.4-cmp-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 85,
+   "key": "C-GR.2.1 Check",
+   "id": "C-GR.2.1",
+   "set": "chk",
+   "unit": 12,
+   "title": "C-GR.2.1 Check · Surface area of a cylinder from its net",
+   "description": "Learning goal: I can find the surface area of a right circular cylinder. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-GR.2.1-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-GR.2.1-chk-Q1.png",
+     "type": "sa",
+     "accept": [
+      "224"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-GR.2.1-chk-Q2.png",
+     "type": "sa",
+     "accept": [
+      "104"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-GR.2.1-chk-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-GR.2.1-chk-Q4.png",
+     "type": "sa",
+     "accept": [
+      "432"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-GR.2.1-chk-Q5.png",
+     "type": "sa",
+     "accept": [
+      "660"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 86,
+   "key": "C-GR.2.1 Re-check",
+   "id": "C-GR.2.1",
+   "set": "re",
+   "unit": 12,
+   "title": "C-GR.2.1 Re-check · Surface area of a cylinder from its net",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-GR.2.1-re-Q1.png",
+     "type": "sa",
+     "accept": [
+      "168"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-GR.2.1-re-Q2.png",
+     "type": "sa",
+     "accept": [
+      "160"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-GR.2.1-re-Q3.png",
+     "type": "sa",
+     "accept": [
+      "84"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 87,
+   "key": "C-GR.2.1 Comparison",
+   "id": "C-GR.2.1",
+   "set": "cmp",
+   "unit": 12,
+   "title": "C-GR.2.1 Review · Surface area of a cylinder from its net",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-GR.2.1-cmp-Q1.png",
+     "type": "sa",
+     "accept": [
+      "182"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-GR.2.1-cmp-Q2.png",
+     "type": "sa",
+     "accept": [
+      "414"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 88,
+   "key": "C-GR.2.2 Check",
+   "id": "C-GR.2.2",
+   "set": "chk",
+   "unit": 12,
+   "title": "C-GR.2.2 Check · Real-world cylinder surface area",
+   "description": "Learning goal: I can solve problems involving surface area of cylinders. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-GR.2.2-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-GR.2.2-chk-Q1.png",
+     "type": "sa",
+     "accept": [
+      "468"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-GR.2.2-chk-Q2.png",
+     "type": "sa",
+     "accept": [
+      "93"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-GR.2.2-chk-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-GR.2.2-chk-Q4.png",
+     "type": "sa",
+     "accept": [
+      "345.58"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-GR.2.2-chk-Q5.png",
+     "type": "sa",
+     "accept": [
+      "3"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 89,
+   "key": "C-GR.2.2 Re-check",
+   "id": "C-GR.2.2",
+   "set": "re",
+   "unit": 12,
+   "title": "C-GR.2.2 Re-check · Real-world cylinder surface area",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-GR.2.2-re-Q1.png",
+     "type": "sa",
+     "accept": [
+      "455.53"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-GR.2.2-re-Q2.png",
+     "type": "sa",
+     "accept": [
+      "112"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-GR.2.2-re-Q3.png",
+     "type": "sa",
+     "accept": [
+      "462"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 90,
+   "key": "C-GR.2.2 Comparison",
+   "id": "C-GR.2.2",
+   "set": "cmp",
+   "unit": 12,
+   "title": "C-GR.2.2 Review · Real-world cylinder surface area",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-GR.2.2-cmp-Q1.png",
+     "type": "sa",
+     "accept": [
+      "407"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-GR.2.2-cmp-Q2.png",
+     "type": "sa",
+     "accept": [
+      "188.40",
+      "188.4"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 91,
+   "key": "C-GR.2.3 Check",
+   "id": "C-GR.2.3",
+   "set": "chk",
+   "unit": 12,
+   "title": "C-GR.2.3 Check · Volume of a cylinder",
+   "description": "Learning goal: I can find the volume of a right circular cylinder. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-GR.2.3-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-GR.2.3-chk-Q1.png",
+     "type": "sa",
+     "accept": [
+      "2411.52"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-GR.2.3-chk-Q2.png",
+     "type": "sa",
+     "accept": [
+      "1536"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-GR.2.3-chk-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-GR.2.3-chk-Q4.png",
+     "type": "sa",
+     "accept": [
+      "8164",
+      "8164.0",
+      "8164.00"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-GR.2.3-chk-Q5.png",
+     "type": "sa",
+     "accept": [
+      "14.86"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 92,
+   "key": "C-GR.2.3 Re-check",
+   "id": "C-GR.2.3",
+   "set": "re",
+   "unit": 12,
+   "title": "C-GR.2.3 Re-check · Volume of a cylinder",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-GR.2.3-re-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-GR.2.3-re-Q2.png",
+     "type": "sa",
+     "accept": [
+      "339.29"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-GR.2.3-re-Q3.png",
+     "type": "sa",
+     "accept": [
+      "384"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 93,
+   "key": "C-GR.2.3 Comparison",
+   "id": "C-GR.2.3",
+   "set": "cmp",
+   "unit": 12,
+   "title": "C-GR.2.3 Review · Volume of a cylinder",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-GR.2.3-cmp-Q1.png",
+     "type": "sa",
+     "accept": [
+      "1005.31"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-GR.2.3-cmp-Q2.png",
+     "type": "sa",
+     "accept": [
+      "64"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 94,
+   "key": "C-DP.1.1 Check",
+   "id": "C-DP.1.1",
+   "set": "chk",
+   "unit": 13,
+   "title": "C-DP.1.1 Check · Choose a measure of center or variation",
+   "description": "Learning goal: I can choose and justify measures of center and spread. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-DP.1.1-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.1.1-chk-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.1.1-chk-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-DP.1.1-chk-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-DP.1.1-chk-Q4.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-DP.1.1-chk-Q5.png",
+     "type": "cb",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F"
+     ],
+     "correct": [
+      "A",
+      "C",
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 95,
+   "key": "C-DP.1.1 Re-check",
+   "id": "C-DP.1.1",
+   "set": "re",
+   "unit": 13,
+   "title": "C-DP.1.1 Re-check · Choose a measure of center or variation",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.1.1-re-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.1.1-re-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-DP.1.1-re-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 96,
+   "key": "C-DP.1.1 Comparison",
+   "id": "C-DP.1.1",
+   "set": "cmp",
+   "unit": 13,
+   "title": "C-DP.1.1 Review · Choose a measure of center or variation",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.1.1-cmp-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.1.1-cmp-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 97,
+   "key": "C-DP.1.2 Check",
+   "id": "C-DP.1.2",
+   "set": "chk",
+   "unit": 13,
+   "title": "C-DP.1.2 Check · Compare two data sets",
+   "description": "Learning goal: I can compare two data sets using their displays. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-DP.1.2-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.1.2-chk-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.1.2-chk-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-DP.1.2-chk-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-DP.1.2-chk-Q4.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-DP.1.2-chk-Q5.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 98,
+   "key": "C-DP.1.2 Re-check",
+   "id": "C-DP.1.2",
+   "set": "re",
+   "unit": 13,
+   "title": "C-DP.1.2 Re-check · Compare two data sets",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.1.2-re-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.1.2-re-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-DP.1.2-re-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 99,
+   "key": "C-DP.1.2 Comparison",
+   "id": "C-DP.1.2",
+   "set": "cmp",
+   "unit": 13,
+   "title": "C-DP.1.2 Review · Compare two data sets",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.1.2-cmp-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.1.2-cmp-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 100,
+   "key": "C-DP.1.5 Check",
+   "id": "C-DP.1.5",
+   "set": "chk",
+   "unit": 13,
+   "title": "C-DP.1.5 Check · Choose an appropriate graph",
+   "description": "Learning goal: I can choose and create an appropriate data display. 5 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": "C-DP.1.5-scale.png",
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.1.5-chk-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.1.5-chk-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-DP.1.5-chk-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 4,
+     "image": "C-DP.1.5-chk-Q4.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 5,
+     "image": "C-DP.1.5-chk-Q5.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 101,
+   "key": "C-DP.1.5 Re-check",
+   "id": "C-DP.1.5",
+   "set": "re",
+   "unit": 13,
+   "title": "C-DP.1.5 Re-check · Choose an appropriate graph",
+   "description": "3 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.1.5-re-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "D"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.1.5-re-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "C"
+     ]
+    },
+    {
+     "n": 3,
+     "image": "C-DP.1.5-re-Q3.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    }
+   ]
+  },
+  {
+   "order": 102,
+   "key": "C-DP.1.5 Comparison",
+   "id": "C-DP.1.5",
+   "set": "cmp",
+   "unit": 13,
+   "title": "C-DP.1.5 Review · Choose an appropriate graph",
+   "description": "2 questions, 1 point each. Work each one out on paper, then choose or type your answer. Calculator allowed.",
+   "calc": "yes",
+   "locked": "off",
+   "level_image": null,
+   "questions": [
+    {
+     "n": 1,
+     "image": "C-DP.1.5-cmp-Q1.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "B"
+     ]
+    },
+    {
+     "n": 2,
+     "image": "C-DP.1.5-cmp-Q2.png",
+     "type": "mc",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+     ],
+     "correct": [
+      "A"
+     ]
+    }
+   ]
+  }
+ ]
+}

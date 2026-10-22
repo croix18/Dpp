@@ -262,7 +262,10 @@
      "prompt": "((1/2)x + 3) + (____) = (5/4)x − 1",
      "answer": "(3/4)x − 4",
      "change": "a plus sign: now ? = right side − left part",
-     "steps": [],
+     "steps": [
+      "? = ((5/4)x − 1) − ((1/2)x + 3).",
+      "x-terms: 5/4 − 2/4 = 3/4. Numbers: −1 − 3 = −4."
+     ],
      "fig": null,
      "check": [
       "blank",
@@ -274,9 +277,9 @@
     }
    ],
    "watch": [
-    "Two minuses make a plus: 2/3 − (−3/8) = 2/3 + 3/8.",
+    "Subtracting a negative adds: 2/3 − (−3/8) = 2/3 + 3/8.",
     "6 − (−2) is 8, not 4.",
-    "Start with the left expression: ? = left − right. Right − left flips every sign."
+    "If the blank is subtracted (A − ? = B), then ? = A − B. If it is added (A + ? = B), then ? = B − A."
    ]
   },
   {
@@ -560,15 +563,15 @@
    },
    "practice": [
     {
-     "prompt": "A student rewrote 2.5(4x + 2) as 12x. Correct it.",
-     "answer": "10x + 5",
+     "prompt": "A student rewrote 2.5(4x + 6) as 16x. Correct it.",
+     "answer": "10x + 15",
      "change": "a decimal outside",
      "steps": [],
      "fig": null,
      "check": [
       "expr",
-      "2.5(4x + 2)",
-      "10x + 5"
+      "2.5(4x + 6)",
+      "10x + 15"
      ]
     },
     {
@@ -688,19 +691,19 @@
    "title": "Equivalent or not: simplify both, then compare",
    "why": "Two expressions are equivalent when they simplify to the same thing: the same x-coefficient and the same number. Looking alike is not enough.",
    "example": {
-    "prompt": "Is 3(2x + 1.5) + x equivalent to 7x + 4.5?",
-    "answer": "Yes. Both are 7x + 4.5.",
+    "prompt": "Is 4(2x + 1.5) + x equivalent to 9x + 6?",
+    "answer": "Yes. Both are 9x + 6.",
     "change": "",
     "steps": [
-     "Simplify the first: 6x + 4.5 + x = 7x + 4.5.",
-     "Compare: x-coefficient 7 and 7, number 4.5 and 4.5.",
-     "Quick test with x = 0: 3(1.5) + 0 = 4.5 and 0 + 4.5 = 4.5."
+     "Simplify the first: 8x + 6 + x = 9x + 6.",
+     "Compare: x-coefficient 9 and 9, number 6 and 6.",
+     "Test x = 2 to catch a slip: 4(5.5) + 2 = 24 and 9(2) + 6 = 24."
     ],
     "fig": null,
     "check": [
      "equiv",
-     "3(2x + 1.5) + x",
-     "7x + 4.5",
+     "4(2x + 1.5) + x",
+     "9x + 6",
      true
     ]
    },
@@ -791,18 +794,19 @@
     ]
    },
    "turn": {
-    "prompt": "Are −(1/2)(4x − 6) + 3x and 3x − (1/2)(2x + 6) equivalent?",
-    "answer": "No. x + 3 and 2x − 3.",
+    "prompt": "Are −(1/2)(4x − 6) + 3x and 3x − (1/2)(2x − 6) equivalent?",
+    "answer": "No. x + 3 and 2x + 3.",
     "change": "",
     "steps": [
      "First: −2x + 3 + 3x = x + 3.",
-     "Second: 3x − x − 3 = 2x − 3."
+     "Second: 3x − x + 3 = 2x + 3.",
+     "The same number at the end, but different x-terms: not equivalent."
     ],
     "fig": null,
     "check": [
      "equiv",
      "−(1/2)(4x − 6) + 3x",
-     "3x − (1/2)(2x + 6)",
+     "3x − (1/2)(2x − 6)",
      false
     ]
    },
@@ -915,7 +919,7 @@
     {
      "prompt": "Write the inequality the graph shows.",
      "answer": "x > 2",
-     "change": "open circle",
+     "change": "no choices: write it yourself",
      "steps": [],
      "fig": {
       "lo": -2,
@@ -1039,7 +1043,7 @@
     },
     {
      "prompt": "6.25 > p + 7",
-     "answer": "p < −0.75",
+     "answer": "−0.75 > p, the same as p < −0.75 (read from p’s side; not a flip)",
      "change": "the variable is on the right",
      "steps": [],
      "fig": null,
@@ -1118,15 +1122,15 @@
      ]
     },
     {
-     "prompt": "−1.5q ≤ −6",
-     "answer": "q ≥ 4: closed circle at 4, shaded right",
-     "change": "both sides negative",
+     "prompt": "q/(−3) < 2",
+     "answer": "q > −6: open circle at −6, shaded right",
+     "change": "divided by a negative: multiply and flip",
      "steps": [],
      "fig": null,
      "check": [
       "ineq",
-      "−1.5q ≤ −6",
-      "q ≥ 4"
+      "q/(−3) < 2",
+      "q > −6"
      ]
     },
     {
@@ -1186,7 +1190,7 @@
    },
    "practice": [
     {
-     "prompt": "A number n divided by 3 is at most 4.",
+     "prompt": "Write and solve: a number n divided by 3 is at most 4.",
      "answer": "n/3 ≤ 4, so n ≤ 12",
      "change": "\"at most\", dividing",
      "steps": [],
@@ -1198,7 +1202,7 @@
      ]
     },
     {
-     "prompt": "The sum of a number x and 2.5 is less than −1.",
+     "prompt": "Write and solve: the sum of a number x and 2.5 is less than −1.",
      "answer": "x + 2.5 < −1, so x < −3.5",
      "change": "a sum",
      "steps": [],
@@ -1210,7 +1214,7 @@
      ]
     },
     {
-     "prompt": "The product of −2 and a number z is at most −9.",
+     "prompt": "Write and solve: the product of −2 and a number z is at most −9.",
      "answer": "−2z ≤ −9, so z ≥ 4.5",
      "change": "flip again",
      "steps": [],
@@ -1341,10 +1345,10 @@
    "why": "Total = one-time fee + rate × number. The rate goes with the variable; the fee stands alone. Undo the fee first (subtract), then the rate (divide).",
    "example": {
     "prompt": "A bowling alley charges $4.00 for shoes plus $5.50 for each game. Lena paid $26.00. How many games did she bowl?",
-    "answer": "g = 4",
+    "answer": "g = 4: Lena bowled 4 games.",
     "change": "",
     "steps": [
-     "Equation: 5.5g + 4 = 26.",
+     "Let g = the number of games: 5.5g + 4 = 26.",
      "Subtract 4: 5.5g = 22.",
      "Divide by 5.5: g = 4.",
      "Check: 5.5(4) + 4 = 26."
@@ -1359,12 +1363,12 @@
    },
    "turn": {
     "prompt": "A taxi charges $3.00 plus $2.25 per mile. The ride cost $16.50. How many miles?",
-    "answer": "m = 6",
+    "answer": "m = 6: the ride was 6 miles.",
     "change": "",
     "steps": [
-     "2.25m + 3 = 16.5.",
+     "Let m = the number of miles: 2.25m + 3 = 16.5.",
      "Subtract 3: 2.25m = 13.5.",
-     "Divide: m = 6."
+     "Divide by 2.25: m = 6."
     ],
     "fig": null,
     "check": [
@@ -1402,16 +1406,16 @@
      ]
     },
     {
-     "prompt": "A phone costs $120 up front plus $15.50 a month. Ana has paid $213 in all. How many months?",
-     "answer": "15.5m + 120 = 213, m = 6",
-     "change": "a bigger fee",
+     "prompt": "A tank holds 50 gallons and drains 2.5 gallons each minute. After how many minutes does it hold 30 gallons?",
+     "answer": "50 − 2.5m = 30, m = 8",
+     "change": "the amount goes down",
      "steps": [],
      "fig": null,
      "check": [
       "eq",
-      "15.5m + 120 = 213",
+      "50 − 2.5m = 30",
       "m",
-      "6"
+      "8"
      ]
     }
    ],
@@ -1533,19 +1537,19 @@
     ]
    },
    "turn": {
-    "prompt": "Five boxes each held b books. Then 3 books were taken out of each box. Now there are 60 books. Find b.",
-    "answer": "b = 15",
+    "prompt": "Five shelves each held n books. Then 3 books were taken off each shelf. Now there are 60 books. Find n.",
+    "answer": "n = 15",
     "change": "",
     "steps": [
-     "5(b − 3) = 60.",
-     "Divide by 5: b − 3 = 12.",
-     "Add 3: b = 15."
+     "Each shelf now has (n − 3), so 5(n − 3) = 60.",
+     "Divide by 5: n − 3 = 12.",
+     "Add 3: n = 15."
     ],
     "fig": null,
     "check": [
      "eq",
-     "5(b − 3) = 60",
-     "b",
+     "5(n − 3) = 60",
+     "n",
      "15"
     ]
    },
@@ -1564,16 +1568,16 @@
      ]
     },
     {
-     "prompt": "Six bags each held p pounds of rice. Then 0.5 pound was taken out of each. Now the bags hold 21 pounds in all. Find p.",
-     "answer": "6(p − 0.5) = 21, p = 4",
+     "prompt": "Four jars each held p ounces of honey. Then 1.5 ounces were poured out of each jar. Now the jars hold 26 ounces in all. Find p.",
+     "answer": "4(p − 1.5) = 26, p = 8",
      "change": "taken out of each",
      "steps": [],
      "fig": null,
      "check": [
       "eq",
-      "6(p − 0.5) = 21",
+      "4(p − 1.5) = 26",
       "p",
-      "4"
+      "8"
      ]
     },
     {
@@ -1593,7 +1597,7 @@
    "watch": [
     "The $5 goes to each student: 3(s + 5), not 3s + 5.",
     "Finish the job: s + 5 = 35 means s = 30, not 35.",
-    "\"Decreased\" or \"taken out\" means subtract inside the parentheses."
+    "Taken out of each one goes inside: 4(p − 1.5). Taken out once, after multiplying, stays outside: 4p − 1.5."
    ]
   },
   {
@@ -1607,7 +1611,7 @@
     "answer": "x = 5",
     "change": "",
     "steps": [
-     "Add 6 to both sides: −2 1/4 + 6 = 3 3/4, so 3 3/4 = (3/4)x.",
+     "Add 6 to both sides: −2 1/4 = −9/4, and −9/4 + 24/4 = 15/4. So 15/4 = (3/4)x.",
      "Multiply by 4/3: x = 15/4 × 4/3 = 5.",
      "Check: (3/4)(5) − 6 = 15/4 − 24/4 = −9/4 = −2 1/4."
     ],
@@ -1624,7 +1628,7 @@
     "answer": "y = 2 1/2",
     "change": "",
     "steps": [
-     "Add 3: 1 1/2 = (3/5)y.",
+     "Add 3: −1 1/2 = −3/2, and −3/2 + 6/2 = 3/2. So 3/2 = (3/5)y.",
      "Multiply by 5/3: y = 3/2 × 5/3 = 5/2 = 2 1/2."
     ],
     "fig": null,
@@ -1639,7 +1643,7 @@
     {
      "prompt": "(2/3)a + 1 = 5",
      "answer": "a = 6",
-     "change": "whole numbers",
+     "change": "whole numbers; + 1, so subtract first",
      "steps": [],
      "fig": null,
      "check": [
@@ -1893,7 +1897,7 @@
     [
      1,
      "I need help to start this.",
-     "Start here: undo in reverse order. Add or subtract first, then multiply or divide."
+     "Start here: undo in reverse order. For 3x + 4 = 19: subtract 4, then divide by 3."
     ]
    ]
   }
@@ -1914,7 +1918,7 @@
    "why": {
     "B": "combined the x-terms and the numbers into one term",
     "C": "multiplied 0.4 × 1.6 instead of adding",
-    "D": "sign of the number: 2 − 2.5 is −0.5"
+    "D": "subtracted backwards: 2.5 − 2 = 0.5, but 2 − 2.5 = −0.5"
    }
   },
   "MA.7.AR.1.1/chk/2": {
@@ -1958,7 +1962,7 @@
    "lesson": 2,
    "why": {
     "A": "multiplied 3.2 × 4.5 instead of adding",
-    "B": "sign of the number: 2 − 0.5 is +1.5",
+    "B": "subtracted backwards: 0.5 − 2 = −1.5, but 2 − 0.5 = 1.5",
     "C": "combined everything into one term"
    }
   },
@@ -2031,8 +2035,8 @@
    "lesson": 5,
    "why": {
     "A": "the same number at the end is not enough",
-    "C": "simplified the second expression wrong",
-    "D": "sign: took −(3/4)(−4) as −3 instead of +3"
+    "C": "simplified only the first and assumed the second matched; it is −(1/2)x + 3",
+    "D": "in the first expression, took −(3/4)(−4) as −3 instead of +3"
    }
   },
   "MA.7.AR.1.2/re/0": {
@@ -2046,9 +2050,9 @@
   },
   "MA.7.AR.1.2/re/1": {
    "keep": 2,
-   "lesson": 1,
+   "lesson": 4,
    "why": {
-    "B": "took 6 out of the first term only",
+    "B": "took a different number out of each term: 6 from 6x, but 1.5 from 7.5",
     "C": "left 6 inside instead of 6 ÷ 1.5 = 4",
     "D": "divided only the first term by 1.5"
    }
@@ -2065,7 +2069,7 @@
   },
   "MA.7.AR.1.2/cmp/0": {
    "keep": 2,
-   "lesson": 1,
+   "lesson": 4,
    "why": {
     "A": "divided only the first term by 2/5",
     "C": "used the reciprocal, 5/2",
@@ -2086,7 +2090,7 @@
    "lesson": 1,
    "why": {
     "A": "closed circle (≤) for an open circle",
-    "B": "its boundary is 17.5, not 8",
+    "B": "did not solve it: treated x + 2.5 like 2.5x; it gives x < 17.5",
     "C": "wrong direction"
    }
   },
@@ -2094,7 +2098,7 @@
    "keep": 2,
    "lesson": 2,
    "why": {
-    "A": "sign: −6.9 + 3 is −3.9, not 3.9",
+    "A": "dropped the negative: −6.9 + 3 is −3.9",
     "B": "flipped the symbol after only adding",
     "C": "subtracted 3 instead of adding it"
    }
@@ -2104,7 +2108,7 @@
    "lesson": 3,
    "why": {
     "B": "closed circle for a strict >",
-    "C": "sign: 0.5 ÷ (−0.5) is −1",
+    "C": "dropped the negative: 0.5 ÷ (−0.5) is −1",
     "D": "did not flip after dividing by a negative"
    }
   },
@@ -2113,7 +2117,7 @@
    "lesson": 4,
    "why": {
     "B": "multiplied −5 by −0.5 instead of dividing",
-    "C": "sign of 10 and no flip",
+    "C": "ignored the negative in −0.5x: divided by 0.5, so −10 and no flip",
     "D": "did not flip after dividing by a negative"
    }
   },
@@ -2122,7 +2126,7 @@
    "lesson": 5,
    "why": {
     "A": "gives x ≥ −2: closed circle",
-    "B": "gives x < −2: wrong direction",
+    "B": "flipped because −0.5 is negative; × 4 (positive) keeps <, so it gives x < −2",
     "C": "gives x > −4: wrong boundary"
    }
   },
@@ -2131,7 +2135,7 @@
    "lesson": 4,
    "why": {
     "B": "multiplied −12 by −1.5 instead of dividing",
-    "C": "sign of 8 and no flip",
+    "C": "ignored the negative in −1.5x: divided by 1.5, so −8 and no flip",
     "D": "did not flip after dividing by a negative"
    }
   },
@@ -2139,7 +2143,7 @@
    "keep": 2,
    "lesson": 3,
    "why": {
-    "B": "sign: 4.5 ÷ (−1.5) is −3",
+    "B": "dropped the negative: 4.5 ÷ (−1.5) is −3",
     "C": "open circle for ≥",
     "D": "did not flip after dividing by a negative"
    }
@@ -2150,7 +2154,7 @@
    "why": {
     "A": "did not flip after multiplying by −4",
     "B": "open circle for ≤",
-    "C": "sign: 1.25 × (−4) is −5"
+    "C": "dropped the negative: 1.25 × (−4) is −5"
    }
   },
   "MA.7.AR.2.1/cmp/0": {
@@ -2220,7 +2224,7 @@
      "read −1 7/9 as −1 + 7/9"
     ],
     [
-     "40/27",
+     "1 13/27 or 40/27",
      "multiplied by 2/3 instead of 3/2"
     ],
     [
@@ -2248,7 +2252,7 @@
    "typed": [
     [
      "9",
-     "sign: 36 ÷ (−4) is −9"
+     "dropped the negative: 36 ÷ (−4) is −9"
     ],
     [
      "−11",
@@ -2273,7 +2277,7 @@
    "keep": 2,
    "lesson": 3,
    "why": {
-    "B": "right left side, wrong right side",
+    "B": "distributed correctly, then multiplied the right side by 3 too (3 × 3 = 9)",
     "C": "read \"decreased\" as +",
     "D": "multiplied only x by 3"
    }
