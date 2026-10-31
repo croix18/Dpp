@@ -37,7 +37,7 @@
   "fix": "3",
   "note": "Same numbers; 'exactly twice as much as' replaced with a plausible wrong comparison.",
   "rt": "mc",
-  "q": "Two identical bottles of sports drink are partly full. The first bottle is 10/11 full and the second bottle is 95% full.\n\nThe first bottle holds ____ the second bottle.",
+  "q": "Two identical bottles of sports drink are partly full. The first bottle is 10/11 full, and the second bottle is 95% full.\n\nThe first bottle contains ____ the second bottle.",
   "opts": [
    "more than",
    "less than",
@@ -117,7 +117,7 @@
   "fix": "3",
   "note": "The equal pair; repeating decimal kept so the re-check matches the check.",
   "rt": "mc",
-  "q": "Two identical bottles of sports drink are partly full. The first bottle is 2/3 full and the second bottle is 66.<span class=\"rep\">6</span>% full.\n\nThe first bottle holds ____ the second bottle.",
+  "q": "Two identical bottles of sports drink are partly full. The first bottle is 2/3 full, and the second bottle is 66.<span class=\"rep\">6</span>% full.\n\nThe first bottle contains ____ the second bottle.",
   "opts": [
    "the same amount as",
    "more than",
@@ -196,7 +196,7 @@
   "fix": "3",
   "note": "New context (fuel tanks) and new numbers; key is 'less than' by a 0.5% margin so rounding is a live error.",
   "rt": "mc",
-  "q": "Two identical fuel tanks are partly full. Tank A is 8/9 full and tank B is 88% full.\n\nTank A holds ____ tank B.",
+  "q": "Two identical fuel tanks are partly full. Tank A is 8/9 full, and Tank B is 88% full.\n\nTank A contains ____ Tank B.",
   "opts": [
    "more than",
    "less than",

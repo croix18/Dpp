@@ -485,7 +485,7 @@ NOTES = {
     'MA.7.AR.2.1/cmp/1': {'keep': 2, 'lesson': 3, 'why': {'A': 'subtracted 0.5 instead of dividing', 'B': 'flipped when dividing by a positive',
                                                           'D': 'open circle for ≤'}},
     # C-AR.2.2
-    'MA.7.AR.2.2/chk/0': {'keep': 3, 'lesson': 1, 'why': {'A': 'subtracted the entry fee in the equation', 'B': 'swapped the hourly rate and the fee',
+    'MA.7.AR.2.2/chk/0': {'keep': 3, 'lesson': 1, 'why': {'A': 'subtracted the rental fee in the equation', 'B': 'swapped the hourly rate and the fee',
                                                           'C': 'right equation, but added 25 instead of subtracting'}},
     'MA.7.AR.2.2/chk/1': {'keep': 2, 'lesson': 2, 'typed': [('1.2', 'added 1.6 at the end instead of subtracting'),
                                                             ('−2.5', 'multiplied by 1.5 instead of dividing'),

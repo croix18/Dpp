@@ -273,7 +273,7 @@
   "slot": "MA.7.DP.2.3/cmp/1",
   "fix": "9",
   "rt": "sa",
-  "q": "A fair spinner has 40 equal sections. 9 sections are orange. The spinner is spun once.\n\nWhat is the probability that the spinner lands on orange? Write your answer as a decimal.",
+  "q": "A digital spinner has 40 equally likely sections. Nine of the sections are orange. The spinner is spun once.\n\nWhat is the probability that the spinner lands on orange? Write your answer as a decimal.",
   "answer": "0.225",
   "accept": [
    "0.225",
@@ -395,7 +395,7 @@
   "slot": "MA.7.DP.1.3/chk/0",
   "fix": "6",
   "rt": "mc",
-  "q": "In a random sample of 100 passengers, 35 check a bag.\n\nBased on this sample, about how many of the 800 passengers in the population check a bag?",
+  "q": "An airport has 800 departing passengers on one day. In a random sample of 100 of these passengers, 35 checked a bag.\n\nBased on this sample, about how many of the 800 passengers checked a bag?",
   "opts": [
    "520",
    "2,286",

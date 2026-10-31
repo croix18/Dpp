@@ -121,10 +121,11 @@
  },
  {
   "slot": "MA.7.AR.2.2/chk/0",
-  "q": "An indoor skating rink charges a $25.00 admission fee plus $12.50 for each hour of skate rental. A visitor paid $62.50 in all.\n\nWhich choice shows an equation that can be used to find h, the number of hours of skate rental the visitor paid for, and its solution?",
+  "q": "A bike-rental shop charges a $25.00 rental fee plus $12.50 for each hour. A visitor paid $62.50 in all.\n\nWhich choice shows an equation that can be used to find h, the number of hours the bike was rented, and its solution?",
   "opts": null,
   "key": null,
-  "s": null
+  "s": "Total = rental fee + $12.50 for each hour: 12.5h + 25 = 62.5.\nSubtract 25: 12.5h = 37.5. Divide by 12.5: h = 3.\nCheck: 12.5 × 3 + 25 = 62.5.\nh = 7 adds 25 instead of subtracting it; 25h + 12.5 swaps the hourly rate and the rental fee.",
+  "pass": 2
  },
  {
   "slot": "MA.7.AR.2.2/cmp/0",
@@ -144,5 +145,117 @@
   ],
   "key": 2,
   "s": "A proportional relationship has a constant ratio of total cost to pounds, which means a cost of $0 for 0 pounds.\nThe $15.00 fee is charged before the first pound, so 0 pounds costs $15.00, and the ratio changes: $27 for 1 pound, $39 for 2 pounds. Not proportional."
+ },
+ {
+  "slot": "MA.7.DP.2.3/chk/1",
+  "q": "A digital spinner has 25 equally likely sections. Six of the sections are green. The spinner is spun once.\n\nWhat is the probability that the spinner lands on green? Write your answer as a decimal.",
+  "opts": null,
+  "key": null,
+  "s": null,
+  "pass": 2
+ },
+ {
+  "slot": "MA.7.DP.2.4/chk/4",
+  "q": "A bag holds 10 marbles. Each marble is green, purple, or blue, but the number of each color is not known. A student draws a marble at random, records its color, and puts it back. The table shows the results of 200 draws.\n\n<table class=\"ftab\"><tr><th>Green</th><th>Purple</th><th>Blue</th></tr><tr><td>121</td><td>43</td><td>36</td></tr></table>\n\nPart A. What is the experimental probability of drawing a purple marble, as a decimal?\nPart B. Use your answer to Part A. If the student makes 2,000 more draws, about how many purple draws would you expect?\nPart C. About how many of the 10 marbles in the bag are purple?\n\nWhich choice gives correct answers to all three parts?",
+  "opts": null,
+  "key": null,
+  "s": null,
+  "pass": 2
+ },
+ {
+  "slot": "MA.7.NSO.2.3/chk/1",
+  "q": "Five friends owe $83.60 for a canoe rental. They split the cost equally. Each person's unpaid amount is recorded as a negative balance. Jamal then pays 3/8 of what he owes.\n\nWhat is Jamal's remaining balance?",
+  "opts": null,
+  "key": null,
+  "s": null,
+  "pass": 2
+ },
+ {
+  "slot": "MA.7.NSO.2.3/re/2",
+  "q": "Six friends owe $141.00 for a party tent rental. They split the cost equally. Each person's unpaid amount is recorded as a negative balance. Maya then pays 4/5 of what she owes.\n\nWhat is Maya's remaining balance?",
+  "opts": null,
+  "key": null,
+  "s": null,
+  "pass": 2
+ },
+ {
+  "slot": "MA.7.NSO.2.3/cmp/1",
+  "q": "Four friends owe $136.80 for a party tent rental. They split the cost equally. Each person's unpaid amount is recorded as a negative balance. Ava then pays 5/6 of what she owes.\n\nWhat is Ava's remaining balance?",
+  "opts": null,
+  "key": null,
+  "s": null,
+  "pass": 2
+ },
+ {
+  "slot": "MA.7.AR.3.2/chk/1",
+  "q": "A drip-irrigation hose (a hose that slowly waters plants) uses 3.6 gallons of water every 4 hours.\n\nHow many gallons of water does it use in 9 hours?",
+  "opts": null,
+  "key": null,
+  "s": null,
+  "pass": 2
+ },
+ {
+  "slot": "MA.7.AR.3.2/re/2",
+  "q": "A drip-irrigation hose (a hose that slowly waters plants) uses 5.25 gallons of water every 3 hours.\n\nHow many gallons of water does it use in 10 hours?",
+  "opts": null,
+  "key": null,
+  "s": null,
+  "pass": 2
+ },
+ {
+  "slot": "MA.7.DP.1.4/chk/0",
+  "q": "A survey asked 540 people which type of book they like best. The circle graph shows their answers.\n\nHow many more people chose Fiction than Science?",
+  "opts": null,
+  "key": null,
+  "s": null,
+  "pass": 2
+ },
+ {
+  "slot": "MA.7.DP.1.4/chk/3",
+  "q": "A survey asked 740 students how they usually get to school. The circle graph shows their answers.\n\nHow many students chose Bus?",
+  "opts": null,
+  "key": null,
+  "s": null,
+  "pass": 2
+ },
+ {
+  "slot": "MA.7.DP.1.4/re/2",
+  "q": "A survey asked 460 people which season they like best. The circle graph shows their answers.\n\nHow many more people chose Summer than Spring?",
+  "opts": null,
+  "key": null,
+  "s": null,
+  "pass": 2
+ },
+ {
+  "slot": "MA.7.AR.3.1/chk/3",
+  "q": "A museum had 320 visitors in one month and 344 visitors the next month.\n\nWhat was the percent increase in visitors?",
+  "opts": null,
+  "key": null,
+  "s": null,
+  "pass": 2
+ },
+ {
+  "slot": "MA.7.AR.3.1/re/0",
+  "q": "A museum had 240 visitors in one month and 162 visitors the next month.\n\nWhat was the percent decrease in visitors?",
+  "opts": null,
+  "key": null,
+  "s": null,
+  "pass": 2
+ },
+ {
+  "slot": "MA.7.GR.2.2/chk/0",
+  "q": "Surface area of a right circular cylinder: SA = 2πr² + 2πrh\n\nA closed cylindrical water tank is made from sheet metal. The tank has a radius of 9 feet and a height of 17 feet.\n\nWhat is the total area of sheet metal needed for the curved side, the top and the bottom? Write your answer in terms of π.",
+  "opts": null,
+  "key": null,
+  "s": null,
+  "pass": 2
+ },
+ {
+  "slot": "MA.7.DP.1.5/cmp/1",
+  "q": "A student recorded how a family divides its monthly take-home income of $4,800.\n\n<table class=\"ftab\"><tr><th>Rent</th><th>Food</th><th>Transportation</th><th>Savings</th></tr><tr><td>$2,160</td><td>$1,200</td><td>$960</td><td>$480</td></tr></table>\n\nThe student wants a display that answers this question at a glance: is Rent more than half of the total? Which display is the most appropriate?",
+  "opts": null,
+  "key": null,
+  "s": null,
+  "pass": 2
  }
 ]

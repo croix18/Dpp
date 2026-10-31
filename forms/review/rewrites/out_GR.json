@@ -460,7 +460,7 @@
   "fix": "5",
   "note": "Only the accept list changed (adds 3.14159 and 3.142); stem, table and solution kept as in the bank.",
   "rt": "sa",
-  "q": "A student measured the diameter and the circumference of three paper cups, in centimeters. The results are shown in the table.\n\n<table><tr><th>Diameter (cm)</th><th>Circumference (cm)</th></tr><tr><td>8</td><td>25.13</td></tr><tr><td>14</td><td>43.98</td></tr><tr><td>20</td><td>62.83</td></tr></table>\n\nThe circumference of a circle is proportional to its diameter. Based on the table, what is the constant of proportionality, rounded to the nearest hundredth?",
+  "q": "A student measured the diameter and the circumference of three round trays, in centimeters. The results are shown in the table.\n\n<table><tr><th>Diameter (cm)</th><th>Circumference (cm)</th></tr><tr><td>8</td><td>25.13</td></tr><tr><td>14</td><td>43.98</td></tr><tr><td>20</td><td>62.83</td></tr></table>\n\nThe circumference of a circle is proportional to its diameter. Based on the table, what is the constant of proportionality, rounded to the nearest hundredth?",
   "answer": "3.14",
   "accept": [
    "3.14",
@@ -824,7 +824,7 @@
   "fix": "7",
   "note": "Now gives a diameter (22 ft) instead of a radius; height changed to 12 ft so the item does not repeat 462π.",
   "rt": "sa",
-  "q": "Surface area of a right circular cylinder: SA = 2πr<sup>2</sup> + 2πrh\n\nA cylindrical water tank has a diameter of 22 feet and a height of 12 feet. Its whole outside surface, including the top and the bottom, will be covered with sheet metal.\n\nWhat is the area that the sheet metal must cover? Write your answer in terms of π. Type only the number in front of π.",
+  "q": "Surface area of a right circular cylinder: SA = 2πr<sup>2</sup> + 2πrh\n\nA closed cylindrical water tank is made from sheet metal. The tank has a diameter of 22 feet and a height of 12 feet.\n\nWhat is the total area of sheet metal needed for the curved side, the top and the bottom? Write your answer in terms of π. Type only the number in front of π.",
   "answer": "506",
   "accept": [
    "506",
@@ -914,7 +914,7 @@
   "fix": "9",
   "note": "Fix 9: accept list now includes both the π-key value and the 3.14 value; stem and key otherwise unchanged.",
   "rt": "sa",
-  "q": "Surface area of a right circular cylinder: SA = 2πr<sup>2</sup> + 2πrh\n\nA cylindrical oatmeal container has a radius of 5 inches and a height of 11 inches. A label wraps all the way around its curved side, with no overlap; the top and the bottom are not covered.\n\nWhat is the area of the label? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+  "q": "Surface area of a right circular cylinder: SA = 2πr<sup>2</sup> + 2πrh\n\nA large cylindrical storage container has a radius of 5 inches and a height of 11 inches. A label wraps all the way around its curved side, with no overlap; the top and the bottom are not covered.\n\nWhat is the area of the label? Round your answer to the nearest hundredth. Use the π key on your calculator.",
   "answer": "345.58",
   "accept": [
    "345.58",
