@@ -4089,7 +4089,7 @@
       "D"
      ],
      "right": "Correct. D. 12.5h + 25 = 62.5; h = 3\n\nTotal = rental fee + $12.50 for each hour: 12.5h + 25 = 62.5.\nSubtract 25: 12.5h = 37.5. Divide by 12.5: h = 3.\nCheck: 12.5 × 3 + 25 = 62.5.\nh = 7 adds 25 instead of subtracting it; 25h + 12.5 swaps the hourly rate and the rental fee.",
-     "wrong": "Answer: D. 12.5h + 25 = 62.5; h = 3\n\nTotal = rental fee + $12.50 for each hour: 12.5h + 25 = 62.5.\nSubtract 25: 12.5h = 37.5. Divide by 12.5: h = 3.\nCheck: 12.5 × 3 + 25 = 62.5.\nh = 7 adds 25 instead of subtracting it; 25h + 12.5 swaps the hourly rate and the rental fee.\n\nCommon mistakes:\n• Choice A: subtracted the entry fee in the equation\n• Choice B: swapped the hourly rate and the fee\n• Choice C: right equation, but added 25 instead of subtracting"
+     "wrong": "Answer: D. 12.5h + 25 = 62.5; h = 3\n\nTotal = rental fee + $12.50 for each hour: 12.5h + 25 = 62.5.\nSubtract 25: 12.5h = 37.5. Divide by 12.5: h = 3.\nCheck: 12.5 × 3 + 25 = 62.5.\nh = 7 adds 25 instead of subtracting it; 25h + 12.5 swaps the hourly rate and the rental fee.\n\nCommon mistakes:\n• Choice A: subtracted the rental fee in the equation\n• Choice B: swapped the hourly rate and the fee\n• Choice C: right equation, but added 25 instead of subtracting"
     },
     {
      "n": 2,

@@ -257,5 +257,13 @@
   "key": null,
   "s": null,
   "pass": 2
+ },
+ {
+  "slot": "MA.7.DP.1.1/chk/3",
+  "q": "The histogram shows the numbers of minutes 25 students spent on homework last night. The teacher wants to find the total minutes the whole class spent on homework, and knows that one measure of center, multiplied by 25, equals that total.\n\nWhich measure should the teacher use, and why?",
+  "opts": null,
+  "key": null,
+  "s": null,
+  "pass": 3
  }
 ]

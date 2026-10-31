@@ -5536,5 +5536,32 @@
    "s": "The question compares one category with the whole. In a circle graph each section is the same fraction of the circle as its category is of the total, so a section can be compared with half of the circle at a glance (Rent is 45%).\nA bar chart shows the amounts but not how each compares with the total; a histogram and a line plot are for numerical data.",
    "ft": ""
   }
+ },
+ {
+  "slot": "MA.7.DP.1.1/chk/3",
+  "why": "outside read: wording",
+  "kind": "replace",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 3,
+   "rt": "mc",
+   "q": "The histogram shows the numbers of minutes 25 students spent on homework last night. The teacher wants one number that, multiplied by 25, gives the total minutes the whole class spent on homework.\n\nWhich measure should the teacher use, and why?",
+   "a": "B. the mean, because it is the total of all the values divided by the number of values"
+  },
+  "after": {
+   "gen": 3,
+   "rt": "mc",
+   "q": "The histogram shows the numbers of minutes 25 students spent on homework last night. The teacher wants to find the total minutes the whole class spent on homework, and knows that one measure of center, multiplied by 25, equals that total.\n\nWhich measure should the teacher use, and why?",
+   "a": "B. the mean, because it is the total of all the values divided by the number of values",
+   "opts": [
+    "the median, because one value is far from the rest of the data",
+    "the mean, because it is the total of all the values divided by the number of values",
+    "the mean, because the data set has an odd number of values",
+    "the median, because it is less affected by repeated values"
+   ],
+   "s": "The teacher's purpose is the total: mean = total ÷ 25, so mean × 25 = total.\nThe one value in the 70–79 interval is an outlier, but the purpose, not the outlier, decides here: the median × 25 does not give the total.\nThe mean is the measure that fits this purpose.",
+   "ft": "a histogram with bars 0–9: 0, 10–19: 4, 20–29: 11, 30–39: 9, 40–49: 0, 50–59: 0, 60–69: 0, 70–79: 1"
+  }
  }
 ]
