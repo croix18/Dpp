@@ -484,6 +484,16 @@ for e in RW:
         if entry['forms'] is None: del entry['forms']
     entry['set'] = st
     P.append(entry)
+# Stem (and, where given, option) edits from the outside read (ChatGPT, 2026-10-30): wording, realism, fairness; math unchanged
+for e in json.load(open('/home/claude/dpp/forms/review/rewrites/edits_chatgpt.json')):
+    assert not e['slot'].startswith('MA.7.AR.1.1/'), 'AR.1.1 is frozen'
+    st = {'q': e['q']}
+    if e.get('opts'):
+        st['opts'] = e['opts']; st['key'] = e['key']; st['a'] = f"{LT[e['key']]}. {e['opts'][e['key']]}"
+    if e.get('s'):
+        st['s'] = e['s']
+    P.append({'slot': e['slot'], 'why': 'outside read: wording', 'set': st})
+
 # balance the new mc keys on their own (the earlier shuffle stays as it was, so untouched items keep their letters)
 elig2 = [e for e in P if e.get('rewrite') and e['set'].get('rt') == 'mc']
 targets2 = (list(range(4)) * (len(elig2) // 4 + 1))[:len(elig2)]

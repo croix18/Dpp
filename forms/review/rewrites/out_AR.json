@@ -682,7 +682,7 @@
   "fix": "15",
   "note": "Reworded with named variables so the student decides which quantity is y; key unchanged (9.15).",
   "rt": "mc",
-  "q": "In a proportional relationship, 64.05 cups of water are used in 7 minutes. Let x be the number of minutes and let y be the number of cups of water.\n\nWhat is the constant of proportionality, k, in y = kx?",
+  "q": "An irrigation system releases 64.05 cups of water in 7 minutes at a constant rate. Let x be the number of minutes and let y be the number of cups of water released.\n\nWhat is the constant of proportionality, k, in y = kx?",
   "opts": [
    "9.15",
    "0.11",
@@ -705,7 +705,7 @@
   "fix": "15",
   "note": "Variables assigned the 'unexpected' way (x = liters, y = walls) so 'big divided by small' fails. 12.6 changed to 12.5 so the key is exact (0.32).",
   "rt": "mc",
-  "q": "In a proportional relationship, 12.5 liters of paint cover 4 walls. Let x be the number of liters of paint and let y be the number of walls.\n\nWhat is the constant of proportionality, k, in y = kx?",
+  "q": "In a proportional relationship, 12.5 liters of paint cover 4 identical walls. Let x be the number of liters of paint and let y be the number of walls.\n\nWhat is the constant of proportionality, k, in y = kx?",
   "opts": [
    "3.125",
    "0.32",

@@ -1,0 +1,148 @@
+[
+ {
+  "slot": "MA.7.DP.2.2/chk/3",
+  "q": "A probability is given for each event.\n\nEvent 1: The chance that your ticket wins when you hold 1 of 50 equally likely raffle tickets is 2%.\nEvent 2: The probability that a spinner with two equal sections, one red and one blue, lands on red is 1/2.\nEvent 3: The probability that it rains tomorrow is 0.6.\n\nWhich choice describes Events 1, 2 and 3, in that order?",
+  "opts": null,
+  "key": null,
+  "s": null
+ },
+ {
+  "slot": "MA.7.DP.2.2/re/2",
+  "q": "A probability is given for each event.\n\nEvent 1: The probability that the cafeteria serves pizza tomorrow is 0.65.\nEvent 2: The probability that a spinner with two equal sections, one red and one blue, lands on red is 50%.\nEvent 3: The probability that a randomly chosen student brought a reusable water bottle today is 3/10.\n\nWhich choice describes Events 1, 2 and 3, in that order?",
+  "opts": null,
+  "key": null,
+  "s": null
+ },
+ {
+  "slot": "MA.7.NSO.2.3/chk/4",
+  "q": "The temperature outside a cabin in January is 9.3°F and drops 3 1/2°F each hour. The temperature is recorded at the end of each whole hour.\n\nAt the end of which hour is the recorded temperature first below −3°F?",
+  "opts": null,
+  "key": null,
+  "s": null
+ },
+ {
+  "slot": "MA.7.GR.1.4/chk/2",
+  "q": "A 24-inch pizza is cut into 9 equal slices. (The size of a pizza is its diameter.) A group of students shares the pizza and eats 5 slices in all.\n\nHow many square inches of pizza did the group eat? Write your answer in terms of π.",
+  "opts": null,
+  "key": null,
+  "s": null
+ },
+ {
+  "slot": "MA.7.DP.1.3/chk/2",
+  "q": "A public library has 1200 members. A random sample of 240 members is surveyed. Based on the sample, it is predicted that about 480 of the 1200 members borrow e-books.\n\nHow many members in the sample said they borrow e-books?",
+  "opts": null,
+  "key": null,
+  "s": null
+ },
+ {
+  "slot": "MA.7.DP.1.3/re/2",
+  "q": "A plant nursery tests a random sample of 400 seeds from a shipment and finds that 80 of them sprouted.\n\nBased on this sample, about how many of the 2500 seeds in the shipment would be expected to sprout?",
+  "opts": null,
+  "key": null,
+  "s": null
+ },
+ {
+  "slot": "MA.7.GR.1.5/chk/1",
+  "q": "A 72-inch-wide poster is reduced by a scale factor of 1/8 to make a smaller print.\n\nWhat is the width of the smaller print, in inches?",
+  "opts": null,
+  "key": null,
+  "s": null
+ },
+ {
+  "slot": "MA.7.GR.1.5/chk/3",
+  "q": "A model of a building uses the scale 1 centimeter : 5 meters. On the model, a wall is 1.5 centimeters long.\n\nHow long is the actual wall, in meters?",
+  "opts": null,
+  "key": null,
+  "s": null
+ },
+ {
+  "slot": "MA.7.GR.1.5/chk/4",
+  "q": "On a blueprint, the rectangular front wall of a two-story building measures 4.5 inches long and 5 inches tall. The actual wall is 22.5 feet long.\n\nWhat is the area of the actual wall, in square feet?",
+  "opts": null,
+  "key": null,
+  "s": null
+ },
+ {
+  "slot": "MA.7.AR.3.3/cmp/1",
+  "q": "1 hour = 60 minutes, and 1 mile ≈ 1.609 kilometers.\n\nA car travels at 48 miles per hour for 75 minutes. How many kilometers does it travel? Round only your final answer, to the nearest tenth.",
+  "opts": null,
+  "key": null,
+  "s": null
+ },
+ {
+  "slot": "MA.7.DP.1.5/re/0",
+  "q": "A class surveyed 260 students about the way they get to school.\nBus: 52\nCar (one family): 39\nWalk: 104\nBike: 26\nCarpool (several families): 39\n\nThe class wants a display that answers this question at a glance: how many more students chose Bus than chose Carpool? Which display is the most appropriate?",
+  "opts": null,
+  "key": null,
+  "s": null
+ },
+ {
+  "slot": "MA.7.DP.1.5/cmp/0",
+  "q": "A class surveyed 200 students about the way they get to school.\nBus: 60\nCar (one family): 20\nWalk: 40\nBike: 50\nCarpool (several families): 30\n\nThe class wants a display that answers this question at a glance: how many more students chose Bus than chose Car? Which display is the most appropriate?",
+  "opts": null,
+  "key": null,
+  "s": null
+ },
+ {
+  "slot": "MA.7.DP.1.2/chk/1",
+  "q": "The box plots show the heights, in centimeters, of the sunflowers grown in two gardens.\n\nWhere does a height of 132 centimeters fall in each garden’s box plot?",
+  "opts": [
+   "In the middle 50% for Garden A and in the highest 25% for Garden B.",
+   "In the highest 25% for Garden A and in the middle 50% for Garden B.",
+   "In the lowest 25% for Garden A and in the middle 50% for Garden B.",
+   "In the middle 50% for both gardens."
+  ],
+  "key": 0,
+  "s": "Garden A: the box runs from 130 to 145, so 132 is in the middle 50% of its values.\nGarden B: the upper quartile is 120, so 132 is above it, in the highest 25% of its values."
+ },
+ {
+  "slot": "MA.7.DP.1.2/re/1",
+  "q": "The box plots show the numbers of books read over the summer by the students in two classes.\n\nA student read 42 books over the summer. Where does 42 books fall in each class’s box plot?",
+  "opts": [
+   "In the middle 50% for Class A and in the highest 25% for Class B.",
+   "In the highest 25% for Class A and in the middle 50% for Class B.",
+   "In the lowest 25% for Class A and in the middle 50% for Class B.",
+   "In the middle 50% for both classes."
+  ],
+  "key": 0,
+  "s": "Class A: the box runs from 35 to 50, so 42 is in the middle 50% of its values.\nClass B: the upper quartile is 25, so 42 is above it, in the highest 25% of its values."
+ },
+ {
+  "slot": "MA.7.DP.1.2/cmp/1",
+  "q": "The box plots show the heights, in centimeters, of the sunflowers grown in two gardens.\n\nWhere does a height of 139 centimeters fall in each garden’s box plot?",
+  "opts": [
+   "In the middle 50% for Garden A and in the highest 25% for Garden B.",
+   "In the middle 50% for both gardens.",
+   "In the highest 25% for Garden A and in the middle 50% for Garden B.",
+   "In the lowest 25% for Garden A and in the middle 50% for Garden B."
+  ],
+  "key": 2,
+  "s": "Garden B: the box runs from 130 to 145, so 139 is in the middle 50% of its values.\nGarden A: the upper quartile is 125, so 139 is above it, in the highest 25% of its values."
+ },
+ {
+  "slot": "MA.7.AR.2.2/chk/0",
+  "q": "An indoor skating rink charges a $25.00 admission fee plus $12.50 for each hour of skate rental. A visitor paid $62.50 in all.\n\nWhich choice shows an equation that can be used to find h, the number of hours of skate rental the visitor paid for, and its solution?",
+  "opts": null,
+  "key": null,
+  "s": null
+ },
+ {
+  "slot": "MA.7.AR.2.2/cmp/0",
+  "q": "An amusement center charges a $15.00 admission fee plus $3.75 for each game. A visitor paid $33.75 in all.\n\nWhich choice shows an equation that can be used to find g, the number of games the visitor paid for, and its solution?",
+  "opts": null,
+  "key": null,
+  "s": null
+ },
+ {
+  "slot": "MA.7.AR.4.1/re/2",
+  "q": "A candy shop charges a $15.00 gift-packaging fee plus $12.00 for each pound of candy.\n\nIs the relationship between the pounds of candy and the total cost proportional?",
+  "opts": [
+   "Yes, because the price added for each pound is always the same.",
+   "No, because dollars and pounds are measured in different units.",
+   "No, because the total cost includes a fixed $15.00 fee that does not depend on the pounds of candy.",
+   "Yes, because there is no fixed charge, only $12.00 for each pound."
+  ],
+  "key": 2,
+  "s": "A proportional relationship has a constant ratio of total cost to pounds, which means a cost of $0 for 0 pounds.\nThe $15.00 fee is charged before the first pound, so 0 pounds costs $15.00, and the ratio changes: $27 for 1 pound, $39 for 2 pounds. Not proportional."
+ }
+]

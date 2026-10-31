@@ -219,7 +219,7 @@
   "fix": "2",
   "note": "Replaced the 1÷33 checkbox item with the choose-the-form item (so fix 5's conversion of cmp/1 is superseded). Parallels the L4 rigor item: decide which form and why.",
   "rt": "mc",
-  "q": "A recipe needs 2/3 cup of sugar. The only scoop in the kitchen holds 0.3 cup. Mia needs to know how many scoops to use.\n\nWhich statement is correct?",
+  "q": "A recipe needs 2/3 cup of sugar. Mia has a scoop that holds 0.3 cup when it is full, and she can use part of a scoop. She needs to know how many scoops to use.\n\nWhich statement is correct?",
   "opts": [
    "Rewrite 2/3 as 0.66. Then 0.66 ÷ 0.3 = 2.2, so she needs exactly 2.2 scoops.",
    "Rewrite 0.3 as 3/10. Then 2/3 ÷ 3/10 = 2 2/9, so she needs a little more than 2 scoops.",

@@ -2759,7 +2759,7 @@
   "after": {
    "gen": 3,
    "rt": "mc",
-   "q": "In a proportional relationship, 64.05 cups of water are used in 7 minutes. Let x be the number of minutes and let y be the number of cups of water.\n\nWhat is the constant of proportionality, k, in y = kx?",
+   "q": "An irrigation system releases 64.05 cups of water in 7 minutes at a constant rate. Let x be the number of minutes and let y be the number of cups of water released.\n\nWhat is the constant of proportionality, k, in y = kx?",
    "a": "C. 9.15",
    "opts": [
     "64.05",
@@ -2786,7 +2786,7 @@
   "after": {
    "gen": 3,
    "rt": "mc",
-   "q": "In a proportional relationship, 12.5 liters of paint cover 4 walls. Let x be the number of liters of paint and let y be the number of walls.\n\nWhat is the constant of proportionality, k, in y = kx?",
+   "q": "In a proportional relationship, 12.5 liters of paint cover 4 identical walls. Let x be the number of liters of paint and let y be the number of walls.\n\nWhat is the constant of proportionality, k, in y = kx?",
    "a": "A. 0.32",
    "opts": [
     "0.32",
@@ -3416,10 +3416,10 @@
    "gen": 0,
    "rt": "mc",
    "q": "The line plots show the numbers of goals two soccer teams scored in their games. A fan claims that the Hawks typically score about 2 more goals per game than the Sharks.\n\nUse the medians and the interquartile ranges. Is the fan's claim reasonable?",
-   "a": "B. No, because the medians are 4.5 and 4, a difference of only 0.5 goal, and the two sets of scores overlap over most of their interquartile ranges.",
+   "a": "B. No, because the medians are 4.5 and 4 goals, a difference of only 0.5 goal, and the interquartile ranges overlap.",
    "opts": [
     "Yes, because the Hawks' greatest number of goals, 7, is 2 more than the Sharks' greatest, 5.",
-    "No, because the medians are 4.5 and 4, a difference of only 0.5 goal, and the two sets of scores overlap over most of their interquartile ranges.",
+    "No, because the medians are 4.5 and 4 goals, a difference of only 0.5 goal, and the interquartile ranges overlap.",
     "Yes, because the Hawks' median is greater than the Sharks' median.",
     "No, because the Sharks played more games, so their data count for more."
    ],
@@ -4536,7 +4536,7 @@
   "after": {
    "gen": 4,
    "rt": "mc",
-   "q": "A recipe needs 2/3 cup of sugar. The only scoop in the kitchen holds 0.3 cup. Mia needs to know how many scoops to use.\n\nWhich statement is correct?",
+   "q": "A recipe needs 2/3 cup of sugar. Mia has a scoop that holds 0.3 cup when it is full, and she can use part of a scoop. She needs to know how many scoops to use.\n\nWhich statement is correct?",
    "a": "C. Rewrite 0.3 as 3/10. Then 2/3 ÷ 3/10 = 2 2/9, so she needs a little more than 2 scoops.",
    "opts": [
     "Rewrite 0.3 as 3/10. Then 3/10 ÷ 2/3 = 9/20, so she needs less than 1 scoop.",
@@ -4770,6 +4770,452 @@
     "−5/9"
    ],
    "s": "Dividing by 2/3 is multiplying by its reciprocal, 3/2: −5/6 × 3/2 = −15/12.\nSimplest form: −15/12 = −5/4 = −1 1/4.\nA negative divided by a positive is negative.",
+   "ft": ""
+  }
+ },
+ {
+  "slot": "MA.7.DP.2.2/chk/3",
+  "why": "outside read: wording",
+  "kind": "replace",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 4,
+   "rt": "mc",
+   "q": "A probability is given for each event.\n\nEvent 1: The probability that it snows in Orlando, Florida, this winter is 2%.\nEvent 2: The probability that a spinner with two equal sections, one red and one blue, lands on red is 1/2.\nEvent 3: The probability that a hurricane passes within 100 miles of the city in the next two days is 0.6.\n\nWhich choice describes Events 1, 2 and 3, in that order?",
+   "a": "A. unlikely, neither likely nor unlikely, likely"
+  },
+  "after": {
+   "gen": 4,
+   "rt": "mc",
+   "q": "A probability is given for each event.\n\nEvent 1: The chance that your ticket wins when you hold 1 of 50 equally likely raffle tickets is 2%.\nEvent 2: The probability that a spinner with two equal sections, one red and one blue, lands on red is 1/2.\nEvent 3: The probability that it rains tomorrow is 0.6.\n\nWhich choice describes Events 1, 2 and 3, in that order?",
+   "a": "A. unlikely, neither likely nor unlikely, likely",
+   "opts": [
+    "unlikely, neither likely nor unlikely, likely",
+    "likely, neither likely nor unlikely, unlikely",
+    "unlikely, neither likely nor unlikely, unlikely",
+    "unlikely, likely, likely"
+   ],
+   "s": "2% is close to 0, so Event 1 is unlikely.\n1/2 is exactly halfway between 0 and 1, so Event 2 is neither likely nor unlikely.\n0.6 is greater than 1/2, so Event 3 is likely.",
+   "ft": ""
+  }
+ },
+ {
+  "slot": "MA.7.DP.2.2/re/2",
+  "why": "outside read: wording",
+  "kind": "replace",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 4,
+   "rt": "mc",
+   "q": "A probability is given for each event.\n\nEvent 1: The probability that a hurricane passes within 100 miles of the city in the next two days is 0.65.\nEvent 2: The probability that a spinner with two equal sections, one red and one blue, lands on red is 50%.\nEvent 3: The probability that a thunderstorm is within 5 miles of your house tomorrow is 3/10.\n\nWhich choice describes Events 1, 2 and 3, in that order?",
+   "a": "D. likely, neither likely nor unlikely, unlikely"
+  },
+  "after": {
+   "gen": 4,
+   "rt": "mc",
+   "q": "A probability is given for each event.\n\nEvent 1: The probability that the cafeteria serves pizza tomorrow is 0.65.\nEvent 2: The probability that a spinner with two equal sections, one red and one blue, lands on red is 50%.\nEvent 3: The probability that a randomly chosen student brought a reusable water bottle today is 3/10.\n\nWhich choice describes Events 1, 2 and 3, in that order?",
+   "a": "D. likely, neither likely nor unlikely, unlikely",
+   "opts": [
+    "likely, likely, unlikely",
+    "unlikely, neither likely nor unlikely, likely",
+    "likely, neither likely nor unlikely, likely",
+    "likely, neither likely nor unlikely, unlikely"
+   ],
+   "s": "0.65 is greater than 1/2, so Event 1 is likely.\n50% is exactly 1/2, so Event 2 is neither likely nor unlikely.\n3/10 = 0.3 is less than 1/2, so Event 3 is unlikely.",
+   "ft": ""
+  }
+ },
+ {
+  "slot": "MA.7.NSO.2.3/chk/4",
+  "why": "outside read: wording",
+  "kind": "replace",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 2,
+   "rt": "sa",
+   "q": "The temperature outside a cabin in January is 9.3°F. The temperature drops 3 1/2°F each hour.\n\nAfter how many whole hours will the temperature first be below −3°F?",
+   "a": "4 hours"
+  },
+  "after": {
+   "gen": 2,
+   "rt": "sa",
+   "q": "The temperature outside a cabin in January is 9.3°F and drops 3 1/2°F each hour. The temperature is recorded at the end of each whole hour.\n\nAt the end of which hour is the recorded temperature first below −3°F?",
+   "a": "4 hours",
+   "opts": [],
+   "s": "The temperature after h hours is 9.3 − h × 3 1/2.\nAfter 3 hours: 9.3 − 3 × 3.5 = −1.2°F, which is not below −3°F.\nAfter 4 hours: 9.3 − 4 × 3.5 = −4.7°F, which is below −3°F.\nSo the temperature is first below −3°F after 4 hours.",
+   "ft": ""
+  }
+ },
+ {
+  "slot": "MA.7.GR.1.4/chk/2",
+  "why": "outside read: wording",
+  "kind": "replace",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 4,
+   "rt": "sa",
+   "q": "A 24-inch pizza is cut into 9 equal slices. (The size of a pizza is its diameter.) A student eats 5 slices.\n\nHow many square inches of pizza did the student eat? Write your answer in terms of π.",
+   "a": "80π square inches"
+  },
+  "after": {
+   "gen": 4,
+   "rt": "sa",
+   "q": "A 24-inch pizza is cut into 9 equal slices. (The size of a pizza is its diameter.) A group of students shares the pizza and eats 5 slices in all.\n\nHow many square inches of pizza did the group eat? Write your answer in terms of π.",
+   "a": "80π square inches",
+   "opts": [],
+   "s": "The diameter is 24 inches, so the radius is 24 ÷ 2 = 12 inches and the whole pizza has area π(12)² = 144π square inches.\nThe student ate 5/9 of the pizza.\n5/9 × 144π = 80π square inches.",
+   "ft": ""
+  }
+ },
+ {
+  "slot": "MA.7.DP.1.3/chk/2",
+  "why": "outside read: wording",
+  "kind": "replace",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 0,
+   "rt": "sa",
+   "q": "A library has 1200 readers. Based on a random sample of 240 readers, it is predicted that about 480 of the 1200 readers borrow e-books.\n\nHow many readers in the sample said they borrow e-books?",
+   "a": "96 readers"
+  },
+  "after": {
+   "gen": 0,
+   "rt": "sa",
+   "q": "A public library has 1200 members. A random sample of 240 members is surveyed. Based on the sample, it is predicted that about 480 of the 1200 members borrow e-books.\n\nHow many members in the sample said they borrow e-books?",
+   "a": "96 readers",
+   "opts": [],
+   "s": "A prediction from a random sample uses the sample's proportion, so the sample had the same proportion as the prediction: 480 ÷ 1200 = 0.4 = 40%.\n40% of the sample of 240: 0.4 × 240 = 96 readers said they borrow e-books.",
+   "ft": ""
+  }
+ },
+ {
+  "slot": "MA.7.DP.1.3/re/2",
+  "why": "outside read: wording",
+  "kind": "replace",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 2,
+   "rt": "sa",
+   "q": "A factory checks a random sample of 400 seeds and finds that 80 of them sprouted.\n\nBased on this sample, about how many of 2500 seeds would be expected to sprout?",
+   "a": "about 500"
+  },
+  "after": {
+   "gen": 2,
+   "rt": "sa",
+   "q": "A plant nursery tests a random sample of 400 seeds from a shipment and finds that 80 of them sprouted.\n\nBased on this sample, about how many of the 2500 seeds in the shipment would be expected to sprout?",
+   "a": "about 500",
+   "opts": [],
+   "s": "The sample rate is 80/400 = 1/5, or 1 out of every 5.\n2500 ÷ 5 = 500.",
+   "ft": ""
+  }
+ },
+ {
+  "slot": "MA.7.GR.1.5/chk/1",
+  "why": "outside read: wording",
+  "kind": "replace",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 1,
+   "rt": "sa",
+   "q": "A photo is reduced by a scale factor of 1/8. A side that measures 72 inches in the original is scaled down.\n\nWhat is the length of the corresponding side in the reduction, in inches?",
+   "a": "9 inches"
+  },
+  "after": {
+   "gen": 1,
+   "rt": "sa",
+   "q": "A 72-inch-wide poster is reduced by a scale factor of 1/8 to make a smaller print.\n\nWhat is the width of the smaller print, in inches?",
+   "a": "9 inches",
+   "opts": [],
+   "s": "Multiply by the scale factor: 72 × 1/8 = 9 inches.",
+   "ft": ""
+  }
+ },
+ {
+  "slot": "MA.7.GR.1.5/chk/3",
+  "why": "outside read: wording",
+  "kind": "replace",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 4,
+   "rt": "sa",
+   "q": "A model of a building uses the scale 1 centimeter : 5 meters. On the model, a doorway is 1.5 centimeters long.\n\nHow long is the actual doorway, in meters?",
+   "a": "7.5 meters"
+  },
+  "after": {
+   "gen": 4,
+   "rt": "sa",
+   "q": "A model of a building uses the scale 1 centimeter : 5 meters. On the model, a wall is 1.5 centimeters long.\n\nHow long is the actual wall, in meters?",
+   "a": "7.5 meters",
+   "opts": [],
+   "s": "Every centimeter on the model stands for 5 meters, so multiply: 1.5 × 5 = 7.5 meters.",
+   "ft": ""
+  }
+ },
+ {
+  "slot": "MA.7.GR.1.5/chk/4",
+  "why": "outside read: wording",
+  "kind": "replace",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 3,
+   "rt": "sa",
+   "q": "On a blueprint, the rectangular front wall of a gymnasium measures 4.5 inches long and 5 inches tall. The actual wall is 22.5 feet long.\n\nWhat is the area of the actual wall, in square feet?",
+   "a": "562.5 square feet"
+  },
+  "after": {
+   "gen": 3,
+   "rt": "sa",
+   "q": "On a blueprint, the rectangular front wall of a two-story building measures 4.5 inches long and 5 inches tall. The actual wall is 22.5 feet long.\n\nWhat is the area of the actual wall, in square feet?",
+   "a": "562.5 square feet",
+   "opts": [],
+   "s": "Find the scale factor between the blueprint and the wall: 22.5 ÷ 4.5 = 5 feet for each inch.\nActual height: 5 × 5 = 25 feet.\nArea: 22.5 × 25 = 562.5 square feet.",
+   "ft": ""
+  }
+ },
+ {
+  "slot": "MA.7.AR.3.3/cmp/1",
+  "why": "outside read: wording",
+  "kind": "replace",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 2,
+   "rt": "sa",
+   "q": "1 hour = 60 minutes, and 1 mile ≈ 1.609 kilometers.\n\nA car travels at 48 miles per hour for 75 minutes. How many kilometers does it travel? Round to the nearest tenth.",
+   "a": "96.5 kilometers (96.6 also accepted if the factor was rounded to 1.61)"
+  },
+  "after": {
+   "gen": 2,
+   "rt": "sa",
+   "q": "1 hour = 60 minutes, and 1 mile ≈ 1.609 kilometers.\n\nA car travels at 48 miles per hour for 75 minutes. How many kilometers does it travel? Round only your final answer, to the nearest tenth.",
+   "a": "96.5 kilometers (96.6 also accepted if the factor was rounded to 1.61)",
+   "opts": [],
+   "s": "Convert minutes to hours: 75 ÷ 60 = 1.25 hours.\nDistance: 48 × 1.25 = 60 miles.\nMiles to kilometers: 60 × 1.609 ≈ 96.540, which rounds to 96.5 kilometers.",
+   "ft": ""
+  }
+ },
+ {
+  "slot": "MA.7.DP.1.5/re/0",
+  "why": "outside read: wording",
+  "kind": "replace",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 0,
+   "rt": "mc",
+   "q": "A class surveyed 260 students about the way they get to school.\nBus: 52\nCar: 39\nWalk: 104\nBike: 26\nTrain: 39\n\nThe class wants a display that answers this question at a glance: how many more students chose Bus than chose Train? Which display is the most appropriate?",
+   "a": "D. a bar chart"
+  },
+  "after": {
+   "gen": 0,
+   "rt": "mc",
+   "q": "A class surveyed 260 students about the way they get to school.\nBus: 52\nCar (one family): 39\nWalk: 104\nBike: 26\nCarpool (several families): 39\n\nThe class wants a display that answers this question at a glance: how many more students chose Bus than chose Carpool? Which display is the most appropriate?",
+   "a": "D. a bar chart",
+   "opts": [
+    "a histogram",
+    "a circle graph",
+    "a box plot",
+    "a bar chart"
+   ],
+   "s": "The question compares two counts. A bar chart shows one bar for each category, with heights read on a scale, so the two counts and their difference can be read.\nA circle graph shows shares of the whole, not the counts; a box plot and a histogram are for numerical data.",
+   "ft": ""
+  }
+ },
+ {
+  "slot": "MA.7.DP.1.5/cmp/0",
+  "why": "outside read: wording",
+  "kind": "replace",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 0,
+   "rt": "mc",
+   "q": "A class surveyed 200 students about the way they get to school.\nBus: 60\nCar: 20\nWalk: 40\nBike: 50\nTrain: 30\n\nThe class wants a display that answers this question at a glance: how many more students chose Bus than chose Car? Which display is the most appropriate?",
+   "a": "B. a bar chart"
+  },
+  "after": {
+   "gen": 0,
+   "rt": "mc",
+   "q": "A class surveyed 200 students about the way they get to school.\nBus: 60\nCar (one family): 20\nWalk: 40\nBike: 50\nCarpool (several families): 30\n\nThe class wants a display that answers this question at a glance: how many more students chose Bus than chose Car? Which display is the most appropriate?",
+   "a": "B. a bar chart",
+   "opts": [
+    "a box plot",
+    "a bar chart",
+    "a circle graph",
+    "a histogram"
+   ],
+   "s": "The question compares two counts. A bar chart shows one bar for each category, with heights read on a scale, so the two counts and their difference can be read.\nA circle graph shows shares of the whole, not the counts; a box plot and a histogram are for numerical data.",
+   "ft": ""
+  }
+ },
+ {
+  "slot": "MA.7.DP.1.2/chk/1",
+  "why": "outside read: wording",
+  "kind": "replace",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 4,
+   "rt": "mc",
+   "q": "The box plots show the heights, in centimeters, of the sunflowers grown in two gardens. The two gardens have the same number of sunflowers.\n\nA sunflower from one of the two gardens is 132 centimeters tall. Which garden did the sunflower more likely come from, and why?",
+   "a": "A. Garden A, because 132 is in the middle half for Garden A but in the top fourth for Garden B"
+  },
+  "after": {
+   "gen": 4,
+   "rt": "mc",
+   "q": "The box plots show the heights, in centimeters, of the sunflowers grown in two gardens.\n\nWhere does a height of 132 centimeters fall in each garden’s box plot?",
+   "a": "A. In the middle 50% for Garden A and in the highest 25% for Garden B.",
+   "opts": [
+    "In the middle 50% for Garden A and in the highest 25% for Garden B.",
+    "In the highest 25% for Garden A and in the middle 50% for Garden B.",
+    "In the lowest 25% for Garden A and in the middle 50% for Garden B.",
+    "In the middle 50% for both gardens."
+   ],
+   "s": "Garden A: the box runs from 130 to 145, so 132 is in the middle 50% of its values.\nGarden B: the upper quartile is 120, so 132 is above it, in the highest 25% of its values.",
+   "ft": "two box plots on an axis from 95 to 155: Garden A from 125 to 150 with quartiles 130, 135, 145; Garden B from 100 to 135 with quartiles 110, 115, 120"
+  }
+ },
+ {
+  "slot": "MA.7.DP.1.2/re/1",
+  "why": "outside read: wording",
+  "kind": "replace",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 4,
+   "rt": "mc",
+   "q": "The box plots show the numbers of books read over the summer by the students in two classes. The two classes have the same number of students.\n\nA student from one of the two classes read 42 books over the summer. Which class is the student more likely in, and why?",
+   "a": "A. Class A, because 42 is in the middle half for Class A but in the top fourth for Class B"
+  },
+  "after": {
+   "gen": 4,
+   "rt": "mc",
+   "q": "The box plots show the numbers of books read over the summer by the students in two classes.\n\nA student read 42 books over the summer. Where does 42 books fall in each class’s box plot?",
+   "a": "A. In the middle 50% for Class A and in the highest 25% for Class B.",
+   "opts": [
+    "In the middle 50% for Class A and in the highest 25% for Class B.",
+    "In the highest 25% for Class A and in the middle 50% for Class B.",
+    "In the lowest 25% for Class A and in the middle 50% for Class B.",
+    "In the middle 50% for both classes."
+   ],
+   "s": "Class A: the box runs from 35 to 50, so 42 is in the middle 50% of its values.\nClass B: the upper quartile is 25, so 42 is above it, in the highest 25% of its values.",
+   "ft": "two box plots on an axis from 0 to 60: Class A from 30 to 55 with quartiles 35, 45, 50; Class B from 10 to 45 with quartiles 15, 20, 25"
+  }
+ },
+ {
+  "slot": "MA.7.DP.1.2/cmp/1",
+  "why": "outside read: wording",
+  "kind": "replace",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 4,
+   "rt": "mc",
+   "q": "The box plots show the heights, in centimeters, of the sunflowers grown in two gardens. The two gardens have the same number of sunflowers.\n\nA sunflower from one of the two gardens is 139 centimeters tall. Which garden did the sunflower more likely come from, and why?",
+   "a": "C. Garden B, because 139 is in the middle half for Garden B but in the top fourth for Garden A"
+  },
+  "after": {
+   "gen": 4,
+   "rt": "mc",
+   "q": "The box plots show the heights, in centimeters, of the sunflowers grown in two gardens.\n\nWhere does a height of 139 centimeters fall in each garden’s box plot?",
+   "a": "C. In the highest 25% for Garden A and in the middle 50% for Garden B.",
+   "opts": [
+    "In the middle 50% for Garden A and in the highest 25% for Garden B.",
+    "In the middle 50% for both gardens.",
+    "In the highest 25% for Garden A and in the middle 50% for Garden B.",
+    "In the lowest 25% for Garden A and in the middle 50% for Garden B."
+   ],
+   "s": "Garden B: the box runs from 130 to 145, so 139 is in the middle 50% of its values.\nGarden A: the upper quartile is 125, so 139 is above it, in the highest 25% of its values.",
+   "ft": "two box plots on an axis from 100 to 155: Garden A from 105 to 140 with quartiles 115, 120, 125; Garden B from 125 to 150 with quartiles 130, 140, 145"
+  }
+ },
+ {
+  "slot": "MA.7.AR.2.2/chk/0",
+  "why": "outside read: wording",
+  "kind": "replace",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 3,
+   "rt": "mc",
+   "q": "A park charges a $25.00 entry fee plus $12.50 for each hour of skate rental. A visitor paid $62.50 in all.\n\nWhich choice shows an equation that can be used to find h, the number of hours of skate rental the visitor paid for, and its solution?",
+   "a": "D. 12.5h + 25 = 62.5; h = 3"
+  },
+  "after": {
+   "gen": 3,
+   "rt": "mc",
+   "q": "An indoor skating rink charges a $25.00 admission fee plus $12.50 for each hour of skate rental. A visitor paid $62.50 in all.\n\nWhich choice shows an equation that can be used to find h, the number of hours of skate rental the visitor paid for, and its solution?",
+   "a": "D. 12.5h + 25 = 62.5; h = 3",
+   "opts": [
+    "12.5h − 25 = 62.5; h = 7",
+    "25h + 12.5 = 62.5; h = 2",
+    "12.5h + 25 = 62.5; h = 7",
+    "12.5h + 25 = 62.5; h = 3"
+   ],
+   "s": "Total = entry fee + $12.50 for each hour: 12.5h + 25 = 62.5.\nSubtract 25: 12.5h = 37.5. Divide by 12.5: h = 3.\nCheck: 12.5 × 3 + 25 = 62.5.\nh = 7 adds 25 instead of subtracting it; 25h + 12.5 swaps the hourly rate and the entry fee.",
+   "ft": ""
+  }
+ },
+ {
+  "slot": "MA.7.AR.2.2/cmp/0",
+  "why": "outside read: wording",
+  "kind": "replace",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 3,
+   "rt": "mc",
+   "q": "A park charges a $15.00 entry fee plus $3.75 for each game. A visitor paid $33.75 in all.\n\nWhich choice shows an equation that can be used to find g, the number of games the visitor paid for, and its solution?",
+   "a": "A. 3.75g + 15 = 33.75; g = 5"
+  },
+  "after": {
+   "gen": 3,
+   "rt": "mc",
+   "q": "An amusement center charges a $15.00 admission fee plus $3.75 for each game. A visitor paid $33.75 in all.\n\nWhich choice shows an equation that can be used to find g, the number of games the visitor paid for, and its solution?",
+   "a": "A. 3.75g + 15 = 33.75; g = 5",
+   "opts": [
+    "3.75g + 15 = 33.75; g = 5",
+    "15g + 3.75 = 33.75; g = 2",
+    "3.75g + 15 = 33.75; g = 13",
+    "3.75g − 15 = 33.75; g = 13"
+   ],
+   "s": "Total = entry fee + $3.75 for each game: 3.75g + 15 = 33.75.\nSubtract 15: 3.75g = 18.75. Divide by 3.75: g = 5.\nCheck: 3.75 × 5 + 15 = 33.75.\ng = 13 adds the 15 instead of subtracting it; 15g + 3.75 swaps the price per game and the entry fee.",
+   "ft": ""
+  }
+ },
+ {
+  "slot": "MA.7.AR.4.1/re/2",
+  "why": "outside read: wording",
+  "kind": "replace",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 1,
+   "rt": "mc",
+   "q": "A stand charges 15 dollars plus 12 dollars for each pound of apples.\n\nIs the relationship between the pounds of apples and the total dollars proportional?",
+   "a": "C. No, because there is a charge of 15 dollars before the first pound of apples."
+  },
+  "after": {
+   "gen": 1,
+   "rt": "mc",
+   "q": "A candy shop charges a $15.00 gift-packaging fee plus $12.00 for each pound of candy.\n\nIs the relationship between the pounds of candy and the total cost proportional?",
+   "a": "C. No, because the total cost includes a fixed $15.00 fee that does not depend on the pounds of candy.",
+   "opts": [
+    "Yes, because the price added for each pound is always the same.",
+    "No, because dollars and pounds are measured in different units.",
+    "No, because the total cost includes a fixed $15.00 fee that does not depend on the pounds of candy.",
+    "Yes, because there is no fixed charge, only $12.00 for each pound."
+   ],
+   "s": "A proportional relationship has a constant ratio of total cost to pounds, which means a cost of $0 for 0 pounds.\nThe $15.00 fee is charged before the first pound, so 0 pounds costs $15.00, and the ratio changes: $27 for 1 pound, $39 for 2 pounds. Not proportional.",
    "ft": ""
   }
  }

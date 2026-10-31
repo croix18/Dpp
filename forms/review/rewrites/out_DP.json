@@ -543,7 +543,7 @@
   "q": "The line plots show the numbers of goals two soccer teams scored in their games. A fan claims that the Hawks typically score about 2 more goals per game than the Sharks.\n\nUse the medians and the interquartile ranges. Is the fan's claim reasonable?",
   "opts": [
    "Yes, because the Hawks' greatest number of goals, 7, is 2 more than the Sharks' greatest, 5.",
-   "No, because the medians are 4.5 and 4, a difference of only 0.5 goal, and the two sets of scores overlap over most of their interquartile ranges.",
+   "No, because the medians are 4.5 and 4 goals, a difference of only 0.5 goal, and the interquartile ranges overlap.",
    "Yes, because the Hawks' median is greater than the Sharks' median.",
    "No, because the Sharks played more games, so their data count for more."
   ],

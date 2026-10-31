@@ -2605,7 +2605,7 @@
   "why": "review fix 15",
   "rewrite": true,
   "set": {
-   "q": "In a proportional relationship, 64.05 cups of water are used in 7 minutes. Let x be the number of minutes and let y be the number of cups of water.\n\nWhat is the constant of proportionality, k, in y = kx?",
+   "q": "An irrigation system releases 64.05 cups of water in 7 minutes at a constant rate. Let x be the number of minutes and let y be the number of cups of water released.\n\nWhat is the constant of proportionality, k, in y = kx?",
    "s": "In y = kx, the constant of proportionality is y ÷ x: cups divided by minutes.\n64.05 ÷ 7 = 9.15 cups per minute.\nx ÷ y (7 ÷ 64.05 ≈ 0.11) would be minutes per cup, the constant for x = ky.",
    "inst": null,
    "rows": null,
@@ -2629,7 +2629,7 @@
   "why": "review fix 15",
   "rewrite": true,
   "set": {
-   "q": "In a proportional relationship, 12.5 liters of paint cover 4 walls. Let x be the number of liters of paint and let y be the number of walls.\n\nWhat is the constant of proportionality, k, in y = kx?",
+   "q": "In a proportional relationship, 12.5 liters of paint cover 4 identical walls. Let x be the number of liters of paint and let y be the number of walls.\n\nWhat is the constant of proportionality, k, in y = kx?",
    "s": "In y = kx, the constant of proportionality is y ÷ x: walls divided by liters.\n4 ÷ 12.5 = 0.32 walls per liter.\n12.5 ÷ 4 = 3.125 is liters per wall, which would be the constant if x were walls and y were liters.",
    "inst": null,
    "rows": null,
@@ -3223,12 +3223,12 @@
    "rt": "mc",
    "opts": [
     "Yes, because the Hawks' greatest number of goals, 7, is 2 more than the Sharks' greatest, 5.",
-    "No, because the medians are 4.5 and 4, a difference of only 0.5 goal, and the two sets of scores overlap over most of their interquartile ranges.",
+    "No, because the medians are 4.5 and 4 goals, a difference of only 0.5 goal, and the interquartile ranges overlap.",
     "Yes, because the Hawks' median is greater than the Sharks' median.",
     "No, because the Sharks played more games, so their data count for more."
    ],
    "key": 1,
-   "a": "B. No, because the medians are 4.5 and 4, a difference of only 0.5 goal, and the two sets of scores overlap over most of their interquartile ranges."
+   "a": "B. No, because the medians are 4.5 and 4 goals, a difference of only 0.5 goal, and the interquartile ranges overlap."
   },
   "rotate": 0
  },
@@ -4412,7 +4412,7 @@
   "why": "review fix 2",
   "rewrite": true,
   "set": {
-   "q": "A recipe needs 2/3 cup of sugar. The only scoop in the kitchen holds 0.3 cup. Mia needs to know how many scoops to use.\n\nWhich statement is correct?",
+   "q": "A recipe needs 2/3 cup of sugar. Mia has a scoop that holds 0.3 cup when it is full, and she can use part of a scoop. She needs to know how many scoops to use.\n\nWhich statement is correct?",
    "s": "0.3 is a terminating decimal, so write it as the fraction 3/10. 2/3 is a repeating decimal (0.<span class=\"rep\">6</span>), so keep it as a fraction.\n2/3 ÷ 3/10 = 2/3 × 10/3 = 20/9 = 2 2/9.\nMia needs 2 2/9 scoops, a little more than 2 scoops. Rounding 2/3 to 0.66 gives 2.2, which is close but not exact.",
    "inst": null,
    "rows": null,
@@ -4684,5 +4684,167 @@
    "a": "C. −1 1/4"
   },
   "rotate": 2
+ },
+ {
+  "slot": "MA.7.DP.2.2/chk/3",
+  "why": "outside read: wording",
+  "set": {
+   "q": "A probability is given for each event.\n\nEvent 1: The chance that your ticket wins when you hold 1 of 50 equally likely raffle tickets is 2%.\nEvent 2: The probability that a spinner with two equal sections, one red and one blue, lands on red is 1/2.\nEvent 3: The probability that it rains tomorrow is 0.6.\n\nWhich choice describes Events 1, 2 and 3, in that order?"
+  }
+ },
+ {
+  "slot": "MA.7.DP.2.2/re/2",
+  "why": "outside read: wording",
+  "set": {
+   "q": "A probability is given for each event.\n\nEvent 1: The probability that the cafeteria serves pizza tomorrow is 0.65.\nEvent 2: The probability that a spinner with two equal sections, one red and one blue, lands on red is 50%.\nEvent 3: The probability that a randomly chosen student brought a reusable water bottle today is 3/10.\n\nWhich choice describes Events 1, 2 and 3, in that order?"
+  }
+ },
+ {
+  "slot": "MA.7.NSO.2.3/chk/4",
+  "why": "outside read: wording",
+  "set": {
+   "q": "The temperature outside a cabin in January is 9.3°F and drops 3 1/2°F each hour. The temperature is recorded at the end of each whole hour.\n\nAt the end of which hour is the recorded temperature first below −3°F?"
+  }
+ },
+ {
+  "slot": "MA.7.GR.1.4/chk/2",
+  "why": "outside read: wording",
+  "set": {
+   "q": "A 24-inch pizza is cut into 9 equal slices. (The size of a pizza is its diameter.) A group of students shares the pizza and eats 5 slices in all.\n\nHow many square inches of pizza did the group eat? Write your answer in terms of π."
+  }
+ },
+ {
+  "slot": "MA.7.DP.1.3/chk/2",
+  "why": "outside read: wording",
+  "set": {
+   "q": "A public library has 1200 members. A random sample of 240 members is surveyed. Based on the sample, it is predicted that about 480 of the 1200 members borrow e-books.\n\nHow many members in the sample said they borrow e-books?"
+  }
+ },
+ {
+  "slot": "MA.7.DP.1.3/re/2",
+  "why": "outside read: wording",
+  "set": {
+   "q": "A plant nursery tests a random sample of 400 seeds from a shipment and finds that 80 of them sprouted.\n\nBased on this sample, about how many of the 2500 seeds in the shipment would be expected to sprout?"
+  }
+ },
+ {
+  "slot": "MA.7.GR.1.5/chk/1",
+  "why": "outside read: wording",
+  "set": {
+   "q": "A 72-inch-wide poster is reduced by a scale factor of 1/8 to make a smaller print.\n\nWhat is the width of the smaller print, in inches?"
+  }
+ },
+ {
+  "slot": "MA.7.GR.1.5/chk/3",
+  "why": "outside read: wording",
+  "set": {
+   "q": "A model of a building uses the scale 1 centimeter : 5 meters. On the model, a wall is 1.5 centimeters long.\n\nHow long is the actual wall, in meters?"
+  }
+ },
+ {
+  "slot": "MA.7.GR.1.5/chk/4",
+  "why": "outside read: wording",
+  "set": {
+   "q": "On a blueprint, the rectangular front wall of a two-story building measures 4.5 inches long and 5 inches tall. The actual wall is 22.5 feet long.\n\nWhat is the area of the actual wall, in square feet?"
+  }
+ },
+ {
+  "slot": "MA.7.AR.3.3/cmp/1",
+  "why": "outside read: wording",
+  "set": {
+   "q": "1 hour = 60 minutes, and 1 mile ≈ 1.609 kilometers.\n\nA car travels at 48 miles per hour for 75 minutes. How many kilometers does it travel? Round only your final answer, to the nearest tenth."
+  }
+ },
+ {
+  "slot": "MA.7.DP.1.5/re/0",
+  "why": "outside read: wording",
+  "set": {
+   "q": "A class surveyed 260 students about the way they get to school.\nBus: 52\nCar (one family): 39\nWalk: 104\nBike: 26\nCarpool (several families): 39\n\nThe class wants a display that answers this question at a glance: how many more students chose Bus than chose Carpool? Which display is the most appropriate?"
+  }
+ },
+ {
+  "slot": "MA.7.DP.1.5/cmp/0",
+  "why": "outside read: wording",
+  "set": {
+   "q": "A class surveyed 200 students about the way they get to school.\nBus: 60\nCar (one family): 20\nWalk: 40\nBike: 50\nCarpool (several families): 30\n\nThe class wants a display that answers this question at a glance: how many more students chose Bus than chose Car? Which display is the most appropriate?"
+  }
+ },
+ {
+  "slot": "MA.7.DP.1.2/chk/1",
+  "why": "outside read: wording",
+  "set": {
+   "q": "The box plots show the heights, in centimeters, of the sunflowers grown in two gardens.\n\nWhere does a height of 132 centimeters fall in each garden’s box plot?",
+   "opts": [
+    "In the middle 50% for Garden A and in the highest 25% for Garden B.",
+    "In the highest 25% for Garden A and in the middle 50% for Garden B.",
+    "In the lowest 25% for Garden A and in the middle 50% for Garden B.",
+    "In the middle 50% for both gardens."
+   ],
+   "key": 0,
+   "a": "A. In the middle 50% for Garden A and in the highest 25% for Garden B.",
+   "s": "Garden A: the box runs from 130 to 145, so 132 is in the middle 50% of its values.\nGarden B: the upper quartile is 120, so 132 is above it, in the highest 25% of its values."
+  }
+ },
+ {
+  "slot": "MA.7.DP.1.2/re/1",
+  "why": "outside read: wording",
+  "set": {
+   "q": "The box plots show the numbers of books read over the summer by the students in two classes.\n\nA student read 42 books over the summer. Where does 42 books fall in each class’s box plot?",
+   "opts": [
+    "In the middle 50% for Class A and in the highest 25% for Class B.",
+    "In the highest 25% for Class A and in the middle 50% for Class B.",
+    "In the lowest 25% for Class A and in the middle 50% for Class B.",
+    "In the middle 50% for both classes."
+   ],
+   "key": 0,
+   "a": "A. In the middle 50% for Class A and in the highest 25% for Class B.",
+   "s": "Class A: the box runs from 35 to 50, so 42 is in the middle 50% of its values.\nClass B: the upper quartile is 25, so 42 is above it, in the highest 25% of its values."
+  }
+ },
+ {
+  "slot": "MA.7.DP.1.2/cmp/1",
+  "why": "outside read: wording",
+  "set": {
+   "q": "The box plots show the heights, in centimeters, of the sunflowers grown in two gardens.\n\nWhere does a height of 139 centimeters fall in each garden’s box plot?",
+   "opts": [
+    "In the middle 50% for Garden A and in the highest 25% for Garden B.",
+    "In the middle 50% for both gardens.",
+    "In the highest 25% for Garden A and in the middle 50% for Garden B.",
+    "In the lowest 25% for Garden A and in the middle 50% for Garden B."
+   ],
+   "key": 2,
+   "a": "C. In the highest 25% for Garden A and in the middle 50% for Garden B.",
+   "s": "Garden B: the box runs from 130 to 145, so 139 is in the middle 50% of its values.\nGarden A: the upper quartile is 125, so 139 is above it, in the highest 25% of its values."
+  }
+ },
+ {
+  "slot": "MA.7.AR.2.2/chk/0",
+  "why": "outside read: wording",
+  "set": {
+   "q": "An indoor skating rink charges a $25.00 admission fee plus $12.50 for each hour of skate rental. A visitor paid $62.50 in all.\n\nWhich choice shows an equation that can be used to find h, the number of hours of skate rental the visitor paid for, and its solution?"
+  }
+ },
+ {
+  "slot": "MA.7.AR.2.2/cmp/0",
+  "why": "outside read: wording",
+  "set": {
+   "q": "An amusement center charges a $15.00 admission fee plus $3.75 for each game. A visitor paid $33.75 in all.\n\nWhich choice shows an equation that can be used to find g, the number of games the visitor paid for, and its solution?"
+  }
+ },
+ {
+  "slot": "MA.7.AR.4.1/re/2",
+  "why": "outside read: wording",
+  "set": {
+   "q": "A candy shop charges a $15.00 gift-packaging fee plus $12.00 for each pound of candy.\n\nIs the relationship between the pounds of candy and the total cost proportional?",
+   "opts": [
+    "Yes, because the price added for each pound is always the same.",
+    "No, because dollars and pounds are measured in different units.",
+    "No, because the total cost includes a fixed $15.00 fee that does not depend on the pounds of candy.",
+    "Yes, because there is no fixed charge, only $12.00 for each pound."
+   ],
+   "key": 2,
+   "a": "C. No, because the total cost includes a fixed $15.00 fee that does not depend on the pounds of candy.",
+   "s": "A proportional relationship has a constant ratio of total cost to pounds, which means a cost of $0 for 0 pounds.\nThe $15.00 fee is charged before the first pound, so 0 pounds costs $15.00, and the ratio changes: $27 for 1 pound, $39 for 2 pounds. Not proportional."
+  }
  }
 ]

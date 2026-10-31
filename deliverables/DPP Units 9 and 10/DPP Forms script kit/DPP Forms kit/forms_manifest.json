@@ -3699,7 +3699,7 @@
       "B"
      ],
      "right": "Correct. B. 16x + 16\n\nThe student multiplied only 12x by 4/3, which gives 16x + 12, and then added 16x and 12 as if they were like terms.\nBoth terms must be multiplied by 4/3: 4/3 × 12x = 16x and 4/3 × 12 = 16.\n(4/3)(12x + 12) = 16x + 16.",
-     "wrong": "Answer: B. 16x + 16\n\nThe student multiplied only 12x by 4/3, which gives 16x + 12, and then added 16x and 12 as if they were like terms.\nBoth terms must be multiplied by 4/3: 4/3 × 12x = 16x and 4/3 × 12 = 16.\n(4/3)(12x + 12) = 16x + 16.\n\nCommon mistakes:\n• Choice A: divided by 4/3 instead of multiplying\n• Choice B: added 4/3 to each term instead of multiplying\n• Choice D: multiplied only the first term by 4/3"
+     "wrong": "Answer: B. 16x + 16\n\nThe student multiplied only 12x by 4/3, which gives 16x + 12, and then added 16x and 12 as if they were like terms.\nBoth terms must be multiplied by 4/3: 4/3 × 12x = 16x and 4/3 × 12 = 16.\n(4/3)(12x + 12) = 16x + 16.\n\nCommon mistakes:\n• Choice A: added 4/3 to each term instead of multiplying\n• Choice C: multiplied only the first term by 4/3\n• Choice D: divided by 4/3 instead of multiplying"
     },
     {
      "n": 3,
@@ -3715,7 +3715,7 @@
       "B"
      ],
      "right": "Correct. B. Yes, because both of them simplify to 2x + 15.\n\nDistribute and combine: 3.5(2x + 4) = 7x + 14, then − 5x + 1 gives 2x + 15.\nThe second expression is also 2x + 15, so they are equivalent.\nThe 3.5 multiplies both terms in the parentheses, and −5x is subtracted, not added.",
-     "wrong": "Answer: B. Yes, because both of them simplify to 2x + 15.\n\nDistribute and combine: 3.5(2x + 4) = 7x + 14, then − 5x + 1 gives 2x + 15.\nThe second expression is also 2x + 15, so they are equivalent.\nThe 3.5 multiplies both terms in the parentheses, and −5x is subtracted, not added.\n\nCommon mistakes:\n• Choice A: judged by the form of the expressions instead of simplifying\n• Choice B: added 5x instead of subtracting it\n• Choice D: multiplied only the first term by 3.5"
+     "wrong": "Answer: B. Yes, because both of them simplify to 2x + 15.\n\nDistribute and combine: 3.5(2x + 4) = 7x + 14, then − 5x + 1 gives 2x + 15.\nThe second expression is also 2x + 15, so they are equivalent.\nThe 3.5 multiplies both terms in the parentheses, and −5x is subtracted, not added.\n\nCommon mistakes:\n• Choice A: added 5x instead of subtracting it\n• Choice C: multiplied only the first term by 3.5\n• Choice D: judged by the form of the expressions instead of simplifying"
     },
     {
      "n": 4,
@@ -3793,7 +3793,7 @@
       "B"
      ],
      "right": "Correct. B. 15x − 10\n\nDistribute 2.5 to both terms inside the parentheses.\n2.5 × 6x = 15x and 2.5 × (−4) = −10.\nThe expression is 15x − 10.",
-     "wrong": "Answer: B. 15x − 10\n\nDistribute 2.5 to both terms inside the parentheses.\n2.5 × 6x = 15x and 2.5 × (−4) = −10.\nThe expression is 15x − 10.\n\nCommon mistakes:\n• Choice A: added 2.5 to each term instead of multiplying\n• Choice B: multiplied only the first term by 2.5\n• Choice D: combined 15x and −4 as if they were like terms"
+     "wrong": "Answer: B. 15x − 10\n\nDistribute 2.5 to both terms inside the parentheses.\n2.5 × 6x = 15x and 2.5 × (−4) = −10.\nThe expression is 15x − 10.\n\nCommon mistakes:\n• Choice A: multiplied only the first term by 2.5\n• Choice C: combined 15x and −4 as if they were like terms\n• Choice D: added 2.5 to each term instead of multiplying"
     },
     {
      "n": 3,
@@ -3841,7 +3841,7 @@
       "D"
      ],
      "right": "Correct. D. 6x − 10\n\nDistribute 2/3 to both terms inside the parentheses.\n2/3 × 9x = 6x and 2/3 × (−15) = −10.\nThe expression is 6x − 10.",
-     "wrong": "Answer: D. 6x − 10\n\nDistribute 2/3 to both terms inside the parentheses.\n2/3 × 9x = 6x and 2/3 × (−15) = −10.\nThe expression is 6x − 10.\n\nCommon mistakes:\n• Choice A: multiplied only the first term by 2/3\n• Choice B: combined 6x and −10 as if they were like terms\n• Choice D: dropped the minus sign when multiplying 2/3 × (−15)"
+     "wrong": "Answer: D. 6x − 10\n\nDistribute 2/3 to both terms inside the parentheses.\n2/3 × 9x = 6x and 2/3 × (−15) = −10.\nThe expression is 6x − 10.\n\nCommon mistakes:\n• Choice A: dropped the minus sign when multiplying 2/3 × (−15)\n• Choice B: multiplied only the first term by 2/3\n• Choice C: combined 6x and −10 as if they were like terms"
     },
     {
      "n": 2,
@@ -3857,7 +3857,7 @@
       "B"
      ],
      "right": "Correct. B. 21x + 7\n\nThe student multiplied only 12x by 7/4, which gives 21x + 4, and then added 21x and 4 as if they were like terms.\nBoth terms must be multiplied by 7/4: 7/4 × 12x = 21x and 7/4 × 4 = 7.\n(7/4)(12x + 4) = 21x + 7.",
-     "wrong": "Answer: B. 21x + 7\n\nThe student multiplied only 12x by 7/4, which gives 21x + 4, and then added 21x and 4 as if they were like terms.\nBoth terms must be multiplied by 7/4: 7/4 × 12x = 21x and 7/4 × 4 = 7.\n(7/4)(12x + 4) = 21x + 7.\n\nCommon mistakes:\n• Choice B: added 7/4 to each term instead of multiplying\n• Choice C: multiplied only the first term by 7/4\n• Choice D: divided by 7/4 instead of multiplying"
+     "wrong": "Answer: B. 21x + 7\n\nThe student multiplied only 12x by 7/4, which gives 21x + 4, and then added 21x and 4 as if they were like terms.\nBoth terms must be multiplied by 7/4: 7/4 × 12x = 21x and 7/4 × 4 = 7.\n(7/4)(12x + 4) = 21x + 7.\n\nCommon mistakes:\n• Choice A: divided by 7/4 instead of multiplying\n• Choice C: added 7/4 to each term instead of multiplying\n• Choice D: multiplied only the first term by 7/4"
     }
    ]
   },
@@ -3997,7 +3997,7 @@
       "C"
      ],
      "right": "Correct. C. Closed circle at −3, shaded right\n\nDivide both sides by 0.4: c ≥ −1.2 ÷ 0.4, so c ≥ −3.\nDividing by a positive number does not reverse the symbol, even though the other side is negative.\n−3 is included (≥), so the circle is closed and the shading goes to the right. Check: c = 0 gives 0 ≥ −1.2, true.",
-     "wrong": "Answer: C. Closed circle at −3, shaded right\n\nDivide both sides by 0.4: c ≥ −1.2 ÷ 0.4, so c ≥ −3.\nDividing by a positive number does not reverse the symbol, even though the other side is negative.\n−3 is included (≥), so the circle is closed and the shading goes to the right. Check: c = 0 gives 0 ≥ −1.2, true.\n\nCommon mistakes:\n• Choice B: reversed the symbol because a negative number appeared, even though the divisor 0.4 is positive\n• Choice C: dropped the sign of −1.2 when dividing\n• Choice D: used an open circle for ≥"
+     "wrong": "Answer: C. Closed circle at −3, shaded right\n\nDivide both sides by 0.4: c ≥ −1.2 ÷ 0.4, so c ≥ −3.\nDividing by a positive number does not reverse the symbol, even though the other side is negative.\n−3 is included (≥), so the circle is closed and the shading goes to the right. Check: c = 0 gives 0 ≥ −1.2, true.\n\nCommon mistakes:\n• Choice A: dropped the sign of −1.2 when dividing\n• Choice B: used an open circle for ≥\n• Choice D: reversed the symbol because a negative number appeared, even though the divisor 0.4 is positive"
     },
     {
      "n": 3,
@@ -4201,7 +4201,7 @@
       "A"
      ],
      "right": "Correct. A. 3(x − 8) = 3; x = 9\n\n\"Decreased by 8\" is (x − 8). Multiplying that result by 3 gives 3(x − 8), and that equals 3: 3(x − 8) = 3.\nDivide by 3: x − 8 = 1. Add 8: x = 9.\nCheck: 9 − 8 = 1, and 1 × 3 = 3.",
-     "wrong": "Answer: A. 3(x − 8) = 3; x = 9\n\n\"Decreased by 8\" is (x − 8). Multiplying that result by 3 gives 3(x − 8), and that equals 3: 3(x − 8) = 3.\nDivide by 3: x − 8 = 1. Add 8: x = 9.\nCheck: 9 − 8 = 1, and 1 × 3 = 3.\n\nCommon mistakes:\n• Choice A: multiplied only x by 3 instead of the whole result (x − 8)\n• Choice B: increased by 8 instead of decreasing\n• Choice C: distributed the 3 on the left but also multiplied the 3 on the right"
+     "wrong": "Answer: A. 3(x − 8) = 3; x = 9\n\n\"Decreased by 8\" is (x − 8). Multiplying that result by 3 gives 3(x − 8), and that equals 3: 3(x − 8) = 3.\nDivide by 3: x − 8 = 1. Add 8: x = 9.\nCheck: 9 − 8 = 1, and 1 × 3 = 3.\n\nCommon mistakes:\n• Choice B: multiplied only x by 3 instead of the whole result (x − 8)\n• Choice C: increased by 8 instead of decreasing\n• Choice D: distributed the 3 on the left but also multiplied the 3 on the right"
     }
    ]
   },
@@ -4772,8 +4772,8 @@
      "correct": [
       "C"
      ],
-     "right": "Correct. C. No, because there is a charge of 15 dollars before the first pound of apples.\n\nA proportional relationship must pass through (0, 0) and have a constant ratio.\nThe starting charge of 15 means 0 pounds of apples already gives 15 dollars, so it is not proportional.",
-     "wrong": "Answer: C. No, because there is a charge of 15 dollars before the first pound of apples.\n\nA proportional relationship must pass through (0, 0) and have a constant ratio.\nThe starting charge of 15 means 0 pounds of apples already gives 15 dollars, so it is not proportional."
+     "right": "Correct. C. No, because the total cost includes a fixed $15.00 fee that does not depend on the pounds of candy.\n\nA proportional relationship has a constant ratio of total cost to pounds, which means a cost of $0 for 0 pounds.\nThe $15.00 fee is charged before the first pound, so 0 pounds costs $15.00, and the ratio changes: $27 for 1 pound, $39 for 2 pounds. Not proportional.",
+     "wrong": "Answer: C. No, because the total cost includes a fixed $15.00 fee that does not depend on the pounds of candy.\n\nA proportional relationship has a constant ratio of total cost to pounds, which means a cost of $0 for 0 pounds.\nThe $15.00 fee is charged before the first pound, so 0 pounds costs $15.00, and the ratio changes: $27 for 1 pound, $39 for 2 pounds. Not proportional."
     }
    ]
   },
@@ -5746,8 +5746,8 @@
      "correct": [
       "A"
      ],
-     "right": "Correct. A. Garden A, because 132 is in the middle half for Garden A but in the top fourth for Garden B\n\nGarden A: the box runs from 130 to 145, so 132 is among the middle half of its values.\nGarden B: the upper quartile is 120, so only about one-fourth of its values are greater than 120, and they are spread out from 120 to 135.\nThe gardens are the same size, and far more values of Garden A lie near 132, so the sunflower is more likely from Garden A.",
-     "wrong": "Answer: A. Garden A, because 132 is in the middle half for Garden A but in the top fourth for Garden B\n\nGarden A: the box runs from 130 to 145, so 132 is among the middle half of its values.\nGarden B: the upper quartile is 120, so only about one-fourth of its values are greater than 120, and they are spread out from 120 to 135.\nThe gardens are the same size, and far more values of Garden A lie near 132, so the sunflower is more likely from Garden A."
+     "right": "Correct. A. In the middle 50% for Garden A and in the highest 25% for Garden B.\n\nGarden A: the box runs from 130 to 145, so 132 is in the middle 50% of its values.\nGarden B: the upper quartile is 120, so 132 is above it, in the highest 25% of its values.",
+     "wrong": "Answer: A. In the middle 50% for Garden A and in the highest 25% for Garden B.\n\nGarden A: the box runs from 130 to 145, so 132 is in the middle 50% of its values.\nGarden B: the upper quartile is 120, so 132 is above it, in the highest 25% of its values."
     },
     {
      "n": 3,
@@ -5794,8 +5794,8 @@
      "correct": [
       "B"
      ],
-     "right": "Correct. B. No, because the medians are 4.5 and 4, a difference of only 0.5 goal, and the two sets of scores overlap over most of their interquartile ranges.\n\nHawks: 3, 3, 4, 4, 5, 6, 6, 7; median = 4.5, Q1 = 3.5, Q3 = 6, interquartile range = 2.5.\nSharks: 3, 3, 3, 3, 4, 4, 4, 4, 4, 5; median = 4, Q1 = 3, Q3 = 4, interquartile range = 1.\nThe medians differ by 4.5 − 4 = 0.5 goal, not 2, and the middle halves overlap (3.5–6 and 3–4), so the claim of about 2 more goals is not reasonable.",
-     "wrong": "Answer: B. No, because the medians are 4.5 and 4, a difference of only 0.5 goal, and the two sets of scores overlap over most of their interquartile ranges.\n\nHawks: 3, 3, 4, 4, 5, 6, 6, 7; median = 4.5, Q1 = 3.5, Q3 = 6, interquartile range = 2.5.\nSharks: 3, 3, 3, 3, 4, 4, 4, 4, 4, 5; median = 4, Q1 = 3, Q3 = 4, interquartile range = 1.\nThe medians differ by 4.5 − 4 = 0.5 goal, not 2, and the middle halves overlap (3.5–6 and 3–4), so the claim of about 2 more goals is not reasonable.\n\nCommon mistakes:\n• Choice A: compared the greatest values instead of the typical values\n• Choice C: ignored the size of the difference: a greater median is not a 2-goal difference\n• Choice D: confused the number of games with how the typical values compare"
+     "right": "Correct. B. No, because the medians are 4.5 and 4 goals, a difference of only 0.5 goal, and the interquartile ranges overlap.\n\nHawks: 3, 3, 4, 4, 5, 6, 6, 7; median = 4.5, Q1 = 3.5, Q3 = 6, interquartile range = 2.5.\nSharks: 3, 3, 3, 3, 4, 4, 4, 4, 4, 5; median = 4, Q1 = 3, Q3 = 4, interquartile range = 1.\nThe medians differ by 4.5 − 4 = 0.5 goal, not 2, and the middle halves overlap (3.5–6 and 3–4), so the claim of about 2 more goals is not reasonable.",
+     "wrong": "Answer: B. No, because the medians are 4.5 and 4 goals, a difference of only 0.5 goal, and the interquartile ranges overlap.\n\nHawks: 3, 3, 4, 4, 5, 6, 6, 7; median = 4.5, Q1 = 3.5, Q3 = 6, interquartile range = 2.5.\nSharks: 3, 3, 3, 3, 4, 4, 4, 4, 4, 5; median = 4, Q1 = 3, Q3 = 4, interquartile range = 1.\nThe medians differ by 4.5 − 4 = 0.5 goal, not 2, and the middle halves overlap (3.5–6 and 3–4), so the claim of about 2 more goals is not reasonable.\n\nCommon mistakes:\n• Choice A: compared the greatest values instead of the typical values\n• Choice C: ignored the size of the difference: a greater median is not a 2-goal difference\n• Choice D: confused the number of games with how the typical values compare"
     }
    ]
   },
@@ -5840,8 +5840,8 @@
      "correct": [
       "A"
      ],
-     "right": "Correct. A. Class A, because 42 is in the middle half for Class A but in the top fourth for Class B\n\nClass A: the box runs from 35 to 50, so 42 is among the middle half of its values.\nClass B: the upper quartile is 25, so only about one-fourth of its values are greater than 25, and they are spread out from 25 to 45.\nThe classes are the same size, and far more values of Class A lie near 42, so the student is more likely from Class A.",
-     "wrong": "Answer: A. Class A, because 42 is in the middle half for Class A but in the top fourth for Class B\n\nClass A: the box runs from 35 to 50, so 42 is among the middle half of its values.\nClass B: the upper quartile is 25, so only about one-fourth of its values are greater than 25, and they are spread out from 25 to 45.\nThe classes are the same size, and far more values of Class A lie near 42, so the student is more likely from Class A."
+     "right": "Correct. A. In the middle 50% for Class A and in the highest 25% for Class B.\n\nClass A: the box runs from 35 to 50, so 42 is in the middle 50% of its values.\nClass B: the upper quartile is 25, so 42 is above it, in the highest 25% of its values.",
+     "wrong": "Answer: A. In the middle 50% for Class A and in the highest 25% for Class B.\n\nClass A: the box runs from 35 to 50, so 42 is in the middle 50% of its values.\nClass B: the upper quartile is 25, so 42 is above it, in the highest 25% of its values."
     },
     {
      "n": 3,
@@ -5902,8 +5902,8 @@
      "correct": [
       "C"
      ],
-     "right": "Correct. C. Garden B, because 139 is in the middle half for Garden B but in the top fourth for Garden A\n\nGarden B: the box runs from 130 to 145, so 139 is among the middle half of its values.\nGarden A: the upper quartile is 125, so only about one-fourth of its values are greater than 125, and they are spread out from 125 to 140.\nThe gardens are the same size, and far more values of Garden B lie near 139, so the sunflower is more likely from Garden B.",
-     "wrong": "Answer: C. Garden B, because 139 is in the middle half for Garden B but in the top fourth for Garden A\n\nGarden B: the box runs from 130 to 145, so 139 is among the middle half of its values.\nGarden A: the upper quartile is 125, so only about one-fourth of its values are greater than 125, and they are spread out from 125 to 140.\nThe gardens are the same size, and far more values of Garden B lie near 139, so the sunflower is more likely from Garden B."
+     "right": "Correct. C. In the highest 25% for Garden A and in the middle 50% for Garden B.\n\nGarden B: the box runs from 130 to 145, so 139 is in the middle 50% of its values.\nGarden A: the upper quartile is 125, so 139 is above it, in the highest 25% of its values.",
+     "wrong": "Answer: C. In the highest 25% for Garden A and in the middle 50% for Garden B.\n\nGarden B: the box runs from 130 to 145, so 139 is in the middle 50% of its values.\nGarden A: the upper quartile is 125, so 139 is above it, in the highest 25% of its values."
     }
    ]
   },
