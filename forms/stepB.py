@@ -13,7 +13,7 @@ REGEX = r'^-?(\d+(\.\d+)?|\.\d+|\d+/\d+|\d+ \d+/\d+)$'
 REGEX_ERR = 'Type only a number, like 12 or -3.5 or 2/7 or 4 1/3. No units, $, %, π or commas.'
 NOTE = {
     'num': 'Type a number only. No units, $ or %.',
-    'frac': 'Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.',
+    'frac': 'Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.',
     'pi': 'Type only the number in front of π. Example: for 7π, type 7.',
 }
 NOCALC = re.compile(r'NSO\.2\.2|NSO\.2\.1|NSO\.1\.1|NSO\.1\.2|AR\.1\.')

@@ -12,8 +12,8 @@
  *                 see after they submit. Changes nothing else.
  *   updateImages()  For forms built with an earlier kit whose pictures changed: swaps in this kit's
  *                 pictures. Questions, keys and responses are untouched.
- *   updateKeys()  For forms built with an earlier kit: re-sets the typed answer keys from this kit's
- *                 manifest (needs the Forms API, setup step 4). Choice questions are untouched.
+ *   updateKeys()  For forms built with an earlier kit: re-sets the typed answer keys and their feedback
+ *                 from this kit's manifest (needs the Forms API, setup step 4). Choice questions are untouched.
  *   rebuildForms()  Rebuilds only the forms ONLY names (their questions changed in this kit): the old
  *                 masters go to the Trash and fresh ones are built. Other forms are untouched.
  *
@@ -182,13 +182,15 @@ function buildOne_(F, M, images, out, ss, sheet, row) {
         .setChoices(Q.options.map(o => item.createChoice(o, Q.correct.indexOf(o) >= 0)))
         .setPoints(1)
         .setRequired(true);
+      setFeedback_(item, Q);
     } else {
       const rule = FormApp.createTextValidation()
         .setHelpText(M.regex_error)
         .requireTextMatchesPattern(M.regex)
         .build();
-      form.addTextItem().setTitle(title).setPoints(1).setRequired(true).setValidation(rule);
-      typed.push({ title: title, accept: Q.accept });
+      const item = form.addTextItem().setTitle(title).setPoints(1).setRequired(true).setValidation(rule);
+      setFeedback_(item, Q);
+      typed.push({ title: title, accept: Q.accept, right: Q.right, wrong: Q.wrong });
     }
   });
 
@@ -212,6 +214,12 @@ function buildOne_(F, M, images, out, ss, sheet, row) {
   }
   if (keys === 'add by hand') listTypedKeys_(ss, F, form, typed);
   writeRow_(sheet, row, F, form, 'built', keys);
+}
+
+/** The worked solution (and what each wrong answer means) shown on the score page, right or wrong. */
+function setFeedback_(item, Q) {
+  if (Q.right) item.setFeedbackForCorrect(FormApp.createFeedback().setText(Q.right).build());
+  if (Q.wrong) item.setFeedbackForIncorrect(FormApp.createFeedback().setText(Q.wrong).build());
 }
 
 function newForm_(F, out) {
@@ -251,7 +259,8 @@ function apiUpdate_(formId, typed) {
             question: {
               questionId: q.questionId,
               textQuestion: q.textQuestion,
-              grading: { pointValue: 1, correctAnswers: { answers: want.accept.map(v => ({ value: String(v) })) } },
+              grading: Object.assign({ pointValue: 1, correctAnswers: { answers: want.accept.map(v => ({ value: String(v) })) } },
+                want.right ? { whenRight: { text: want.right } } : {}, want.wrong ? { whenWrong: { text: want.wrong } } : {}),
             },
           },
         },
@@ -513,7 +522,7 @@ function updateKeys() {
   kit.manifest.forms.forEach(F => {
     const r = rows[F.key];
     if (!r || r.status !== 'built' || !r.id) return;
-    const typed = F.questions.filter(Q => Q.type === 'sa').map(Q => ({ title: 'Question ' + Q.n, accept: Q.accept }));
+    const typed = F.questions.filter(Q => Q.type === 'sa').map(Q => ({ title: 'Question ' + Q.n, accept: Q.accept, right: Q.right, wrong: Q.wrong }));
     if (!typed.length) { skipped++; return; }
     try { apiUpdate_(r.id, typed); n++; } catch (e) { missed.push(`${F.key} (${explain_(e)})`); }
   });

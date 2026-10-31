@@ -2007,18 +2007,18 @@
    "keep": 2,
    "lesson": 2,
    "why": {
-    "A": "divided by 4/3 instead of multiplying",
-    "B": "added 4/3 to each term instead of multiplying",
-    "D": "multiplied only the first term by 4/3"
+    "A": "added 4/3 to each term instead of multiplying",
+    "C": "multiplied only the first term by 4/3",
+    "D": "divided by 4/3 instead of multiplying"
    }
   },
   "MA.7.AR.1.2/chk/2": {
    "keep": 2,
    "lesson": 4,
    "why": {
-    "A": "judged by the form of the expressions instead of simplifying",
-    "B": "added 5x instead of subtracting it",
-    "D": "multiplied only the first term by 3.5"
+    "A": "added 5x instead of subtracting it",
+    "C": "multiplied only the first term by 3.5",
+    "D": "judged by the form of the expressions instead of simplifying"
    }
   },
   "MA.7.AR.1.2/chk/3": {
@@ -2052,9 +2052,9 @@
    "keep": 2,
    "lesson": 1,
    "why": {
-    "A": "added 2.5 to each term instead of multiplying",
-    "B": "multiplied only the first term by 2.5",
-    "D": "combined 15x and −4 as if they were like terms"
+    "A": "multiplied only the first term by 2.5",
+    "C": "combined 15x and −4 as if they were like terms",
+    "D": "added 2.5 to each term instead of multiplying"
    }
   },
   "MA.7.AR.1.2/re/2": {
@@ -2071,18 +2071,18 @@
    "keep": 2,
    "lesson": 1,
    "why": {
-    "A": "multiplied only the first term by 2/3",
-    "B": "combined 6x and −10 as if they were like terms",
-    "D": "dropped the minus sign when multiplying 2/3 × (−15)"
+    "A": "dropped the minus sign when multiplying 2/3 × (−15)",
+    "B": "multiplied only the first term by 2/3",
+    "C": "combined 6x and −10 as if they were like terms"
    }
   },
   "MA.7.AR.1.2/cmp/1": {
    "keep": 2,
    "lesson": 2,
    "why": {
-    "B": "added 7/4 to each term instead of multiplying",
-    "C": "multiplied only the first term by 7/4",
-    "D": "divided by 7/4 instead of multiplying"
+    "A": "divided by 7/4 instead of multiplying",
+    "C": "added 7/4 to each term instead of multiplying",
+    "D": "multiplied only the first term by 7/4"
    }
   },
   "MA.7.AR.2.1/chk/0": {
@@ -2143,9 +2143,9 @@
    "keep": 2,
    "lesson": 3,
    "why": {
-    "B": "reversed the symbol because a negative number appeared, even though the divisor 0.4 is positive",
-    "C": "dropped the sign of −1.2 when dividing",
-    "D": "used an open circle for ≥"
+    "A": "dropped the sign of −1.2 when dividing",
+    "B": "used an open circle for ≥",
+    "D": "reversed the symbol because a negative number appeared, even though the divisor 0.4 is positive"
    }
   },
   "MA.7.AR.2.1/re/2": {
@@ -2281,9 +2281,9 @@
    "keep": 2,
    "lesson": 3,
    "why": {
-    "A": "multiplied only x by 3 instead of the whole result (x − 8)",
-    "B": "increased by 8 instead of decreasing",
-    "C": "distributed the 3 on the left but also multiplied the 3 on the right"
+    "B": "multiplied only x by 3 instead of the whole result (x − 8)",
+    "C": "increased by 8 instead of decreasing",
+    "D": "distributed the 3 on the left but also multiplied the 3 on the right"
    }
   },
   "MA.7.AR.2.2/cmp/0": {

@@ -195,7 +195,7 @@
   "fix": "6",
   "note": "Positive coefficient with a negative right side: 'always flip' now fails this item.",
   "rt": "mc",
-  "q": "Solve the inequality.\n\n0.4c ≥ −1.2\n\nWhich number line shows the solution?",
+  "q": "Solve the inequality.\n\n0.4c ≥ −1.2\n\nWhich describes the graph of the solution on a number line?",
   "opts": [
    "Closed circle at −3, shaded right",
    "Closed circle at −3, shaded left",
@@ -308,35 +308,28 @@
   "slot": "MA.7.AR.3.3/re/1",
   "fix": "9",
   "rt": "sa",
-  "q": "1 kilogram ≈ 2.2 pounds.\n\nApples cost $3.40 per kilogram. How much do 5 pounds of apples cost, to the nearest cent?",
-  "answer": "7.73",
+  "q": "1 kilogram ≈ 2.2 pounds.\n\nApples cost $3.30 per kilogram. How much do 5 pounds of apples cost, to the nearest cent?",
+  "answer": "7.50",
   "accept": [
-   "7.73"
+   "7.50",
+   "7.5"
   ],
-  "s": "Convert the pounds to kilograms: 5 ÷ 2.2 ≈ 2.2727 kilograms.\nCost: 2.2727 × $3.40 ≈ $7.727, which rounds to $7.73.\nCheck: $3.40 per kilogram is about $1.55 per pound, and 5 × 1.545 ≈ 7.73.",
+  "s": "Convert the pounds to kilograms: 5 ÷ 2.2 = 2.2727… kg.\nCost: 2.2727… × $3.30 = $7.50.\n(Or: $3.30 ÷ 2.2 = $1.50 per pound, and 5 × $1.50 = $7.50.)",
   "typed": [
    [
-    "17",
-    "multiplied 5 by $3.40 without converting pounds to kilograms"
+    "16.50",
+    "multiplied $3.30 by 5 pounds without converting"
    ],
    [
-    "37.4",
+    "36.30",
     "multiplied by 2.2 instead of dividing"
    ],
    [
-    "1.55",
-    "found the price per pound but never multiplied by 5"
-   ],
-   [
-    "7.72",
-    "rounded down instead of to the nearest cent"
-   ],
-   [
-    "7.75",
-    "rounded the price per pound to $1.55 before multiplying by 5"
+    "1.50",
+    "found the price of one pound only"
    ]
   ],
-  "check": "round(5/2.2*3.40, 2) == 7.73",
+  "check": "round(5/2.2*3.30,2)==7.5",
   "keep_fig": false
  },
  {
@@ -581,7 +574,7 @@
    "Plan X, by $64.50"
   ],
   "key": 2,
-  "s": "Plan X per month: $111.00 ÷ 4 = $27.75 (check: $166.50 ÷ 6 = $27.75). For 12 months: 12 × $27.75 = $333.00.\nPlan Y for 12 months: 28.5 × 12 = $342.00.\nPlan X costs less, by 342 − 333 = $9.00.",
+  "s": "Plan X per month: $55.50 ÷ 2 = $27.75 (check: $166.50 ÷ 6 = $27.75). For 12 months: 12 × $27.75 = $333.00.\nPlan Y for 12 months: 28.5 × 12 = $342.00.\nPlan X costs less, by 342 − 333 = $9.00.",
   "why": [
    "compared one month only (28.50 − 27.75)",
    "treated $55.50 as the cost of one month (666 − 342)",
@@ -729,29 +722,6 @@
   ],
   "check": "4/12.5 == 0.32; 12.5/4 == 3.125; 12.5-4 == 8.5",
   "keep_fig": false
- },
- {
-  "slot": "MA.7.AR.4.3/chk/1",
-  "fix": "16",
-  "note": "Figure kept (Graph B is y = 5x). Stem now names Graph B and asks about (0, 0) and (1, r) instead of pick-the-graph.",
-  "rt": "mc",
-  "q": "The table shows a proportional relationship between x and y.\n\n<table><tr><th>x</th><th>y</th></tr><tr><td>4</td><td>20</td></tr><tr><td>5</td><td>25</td></tr><tr><td>6</td><td>30</td></tr></table>\n\nGraph B represents this relationship. Which statement about Graph B must be true?",
-  "opts": [
-   "It passes through (0, 0) and (1, 5); the point (1, 5) shows the constant of proportionality, 5.",
-   "It passes through (0, 0) and (5, 1); the point (5, 1) shows the constant of proportionality, 5.",
-   "It passes through (0, 5) and (1, 5); the point (0, 5) shows the constant of proportionality, 5.",
-   "It passes through (0, 0) and (4, 20); the point (4, 20) shows the constant of proportionality, 20."
-  ],
-  "key": 0,
-  "s": "Every proportional graph passes through the origin (0, 0): when x is 0, y is 0.\nThe constant of proportionality is y ÷ x = 20 ÷ 4 = 5, so when x = 1, y = 5. The point (1, 5) is on the line, and its y-value is the constant.\nGraph B rises 5 for every 1 to the right and starts at the origin, matching (0, 0) and (1, 5).",
-  "why": [
-   null,
-   "switched the coordinates of (1, 5)",
-   "placed the constant on the y-axis as (0, k) instead of at (1, k)",
-   "took the first y-value in the table as the constant instead of y ÷ x"
-  ],
-  "check": "all(y/x == 5 for x,y in [(4,20),(5,25),(6,30)])",
-  "keep_fig": true
  },
  {
   "slot": "MA.7.AR.4.4/chk/1",

@@ -41,7 +41,7 @@
       "D"
      ],
      "correct": [
-      "D"
+      "A"
      ]
     },
     {
@@ -221,11 +221,11 @@
      "points": 1,
      "type": "Short answer",
      "accept": [
-      "-2.375",
-      "-2.3750"
+      "-2 1/3",
+      "-7/3"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
-     "kind": "num"
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
+     "kind": "frac"
     },
     {
      "n": 2,
@@ -270,7 +270,7 @@
       "700/11",
       "63 63/99"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
      "kind": "frac"
     },
     {
@@ -343,7 +343,7 @@
       "77 7/9",
       "700/9"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
      "kind": "frac"
     }
    ]
@@ -415,7 +415,7 @@
       "D"
      ],
      "correct": [
-      "D"
+      "C"
      ]
     },
     {
@@ -479,7 +479,7 @@
       "D"
      ],
      "correct": [
-      "A"
+      "D"
      ]
     }
    ]
@@ -567,7 +567,7 @@
       "D"
      ],
      "correct": [
-      "D"
+      "C"
      ]
     },
     {
@@ -607,7 +607,7 @@
      "accept": [
       "1/4"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
      "kind": "frac"
     },
     {
@@ -648,7 +648,7 @@
      "accept": [
       "2/11"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
      "kind": "frac"
     },
     {
@@ -660,7 +660,7 @@
      "accept": [
       "25/26"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
      "kind": "frac"
     }
    ]
@@ -699,7 +699,7 @@
      "accept": [
       "3/8"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
      "kind": "frac"
     },
     {
@@ -743,7 +743,7 @@
       "D"
      ],
      "correct": [
-      "D"
+      "C"
      ]
     },
     {
@@ -905,7 +905,7 @@
       "D"
      ],
      "correct": [
-      "B"
+      "A"
      ]
     }
    ]
@@ -1017,7 +1017,7 @@
       "-0.25",
       "-.25"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
      "kind": "frac"
     },
     {
@@ -1071,7 +1071,7 @@
      "accept": [
       "-6"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
      "kind": "num"
     },
     {
@@ -1086,7 +1086,7 @@
       "-1 17/20",
       "-37/20"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
      "kind": "frac"
     }
    ]
@@ -1114,7 +1114,7 @@
       "-.450",
       "-9/20"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
      "kind": "frac"
     },
     {
@@ -1126,7 +1126,7 @@
      "accept": [
       "-8/15"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
      "kind": "frac"
     }
    ]
@@ -1459,9 +1459,9 @@
      "points": 1,
      "type": "Short answer",
      "accept": [
-      "64",
-      "64.0",
-      "64.00"
+      "28",
+      "28.0",
+      "28.00"
      ],
      "note": "Type a number only. No units, $ or %.",
      "kind": "num"
@@ -1975,7 +1975,9 @@
      "points": 1,
      "type": "Short answer",
      "accept": [
-      "530.66"
+      "530.66",
+      "530.93",
+      "531.14"
      ],
      "note": "Type a number only. No units, $ or %.",
      "kind": "num"
@@ -2005,7 +2007,7 @@
       "D"
      ],
      "correct": [
-      "C"
+      "A"
      ]
     },
     {
@@ -2201,7 +2203,7 @@
       "6/1",
       "12/2"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
      "kind": "frac"
     },
     {
@@ -2287,7 +2289,7 @@
       "7.0",
       "7.00"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
      "kind": "frac"
     }
    ]
@@ -2329,7 +2331,7 @@
       "7 1/2",
       "30/4"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
      "kind": "frac"
     }
    ]
@@ -2411,7 +2413,7 @@
       "D"
      ],
      "correct": [
-      "A"
+      "D"
      ]
     }
    ]
@@ -2449,7 +2451,8 @@
      "points": 1,
      "type": "Short answer",
      "accept": [
-      "7.73"
+      "7.50",
+      "7.5"
      ],
      "note": "Type a number only. No units, $ or %.",
      "kind": "num"
@@ -2575,7 +2578,7 @@
       "1 1/4",
       "5/4"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
      "kind": "frac"
     },
     {
@@ -2591,7 +2594,7 @@
       "D"
      ],
      "correct": [
-      "C"
+      "D"
      ]
     }
    ]
@@ -2674,7 +2677,7 @@
      "accept": [
       "3/4"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
      "kind": "frac"
     },
     {
@@ -2718,7 +2721,7 @@
       "D"
      ],
      "correct": [
-      "B"
+      "A"
      ]
     },
     {
@@ -2748,7 +2751,7 @@
       "D"
      ],
      "correct": [
-      "A"
+      "D"
      ]
     },
     {
@@ -2822,7 +2825,7 @@
       "D"
      ],
      "correct": [
-      "D"
+      "A"
      ]
     },
     {
@@ -3251,7 +3254,7 @@
      "accept": [
       "16/81"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
      "kind": "frac"
     },
     {
@@ -3331,7 +3334,7 @@
      "accept": [
       "-27/64"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
      "kind": "frac"
     },
     {
@@ -3448,7 +3451,7 @@
       "8 1/3",
       "25/3"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
      "kind": "frac"
     },
     {
@@ -3461,7 +3464,7 @@
       "11 5/8",
       "93/8"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
      "kind": "frac"
     },
     {
@@ -3502,7 +3505,7 @@
       "4 5/8",
       "37/8"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
      "kind": "frac"
     },
     {
@@ -3815,7 +3818,7 @@
       "D"
      ],
      "correct": [
-      "C"
+      "B"
      ]
     },
     {
@@ -3831,7 +3834,7 @@
       "D"
      ],
      "correct": [
-      "C"
+      "B"
      ]
     },
     {
@@ -3907,7 +3910,7 @@
       "D"
      ],
      "correct": [
-      "C"
+      "B"
      ]
     },
     {
@@ -3953,7 +3956,7 @@
       "D"
      ],
      "correct": [
-      "C"
+      "D"
      ]
     },
     {
@@ -3969,7 +3972,7 @@
       "D"
      ],
      "correct": [
-      "A"
+      "B"
      ]
     }
    ]
@@ -4105,7 +4108,7 @@
       "D"
      ],
      "correct": [
-      "A"
+      "C"
      ]
     },
     {
@@ -4309,7 +4312,7 @@
       "D"
      ],
      "correct": [
-      "D"
+      "A"
      ]
     }
    ]
@@ -4394,7 +4397,7 @@
       "D"
      ],
      "correct": [
-      "A"
+      "B"
      ]
     },
     {
@@ -4574,7 +4577,7 @@
       "D"
      ],
      "correct": [
-      "B"
+      "C"
      ]
     },
     {
@@ -4614,7 +4617,7 @@
      "accept": [
       "2/5"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
      "kind": "frac"
     },
     {
@@ -4711,7 +4714,7 @@
       "9/7",
       "1 2/7"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
      "kind": "frac"
     },
     {
@@ -4723,7 +4726,7 @@
      "accept": [
       "8/11"
      ],
-     "note": "Type a whole number, a fraction like 2/7, or a mixed number like 4 1/3 with a space after the whole number.",
+     "note": "Type a whole number, a decimal like 0.25, a fraction like 2/7 or -3/4, or a mixed number like 4 1/3 with a space after the whole number.",
      "kind": "frac"
     }
    ]
@@ -5451,7 +5454,8 @@
      "type": "Short answer",
      "accept": [
       "376.8",
-      "376.80"
+      "376.80",
+      "376.99"
      ],
      "note": "Type a number only. No units, $ or %.",
      "kind": "num"
@@ -5670,7 +5674,7 @@
       "D"
      ],
      "correct": [
-      "B"
+      "C"
      ]
     },
     {
@@ -5702,7 +5706,7 @@
       "D"
      ],
      "correct": [
-      "A"
+      "B"
      ]
     },
     {
@@ -6066,7 +6070,7 @@
       "D"
      ],
      "correct": [
-      "A"
+      "D"
      ]
     },
     {
@@ -6174,7 +6178,7 @@
       "D"
      ],
      "correct": [
-      "B"
+      "A"
      ]
     }
    ]

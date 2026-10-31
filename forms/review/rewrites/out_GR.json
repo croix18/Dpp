@@ -91,29 +91,29 @@
   "fix": "3",
   "note": "Review item changed from a parallelogram to a trapezoid; figure-free (old parallelogram figure 6 in. by 11 in. dropped).",
   "rt": "sa",
-  "q": "A trapezoid-shaped flower bed has bases of 10 feet and 6 feet and a vertical height of 8 feet.\n\nWhat is the area of the flower bed, in square feet?",
-  "answer": "64",
+  "q": "A trapezoid has bases of 10 feet and 4 feet. Each slanted side is 5 feet long, and the height is 4 feet.\n\nWhat is the area of the trapezoid, in square feet?",
+  "answer": "28",
   "accept": [
-   "64",
-   "64.0",
-   "64.00"
+   "28",
+   "28.0",
+   "28.00"
   ],
-  "s": "A = ½(b₁ + b₂)h = ½(10 + 6)(8) = ½(16)(8) = 64 ft².",
+  "s": "Only the bases and the height go in the formula; the slanted side is not the height.\nA = ½(b₁ + b₂)h = ½(10 + 4)(4) = ½(14)(4) = 28 square feet.",
   "typed": [
    [
-    "128",
+    "35",
+    "used the 5 ft slanted side as the height"
+   ],
+   [
+    "56",
     "left out the ½"
    ],
    [
-    "80",
-    "multiplied 10 by 8 and ignored the second base"
-   ],
-   [
-    "24",
-    "added the three measurements"
+    "40",
+    "multiplied 10 by 4 and ignored the second base"
    ]
   ],
-  "check": "0.5*(10+6)*8==64",
+  "check": "0.5*(10+4)*4==28",
   "keep_fig": false
  },
  {
@@ -617,7 +617,9 @@
   "q": "A round mirror has a radius of 13 inches.\n\nWhat is the area of the mirror? Round your answer to the nearest hundredth. Use 3.14 for π.",
   "answer": "530.66",
   "accept": [
-   "530.66"
+   "530.66",
+   "530.93",
+   "531.14"
   ],
   "s": "A = πr² = π × 13² = 169π.\nWith 3.14 for π: 169 × 3.14 = 530.66 square inches.",
   "typed": [
@@ -726,7 +728,7 @@
   "fix": "4",
   "note": "Review item now mirrors chk/2 (find the scale factor) with a photo-to-poster context; the factor is a non-integer.",
   "rt": "sa",
-  "q": "A photo that is 4 inches wide is enlarged to make a poster that is 30 inches wide.\n\nWhat scale factor was used to enlarge the photo? Write the scale factor as a whole number, a decimal, or a fraction.",
+  "q": "A photo that is 4 inches wide is enlarged to make a poster that is 30 inches wide.\n\nWhat scale factor was used to enlarge the photo? Write the scale factor as a whole number or a fraction.",
   "answer": "7.5",
   "accept": [
    "7.5",
@@ -758,14 +760,14 @@
   "fix": "1",
   "note": "Replaced the net-matching MC with the given three-dimensional-figure item (CPALMS clarification 2 allows a 3-D figure). Figure-free: the old figure shows r = 3 cm, h = 24 cm, which does not match the new numbers.",
   "rt": "sa",
-  "q": "Surface area of a right circular cylinder: SA = 2πr<sup>2</sup> + 2πrh\n\nA right circular cylinder has a radius of 5 inches and a height of 9 inches.\n\nWhat is the surface area of the cylinder? Write your answer in terms of π. Type only the number in front of π.",
+  "q": "The net of a right circular cylinder has two circles, each with a radius of 5 inches, and one rectangle that is 9 inches tall. The rectangle wraps all the way around the circles.\n\nWhat is the total area of the net? Write your answer in terms of π. Type only the number in front of π.",
   "answer": "140",
   "accept": [
    "140",
    "140.0",
    "140.00"
   ],
-  "s": "Think of the net: two circles and one rectangle.\nTwo circles: 2 × π(5)² = 50π.\nRectangle: its length is the circumference 2π(5) = 10π, so 10π × 9 = 90π.\nSurface area: 50π + 90π = 140π square inches.",
+  "s": "Two circles: 2 × π(5)² = 50π.\nRectangle: its length is the circumference of a circle, 2π(5) = 10π, so its area is 10π × 9 = 90π.\nTotal area of the net: 50π + 90π = 140π square inches.",
   "typed": [
    [
     "115",
@@ -886,7 +888,8 @@
   "answer": "376.8",
   "accept": [
    "376.8",
-   "376.80"
+   "376.80",
+   "376.99"
   ],
   "s": "The band covers only the curved side, the 2πrh part of the formula.\n2π(6)(10) = 120π.\nWith 3.14 for π: 120 × 3.14 = 376.8 square centimeters.",
   "typed": [
@@ -1000,7 +1003,7 @@
   "fix": "6",
   "note": "The suggested 'B by 440π' distractor has no clean error path; replaced with 'Tank B, by 380π' (used the 6 ft diameter as B's radius: 540π − 160π). Options are balanced two A / two B.",
   "rt": "mc",
-  "q": "Tank A is a cylinder with a radius of 4 feet and a height of 10 feet. Tank B is a cylinder with a diameter of 6 feet and a height of 15 feet.\n\nWhich tank holds more, and by how many cubic feet?",
+  "q": "Volume of a right circular cylinder: V = πr<sup>2</sup>h\n\nTank A is a cylinder with a radius of 4 feet and a height of 10 feet. Tank B is a cylinder with a diameter of 6 feet and a height of 15 feet.\n\nWhich tank holds more, and by how many cubic feet?",
   "opts": [
    "Tank A, by 25π ft³",
    "Tank B, by 25π ft³",
@@ -1023,7 +1026,7 @@
   "fix": "8",
   "note": "Replaces the r = 8 clone of chk/0 with a new context and numbers at the same difficulty (radius given, π key, nearest hundredth). Accepts the 3.14 value too (fix 9).",
   "rt": "sa",
-  "q": "A cylindrical candle has a radius of 5 centimeters and a height of 7 centimeters.\n\nWhat is the volume of the candle? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+  "q": "Volume of a right circular cylinder: V = πr<sup>2</sup>h\n\nA cylindrical candle has a radius of 5 centimeters and a height of 7 centimeters.\n\nWhat is the volume of the candle? Round your answer to the nearest hundredth. Use the π key on your calculator.",
   "answer": "549.78",
   "accept": [
    "549.78",
@@ -1053,7 +1056,7 @@
   "fix": "9",
   "note": "Fix 9: accept list now includes both the π-key value and the 3.14 value; stem and key otherwise unchanged.",
   "rt": "sa",
-  "q": "A cylindrical swimming pool has a diameter of 12 feet and a height of 3 feet.\n\nWhat is the volume of the pool? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+  "q": "Volume of a right circular cylinder: V = πr<sup>2</sup>h\n\nA cylindrical swimming pool has a diameter of 12 feet and a height of 3 feet.\n\nWhat is the volume of the pool? Round your answer to the nearest hundredth. Use the π key on your calculator.",
   "answer": "339.29",
   "accept": [
    "339.29",

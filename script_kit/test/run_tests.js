@@ -117,6 +117,9 @@ function verifyBuild(W, { only = '', typed = 'set', template = false, schoolEmai
       } else {
         expectChoiceItem(it, Q.type === 'mc' ? 'MULTIPLE_CHOICE' : 'CHECKBOX', title, Q.options, Q.options.filter(o => Q.correct.includes(o)), 1);
       }
+      // the worked solution students see on the score page survives the API's grading update on typed items
+      assert.strictEqual(it.right, Q.right, `${F.key} Q${Q.n}: feedback when right`);
+      assert.strictEqual(it.wrong, Q.wrong, `${F.key} Q${Q.n}: feedback when wrong`);
     }
     if (F.level_image) {
       const img = items[i++];
@@ -531,7 +534,7 @@ test('a stop flag left over from a failed startOver (older than 10 minutes) is i
 test('a manual run while a cut-off build waits for its safety run: one chain, nothing doubled', () => {
   const W = makeWorld();
   let hung = false;
-  W.hooks.push((W, what) => { if (!hung && what === 'ImageItem.setImage' && W.calls[what] === 40) { hung = true; W.T += 6 * MIN; } });
+  W.hooks.push((W, what) => { if (!hung && what === 'ImageItem.setImage' && W.calls[what] === 20) { hung = true; W.T += 6 * MIN; } });
   run(W, 'buildForms');
   assert(W.execs[0].killed);
   W.T += 2 * MIN;                                // before the safety run is due

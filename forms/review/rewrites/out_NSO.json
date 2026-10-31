@@ -2,34 +2,34 @@
  {
   "slot": "MA.7.NSO.1.2/chk/0",
   "fix": "2",
-  "note": "Replaced the 0.46-repeating item (chk/1 kept as the stronger repeating-decimal item) with a negative mixed number to decimal.",
+  "note": "Repeating decimal to mixed number (the spec limits NSO.1.2 items to repeating decimals).",
   "rt": "sa",
-  "q": "Write the mixed number as a decimal.\n\n−2 3/8",
-  "answer": "-2.375",
+  "q": "Write the repeating decimal as a mixed number in simplest form.\n\n−2.<span class=\"rep\">3</span>",
+  "answer": "-2 1/3",
   "accept": [
-   "-2.375",
-   "-2.3750"
+   "-2 1/3",
+   "-7/3"
   ],
-  "s": "3/8 = 3 ÷ 8 = 0.375.\nKeep the whole-number part: 2 3/8 = 2.375.\nThe number is negative, so −2 3/8 = −2.375.",
+  "s": "0.<span class=\"rep\">3</span> = 1/3, so 2.<span class=\"rep\">3</span> = 2 1/3.\nThe number is negative: −2.<span class=\"rep\">3</span> = −2 1/3 (or −7/3).",
   "typed": [
    [
-    "2.375",
+    "-2 3/10",
+    "read 0.3 repeating as 3/10"
+   ],
+   [
+    "2 1/3",
     "dropped the negative sign"
    ],
    [
-    "-2.38",
-    "rounded instead of writing the exact decimal"
+    "-2 3/9",
+    "did not simplify 3/9"
    ],
    [
-    "-2.3",
-    "wrote the numerator of 3/8 as the tenths digit"
-   ],
-   [
-    "-0.375",
+    "-1/3",
     "dropped the whole-number part"
    ]
   ],
-  "check": "Fraction(-19,8) == Fraction('-2.375')",
+  "check": "Fraction(-7,3) == -2 - Fraction(1,3)",
   "keep_fig": false
  },
  {
@@ -196,22 +196,22 @@
   "fix": "3",
   "note": "New context (fuel tanks) and new numbers; key is 'less than' by a 0.5% margin so rounding is a live error.",
   "rt": "mc",
-  "q": "Two identical fuel tanks are partly full. Tank A is 7/8 full and tank B is 88% full.\n\nTank A holds ____ tank B.",
+  "q": "Two identical fuel tanks are partly full. Tank A is 8/9 full and tank B is 88% full.\n\nTank A holds ____ tank B.",
   "opts": [
    "more than",
    "less than",
    "the same amount as",
    "cannot be compared without knowing how much a tank holds"
   ],
-  "key": 1,
-  "s": "Rewrite both amounts in the same form. 7/8 = 7 ÷ 8 = 0.875 = 87.5%.\n87.5% is less than 88%, so tank A holds less than tank B.\nRounding 87.5% to 88% hides the difference; compare the exact values.",
+  "key": 0,
+  "s": "Rewrite both amounts in the same form. 8/9 = 8 ÷ 9 = 0.<span class=\"rep\">8</span>, which is 88.<span class=\"rep\">8</span>%.\n88.888…% is more than 88%, so tank A holds more than tank B.\nRounding 8/9 to 88% hides the difference.",
   "why": [
-   "divided 8 by 7 and read 7/8 as about 1.14, or 114%",
    null,
-   "rounded 87.5% to 88% before comparing",
+   "rounded 8/9 down to 0.88 and then compared 88% with 88% the wrong way, or divided 9 by 8",
+   "rounded 8/9 to 88% before comparing",
    "did not use that identical tanks make both amounts parts of the same whole"
   ],
-  "check": "Fraction(7,8) < Fraction(88,100)",
+  "check": "Fraction(8,9) > Fraction(88,100)",
   "keep_fig": false
  },
  {

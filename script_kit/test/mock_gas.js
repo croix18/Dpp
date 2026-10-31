@@ -252,6 +252,8 @@ function TypedItem(W, node, it) {
   o.getIndex = () => F.items.indexOf(it);
   o.setTitle = t => { tick(W, cls + '.setTitle'); it.title = String(t); return self; };
   if (it.kind !== 'IMAGE') {
+    o.setFeedbackForCorrect = f => { tick(W, cls + '.setFeedbackForCorrect'); if (!f || !f.__feedback) throw new Error('Invalid argument: feedback'); it.right = f.__feedback.text; return self; };
+    o.setFeedbackForIncorrect = f => { tick(W, cls + '.setFeedbackForIncorrect'); if (!f || !f.__feedback) throw new Error('Invalid argument: feedback'); it.wrong = f.__feedback.text; return self; };
     o.setRequired = b => { tick(W, cls + '.setRequired'); if (typeof b !== 'boolean') throw new Error('Invalid argument: enabled'); it.required = b; return self; };
   }
   if (['MULTIPLE_CHOICE', 'CHECKBOX', 'LIST'].includes(it.kind)) {
@@ -390,6 +392,14 @@ function FormAppObj(W) {
       const n = W.nodes.get(String(id));
       if (!n || !n.form) throw new Error('No item with the given ID could be found, or you do not have permission to access it.');
       return FormObj(W, n);
+    },
+    createFeedback: () => {
+      const v = {};
+      const b = strict('QuizFeedbackBuilder', {
+        setText: t => { if (typeof t !== 'string' || !t) throw new Error('Invalid argument: text'); v.text = t; return b; },
+        build: () => strict('QuizFeedback', { __feedback: Object.assign({}, v) }),
+      });
+      return b;
     },
     createTextValidation: () => {
       const v = {};
@@ -692,9 +702,11 @@ function formsApi(W, url, options) {
     const a = g.correctAnswers && g.correctAnswers.answers;
     if (!Array.isArray(a) || !a.length || a.some(x => Object.keys(x).length !== 1 || typeof x.value !== 'string' || !x.value)) return bad('bad correctAnswers');
     if (!F.isQuiz) return bad('grading on a form that is not a quiz');
-    pending.push({ it, points: g.pointValue, keys: a.map(x => x.value) });
+    for (const k of ['whenRight', 'whenWrong']) if (g[k] !== undefined && (typeof g[k].text !== 'string' || !g[k].text)) return bad('bad ' + k);
+    pending.push({ it, points: g.pointValue, keys: a.map(x => x.value), right: g.whenRight ? g.whenRight.text : undefined, wrong: g.whenWrong ? g.whenWrong.text : undefined });
   }
-  pending.forEach(p => { p.it.points = p.points; p.it.keys = p.keys; });
+  // the updateMask names the whole grading object, so feedback not sent is cleared (as the real API does)
+  pending.forEach(p => { p.it.points = p.points; p.it.keys = p.keys; p.it.right = p.right; p.it.wrong = p.wrong; });
   settings.forEach(t => { F.emailType = t; F.collectEmail = t !== 'DO_NOT_COLLECT'; });
   return response(200, { replies: body.requests.map(() => ({})), writeControl: { requiredRevisionId: 'x' } });
 }

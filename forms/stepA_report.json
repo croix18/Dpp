@@ -2145,12 +2145,12 @@
    "gen": 3,
    "rt": "mc",
    "q": "Which expression is equivalent to 2.5(6x − 4)?",
-   "a": "C. 15x − 10",
+   "a": "B. 15x − 10",
    "opts": [
-    "8.5x − 1.5",
     "15x − 4",
     "15x − 10",
-    "11x"
+    "11x",
+    "8.5x − 1.5"
    ],
    "s": "Distribute 2.5 to both terms inside the parentheses.\n2.5 × 6x = 15x and 2.5 × (−4) = −10.\nThe expression is 15x − 10.",
    "ft": ""
@@ -2172,12 +2172,12 @@
    "gen": 3,
    "rt": "mc",
    "q": "Which expression is equivalent to (2/3)(9x − 15)?",
-   "a": "C. 6x − 10",
+   "a": "D. 6x − 10",
    "opts": [
+    "6x + 10",
     "6x − 15",
     "−4x",
-    "6x − 10",
-    "6x + 10"
+    "6x − 10"
    ],
    "s": "Distribute 2/3 to both terms inside the parentheses.\n2/3 × 9x = 6x and 2/3 × (−15) = −10.\nThe expression is 6x − 10.",
    "ft": ""
@@ -2199,12 +2199,12 @@
    "gen": 2,
    "rt": "mc",
    "q": "A student rewrote (4/3)(12x + 12) as 28x.\n\nThe correct equivalent expression is ____.",
-   "a": "C. 16x + 16",
+   "a": "B. 16x + 16",
    "opts": [
-    "9x + 9",
     "(40/3)x + 40/3",
     "16x + 16",
-    "16x + 12"
+    "16x + 12",
+    "9x + 9"
    ],
    "s": "The student multiplied only 12x by 4/3, which gives 16x + 12, and then added 16x and 12 as if they were like terms.\nBoth terms must be multiplied by 4/3: 4/3 × 12x = 16x and 4/3 × 12 = 16.\n(4/3)(12x + 12) = 16x + 16.",
    "ft": ""
@@ -2226,12 +2226,12 @@
    "gen": 2,
    "rt": "mc",
    "q": "A student rewrote (7/4)(12x + 4) as 25x.\n\nThe correct equivalent expression is ____.",
-   "a": "A. 21x + 7",
+   "a": "B. 21x + 7",
    "opts": [
+    "(48/7)x + 16/7",
     "21x + 7",
     "(55/4)x + 23/4",
-    "21x + 4",
-    "(48/7)x + 16/7"
+    "21x + 4"
    ],
    "s": "The student multiplied only 12x by 7/4, which gives 21x + 4, and then added 21x and 4 as if they were like terms.\nBoth terms must be multiplied by 7/4: 7/4 × 12x = 21x and 7/4 × 4 = 7.\n(7/4)(12x + 4) = 21x + 7.",
    "ft": ""
@@ -2253,12 +2253,12 @@
    "gen": 1,
    "rt": "mc",
    "q": "Are the two expressions equivalent?\n\n3.5(2x + 4) − 5x + 1     and     2x + 15",
-   "a": "C. Yes, because both of them simplify to 2x + 15.",
+   "a": "B. Yes, because both of them simplify to 2x + 15.",
    "opts": [
-    "Yes, because both have an x-term and a constant term.",
     "No, because the first simplifies to 12x + 15, not 2x + 15.",
     "Yes, because both of them simplify to 2x + 15.",
-    "No, because 3.5(2x + 4) is 7x + 4, giving 2x + 5."
+    "No, because 3.5(2x + 4) is 7x + 4, giving 2x + 5.",
+    "Yes, because both have an x-term and a constant term."
    ],
    "s": "Distribute and combine: 3.5(2x + 4) = 7x + 14, then − 5x + 1 gives 2x + 15.\nThe second expression is also 2x + 15, so they are equivalent.\nThe 3.5 multiplies both terms in the parentheses, and −5x is subtracted, not added.",
    "ft": ""
@@ -2329,12 +2329,12 @@
    "gen": 4,
    "rt": "mc",
    "q": "A number, x, is decreased by 8. That result is then multiplied by 3, giving 3.\n\nWhich choice shows an equation that represents this situation, and the value of x?",
-   "a": "D. 3(x − 8) = 3; x = 9",
+   "a": "A. 3(x − 8) = 3; x = 9",
    "opts": [
+    "3(x − 8) = 3; x = 9",
     "3x − 8 = 3; x = 3 2/3",
     "3(x + 8) = 3; x = −7",
-    "3x − 24 = 9; x = 11",
-    "3(x − 8) = 3; x = 9"
+    "3x − 24 = 9; x = 11"
    ],
    "s": "\"Decreased by 8\" is (x − 8). Multiplying that result by 3 gives 3(x − 8), and that equals 3: 3(x − 8) = 3.\nDivide by 3: x − 8 = 1. Add 8: x = 9.\nCheck: 9 − 8 = 1, and 1 × 3 = 3.",
    "ft": ""
@@ -2355,13 +2355,13 @@
   "after": {
    "gen": 3,
    "rt": "mc",
-   "q": "Solve the inequality.\n\n0.4c ≥ −1.2\n\nWhich number line shows the solution?",
-   "a": "A. Closed circle at −3, shaded right",
+   "q": "Solve the inequality.\n\n0.4c ≥ −1.2\n\nWhich describes the graph of the solution on a number line?",
+   "a": "C. Closed circle at −3, shaded right",
    "opts": [
-    "Closed circle at −3, shaded right",
-    "Closed circle at −3, shaded left",
     "Closed circle at 3, shaded right",
-    "Open circle at −3, shaded right"
+    "Open circle at −3, shaded right",
+    "Closed circle at −3, shaded right",
+    "Closed circle at −3, shaded left"
    ],
    "s": "Divide both sides by 0.4: c ≥ −1.2 ÷ 0.4, so c ≥ −3.\nDividing by a positive number does not reverse the symbol, even though the other side is negative.\n−3 is included (≥), so the circle is closed and the shading goes to the right. Check: c = 0 gives 0 ≥ −1.2, true.",
    "ft": ""
@@ -2427,12 +2427,12 @@
    "gen": 1,
    "rt": "mc",
    "q": "Store A sells cheddar cheese for $7.29 per pound. Store B sells cheddar cheese for $17.05 per kilogram. 1 kilogram ≈ 2.2 pounds.\n\nWhich store charges less per pound, and how much less per pound?",
-   "a": "A. Store A, by $0.46 per pound",
+   "a": "D. Store A, by $0.46 per pound",
    "opts": [
-    "Store A, by $0.46 per pound",
     "Store A, by $9.76 per pound",
     "Store B, by $1.01 per pound",
-    "Store B, by $0.46 per pound"
+    "Store B, by $0.46 per pound",
+    "Store A, by $0.46 per pound"
    ],
    "s": "Store B charges $17.05 for 1 kilogram, which is about 2.2 pounds, so its price per pound is 17.05 ÷ 2.2 ≈ $7.75.\nStore A charges $7.29 per pound, so Store A charges less: 7.75 − 7.29 = $0.46 less per pound.\nThe prices can only be compared once both are in the same unit.",
    "ft": ""
@@ -2453,10 +2453,10 @@
   "after": {
    "gen": 3,
    "rt": "sa",
-   "q": "1 kilogram ≈ 2.2 pounds.\n\nApples cost $3.40 per kilogram. How much do 5 pounds of apples cost, to the nearest cent?",
-   "a": "7.73",
+   "q": "1 kilogram ≈ 2.2 pounds.\n\nApples cost $3.30 per kilogram. How much do 5 pounds of apples cost, to the nearest cent?",
+   "a": "7.50",
    "opts": [],
-   "s": "Convert the pounds to kilograms: 5 ÷ 2.2 ≈ 2.2727 kilograms.\nCost: 2.2727 × $3.40 ≈ $7.727, which rounds to $7.73.\nCheck: $3.40 per kilogram is about $1.55 per pound, and 5 × 1.545 ≈ 7.73.",
+   "s": "Convert the pounds to kilograms: 5 ÷ 2.2 = 2.2727… kg.\nCost: 2.2727… × $3.30 = $7.50.\n(Or: $3.30 ÷ 2.2 = $1.50 per pound, and 5 × $1.50 = $7.50.)",
    "ft": ""
   }
  },
@@ -2542,12 +2542,12 @@
    "gen": 1,
    "rt": "mc",
    "q": "A lawn-care guide says to spread 4 pounds of grass seed for every 1,500 square feet. The seed is sold in 1-pound bags.\n\nA rectangular lawn is 40 feet by 90 feet. How many bags of seed must be bought to cover the whole lawn?",
-   "a": "C. 10 bags",
+   "a": "D. 10 bags",
    "opts": [
+    "3 bags",
     "2 bags",
     "9 bags",
-    "10 bags",
-    "3 bags"
+    "10 bags"
    ],
    "s": "Area of the lawn: 40 × 90 = 3,600 square feet.\nProportion: 4/1500 = p/3600, so p = 4 × 3600 ÷ 1500 = 9.6 pounds.\nBags come in whole pounds, so 9 bags are not enough: 10 bags must be bought.",
    "ft": ""
@@ -2569,12 +2569,12 @@
    "gen": 0,
    "rt": "mc",
    "q": "Two streaming plans each charge a cost that is proportional to the number of months.\n\nPlan A: the table shows the cost for some numbers of months.\n\nMonths: 3, 5, 8 | Cost: $26.85, $44.75, $71.60\n\nPlan B costs $9.25 per month.\n\nWhich plan costs less for 12 months, and by how much?",
-   "a": "B. Plan A, by $3.60",
+   "a": "A. Plan A, by $3.60",
    "opts": [
-    "Plan B, by $3.60",
     "Plan A, by $3.60",
     "Plan B, by $211.20",
-    "Plan A, by $0.30"
+    "Plan A, by $0.30",
+    "Plan B, by $3.60"
    ],
    "s": "Plan A per month: $26.85 ÷ 3 = $8.95 (check: $44.75 ÷ 5 = $8.95). For 12 months: 12 × $8.95 = $107.40.\nPlan B for 12 months: 12 × $9.25 = $111.00.\nPlan A costs less, by 111.00 − 107.40 = $3.60.",
    "ft": ""
@@ -2618,12 +2618,12 @@
    "gen": 4,
    "rt": "mc",
    "q": "Two printers each print at a constant rate.\n\nPrinter A prints 42 pages in 2.5 minutes.\n\nPrinter B's number of pages, p, after t minutes is given by p = 17t.\n\nWhich printer prints more pages in 15 minutes, and how many more?",
-   "a": "A. Printer B, by 3 pages",
+   "a": "D. Printer B, by 3 pages",
    "opts": [
-    "Printer B, by 3 pages",
     "Printer B, by 0.2 page",
     "Printer A, by 375 pages",
-    "Printer A, by 25 pages"
+    "Printer A, by 25 pages",
+    "Printer B, by 3 pages"
    ],
    "s": "Printer A: 42 ÷ 2.5 = 16.8 pages per minute. In 15 minutes: 16.8 × 15 = 252 pages.\nPrinter B: 17 × 15 = 255 pages.\nPrinter B prints more, by 255 − 252 = 3 pages.",
    "ft": ""
@@ -2667,14 +2667,14 @@
    "gen": 0,
    "rt": "mc",
    "q": "Two phone plans each charge a cost that is proportional to the number of months.\n\nPlan X: the table shows the cost for some numbers of months.\n\nMonths: 2, 6, 10 | Cost: $55.50, $166.50, $277.50\n\nPlan Y: the cost c, in dollars, for m months is given by c = 28.5m.\n\nWhich plan costs less for 12 months, and by how much?",
-   "a": "D. Plan X, by $9.00",
+   "a": "A. Plan X, by $9.00",
    "opts": [
+    "Plan X, by $9.00",
     "Plan X, by $64.50",
     "Plan X, by $0.75",
-    "Plan Y, by $324.00",
-    "Plan X, by $9.00"
+    "Plan Y, by $324.00"
    ],
-   "s": "Plan X per month: $111.00 ÷ 4 = $27.75 (check: $166.50 ÷ 6 = $27.75). For 12 months: 12 × $27.75 = $333.00.\nPlan Y for 12 months: 28.5 × 12 = $342.00.\nPlan X costs less, by 342 − 333 = $9.00.",
+   "s": "Plan X per month: $55.50 ÷ 2 = $27.75 (check: $166.50 ÷ 6 = $27.75). For 12 months: 12 × $27.75 = $333.00.\nPlan Y for 12 months: 28.5 × 12 = $342.00.\nPlan X costs less, by 342 − 333 = $9.00.",
    "ft": ""
   }
  },
@@ -2760,12 +2760,12 @@
    "gen": 3,
    "rt": "mc",
    "q": "In a proportional relationship, 64.05 cups of water are used in 7 minutes. Let x be the number of minutes and let y be the number of cups of water.\n\nWhat is the constant of proportionality, k, in y = kx?",
-   "a": "B. 9.15",
+   "a": "C. 9.15",
    "opts": [
+    "64.05",
     "57.05",
     "9.15",
-    "0.11",
-    "64.05"
+    "0.11"
    ],
    "s": "In y = kx, the constant of proportionality is y ÷ x: cups divided by minutes.\n64.05 ÷ 7 = 9.15 cups per minute.\nx ÷ y (7 ÷ 64.05 ≈ 0.11) would be minutes per cup, the constant for x = ky.",
    "ft": ""
@@ -2796,33 +2796,6 @@
    ],
    "s": "In y = kx, the constant of proportionality is y ÷ x: walls divided by liters.\n4 ÷ 12.5 = 0.32 walls per liter.\n12.5 ÷ 4 = 3.125 is liters per wall, which would be the constant if x were walls and y were liters.",
    "ft": ""
-  }
- },
- {
-  "slot": "MA.7.AR.4.3/chk/1",
-  "why": "review fix 16",
-  "kind": "replace",
-  "ok": true,
-  "notes": [],
-  "before": {
-   "gen": 1,
-   "rt": "mc",
-   "q": "The table shows a proportional relationship between x and y.\n\nx: 4, 5, 6 | y: 20, 25, 30\n\nWhich graph represents this relationship?",
-   "a": "B. Graph B"
-  },
-  "after": {
-   "gen": 1,
-   "rt": "mc",
-   "q": "The table shows a proportional relationship between x and y.\n\nx: 4, 5, 6 | y: 20, 25, 30\n\nGraph B represents this relationship. Which statement about Graph B must be true?",
-   "a": "A. It passes through (0, 0) and (1, 5); the point (1, 5) shows the constant of proportionality, 5.",
-   "opts": [
-    "It passes through (0, 0) and (1, 5); the point (1, 5) shows the constant of proportionality, 5.",
-    "It passes through (0, 0) and (5, 1); the point (5, 1) shows the constant of proportionality, 5.",
-    "It passes through (0, 5) and (1, 5); the point (0, 5) shows the constant of proportionality, 5.",
-    "It passes through (0, 0) and (4, 20); the point (4, 20) shows the constant of proportionality, 20."
-   ],
-   "s": "Every proportional graph passes through the origin (0, 0): when x is 0, y is 0.\nThe constant of proportionality is y ÷ x = 20 ÷ 4 = 5, so when x = 1, y = 5. The point (1, 5) is on the line, and its y-value is the constant.\nGraph B rises 5 for every 1 to the right and starts at the origin, matching (0, 0) and (1, 5).",
-   "ft": "4 graphs (Graph A, Graph B, Graph C, Graph D) on the same grid (x from 0 to 6 by 1, y from 0 to 45 by 5): Graph A is the line y = 2.5x; Graph B is the line y = 5x; Graph C is the line y = 2.5x + 5; Graph D is the line y = 5x + 5"
   }
  },
  {
@@ -2868,12 +2841,12 @@
    "gen": 1,
    "rt": "mc",
    "q": "A fair 6-sided die has faces numbered 1 through 6. The die is rolled once and the number on the top face is recorded.\n\nWhat is the sample space for this experiment?",
-   "a": "D. {1, 2, 3, 4, 5, 6}",
+   "a": "A. {1, 2, 3, 4, 5, 6}",
    "opts": [
+    "{1, 2, 3, 4, 5, 6}",
     "{6}",
     "{1, 2, 3, 4, 5}",
-    "{even, odd}",
-    "{1, 2, 3, 4, 5, 6}"
+    "{even, odd}"
    ],
    "s": "The sample space lists every outcome that can be recorded.\nThe die can show 1, 2, 3, 4, 5 or 6, so the sample space is {1, 2, 3, 4, 5, 6}.\n6 is only the number of outcomes, and 'even' and 'odd' are events made of several outcomes, not outcomes themselves.",
    "ft": ""
@@ -2976,13 +2949,13 @@
   "after": {
    "gen": 2,
    "rt": "mc",
-   "q": "Four events have these probabilities: 0.09, 4/5, 52%, 0.97.\n\nWhich probability describes an event that is almost certain to happen?",
-   "a": "D. 0.97",
+   "q": "Four weather forecasts give these chances of rain tomorrow in four towns: 0.09, 4/5, 52%, 0.97.\n\nWhich chance describes a town where rain is almost certain?",
+   "a": "C. 0.97",
    "opts": [
-    "0.09",
     "4/5",
     "52%",
-    "0.97"
+    "0.97",
+    "0.09"
    ],
    "s": "An event is almost certain when its probability is very close to 1 (100%).\n0.97 is 3 hundredths from 1, so that event is almost certain.\n4/5 = 0.8 and 52% = 0.52 are likely but not almost certain; 0.09 is close to 0, so that event is unlikely.",
    "ft": ""
@@ -3003,13 +2976,13 @@
   "after": {
    "gen": 2,
    "rt": "mc",
-   "q": "The probabilities of three events are given in different forms.\n\nEvent A: 3/8\nEvent B: 0.4\nEvent C: 35%\n\nWhich statement correctly tells which event is most likely, and why?",
-   "a": "A. Event B, because 3/8 = 0.375 and 35% = 0.35, and 0.4 is greater than both.",
+   "q": "The chances of three events tomorrow are given in different forms.\n\nEvent A, the bus is late: 3/8\nEvent B, it rains: 0.4\nEvent C, the cafeteria serves pizza: 35%\n\nWhich statement correctly tells which event is most likely, and why?",
+   "a": "D. Event B, because 3/8 = 0.375 and 35% = 0.35, and 0.4 is greater than both.",
    "opts": [
-    "Event B, because 3/8 = 0.375 and 35% = 0.35, and 0.4 is greater than both.",
     "Event C, because 35 is greater than 3, 8 and 0.4.",
     "Event A, because 3/8 = 0.375, and 0.375 is greater than 0.4 since 375 is greater than 4.",
-    "Event C, because 35% = 3.5, which is greater than 0.4 and 3/8."
+    "Event C, because 35% = 3.5, which is greater than 0.4 and 3/8.",
+    "Event B, because 3/8 = 0.375 and 35% = 0.35, and 0.4 is greater than both."
    ],
    "s": "Write all three probabilities in the same form.\n3/8 = 3 ÷ 8 = 0.375; 0.4 = 0.400; 35% = 0.35.\n0.400 > 0.375 > 0.350, so Event B is the most likely.",
    "ft": ""
@@ -3058,12 +3031,12 @@
    "gen": 3,
    "rt": "mc",
    "q": "The probability that a randomly chosen student at a school is left-handed is 0.1.\n\nIs this event likely or unlikely? Explain using the probability.",
-   "a": "D. Unlikely, because 0.1 is close to 0 and much less than 1/2.",
+   "a": "C. Unlikely, because 0.1 is close to 0 and much less than 1/2.",
    "opts": [
-    "Likely, because 0.1 is greater than 0, so the event can happen.",
     "As likely as not, because a student is either left-handed or not.",
     "Impossible, because 0.1 rounds to 0.",
-    "Unlikely, because 0.1 is close to 0 and much less than 1/2."
+    "Unlikely, because 0.1 is close to 0 and much less than 1/2.",
+    "Likely, because 0.1 is greater than 0, so the event can happen."
    ],
    "s": "0.1 is 1/10: close to 0 and well below 1/2.\nA probability below 1/2 means the event is unlikely, so choosing a left-handed student is unlikely.\nIt is not impossible, because 0.1 is greater than 0; a two-outcome event is not automatically a 50% chance.",
    "ft": ""
@@ -3129,12 +3102,12 @@
    "gen": 0,
    "rt": "mc",
    "q": "A jar holds 20 buttons, and 7 of them are blue. One button is drawn at random.\n\nWhat is the probability of drawing a blue button?",
-   "a": "D. 7/20",
+   "a": "C. 7/20",
    "opts": [
-    "13/20",
     "7/27",
     "7/13",
-    "7/20"
+    "7/20",
+    "13/20"
    ],
    "s": "P(blue) = favorable outcomes ÷ total outcomes = 7/20.\n7/20 is already in simplest form.",
    "ft": ""
@@ -3177,7 +3150,7 @@
   "after": {
    "gen": 3,
    "rt": "mc",
-   "q": "Two students each simulate rolling a fair die. One runs 5,900 trials and the other runs 370 trials.\n\nWhose experimental probability of rolling a 4 is expected to be closer to the theoretical probability, 1/6?",
+   "q": "Two students each simulate rolling a fair 6-sided die. One runs 5,900 trials and the other runs 370 trials.\n\nWhose experimental probability of rolling a 4 is expected to be closer to the theoretical probability, 1/6?",
    "a": "D. The 5,900-trial student: with many more trials, random variation evens out, so the result is usually closer to 1/6.",
    "opts": [
     "The 370-trial student: a short simulation has less time for the results to drift away from 1/6.",
@@ -3231,13 +3204,13 @@
   "after": {
    "gen": 4,
    "rt": "mc",
-   "q": "A spinner has 5 equal sections, and 2 of them are blue. In a simulation the spinner is spun 300 times and lands on blue 132 times.\n\nWhich statement correctly compares the experimental and theoretical probabilities of landing on blue?",
-   "a": "B. The experimental probability, 132/300 = 0.44, is a little greater than the theoretical probability, 2/5 = 0.4.",
+   "q": "A fair spinner has 5 equal sections, and 2 of them are blue. In a simulation the spinner is spun 300 times and lands on blue 132 times.\n\nWhich statement correctly compares the experimental and theoretical probabilities of landing on blue?",
+   "a": "A. The experimental probability, 132/300 = 0.44, is a little greater than the theoretical probability, 2/5 = 0.4.",
    "opts": [
-    "The two probabilities must be the same, because the spinner is fair and 2 of the 5 sections are blue.",
     "The experimental probability, 132/300 = 0.44, is a little greater than the theoretical probability, 2/5 = 0.4.",
     "The experimental probability, 132/300, is a little less than the theoretical probability, 2/5, because a fraction with a greater denominator is the smaller fraction.",
-    "The theoretical probability is 132/300, because that is what actually happened in the simulation."
+    "The theoretical probability is 132/300, because that is what actually happened in the simulation.",
+    "The two probabilities must be the same, because the spinner is fair and 2 of the 5 sections are blue."
    ],
    "s": "Theoretical: 2/5 = 0.4.\nExperimental: 132/300 = 0.44.\nThe experimental probability is a little greater than the theoretical probability, because of random variation.",
    "ft": ""
@@ -3286,12 +3259,12 @@
    "gen": 1,
    "rt": "mc",
    "q": "In a random sample of 100 passengers, 35 check a bag.\n\nBased on this sample, about how many of the 800 passengers in the population check a bag?",
-   "a": "C. 280",
+   "a": "A. 280",
    "opts": [
-    "2,286",
-    "35",
     "280",
-    "520"
+    "520",
+    "2,286",
+    "35"
    ],
    "s": "Sample proportion: 35 ÷ 100 = 0.35.\nPrediction: 0.35 × 800 = 280.",
    "ft": ""
@@ -3315,7 +3288,7 @@
    "q": "A random sample of 300 students at a school were asked which lunch they like best. The results are shown.\n\nPizza: 75\nTacos: 120\nSalad: 105\n\nThere are 2,400 students at the school. Based on this sample, about how many students at the school like pizza best?",
    "a": "600",
    "opts": [],
-   "s": "In the sample, 75 out of 300 students chose pizza: 75/300 = 1/4.\n75/300 = x/2,400, so x = 2,400 ÷ 4 = 600.\nAbout 600 students at the school like pizza best.",
+   "s": "In the sample, 75 out of 300 students chose pizza: 75/300 = 1/4.\n75/300 = x/2400, so x = 2,400 ÷ 4 = 600.\nAbout 600 students at the school like pizza best.",
    "ft": ""
   }
  },
@@ -3362,12 +3335,12 @@
    "gen": 1,
    "rt": "mc",
    "q": "The numbers of minutes a student practiced piano on six days are 32, 41, 50, 57, 64, 186.\n\nWhich measure of variation better describes the spread of the data, and why?",
-   "a": "B. the interquartile range, because an outlier stretches the range",
+   "a": "C. the interquartile range, because an outlier stretches the range",
    "opts": [
+    "the range, because there is no outlier to stretch it",
     "the interquartile range, because it uses every value in the data set",
     "the interquartile range, because an outlier stretches the range",
-    "the range, because the outlier is part of the data and must be included in the spread",
-    "the range, because there is no outlier to stretch it"
+    "the range, because the outlier is part of the data and must be included in the spread"
    ],
    "s": "186 is far from every other value, so it is an outlier.\nThe range, 186 − 32 = 154 minutes, is stretched by the outlier. The interquartile range uses only the middle half of the ordered data, Q3 − Q1 = 64 − 41 = 23 minutes, so the outlier does not stretch it.\nThe interquartile range describes the spread better; it goes with the median as the measure of center.",
    "ft": ""
@@ -3416,12 +3389,12 @@
    "gen": 3,
    "rt": "mc",
    "q": "The histogram shows the numbers of minutes 25 students spent on homework last night. The teacher wants one number that, multiplied by 25, gives the total minutes the whole class spent on homework.\n\nWhich measure should the teacher use, and why?",
-   "a": "A. the mean, because it is the total of all the values divided by the number of values",
+   "a": "B. the mean, because it is the total of all the values divided by the number of values",
    "opts": [
+    "the median, because one value is far from the rest of the data",
     "the mean, because it is the total of all the values divided by the number of values",
     "the mean, because the data set has an odd number of values",
-    "the median, because it is less affected by repeated values",
-    "the median, because one value is far from the rest of the data"
+    "the median, because it is less affected by repeated values"
    ],
    "s": "The teacher's purpose is the total: mean = total ÷ 25, so mean × 25 = total.\nThe one value in the 70–79 interval is an outlier, but the purpose, not the outlier, decides here: the median × 25 does not give the total.\nThe mean is the measure that fits this purpose.",
    "ft": "a histogram with bars 0–9: 0, 10–19: 4, 20–29: 11, 30–39: 9, 40–49: 0, 50–59: 0, 60–69: 0, 70–79: 1"
@@ -3470,12 +3443,12 @@
    "gen": 0,
    "rt": "mc",
    "q": "A class surveyed 150 students about the lunch they like best.\n\nPizza: 60\nTacos: 45\nSalad: 30\nPasta: 15\n\nThe class wants a display that answers this question at a glance: how many more students chose Pizza than chose Salad? Which display is the most appropriate?",
-   "a": "A. a bar chart",
+   "a": "D. a bar chart",
    "opts": [
-    "a bar chart",
     "a histogram",
     "a line plot",
-    "a circle graph"
+    "a circle graph",
+    "a bar chart"
    ],
    "s": "The question compares two counts. A bar chart shows one bar for each category, with heights read on a scale, so the two counts and their difference can be read.\nA circle graph shows each category's share of the whole, not the counts; a histogram and a line plot are for numerical data.",
    "ft": ""
@@ -3524,12 +3497,12 @@
    "gen": 1,
    "rt": "mc",
    "q": "A teacher recorded the test scores of 15 students:\n97, 97, 79, 95, 97, 90, 79, 87, 89, 72, 72, 72, 91, 85, 98\n\nThe teacher wants a display that shows the median and the spread of the middle half of the scores at a glance. Which display is the most appropriate for this data set?",
-   "a": "B. a box plot",
+   "a": "A. a box plot",
    "opts": [
-    "a bar chart of categories",
     "a box plot",
     "a stem-and-leaf plot",
-    "a histogram"
+    "a histogram",
+    "a bar chart of categories"
    ],
    "s": "The scores are numerical. A box plot marks the median and the quartiles, so the median and the interquartile range (the spread of the middle half) can be read directly.\nA stem-and-leaf plot keeps every score but the quartiles would still have to be counted out; a histogram groups the scores so the exact median cannot be read; a bar chart is for categorical data.",
    "ft": ""
@@ -3621,10 +3594,10 @@
   "after": {
    "gen": 1,
    "rt": "sa",
-   "q": "A trapezoid-shaped flower bed has bases of 10 feet and 6 feet and a vertical height of 8 feet.\n\nWhat is the area of the flower bed, in square feet?",
-   "a": "64",
+   "q": "A trapezoid has bases of 10 feet and 4 feet. Each slanted side is 5 feet long, and the height is 4 feet.\n\nWhat is the area of the trapezoid, in square feet?",
+   "a": "28",
    "opts": [],
-   "s": "A = ½(b₁ + b₂)h = ½(10 + 6)(8) = ½(16)(8) = 64 ft².",
+   "s": "Only the bases and the height go in the formula; the slanted side is not the height.\nA = ½(b₁ + b₂)h = ½(10 + 4)(4) = ½(14)(4) = 28 square feet.",
    "ft": ""
   }
  },
@@ -4093,7 +4066,7 @@
   "after": {
    "gen": 0,
    "rt": "sa",
-   "q": "A photo that is 4 inches wide is enlarged to make a poster that is 30 inches wide.\n\nWhat scale factor was used to enlarge the photo? Write the scale factor as a whole number, a decimal, or a fraction.",
+   "q": "A photo that is 4 inches wide is enlarged to make a poster that is 30 inches wide.\n\nWhat scale factor was used to enlarge the photo? Write the scale factor as a whole number or a fraction.",
    "a": "7.5",
    "opts": [],
    "s": "The scale factor is new length ÷ original length.\n30 ÷ 4 = 7.5.\nThe factor is greater than 1, so the poster is an enlargement.",
@@ -4115,10 +4088,10 @@
   "after": {
    "gen": 1,
    "rt": "sa",
-   "q": "Surface area of a right circular cylinder: SA = 2πr^2 + 2πrh\n\nA right circular cylinder has a radius of 5 inches and a height of 9 inches.\n\nWhat is the surface area of the cylinder? Write your answer in terms of π. Type only the number in front of π.",
+   "q": "The net of a right circular cylinder has two circles, each with a radius of 5 inches, and one rectangle that is 9 inches tall. The rectangle wraps all the way around the circles.\n\nWhat is the total area of the net? Write your answer in terms of π. Type only the number in front of π.",
    "a": "140",
    "opts": [],
-   "s": "Think of the net: two circles and one rectangle.\nTwo circles: 2 × π(5)² = 50π.\nRectangle: its length is the circumference 2π(5) = 10π, so 10π × 9 = 90π.\nSurface area: 50π + 90π = 140π square inches.",
+   "s": "Two circles: 2 × π(5)² = 50π.\nRectangle: its length is the circumference of a circle, 2π(5) = 10π, so its area is 10π × 9 = 90π.\nTotal area of the net: 50π + 90π = 140π square inches.",
    "ft": ""
   }
  },
@@ -4291,7 +4264,7 @@
   "after": {
    "gen": 0,
    "rt": "mc",
-   "q": "Tank A is a cylinder with a radius of 4 feet and a height of 10 feet. Tank B is a cylinder with a diameter of 6 feet and a height of 15 feet.\n\nWhich tank holds more, and by how many cubic feet?",
+   "q": "Volume of a right circular cylinder: V = πr^2h\n\nTank A is a cylinder with a radius of 4 feet and a height of 10 feet. Tank B is a cylinder with a diameter of 6 feet and a height of 15 feet.\n\nWhich tank holds more, and by how many cubic feet?",
    "a": "B. Tank A, by 25π ft³",
    "opts": [
     "Tank B, by 380π ft³",
@@ -4318,7 +4291,7 @@
   "after": {
    "gen": 2,
    "rt": "sa",
-   "q": "A cylindrical candle has a radius of 5 centimeters and a height of 7 centimeters.\n\nWhat is the volume of the candle? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+   "q": "Volume of a right circular cylinder: V = πr^2h\n\nA cylindrical candle has a radius of 5 centimeters and a height of 7 centimeters.\n\nWhat is the volume of the candle? Round your answer to the nearest hundredth. Use the π key on your calculator.",
    "a": "549.78",
    "opts": [],
    "s": "V = πr²h = π(5)²(7) = 175π.\nWith the π key: 175 × π ≈ 549.78 cubic centimeters (549.5 with 3.14).",
@@ -4340,7 +4313,7 @@
   "after": {
    "gen": 0,
    "rt": "sa",
-   "q": "A cylindrical swimming pool has a diameter of 12 feet and a height of 3 feet.\n\nWhat is the volume of the pool? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+   "q": "Volume of a right circular cylinder: V = πr^2h\n\nA cylindrical swimming pool has a diameter of 12 feet and a height of 3 feet.\n\nWhat is the volume of the pool? Round your answer to the nearest hundredth. Use the π key on your calculator.",
    "a": "339.29",
    "opts": [],
    "s": "The radius is 12 ÷ 2 = 6 feet.\nV = πr²h = π(6)²(3) = 108π.\nWith the π key: 108 × π ≈ 339.29 cubic feet.",
@@ -4362,10 +4335,10 @@
   "after": {
    "gen": 1,
    "rt": "sa",
-   "q": "Write the mixed number as a decimal.\n\n−2 3/8",
-   "a": "−2.375",
+   "q": "Write the repeating decimal as a mixed number in simplest form.\n\n−2.3̅",
+   "a": "−2 1/3",
    "opts": [],
-   "s": "3/8 = 3 ÷ 8 = 0.375.\nKeep the whole-number part: 2 3/8 = 2.375.\nThe number is negative, so −2 3/8 = −2.375.",
+   "s": "0.3̅ = 1/3, so 2.3̅ = 2 1/3.\nThe number is negative: −2.3̅ = −2 1/3 (or −7/3).",
    "ft": ""
   }
  },
@@ -4536,15 +4509,15 @@
   "after": {
    "gen": 5,
    "rt": "mc",
-   "q": "Two identical fuel tanks are partly full. Tank A is 7/8 full and tank B is 88% full.\n\nTank A holds ____ tank B.",
-   "a": "D. less than",
+   "q": "Two identical fuel tanks are partly full. Tank A is 8/9 full and tank B is 88% full.\n\nTank A holds ____ tank B.",
+   "a": "D. more than",
    "opts": [
+    "less than",
     "the same amount as",
     "cannot be compared without knowing how much a tank holds",
-    "more than",
-    "less than"
+    "more than"
    ],
-   "s": "Rewrite both amounts in the same form. 7/8 = 7 ÷ 8 = 0.875 = 87.5%.\n87.5% is less than 88%, so tank A holds less than tank B.\nRounding 87.5% to 88% hides the difference; compare the exact values.",
+   "s": "Rewrite both amounts in the same form. 8/9 = 8 ÷ 9 = 0.8̅, which is 88.8̅%.\n88.888…% is more than 88%, so tank A holds more than tank B.\nRounding 8/9 to 88% hides the difference.",
    "ft": ""
   }
  },

@@ -98,7 +98,7 @@
   "slot": "MA.7.DP.2.2/chk/0",
   "fix": "3",
   "rt": "mc",
-  "q": "Four events have these probabilities: 0.09, 4/5, 52%, 0.97.\n\nWhich probability describes an event that is almost certain to happen?",
+  "q": "Four weather forecasts give these chances of rain tomorrow in four towns: 0.09, 4/5, 52%, 0.97.\n\nWhich chance describes a town where rain is almost certain?",
   "opts": [
    "0.97",
    "0.09",
@@ -120,7 +120,7 @@
   "slot": "MA.7.DP.2.2/chk/4",
   "fix": "2",
   "rt": "mc",
-  "q": "The probabilities of three events are given in different forms.\n\nEvent A: 3/8\nEvent B: 0.4\nEvent C: 35%\n\nWhich statement correctly tells which event is most likely, and why?",
+  "q": "The chances of three events tomorrow are given in different forms.\n\nEvent A, the bus is late: 3/8\nEvent B, it rains: 0.4\nEvent C, the cafeteria serves pizza: 35%\n\nWhich statement correctly tells which event is most likely, and why?",
   "opts": [
    "Event B, because 3/8 = 0.375 and 35% = 0.35, and 0.4 is greater than both.",
    "Event C, because 35 is greater than 3, 8 and 0.4.",
@@ -307,7 +307,7 @@
   "slot": "MA.7.DP.2.4/chk/2",
   "fix": "10",
   "rt": "mc",
-  "q": "Two students each simulate rolling a fair die. One runs 5,900 trials and the other runs 370 trials.\n\nWhose experimental probability of rolling a 4 is expected to be closer to the theoretical probability, 1/6?",
+  "q": "Two students each simulate rolling a fair 6-sided die. One runs 5,900 trials and the other runs 370 trials.\n\nWhose experimental probability of rolling a 4 is expected to be closer to the theoretical probability, 1/6?",
   "opts": [
    "The 5,900-trial student: with many more trials, random variation evens out, so the result is usually closer to 1/6.",
    "The 370-trial student: a short simulation has less time for the results to drift away from 1/6.",
@@ -351,7 +351,7 @@
   "slot": "MA.7.DP.2.4/re/2",
   "fix": "4",
   "rt": "mc",
-  "q": "A spinner has 5 equal sections, and 2 of them are blue. In a simulation the spinner is spun 300 times and lands on blue 132 times.\n\nWhich statement correctly compares the experimental and theoretical probabilities of landing on blue?",
+  "q": "A fair spinner has 5 equal sections, and 2 of them are blue. In a simulation the spinner is spun 300 times and lands on blue 132 times.\n\nWhich statement correctly compares the experimental and theoretical probabilities of landing on blue?",
   "opts": [
    "The experimental probability, 132/300 = 0.44, is a little greater than the theoretical probability, 2/5 = 0.4.",
    "The experimental probability, 132/300, is a little less than the theoretical probability, 2/5, because a fraction with a greater denominator is the smaller fraction.",
@@ -424,7 +424,7 @@
    "600",
    "600.0"
   ],
-  "s": "In the sample, 75 out of 300 students chose pizza: 75/300 = 1/4.\n75/300 = x/2,400, so x = 2,400 ÷ 4 = 600.\nAbout 600 students at the school like pizza best.",
+  "s": "In the sample, 75 out of 300 students chose pizza: 75/300 = 1/4.\n75/300 = x/2400, so x = 2,400 ÷ 4 = 600.\nAbout 600 students at the school like pizza best.",
   "typed": [
    [
     "75",
