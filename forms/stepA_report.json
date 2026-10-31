@@ -1952,5 +1952,181 @@
    "s": "A box plot marks Q1 and Q3, so the interquartile range is Q3 − Q1 = 45 − 35 = 10 minutes.\nA histogram groups the values into intervals, so it shows only that Q1 is in 30–39 and Q3 is in 40–49, not their exact values.\n45 minutes is the range (65 − 20), not the interquartile range, and 8 is the height of the tallest bar.",
    "ft": "Display B: a histogram with bars 20–29: 4, 30–39: 5, 40–49: 8, 50–59: 1, 60–69: 2. Display A: a box plot from 20 to 65 with Q1 = 35, median = 40 and Q3 = 45"
   }
+ },
+ {
+  "slot": "MA.7.GR.1.3/chk/1",
+  "why": "π key or 3.14: both values accepted",
+  "kind": "forms",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 3,
+   "rt": "sa",
+   "q": "The circumference of a round pool is 106.81 feet.\n\nWhat is the diameter of the round pool? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+   "a": "34 feet (34.00 also accepted)"
+  },
+  "after": {
+   "gen": 3,
+   "rt": "sa",
+   "q": "The circumference of a round pool is 106.81 feet.\n\nWhat is the diameter of the round pool? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+   "a": "34 feet (34.00 also accepted)",
+   "opts": [],
+   "s": "C = πd, so d = C ÷ π.\nWith the π key: 106.81 ÷ π ≈ 34.00 feet.",
+   "ft": ""
+  }
+ },
+ {
+  "slot": "MA.7.GR.1.3/chk/3",
+  "why": "π key or 3.14: both values accepted",
+  "kind": "forms",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 2,
+   "rt": "sa",
+   "q": "A circular tabletop has a radius of 2 feet.\n\nWhat is the circumference of the tabletop? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+   "a": "12.57 feet"
+  },
+  "after": {
+   "gen": 2,
+   "rt": "sa",
+   "q": "A circular tabletop has a radius of 2 feet.\n\nWhat is the circumference of the tabletop? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+   "a": "12.57 feet",
+   "opts": [],
+   "s": "C = 2πr = 2π(2) = 4π.\nWith the π key: 4 × π ≈ 12.57 feet.",
+   "ft": ""
+  }
+ },
+ {
+  "slot": "MA.7.GR.1.3/re/0",
+  "why": "π key or 3.14: both values accepted",
+  "kind": "forms",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 4,
+   "rt": "sa",
+   "q": "A round plate has a circumference of 81.68 centimeters, as shown.\n\nWhat is the radius of the round plate? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+   "a": "13 centimeters (13.00 also accepted)"
+  },
+  "after": {
+   "gen": 4,
+   "rt": "sa",
+   "q": "A round plate has a circumference of 81.68 centimeters, as shown.\n\nWhat is the radius of the round plate? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+   "a": "13 centimeters (13.00 also accepted)",
+   "opts": [],
+   "s": "C = 2πr, so r = C ÷ (2π).\nWith the π key: 81.68 ÷ (2π) ≈ 13.00 centimeters.",
+   "ft": "a circle with its radius drawn from the center and marked \"r = ?\"; the circumference is labelled C = 81.68 cm"
+  }
+ },
+ {
+  "slot": "MA.7.GR.2.2/chk/3",
+  "why": "π key or 3.14: both values accepted",
+  "kind": "forms",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 4,
+   "rt": "sa",
+   "q": "Surface area of a right circular cylinder: SA = 2πr² + 2πrh\n\nA cylindrical oatmeal container has a radius of 5 inches and a height of 11 inches. A label wraps all the way around its curved side, with no overlap; the top and the bottom are not covered.\n\nWhat is the area of the label? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+   "a": "345.58 square inches"
+  },
+  "after": {
+   "gen": 4,
+   "rt": "sa",
+   "q": "Surface area of a right circular cylinder: SA = 2πr² + 2πrh\n\nA cylindrical oatmeal container has a radius of 5 inches and a height of 11 inches. A label wraps all the way around its curved side, with no overlap; the top and the bottom are not covered.\n\nWhat is the area of the label? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+   "a": "345.58 square inches",
+   "opts": [],
+   "s": "The label covers only the curved side, the 2πrh part of the formula; the 2πr² part (the top and the bottom) is not included: 2π(5)(11) = 110π.\nWith the π key: 110 × π ≈ 345.58 square inches.",
+   "ft": ""
+  }
+ },
+ {
+  "slot": "MA.7.GR.2.2/re/0",
+  "why": "π key or 3.14: both values accepted",
+  "kind": "forms",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 4,
+   "rt": "sa",
+   "q": "Surface area of a right circular cylinder: SA = 2πr² + 2πrh\n\nA cylindrical planter has no top. It has a radius of 5 inches and a height of 12 inches. The outside of the planter, including its bottom, will be painted.\n\nWhat is the area that will be painted? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+   "a": "455.53 square inches"
+  },
+  "after": {
+   "gen": 4,
+   "rt": "sa",
+   "q": "Surface area of a right circular cylinder: SA = 2πr² + 2πrh\n\nA cylindrical planter has no top. It has a radius of 5 inches and a height of 12 inches. The outside of the planter, including its bottom, will be painted.\n\nWhat is the area that will be painted? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+   "a": "455.53 square inches",
+   "opts": [],
+   "s": "The planter has one circular base and the curved side, so only one πr² is used: π(5)² + 2π(5)(12) = 25π + 120π = 145π.\nWith the π key: 145 × π ≈ 455.53 square inches.",
+   "ft": ""
+  }
+ },
+ {
+  "slot": "MA.7.GR.2.3/chk/4",
+  "why": "π key or 3.14: both values accepted",
+  "kind": "forms",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 0,
+   "rt": "sa",
+   "q": "A cylindrical storage tank has a volume of 478 cubic feet and a radius of 3.2 feet.\n\nWhat is the height of the storage tank? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+   "a": "14.86 feet"
+  },
+  "after": {
+   "gen": 0,
+   "rt": "sa",
+   "q": "A cylindrical storage tank has a volume of 478 cubic feet and a radius of 3.2 feet.\n\nWhat is the height of the storage tank? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+   "a": "14.86 feet",
+   "opts": [],
+   "s": "V = πr²h, so 478 = π(3.2)²h = 10.24πh.\nh = 478 ÷ (10.24π) ≈ 14.86 feet with the π key.",
+   "ft": ""
+  }
+ },
+ {
+  "slot": "MA.7.GR.2.3/re/1",
+  "why": "π key or 3.14: both values accepted",
+  "kind": "forms",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 0,
+   "rt": "sa",
+   "q": "A cylindrical swimming pool has a diameter of 12 feet and a height of 3 feet.\n\nWhat is the volume of the pool? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+   "a": "339.29 cubic feet"
+  },
+  "after": {
+   "gen": 0,
+   "rt": "sa",
+   "q": "A cylindrical swimming pool has a diameter of 12 feet and a height of 3 feet.\n\nWhat is the volume of the pool? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+   "a": "339.29 cubic feet",
+   "opts": [],
+   "s": "The radius is 12 ÷ 2 = 6 feet.\nV = πr²h = π(6)²(3) = 108π.\nWith the π key: 108 × π ≈ 339.29 cubic feet.",
+   "ft": ""
+  }
+ },
+ {
+  "slot": "MA.7.GR.2.3/cmp/0",
+  "why": "π key or 3.14: both values accepted",
+  "kind": "forms",
+  "ok": true,
+  "notes": [],
+  "before": {
+   "gen": 2,
+   "rt": "sa",
+   "q": "A cylindrical tank has a radius of 8 feet and a height of 5 feet.\n\nWhat is the volume of the tank? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+   "a": "1005.31 cubic feet"
+  },
+  "after": {
+   "gen": 2,
+   "rt": "sa",
+   "q": "A cylindrical tank has a radius of 8 feet and a height of 5 feet.\n\nWhat is the volume of the tank? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+   "a": "1005.31 cubic feet",
+   "opts": [],
+   "s": "V = πr²h = π(8)²(5) = 320π.\nWith the π key: 320 × π ≈ 1005.31 cubic feet.",
+   "ft": ""
+  }
  }
 ]

@@ -448,5 +448,55 @@ for e, t in zip(elig, targets):
     e['set']['a'] = f'{LT[t]}. {no[t]}'
 from collections import Counter
 print('keys of hand conversions:', dict(Counter(LT[e['set']['key']] for e in P if e.get('set', {}).get('rt') == 'mc')))
+
+# ---------------- Forms-only overrides (no item change): wider accepted sets ----------------
+# "Use the π key" items: a student who uses 3.14 lands a few hundredths off; both values are right.
+for slot, both in {
+    'MA.7.GR.1.3/chk/1': ['34', '34.02'], 'MA.7.GR.1.3/chk/3': ['12.57', '12.56'], 'MA.7.GR.1.3/re/0': ['13', '13.01'],
+    'MA.7.GR.2.2/chk/3': ['345.58', '345.40'], 'MA.7.GR.2.2/re/0': ['455.53', '455.30'],
+    'MA.7.GR.2.3/chk/4': ['14.86', '14.87'], 'MA.7.GR.2.3/re/1': ['339.29', '339.12'], 'MA.7.GR.2.3/cmp/0': ['1005.31', '1004.80'],
+}.items():
+    P.append({'slot': slot, 'why': 'π key or 3.14: both values accepted', 'forms': {'type': 'sa', 'accept': both}})
+
+# ---------------- Item rewrites from the 2026-10-30 review (forms/review/rewrites/*.json) ----------------
+# Each entry is a complete replacement item written to the authoring brief; the keys were recomputed independently.
+import glob, os
+RW = []
+for f in sorted(glob.glob('/home/claude/dpp/forms/review/rewrites/out_*.json')):
+    RW += json.load(open(f))
+rw_seen = set()
+for e in RW:
+    assert e['slot'] not in rw_seen, 'duplicate rewrite ' + e['slot']; rw_seen.add(e['slot'])
+    assert not e['slot'].startswith('MA.7.AR.1.1/'), 'AR.1.1 is frozen'
+    q = e['q']
+    st = {'q': q, 's': e['s'], 'inst': None, 'rows': None, 'cols': None}
+    if not e.get('keep_fig'):
+        st['fig'] = None; st['ft'] = None
+    entry = {'slot': e['slot'], 'why': 'review fix ' + str(e.get('fix', '')), 'rewrite': True}
+    if e['rt'] in ('mc', 'ms'):
+        st['rt'] = e['rt']; st['opts'] = e['opts']; st['key'] = e['key']
+        st['a'] = f"{LT[e['key']]}. {e['opts'][e['key']]}" if e['rt'] == 'mc' else '; '.join(f"{LT[k]}. {e['opts'][k]}" for k in e['key'])
+        if e['rt'] == 'ms':
+            entry['forms'] = {'native': True}
+    else:
+        st['rt'] = None; st['opts'] = None; st['key'] = None; st['a'] = e['answer']
+        entry['forms'] = {'type': 'sa', 'accept': e['accept']} if e.get('accept') else None
+        if entry['forms'] is None: del entry['forms']
+    entry['set'] = st
+    P.append(entry)
+# balance the new mc keys on their own (the earlier shuffle stays as it was, so untouched items keep their letters)
+elig2 = [e for e in P if e.get('rewrite') and e['set'].get('rt') == 'mc']
+targets2 = (list(range(4)) * (len(elig2) // 4 + 1))[:len(elig2)]
+random.Random(20261030).shuffle(targets2)
+for e, t in zip(elig2, targets2):
+    o, k = e['set']['opts'], e['set']['key']
+    n = len(o); sh = (t - k) % n
+    no = [None] * n
+    for i, v in enumerate(o):
+        no[(i + sh) % n] = v
+    e['set']['opts'], e['set']['key'] = no, t
+    e['set']['a'] = f'{LT[t]}. {no[t]}'
+    e['rotate'] = sh                         # so the review notes' per-option meanings can follow
+print('rewrites:', len(RW), 'keys:', dict(Counter(LT[e['set']['key']] for e in elig2)))
 json.dump(P, open('/home/claude/dpp/forms/forms_patches.json', 'w'), indent=1, ensure_ascii=False)
 print(len(P), 'patches;', sum(1 for p in P if 'redraw' in p), 'redraws;', sum(1 for p in P if p.get('set', {}).get('rt') == 'mc'), 'to multiple choice')

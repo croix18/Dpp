@@ -704,6 +704,35 @@ test('updateKeys: typed keys follow the manifest; choice questions untouched', (
   assert(/Re-set the typed keys on \d+ forms/.test(lastLogs(W)), lastLogs(W));
 });
 
+test('rebuildForms: only the ONLY forms are trashed and rebuilt; the rest keep their IDs', () => {
+  const W = makeWorld();
+  run(W, 'buildForms');
+  drain(W);
+  const before = Object.fromEntries(logRows(W).rows.map(r => [r.key, r.id]));
+  W.config.ONLY = 'C-AR.1.2, C-AR.2.2';
+  const ex = run(W, 'rebuildForms');
+  assert(!ex.error && !ex.killed, ex.error && ex.error.message);
+  drain(W);
+  W.config.ONLY = '';
+  const after = Object.fromEntries(logRows(W).rows.map(r => [r.key, r.id]));
+  const changed = Object.keys(after).filter(k => after[k] !== before[k]).sort();
+  assert.deepStrictEqual(changed, MANIFEST.forms.filter(f => f.id === 'C-AR.1.2' || f.id === 'C-AR.2.2').map(f => f.key).sort(), 'exactly the six forms rebuilt');
+  changed.forEach(k => assert(W.nodes.get(before[k]).trashed, k + ': old master trashed'));
+  verifyBuild(W);
+  assert.strictEqual(liveTriggers(W).length, 0);
+});
+
+test('rebuildForms with ONLY blank refuses and changes nothing', () => {
+  const W = makeWorld();
+  run(W, 'buildForms');
+  drain(W);
+  const before = JSON.stringify(logRows(W).rows);
+  const ex = run(W, 'rebuildForms');
+  assert(!ex.error, ex.error && ex.error.message);
+  assert(/Set ONLY/.test(lastLogs(W)), lastLogs(W));
+  assert.strictEqual(JSON.stringify(logRows(W).rows), before);
+});
+
 test('ONLY with a typo stops at once and names the bad part', () => {
   const W = makeWorld({ config: { ONLY: 'Unit 9, C-AR.9.9' } });
   run(W, 'buildForms');
