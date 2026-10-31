@@ -7,7 +7,7 @@ const fs = require('fs');
 const ROOT = '/home/claude/dpp/';
 const PLAN = JSON.parse(fs.readFileSync(ROOT + 'forms/plan_forms.json', 'utf8')).bench;
 const SPEC = JSON.parse(fs.readFileSync(ROOT + 'forms/forms_spec.json', 'utf8'));
-const S = JSON.parse(fs.readFileSync(ROOT + 'scales.json', 'utf8'));
+const S = JSON.parse(fs.readFileSync(ROOT + 'forms/scales.json', 'utf8'));
 const OUT = ROOT + 'forms/png/';
 const ONLY = process.env.ONLY || '';
 fs.mkdirSync(OUT, { recursive: true });
@@ -39,7 +39,7 @@ fs.mkdirSync(OUT, { recursive: true });
         const q = PLAN[code][sn][+i];
         const key = Q.slot.replace(/\//g, '_');
         const stem = String(q.q).replace(/\n\n(<table)/g, '$1').replace(/(<\/table>)\n\n/g, '$1').replace(/terms of π([.?])/g, '<span style="white-space:nowrap">terms of π$1</span>');
-        html += `<div class="card" id="q_${key}"><div class="stem">${fmtQ(stem)}</div>${figHTML(q)}${optsBlock(q, Q)}${note(Q)}</div>`;
+        html += `<div class="card" id="q_${key}"><div class="qnum">Question ${Q.n}</div><div class="stem">${fmtQ(stem)}</div>${figHTML(q)}${optsBlock(q, Q)}${note(Q)}</div>`;
         let ans;
         const A = fmtFrac(String(q.a).replace(/\.;\s/g, '; '));   // not fmtAns: its mixed-number gloss breaks expressions
         if (Q.type === 'Short answer') ans = `<div class="ans"><span class="lab">Answer</span> ${A}</div><div class="acc">Forms answer key: ${Q.accept.map(esc).join(' &nbsp;·&nbsp; ')}</div>`;
@@ -64,6 +64,7 @@ fs.mkdirSync(OUT, { recursive: true });
       #fx svg text{font-family:Lexend,Arial,sans-serif}
       .card{width:640px;box-sizing:border-box;padding:18px 22px 20px;margin:0 0 14px;background:#fff;font-size:17px;line-height:1.5}
       .card .stem{margin:0}
+      .card .qnum{display:inline-block;font-size:12.5px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:#1f2a44;border-radius:5px;padding:2px 9px;margin:0 0 10px}
       .card .figwrap{margin:12px 0 4px}
       .card .figwrap svg{display:block;width:100%;max-width:360px;height:auto}
       .card .figwrap svg.wide{max-width:560px}

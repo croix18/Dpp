@@ -664,6 +664,32 @@ test('updateMessages before anything is built says so and changes nothing', () =
   assert.strictEqual(findLive(W, n => n.mime === MIME.FORMS).length, 0);
 });
 
+test('updateImages: built forms get the kit\'s current pictures in order, across runs; nothing else changes', () => {
+  const W = makeWorld();
+  run(W, 'buildForms');
+  drain(W);
+  const { rows } = logRows(W);
+  const forms = rows.map(r => ({ key: r.key, f: W.nodes.get(r.id).form }));
+  // pretend every picture came from an older kit
+  forms.forEach(({ f }) => f.items.forEach(it => { if (it.kind === 'IMAGE') it.image = 'OLD-' + it.image; }));
+  const strip = f => JSON.stringify(f.items.map(it => Object.assign({}, it, { image: it.kind === 'IMAGE' ? '' : undefined })));
+  const before = forms.map(({ f }) => strip(f));
+  const t0 = W.T;
+  const ex = run(W, 'updateImages');
+  assert(!ex.error && !ex.killed, ex.error && ex.error.message);
+  const runs = 1 + drain(W);
+  assert(!W.execs.some(e => e.killed), 'no run hit the 6-minute limit');
+  forms.forEach(({ key, f }, i) => {
+    const F = MANIFEST.forms.find(x => x.key === key);
+    const want = F.questions.map(Q => Q.image).concat(F.level_image ? [F.level_image] : []);
+    assert.deepStrictEqual(f.items.filter(it => it.kind === 'IMAGE').map(it => it.image), want, key + ': pictures in order');
+    assert.strictEqual(strip(f), before[i], key + ': nothing else changed');
+  });
+  assert.strictEqual(liveTriggers(W).length, 0, 'no triggers left');
+  assert(/Updated the pictures on 102 built forms/.test(lastLogs(W)), lastLogs(W));
+  return `${runs} run(s) over ${minutes(W.T - t0)} simulated min`;
+});
+
 test('ONLY with a typo stops at once and names the bad part', () => {
   const W = makeWorld({ config: { ONLY: 'Unit 9, C-AR.9.9' } });
   run(W, 'buildForms');

@@ -5,7 +5,7 @@
 const { chromium } = require('playwright');
 const fs = require('fs');
 const ROOT = '/home/claude/dpp/';
-const FROZEN = JSON.parse(fs.readFileSync(ROOT + 'frozen_ed4_1.json', 'utf8'));
+const FROZEN = JSON.parse(fs.readFileSync(ROOT + 'paper-edition/frozen_ed4_1.json', 'utf8'));
 const PATCHES = JSON.parse(fs.readFileSync(ROOT + 'forms/forms_patches.json', 'utf8'));
 
 (async () => {
@@ -13,7 +13,7 @@ const PATCHES = JSON.parse(fs.readFileSync(ROOT + 'forms/forms_patches.json', 'u
   const p = await b.newPage();
   p.on('console', m => { if (m.type() === 'error') console.log('ERR', m.text().slice(0, 200)); });
   await p.addInitScript(() => { let a = 20261026 >>> 0; Math.random = () => { a = (a + 0x6D2B79F5) >>> 0; let t = a; t = Math.imul(t ^ (t >>> 15), t | 1); t ^= t + Math.imul(t ^ (t >>> 7), t | 61); return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }; });
-  await p.goto('file://' + ROOT + 'cadence.html');
+  await p.goto('file://' + ROOT + 'cadence/cadence.html');
   await p.waitForTimeout(1500);
 
   const result = await p.evaluate(({ FROZEN, PATCHES }) => {

@@ -321,6 +321,7 @@ function GenericItem(W, node, it) {
     getTitle: () => it.title,
     getIndex: () => node.form.items.indexOf(it),
     getType: () => it.kind,
+    asImageItem: () => { if (it.kind !== 'IMAGE') throw new Error('Cannot convert this item to ImageItem'); return TypedItem(W, node, it); },
   });
 }
 
@@ -378,6 +379,7 @@ function FormObj(W, node) {
 
 function FormAppObj(W) {
   return strict('FormApp', {
+    ItemType: Object.freeze({ MULTIPLE_CHOICE: 'MULTIPLE_CHOICE', CHECKBOX: 'CHECKBOX', LIST: 'LIST', TEXT: 'TEXT', IMAGE: 'IMAGE' }),
     create: title => {
       tick(W, 'FormApp.create');
       if (typeof title !== 'string' || !title) throw new Error('Invalid argument: title');

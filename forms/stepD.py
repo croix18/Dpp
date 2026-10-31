@@ -8,14 +8,14 @@ from collections import Counter
 ROOT = '/home/claude/dpp/'
 F_DIR = ROOT + 'forms/'
 PNG = F_DIR + 'png/'
-OUT_NAME = 'DPP Google Forms 2026-27'
+OUT_NAME = 'manual-forms-build/DPP Google Forms 2026-27'
 OUT = ROOT + OUT_NAME + '/'
 HTML_DIR = F_DIR + 'build_html/'
 spec = json.load(open(F_DIR + 'forms_spec.json'))
 plan = json.load(open(F_DIR + 'plan_forms.json'))['bench']
 report = {r['slot']: r for r in json.load(open(F_DIR + 'stepA_report.json'))}
 patches = {p['slot']: p for p in json.load(open(F_DIR + 'forms_patches.json'))}
-S = json.load(open(ROOT + 'scales.json'))
+S = json.load(open(ROOT + 'forms/scales.json'))
 esc = html.escape
 
 KIND_TITLE = {'chk': 'Check', 're': 'Re-check', 'cmp': 'Review'}
@@ -85,7 +85,7 @@ def options_cell(Q):
 
 
 CSS = """
-@font-face{font-family:Lexend;src:url('file:///home/claude/dpp/lexend0.ttf')}
+@font-face{font-family:Lexend;src:url('file:///home/claude/dpp/fonts/lexend0.ttf')}
 @page{size:letter;margin:0.45in 0.5in}
 body{font-family:Lexend,Arial,sans-serif;color:#111;font-size:10.5px;line-height:1.4;margin:0}
 h1{font-size:17px;margin:0 0 2px}
@@ -359,7 +359,7 @@ def zip_out():
     t0 = time.mktime((2026, 10, 11, 8, 0, 0, 0, 0, -1))
     with zipfile.ZipFile(zp, 'w', zipfile.ZIP_DEFLATED) as z:
         for i, f in enumerate(files):
-            rel = os.path.relpath(f, ROOT)
+            rel = os.path.relpath(f, os.path.dirname(OUT.rstrip('/')))
             zi = zipfile.ZipInfo(rel, date_time=time.localtime(t0 + i * 2)[:6])
             zi.compress_type = zipfile.ZIP_DEFLATED
             with open(f, 'rb') as fh:

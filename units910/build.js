@@ -9,13 +9,13 @@ const CTEX = require('/home/claude/dpp/forms/ctex.js');
 
 const ROOT = '/home/claude/dpp/';
 const HERE = ROOT + 'units910/';
-const OUT = ROOT + 'DPP Units 9 and 10/';
+const OUT = ROOT + 'deliverables/DPP Units 9 and 10/';
 const HTML = HERE + 'html/';
 const C = JSON.parse(fs.readFileSync(HERE + 'content.json', 'utf8'));
 const PLAN = JSON.parse(fs.readFileSync(ROOT + 'forms/plan_forms.json', 'utf8')).bench;
 const SPEC = JSON.parse(fs.readFileSync(ROOT + 'forms/forms_spec.json', 'utf8'));
 const MAN = JSON.parse(fs.readFileSync(ROOT + 'script_kit/DPP Forms script kit/DPP Forms kit/forms_manifest.json', 'utf8'));
-const SCALES = JSON.parse(fs.readFileSync(ROOT + 'scales.json', 'utf8')).scales;
+const SCALES = JSON.parse(fs.readFileSync(ROOT + 'forms/scales.json', 'utf8')).scales;
 const PNG = ROOT + 'forms/png/';
 fs.mkdirSync(OUT, { recursive: true });
 fs.mkdirSync(HTML, { recursive: true });
@@ -88,7 +88,7 @@ function numberLine(f, w = 520, scaled = false) {
 const KCSS = fs.readFileSync(ROOT + 'node_modules/katex/dist/katex.min.css', 'utf8')
   .replace(/url\(fonts\//g, 'url(' + file(ROOT + 'node_modules/katex/dist/fonts') + '/');
 const BASE = `
-@font-face{font-family:Lexend;src:url('${file(ROOT + 'lexend0.ttf')}');font-weight:100 900}
+@font-face{font-family:Lexend;src:url('${file(ROOT + 'fonts/lexend0.ttf')}');font-weight:100 900}
 ${KCSS}
 :root{--navy:#1f2a44;--gold:#c99a1e;--gold2:#f6edd3;--cream:#faf7f0;--ink:#16191f;--muted:#5f6470;--line:#d9d4c7;--ok:#1f7a4d}
 *{box-sizing:border-box}

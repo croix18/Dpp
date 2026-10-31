@@ -5,7 +5,7 @@ import json, re, html
 ROOT = '/home/claude/dpp/'
 plan = json.load(open(ROOT + 'forms/plan_forms.json'))['bench']
 over = json.load(open(ROOT + 'forms/forms_overrides.json'))
-S = json.load(open(ROOT + 'scales.json'))
+S = json.load(open(ROOT + 'forms/scales.json'))
 LT = 'ABCDEFGHI'
 
 # One validation rule for every short-answer question: a plain number, decimal, fraction or mixed number.

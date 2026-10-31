@@ -10,6 +10,8 @@
  *   startOver()   Moves every built form and the links sheet to the Trash.
  *   updateMessages()  For forms built with an earlier kit: puts this kit's message on the page students
  *                 see after they submit. Changes nothing else.
+ *   updateImages()  For forms built with an earlier kit: swaps in this kit's question pictures (the ones
+ *                 with the "Question 1", "Question 2" labels). Questions, keys and responses are untouched.
  *
  * Progress and links: the "DPP Forms links" sheet inside the "DPP Forms (built)" folder.
  */
@@ -36,7 +38,8 @@ const NEXT_PASS_MS = 60 * 1000;
 const SAFETY_PASS_MS = 8 * 60 * 1000;       // restarts the build if a run is cut off mid-form
 const STOP_KEY = 'DPP_STOP_BUILD';          // set by startOver() so a running build stops
 const STOP_FRESH_MS = 10 * 60 * 1000;       // an older stop flag is left over from a failed startOver()
-const FAILS_KEY = 'DPP_FAILED_RUNS';        // runs in a row that hit an error; the build stops at 3
+const FAILS_KEY = 'DPP_FAILED_RUNS';
+const IMG_DONE_KEY = 'DPP_IMAGES_DONE';         // updateImages() progress across runs        // runs in a row that hit an error; the build stops at 3
 const FORMS_API = 'https://forms.googleapis.com/v1/forms/';
 const CONFIRMATION = 'Your answers are in. Choose View score to see your score and which questions you missed.';
 const COLUMNS = ['Order', 'Form', 'Title', 'Questions', 'Calculator', 'Locked mode', 'Typed answer keys',
@@ -440,6 +443,59 @@ function updateMessages() {
   console.log(`Updated the message on ${n} built forms.` + (missed.length ? ` Could not open: ${missed.join('; ')}.` : ''));
 }
 
+/** Replaces each built form's pictures with the kit's current ones, in order: the question pictures,
+ *  then the scale. Nothing else on the form changes, so school copies made later get the new pictures;
+ *  copies already made keep the old ones. Each run works for 5 minutes and continues by itself. */
+function updateImages() {
+  const lock = LockService.getScriptLock();
+  if (!lock.tryLock(30 * 1000)) { console.log('Another run is going. Try again in a few minutes.'); return; }
+  const started = Date.now();
+  try {
+    const kit = openKit_();
+    const out = firstLive_(kit.folder.getFoldersByName(CONFIG.OUTPUT_FOLDER_NAME));
+    const file = out && firstLive_(out.getFilesByName(LOG_NAME));
+    if (!file) { console.log('No forms are built yet, so there is nothing to update. buildForms() uses the new pictures.'); return; }
+    const images = imageFiles_(kit.folder);
+    const rows = readLog_(logSheet_(SpreadsheetApp.openById(file.getId())));
+    const props = PropertiesService.getScriptProperties();
+    const done = JSON.parse(props.getProperty(IMG_DONE_KEY) || '{}');
+    const todo = kit.manifest.forms.filter(F => rows[F.key] && rows[F.key].status === 'built' && rows[F.key].id && !done[F.key]);
+    let n = 0;
+    const missed = [];
+    for (const F of todo) {
+      if (Date.now() - started > PASS_LIMIT_MS) {
+        props.setProperty(IMG_DONE_KEY, JSON.stringify(done));
+        scheduleRun_(NEXT_PASS_MS, 'updateImages');
+        console.log(`Updated ${n} forms this run; ${todo.length - n} to go. The next run starts by itself in about a minute.`);
+        return;
+      }
+      try {
+        const form = FormApp.openById(rows[F.key].id);
+        const names = F.questions.map(Q => Q.image).concat(F.level_image ? [F.level_image] : []);
+        const items = form.getItems().filter(it => it.getType() === FormApp.ItemType.IMAGE);
+        if (items.length !== names.length) throw new Error(`has ${items.length} pictures, expected ${names.length}`);
+        names.forEach((name, i) => {
+          const f = images[name];
+          if (!f) throw new Error(`image ${name} is missing from the "${IMAGES_FOLDER_NAME}" folder`);
+          items[i].asImageItem().setImage(f.getBlob()).setWidth(CONFIG.IMAGE_WIDTH);
+        });
+        done[F.key] = true;
+        n++;
+      } catch (e) {
+        missed.push(`${F.key} (${explain_(e)})`);
+        done[F.key] = true;                         // not retried by the next run; listed here instead
+      }
+    }
+    props.deleteProperty(IMG_DONE_KEY);
+    deleteTriggers_('updateImages');
+    const total = Object.keys(done).length - missed.length;
+    console.log(`Updated the pictures on ${total} built forms. Make new school copies to use them.` +
+      (missed.length ? ` Could not update: ${missed.join('; ')}.` : ''));
+  } finally {
+    lock.releaseLock();
+  }
+}
+
 // ───────────────────────────── helpers ─────────────────────────────
 
 /** The forms ONLY names: benchmark IDs (C-AR.1.1), form names (C-AR.1.1 Check) or units (Unit 9), separated by commas. */
@@ -596,17 +652,20 @@ function trashStrays_(out, rows) {
   return n;
 }
 
-/** Schedules the next buildForms run and removes any other scheduled run. */
-function scheduleRun_(afterMs) {
-  const next = ScriptApp.newTrigger('buildForms').timeBased().after(afterMs).create();
+/** Schedules the next run of fn (buildForms by default) and removes any other scheduled run of it. */
+function scheduleRun_(afterMs, fn) {
+  fn = fn || 'buildForms';
+  const next = ScriptApp.newTrigger(fn).timeBased().after(afterMs).create();
   ScriptApp.getProjectTriggers().forEach(t => {
-    if (t.getHandlerFunction() === 'buildForms' && t.getUniqueId() !== next.getUniqueId()) ScriptApp.deleteTrigger(t);
+    if (t.getHandlerFunction() === fn && t.getUniqueId() !== next.getUniqueId()) ScriptApp.deleteTrigger(t);
   });
 }
 
-function deletePassTriggers_() {
+function deletePassTriggers_() { deleteTriggers_('buildForms'); }
+
+function deleteTriggers_(fn) {
   ScriptApp.getProjectTriggers().forEach(t => {
-    if (t.getHandlerFunction() === 'buildForms') ScriptApp.deleteTrigger(t);
+    if (t.getHandlerFunction() === fn) ScriptApp.deleteTrigger(t);
   });
 }
 

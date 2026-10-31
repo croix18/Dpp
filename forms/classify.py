@@ -1,5 +1,5 @@
 import json, re, html, sys
-SRC = sys.argv[1] if len(sys.argv) > 1 else '/home/claude/dpp/frozen_ed4_1.json'
+SRC = sys.argv[1] if len(sys.argv) > 1 else '/home/claude/dpp/paper-edition/frozen_ed4_1.json'
 d = json.load(open(SRC))
 
 def plain(s):
