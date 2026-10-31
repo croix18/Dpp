@@ -1,0 +1,526 @@
+[
+ {
+  "slot": "MA.7.NSO.1.2/chk/0",
+  "fix": "2",
+  "note": "Replaced the 0.46-repeating item (chk/1 kept as the stronger repeating-decimal item) with a negative mixed number to decimal.",
+  "rt": "sa",
+  "q": "Write the mixed number as a decimal.\n\n−2 3/8",
+  "answer": "-2.375",
+  "accept": [
+   "-2.375",
+   "-2.3750"
+  ],
+  "s": "3/8 = 3 ÷ 8 = 0.375.\nKeep the whole-number part: 2 3/8 = 2.375.\nThe number is negative, so −2 3/8 = −2.375.",
+  "typed": [
+   [
+    "2.375",
+    "dropped the negative sign"
+   ],
+   [
+    "-2.38",
+    "rounded instead of writing the exact decimal"
+   ],
+   [
+    "-2.3",
+    "wrote the numerator of 3/8 as the tenths digit"
+   ],
+   [
+    "-0.375",
+    "dropped the whole-number part"
+   ]
+  ],
+  "check": "Fraction(-19,8) == Fraction('-2.375')",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.NSO.1.2/chk/2",
+  "fix": "3",
+  "note": "Same numbers; 'exactly twice as much as' replaced with a plausible wrong comparison.",
+  "rt": "mc",
+  "q": "Two identical bottles of sports drink are partly full. The first bottle is 10/11 full and the second bottle is 95% full.\n\nThe first bottle holds ____ the second bottle.",
+  "opts": [
+   "more than",
+   "less than",
+   "the same amount as",
+   "cannot be compared without knowing how much a bottle holds"
+  ],
+  "key": 1,
+  "s": "Rewrite both amounts in the same form. 10/11 = 10 ÷ 11 = 0.<span class=\"rep\">90</span>, which is about 90.9%.\n90.9% is less than 95%, so the first bottle holds less than the second bottle.",
+  "why": [
+   "divided 11 by 10 and read 10/11 as 1.1, or 110%",
+   null,
+   "estimated both amounts as \"almost full\" without converting to the same form",
+   "did not use that identical bottles make both amounts parts of the same whole"
+  ],
+  "check": "float(Fraction(10,11)) < 0.95",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.NSO.1.2/chk/3",
+  "fix": "4",
+  "note": "Stem now states the typed format; numbers and accept list unchanged.",
+  "rt": "sa",
+  "q": "Write the fraction as an exact percent, as a mixed number (for 12 1/2%, type 12 1/2). Do not type the % sign.\n\n7/11",
+  "answer": "63 7/11",
+  "accept": [
+   "63 7/11",
+   "700/11",
+   "63 63/99"
+  ],
+  "s": "A percent is the value out of 100: 7/11 × 100 = 700/11.\n700 ÷ 11 = 63 remainder 7, so 7/11 = 63 7/11%.\nAs a repeating decimal this is 63.<span class=\"rep\">63</span>%, so a rounded percent such as 63.64% is not exact.",
+  "typed": [
+   [
+    "63.63",
+    "rounded the repeating decimal instead of giving the exact percent"
+   ],
+   [
+    "0.63",
+    "gave the decimal, not the percent"
+   ],
+   [
+    "63",
+    "dropped the remainder 7/11"
+   ],
+   [
+    "7/11",
+    "did not multiply by 100"
+   ]
+  ],
+  "check": "Fraction(7,11)*100 == Fraction(700,11) == 63 + Fraction(7,11)",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.NSO.1.2/chk/4",
+  "fix": "1",
+  "note": "Rigor slot. 'Yes' is now the rational-means-terminating misconception; 'truncated' is a separate error path.",
+  "rt": "mc",
+  "q": "Maya uses a calculator to find 190/33. The calculator shows 5.757575758. Maya says that 190/33 = 5.757575758.\n\nIs Maya correct? Choose the statement that is true.",
+  "opts": [
+   "Yes. 190/33 is a rational number, so its decimal must end, and 5.757575758 is where it ends.",
+   "No. 190/33 = 5.<span class=\"rep\">75</span>, a repeating decimal. The calculator rounded the last digit it could show.",
+   "No. The calculator cut off the digits it could not show, so the exact value is 5.757575757, with no more digits after that.",
+   "No. The decimal never ends, so 190/33 is not a rational number and has no exact value."
+  ],
+  "key": 1,
+  "s": "190 ÷ 33 = 5.757575…; the block 75 repeats forever, so the exact value is 5.<span class=\"rep\">75</span>.\nThe display holds 9 decimal places. The tenth digit is 5, so the ninth digit 7 rounds up to 8. The display is rounded, not exact.\nA fraction of two integers is rational even when its decimal repeats, so Maya is not correct.",
+  "why": [
+   "believes every rational number has a terminating decimal; 190/33 repeats forever",
+   null,
+   "treats the display as cut off and a 9-place decimal as exact; the next digit is 5, so the 7 rounded up to 8, and no terminating decimal equals 190/33",
+   "believes a repeating decimal is irrational; a ratio of two integers is rational and 190/33 is its exact value"
+  ],
+  "check": "str(Decimal(190)/Decimal(33))[:16] == '5.75757575757575' and round(190/33, 9) == 5.757575758",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.NSO.1.2/re/0",
+  "fix": "3",
+  "note": "The equal pair; repeating decimal kept so the re-check matches the check.",
+  "rt": "mc",
+  "q": "Two identical bottles of sports drink are partly full. The first bottle is 2/3 full and the second bottle is 66.<span class=\"rep\">6</span>% full.\n\nThe first bottle holds ____ the second bottle.",
+  "opts": [
+   "the same amount as",
+   "more than",
+   "less than",
+   "cannot be compared without knowing how much a bottle holds"
+  ],
+  "key": 0,
+  "s": "Rewrite both amounts in the same form. 2/3 = 2 ÷ 3 = 0.<span class=\"rep\">6</span>, which is 66.<span class=\"rep\">6</span>%.\nThe two amounts are the same number, so the bottles hold the same amount.\nRounding 2/3 to 66.7% or 0.67 makes it look bigger, but the exact values are equal.",
+  "why": [
+   null,
+   "rounded 2/3 to 0.67 (67%) and compared it with 66.666…%",
+   "rounded 2/3 to 0.66 (66%) and compared it with 66.666…%",
+   "did not use that identical bottles make both amounts parts of the same whole"
+  ],
+  "check": "Fraction(2,3) == Fraction(2,3)",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.NSO.1.2/re/1",
+  "fix": "5",
+  "note": "Checkbox converted to 4-option mc; the 16/198 option was dropped.",
+  "rt": "mc",
+  "q": "Which value is equal to the quotient 8 ÷ 99?",
+  "opts": [
+   "0.<span class=\"rep\">08</span>",
+   "0.<span class=\"rep\">8</span>",
+   "0.0808",
+   "99/8"
+  ],
+  "key": 0,
+  "s": "8 ÷ 99 = 8/99 = 0.080808…, so the block 08 repeats forever: 0.<span class=\"rep\">08</span>.\n0.0808 stops after 4 decimal places, so it is slightly less than 8/99.\n0.<span class=\"rep\">8</span> repeats only the digit 8, and 99/8 is 99 ÷ 8, not 8 ÷ 99.",
+  "why": [
+   null,
+   "repeated only the 8 and dropped the 0 from the repeating block",
+   "stopped the decimal after four places; the block 08 repeats forever",
+   "divided 99 by 8 instead of 8 by 99"
+  ],
+  "check": "str(Decimal(8)/Decimal(99))[:10] == '0.08080808'",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.NSO.1.2/re/2",
+  "fix": "4",
+  "note": "Stem now states the typed format; numbers and accept list unchanged.",
+  "rt": "sa",
+  "q": "Write the fraction as an exact percent, as a mixed number (for 12 1/2%, type 12 1/2). Do not type the % sign.\n\n7/9",
+  "answer": "77 7/9",
+  "accept": [
+   "77 7/9",
+   "700/9"
+  ],
+  "s": "A percent is the value out of 100: 7/9 × 100 = 700/9.\n700 ÷ 9 = 77 remainder 7, so 7/9 = 77 7/9%.\nAs a repeating decimal this is 77.<span class=\"rep\">7</span>%, so a rounded percent such as 77.78% is not exact.",
+  "typed": [
+   [
+    "77.7",
+    "rounded the repeating decimal instead of giving the exact percent"
+   ],
+   [
+    "0.77",
+    "gave the decimal, not the percent"
+   ],
+   [
+    "77",
+    "dropped the remainder 7/9"
+   ],
+   [
+    "7/9",
+    "did not multiply by 100"
+   ]
+  ],
+  "check": "Fraction(7,9)*100 == Fraction(700,9) == 77 + Fraction(7,9)",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.NSO.1.2/cmp/0",
+  "fix": "3",
+  "note": "New context (fuel tanks) and new numbers; key is 'less than' by a 0.5% margin so rounding is a live error.",
+  "rt": "mc",
+  "q": "Two identical fuel tanks are partly full. Tank A is 7/8 full and tank B is 88% full.\n\nTank A holds ____ tank B.",
+  "opts": [
+   "more than",
+   "less than",
+   "the same amount as",
+   "cannot be compared without knowing how much a tank holds"
+  ],
+  "key": 1,
+  "s": "Rewrite both amounts in the same form. 7/8 = 7 ÷ 8 = 0.875 = 87.5%.\n87.5% is less than 88%, so tank A holds less than tank B.\nRounding 87.5% to 88% hides the difference; compare the exact values.",
+  "why": [
+   "divided 8 by 7 and read 7/8 as about 1.14, or 114%",
+   null,
+   "rounded 87.5% to 88% before comparing",
+   "did not use that identical tanks make both amounts parts of the same whole"
+  ],
+  "check": "Fraction(7,8) < Fraction(88,100)",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.NSO.1.2/cmp/1",
+  "fix": "2",
+  "note": "Replaced the 1÷33 checkbox item with the choose-the-form item (so fix 5's conversion of cmp/1 is superseded). Parallels the L4 rigor item: decide which form and why.",
+  "rt": "mc",
+  "q": "A recipe needs 2/3 cup of sugar. The only scoop in the kitchen holds 0.3 cup. Mia needs to know how many scoops to use.\n\nWhich statement is correct?",
+  "opts": [
+   "Rewrite 2/3 as 0.66. Then 0.66 ÷ 0.3 = 2.2, so she needs exactly 2.2 scoops.",
+   "Rewrite 0.3 as 3/10. Then 2/3 ÷ 3/10 = 2 2/9, so she needs a little more than 2 scoops.",
+   "Rewrite 0.3 as 1/3. Then 2/3 ÷ 1/3 = 2, so she needs exactly 2 scoops.",
+   "Rewrite 0.3 as 3/10. Then 3/10 ÷ 2/3 = 9/20, so she needs less than 1 scoop."
+  ],
+  "key": 1,
+  "s": "0.3 is a terminating decimal, so write it as the fraction 3/10. 2/3 is a repeating decimal (0.<span class=\"rep\">6</span>), so keep it as a fraction.\n2/3 ÷ 3/10 = 2/3 × 10/3 = 20/9 = 2 2/9.\nMia needs 2 2/9 scoops, a little more than 2 scoops. Rounding 2/3 to 0.66 gives 2.2, which is close but not exact.",
+  "why": [
+   "stopped the repeating decimal 0.<span class=\"rep\">6</span> at two places; 0.66 is less than 2/3, so 2.2 is not exact",
+   null,
+   "confused 0.3 with 0.<span class=\"rep\">3</span> = 1/3",
+   "divided the scoop size by the amount needed instead of the amount needed by the scoop size"
+  ],
+  "check": "Fraction(2,3)/Fraction(3,10) == Fraction(20,9) and Fraction(3,10)/Fraction(2,3) == Fraction(9,20) and abs(0.66/0.3 - 2.2) < 1e-9",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.NSO.2.2/re/2",
+  "fix": "6",
+  "rt": "sa",
+  "q": "What is the value of the expression? Write your answer in simplest form.\n\n−1 1/4 − 0.6",
+  "answer": "-1.85",
+  "accept": [
+   "-1.85",
+   "-1.850",
+   "-1 17/20",
+   "-37/20"
+  ],
+  "s": "Write both numbers in the same form: −1 1/4 = −1.25.\n−1.25 − 0.6 moves further left on the number line, so add the sizes: 1.25 + 0.6 = 1.85.\nThe result is negative: −1.85, which is −1 17/20.",
+  "typed": [
+   [
+    "-0.65",
+    "subtracted the sizes (1.25 − 0.6) and kept the sign"
+   ],
+   [
+    "1.85",
+    "dropped the negative sign"
+   ],
+   [
+    "-1.31",
+    "wrote 0.6 as 0.06"
+   ]
+  ],
+  "check": "Fraction(-5,4) - Fraction(3,5) == Fraction(-37,20) == Fraction('-1.85')",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.NSO.2.2/cmp/0",
+  "fix": "6",
+  "rt": "sa",
+  "q": "Evaluate. Write your answer in simplest form.\n\n−3/4 + 0.3",
+  "answer": "-0.45",
+  "accept": [
+   "-0.45",
+   "-.45",
+   "-0.450",
+   "-9/20"
+  ],
+  "s": "Write both numbers in the same form: 0.3 = 3/10. With denominator 20: −3/4 = −15/20 and 3/10 = 6/20.\n−15/20 + 6/20 = −9/20.\nCheck with decimals: −0.75 + 0.3 = −0.45.",
+  "typed": [
+   [
+    "-1.05",
+    "added the sizes instead of subtracting (treated + 0.3 as − 0.3)"
+   ],
+   [
+    "0.45",
+    "dropped the negative sign; the negative number has the larger size"
+   ],
+   [
+    "0",
+    "added numerators and denominators: (−3 + 3)/(4 + 10)"
+   ]
+  ],
+  "check": "Fraction(-3,4) + Fraction(3,10) == Fraction(-9,20) == Fraction('-0.45')",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.NSO.1.1/chk/0",
+  "fix": "7",
+  "note": "Fix suggested (−2/3)^2 × (−2/3)^2, but 2 + 2 = 2 × 2 so adding and multiplying exponents give the same answer. Used (−2/3)^3 × (−2/3) instead (same key 16/81); it also parallels re/0's skeleton.",
+  "rt": "sa",
+  "q": "Evaluate the expression. Write your answer as a fraction in simplest form.\n\n(−2/3)<sup>3</sup> × (−2/3)",
+  "answer": "16/81",
+  "accept": [
+   "16/81"
+  ],
+  "s": "The second factor has exponent 1. Multiplying powers with the same base adds the exponents: 3 + 1 = 4, so the expression equals (−2/3)<sup>4</sup>.\n(−2/3)<sup>4</sup> = 16/81. A negative base to an even power is positive.",
+  "typed": [
+   [
+    "-16/81",
+    "gave a negative base to an even power a negative sign"
+   ],
+   [
+    "-8/27",
+    "multiplied the exponents 3 × 1 instead of adding, or ignored the second factor"
+   ],
+   [
+    "16/3",
+    "raised only the numerator to the fourth power"
+   ]
+  ],
+  "check": "Fraction(-2,3)**3 * Fraction(-2,3) == Fraction(16,81)",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.NSO.1.1/chk/2",
+  "fix": "7",
+  "rt": "sa",
+  "q": "Evaluate the expression.\n\n(−6)<sup>5</sup> ÷ (−6)<sup>3</sup>",
+  "answer": "36",
+  "accept": [
+   "36"
+  ],
+  "s": "The bases are the same, so subtract the exponents: 5 − 3 = 2.\n(−6)<sup>2</sup> = 36. A negative base raised to an even power is positive.\nOnly the exponents change — the base stays −6.",
+  "typed": [
+   [
+    "-36",
+    "gave (−6)<sup>2</sup> a negative sign"
+   ],
+   [
+    "1",
+    "divided the bases: −6 ÷ (−6)"
+   ],
+   [
+    "-12",
+    "multiplied the base by the exponent instead of raising to the power"
+   ]
+  ],
+  "check": "(-6)**5 // (-6)**3 == 36",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.NSO.1.1/re/0",
+  "fix": "7",
+  "rt": "sa",
+  "q": "Evaluate the expression. Write your answer as a fraction in simplest form.\n\n(−3/4)<sup>2</sup> × (−3/4)",
+  "answer": "-27/64",
+  "accept": [
+   "-27/64"
+  ],
+  "s": "The second factor has exponent 1. Multiplying powers with the same base adds the exponents: 2 + 1 = 3, so the expression equals (−3/4)<sup>3</sup>.\n(−3/4)<sup>3</sup> = −27/64. A negative base to an odd power is negative.",
+  "typed": [
+   [
+    "27/64",
+    "dropped the negative sign; an odd power of a negative base is negative"
+   ],
+   [
+    "9/16",
+    "ignored the factor with no written exponent, or multiplied the exponents 2 × 1"
+   ],
+   [
+    "-27/4",
+    "raised only the numerator to the third power"
+   ]
+  ],
+  "check": "Fraction(-3,4)**2 * Fraction(-3,4) == Fraction(-27,64)",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.NSO.1.1/re/2",
+  "fix": "7",
+  "rt": "sa",
+  "q": "Evaluate the expression.\n\n(−3)<sup>8</sup> ÷ (−3)<sup>5</sup>",
+  "answer": "-27",
+  "accept": [
+   "-27"
+  ],
+  "s": "Dividing powers with the same base subtracts the exponents: 8 − 5 = 3.\n(−3)<sup>3</sup> = −27. A negative base raised to an odd power is negative.\nOnly the exponents change; the base stays −3.",
+  "typed": [
+   [
+    "27",
+    "gave a negative base to an odd power a positive sign"
+   ],
+   [
+    "1",
+    "divided the bases: −3 ÷ (−3)"
+   ],
+   [
+    "-9",
+    "squared instead of cubing (8 ÷ 5 rounded, or 8 − 5 − 1)"
+   ]
+  ],
+  "check": "(-3)**8 // (-3)**5 == -27",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.NSO.2.1/cmp/0",
+  "fix": "8",
+  "rt": "sa",
+  "q": "Evaluate the expression. Write your answer as a decimal.\n\n(5.7 − |4.6 − 7.8|)<sup>2</sup> ÷ 0.5",
+  "answer": "12.5",
+  "accept": [
+   "12.5",
+   "12.50",
+   "12 1/2",
+   "25/2"
+  ],
+  "s": "Inside the absolute value: 4.6 − 7.8 = −3.2, so |4.6 − 7.8| = 3.2.\nInside the parentheses: 5.7 − 3.2 = 2.5.\nThe exponent: 2.5<sup>2</sup> = 6.25.\nDivide: 6.25 ÷ 0.5 = 12.5.",
+  "typed": [
+   [
+    "3.125",
+    "divided by 2 instead of 0.5"
+   ],
+   [
+    "158.42",
+    "dropped the absolute value and subtracted −3.2, giving 8.9"
+   ],
+   [
+    "10",
+    "multiplied 2.5 by 2 instead of squaring"
+   ]
+  ],
+  "check": "(Fraction('5.7') - abs(Fraction('4.6') - Fraction('7.8')))**2 / Fraction('0.5') == Fraction(25,2)",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.NSO.2.1/cmp/1",
+  "fix": "8",
+  "rt": "sa",
+  "q": "Evaluate the expression. Write your answer as a decimal.\n\n−2 × |1/4 − 1 1/2| + (−0.5)<sup>3</sup>",
+  "answer": "-2.625",
+  "accept": [
+   "-2.625",
+   "-2 5/8",
+   "-21/8"
+  ],
+  "s": "Inside the absolute value: 1/4 − 1 1/2 = −1 1/4, so |1/4 − 1 1/2| = 1 1/4 = 1.25.\nThe exponent: (−0.5)<sup>3</sup> = −0.125. An odd power of a negative is negative.\nMultiply: −2 × 1.25 = −2.5.\nAdd: −2.5 + (−0.125) = −2.625.",
+  "typed": [
+   [
+    "-2.375",
+    "wrote (−0.5)<sup>3</sup> as +0.125"
+   ],
+   [
+    "2.375",
+    "dropped the absolute value, so −2 × (−1.25) = 2.5"
+   ],
+   [
+    "-4",
+    "multiplied −0.5 by 3 instead of cubing"
+   ]
+  ],
+  "check": "-2*abs(Fraction(1,4) - Fraction(3,2)) + Fraction(-1,2)**3 == Fraction(-21,8) == Fraction('-2.625')",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.NSO.2.3/chk/3",
+  "fix": "10",
+  "note": "Same data; asks for the total change so the operation is not given away. re/1 and cmp/0 keep 'mean'.",
+  "rt": "sa",
+  "q": "The price of one share of a company's stock changed by these amounts over 4 days.\n\n+$1.85, −$1.30, −$0.65, −$2.30\n\nWhat was the total change in the price over the 4 days? Do not type the $ sign.",
+  "answer": "-2.40",
+  "accept": [
+   "-2.40",
+   "-2.4",
+   "-2 2/5",
+   "-12/5"
+  ],
+  "s": "Add the four changes. The losses: −1.30 + (−0.65) + (−2.30) = −4.25.\nAdd the gain: −4.25 + 1.85 = −2.40.\nThe price fell by $2.40 in all, so the total change is −$2.40.",
+  "typed": [
+   [
+    "-0.60",
+    "divided by 4 and found the mean instead of the total"
+   ],
+   [
+    "6.10",
+    "added the sizes and ignored the signs"
+   ],
+   [
+    "-6.10",
+    "treated the $1.85 gain as a loss"
+   ],
+   [
+    "2.40",
+    "dropped the negative sign"
+   ]
+  ],
+  "check": "Fraction('1.85') - Fraction('1.30') - Fraction('0.65') - Fraction('2.30') == Fraction('-2.40')",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.NSO.2.2/chk/1",
+  "fix": "6",
+  "note": "Pure-fraction division so a miss here is a fluency miss, not a conversion (NSO.1.2) miss. Replaces the mixed-form division item; chk/2 (missing addend) kept.",
+  "rt": "mc",
+  "q": "What is the value of the expression? Write your answer in simplest form.\n\n−5/6 ÷ 2/3",
+  "opts": [
+   "−1 1/4",
+   "−5/9",
+   "−4/5",
+   "1 1/4"
+  ],
+  "key": 0,
+  "s": "Dividing by 2/3 is multiplying by its reciprocal, 3/2: −5/6 × 3/2 = −15/12.\nSimplest form: −15/12 = −5/4 = −1 1/4.\nA negative divided by a positive is negative.",
+  "why": [
+   null,
+   "multiplied by 2/3 instead of by its reciprocal",
+   "flipped the first fraction instead of the second (−6/5 × 2/3)",
+   "dropped the negative sign"
+  ],
+  "check": "Fraction(-5,6)/Fraction(2,3)==Fraction(-5,4)",
+  "keep_fig": false
+ }
+]

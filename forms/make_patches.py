@@ -468,7 +468,7 @@ rw_seen = set()
 for e in RW:
     assert e['slot'] not in rw_seen, 'duplicate rewrite ' + e['slot']; rw_seen.add(e['slot'])
     assert not e['slot'].startswith('MA.7.AR.1.1/'), 'AR.1.1 is frozen'
-    q = e['q']
+    q = e['q'].replace('<table>', '<table class="ftab">')
     st = {'q': q, 's': e['s'], 'inst': None, 'rows': None, 'cols': None}
     if not e.get('keep_fig'):
         st['fig'] = None; st['ft'] = None
@@ -479,7 +479,7 @@ for e in RW:
         if e['rt'] == 'ms':
             entry['forms'] = {'native': True}
     else:
-        st['rt'] = None; st['opts'] = None; st['key'] = None; st['a'] = e['answer']
+        st['rt'] = None; st['opts'] = None; st['key'] = None; st['a'] = e['answer'].replace('-', '−', 1) if e['answer'].startswith('-') else e['answer']
         entry['forms'] = {'type': 'sa', 'accept': e['accept']} if e.get('accept') else None
         if entry['forms'] is None: del entry['forms']
     entry['set'] = st

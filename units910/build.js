@@ -515,7 +515,7 @@ ${W('Dec 14–18', '', 'Unit 10 review and test', 'Mon: reteach AR.2.1<br>Tue: <
 <h2>Building and giving the forms</h2>
 <ol>
 <li><b>Not built yet:</b> follow <i>00 Script setup</i> in the kit. To build these 12 first, set <code>ONLY: 'Unit 9, Unit 10'</code> and run buildForms (about 6 minutes); clear it later and run again for the rest.</li>
-<li><b>Built with the earlier kit:</b> keep those forms; the questions and keys are the same. Paste the new Code.gs over the old one and run <b>updateMessages</b> once, so the page students see after submitting stops mentioning a progress strip.</li>
+<li><b>Built with the earlier kit:</b> the October 30 review changed questions on C-AR.1.2, C-AR.2.1 and C-AR.2.2 (and most later units), so rebuild: paste the new Code.gs over the old one, replace the kit folder in Drive, run <b>startOver</b>, then <b>buildForms</b> (about an hour, on its own). C-AR.1.1 is unchanged; copies already given keep their responses. Make this week's school copies from the new links sheet.</li>
 <li><b>Each week:</b> signed in to your school account, links sheet → <b>Copy link</b> → Make a copy → Locked mode on for Unit 9 forms → <b>Publish</b> to your school → post the link in your Classroom and send it to John for his.</li>
 <li><b>Keep the results:</b> on each school copy, Responses → <b>Link to Sheets</b> → your one DPP responses spreadsheet. After the first Check, send Claude that tab’s header row (no student rows) and the tracker gets rebuilt to read the responses directly, names and all, inside your school account.</li>
 <li><b>Paper day:</b> print from <i>04 Paper copies</i>, score with the key line in the item guide, and enter the scores by hand.</li>

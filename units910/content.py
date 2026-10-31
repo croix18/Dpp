@@ -524,3 +524,28 @@ TYPED_CHECKS = [
     ('MA.7.AR.2.2/cmp/1', '11/3', '(-5 + 8/9 + 9)*3/4'), ('MA.7.AR.2.2/cmp/1', '112/27', '(-(5 + 8/9) + 9)*4/3'),
     ('MA.7.AR.2.2/cmp/1', '28/9', '-(5 + 8/9) + 9'), ('MA.7.AR.2.2/cmp/1', '−67/6', '(-(5 + 8/9) - 9)*3/4'),
 ]
+
+
+# ───────────────────────── items rewritten after the 2026-10-30 review ─────────────────────────
+# The rewrites (forms/review/rewrites/out_*.json) carry their own wrong-answer meanings. The options were
+# rotated at build time (forms_patches.json 'rotate'), so the letters are mapped here.
+import json as _json, glob as _glob
+_RW = {}
+for _f in _glob.glob('/home/claude/dpp/forms/review/rewrites/out_*.json'):
+    for _e in _json.load(open(_f)):
+        _RW[_e['slot']] = _e
+_ROT = {p['slot']: p.get('rotate', 0) for p in _json.load(open('/home/claude/dpp/forms/forms_patches.json')) if p.get('rewrite')}
+_LESSON = {'MA.7.AR.1.2/chk/1': 2, 'MA.7.AR.1.2/chk/2': 4, 'MA.7.AR.1.2/chk/4': 4, 'MA.7.AR.1.2/re/1': 1, 'MA.7.AR.1.2/cmp/0': 1,
+           'MA.7.AR.1.2/cmp/1': 2, 'MA.7.AR.2.1/re/1': 3, 'MA.7.AR.2.2/re/0': 2, 'MA.7.AR.2.2/re/2': 3}
+for _slot, _e in _RW.items():
+    if _slot not in NOTES:
+        continue
+    _n = {'keep': min(2, len(_e['s'].split('\n'))), 'lesson': _LESSON.get(_slot, NOTES[_slot]['lesson'])}
+    if _e['rt'] == 'sa':
+        _n['typed'] = [(v.replace('-', '−', 1) if v.startswith('-') else v, m) for v, m in _e['typed']]
+    else:
+        _sh = _ROT.get(_slot, 0); _k = len(_e['opts'])
+        _n['why'] = {'ABCDE'[(i + _sh) % _k]: m for i, m in enumerate(_e['why']) if m}
+        _n['why'] = dict(sorted(_n['why'].items()))
+    NOTES[_slot] = _n
+TYPED_CHECKS = [t for t in TYPED_CHECKS if t[0] not in _RW]

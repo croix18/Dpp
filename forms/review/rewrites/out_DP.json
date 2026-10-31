@@ -1,0 +1,627 @@
+[
+ {
+  "slot": "MA.7.DP.2.1/chk/1",
+  "fix": "1",
+  "rt": "mc",
+  "q": "A fair 6-sided die has faces numbered 1 through 6. The die is rolled once and the number on the top face is recorded.\n\nWhat is the sample space for this experiment?",
+  "opts": [
+   "{1, 2, 3, 4, 5, 6}",
+   "{6}",
+   "{1, 2, 3, 4, 5}",
+   "{even, odd}"
+  ],
+  "key": 0,
+  "s": "The sample space lists every outcome that can be recorded.\nThe die can show 1, 2, 3, 4, 5 or 6, so the sample space is {1, 2, 3, 4, 5, 6}.\n6 is only the number of outcomes, and 'even' and 'odd' are events made of several outcomes, not outcomes themselves.",
+  "why": [
+   null,
+   "gave the number of outcomes instead of listing the outcomes",
+   "stopped at 5 and left out the last face",
+   "listed events (even, odd) instead of the outcomes themselves"
+  ],
+  "check": "sorted(set(range(1,7)))==[1,2,3,4,5,6]",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.DP.2.1/chk/3",
+  "fix": "1",
+  "rt": "ms",
+  "q": "The 13 hearts from a standard deck (ace, 2 through 10, jack, queen and king) are shuffled. One card is drawn at random and the card is recorded.\n\nSelect all the outcomes in the sample space for this experiment.",
+  "opts": [
+   "ace of hearts",
+   "7 of hearts",
+   "queen of hearts",
+   "7 of spades",
+   "red"
+  ],
+  "key": [
+   0,
+   1,
+   2
+  ],
+  "s": "Each of the 13 hearts is one outcome: ace, 2, 3, 4, 5, 6, 7, 8, 9, 10, jack, queen and king of hearts.\nThe 7 of spades is not one of the 13 hearts, so it cannot be drawn.\n'Red' is a color every card in this experiment has; it is not a card, so it is not an outcome.",
+  "why": [
+   null,
+   null,
+   null,
+   "used the whole 52-card deck instead of the 13 hearts",
+   "listed a property shared by all the cards (the color) as if it were an outcome"
+  ],
+  "check": "len({'A','2','3','4','5','6','7','8','9','10','J','Q','K'})==13",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.DP.2.1/re/2",
+  "fix": "1",
+  "rt": "mc",
+  "note": "Fix list suggested options 8/4/9/3; 3 and 4 had no natural error for this experiment, so the distractors are 9, 2 and 1 with named errors.",
+  "q": "A fair 8-sided die has faces numbered 1 through 8. The die is rolled once and the number on the top face is recorded.\n\nHow many outcomes are in the sample space for this experiment?",
+  "opts": [
+   "8",
+   "9",
+   "2",
+   "1"
+  ],
+  "key": 0,
+  "s": "The sample space lists every number the die can show: {1, 2, 3, 4, 5, 6, 7, 8}.\nThat is 8 outcomes, one for each face.",
+  "why": [
+   null,
+   "counted from 0 to 8 instead of from 1 to 8",
+   "grouped the numbers into two events, even and odd, and counted the events",
+   "counted only the one number that comes up on a single roll"
+  ],
+  "check": "len(range(1,9))==8",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.DP.2.1/cmp/1",
+  "fix": "1",
+  "rt": "mc",
+  "q": "One card is drawn at random from a standard 52-card deck, and its suit (hearts, diamonds, clubs or spades) is recorded.\n\nHow many outcomes are in the sample space for this experiment?",
+  "opts": [
+   "4",
+   "52",
+   "13",
+   "2"
+  ],
+  "key": 0,
+  "s": "The experiment records the suit, so an outcome is a suit.\nThe sample space is {hearts, diamonds, clubs, spades}: 4 outcomes.",
+  "why": [
+   null,
+   "counted the cards instead of the suits",
+   "counted the cards in one suit",
+   "counted the colors instead of the suits"
+  ],
+  "check": "len({'hearts','diamonds','clubs','spades'})==4",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.DP.2.2/chk/0",
+  "fix": "3",
+  "rt": "mc",
+  "q": "Four events have these probabilities: 0.09, 4/5, 52%, 0.97.\n\nWhich probability describes an event that is almost certain to happen?",
+  "opts": [
+   "0.97",
+   "0.09",
+   "4/5",
+   "52%"
+  ],
+  "key": 0,
+  "s": "An event is almost certain when its probability is very close to 1 (100%).\n0.97 is 3 hundredths from 1, so that event is almost certain.\n4/5 = 0.8 and 52% = 0.52 are likely but not almost certain; 0.09 is close to 0, so that event is unlikely.",
+  "why": [
+   null,
+   "read 0.09 as 0.9 (ignored the place value of the 9)",
+   "treated the numerator 4 as the size of the probability, greater than the others",
+   "assumed any probability over 50% is almost certain"
+  ],
+  "check": "max([0.09, 4/5, 0.52, 0.97])==0.97",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.DP.2.2/chk/4",
+  "fix": "2",
+  "rt": "mc",
+  "q": "The probabilities of three events are given in different forms.\n\nEvent A: 3/8\nEvent B: 0.4\nEvent C: 35%\n\nWhich statement correctly tells which event is most likely, and why?",
+  "opts": [
+   "Event B, because 3/8 = 0.375 and 35% = 0.35, and 0.4 is greater than both.",
+   "Event C, because 35 is greater than 3, 8 and 0.4.",
+   "Event A, because 3/8 = 0.375, and 0.375 is greater than 0.4 since 375 is greater than 4.",
+   "Event C, because 35% = 3.5, which is greater than 0.4 and 3/8."
+  ],
+  "key": 0,
+  "s": "Write all three probabilities in the same form.\n3/8 = 3 ÷ 8 = 0.375; 0.4 = 0.400; 35% = 0.35.\n0.400 > 0.375 > 0.350, so Event B is the most likely.",
+  "why": [
+   null,
+   "compared the numbers as written without converting to one form",
+   "compared 0.375 and 0.4 by comparing 375 with 4 (ignored place value)",
+   "converted 35% by moving the decimal only one place"
+  ],
+  "check": "max([(F(3,8),'A'),(F(2,5),'B'),(F(35,100),'C')])[1]=='B' and float(F(3,8))==0.375",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.DP.2.2/re/0",
+  "fix": "3",
+  "rt": "mc",
+  "q": "The probability that Dev's team wins its next match is 0.55. The probability that it rains during the match is 3/5.\n\nWhich event is more likely?",
+  "opts": [
+   "The forms cannot be compared.",
+   "It rains during the match",
+   "Dev's team wins its next match",
+   "They are equally likely."
+  ],
+  "key": 1,
+  "s": "Write both probabilities in the same form. As decimals: 0.55 and 3/5 = 0.6.\n0.6 > 0.55, so 'it rains during the match' is more likely. A probability can be compared whatever form it is written in.",
+  "why": [
+   "believes a decimal and a fraction cannot be compared",
+   null,
+   "wrote 3/5 as 0.35 by reading its digits, then compared 0.55 with 0.35",
+   "rounded 0.55 to 0.6 and called the two equal"
+  ],
+  "check": "F(3,5) > F(55,100)",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.DP.2.2/cmp/0",
+  "fix": "3",
+  "rt": "mc",
+  "q": "The probability that a randomly chosen student at a school is left-handed is 0.1.\n\nIs this event likely or unlikely? Explain using the probability.",
+  "opts": [
+   "Unlikely, because 0.1 is close to 0 and much less than 1/2.",
+   "Likely, because 0.1 is greater than 0, so the event can happen.",
+   "As likely as not, because a student is either left-handed or not.",
+   "Impossible, because 0.1 rounds to 0."
+  ],
+  "key": 0,
+  "s": "0.1 is 1/10: close to 0 and well below 1/2.\nA probability below 1/2 means the event is unlikely, so choosing a left-handed student is unlikely.\nIt is not impossible, because 0.1 is greater than 0; a two-outcome event is not automatically a 50% chance.",
+  "why": [
+   null,
+   "confused 'possible' (probability greater than 0) with 'likely'",
+   "assumed two outcomes must be equally likely",
+   "rounded the probability to 0 and called the event impossible"
+  ],
+  "check": "0 < 0.1 < 0.5",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.DP.2.3/chk/3",
+  "fix": "1",
+  "rt": "sa",
+  "q": "Letter cards for the word MEASUREMENT are placed in a bag, one card for each letter, so there are 11 cards. Each card is equally likely to be drawn. One card is drawn at random.\n\nWhat is the probability that the card shows the letter M? Write your answer as a fraction in simplest form.",
+  "answer": "2/11",
+  "accept": [
+   "2/11"
+  ],
+  "s": "There are 11 cards, one for each letter of MEASUREMENT, and each card is equally likely to be drawn.\nThe letter M is on 2 of the cards: 2 favorable outcomes out of 11.\nP = 2/11.\nThe equally likely outcomes here are the 11 cards, not the 8 different letters; a letter on more than one card is more likely to be drawn because more of the equally likely cards show it.",
+  "typed": [
+   [
+    "2/8",
+    "divided by the 8 different letters instead of the 11 cards"
+   ],
+   [
+    "1/11",
+    "counted M as one outcome instead of 2 cards"
+   ],
+   [
+    "2/9",
+    "divided by the 9 cards that are not M"
+   ],
+   [
+    "1/8",
+    "counted M once out of the 8 different letters"
+   ]
+  ],
+  "check": "F('MEASUREMENT'.count('M'), len('MEASUREMENT'))==F(2,11) and len(set('MEASUREMENT'))==8",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.DP.2.3/re/0",
+  "fix": "9",
+  "rt": "sa",
+  "q": "A fair spinner has 16 equal sections. 3 sections are yellow. The spinner is spun once.\n\nWhat is the probability that the spinner lands on yellow? Write your answer as a percent.",
+  "answer": "18.75",
+  "accept": [
+   "18.75",
+   "18 3/4",
+   "75/4",
+   "18.750"
+  ],
+  "s": "All 16 sections are equally likely, so the sample space has 16 outcomes and 3 of them are yellow.\nP(yellow) = 3/16.\n3 ÷ 16 = 0.1875, and 0.1875 = 18.75%.",
+  "typed": [
+   [
+    "0.1875",
+    "wrote the decimal instead of the percent"
+   ],
+   [
+    "1.875",
+    "moved the decimal one place instead of two"
+   ],
+   [
+    "23.08",
+    "divided 3 by the 13 sections that are not yellow"
+   ],
+   [
+    "81.25",
+    "found the percent that is not yellow"
+   ]
+  ],
+  "check": "F(3,16)*100==F(75,4) and float(F(75,4))==18.75",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.DP.2.3/cmp/0",
+  "fix": "9",
+  "rt": "mc",
+  "q": "A jar holds 20 buttons, and 7 of them are blue. One button is drawn at random.\n\nWhat is the probability of drawing a blue button?",
+  "opts": [
+   "7/13",
+   "7/20",
+   "13/20",
+   "7/27"
+  ],
+  "key": 1,
+  "s": "P(blue) = favorable outcomes ÷ total outcomes = 7/20.\n7/20 is already in simplest form.",
+  "why": [
+   "compared blue with not-blue instead of with the total",
+   null,
+   "found the probability of not drawing blue",
+   "added the 7 blue buttons to the 20 again for the total"
+  ],
+  "check": "F(7,20)==F(7,20) and F(7,20).denominator==20",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.DP.2.3/cmp/1",
+  "fix": "9",
+  "rt": "sa",
+  "q": "A fair spinner has 40 equal sections. 9 sections are orange. The spinner is spun once.\n\nWhat is the probability that the spinner lands on orange? Write your answer as a decimal.",
+  "answer": "0.225",
+  "accept": [
+   "0.225",
+   ".225",
+   "9/40",
+   "0.2250"
+  ],
+  "s": "All 40 sections are equally likely, so the sample space has 40 outcomes and 9 of them are orange.\nP(orange) = 9/40.\n9 ÷ 40 = 0.225.",
+  "typed": [
+   [
+    "22.5",
+    "wrote the percent instead of the decimal"
+   ],
+   [
+    "0.29",
+    "divided 9 by the 31 sections that are not orange"
+   ],
+   [
+    "4.44",
+    "divided 40 by 9 instead of 9 by 40"
+   ],
+   [
+    "0.775",
+    "found the probability of not orange"
+   ]
+  ],
+  "check": "float(F(9,40))==0.225",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.DP.2.4/chk/2",
+  "fix": "10",
+  "rt": "mc",
+  "q": "Two students each simulate rolling a fair die. One runs 5,900 trials and the other runs 370 trials.\n\nWhose experimental probability of rolling a 4 is expected to be closer to the theoretical probability, 1/6?",
+  "opts": [
+   "The 5,900-trial student: with many more trials, random variation evens out, so the result is usually closer to 1/6.",
+   "The 370-trial student: a short simulation has less time for the results to drift away from 1/6.",
+   "Neither is more likely to be closer: a fair die has the same probability on every roll, so both results equal 1/6.",
+   "Neither can be predicted: experimental results are random, so each student has the same chance of being closer."
+  ],
+  "key": 0,
+  "s": "Experimental probabilities vary from run to run, but as the number of trials grows they typically get closer to the theoretical probability.\nThe 5,900-trial simulation is expected to be closer to 1/6.",
+  "why": [
+   null,
+   "believes random variation builds up as trials are added",
+   "confuses the fixed theoretical probability with an experimental result",
+   "ignores that more trials make a close result more likely"
+  ],
+  "check": "5900 > 370",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.DP.2.4/re/0",
+  "fix": "10",
+  "rt": "mc",
+  "q": "A fair spinner has 4 equal sections, and 1 of them is blue. Two students each simulate spinning it. One runs 210 trials and the other runs 8,000 trials.\n\nWhich student's share of blue spins is more likely to be close to the theoretical probability, 1/4?",
+  "opts": [
+   "The 210-trial student, because a few lucky spins can push a small set of results right onto 1/4.",
+   "The 8,000-trial student, because the share of blue spins usually settles near 1/4 as the trials pile up.",
+   "The 210-trial student, because 8,000 spins give random variation more chances to build up.",
+   "Both are equally likely, because every spin has the same 1/4 chance no matter how many spins are made."
+  ],
+  "key": 1,
+  "s": "Each spin has probability 1/4 of blue, but a short run of spins can easily land far from 1/4.\nAs the number of trials increases, the experimental probability typically gets closer to the theoretical probability, so the 8,000-trial result is more likely to be close to 1/4.",
+  "why": [
+   "thinks a small set of results hits the target more easily",
+   null,
+   "believes random variation accumulates with more trials",
+   "confuses the probability of one spin with the long-run share of spins"
+  ],
+  "check": "8000 > 210",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.DP.2.4/re/2",
+  "fix": "4",
+  "rt": "mc",
+  "q": "A spinner has 5 equal sections, and 2 of them are blue. In a simulation the spinner is spun 300 times and lands on blue 132 times.\n\nWhich statement correctly compares the experimental and theoretical probabilities of landing on blue?",
+  "opts": [
+   "The experimental probability, 132/300 = 0.44, is a little greater than the theoretical probability, 2/5 = 0.4.",
+   "The experimental probability, 132/300, is a little less than the theoretical probability, 2/5, because a fraction with a greater denominator is the smaller fraction.",
+   "The theoretical probability is 132/300, because that is what actually happened in the simulation.",
+   "The two probabilities must be the same, because the spinner is fair and 2 of the 5 sections are blue."
+  ],
+  "key": 0,
+  "s": "Theoretical: 2/5 = 0.4.\nExperimental: 132/300 = 0.44.\nThe experimental probability is a little greater than the theoretical probability, because of random variation.",
+  "why": [
+   null,
+   "compared the fractions by their denominators instead of converting",
+   "swapped experimental and theoretical",
+   "believes a fair spinner must give exactly the theoretical result"
+  ],
+  "check": "float(F(132,300))==0.44 and F(132,300) > F(2,5)",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.DP.2.4/cmp/0",
+  "fix": "4",
+  "rt": "mc",
+  "q": "A fair coin is tossed 10,000 times, and the percent of tosses that land on heads is recorded.\n\nWhich result is most likely, and why?",
+  "opts": [
+   "50.2% heads, because with a very large number of tosses the experimental probability is usually close to the theoretical probability, 50%.",
+   "60% heads, because more tosses give heads more chances to come up.",
+   "35% heads, because a fair coin never lands on heads exactly half the time, so the result will be far from 50%.",
+   "Each of the three results is equally likely, because a fair coin can land either way on every toss."
+  ],
+  "key": 0,
+  "s": "The theoretical probability of heads is 1/2 = 50%.\nAn experimental probability usually differs a little from the theoretical one, but with 10,000 tosses it is typically very close.\n50.2% is close to 50%; 60% and 35% are far from it and would be very unlikely in such a long run.",
+  "why": [
+   null,
+   "thinks more trials push the count of heads up rather than the share toward 50%",
+   "confuses 'may differ a little' with 'will differ a lot'",
+   "believes every possible share of heads is equally likely"
+  ],
+  "check": "abs(50.2-50) < abs(60-50) and abs(50.2-50) < abs(35-50)",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.DP.1.3/chk/0",
+  "fix": "6",
+  "rt": "mc",
+  "q": "In a random sample of 100 passengers, 35 check a bag.\n\nBased on this sample, about how many of the 800 passengers in the population check a bag?",
+  "opts": [
+   "520",
+   "2,286",
+   "35",
+   "280"
+  ],
+  "key": 3,
+  "s": "Sample proportion: 35 ÷ 100 = 0.35.\nPrediction: 0.35 × 800 = 280.",
+  "why": [
+   "used the 65 passengers who do not check a bag (0.65 × 800)",
+   "divided 800 by 0.35 instead of multiplying",
+   "gave the sample count as the prediction",
+   null
+  ],
+  "check": "0.35*800==280 and round(800/0.35)==2286 and 0.65*800==520",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.DP.1.3/cmp/0",
+  "fix": "6",
+  "rt": "sa",
+  "note": "Table given as plain lines in the stem (no new figure).",
+  "q": "A random sample of 300 students at a school were asked which lunch they like best. The results are shown.\n\nPizza: 75\nTacos: 120\nSalad: 105\n\nThere are 2,400 students at the school. Based on this sample, about how many students at the school like pizza best?",
+  "answer": "600",
+  "accept": [
+   "600",
+   "600.0"
+  ],
+  "s": "In the sample, 75 out of 300 students chose pizza: 75/300 = 1/4.\n75/300 = x/2,400, so x = 2,400 ÷ 4 = 600.\nAbout 600 students at the school like pizza best.",
+  "typed": [
+   [
+    "75",
+    "gave the sample count instead of the prediction"
+   ],
+   [
+    "8",
+    "divided the population by the sample size"
+   ],
+   [
+    "1800",
+    "used the 225 students who did not choose pizza"
+   ],
+   [
+    "960",
+    "used the tacos count instead of the pizza count"
+   ]
+  ],
+  "check": "F(75,300)*2400==600",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.DP.1.1/chk/0",
+  "fix": "5",
+  "rt": "mc",
+  "q": "The line plot shows the number of pets in each household surveyed.\n\nWhich measure of center best describes a typical value in this data set, and why?",
+  "opts": [
+   "the median, because one value is far from the rest and pulls the mean away",
+   "the mean, because every value is close to the rest, with no outlier",
+   "the median, because it is less affected by repeated values",
+   "the mean, because the data set has an odd number of values"
+  ],
+  "key": 0,
+  "s": "One dot sits at 12, far to the right of the cluster between 1 and 5.\nThat one value pulls the mean toward it, but it does not move the middle value, so the median describes a typical value better.",
+  "why": [
+   null,
+   "missed the outlier at 12",
+   "right measure, wrong reason: repeated values do not affect the choice",
+   "thinks the number of values decides the measure"
+  ],
+  "check": "True",
+  "keep_fig": true
+ },
+ {
+  "slot": "MA.7.DP.1.1/chk/1",
+  "fix": "5",
+  "rt": "mc",
+  "q": "The numbers of minutes a student practiced piano on six days are 32, 41, 50, 57, 64, 186.\n\nWhich measure of variation better describes the spread of the data, and why?",
+  "opts": [
+   "the range, because there is no outlier to stretch it",
+   "the interquartile range, because it uses every value in the data set",
+   "the interquartile range, because an outlier stretches the range",
+   "the range, because the outlier is part of the data and must be included in the spread"
+  ],
+  "key": 2,
+  "s": "186 is far from every other value, so it is an outlier.\nThe range, 186 − 32 = 154 minutes, is stretched by the outlier. The interquartile range uses only the middle half of the ordered data, Q3 − Q1 = 64 − 41 = 23 minutes, so the outlier does not stretch it.\nThe interquartile range describes the spread better; it goes with the median as the measure of center.",
+  "why": [
+   "missed the outlier at 186",
+   "right measure, wrong reason: the interquartile range uses only the middle half",
+   null,
+   "believes an outlier must be counted in the spread"
+  ],
+  "check": "186-32==154 and 64-41==23",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.DP.1.1/chk/2",
+  "fix": "5",
+  "rt": "mc",
+  "q": "The prices of the cars in a lot, in thousands of dollars, are 21, 24, 26, 26, 31, 33.\n\nWhich measure of center best describes a typical value in this data set, and why?",
+  "opts": [
+   "the median, because an outlier pulls the mean away from the rest",
+   "the mean, because no value is far enough away to pull it off center",
+   "the median, because it is less affected by repeated values",
+   "the mean, because the data set has an even number of values"
+  ],
+  "key": 1,
+  "s": "The values run from 21 to 33 with no gaps, so there is no outlier.\nMean = 161 ÷ 6 ≈ 26.8 and median = 26: the two are close, and nothing pulls the mean away.\nWith no outlier, the mean uses every value and describes a typical value well.",
+  "why": [
+   "treated 33 as an outlier when it is not far from the rest",
+   null,
+   "thinks the repeated 26 is a reason to avoid the mean",
+   "thinks an even number of values rules out the median"
+  ],
+  "check": "mean([21,24,26,26,31,33])==161/6 and median([21,24,26,26,31,33])==26",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.DP.1.1/chk/3",
+  "fix": "5",
+  "rt": "mc",
+  "note": "Fix asked for a coach/practices purpose item; the slot keeps its histogram (homework minutes, 25 students), so the purpose was set in that context: total minutes shared equally.",
+  "q": "The histogram shows the numbers of minutes 25 students spent on homework last night. The teacher wants one number that, multiplied by 25, gives the total minutes the whole class spent on homework.\n\nWhich measure should the teacher use, and why?",
+  "opts": [
+   "the median, because one value is far from the rest of the data",
+   "the mean, because it is the total of all the values divided by the number of values",
+   "the mean, because the data set has an odd number of values",
+   "the median, because it is less affected by repeated values"
+  ],
+  "key": 1,
+  "s": "The teacher's purpose is the total: mean = total ÷ 25, so mean × 25 = total.\nThe one value in the 70–79 interval is an outlier, but the purpose, not the outlier, decides here: the median × 25 does not give the total.\nThe mean is the measure that fits this purpose.",
+  "why": [
+   "applied the outlier rule without considering the purpose",
+   null,
+   "thinks the number of values decides the measure",
+   "right family, wrong reason: the median is not tied to the total"
+  ],
+  "check": "True",
+  "keep_fig": true
+ },
+ {
+  "slot": "MA.7.DP.1.2/chk/4",
+  "fix": "7",
+  "rt": "mc",
+  "note": "Fix asked for medians differing by 2 and IQRs of 20; the slot keeps its line-plot figure, so the decision item uses the figure's data (medians 4.5 vs 4, IQRs 2.5 and 1). Same idea: a difference small relative to spread.",
+  "q": "The line plots show the numbers of goals two soccer teams scored in their games. A fan claims that the Hawks typically score about 2 more goals per game than the Sharks.\n\nUse the medians and the interquartile ranges. Is the fan's claim reasonable?",
+  "opts": [
+   "Yes, because the Hawks' greatest number of goals, 7, is 2 more than the Sharks' greatest, 5.",
+   "No, because the medians are 4.5 and 4, a difference of only 0.5 goal, and the two sets of scores overlap over most of their interquartile ranges.",
+   "Yes, because the Hawks' median is greater than the Sharks' median.",
+   "No, because the Sharks played more games, so their data count for more."
+  ],
+  "key": 1,
+  "s": "Hawks: 3, 3, 4, 4, 5, 6, 6, 7; median = 4.5, Q1 = 3.5, Q3 = 6, interquartile range = 2.5.\nSharks: 3, 3, 3, 3, 4, 4, 4, 4, 4, 5; median = 4, Q1 = 3, Q3 = 4, interquartile range = 1.\nThe medians differ by 4.5 − 4 = 0.5 goal, not 2, and the middle halves overlap (3.5–6 and 3–4), so the claim of about 2 more goals is not reasonable.",
+  "why": [
+   "compared the greatest values instead of the typical values",
+   null,
+   "ignored the size of the difference: a greater median is not a 2-goal difference",
+   "confused the number of games with how the typical values compare"
+  ],
+  "check": "median([3,3,4,4,5,6,6,7])==4.5 and median([3,3,3,3,4,4,4,4,4,5])==4 and (6-3.5)==2.5 and (4-3)==1 and 0.5<1",
+  "keep_fig": true
+ },
+ {
+  "slot": "MA.7.DP.1.5/chk/1",
+  "fix": "8",
+  "rt": "mc",
+  "q": "A class surveyed 150 students about the lunch they like best.\n\nPizza: 60\nTacos: 45\nSalad: 30\nPasta: 15\n\nThe class wants a display that answers this question at a glance: how many more students chose Pizza than chose Salad? Which display is the most appropriate?",
+  "opts": [
+   "a circle graph",
+   "a bar chart",
+   "a histogram",
+   "a line plot"
+  ],
+  "key": 1,
+  "s": "The question compares two counts. A bar chart shows one bar for each category, with heights read on a scale, so the two counts and their difference can be read.\nA circle graph shows each category's share of the whole, not the counts; a histogram and a line plot are for numerical data.",
+  "why": [
+   "confused shares of the whole with counts",
+   null,
+   "treated the categories as numerical intervals",
+   "treated the counts as a list of numerical data"
+  ],
+  "check": "60-30==30 and 60+45+30+15==150",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.DP.1.5/chk/2",
+  "fix": "8",
+  "rt": "mc",
+  "q": "A gardener measured the heights of 120 sunflowers to the nearest centimeter. The heights run from 92 cm to 187 cm, and almost every value is different.\n\nThe gardener wants one display that shows the overall shape of the distribution at a glance, without a mark or a digit for each of the 120 heights. Which display is the most appropriate for this data set?",
+  "opts": [
+   "a stem-and-leaf plot",
+   "a histogram",
+   "a line plot",
+   "a circle graph"
+  ],
+  "key": 1,
+  "s": "The data are numerical, with 120 values spread from 92 to 187 and almost no repeats.\nA histogram groups the heights into equal intervals (for example, 90–109, 110–129, …) and its bar heights show the shape of the distribution.\nA stem-and-leaf plot or a line plot would need a leaf or a mark for each of the 120 values, and a circle graph shows parts of a whole, not a distribution.",
+  "why": [
+   "chose a display that writes a digit for every one of the 120 values instead of summarizing them",
+   null,
+   "chose a display that marks every value; with almost no repeats it shows no shape",
+   "treated the numerical heights as categories of a whole"
+  ],
+  "check": "187-92==95 and 120>0",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.DP.1.5/re/2",
+  "fix": "8",
+  "rt": "mc",
+  "q": "A teacher recorded the test scores of 15 students:\n97, 97, 79, 95, 97, 90, 79, 87, 89, 72, 72, 72, 91, 85, 98\n\nThe teacher wants a display that shows the median and the spread of the middle half of the scores at a glance. Which display is the most appropriate for this data set?",
+  "opts": [
+   "a box plot",
+   "a stem-and-leaf plot",
+   "a histogram",
+   "a bar chart of categories"
+  ],
+  "key": 0,
+  "s": "The scores are numerical. A box plot marks the median and the quartiles, so the median and the interquartile range (the spread of the middle half) can be read directly.\nA stem-and-leaf plot keeps every score but the quartiles would still have to be counted out; a histogram groups the scores so the exact median cannot be read; a bar chart is for categorical data.",
+  "why": [
+   null,
+   "chose a display that keeps every value instead of one that marks the quartiles",
+   "chose a display that groups the values, hiding the median and quartiles",
+   "treated the numerical scores as categories"
+  ],
+  "check": "sorted([97,97,79,95,97,90,79,87,89,72,72,72,91,85,98])[7]==89",
+  "keep_fig": false
+ }
+]

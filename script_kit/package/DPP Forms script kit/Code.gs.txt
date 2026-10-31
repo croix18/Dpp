@@ -14,6 +14,8 @@
  *                 pictures. Questions, keys and responses are untouched.
  *   updateKeys()  For forms built with an earlier kit: re-sets the typed answer keys from this kit's
  *                 manifest (needs the Forms API, setup step 4). Choice questions are untouched.
+ *   rebuildForms()  Rebuilds only the forms ONLY names (their questions changed in this kit): the old
+ *                 masters go to the Trash and fresh ones are built. Other forms are untouched.
  *
  * Progress and links: the "DPP Forms links" sheet inside the "DPP Forms (built)" folder.
  */
@@ -517,6 +519,42 @@ function updateKeys() {
   });
   console.log(`Re-set the typed keys on ${n} forms (${skipped} have no typed questions).` +
     (missed.length ? ` Could not update: ${missed.join('; ')}.` : ''));
+}
+
+/** Trashes the masters ONLY names and builds them again from this kit. School copies already made keep
+ *  working; make new copies from the links sheet afterwards. */
+function rebuildForms() {
+  if (!String(CONFIG.ONLY || '').trim()) {
+    console.log('Set ONLY to the forms to rebuild (for example \'C-AR.1.2, C-AR.2.2\' or \'Unit 10\'), then run this again. ' +
+      'To rebuild everything, run startOver() and then buildForms().');
+    return;
+  }
+  const lock = LockService.getScriptLock();
+  if (!lock.tryLock(30 * 1000)) { console.log('Another run is going. Try again in a few minutes.'); return; }
+  try {
+    const kit = openKit_();
+    const pick = pickForms_(kit.manifest.forms);
+    if (pick.unknown.length) throw setupError_(onlyHelp_(pick.unknown));
+    const out = firstLive_(kit.folder.getFoldersByName(CONFIG.OUTPUT_FOLDER_NAME));
+    const file = out && firstLive_(out.getFilesByName(LOG_NAME));
+    if (!file) { console.log('No forms are built yet: run buildForms() instead.'); return; }
+    const ss = SpreadsheetApp.openById(file.getId());
+    const sheet = logSheet_(ss);
+    const rows = readLog_(sheet);
+    let n = 0;
+    pick.forms.forEach(F => {
+      const r = rows[F.key];
+      if (!r) return;
+      if (r.id) trash_(r.id);
+      sheet.getRange(r.row, COL.status).setValue('rebuild');
+      sheet.getRange(r.row, COL.id).setValue('');
+      n++;
+    });
+    console.log(`${n} form(s) moved to the Trash; building them again now.`);
+  } finally {
+    lock.releaseLock();
+  }
+  buildForms();
 }
 
 // ───────────────────────────── helpers ─────────────────────────────

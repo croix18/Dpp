@@ -1,0 +1,779 @@
+[
+ {
+  "slot": "MA.7.AR.1.2/re/1",
+  "fix": "1",
+  "note": "Fix list suggested 2.5(4x − 6); re/0 already uses 1.5(4x − 6), so the inside was changed to 6x − 4 to avoid reusing numbers.",
+  "rt": "mc",
+  "q": "Which expression is equivalent to 2.5(6x − 4)?",
+  "opts": [
+   "15x − 4",
+   "15x − 10",
+   "11x",
+   "8.5x − 1.5"
+  ],
+  "key": 1,
+  "s": "Distribute 2.5 to both terms inside the parentheses.\n2.5 × 6x = 15x and 2.5 × (−4) = −10.\nThe expression is 15x − 10.",
+  "why": [
+   "multiplied only the first term by 2.5",
+   null,
+   "combined 15x and −4 as if they were like terms",
+   "added 2.5 to each term instead of multiplying"
+  ],
+  "check": "expand(Rational(5,2)*(6*x-4)) == 15*x-10",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.1.2/cmp/0",
+  "fix": "1",
+  "rt": "mc",
+  "q": "Which expression is equivalent to (2/3)(9x − 15)?",
+  "opts": [
+   "6x − 10",
+   "6x + 10",
+   "6x − 15",
+   "−4x"
+  ],
+  "key": 0,
+  "s": "Distribute 2/3 to both terms inside the parentheses.\n2/3 × 9x = 6x and 2/3 × (−15) = −10.\nThe expression is 6x − 10.",
+  "why": [
+   null,
+   "dropped the minus sign when multiplying 2/3 × (−15)",
+   "multiplied only the first term by 2/3",
+   "combined 6x and −10 as if they were like terms"
+  ],
+  "check": "expand(Rational(2,3)*(9*x-15)) == 6*x-10",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.1.2/chk/1",
+  "fix": "2",
+  "note": "28x (the error the stem already rules out) replaced by 9x + 9, the divide-instead-of-multiply error.",
+  "rt": "mc",
+  "q": "A student rewrote (4/3)(12x + 12) as 28x.\n\nThe correct equivalent expression is ____.",
+  "opts": [
+   "16x + 12",
+   "9x + 9",
+   "(40/3)x + 40/3",
+   "16x + 16"
+  ],
+  "key": 3,
+  "s": "The student multiplied only 12x by 4/3, which gives 16x + 12, and then added 16x and 12 as if they were like terms.\nBoth terms must be multiplied by 4/3: 4/3 × 12x = 16x and 4/3 × 12 = 16.\n(4/3)(12x + 12) = 16x + 16.",
+  "why": [
+   "multiplied only the first term by 4/3",
+   "divided by 4/3 instead of multiplying",
+   "added 4/3 to each term instead of multiplying",
+   null
+  ],
+  "check": "expand(Rational(4,3)*(12*x+12)) == 16*x+16; 12/Rational(4,3) == 9",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.1.2/cmp/1",
+  "fix": "2",
+  "note": "25x replaced by (48/7)x + 16/7, the divide-instead-of-multiply error.",
+  "rt": "mc",
+  "q": "A student rewrote (7/4)(12x + 4) as 25x.\n\nThe correct equivalent expression is ____.",
+  "opts": [
+   "21x + 7",
+   "(55/4)x + 23/4",
+   "21x + 4",
+   "(48/7)x + 16/7"
+  ],
+  "key": 0,
+  "s": "The student multiplied only 12x by 7/4, which gives 21x + 4, and then added 21x and 4 as if they were like terms.\nBoth terms must be multiplied by 7/4: 7/4 × 12x = 21x and 7/4 × 4 = 7.\n(7/4)(12x + 4) = 21x + 7.",
+  "why": [
+   null,
+   "added 7/4 to each term instead of multiplying",
+   "multiplied only the first term by 7/4",
+   "divided by 7/4 instead of multiplying"
+  ],
+  "check": "expand(Rational(7,4)*(12*x+4)) == 21*x+7; 12/Rational(7,4) == Rational(48,7)",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.1.2/chk/2",
+  "fix": "3",
+  "rt": "mc",
+  "q": "Are the two expressions equivalent?\n\n3.5(2x + 4) − 5x + 1     and     2x + 15",
+  "opts": [
+   "Yes, because both of them simplify to 2x + 15.",
+   "No, because 3.5(2x + 4) is 7x + 4, giving 2x + 5.",
+   "Yes, because both have an x-term and a constant term.",
+   "No, because the first simplifies to 12x + 15, not 2x + 15."
+  ],
+  "key": 0,
+  "s": "Distribute and combine: 3.5(2x + 4) = 7x + 14, then − 5x + 1 gives 2x + 15.\nThe second expression is also 2x + 15, so they are equivalent.\nThe 3.5 multiplies both terms in the parentheses, and −5x is subtracted, not added.",
+  "why": [
+   null,
+   "multiplied only the first term by 3.5",
+   "judged by the form of the expressions instead of simplifying",
+   "added 5x instead of subtracting it"
+  ],
+  "check": "expand(Rational(7,2)*(2*x+4)-5*x+1) == 2*x+15",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.1.2/chk/4",
+  "fix": "4",
+  "rt": "mc",
+  "q": "Two expressions are shown.\n\n4(x + 2) − 3x     and     2(3x + 4) − 4x\n\nAre the two expressions equivalent? Choose the answer with the correct reason.",
+  "opts": [
+   "Yes; both equal 8 when x = 0, so they are equivalent.",
+   "No; the first simplifies to x + 8 and the second to 2x + 8, so the x-terms are different.",
+   "Yes; both have an x-term and a constant term of 8.",
+   "No; the first simplifies to x + 8 and the second to 2x + 4."
+  ],
+  "key": 1,
+  "s": "First: 4(x + 2) − 3x = 4x + 8 − 3x = x + 8.\nSecond: 2(3x + 4) − 4x = 6x + 8 − 4x = 2x + 8.\nThe constants match, but the x-terms do not, so the expressions are not equivalent. Try x = 1: 9 and 10.\nAgreeing at one value of x (such as x = 0) is not enough; equivalent expressions agree for every value of x.",
+  "why": [
+   "tested only x = 0, where the constants match",
+   null,
+   "compared the form and the constant term only",
+   "multiplied only the first term by 2"
+  ],
+  "check": "expand(4*(x+2)-3*x) == x+8; expand(2*(3*x+4)-4*x) == 2*x+8; expand(6*x+4-4*x) == 2*x+4",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.2.2/re/0",
+  "fix": "5",
+  "rt": "sa",
+  "q": "Solve the equation for x.\n\n−2.5(x − 1.2) = 7",
+  "answer": "-1.6",
+  "accept": [
+   "-1.6",
+   "-1.60",
+   "-8/5",
+   "-1 3/5"
+  ],
+  "s": "Divide both sides by −2.5: x − 1.2 = 7 ÷ (−2.5) = −2.8.\nAdd 1.2 to both sides: x = −2.8 + 1.2 = −1.6.\nCheck: −2.5(−1.6 − 1.2) = −2.5(−2.8) = 7.",
+  "typed": [
+   [
+    "4",
+    "dropped the sign when dividing by −2.5 (x − 1.2 = 2.8)"
+   ],
+   [
+    "1.6",
+    "dropped the negative sign from the final answer"
+   ],
+   [
+    "-2.8",
+    "divided by −2.5 but never added 1.2"
+   ],
+   [
+    "-4",
+    "subtracted 1.2 instead of adding it"
+   ]
+  ],
+  "check": "solve(Eq(-2.5*(x-1.2), 7)) == [-1.6]",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.2.2/re/2",
+  "fix": "5",
+  "rt": "mc",
+  "q": "A number, x, is decreased by 8. That result is then multiplied by 3, giving 3.\n\nWhich choice shows an equation that represents this situation, and the value of x?",
+  "opts": [
+   "3(x − 8) = 3; x = 9",
+   "3x − 8 = 3; x = 3 2/3",
+   "3(x + 8) = 3; x = −7",
+   "3x − 24 = 9; x = 11"
+  ],
+  "key": 0,
+  "s": "\"Decreased by 8\" is (x − 8). Multiplying that result by 3 gives 3(x − 8), and that equals 3: 3(x − 8) = 3.\nDivide by 3: x − 8 = 1. Add 8: x = 9.\nCheck: 9 − 8 = 1, and 1 × 3 = 3.",
+  "why": [
+   null,
+   "multiplied only x by 3 instead of the whole result (x − 8)",
+   "increased by 8 instead of decreasing",
+   "distributed the 3 on the left but also multiplied the 3 on the right"
+  ],
+  "check": "solve(Eq(3*(x-8),3)) == [9]; solve(Eq(3*x-8,3)) == [Rational(11,3)]; solve(Eq(3*(x+8),3)) == [-7]; solve(Eq(3*x-24,9)) == [11]",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.2.1/re/1",
+  "fix": "6",
+  "note": "Positive coefficient with a negative right side: 'always flip' now fails this item.",
+  "rt": "mc",
+  "q": "Solve the inequality.\n\n0.4c ≥ −1.2\n\nWhich number line shows the solution?",
+  "opts": [
+   "Closed circle at −3, shaded right",
+   "Closed circle at −3, shaded left",
+   "Closed circle at 3, shaded right",
+   "Open circle at −3, shaded right"
+  ],
+  "key": 0,
+  "s": "Divide both sides by 0.4: c ≥ −1.2 ÷ 0.4, so c ≥ −3.\nDividing by a positive number does not reverse the symbol, even though the other side is negative.\n−3 is included (≥), so the circle is closed and the shading goes to the right. Check: c = 0 gives 0 ≥ −1.2, true.",
+  "why": [
+   null,
+   "reversed the symbol because a negative number appeared, even though the divisor 0.4 is positive",
+   "dropped the sign of −1.2 when dividing",
+   "used an open circle for ≥"
+  ],
+  "check": "solve(0.4*x >= -1.2) == And(-3 <= x, x < oo)",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.3.3/chk/2",
+  "fix": "7",
+  "rt": "sa",
+  "q": "1 mile ≈ 1.609 kilometers.\n\nA trail is 14 miles long. How many kilometers long is the trail? Round to the nearest tenth.",
+  "answer": "22.5",
+  "accept": [
+   "22.5",
+   "22.50"
+  ],
+  "s": "Each mile is about 1.609 kilometers, so there are more kilometers than miles: multiply by 1.609.\n14 × 1.609 = 22.526, which rounds to 22.5 kilometers.",
+  "typed": [
+   [
+    "8.7",
+    "divided by 1.609 instead of multiplying"
+   ],
+   [
+    "15.6",
+    "added 1.609 instead of multiplying"
+   ],
+   [
+    "22.53",
+    "rounded to the nearest hundredth"
+   ],
+   [
+    "22.526",
+    "did not round"
+   ]
+  ],
+  "check": "round(14*1.609, 1) == 22.5",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.3.3/chk/3",
+  "fix": "7",
+  "note": "Time conversion removed (outside Clarification 1); replaced with an area conversion.",
+  "rt": "sa",
+  "q": "1 inch ≈ 2.54 centimeters.\n\nA photo is 4 inches by 6 inches. What is the area of the photo in square centimeters? Round to the nearest tenth.",
+  "answer": "154.8",
+  "accept": [
+   "154.8",
+   "154.80"
+  ],
+  "s": "Convert each side: 4 × 2.54 = 10.16 cm and 6 × 2.54 = 15.24 cm.\nArea: 10.16 × 15.24 = 154.8384, which rounds to 154.8 square centimeters.\nCheck: 24 square inches × 2.54 × 2.54 gives the same result, because area uses the conversion factor twice.",
+  "typed": [
+   [
+    "61.0",
+    "multiplied the area in square inches by 2.54 only once"
+   ],
+   [
+    "9.4",
+    "divided 24 by 2.54 instead of multiplying twice"
+   ],
+   [
+    "3.7",
+    "divided 24 by 2.54 twice"
+   ],
+   [
+    "154.84",
+    "rounded to the nearest hundredth"
+   ],
+   [
+    "155.0",
+    "rounded each side to the nearest tenth before multiplying"
+   ]
+  ],
+  "check": "round(4*2.54*6*2.54, 1) == 154.8",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.3.3/chk/4",
+  "fix": "8",
+  "rt": "mc",
+  "q": "Store A sells cheddar cheese for $7.29 per pound. Store B sells cheddar cheese for $17.05 per kilogram. 1 kilogram ≈ 2.2 pounds.\n\nWhich store charges less per pound, and how much less per pound?",
+  "opts": [
+   "Store B, by $0.46 per pound",
+   "Store A, by $0.46 per pound",
+   "Store A, by $9.76 per pound",
+   "Store B, by $1.01 per pound"
+  ],
+  "key": 1,
+  "s": "Store B charges $17.05 for 1 kilogram, which is about 2.2 pounds, so its price per pound is 17.05 ÷ 2.2 ≈ $7.75.\nStore A charges $7.29 per pound, so Store A charges less: 7.75 − 7.29 = $0.46 less per pound.\nThe prices can only be compared once both are in the same unit.",
+  "why": [
+   "found the $0.46 difference but named the store with the higher price per pound",
+   null,
+   "subtracted $7.29 from the price of a kilogram without converting",
+   "compared the prices per kilogram ($16.04 and $17.05) and reported that difference, naming the wrong store"
+  ],
+  "check": "round(17.05/2.2 - 7.29, 2) == 0.46; round(17.05-7.29, 2) == 9.76; round(17.05 - round(7.29*2.2, 2), 2) == 1.01",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.3.3/re/1",
+  "fix": "9",
+  "rt": "sa",
+  "q": "1 kilogram ≈ 2.2 pounds.\n\nApples cost $3.40 per kilogram. How much do 5 pounds of apples cost, to the nearest cent?",
+  "answer": "7.73",
+  "accept": [
+   "7.73"
+  ],
+  "s": "Convert the pounds to kilograms: 5 ÷ 2.2 ≈ 2.2727 kilograms.\nCost: 2.2727 × $3.40 ≈ $7.727, which rounds to $7.73.\nCheck: $3.40 per kilogram is about $1.55 per pound, and 5 × 1.545 ≈ 7.73.",
+  "typed": [
+   [
+    "17",
+    "multiplied 5 by $3.40 without converting pounds to kilograms"
+   ],
+   [
+    "37.4",
+    "multiplied by 2.2 instead of dividing"
+   ],
+   [
+    "1.55",
+    "found the price per pound but never multiplied by 5"
+   ],
+   [
+    "7.72",
+    "rounded down instead of to the nearest cent"
+   ],
+   [
+    "7.75",
+    "rounded the price per pound to $1.55 before multiplying by 5"
+   ]
+  ],
+  "check": "round(5/2.2*3.40, 2) == 7.73",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.3.1/chk/0",
+  "fix": "10",
+  "note": "Fix list's 285/304 is already re/2 of this benchmark, and 19/304 = 6.25% exactly, so 'nearest tenth' would be a rounding-convention coin flip. New numbers: 325 estimated, 310 actual -> 4.8%.",
+  "rt": "sa",
+  "q": "A student estimated that a jar held 325 marbles. The actual count was 310 marbles.\n\nWhat is the percent error of the estimate? Round to the nearest tenth of a percent.",
+  "answer": "4.8",
+  "accept": [
+   "4.8",
+   "4.80"
+  ],
+  "s": "Percent error compares the size of the error with the ACTUAL amount.\nError: |325 − 310| = 15.\n15 ÷ 310 ≈ 0.0484, and 0.0484 × 100 ≈ 4.8%.",
+  "typed": [
+   [
+    "4.6",
+    "divided by the estimate (325) instead of the actual count"
+   ],
+   [
+    "15",
+    "stopped at the error and did not find the percent"
+   ],
+   [
+    "0.048",
+    "did not multiply by 100 to write a percent"
+   ],
+   [
+    "4.84",
+    "rounded to the hundredth"
+   ]
+  ],
+  "check": "round(abs(325-310)/310*100, 1) == 4.8",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.3.1/re/1",
+  "fix": "10",
+  "rt": "sa",
+  "q": "A store buys a jacket for $48.00 and marks the price up 35%. A customer then buys the jacket and pays 6.5% sales tax on the marked-up price.\n\nWhat is the total the customer pays, to the nearest cent?",
+  "answer": "69.01",
+  "accept": [
+   "69.01"
+  ],
+  "s": "Markup: $48.00 × 1.35 = $64.80 is the selling price.\nTax is on the selling price: $64.80 × 0.065 = $4.212 ≈ $4.21.\nTotal: $64.80 + $4.21 = $69.01.",
+  "typed": [
+   [
+    "64.8",
+    "found the marked-up price but forgot the tax"
+   ],
+   [
+    "67.92",
+    "added the percents (41.5%) and applied them to $48.00 at once"
+   ],
+   [
+    "51.12",
+    "applied the tax to the store's cost and skipped the markup"
+   ],
+   [
+    "69",
+    "rounded to the nearest dollar"
+   ]
+  ],
+  "check": "round(48*1.35, 2) == 64.8; round(64.80*0.065, 2) == 4.21; 64.80+4.21 == 69.01",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.3.1/cmp/0",
+  "fix": "10",
+  "rt": "sa",
+  "q": "The price of a bike dropped from $480 to $408.\n\nWhat is the percent decrease?",
+  "answer": "15",
+  "accept": [
+   "15",
+   "15.0",
+   "15.00"
+  ],
+  "s": "Change: 480 − 408 = 72, a decrease of 72.\nCompare the change with the ORIGINAL price: 72 ÷ 480 = 0.15.\n0.15 × 100 = 15%.",
+  "typed": [
+   [
+    "17.6",
+    "divided the change by the new price (408) instead of the original"
+   ],
+   [
+    "72",
+    "stopped at the amount of the decrease"
+   ],
+   [
+    "85",
+    "found what percent the new price is of the original, not the decrease"
+   ],
+   [
+    "0.15",
+    "did not multiply by 100 to write a percent"
+   ]
+  ],
+  "check": "(480-408)/480*100 == 15",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.3.2/chk/4",
+  "fix": "11",
+  "note": "Fix list's version (a 4-lb bag covers 1,500 sq ft) gives 3600 ÷ 1500 = 2.4 → 3 bags, not 10. Rewritten so the key is 10: seed is applied at 4 lb per 1,500 sq ft and sold in 1-lb bags (3600 × 4 ÷ 1500 = 9.6 → 10). Distractor 6 had no single named error, so it is replaced by 3 (forgot the 4 pounds).",
+  "rt": "mc",
+  "q": "A lawn-care guide says to spread 4 pounds of grass seed for every 1,500 square feet. The seed is sold in 1-pound bags.\n\nA rectangular lawn is 40 feet by 90 feet. How many bags of seed must be bought to cover the whole lawn?",
+  "opts": [
+   "9 bags",
+   "10 bags",
+   "3 bags",
+   "2 bags"
+  ],
+  "key": 1,
+  "s": "Area of the lawn: 40 × 90 = 3,600 square feet.\nProportion: 4/1500 = p/3600, so p = 4 × 3600 ÷ 1500 = 9.6 pounds.\nBags come in whole pounds, so 9 bags are not enough: 10 bags must be bought.",
+  "why": [
+   "rounded 9.6 down, which leaves part of the lawn unseeded",
+   null,
+   "found 3600 ÷ 1500 = 2.4 and rounded up, never using the 4 pounds",
+   "set up the proportion upside down (1500/3600 × 4 ≈ 1.7) and rounded up"
+  ],
+  "check": "import math; math.ceil(40*90*4/1500) == 10; 40*90*4/1500 == 9.6; math.ceil(3600/1500) == 3; math.ceil(1500/3600*4) == 2",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.4.5/chk/0",
+  "fix": "12",
+  "note": "Table written as an HTML <table>, matching how the other table stems render.",
+  "rt": "mc",
+  "q": "Two streaming plans each charge a cost that is proportional to the number of months.\n\nPlan A: the table shows the cost for some numbers of months.\n\n<table><tr><th>Months</th><th>Cost</th></tr><tr><td>3</td><td>$26.85</td></tr><tr><td>5</td><td>$44.75</td></tr><tr><td>8</td><td>$71.60</td></tr></table>\n\nPlan B costs $9.25 per month.\n\nWhich plan costs less for 12 months, and by how much?",
+  "opts": [
+   "Plan A, by $0.30",
+   "Plan B, by $3.60",
+   "Plan A, by $3.60",
+   "Plan B, by $211.20"
+  ],
+  "key": 2,
+  "s": "Plan A per month: $26.85 ÷ 3 = $8.95 (check: $44.75 ÷ 5 = $8.95). For 12 months: 12 × $8.95 = $107.40.\nPlan B for 12 months: 12 × $9.25 = $111.00.\nPlan A costs less, by 111.00 − 107.40 = $3.60.",
+  "why": [
+   "compared one month only ($9.25 − $8.95) instead of 12 months",
+   "found the $3.60 difference but named the plan with the higher 12-month cost",
+   null,
+   "treated $26.85 as the cost of one month"
+  ],
+  "check": "round(8.95*12,2)==107.40 and round(9.25*12,2)==111.00 and round(111-107.4,2)==3.6",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.4.5/chk/1",
+  "fix": "12",
+  "rt": "sa",
+  "q": "Two gyms each charge a cost that is proportional to the number of months.\n\nGym 1: the cost c, in dollars, for m months is given by c = 32.5m.\n\nGym 2: the table shows the cost for some numbers of months.\n\n<table><tr><th>Months</th><th>Cost</th></tr><tr><td>2</td><td>$63.00</td></tr><tr><td>4</td><td>$126.00</td></tr><tr><td>6</td><td>$189.00</td></tr></table>\n\nHow many dollars less does the cheaper gym cost for 12 months? Type only the number.",
+  "answer": "12",
+  "accept": [
+   "12",
+   "12.0",
+   "12.00"
+  ],
+  "s": "Gym 1 for 12 months: 32.5 × 12 = $390.00.\nGym 2 per month: $63.00 ÷ 2 = $31.50. For 12 months: 12 × $31.50 = $378.00.\nGym 2 is cheaper, by 390 − 378 = $12.",
+  "typed": [
+   [
+    "1",
+    "compared one month only (32.50 − 31.50)"
+   ],
+   [
+    "201",
+    "compared Gym 1's 12-month cost with the table's 6-month cost ($189)"
+   ],
+   [
+    "378",
+    "gave Gym 2's total instead of the difference"
+   ],
+   [
+    "366",
+    "treated $63.00 as the cost of one month (756 − 390)"
+   ]
+  ],
+  "check": "32.5*12 == 390; 63/2*12 == 378; 390-378 == 12",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.4.5/chk/2",
+  "fix": "12",
+  "rt": "mc",
+  "q": "Two printers each print at a constant rate.\n\nPrinter A prints 42 pages in 2.5 minutes.\n\nPrinter B's number of pages, p, after t minutes is given by p = 17t.\n\nWhich printer prints more pages in 15 minutes, and how many more?",
+  "opts": [
+   "Printer A, by 25 pages",
+   "Printer B, by 3 pages",
+   "Printer B, by 0.2 page",
+   "Printer A, by 375 pages"
+  ],
+  "key": 1,
+  "s": "Printer A: 42 ÷ 2.5 = 16.8 pages per minute. In 15 minutes: 16.8 × 15 = 252 pages.\nPrinter B: 17 × 15 = 255 pages.\nPrinter B prints more, by 255 − 252 = 3 pages.",
+  "why": [
+   "compared 42 with 17 without using the times",
+   null,
+   "compared the rates for one minute only (17 − 16.8)",
+   "treated 42 as pages per minute (630 − 255)"
+  ],
+  "check": "42/2.5*15 == 252; 17*15 == 255; 255-252 == 3; 42*15-255 == 375; round(17-16.8,1) == 0.2",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.4.5/re/0",
+  "fix": "12",
+  "rt": "sa",
+  "q": "A car travels 23.1 miles on each gallon of gas, and its tank holds 17.5 gallons. The driver starts with an empty tank and fills it completely every time it is filled.\n\nWhat is the least number of times the tank must be filled to drive 1,407 miles?",
+  "answer": "4",
+  "accept": [
+   "4",
+   "4.0"
+  ],
+  "s": "One full tank goes 23.1 × 17.5 = 404.25 miles.\nTanks needed: 1407 ÷ 404.25 ≈ 3.48 tanks.\n3 fills cover only 1,212.75 miles, so the tank must be filled 4 times. (Check: 1407 ÷ 23.1 ≈ 60.9 gallons, and 60.9 ÷ 17.5 ≈ 3.48.)",
+  "typed": [
+   [
+    "3",
+    "rounded 3.48 down; 3 tanks fall short of 1,407 miles"
+   ],
+   [
+    "3.5",
+    "did not round to a whole number of fills"
+   ],
+   [
+    "61",
+    "found the gallons needed (60.9) and stopped"
+   ],
+   [
+    "80",
+    "divided 1,407 by the tank size instead of by the miles per gallon"
+   ]
+  ],
+  "check": "import math; 23.1*17.5 == 404.25; math.ceil(1407/404.25) == 4",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.4.5/re/1",
+  "fix": "12",
+  "rt": "mc",
+  "q": "Two phone plans each charge a cost that is proportional to the number of months.\n\nPlan X: the table shows the cost for some numbers of months.\n\n<table><tr><th>Months</th><th>Cost</th></tr><tr><td>2</td><td>$55.50</td></tr><tr><td>6</td><td>$166.50</td></tr><tr><td>10</td><td>$277.50</td></tr></table>\n\nPlan Y: the cost c, in dollars, for m months is given by c = 28.5m.\n\nWhich plan costs less for 12 months, and by how much?",
+  "opts": [
+   "Plan X, by $0.75",
+   "Plan Y, by $324.00",
+   "Plan X, by $9.00",
+   "Plan X, by $64.50"
+  ],
+  "key": 2,
+  "s": "Plan X per month: $111.00 ÷ 4 = $27.75 (check: $166.50 ÷ 6 = $27.75). For 12 months: 12 × $27.75 = $333.00.\nPlan Y for 12 months: 28.5 × 12 = $342.00.\nPlan X costs less, by 342 − 333 = $9.00.",
+  "why": [
+   "compared one month only (28.50 − 27.75)",
+   "treated $55.50 as the cost of one month (666 − 342)",
+   null,
+   "compared Plan Y's 12-month cost with the table's 10-month cost ($277.50)"
+  ],
+  "check": "27.75*12==333 and 28.5*12==342 and 55.5*12-342==324",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.4.5/re/2",
+  "fix": "12",
+  "rt": "sa",
+  "q": "Two machines each fill bottles at a constant rate.\n\nMachine P fills 36 bottles in 1.5 minutes.\n\nMachine Q's number of bottles, b, after t minutes is given by b = 22t.\n\nHow many more bottles does the faster machine fill in 20 minutes? Type only the number.",
+  "answer": "40",
+  "accept": [
+   "40",
+   "40.0"
+  ],
+  "s": "Machine P: 36 ÷ 1.5 = 24 bottles per minute. In 20 minutes: 24 × 20 = 480 bottles.\nMachine Q: 22 × 20 = 440 bottles.\nMachine P is faster, by 480 − 440 = 40 bottles.",
+  "typed": [
+   [
+    "2",
+    "compared the rates for one minute only (24 − 22)"
+   ],
+   [
+    "14",
+    "compared 36 with 22 without using the times"
+   ],
+   [
+    "280",
+    "treated 36 as bottles per minute (720 − 440)"
+   ],
+   [
+    "480",
+    "gave Machine P's total instead of the difference"
+   ]
+  ],
+  "check": "36/1.5*20 == 480; 22*20 == 440; 480-440 == 40",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.4.5/cmp/1",
+  "fix": "12",
+  "rt": "sa",
+  "q": "Two bakeries each charge a price for cookies that is proportional to the number of dozens.\n\nBakery 1: the table shows the price for some numbers of dozens.\n\n<table><tr><th>Dozens</th><th>Price</th></tr><tr><td>3</td><td>$40.50</td></tr><tr><td>5</td><td>$67.50</td></tr><tr><td>6</td><td>$81.00</td></tr></table>\n\nBakery 2 charges $12.75 per dozen.\n\nHow many dollars less does the cheaper bakery charge for 8 dozen cookies? Type only the number.",
+  "answer": "6",
+  "accept": [
+   "6",
+   "6.0",
+   "6.00"
+  ],
+  "s": "Bakery 1 per dozen: $40.50 ÷ 3 = $13.50 (check: $67.50 ÷ 5 = $13.50). For 8 dozen: 8 × $13.50 = $108.00.\nBakery 2 for 8 dozen: 8 × $12.75 = $102.00.\nBakery 2 is cheaper, by 108 − 102 = $6.",
+  "typed": [
+   [
+    "0.75",
+    "compared one dozen only (13.50 − 12.75)"
+   ],
+   [
+    "21",
+    "compared Bakery 2's 8-dozen price with the table's 6-dozen price ($81.00)"
+   ],
+   [
+    "222",
+    "treated $40.50 as the price of one dozen (324 − 102)"
+   ],
+   [
+    "102",
+    "gave Bakery 2's total instead of the difference"
+   ]
+  ],
+  "check": "40.5/3 == 13.5; 13.5*8 == 108; 12.75*8 == 102; 108-102 == 6; 102-81 == 21",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.4.1/cmp/1",
+  "fix": "14",
+  "note": "Reworded only; table and key unchanged.",
+  "rt": "sa",
+  "q": "The table does not show a proportional relationship.\n\n<table><tr><th>x</th><th>y</th></tr><tr><td>2</td><td>22</td></tr><tr><td>4</td><td>44</td></tr><tr><td>6</td><td>66</td></tr><tr><td>8</td><td>86</td></tr></table>\n\nWhich y-value in the table is wrong? Type the value exactly as it appears in the table.",
+  "answer": "86",
+  "accept": [
+   "86"
+  ],
+  "s": "Every other pair gives y ÷ x = 11: 22 ÷ 2, 44 ÷ 4, 66 ÷ 6.\nFor x = 8, 86 ÷ 8 = 10.75, not 11, so 86 is the wrong value.\n(A proportional relationship would need y = 88 there.)",
+  "typed": [
+   [
+    "88",
+    "typed the corrected value instead of the wrong one"
+   ],
+   [
+    "8",
+    "typed the x-value of the wrong row"
+   ],
+   [
+    "11",
+    "typed the constant of proportionality"
+   ]
+  ],
+  "check": "[y/x for x,y in [(2,22),(4,44),(6,66),(8,86)]] == [11.0, 11.0, 11.0, 10.75]",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.4.2/chk/0",
+  "fix": "15",
+  "note": "Reworded with named variables so the student decides which quantity is y; key unchanged (9.15).",
+  "rt": "mc",
+  "q": "In a proportional relationship, 64.05 cups of water are used in 7 minutes. Let x be the number of minutes and let y be the number of cups of water.\n\nWhat is the constant of proportionality, k, in y = kx?",
+  "opts": [
+   "9.15",
+   "0.11",
+   "64.05",
+   "57.05"
+  ],
+  "key": 0,
+  "s": "In y = kx, the constant of proportionality is y ÷ x: cups divided by minutes.\n64.05 ÷ 7 = 9.15 cups per minute.\nx ÷ y (7 ÷ 64.05 ≈ 0.11) would be minutes per cup, the constant for x = ky.",
+  "why": [
+   null,
+   "divided x by y (minutes per cup) instead of y by x",
+   "used the total cups rather than the rate",
+   "subtracted the two quantities instead of dividing"
+  ],
+  "check": "64.05/7 == 9.15; round(7/64.05, 2) == 0.11; round(64.05-7, 2) == 57.05",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.4.2/re/2",
+  "fix": "15",
+  "note": "Variables assigned the 'unexpected' way (x = liters, y = walls) so 'big divided by small' fails. 12.6 changed to 12.5 so the key is exact (0.32).",
+  "rt": "mc",
+  "q": "In a proportional relationship, 12.5 liters of paint cover 4 walls. Let x be the number of liters of paint and let y be the number of walls.\n\nWhat is the constant of proportionality, k, in y = kx?",
+  "opts": [
+   "3.125",
+   "0.32",
+   "12.5",
+   "8.5"
+  ],
+  "key": 1,
+  "s": "In y = kx, the constant of proportionality is y ÷ x: walls divided by liters.\n4 ÷ 12.5 = 0.32 walls per liter.\n12.5 ÷ 4 = 3.125 is liters per wall, which would be the constant if x were walls and y were liters.",
+  "why": [
+   "divided x by y (liters per wall) instead of y by x",
+   null,
+   "used the total liters rather than the rate",
+   "subtracted the two quantities instead of dividing"
+  ],
+  "check": "4/12.5 == 0.32; 12.5/4 == 3.125; 12.5-4 == 8.5",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.AR.4.3/chk/1",
+  "fix": "16",
+  "note": "Figure kept (Graph B is y = 5x). Stem now names Graph B and asks about (0, 0) and (1, r) instead of pick-the-graph.",
+  "rt": "mc",
+  "q": "The table shows a proportional relationship between x and y.\n\n<table><tr><th>x</th><th>y</th></tr><tr><td>4</td><td>20</td></tr><tr><td>5</td><td>25</td></tr><tr><td>6</td><td>30</td></tr></table>\n\nGraph B represents this relationship. Which statement about Graph B must be true?",
+  "opts": [
+   "It passes through (0, 0) and (1, 5); the point (1, 5) shows the constant of proportionality, 5.",
+   "It passes through (0, 0) and (5, 1); the point (5, 1) shows the constant of proportionality, 5.",
+   "It passes through (0, 5) and (1, 5); the point (0, 5) shows the constant of proportionality, 5.",
+   "It passes through (0, 0) and (4, 20); the point (4, 20) shows the constant of proportionality, 20."
+  ],
+  "key": 0,
+  "s": "Every proportional graph passes through the origin (0, 0): when x is 0, y is 0.\nThe constant of proportionality is y ÷ x = 20 ÷ 4 = 5, so when x = 1, y = 5. The point (1, 5) is on the line, and its y-value is the constant.\nGraph B rises 5 for every 1 to the right and starts at the origin, matching (0, 0) and (1, 5).",
+  "why": [
+   null,
+   "switched the coordinates of (1, 5)",
+   "placed the constant on the y-axis as (0, k) instead of at (1, k)",
+   "took the first y-value in the table as the constant instead of y ÷ x"
+  ],
+  "check": "all(y/x == 5 for x,y in [(4,20),(5,25),(6,30)])",
+  "keep_fig": true
+ },
+ {
+  "slot": "MA.7.AR.4.4/chk/1",
+  "fix": "17",
+  "note": "Written-description target added to the check (table -> description).",
+  "rt": "mc",
+  "q": "The table shows a proportional relationship between the number of gallons of paint, x, and the number of square feet covered, y.\n\n<table><tr><th>Gallons of paint (x)</th><th>Square feet covered (y)</th></tr><tr><td>2</td><td>700</td></tr><tr><td>5</td><td>1750</td></tr><tr><td>8</td><td>2800</td></tr></table>\n\nWhich description matches this relationship?",
+  "opts": [
+   "Each gallon of paint covers 350 square feet.",
+   "Each gallon of paint covers 700 square feet.",
+   "Each square foot needs 350 gallons of paint.",
+   "Each gallon of paint covers 350 more square feet than the gallon before."
+  ],
+  "key": 0,
+  "s": "The constant of proportionality is y ÷ x: 700 ÷ 2 = 350, 1750 ÷ 5 = 350, 2800 ÷ 8 = 350.\nSo y = 350x: each gallon of paint covers 350 square feet.\nThe rate is square feet per gallon, not gallons per square foot, and it is the same for every gallon, not more each time.",
+  "why": [
+   null,
+   "used the first y-value in the table as the rate",
+   "reversed the two quantities (gallons per square foot)",
+   "described the constant as an increase from one gallon to the next (additive) instead of the same amount each time"
+  ],
+  "check": "all(y/x == 350 for x,y in [(2,700),(5,1750),(8,2800)])",
+  "keep_fig": false
+ }
+]

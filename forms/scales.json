@@ -213,7 +213,7 @@
   "MA.7.AR.3.1": {
    "goal": "I can solve percent problems: discount, markup, tax, tip, interest, percent change, percent error.",
    "l2": "I can find a percent of a number.",
-   "l3": "I can solve a one-step percent problem such as a discount, tax, tip, or simple interest.",
+   "l3": "I can solve a multi-step percent problem (discount, tax, tip, simple interest, percent change).",
    "l4": "I can solve a multi-step percent problem, including percent change or percent error, and explain the result."
   },
   "MA.7.NSO.1.1": {
@@ -226,7 +226,7 @@
    "goal": "I can use order of operations with rational numbers.",
    "l2": "I can use order of operations with whole numbers.",
    "l3": "I can evaluate an expression with rational numbers, exponents, and grouping symbols.",
-   "l4": "I can find and explain an error in someone else's work with order of operations."
+   "l4": "I can reason about the size of a result before computing, and check an answer for reasonableness."
   },
   "MA.7.AR.1.1": {
    "goal": "I can add and subtract linear expressions.",
@@ -238,13 +238,13 @@
    "goal": "I can tell whether two expressions are equivalent.",
    "l2": "I can use the distributive property on a simple expression.",
    "l3": "I can decide whether two linear expressions are equivalent and rewrite one as the other.",
-   "l4": "I can justify equivalence using properties of operations, including factoring."
+   "l4": "I can show two expressions are equivalent using the properties of operations and explain which property I used."
   },
   "MA.7.AR.2.1": {
    "goal": "I can write and solve one-step inequalities and graph the solutions.",
    "l2": "I can graph an inequality on a number line.",
    "l3": "I can solve a one-step inequality, including with negative numbers, and graph the solution.",
-   "l4": "I can write an inequality from a real-world situation, solve it, and interpret the solution."
+   "l4": "I can solve a one-step inequality with rational numbers, graph it, and explain why the solution set is correct (no real-world context in this benchmark)."
   },
   "MA.7.AR.2.2": {
    "goal": "I can write and solve two-step equations.",
@@ -286,7 +286,7 @@
    "goal": "I can solve problems involving surface area of cylinders.",
    "l2": "I can find the area of a circle and a rectangle.",
    "l3": "I can solve a real-world problem with the surface area of a cylinder.",
-   "l4": "I can solve a multi-step surface-area problem, such as a label or an open-top can."
+   "l4": "I can use surface area to solve a real problem (paint, cost, material), including when only some faces count."
   },
   "MA.7.GR.2.3": {
    "goal": "I can find the volume of a right circular cylinder.",

@@ -1,0 +1,1080 @@
+[
+ {
+  "slot": "MA.7.GR.1.1/chk/1",
+  "fix": "3",
+  "note": "Figure-free replacement; the old rhombus figure (base 15 m, height 7 m) is dropped because the item is now a decomposition item.",
+  "rt": "sa",
+  "q": "A rhombus is cut along one diagonal into two congruent triangles. Each triangle has a base of 12 cm and a height of 5 cm.\n\nWhat is the area of the rhombus, in square centimeters?",
+  "answer": "60",
+  "accept": [
+   "60",
+   "60.0",
+   "60.00"
+  ],
+  "s": "One triangle: ½ × 12 × 5 = 30 cm².\nThe rhombus is two congruent triangles: 2 × 30 = 60 cm².\nCheck: the diagonals are 12 cm and 2 × 5 = 10 cm, and ½ × 12 × 10 = 60 cm².",
+  "typed": [
+   [
+    "30",
+    "found the area of one triangle only"
+   ],
+   [
+    "120",
+    "used 12 × 5 for each triangle and then doubled"
+   ],
+   [
+    "17",
+    "added 12 and 5"
+   ]
+  ],
+  "check": "2*(0.5*12*5)==60",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.GR.1.1/chk/2",
+  "fix": "3",
+  "note": "Figure-free replacement with a slant side as a distractor value; the old trapezoid figure (8.5, 4.5, 5.5) is dropped. Dimensions are consistent (overhang 4.5, height 6, slant 7.5).",
+  "rt": "sa",
+  "q": "A trapezoid has bases of 13.5 centimeters and 4.5 centimeters. Each slanted side is 7.5 centimeters long, and the vertical height is 6 centimeters.\n\nWhat is the area of the trapezoid, in square centimeters?",
+  "answer": "54",
+  "accept": [
+   "54",
+   "54.0",
+   "54.00"
+  ],
+  "s": "Only the bases and the vertical height go in the formula; the slanted side is not the height.\nA = ½(b₁ + b₂)h = ½(13.5 + 4.5)(6) = ½(18)(6) = 54 cm².",
+  "typed": [
+   [
+    "67.5",
+    "used the 7.5 cm slanted side as the height"
+   ],
+   [
+    "108",
+    "left out the ½"
+   ],
+   [
+    "81",
+    "multiplied 13.5 by 6 and ignored the second base"
+   ],
+   [
+    "27",
+    "multiplied 4.5 by 6 and ignored the second base"
+   ]
+  ],
+  "check": "0.5*(13.5+4.5)*6==54",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.GR.1.1/re/1",
+  "fix": "3",
+  "note": "Figure-free replacement with a slant side as a distractor; the old rhombus figure (18 in. by 10 in.) is dropped. A rhombus's side is its base, so the shape is changed to a parallelogram to make the slant side a real distractor.",
+  "rt": "mc",
+  "q": "A parallelogram has a base of 16 inches. Its slanted side is 10 inches long, and its vertical height is 8 inches.\n\nWhat is the area of the parallelogram, in square inches?",
+  "opts": [
+   "128 in.²",
+   "160 in.²",
+   "80 in.²",
+   "64 in.²"
+  ],
+  "key": 0,
+  "s": "The height is the vertical distance between the bases, 8 in., not the slanted side.\nA = bh = 16 × 8 = 128 in.²",
+  "why": [
+   null,
+   "used the 10 in. slanted side as the height",
+   "multiplied the slanted side by the height instead of base × height",
+   "took half of base × height, as for a triangle"
+  ],
+  "check": "16*8==128 and 16*10==160 and 10*8==80 and 0.5*16*8==64",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.GR.1.1/cmp/1",
+  "fix": "3",
+  "note": "Review item changed from a parallelogram to a trapezoid; figure-free (old parallelogram figure 6 in. by 11 in. dropped).",
+  "rt": "sa",
+  "q": "A trapezoid-shaped flower bed has bases of 10 feet and 6 feet and a vertical height of 8 feet.\n\nWhat is the area of the flower bed, in square feet?",
+  "answer": "64",
+  "accept": [
+   "64",
+   "64.0",
+   "64.00"
+  ],
+  "s": "A = ½(b₁ + b₂)h = ½(10 + 6)(8) = ½(16)(8) = 64 ft².",
+  "typed": [
+   [
+    "128",
+    "left out the ½"
+   ],
+   [
+    "80",
+    "multiplied 10 by 8 and ignored the second base"
+   ],
+   [
+    "24",
+    "added the three measurements"
+   ]
+  ],
+  "check": "0.5*(10+6)*8==64",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.GR.1.2/chk/0",
+  "fix": "2",
+  "note": "Stem rewritten to give no decomposition; the figure (kept) carries the dimensions. Key and figure unchanged.",
+  "rt": "sa",
+  "q": "A garden is shown. The dashed lines show a corner that was removed.\n\nWhat is the area of the garden, in square meters?",
+  "answer": "95",
+  "accept": [
+   "95",
+   "95.0",
+   "95.00"
+  ],
+  "s": "Whole rectangle: 11 × 10 = 110 m².\nRemoved corner: 3 × 5 = 15 m².\nArea: 110 − 15 = 95 m².",
+  "typed": [
+   [
+    "110",
+    "did not subtract the removed corner"
+   ],
+   [
+    "125",
+    "added the corner instead of subtracting it"
+   ],
+   [
+    "42",
+    "added the side lengths (perimeter-style) instead of finding area"
+   ]
+  ],
+  "check": "11*10-3*5==95",
+  "keep_fig": true
+ },
+ {
+  "slot": "MA.7.GR.1.2/chk/1",
+  "fix": "2",
+  "note": "Stem rewritten to give no decomposition; the figure (kept) carries the dimensions. Key and figure unchanged.",
+  "rt": "sa",
+  "q": "The front of a tent is shown.\n\nWhat is its area, in square feet?",
+  "answer": "78",
+  "accept": [
+   "78",
+   "78.0",
+   "78.00"
+  ],
+  "s": "Trapezoid: ½(13 + 5)(7) = 63 ft².\nTriangle: ½ × 5 × 6 = 15 ft².\nTotal: 63 + 15 = 78 ft².",
+  "typed": [
+   [
+    "63",
+    "left out the triangle on top"
+   ],
+   [
+    "156",
+    "left out the ½ in both formulas"
+   ],
+   [
+    "141",
+    "left out the ½ in the trapezoid formula"
+   ],
+   [
+    "93",
+    "left out the ½ in the triangle formula"
+   ]
+  ],
+  "check": "0.5*(13+5)*7+0.5*5*6==78",
+  "keep_fig": true
+ },
+ {
+  "slot": "MA.7.GR.1.2/chk/2",
+  "fix": "2",
+  "note": "Stem rewritten to give no decomposition; the figure (kept) carries the dimensions. Key and figure unchanged.",
+  "rt": "sa",
+  "q": "A tabletop is shown.\n\nWhat is its area, in square inches?",
+  "answer": "205",
+  "accept": [
+   "205",
+   "205.0",
+   "205.00"
+  ],
+  "s": "Rectangle: 18 × 10 = 180 in.².\nTriangle: ½ × 10 × 5 = 25 in.².\nTotal: 180 + 25 = 205 in.².",
+  "typed": [
+   [
+    "180",
+    "left out the triangle"
+   ],
+   [
+    "230",
+    "left out the ½ in the triangle formula"
+   ],
+   [
+    "155",
+    "subtracted the triangle instead of adding it"
+   ]
+  ],
+  "check": "18*10+0.5*10*5==205",
+  "keep_fig": true
+ },
+ {
+  "slot": "MA.7.GR.1.2/chk/3",
+  "fix": "2",
+  "note": "Stem rewritten to give no decomposition; the figure (kept) carries the dimensions. Key and figure unchanged.",
+  "rt": "sa",
+  "q": "The end wall of a barn is shown.\n\nWhat is its area, in square feet?",
+  "answer": "477.5",
+  "accept": [
+   "477.5",
+   "477.50",
+   "477 1/2",
+   "955/2"
+  ],
+  "s": "Rectangle: 32 × 10 = 320 ft².\nTrapezoid: ½(32 + 13)(7) = 157.5 ft².\nTotal: 320 + 157.5 = 477.5 ft².",
+  "typed": [
+   [
+    "320",
+    "left out the trapezoid"
+   ],
+   [
+    "635",
+    "left out the ½ in the trapezoid formula"
+   ],
+   [
+    "411",
+    "used 13 ft for both bases of the trapezoid (½ × 26 × 7 = 91)"
+   ],
+   [
+    "544",
+    "treated the top as a 32 × 7 rectangle"
+   ]
+  ],
+  "check": "32*10+0.5*(32+13)*7==477.5",
+  "keep_fig": true
+ },
+ {
+  "slot": "MA.7.GR.1.2/chk/4",
+  "fix": "2",
+  "note": "Stem rewritten to give no decomposition (figure kept and carries all dimensions). Options rebalanced: the 54.5 distractor is replaced by 'Plot B, by 9.5 m²' (sign/order error), so two options say Plot A and two say Plot B.",
+  "rt": "mc",
+  "q": "Two garden plots, Plot A and Plot B, are shown.\n\nWhich plot has the greater area, and how much greater is it?",
+  "opts": [
+   "Plot A, by 9.5 m²",
+   "Plot B, by 9.5 m²",
+   "Plot A, by 50 m²",
+   "Plot B, by 1 m²"
+  ],
+  "key": 0,
+  "s": "Plot A: trapezoid ½(17 + 10)(3) = 40.5 m² and rectangle 17 × 7 = 119 m², so 159.5 m².\nPlot B: parallelogram 15 × 6 = 90 m² and rectangle 15 × 4 = 60 m², so 150 m².\n159.5 − 150 = 9.5, so Plot A is greater by 9.5 m².",
+  "why": [
+   null,
+   "found the 9.5 m² difference but reported the smaller plot as the larger one (subtracted in the wrong order)",
+   "left out the ½ in the trapezoid formula, making Plot A 200 m²",
+   "treated the trapezoid as a 10 m by 3 m rectangle, making Plot A 149 m²"
+  ],
+  "check": "(0.5*(17+10)*3+17*7)-(15*6+15*4)==9.5 and (27*3+119)-150==50 and 150-(10*3+119)==1",
+  "keep_fig": true
+ },
+ {
+  "slot": "MA.7.GR.1.2/re/0",
+  "fix": "2",
+  "note": "Stem rewritten to give no decomposition; the figure (kept) carries the dimensions. Key and figure unchanged.",
+  "rt": "sa",
+  "q": "A kitchen floor is shown. The dashed lines show a notch that was removed from one edge.\n\nWhat is the area of the floor, in square feet?",
+  "answer": "108",
+  "accept": [
+   "108",
+   "108.0",
+   "108.00"
+  ],
+  "s": "Whole rectangle: 12 × 11 = 132 ft².\nRemoved notch: 6 × 4 = 24 ft².\nArea: 132 − 24 = 108 ft².",
+  "typed": [
+   [
+    "132",
+    "did not subtract the notch"
+   ],
+   [
+    "156",
+    "added the notch instead of subtracting it"
+   ],
+   [
+    "24",
+    "gave the area of the notch"
+   ]
+  ],
+  "check": "12*11-6*4==108",
+  "keep_fig": true
+ },
+ {
+  "slot": "MA.7.GR.1.2/re/1",
+  "fix": "2",
+  "note": "Stem rewritten to give no decomposition; the figure (kept) carries the dimensions. Key and figure unchanged.",
+  "rt": "sa",
+  "q": "A stained-glass panel is shown.\n\nWhat is its area, in square inches?",
+  "answer": "70",
+  "accept": [
+   "70",
+   "70.0",
+   "70.00"
+  ],
+  "s": "Trapezoid: ½(10 + 8)(6) = 54 in.².\nTriangle: ½ × 8 × 4 = 16 in.².\nTotal: 54 + 16 = 70 in.².",
+  "typed": [
+   [
+    "54",
+    "left out the triangle on top"
+   ],
+   [
+    "140",
+    "left out the ½ in both formulas"
+   ],
+   [
+    "124",
+    "left out the ½ in the trapezoid formula"
+   ],
+   [
+    "86",
+    "left out the ½ in the triangle formula"
+   ]
+  ],
+  "check": "0.5*(10+8)*6+0.5*8*4==70",
+  "keep_fig": true
+ },
+ {
+  "slot": "MA.7.GR.1.2/re/2",
+  "fix": "2",
+  "note": "Stem rewritten to give no decomposition; the figure (kept) carries the dimensions. Key and figure unchanged.",
+  "rt": "sa",
+  "q": "A garden bed is shown.\n\nWhat is its area, in square feet?",
+  "answer": "117",
+  "accept": [
+   "117",
+   "117.0",
+   "117.00"
+  ],
+  "s": "Rectangle: 18 × 6 = 108 ft².\nTriangle: ½ × 6 × 3 = 9 ft².\nTotal: 108 + 9 = 117 ft².",
+  "typed": [
+   [
+    "108",
+    "left out the triangle"
+   ],
+   [
+    "126",
+    "left out the ½ in the triangle formula"
+   ],
+   [
+    "99",
+    "subtracted the triangle instead of adding it"
+   ]
+  ],
+  "check": "18*6+0.5*6*3==117",
+  "keep_fig": true
+ },
+ {
+  "slot": "MA.7.GR.1.2/cmp/0",
+  "fix": "2",
+  "note": "Stem rewritten to give no decomposition; the figure (kept) carries the dimensions. Key and figure unchanged.",
+  "rt": "sa",
+  "q": "A kitchen floor is shown. The dashed lines show a corner that was removed.\n\nWhat is the area of the floor, in square feet?",
+  "answer": "165",
+  "accept": [
+   "165",
+   "165.0",
+   "165.00"
+  ],
+  "s": "Whole rectangle: 15 × 13 = 195 ft².\nRemoved corner: 5 × 6 = 30 ft².\nArea: 195 − 30 = 165 ft².",
+  "typed": [
+   [
+    "195",
+    "did not subtract the removed corner"
+   ],
+   [
+    "225",
+    "added the corner instead of subtracting it"
+   ],
+   [
+    "30",
+    "gave the area of the removed corner"
+   ]
+  ],
+  "check": "15*13-5*6==165",
+  "keep_fig": true
+ },
+ {
+  "slot": "MA.7.GR.1.2/cmp/1",
+  "fix": "2",
+  "note": "Stem no longer names the two trapezoids; it only points out the dashed line of symmetry. Figure, key and solution unchanged.",
+  "rt": "sa",
+  "q": "A hexagonal tabletop is shown. The dashed line is a line of symmetry.\n\nWhat is the area of the tabletop, in square inches?",
+  "answer": "850",
+  "accept": [
+   "850",
+   "850.0",
+   "850.00"
+  ],
+  "s": "The dashed line splits the hexagon into two congruent trapezoids with bases 32 in. and 18 in. and height 17 in.\nOne trapezoid: ½(32 + 18)(17) = 425 in.².\nTwo trapezoids: 2 × 425 = 850 in.².",
+  "typed": [
+   [
+    "425",
+    "found one trapezoid only"
+   ],
+   [
+    "1700",
+    "left out the ½ in the trapezoid formula"
+   ],
+   [
+    "1088",
+    "treated the hexagon as a 32 by 34 rectangle"
+   ]
+  ],
+  "check": "2*0.5*(32+18)*17==850",
+  "keep_fig": true
+ },
+ {
+  "slot": "MA.7.GR.1.3/chk/4",
+  "fix": "5",
+  "note": "Tenths, so 3.14, 3.142 and the π key all give 28.3; the item tests C = k·d from the table.",
+  "rt": "sa",
+  "q": "A student measured the diameter and the circumference of three round lids, in centimeters. The results are shown in the table.\n\n<table><tr><th>Diameter (cm)</th><th>Circumference (cm)</th></tr><tr><td>7</td><td>21.99</td></tr><tr><td>15</td><td>47.12</td></tr><tr><td>25</td><td>78.54</td></tr></table>\n\nThe circumference of a circle is proportional to its diameter. A fourth lid has a diameter of 9 cm. Based on the relationship in the table, what is its circumference, in centimeters? Round your answer to the nearest tenth.",
+  "answer": "28.3",
+  "accept": [
+   "28.3",
+   "28.30"
+  ],
+  "s": "Constant of proportionality: 21.99 ÷ 7 ≈ 3.14, 47.12 ÷ 15 ≈ 3.14, 78.54 ÷ 25 ≈ 3.14. The ratio C ÷ d is the same for every circle; it is π.\nCircumference of the 9 cm lid: 9 × 3.14 ≈ 28.3 cm (the same as 9π with the π key).",
+  "typed": [
+   [
+    "56.5",
+    "used 9 cm as a radius (2π × 9)"
+   ],
+   [
+    "27",
+    "rounded the constant to 3"
+   ],
+   [
+    "2.9",
+    "divided 9 by the constant instead of multiplying"
+   ],
+   [
+    "14.1",
+    "halved 9 first (treated 9 as a diameter to find r, then πr)"
+   ]
+  ],
+  "check": "round(9*math.pi,1)==28.3 and round(9*3.14,1)==28.3",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.GR.1.3/re/1",
+  "fix": "5",
+  "note": "Only the accept list changed (adds 3.14159 and 3.142); stem, table and solution kept as in the bank.",
+  "rt": "sa",
+  "q": "A student measured the diameter and the circumference of three paper cups, in centimeters. The results are shown in the table.\n\n<table><tr><th>Diameter (cm)</th><th>Circumference (cm)</th></tr><tr><td>8</td><td>25.13</td></tr><tr><td>14</td><td>43.98</td></tr><tr><td>20</td><td>62.83</td></tr></table>\n\nThe circumference of a circle is proportional to its diameter. Based on the table, what is the constant of proportionality, rounded to the nearest hundredth?",
+  "answer": "3.14",
+  "accept": [
+   "3.14",
+   "3.14159"
+  ],
+  "s": "The constant of proportionality is circumference ÷ diameter.\n25.13 ÷ 8 ≈ 3.14, 43.98 ÷ 14 ≈ 3.14, 62.83 ÷ 20 ≈ 3.14.\nThe ratio is the same for every circle. That constant is π, and 3.14 is the common approximation of it.",
+  "typed": [
+   [
+    "0.32",
+    "divided diameter by circumference"
+   ],
+   [
+    "6.28",
+    "gave 2π, dividing circumference by radius"
+   ],
+   [
+    "17.13",
+    "subtracted diameter from circumference (25.13 − 8)"
+   ]
+  ],
+  "check": "all(round(c/d,2)==3.14 for d,c in ((8,25.13),(14,43.98),(20,62.83)))",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.GR.1.3/chk/1",
+  "fix": "9",
+  "note": "Fix 9: accept list now includes both the π-key value and the 3.14 value; stem and key otherwise unchanged.",
+  "rt": "sa",
+  "q": "The circumference of a round pool is 106.81 feet.\n\nWhat is the diameter of the round pool? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+  "answer": "34",
+  "accept": [
+   "34",
+   "34.0",
+   "34.00",
+   "34.02"
+  ],
+  "s": "C = πd, so d = C ÷ π.\nWith the π key: 106.81 ÷ π ≈ 34.00 feet.",
+  "typed": [
+   [
+    "17",
+    "divided by 2π (found the radius)"
+   ],
+   [
+    "335.55",
+    "multiplied by π instead of dividing"
+   ],
+   [
+    "68",
+    "doubled the diameter (treated 34 as a radius)"
+   ]
+  ],
+  "check": "round(106.81/3.141592653589793,2)==34.0 and round(106.81/3.14,2)==34.02",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.GR.1.3/chk/3",
+  "fix": "9",
+  "note": "Fix 9: accept list now includes both the π-key value and the 3.14 value; stem and key otherwise unchanged.",
+  "rt": "sa",
+  "q": "A circular tabletop has a radius of 2 feet.\n\nWhat is the circumference of the tabletop? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+  "answer": "12.57",
+  "accept": [
+   "12.57",
+   "12.56"
+  ],
+  "s": "C = 2πr = 2π(2) = 4π.\nWith the π key: 4 × π ≈ 12.57 feet.",
+  "typed": [
+   [
+    "6.28",
+    "used πr instead of 2πr"
+   ],
+   [
+    "25.13",
+    "used 2r as the radius (2π × 4)"
+   ],
+   [
+    "4",
+    "stopped at 4π and typed only the 4"
+   ]
+  ],
+  "check": "round(4*3.141592653589793,2)==12.57 and round(4*3.14,2)==12.56",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.GR.1.3/re/0",
+  "fix": "9",
+  "note": "Fix 9: accept list now includes both the π-key value and the 3.14 value; stem and key otherwise unchanged.",
+  "rt": "sa",
+  "q": "A round plate has a circumference of 81.68 centimeters, as shown.\n\nWhat is the radius of the round plate? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+  "answer": "13",
+  "accept": [
+   "13",
+   "13.0",
+   "13.00",
+   "13.01"
+  ],
+  "s": "C = 2πr, so r = C ÷ (2π).\nWith the π key: 81.68 ÷ (2π) ≈ 13.00 centimeters.",
+  "typed": [
+   [
+    "26",
+    "divided by π only (found the diameter)"
+   ],
+   [
+    "6.5",
+    "divided by 4π (halved the radius)"
+   ],
+   [
+    "513.19",
+    "multiplied by 2π instead of dividing"
+   ]
+  ],
+  "check": "round(81.68/(2*3.141592653589793),2)==13.0 and round(81.68/6.28,2)==13.01",
+  "keep_fig": true
+ },
+ {
+  "slot": "MA.7.GR.1.4/re/2",
+  "fix": "8",
+  "note": "Replaces the pizza clone of chk/2 with a different context and numbers at the same difficulty (fraction of a circle, diameter given, in terms of π).",
+  "rt": "sa",
+  "q": "A circular garden has a diameter of 16 feet. It is divided into 4 equal sections, and 3 of the sections are planted with flowers.\n\nHow many square feet are planted with flowers? Write your answer in terms of π. Type only the number in front of π.",
+  "answer": "48",
+  "accept": [
+   "48",
+   "48.0",
+   "48.00"
+  ],
+  "s": "The radius is 16 ÷ 2 = 8 feet, so the whole garden has area π(8)² = 64π square feet.\n3/4 of the garden is flowers: 3/4 × 64π = 48π square feet.",
+  "typed": [
+   [
+    "64",
+    "found the whole garden, not 3/4 of it"
+   ],
+   [
+    "192",
+    "used 16 as the radius (256π × 3/4)"
+   ],
+   [
+    "16",
+    "found 1/4 of the garden"
+   ],
+   [
+    "12",
+    "used circumference 16π × 3/4"
+   ]
+  ],
+  "check": "64*3/4==48",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.GR.1.4/cmp/1",
+  "fix": "8",
+  "note": "Replaces the rink clone of chk/3 with a different context and numbers at the same difficulty (radius given, 3.14, nearest hundredth).",
+  "rt": "sa",
+  "q": "A round mirror has a radius of 13 inches.\n\nWhat is the area of the mirror? Round your answer to the nearest hundredth. Use 3.14 for π.",
+  "answer": "530.66",
+  "accept": [
+   "530.66"
+  ],
+  "s": "A = πr² = π × 13² = 169π.\nWith 3.14 for π: 169 × 3.14 = 530.66 square inches.",
+  "typed": [
+   [
+    "81.64",
+    "found the circumference 2πr instead of the area"
+   ],
+   [
+    "40.82",
+    "used πr instead of πr²"
+   ],
+   [
+    "132.67",
+    "used half of 13 as the radius (treated 13 in. as a diameter)"
+   ]
+  ],
+  "check": "round(169*3.14,2)==530.66",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.GR.1.5/chk/0",
+  "fix": "4",
+  "note": "Changed to MC as the fix asks. The suggested 40 distractor had no clean student error, so it is replaced by 120 (used 2 × 3 = 6 as the area factor, confusing 2k with k²).",
+  "rt": "mc",
+  "q": "A triangle has an area of 20 cm². It is enlarged by a scale factor of 3.\n\nWhat is the area of the enlarged triangle?",
+  "opts": [
+   "180 cm²",
+   "60 cm²",
+   "120 cm²",
+   "23 cm²"
+  ],
+  "key": 0,
+  "s": "A scale factor of 3 multiplies every length by 3, so the area is multiplied by 3² = 9.\n20 × 9 = 180 cm².",
+  "why": [
+   null,
+   "multiplied the area by the scale factor 3 instead of by 3²",
+   "used 2 × 3 = 6 as the area factor instead of 3² = 9",
+   "added the scale factor to the area"
+  ],
+  "check": "20*3**2==180 and 20*3==60 and 20*6==120 and 20+3==23",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.GR.1.5/re/2",
+  "fix": "4",
+  "note": "Numbers changed so 12 cm is no longer reused from chk/2.",
+  "rt": "sa",
+  "q": "Figure 2 is a scale drawing of Figure 1. A side that measures 5 centimeters in Figure 1 measures 35 centimeters in the corresponding position in Figure 2.\n\nWhat scale factor was used to produce Figure 2 from Figure 1? Write the scale factor as a whole number or a fraction.",
+  "answer": "7",
+  "accept": [
+   "7",
+   "7/1",
+   "35/5",
+   "7.0"
+  ],
+  "s": "The scale factor is new length ÷ original length.\n35 ÷ 5 = 7.\nThe factor is greater than 1, so Figure 2 is an enlargement.",
+  "typed": [
+   [
+    "1/7",
+    "divided original by new (reduction factor)"
+   ],
+   [
+    "30",
+    "subtracted instead of dividing"
+   ],
+   [
+    "175",
+    "multiplied the two lengths"
+   ]
+  ],
+  "check": "35/5==7",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.GR.1.5/cmp/0",
+  "fix": "4",
+  "note": "Review item now mirrors chk/3 (scale 1 cm : 4 m) with a map context instead of a model.",
+  "rt": "sa",
+  "q": "A map uses the scale 1 centimeter : 4 meters. On the map, a walking path is 6.5 centimeters long.\n\nHow long is the actual path, in meters?",
+  "answer": "26",
+  "accept": [
+   "26",
+   "26.0",
+   "26.00"
+  ],
+  "s": "Every centimeter on the map stands for 4 meters, so multiply: 6.5 × 4 = 26 meters.",
+  "typed": [
+   [
+    "1.625",
+    "divided by 4 instead of multiplying"
+   ],
+   [
+    "10.5",
+    "added 4 instead of multiplying"
+   ],
+   [
+    "24",
+    "multiplied 6 × 4 and dropped the 0.5"
+   ]
+  ],
+  "check": "6.5*4==26",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.GR.1.5/cmp/1",
+  "fix": "4",
+  "note": "Review item now mirrors chk/2 (find the scale factor) with a photo-to-poster context; the factor is a non-integer.",
+  "rt": "sa",
+  "q": "A photo that is 4 inches wide is enlarged to make a poster that is 30 inches wide.\n\nWhat scale factor was used to enlarge the photo? Write the scale factor as a whole number, a decimal, or a fraction.",
+  "answer": "7.5",
+  "accept": [
+   "7.5",
+   "7.50",
+   "15/2",
+   "7 1/2",
+   "30/4"
+  ],
+  "s": "The scale factor is new length ÷ original length.\n30 ÷ 4 = 7.5.\nThe factor is greater than 1, so the poster is an enlargement.",
+  "typed": [
+   [
+    "2/15",
+    "divided original by new (reduction factor)"
+   ],
+   [
+    "26",
+    "subtracted instead of dividing"
+   ],
+   [
+    "120",
+    "multiplied the two widths"
+   ]
+  ],
+  "check": "30/4==7.5",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.GR.2.1/chk/3",
+  "fix": "1",
+  "note": "Replaced the net-matching MC with the given three-dimensional-figure item (CPALMS clarification 2 allows a 3-D figure). Figure-free: the old figure shows r = 3 cm, h = 24 cm, which does not match the new numbers.",
+  "rt": "sa",
+  "q": "Surface area of a right circular cylinder: SA = 2πr<sup>2</sup> + 2πrh\n\nA right circular cylinder has a radius of 5 inches and a height of 9 inches.\n\nWhat is the surface area of the cylinder? Write your answer in terms of π. Type only the number in front of π.",
+  "answer": "140",
+  "accept": [
+   "140",
+   "140.0",
+   "140.00"
+  ],
+  "s": "Think of the net: two circles and one rectangle.\nTwo circles: 2 × π(5)² = 50π.\nRectangle: its length is the circumference 2π(5) = 10π, so 10π × 9 = 90π.\nSurface area: 50π + 90π = 140π square inches.",
+  "typed": [
+   [
+    "115",
+    "used πr² once (left out one circle)"
+   ],
+   [
+    "90",
+    "found the curved rectangle only"
+   ],
+   [
+    "95",
+    "used πrh (forgot the 2) for the rectangle, with both circles"
+   ],
+   [
+    "225",
+    "used πr²h (volume) instead of surface area"
+   ]
+  ],
+  "check": "2*5**2+2*5*9==140",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.GR.2.1/chk/4",
+  "fix": "1",
+  "note": "Height varied away from 24 as the fix asks (second changed height after chk/3). Figure-free because the old figure shows a 24 in. rectangle; the net is described in the stem instead.",
+  "rt": "sa",
+  "q": "The net of a right circular cylinder has two circles with a radius of 10 inches and a rectangle 15 inches tall.\n\nWhat is the area of the rectangle? Write your answer in terms of π. Type only the number in front of π.",
+  "answer": "300",
+  "accept": [
+   "300",
+   "300.0",
+   "300.00"
+  ],
+  "s": "The rectangle wraps around a circle, so its length is the circumference: 2πr = 2π(10) = 20π inches.\nArea = 20π × 15 = 300π square inches.",
+  "typed": [
+   [
+    "150",
+    "used πr (half the circumference) for the length"
+   ],
+   [
+    "100",
+    "found the area of one circle instead"
+   ],
+   [
+    "500",
+    "added the two circles to the rectangle (whole surface area)"
+   ]
+  ],
+  "check": "2*10*15==300",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.GR.2.2/re/2",
+  "fix": "7",
+  "note": "Now gives a diameter (22 ft) instead of a radius; height changed to 12 ft so the item does not repeat 462π.",
+  "rt": "sa",
+  "q": "Surface area of a right circular cylinder: SA = 2πr<sup>2</sup> + 2πrh\n\nA cylindrical water tank has a diameter of 22 feet and a height of 12 feet. Its whole outside surface, including the top and the bottom, will be covered with sheet metal.\n\nWhat is the area that the sheet metal must cover? Write your answer in terms of π. Type only the number in front of π.",
+  "answer": "506",
+  "accept": [
+   "506",
+   "506.0",
+   "506.00"
+  ],
+  "s": "The radius is 22 ÷ 2 = 11 feet.\nThe sheet metal covers both bases and the curved surface: SA = 2π(11)² + 2π(11)(12) = 242π + 264π = 506π square feet.",
+  "typed": [
+   [
+    "1496",
+    "used the diameter 22 as the radius"
+   ],
+   [
+    "385",
+    "used πr² once (left out one base)"
+   ],
+   [
+    "264",
+    "found the curved surface only"
+   ]
+  ],
+  "check": "2*11**2+2*11*12==506",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.GR.2.2/cmp/0",
+  "fix": "8",
+  "note": "Replaces the chk/1 template clone with a new context and numbers (open-top container, in terms of π).",
+  "rt": "sa",
+  "q": "Surface area of a right circular cylinder: SA = 2πr<sup>2</sup> + 2πrh\n\nA cylindrical pencil cup is open at the top. It has a radius of 4 centimeters and a height of 9 centimeters.\n\nWhat is the area of the outside of the cup, including its bottom? Write your answer in terms of π. Type only the number in front of π.",
+  "answer": "88",
+  "accept": [
+   "88",
+   "88.0",
+   "88.00"
+  ],
+  "s": "With no top, the cup has one base and the curved surface.\nOne base: π(4)² = 16π.\nCurved surface: 2π(4)(9) = 72π.\nTotal: 16π + 72π = 88π square centimeters.",
+  "typed": [
+   [
+    "104",
+    "counted two bases although the cup has no top"
+   ],
+   [
+    "72",
+    "left out the bottom"
+   ],
+   [
+    "52",
+    "used πrh (forgot the 2) for the curved surface"
+   ]
+  ],
+  "check": "4**2+2*4*9==88",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.GR.2.2/cmp/1",
+  "fix": "8",
+  "note": "Replaces the chk/3 template clone (oatmeal label) with a new context and numbers at the same difficulty (curved side only, 3.14, nearest hundredth).",
+  "rt": "sa",
+  "q": "Surface area of a right circular cylinder: SA = 2πr<sup>2</sup> + 2πrh\n\nA cylindrical candle has a radius of 6 centimeters and a height of 10 centimeters. A paper band wraps all the way around its curved side with no overlap. The top and the bottom are not covered.\n\nWhat is the area of the paper band? Round your answer to the nearest hundredth. Use 3.14 for π.",
+  "answer": "376.8",
+  "accept": [
+   "376.8",
+   "376.80"
+  ],
+  "s": "The band covers only the curved side, the 2πrh part of the formula.\n2π(6)(10) = 120π.\nWith 3.14 for π: 120 × 3.14 = 376.8 square centimeters.",
+  "typed": [
+   [
+    "602.88",
+    "added the top and bottom (192π)"
+   ],
+   [
+    "188.4",
+    "used πrh (forgot the 2)"
+   ],
+   [
+    "1130.4",
+    "used 2πr²h (confused with volume)"
+   ]
+  ],
+  "check": "round(120*3.14,2)==376.8",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.GR.2.2/chk/3",
+  "fix": "9",
+  "note": "Fix 9: accept list now includes both the π-key value and the 3.14 value; stem and key otherwise unchanged.",
+  "rt": "sa",
+  "q": "Surface area of a right circular cylinder: SA = 2πr<sup>2</sup> + 2πrh\n\nA cylindrical oatmeal container has a radius of 5 inches and a height of 11 inches. A label wraps all the way around its curved side, with no overlap; the top and the bottom are not covered.\n\nWhat is the area of the label? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+  "answer": "345.58",
+  "accept": [
+   "345.58",
+   "345.4",
+   "345.40"
+  ],
+  "s": "The label covers only the curved side, the 2πrh part of the formula; the 2πr² part (the top and the bottom) is not included: 2π(5)(11) = 110π.\nWith the π key: 110 × π ≈ 345.58 square inches.",
+  "typed": [
+   [
+    "502.65",
+    "added the top and bottom (whole surface area)"
+   ],
+   [
+    "172.79",
+    "used πrh (forgot the 2)"
+   ],
+   [
+    "110",
+    "stopped at 110π and typed only the 110"
+   ]
+  ],
+  "check": "round(110*3.141592653589793,2)==345.58 and round(110*3.14,2)==345.4",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.GR.2.2/chk/4",
+  "fix": "9",
+  "note": "Fix 9: the key is 3 with either the π key or 3.14, so the accept list is unchanged in value; entry included for completeness.",
+  "rt": "sa",
+  "q": "Surface area of a right circular cylinder: SA = 2πr<sup>2</sup> + 2πrh\n\nA cylindrical water tank stands on the ground. It has a radius of 7 feet and a height of 17 feet. The curved side and the top will be painted, but not the bottom. One gallon of paint covers 400 square feet, and paint is sold only in whole gallons.\n\nHow many gallons of paint must be bought? Use the π key on your calculator.",
+  "answer": "3",
+  "accept": [
+   "3",
+   "3.0"
+  ],
+  "s": "The painted surface is one base and the curved surface: π(7)² + 2π(7)(17) = 49π + 238π = 287π square feet.\n287π ≈ 901.64 square feet.\n901.64 ÷ 400 ≈ 2.25, so 2 gallons would not be enough.\n3 gallons must be bought.",
+  "typed": [
+   [
+    "2",
+    "rounded 2.25 down instead of up to whole gallons"
+   ],
+   [
+    "2.25",
+    "did not round to whole gallons"
+   ],
+   [
+    "901.64",
+    "gave the painted area instead of the gallons"
+   ]
+  ],
+  "check": "import math; math.ceil(287*math.pi/400)==3 and math.ceil(287*3.14/400)==3",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.GR.2.2/re/0",
+  "fix": "9",
+  "note": "Fix 9: accept list now includes both the π-key value and the 3.14 value; stem and key otherwise unchanged.",
+  "rt": "sa",
+  "q": "Surface area of a right circular cylinder: SA = 2πr<sup>2</sup> + 2πrh\n\nA cylindrical planter has no top. It has a radius of 5 inches and a height of 12 inches. The outside of the planter, including its bottom, will be painted.\n\nWhat is the area that will be painted? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+  "answer": "455.53",
+  "accept": [
+   "455.53",
+   "455.3",
+   "455.30"
+  ],
+  "s": "The planter has one circular base and the curved side, so only one πr² is used: π(5)² + 2π(5)(12) = 25π + 120π = 145π.\nWith the π key: 145 × π ≈ 455.53 square inches.",
+  "typed": [
+   [
+    "534.07",
+    "counted two bases (170π)"
+   ],
+   [
+    "376.99",
+    "found the curved side only (120π)"
+   ],
+   [
+    "267.04",
+    "used πrh for the curved side (85π)"
+   ]
+  ],
+  "check": "round(145*3.141592653589793,2)==455.53 and round(145*3.14,2)==455.3",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.GR.2.3/chk/4",
+  "fix": "6",
+  "note": "The suggested 'B by 440π' distractor has no clean error path; replaced with 'Tank B, by 380π' (used the 6 ft diameter as B's radius: 540π − 160π). Options are balanced two A / two B.",
+  "rt": "mc",
+  "q": "Tank A is a cylinder with a radius of 4 feet and a height of 10 feet. Tank B is a cylinder with a diameter of 6 feet and a height of 15 feet.\n\nWhich tank holds more, and by how many cubic feet?",
+  "opts": [
+   "Tank A, by 25π ft³",
+   "Tank B, by 25π ft³",
+   "Tank A, by 70π ft³",
+   "Tank B, by 380π ft³"
+  ],
+  "key": 0,
+  "s": "Tank A: V = πr²h = π(4)²(10) = 160π ft³.\nTank B: the radius is 6 ÷ 2 = 3 ft, so V = π(3)²(15) = 135π ft³.\n160π − 135π = 25π, so Tank A holds 25π ft³ more.",
+  "why": [
+   null,
+   "found the 25π difference but named the smaller tank as the larger one (subtracted in the wrong order)",
+   "used the 10 ft height for both tanks (Tank B as 90π)",
+   "used the 6 ft diameter as Tank B's radius (540π − 160π)"
+  ],
+  "check": "16*10-9*15==25 and 16*10-9*10==70 and 36*15-16*10==380",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.GR.2.3/cmp/0",
+  "fix": "8",
+  "note": "Replaces the r = 8 clone of chk/0 with a new context and numbers at the same difficulty (radius given, π key, nearest hundredth). Accepts the 3.14 value too (fix 9).",
+  "rt": "sa",
+  "q": "A cylindrical candle has a radius of 5 centimeters and a height of 7 centimeters.\n\nWhat is the volume of the candle? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+  "answer": "549.78",
+  "accept": [
+   "549.78",
+   "549.5",
+   "549.50"
+  ],
+  "s": "V = πr²h = π(5)²(7) = 175π.\nWith the π key: 175 × π ≈ 549.78 cubic centimeters (549.5 with 3.14).",
+  "typed": [
+   [
+    "109.96",
+    "used πrh (forgot to square the radius)"
+   ],
+   [
+    "2199.11",
+    "used the diameter 10 as the radius (700π)"
+   ],
+   [
+    "175",
+    "stopped at 175π and typed only the 175"
+   ]
+  ],
+  "check": "round(175*math.pi,2)==549.78",
+  "keep_fig": false
+ },
+ {
+  "slot": "MA.7.GR.2.3/re/1",
+  "fix": "9",
+  "note": "Fix 9: accept list now includes both the π-key value and the 3.14 value; stem and key otherwise unchanged.",
+  "rt": "sa",
+  "q": "A cylindrical swimming pool has a diameter of 12 feet and a height of 3 feet.\n\nWhat is the volume of the pool? Round your answer to the nearest hundredth. Use the π key on your calculator.",
+  "answer": "339.29",
+  "accept": [
+   "339.29",
+   "339.12"
+  ],
+  "s": "The radius is 12 ÷ 2 = 6 feet.\nV = πr²h = π(6)²(3) = 108π.\nWith the π key: 108 × π ≈ 339.29 cubic feet.",
+  "typed": [
+   [
+    "1357.17",
+    "used the diameter 12 as the radius (432π)"
+   ],
+   [
+    "56.55",
+    "used πrh (forgot to square the radius)"
+   ],
+   [
+    "108",
+    "stopped at 108π and typed only the 108"
+   ]
+  ],
+  "check": "round(108*3.141592653589793,2)==339.29 and round(108*3.14,2)==339.12",
+  "keep_fig": false
+ }
+]

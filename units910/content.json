@@ -2007,18 +2007,18 @@
    "keep": 2,
    "lesson": 2,
    "why": {
-    "A": "multiplied only the first term",
-    "B": "repeated the student's error",
-    "C": "added 4/3 to each term instead of multiplying"
+    "A": "divided by 4/3 instead of multiplying",
+    "B": "added 4/3 to each term instead of multiplying",
+    "D": "multiplied only the first term by 4/3"
    }
   },
   "MA.7.AR.1.2/chk/2": {
    "keep": 2,
-   "lesson": 3,
+   "lesson": 4,
    "why": {
-    "A": "multiplied only the first term",
-    "C": "combined 9x and −3 (unlike terms)",
-    "D": "added 1.5 instead of multiplying"
+    "A": "judged by the form of the expressions instead of simplifying",
+    "B": "added 5x instead of subtracting it",
+    "D": "multiplied only the first term by 3.5"
    }
   },
   "MA.7.AR.1.2/chk/3": {
@@ -2031,12 +2031,12 @@
    }
   },
   "MA.7.AR.1.2/chk/4": {
-   "keep": 3,
-   "lesson": 5,
+   "keep": 2,
+   "lesson": 4,
    "why": {
-    "A": "the same number at the end is not enough",
-    "C": "simplified only the first and assumed the second matched; it is −(1/2)x + 3",
-    "D": "in the first expression, took −(3/4)(−4) as −3 instead of +3"
+    "A": "compared the form and the constant term only",
+    "B": "multiplied only the first term by 2",
+    "C": "tested only x = 0, where the constants match"
    }
   },
   "MA.7.AR.1.2/re/0": {
@@ -2050,11 +2050,11 @@
   },
   "MA.7.AR.1.2/re/1": {
    "keep": 2,
-   "lesson": 4,
+   "lesson": 1,
    "why": {
-    "B": "took a different number out of each term: 6 from 6x, but 1.5 from 7.5",
-    "C": "left 6 inside instead of 6 ÷ 1.5 = 4",
-    "D": "divided only the first term by 1.5"
+    "A": "added 2.5 to each term instead of multiplying",
+    "B": "multiplied only the first term by 2.5",
+    "D": "combined 15x and −4 as if they were like terms"
    }
   },
   "MA.7.AR.1.2/re/2": {
@@ -2069,11 +2069,11 @@
   },
   "MA.7.AR.1.2/cmp/0": {
    "keep": 2,
-   "lesson": 4,
+   "lesson": 1,
    "why": {
-    "A": "divided only the first term by 2/5",
-    "C": "used the reciprocal, 5/2",
-    "D": "left 8 inside instead of 8 ÷ (2/5) = 20"
+    "A": "multiplied only the first term by 2/3",
+    "B": "combined 6x and −10 as if they were like terms",
+    "D": "dropped the minus sign when multiplying 2/3 × (−15)"
    }
   },
   "MA.7.AR.1.2/cmp/1": {
@@ -2081,8 +2081,8 @@
    "lesson": 2,
    "why": {
     "B": "added 7/4 to each term instead of multiplying",
-    "C": "multiplied only the first term",
-    "D": "repeated the student's error"
+    "C": "multiplied only the first term by 7/4",
+    "D": "divided by 7/4 instead of multiplying"
    }
   },
   "MA.7.AR.2.1/chk/0": {
@@ -2143,9 +2143,9 @@
    "keep": 2,
    "lesson": 3,
    "why": {
-    "B": "dropped the negative: 4.5 ÷ (−1.5) is −3",
-    "C": "open circle for ≥",
-    "D": "did not flip after dividing by a negative"
+    "B": "reversed the symbol because a negative number appeared, even though the divisor 0.4 is positive",
+    "C": "dropped the sign of −1.2 when dividing",
+    "D": "used an open circle for ≥"
    }
   },
   "MA.7.AR.2.1/re/2": {
@@ -2248,19 +2248,23 @@
   },
   "MA.7.AR.2.2/re/0": {
    "keep": 2,
-   "lesson": 1,
+   "lesson": 2,
    "typed": [
     [
-     "9",
-     "dropped the negative: 36 ÷ (−4) is −9"
+     "4",
+     "dropped the sign when dividing by −2.5 (x − 1.2 = 2.8)"
     ],
     [
-     "−11",
-     "added 4 instead of subtracting"
+     "1.6",
+     "dropped the negative sign from the final answer"
     ],
     [
-     "−10",
-     "divided 40 by −4 and ignored the + 4"
+     "−2.8",
+     "divided by −2.5 but never added 1.2"
+    ],
+    [
+     "−4",
+     "subtracted 1.2 instead of adding it"
     ]
    ]
   },
@@ -2277,9 +2281,9 @@
    "keep": 2,
    "lesson": 3,
    "why": {
-    "B": "distributed correctly, then multiplied the right side by 3 too (3 × 3 = 9)",
-    "C": "read \"decreased\" as +",
-    "D": "multiplied only x by 3"
+    "A": "multiplied only x by 3 instead of the whole result (x − 8)",
+    "B": "increased by 8 instead of decreasing",
+    "C": "distributed the 3 on the left but also multiplied the 3 on the right"
    }
   },
   "MA.7.AR.2.2/cmp/0": {
