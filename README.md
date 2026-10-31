@@ -7,7 +7,7 @@ Common weekly formative checks on the MA.7 benchmarks (Windy Hill Middle School)
 | File | What it is |
 |---|---|
 | `DPP Units 9 and 10.zip` (and the folder) | The current packet, Oct 26 – Dec 18: start-here guide and calendar, 4 scale posters, PLC item guide, 20 reteach lessons, paper copies of the 12 forms, and the script kit. |
-| `DPP Forms script kit.zip` | The Google Forms builder: `Code.gs.txt`, `appsscript.json.txt`, `00 Script setup.pdf`, and the `DPP Forms kit` folder (manifest + 374 pictures, each question picture labeled "Question n"). `ONLY: 'Unit 9, Unit 10'` builds a subset; `updateImages()` and `updateMessages()` bring forms built with an earlier kit up to date. |
+| `DPP Forms script kit.zip` | The Google Forms builder: `Code.gs.txt`, `appsscript.json.txt`, `00 Script setup.pdf`, and the `DPP Forms kit` folder (manifest + 374 pictures). `ONLY: 'Unit 9, Unit 10'` builds a subset; `updateImages()` and `updateMessages()` bring forms built with an earlier kit up to date. |
 | `DPP 2026-27 proposal (copy and paste).docx` | The TrueNorthLogic proposal text, both teachers' copies. |
 | `DPP plan doc 2026-10-18.md` | The plan narrative: cycle, targets, timeline, reviewer findings. |
 | `7th_Grade_Math_Weekly_Check_Tracker.xlsx` | Tracking sheet template (rebuilt to read the Forms responses after the first check). |

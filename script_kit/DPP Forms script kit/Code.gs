@@ -10,8 +10,8 @@
  *   startOver()   Moves every built form and the links sheet to the Trash.
  *   updateMessages()  For forms built with an earlier kit: puts this kit's message on the page students
  *                 see after they submit. Changes nothing else.
- *   updateImages()  For forms built with an earlier kit: swaps in this kit's question pictures (the ones
- *                 with the "Question 1", "Question 2" labels). Questions, keys and responses are untouched.
+ *   updateImages()  For forms built with an earlier kit whose pictures changed: swaps in this kit's
+ *                 pictures. Questions, keys and responses are untouched.
  *   updateKeys()  For forms built with an earlier kit: re-sets the typed answer keys from this kit's
  *                 manifest (needs the Forms API, setup step 4). Choice questions are untouched.
  *
