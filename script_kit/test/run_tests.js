@@ -690,6 +690,20 @@ test('updateImages: built forms get the kit\'s current pictures in order, across
   return `${runs} run(s) over ${minutes(W.T - t0)} simulated min`;
 });
 
+test('updateKeys: typed keys follow the manifest; choice questions untouched', () => {
+  const W = makeWorld();
+  run(W, 'buildForms');
+  drain(W);
+  const { rows } = logRows(W);
+  const forms = rows.map(r => ({ key: r.key, f: W.nodes.get(r.id).form }));
+  // pretend an older kit set narrower keys
+  forms.forEach(({ f }) => f.items.forEach(it => { if (it.kind === 'TEXT' && it.keys) it.keys = it.keys.slice(0, 1); }));
+  const ex = run(W, 'updateKeys');
+  assert(!ex.error && !ex.killed, ex.error && ex.error.message);
+  verifyBuild(W);
+  assert(/Re-set the typed keys on \d+ forms/.test(lastLogs(W)), lastLogs(W));
+});
+
 test('ONLY with a typo stops at once and names the bad part', () => {
   const W = makeWorld({ config: { ONLY: 'Unit 9, C-AR.9.9' } });
   run(W, 'buildForms');

@@ -1672,7 +1672,8 @@
      "accept": [
       "34",
       "34.0",
-      "34.00"
+      "34.00",
+      "34.02"
      ],
      "note": "Type a number only. No units, $ or %.",
      "kind": "num"
@@ -1698,7 +1699,8 @@
      "points": 1,
      "type": "Short answer",
      "accept": [
-      "12.57"
+      "12.57",
+      "12.56"
      ],
      "note": "Type a number only. No units, $ or %.",
      "kind": "num"
@@ -1736,7 +1738,8 @@
      "accept": [
       "13",
       "13.0",
-      "13.00"
+      "13.00",
+      "13.01"
      ],
      "note": "Type a number only. No units, $ or %.",
      "kind": "num"
@@ -5299,7 +5302,9 @@
      "points": 1,
      "type": "Short answer",
      "accept": [
-      "345.58"
+      "345.58",
+      "345.40",
+      "345.4"
      ],
      "note": "Type a number only. No units, $ or %.",
      "kind": "num"
@@ -5335,7 +5340,9 @@
      "points": 1,
      "type": "Short answer",
      "accept": [
-      "455.53"
+      "455.53",
+      "455.30",
+      "455.3"
      ],
      "note": "Type a number only. No units, $ or %.",
      "kind": "num"
@@ -5474,7 +5481,8 @@
      "points": 1,
      "type": "Short answer",
      "accept": [
-      "14.86"
+      "14.86",
+      "14.87"
      ],
      "note": "Type a number only. No units, $ or %.",
      "kind": "num"
@@ -5514,7 +5522,8 @@
      "points": 1,
      "type": "Short answer",
      "accept": [
-      "339.29"
+      "339.29",
+      "339.12"
      ],
      "note": "Type a number only. No units, $ or %.",
      "kind": "num"
@@ -5550,7 +5559,9 @@
      "points": 1,
      "type": "Short answer",
      "accept": [
-      "1005.31"
+      "1005.31",
+      "1004.80",
+      "1004.8"
      ],
      "note": "Type a number only. No units, $ or %.",
      "kind": "num"

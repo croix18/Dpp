@@ -12,6 +12,8 @@
  *                 see after they submit. Changes nothing else.
  *   updateImages()  For forms built with an earlier kit: swaps in this kit's question pictures (the ones
  *                 with the "Question 1", "Question 2" labels). Questions, keys and responses are untouched.
+ *   updateKeys()  For forms built with an earlier kit: re-sets the typed answer keys from this kit's
+ *                 manifest (needs the Forms API, setup step 4). Choice questions are untouched.
  *
  * Progress and links: the "DPP Forms links" sheet inside the "DPP Forms (built)" folder.
  */
@@ -494,6 +496,27 @@ function updateImages() {
   } finally {
     lock.releaseLock();
   }
+}
+
+/** Re-sets every built form's typed answer keys from the kit's manifest, through the Forms API.
+ *  Use it when a kit widens an accepted-answer list (for example, both the π-key and the 3.14 value). */
+function updateKeys() {
+  const kit = openKit_();
+  const out = firstLive_(kit.folder.getFoldersByName(CONFIG.OUTPUT_FOLDER_NAME));
+  const file = out && firstLive_(out.getFilesByName(LOG_NAME));
+  if (!file) { console.log('No forms are built yet, so there is nothing to update. buildForms() sets the keys.'); return; }
+  const rows = readLog_(logSheet_(SpreadsheetApp.openById(file.getId())));
+  let n = 0, skipped = 0;
+  const missed = [];
+  kit.manifest.forms.forEach(F => {
+    const r = rows[F.key];
+    if (!r || r.status !== 'built' || !r.id) return;
+    const typed = F.questions.filter(Q => Q.type === 'sa').map(Q => ({ title: 'Question ' + Q.n, accept: Q.accept }));
+    if (!typed.length) { skipped++; return; }
+    try { apiUpdate_(r.id, typed); n++; } catch (e) { missed.push(`${F.key} (${explain_(e)})`); }
+  });
+  console.log(`Re-set the typed keys on ${n} forms (${skipped} have no typed questions).` +
+    (missed.length ? ` Could not update: ${missed.join('; ')}.` : ''));
 }
 
 // ───────────────────────────── helpers ─────────────────────────────
